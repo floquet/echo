@@ -1,0 +1,23 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{4}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{1}{A}{5}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{2}{Pandoc}{6}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{\texttt {*.docx}}{11}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Standards}{12}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Web Pages}{18}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Assessment Guide}{30}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Theme Mining: Expectations}{30}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Path Forward}{31}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{1}{Synthetic Data}{32}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{2}{Pandoc}{52}{0}{5}

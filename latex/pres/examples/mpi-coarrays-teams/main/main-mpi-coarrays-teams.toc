@@ -1,0 +1,31 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{5}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{1}{A}{6}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{2}{B}{7}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Message Passing Interface}{8}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{MPI 5.0 Working Groups}{10}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Resources}{13}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Fortran Coarrays}{14}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{1}{X}{15}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{2}{Y}{16}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Image Teams}{17}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{1}{X}{18}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{2}{Y}{19}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Backup Section}{20}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{1}{X}{21}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{2}{Memory Diagrams}{22}{0}{5}

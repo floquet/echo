@@ -1,0 +1,362 @@
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:opening salvo II}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-soln-measured}{18}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-soln-theory}{18}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bevington normal equations problem and solution}{22}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:rosetta}{24}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:rosetta-means}{25}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:measuring the temperature of a bar}{26}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:model}{28}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:bevington input-output}{29}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:heat-u}{32}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:heat}{32}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:heat bevington}{33}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:Equilibrium}{34}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:laplace bevington}{34}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:integral-first}{36}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:integral-second}{36}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:linear}{36}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:ftola-master}{45}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {thm:ftola}{46}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:thm ftola}{46}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:Seeing the subspace decomposition}{48}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:Subspace gymnastics}{49}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:data vector resolution}{50}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:ls-resolution}{51}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {thm:Fredholm}{52}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:fredholm-duplex}{55}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:fredholm-alternatives}{56}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:fredholm-duplex-II}{57}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:fredholm-groundhog}{58}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:fredholm-groundhog-II}{59}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:fredholm-duplex-Direct}{61}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:svdk-B}{65}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:svdk-C}{66}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:conformability}{68}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:svd block}{70}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:svd-blocks-vectors.tex}{71}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:svd-cols}{72}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:xxx}{72}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:S-matrix}{73}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:sabot-matrix}{73}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:sabot-inverse}{74}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:dimensions}{75}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:sigma forms}{76}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:sigma-two}{77}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:sigma-three}{78}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:sigma-chain-I}{79}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:sigma-chain-II}{79}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:left inverse example}{81}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:thunderbolt}{85}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:mppi-I}{89}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:mppi-II}{89}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:inverses-venn}{90}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:pseudoinverse forms}{91}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:error-prop-model}{92}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:error-prop-vector}{92}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:error-prop-ls}{92}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:sytem-matrix}{93}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:sytem-matrix}{93}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:error-prop-linear-system}{94}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:error-prop-inner}{94}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:error-prop-det}{95}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:error-prop-soln-II}{95}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:bevington-sn-II}{98}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:pythagoras}{98}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:bevington-sn-III}{100}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:left-inverse}{103}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:adj-det}{103}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:pi}{104}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:det}{104}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:pra-components}{105}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:matrix-plots-projectors}{106}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:pra-numeric}{107}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:tab fundamental projectors using domain matrices}{108}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:mask-matrix}{109}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:fundamental-projectors-with-pseudoinverse}{110}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:bevington residuals marked}{113}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:bevington svd data vector resolved}{114}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bevington linear system}{120}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bevington normal equations problem and solution}{121}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bevington normal equations A}{122}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bevington normal equations problem and solution}{123}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bevington solution}{124}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:svdk-A}{134}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:trace and determinant}{136}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:vrot}{141}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:vrot-wx}{142}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:svd-matrix-equality}{143}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:svd-solution-methods}{144}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:singular-values-mesh}{145}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bevington v theta}{146}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:opening salvo II}{152}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {lab:perimeter}{157}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:perimeter-error}{158}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:differential}{161}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {frame:add-sub}{166}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-fcn-pm}{166}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-der-pm}{166}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-var-pm}{166}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {frame:mult-div}{167}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-fcn-md}{167}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-der-md}{167}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-var-md}{167}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-rel-md}{167}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {frame:div}{169}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-fcn-div}{169}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-der-div}{169}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-var-div}{169}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-rel-div}{169}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {frame:powers}{171}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-fcn-pow}{171}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-der-pow}{171}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-var-pow}{171}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-rel-pow}{171}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {frame:exp}{172}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-fcn-pow}{172}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-der-pow}{172}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-var-pow}{172}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-rel-pow}{172}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {frame:log}{173}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-fcn-pow}{173}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-der-pow}{173}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-var-pow}{173}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-rel-pow}{173}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:error-prop-red}{176}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:error-prop-soln}{176}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:posed-solved}{178}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bevington posed v solved}{179}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:vv-ref}{180}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:uq-ref}{182}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:merit-bullseye}{191}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:merit-bullseye-deluxe}{193}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-sigma-I}{203}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev-sigma-II}{204}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:mm-fortran}{206}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:epsilons}{206}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:perturb difference}{223}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:perturbations}{225}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:complex linear function}{226}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:normal-01}{238}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:normal-02}{239}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:normal-03}{240}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:bevington-68-95-99.7}{241}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:uq-ref}{249}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:mean}{253}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:residual in vector form}{254}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:residual-derivative}{254}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:residual in vector form}{255}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:ls-residual-derivative}{255}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:residual-sum-0}{255}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:residual-sum-still-0}{256}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:anscombe-data-set-error}{262}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:anscombe-data-set-error-ii}{263}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:anscombe-data-set-error}{265}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:anscombe-data-set-error}{266}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:bevington more convergence}{269}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:bevington more convergence}{270}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:bevington more convergence}{271}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:bevington more convergence numbers}{273}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:bevington fredholm early}{280}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:bevington-sn-II}{281}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:pythagoras}{281}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:bevington-sn-III}{283}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bevington interpolation error numeric}{289}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bevington interpolation template}{294}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bevington interpolation value}{294}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bevington interpolation error numeric}{294}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:bev 1 t(10)}{297}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:linear-soln}{331}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:residual-vector}{331}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:low-std-high}{344}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:hex-array}{346}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:line-perp}{348}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {tab:norms}{353}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:Subspace Decomposition of Least Squares Solution}{366}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:Complete Least Squares Solution}{367}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:dataresolved}{368}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:Subspace Decomposition of Least Squares Data Vector}{369}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:Particular Least Squares Solution}{370}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:Homogeneous Least Squares Solution}{371}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:definition:general least squares solution}{373}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {eq:least squares uncertainty}{375}

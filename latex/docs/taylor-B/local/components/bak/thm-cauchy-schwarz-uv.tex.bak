@@ -1,0 +1,106 @@
+% \input{\pLocalTheorems "thm-cauchy-schwarz-uv"}
+
+\subsection{Cauchy-Schwarz Inequality}
+\begin{theorem}[Cauchy-Schwarz Inequality]
+Given two nonzero vectors $u,v\in\cmplx{m}$, the following inequality is true
+		%
+\begin{equation}
+	\innerSelf{u} \innerSelf{v} \ge \itwo{u}{v}^{2}.
+\label{eq:cs}
+\end{equation}
+		%
+\label{thm:Cauchy-Schwarz}
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+	The elemental importance of this theorem invites fuller explanation. The strategy is to craft a useful linear combination (e.g. \cite{steele2004cauchy}) and propose convenient solutions and exploit the positivity of inner products. Let $\alpha$, $\beta$, and $\gamma$ be arbitrary complex constants and define the vector
+		%
+\begin{equation}
+	w = \alpha u + \beta v.
+\label{eq:linear}
+\end{equation}
+%
+such that
+		%
+\begin{equation}
+	\innerSelf{w} = \gamma \paren{\innerSelf{u} \innerSelf{v} - \itwo{u}{v}^{2} }
+\label{eq:linear-norm}
+\end{equation}
+%
+The key is to map the two terms in \eqref{eq:cs} to the four terms in
+%
+\begin{equation}
+	%\begin{split}
+	\innerSelf{w} = \innerSelf{\alpha u + \beta v} 
+		= \alpha^{*} \alpha \innerSelf{u} + \beta^{*}\beta \innerSelf{v}
+		+ \alpha^{*} \beta \itwo{u}{v} + \alpha \beta^{*} \itwo{v}{u}
+	%\end{split}
+%\label{eq:name}
+\end{equation}
+%
+		\input{\pLocalTables "tab-choices-cauchy-schwarz"}
+%
+The two primary choices are 
+%
+\begin{equation}
+	\begin{split}
+	1.\  \alpha^{*}\alpha \innerSelf{u} \to \gamma \innerSelf{u} \innerSelf{v}, \\ 
+	2.\  \beta^{*}\beta \innerSelf{v} \to \gamma \innerSelf{u} \innerSelf{v}. \\ 
+	\end{split}
+\label{eq:choices}
+\end{equation}
+%
+Results for both are provided in table \ref{tab:choices-cauchy-schwarz} and details for the first choice follow.
+
+The mapping between terms is
+%
+\begin{equation}
+	%\begin{split}
+	\alpha^{*}\alpha \innerSelf{u} \to \gamma \innerSelf{u} \innerSelf{v}.
+	%\end{split}
+%\label{eq:name}
+\end{equation}
+%
+As $\innerSelf{u}\ne0$, it can be divided out and one convenient solution is then $\alpha=\pm \innerSelf{v}$ with $\gamma = \innerSelf{v}$. 
+
+The complementary mapping is 
+%
+\begin{equation}
+	%\begin{split}
+	\beta^{*}\beta \innerSelf{v}	+ \alpha^{*} \beta \itwo{u}{v} + \alpha \beta^{*} \itwo{v}{u} \to \gamma \itwo{u}{v}^{2}
+	%\end{split}
+%\label{eq:name}
+\end{equation}
+%
+which after substituting $\gamma = \innerSelf{v}$ and $\alpha=\pm \innerSelf{v}$ and using the quadratic equation yields
+%
+\begin{equation}
+	%\begin{split}
+	\beta = \mp \itwo{u}{v}.
+	%\end{split}
+\label{eq:second-mapping}
+\end{equation}
+%
+The linear equation in \eqref{eq:linear} is now
+%
+\begin{equation}
+	%\begin{split}
+	w = \pm \innerSelf{v} u \mp \itwo{u}{v} v
+	%\end{split}
+%\label{eq:name}
+\end{equation}
+%
+with norm %in \eqref{eq:linear-norm} is now
+		%
+\begin{equation}
+	\innerSelf{w} = \innerSelf{v} \paren{\innerSelf{u} \innerSelf{v} - \itwo{u}{v}^{2} }
+\label{eq:cs-final}
+\end{equation}
+%
+As the norms $\innerSelf{w}$ and $\innerSelf{v}$ are both positive, the quantity, $\innerSelf{u} \innerSelf{v} - \itwo{u}{v}^{2}$ must also be positive, establishing the premise.
+(For choice \#2, the results are $\beta=\pm\innerSelf{u}$, $\gamma=\innerSelf{u}$, and, $\alpha=\itwo{u}{v}$.)
+%
+\end{proof}
+%
+%
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

@@ -1,0 +1,80 @@
+% \input{\paththeorems "thm golub"}
+% https://tex.stackexchange.com/questions/38260/non-italic-text-in-theorems-definitions-examples
+%\newtheorem{theorem}{Theorem}
+%\theoremstyle{plain}
+\begin{theorem}[Perturbations of Least Squares Solutions from Weighing Factors]
+
+%Start with the basic least squares problem defined in \eqref{eq:uno:xlsdefault} and the solution for the overdetermined case in \eqref{eq:underdetermined-least-squares-solution}. For the weighted problem defined in \eqref{eq:weighted-least-squares-problem} with solution in \eqref{eq:weighted-least-squares-solution}, show that the difference in the solution defined in \eqref{eq:weighted-least-squares-solution}
+%Golub rectal extraction
+Consider the basic least squares problem defined in \eqref{eq:uno:xlsdefault} and the weighted variant defined in \eqref{eq:weighted-least-squares-problem}. For the overdetermined problem, the difference between the basic solution, $\xls$, \eqref{eq:underdetermined-least-squares-solution}, and the weighted solution $x_{WLS}$ \eqref{eq:weighted-least-squares-solution} is 
+%
+\begin{equation}
+	x_{WLS} - \xls = \mathrm{\factorAlpha \A{*} \paren{\WW{2}-\I{m}} \paren{b-\Axls}},
+%\label{eq:}
+\end{equation}
+
+\label{thm:golub}
+\end{theorem}
+
+\begin{proof}
+Strategy: Use the \propz \ and the \fortid.
+\begin{equation}
+	x_{WLS} - \xls = \factorAlpha \WW{2} \A{*} b - \Anormal{} b
+%\label{eq:name}
+\end{equation}
+%
+Define the curvature matrix to reduce clutter:
+%
+\begin{equation}
+	\alpha = \factorAlpha
+\end{equation}
+%
+\begin{equation}
+	x_{WLS} - \xls = \alpha \WW{2} b - \Anormal{} b
+%\label{eq:name}
+\end{equation}
+%
+Propitious Zero: $b - b = \zero$
+%
+%
+\begin{equation}
+	x_{WLS} - \xls = \mg{x_{WLS} - \xls} + \alpha \A{*} \paren{ b - b}
+%\label{eq:name}
+\end{equation}
+%
+Fortuitous identity: $\I{n} = \AsA \inv{\wx{*}}$
+%
+\begin{equation}
+	x_{WLS} - \xls = \mg{x_{WLS} - \xls} + \alpha \paren{ \I{n} \A{*} \paren{b - b} }
+%\label{eq:name}
+\end{equation}
+%
+Expand and factor
+%
+\begin{equation}
+	x_{WLS} - \xls = \mg{x_{WLS} - \xls} + \alpha \A{*} \paren{ \Axls - b }
+%\label{eq:name}
+\end{equation}
+%
+Fortuitous identity: $\I{n} = \alpha \paren{ \alphaCore }$
+%
+\begin{equation}
+	x_{WLS} - \xls = \mg{x_{WLS}} - \I{n} \xls + \mg{ \alpha \A{*} \paren{ \Axls - b } }
+%\label{eq:name}
+\end{equation}
+%
+%
+\begin{equation}
+	x_{WLS} - \xls = \mg{x_{WLS}} - \alpha \paren{ \alphaCore } \xls + \mg{ \alpha \A{*} \paren{ \Axls - b } }
+%\label{eq:name}
+\end{equation}
+%
+At last
+\begin{equation}
+	x_{WLS} - \xls = \factorAlpha \A{*} \paren{ \WW{2}-\I{m} } \paren{b-\Axls}
+\end{equation}
+
+\end{proof}
+
+
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

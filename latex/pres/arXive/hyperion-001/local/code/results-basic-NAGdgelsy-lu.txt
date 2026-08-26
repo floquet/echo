@@ -1,0 +1,36 @@
+ 
+Input data source:
+NAG dgelsy example data                                                                                                         
+number of measurements,     m    = 6
+number of free parameters,  n    = 5
+number of right-hand sides, nrhs = 1
+
+design matrix has 6 rows and 5 columns.
+ -0.090    0.140   -0.460    0.680    1.290
+ -1.560    0.200    0.290    1.090    0.510
+ -1.480   -0.430    0.890   -0.710   -0.960
+ -1.090    0.840    0.770    2.110   -1.270
+  0.080    0.550   -1.130    0.140    1.740
+ -1.590   -0.720    1.060    1.240    0.340
+ me % nrhs =            1
+ 
+Data vectors have length 6:
+Right-hand side 1 of 1:
+|   7.40 |
+|   4.20 |
+|  -8.30 |
+|   1.80 |
+|   8.60 |
+|   2.10 |
+ 
+ Mathematica solution for NAG delsy data, arbitrary precision                                                                    
+Solution vectors have length 5.
+Solution vector 1 of 1:
+ -0.80 + / -   0.25
+ -3.29 + / -   0.73
+ -7.47 + / -   1.03
+  4.94 + / -   0.27
+  0.77 + / -   0.45
+Total squared error, t2 = 0.12077113770655917E-4, Error norm = 0.34752142050031849E-2.
+
+CPU time used =      0.000E+00 seconds.

@@ -1,0 +1,816 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{PhysRev.126.845}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1c4a361044ed647ca0c38fb677d8d9fb}{%
+           family={Biedenharn},
+           familyi={B\bibinitperiod},
+           given={L.\bibnamedelimi C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{1c4a361044ed647ca0c38fb677d8d9fb}
+      \strng{fullhash}{1c4a361044ed647ca0c38fb677d8d9fb}
+      \strng{bibnamehash}{1c4a361044ed647ca0c38fb677d8d9fb}
+      \strng{authorbibnamehash}{1c4a361044ed647ca0c38fb677d8d9fb}
+      \strng{authornamehash}{1c4a361044ed647ca0c38fb677d8d9fb}
+      \strng{authorfullhash}{1c4a361044ed647ca0c38fb677d8d9fb}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By means of a new representation, the Dirac-Coulomb spherical wave functions are treated in a manner which brings out the close formal similarity between these solutions and the spherical wave solutions for the free-electron problem. The radial functions in the new representation have the same form as the non-relativistic radial Coulomb functions, but with an irrational orbital "angular momentum," $l(\gamma)$. This representation is utilized to deduce a general recursion relation for radial Coulomb eigenfunctions, and show the existence of the Coulomb helicity operator as a constant of the motion. The advantages and properties of this formulation are discussed briefly.}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{4}
+      \field{title}{Remarks on the Relativistic Kepler Problem}
+      \field{volume}{126}
+      \field{year}{1962}
+      \field{pages}{845\bibrangedash 851}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1103/PhysRev.126.845
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.126.845
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.126.845
+      \endverb
+    \endentry
+    \entry{boetzel2017solving}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bb8323ddd99b56aa3071b604b1f1d45a}{%
+           family={Boetzel},
+           familyi={B\bibinitperiod},
+           given={Yannick},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9ca43aa09c16273e785b8e3730cb5b98}{%
+           family={Susobhanan},
+           familyi={S\bibinitperiod},
+           given={Abhimanyu},
+           giveni={A\bibinitperiod}}}%
+        {{hash=117f72981acdaab1bd09757d37a866d0}{%
+           family={Gopakumar},
+           familyi={G\bibinitperiod},
+           given={Achamveedu},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b4c19284d49a362fbd43beadb1ec5891}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=89855aa7ac6f8cd6ac65e033b4124b87}{%
+           family={Jetzer},
+           familyi={J\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{049ae95e5ced22a097927892bbc4cc49}
+      \strng{fullhash}{6a7118f594b466f337f45ffc52a6d527}
+      \strng{bibnamehash}{049ae95e5ced22a097927892bbc4cc49}
+      \strng{authorbibnamehash}{049ae95e5ced22a097927892bbc4cc49}
+      \strng{authornamehash}{049ae95e5ced22a097927892bbc4cc49}
+      \strng{authorfullhash}{6a7118f594b466f337f45ffc52a6d527}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We provide an elegant way of solving analytically the third post-Newtonian (3PN) accurate Kepler equation, associated with the 3PN-accurate generalized quasi-Keplerian parametrization for compact binaries in eccentric orbits. An additional analytic solution is presented to check the correctness of our compact solution and we perform comparisons between our PN-accurate analytic solution and a very accurate numerical solution of the PN-accurate Kepler equation. We adapt our approach to compute crucial 3PN-accurate inputs that will be required to compute analytically both the time and frequency domain ready-to-use amplitude-corrected PN-accurate search templates for compact binaries in inspiralling eccentric orbits.}
+      \field{journaltitle}{Physical Review D}
+      \field{number}{4}
+      \field{title}{Solving post-Newtonian accurate Kepler equation}
+      \field{volume}{96}
+      \field{year}{2017}
+      \field{pages}{044011}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.96.044011
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.aps.org/prd/abstract/10.1103/PhysRevD.96.044011
+      \endverb
+      \verb{url}
+      \verb https://journals.aps.org/prd/abstract/10.1103/PhysRevD.96.044011
+      \endverb
+    \endentry
+    \entry{butcher2016numerical}{book}{}
+      \name{author}{1}{}{%
+        {{hash=46bc4fd2d52037f2f1c13542b61acbb8}{%
+           family={Butcher},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima Charles},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{46bc4fd2d52037f2f1c13542b61acbb8}
+      \strng{fullhash}{46bc4fd2d52037f2f1c13542b61acbb8}
+      \strng{bibnamehash}{46bc4fd2d52037f2f1c13542b61acbb8}
+      \strng{authorbibnamehash}{46bc4fd2d52037f2f1c13542b61acbb8}
+      \strng{authornamehash}{46bc4fd2d52037f2f1c13542b61acbb8}
+      \strng{authorfullhash}{46bc4fd2d52037f2f1c13542b61acbb8}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The study of numerical methods for solving ordinary differential equations is constantly developing and regenerating, and this third edition of a popular classic volume, written by one of the world's leading experts in the field, presents an account of the subject which reflects both its historical and well-established place in computational science and its vital role as a cornerstone of modern applied mathematics. In addition to serving as a broad and comprehensive study of numerical methods for initial value problems, this book contains a special emphasis on Runge-Kutta methods by the mathematician who transformed the subject into its modern form dating from his classic 1963 and 1972 papers. A second feature is general linear methods which have now matured and grown from being a framework for a unified theory of a wide range of diverse numerical schemes to a source of new and practical algorithms in their own right. As the founder of general linear method research, John Butcher has been a leading contributor to its development; his special role is reflected in the text. The book is written in the lucid style characteristic of the author, and combines enlightening explanations with rigorous and precise analysis. In addition to these anticipated features, the book breaks new ground by including the latest results on the highly efficient G-symplectic methods which compete strongly with the well-known symplectic Runge-Kutta methods for long-term integration of conservative mechanical systems. This third edition of Numerical Methods for Ordinary Differential Equations will serve as a key text for senior undergraduate and graduate courses in numerical analysis, and is an essential resource for research workers in applied mathematics, physics and engineering.}
+      \field{title}{Numerical methods for ordinary differential equations}
+      \field{year}{2016}
+    \endentry
+    \entry{french1971newtonian}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d8e5ce55abe4685cd21379dba0a782fe}{%
+           family={French},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {W. W. Norton \& Company}%
+      }
+      \strng{namehash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{fullhash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{bibnamehash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{authorbibnamehash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{authornamehash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{authorfullhash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-393-09970-3}
+      \field{series}{The M.I.T. Introductory Physics Series}
+      \field{title}{Newtonian Mechanics}
+      \field{year}{1971}
+    \endentry
+    \entry{fukushima1999fast}{article}{}
+      \name{author}{1}{}{%
+        {{hash=58c85e9cbeded4e598f959ce11692793}{%
+           family={Fukushima},
+           familyi={F\bibinitperiod},
+           given={Toshio},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{58c85e9cbeded4e598f959ce11692793}
+      \strng{fullhash}{58c85e9cbeded4e598f959ce11692793}
+      \strng{bibnamehash}{58c85e9cbeded4e598f959ce11692793}
+      \strng{authorbibnamehash}{58c85e9cbeded4e598f959ce11692793}
+      \strng{authornamehash}{58c85e9cbeded4e598f959ce11692793}
+      \strng{authorfullhash}{58c85e9cbeded4e598f959ce11692793}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We developed a procedure to solve a modification of the standard form of the universal Kepler's equation, which is expressed as a nondimensional equation with respect to a nondimensional variable. After reducing the domain of the variable and the argument by using the symmetry and the periodicity of the equation, the method first separates the case where the solution is so small that it is given an inverted series. Second, it separates the cases where the elliptic, parabolic, or hyperbolic standard forms of Kepler's equation are suitable. Here the separation is done by judging whether detouring these nonuniversal equations will cause a 1-bit loss of information to their nonuniversal solutions or not. Then the nonuniversal equations are solved by the author's procedures to solve the elliptic Kepler's equation (Fukushima, 1997a), Barker's equation (Fukushima, 1998), and the hyperbolic Kepler's equation (Fukushima, 1997b), respectively. And their nonuniversal solutions are transformed back to the solution of the universal equation. For the rest of the case, we obtain an approximate solution by solving roughly the approximated cubic equation as we did in solving Barker's equation. Then the correction to the approximate solution is obtained by Halley's method precisely. There the special function appeared in the universal equation is rewritten into a combination of similar special functions of small arguments, so that they are efficiently evaluated by their Taylor series. Numerical measurements showed that, in the case of Intel Pentium II processor, the new method is 10--25 times as fast as Shepperd's method (Shepperd, 1985) and 7--13 times as fast as the standard Newton method.}
+      \field{journaltitle}{Celestial Mechanics and Dynamical Astronomy}
+      \field{number}{3}
+      \field{title}{Fast procedure solving universal Kepler's equation}
+      \field{volume}{75}
+      \field{year}{1999}
+      \field{pages}{201\bibrangedash 226}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1023/A:1008368820433
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/article/10.1023/A:1008368820433
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/article/10.1023/A:1008368820433
+      \endverb
+    \endentry
+    \entry{gerlach1994accelerated}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c6c98f7855617ecb9eb76f709e0d3b1d}{%
+           family={Gerlach},
+           familyi={G\bibinitperiod},
+           given={J{ü}rgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{c6c98f7855617ecb9eb76f709e0d3b1d}
+      \strng{fullhash}{c6c98f7855617ecb9eb76f709e0d3b1d}
+      \strng{bibnamehash}{c6c98f7855617ecb9eb76f709e0d3b1d}
+      \strng{authorbibnamehash}{c6c98f7855617ecb9eb76f709e0d3b1d}
+      \strng{authornamehash}{c6c98f7855617ecb9eb76f709e0d3b1d}
+      \strng{authorfullhash}{c6c98f7855617ecb9eb76f709e0d3b1d}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Siam Review}
+      \field{number}{2}
+      \field{title}{Accelerated convergence in Newton's method}
+      \field{volume}{36}
+      \field{year}{1994}
+      \field{pages}{272\bibrangedash 276}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/2132465
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/2132465
+      \endverb
+    \endentry
+    \entry{goldstein2eclassical}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c0e35b6777e73243aa18df96822aa96b}{%
+           family={Goldstein},
+           familyi={G\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{c0e35b6777e73243aa18df96822aa96b}
+      \strng{fullhash}{c0e35b6777e73243aa18df96822aa96b}
+      \strng{bibnamehash}{c0e35b6777e73243aa18df96822aa96b}
+      \strng{authorbibnamehash}{c0e35b6777e73243aa18df96822aa96b}
+      \strng{authornamehash}{c0e35b6777e73243aa18df96822aa96b}
+      \strng{authorfullhash}{c0e35b6777e73243aa18df96822aa96b}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Classical mechanics}
+      \field{year}{1980}
+    \endentry
+    \entry{hirsch2013differential}{book}{}
+      \name{author}{3}{}{%
+        {{hash=697b9e10d72a5f4aec2034a99cf01a9b}{%
+           family={Hirsch},
+           familyi={H\bibinitperiod},
+           given={Morris\bibnamedelima W},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=394b6b61c0209947040512295d62d07d}{%
+           family={Smale},
+           familyi={S\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fc90fa46ed42aa32417d13dd34fc6b48}{%
+           family={Devaney},
+           familyi={D\bibinitperiod},
+           given={Robert\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic press}%
+      }
+      \strng{namehash}{285050669278e1f7721cc11eb510eab7}
+      \strng{fullhash}{285050669278e1f7721cc11eb510eab7}
+      \strng{bibnamehash}{285050669278e1f7721cc11eb510eab7}
+      \strng{authorbibnamehash}{285050669278e1f7721cc11eb510eab7}
+      \strng{authornamehash}{285050669278e1f7721cc11eb510eab7}
+      \strng{authorfullhash}{285050669278e1f7721cc11eb510eab7}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Differential equations, dynamical systems, and an introduction to chaos}
+      \field{year}{2013}
+    \endentry
+    \entry{khalil2002nonlinear}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c687708249e29c8fa3d8d0c0ff1612f9}{%
+           family={Khalil},
+           familyi={K\bibinitperiod},
+           given={Hassan\bibnamedelima K},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2fcf3934c7e637e477fc91d2b1118999}{%
+           family={Grizzle},
+           familyi={G\bibinitperiod},
+           given={Jessy\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice hall Upper Saddle River, NJ}%
+      }
+      \strng{namehash}{1b7736a019a83916f72dc31498f2043a}
+      \strng{fullhash}{1b7736a019a83916f72dc31498f2043a}
+      \strng{bibnamehash}{1b7736a019a83916f72dc31498f2043a}
+      \strng{authorbibnamehash}{1b7736a019a83916f72dc31498f2043a}
+      \strng{authornamehash}{1b7736a019a83916f72dc31498f2043a}
+      \strng{authorfullhash}{1b7736a019a83916f72dc31498f2043a}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nonlinear systems}
+      \field{volume}{3}
+      \field{year}{2002}
+    \endentry
+    \entry{lanczos2012variational}{book}{}
+      \name{author}{1}{}{%
+        {{hash=566cbec89d411ac615d67809e3083f19}{%
+           family={Lanczos},
+           familyi={L\bibinitperiod},
+           given={Cornelius},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Corporation}%
+      }
+      \strng{namehash}{566cbec89d411ac615d67809e3083f19}
+      \strng{fullhash}{566cbec89d411ac615d67809e3083f19}
+      \strng{bibnamehash}{566cbec89d411ac615d67809e3083f19}
+      \strng{authorbibnamehash}{566cbec89d411ac615d67809e3083f19}
+      \strng{authornamehash}{566cbec89d411ac615d67809e3083f19}
+      \strng{authorfullhash}{566cbec89d411ac615d67809e3083f19}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Analytical mechanics is, of course, a topic of perennial interest and usefulness in physics and engineering, a discipline that boasts not only many practical applications, but much inherent mathematical beauty. Unlike many standard textbooks on advanced mechanics, however, this present text eschews a primarily technical and formalistic treatment in favor of a fundamental, historical, philosophical approach. As the author remarks, there is a tremendous treasure of philosophical meaning" behind the great theories of Euler and Lagrange, Hamilton, Jacobi, and other mathematical thinkers. Well-written, authoritative, and scholarly, this classic treatise begins with an introduction to the variational principles of mechanics including the procedures of Euler, Lagrange, and Hamilton. Ideal for a two-semester graduate course, the book includes a variety of problems, carefully chosen to familiarize the student with new concepts and to illuminate the general principles involved. Moreover, it offers excellent grounding for the student of mathematics, engineering, or physics who does not intend to specialize in mechanics, but wants a thorough grasp of the underlying principles. The late Professor Lanczos (Dublin Institute of Advanced Studies) was a well-known physicist and educator who brought a superb pedagogical sense and profound grasp of the principles of mechanics to this work, now available for the first time in an inexpensive Dover paperback edition. His book will be welcomed by students, physicists, engineers, mathematicians, and anyone interested in a clear masterly exposition of this all-important discipline.}
+      \field{title}{The variational principles of mechanics}
+      \field{year}{2012}
+    \endentry
+    \entry{markley1995kepler}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d1abf4423327696d755c812e2ed525d9}{%
+           family={Markley},
+           familyi={M\bibinitperiod},
+           given={F\bibnamedelima Landis},
+           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d1abf4423327696d755c812e2ed525d9}
+      \strng{fullhash}{d1abf4423327696d755c812e2ed525d9}
+      \strng{bibnamehash}{d1abf4423327696d755c812e2ed525d9}
+      \strng{authorbibnamehash}{d1abf4423327696d755c812e2ed525d9}
+      \strng{authornamehash}{d1abf4423327696d755c812e2ed525d9}
+      \strng{authorfullhash}{d1abf4423327696d755c812e2ed525d9}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kepler's Equation is solved over the entire range of elliptic motion by a fifth-order refinement of the solution of a cubic equation. This method is not iterative, and requires only four transcendental function evaluations: a square root, a cube root, and two trigonometric functions. The maximum relative error of the algorithm is less than one part in $10^{18}$ , exceeding the capability of double-precision computer arithmetic. Roundoff errors in double-precision implementation of the algorithm are addressed, and procedures to avoid them are developed.}
+      \field{journaltitle}{Celestial Mechanics and Dynamical Astronomy}
+      \field{title}{Kepler equation solver}
+      \field{volume}{63}
+      \field{year}{1995}
+      \field{pages}{101\bibrangedash 111}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb https://ntrs.nasa.gov/api/citations/19950021346/downloads/19950021346.pdf
+      \endverb
+      \verb{url}
+      \verb https://ntrs.nasa.gov/api/citations/19950021346/downloads/19950021346.pdf
+      \endverb
+    \endentry
+    \entry{Milnor01061983}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6ed546ba346b01635423d8131e45906b}{%
+           family={Milnor},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{6ed546ba346b01635423d8131e45906b}
+      \strng{fullhash}{6ed546ba346b01635423d8131e45906b}
+      \strng{bibnamehash}{6ed546ba346b01635423d8131e45906b}
+      \strng{authorbibnamehash}{6ed546ba346b01635423d8131e45906b}
+      \strng{authornamehash}{6ed546ba346b01635423d8131e45906b}
+      \strng{authorfullhash}{6ed546ba346b01635423d8131e45906b}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Mathematical Monthly}
+      \field{number}{6}
+      \field{title}{On the Geometry of the Kepler Problem}
+      \field{volume}{90}
+      \field{year}{1983}
+      \field{pages}{353\bibrangedash 365}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1080/00029890.1983.11971232
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/00029890.1983.11971232
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/00029890.1983.11971232
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/00029890.1983.11971232
+      \endverb
+    \endentry
+    \entry{moulton1970introduction}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f033e4ab4ab2892cc0be50e6fc94363f}{%
+           family={Moulton},
+           familyi={M\bibinitperiod},
+           given={Forest\bibnamedelima Ray},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Corporation}%
+      }
+      \strng{namehash}{f033e4ab4ab2892cc0be50e6fc94363f}
+      \strng{fullhash}{f033e4ab4ab2892cc0be50e6fc94363f}
+      \strng{bibnamehash}{f033e4ab4ab2892cc0be50e6fc94363f}
+      \strng{authorbibnamehash}{f033e4ab4ab2892cc0be50e6fc94363f}
+      \strng{authornamehash}{f033e4ab4ab2892cc0be50e6fc94363f}
+      \strng{authorfullhash}{f033e4ab4ab2892cc0be50e6fc94363f}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An unrivaled text in the field of celestial mechanics, Moulton's theoretical work on the prediction and interpretation of celestial phenomena has not been superseded. By providing a general account of all parts of celestial mechanics without an over-full treatment of any single aspect, by stating all the problems in advance, and, where the transformations are long, giving an outline of the steps which must be made, and by noting all the places where assumptions have been introduced or unjustified methods employed, Moulton has insured that his work will be valuable to all who are interested in the subject. The text is divided into ten chapters which progress logically in terms of the difficulty of their subject matter. They are: Fundamental Principles and Definitions, Rectilinear Motion, Central Forces, The Potential and Attractions of Bodies, The Problem of Two Bodies, The Determination of Orbits, The General Integrals of the Problem of n Bodies, The Problem of Three Bodies, Perturbations ― Geometrical Considerations, and Perturbations ― Analytical Method. Important topics cove red include general equations, motion of falling particles, the heat of the sun, simultaneous differential equations, examples where J is a function of the coordinates alone, the universality of Newton's law, determination of the orbit from the law of force, attractions of simple solids, potential and attractions of simple bodies and ellipsoids, Ivory's method and level surfaces, elements of orbits, expansions and positions in orbits, transformations of coordinates, the Laplacian and Gaussian methods of determining orbits, motion of center of mass and area integrals, motion of the infinitesimal body, surfaces of zero relative velocity, effects of the components of the disturbing force, lunar theory, method of computing perturbations, and the perturbative function. Each chapter is followed by a historical sketch and bibliography pertaining to that subject. Over 200 problems appear at key points in the text, many of them answered.}
+      \field{title}{An introduction to celestial mechanics}
+      \field{year}{1970}
+    \endentry
+    \entry{odell1986procedures}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a47156c040d5df24070f12e9527829f9}{%
+           family={Odell},
+           familyi={O\bibinitperiod},
+           given={AW},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6e1edef205cc0e67e60dd0512a4b48cd}{%
+           family={Gooding},
+           familyi={G\bibinitperiod},
+           given={RH},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{9500f67fb342789120bcf6bb60e2e766}
+      \strng{fullhash}{9500f67fb342789120bcf6bb60e2e766}
+      \strng{bibnamehash}{9500f67fb342789120bcf6bb60e2e766}
+      \strng{authorbibnamehash}{9500f67fb342789120bcf6bb60e2e766}
+      \strng{authornamehash}{9500f67fb342789120bcf6bb60e2e766}
+      \strng{authorfullhash}{9500f67fb342789120bcf6bb60e2e766}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We review starting formulae and iteration processes for the solution of Kepler's equation, and give details of two complete procedures. The first has been in use for a number of years, but the second is entirely new. The new procedure operates with an iterative process that always gives fourth-order convergence and is taken to only two iterations. The error in the resulting solution then never exceeds $7\times10^{−15} I $ rad.}
+      \field{journaltitle}{Celestial mechanics}
+      \field{number}{4}
+      \field{title}{Procedures for solving Kepler's equation}
+      \field{volume}{38}
+      \field{year}{1986}
+      \field{pages}{307\bibrangedash 334}
+      \range{pages}{28}
+    \endentry
+    \entry{perko2013differential}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2e86fbceb5185d82a8b0e6fccbdf1691}{%
+           family={Perko},
+           familyi={P\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{fullhash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{bibnamehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{authorbibnamehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{authornamehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{authorfullhash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mathematics is playing an ever more important role in the physical and biological sciences, provoking a blurring of boundaries between scientific disciplines and a resurgence of interest in the modern as well as the clas sical techniques of applied mathematics. This renewal of interest, both in research and teaching, has led to the establishment of the series: Texts in Applied Mathematics (TAM). The development of new courses is a natural consequence of a high level of excitement on the research frontier as newer techniques, such as numerical and symbolic computer systems, dynamical systems, and chaos, mix with and reinforce the traditional methods of applied mathematics. Thus, the purpose of this textbook series is to meet the current and future needs of these advances and encourage the teaching of new courses. TAM will publish textbooks suitable for use in advanced undergraduate and beginning graduate courses, and will complement the Applied Math ematical Sciences (AMS) series, which will focus on advanced textbooks and research level monographs.}
+      \field{title}{Differential equations and dynamical systems}
+      \field{volume}{7}
+      \field{year}{2013}
+    \endentry
+    \entry{raposo2018efficient}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7176865aba66606db8e673225f2bdeef}{%
+           family={Raposo-Pulido},
+           familyi={R\bibinithyphendelim P\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d36e506a96f916c5450bd967ea71904e}{%
+           family={Pel{á}ez},
+           familyi={P\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {EDP Sciences}%
+      }
+      \strng{namehash}{eb2f19b465a57259993b3d9c3e1d7379}
+      \strng{fullhash}{eb2f19b465a57259993b3d9c3e1d7379}
+      \strng{bibnamehash}{eb2f19b465a57259993b3d9c3e1d7379}
+      \strng{authorbibnamehash}{eb2f19b465a57259993b3d9c3e1d7379}
+      \strng{authornamehash}{eb2f19b465a57259993b3d9c3e1d7379}
+      \strng{authorfullhash}{eb2f19b465a57259993b3d9c3e1d7379}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper introduces a new approach for solving the Kepler equation for hyperbolic orbits through the Hyperbolic Kepler Equation--Space Dynamics Group (HKE--SDG) code. Rather than developing new algorithms, we substantially improve classic Newton--Raphson schemes by optimizing the initial seed selection. For discretized domains of hyperbolic anomaly, we implement fifth-degree interpolating polynomials (with asymptotic expansion for the final interval) whose six coefficients are determined by matching function values and first derivatives at interval endpoints. A specialized asymptotic expansion handles the singular corner ($|M| < 0.15$, $1 < e < 1.25$). Numerical simulations demonstrate machine-error accuracy within maximum three iterations (99.8\% cases $\leq$2 iterations) across double/quadruple precision implementations. The HKE--SDG algorithm achieves superior precision (0.3s execution in double precision) while maintaining reliability, particularly in the singular corner where a single asymptotic expansion suffices. Comparative analysis confirms its precision advantage over existing methods in both precision regimes.}
+      \field{journaltitle}{Astronomy \& Astrophysics}
+      \field{title}{An efficient code to solve the Kepler equation-Hyperbolic case}
+      \field{volume}{619}
+      \field{year}{2018}
+      \field{pages}{A129}
+      \range{pages}{-1}
+      \verb{urlraw}
+      \verb https://www.aanda.org/articles/aa/pdf/2018/11/aa33563-18.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.aanda.org/articles/aa/pdf/2018/11/aa33563-18.pdf
+      \endverb
+    \endentry
+    \entry{raposo2017efficient}{article}{}
+      \name{author}{2}{}{%
+        {{hash=56f460898a229dd5c5c118707844795e}{%
+           family={Raposo-Pulido},
+           familyi={R\bibinithyphendelim P\bibinitperiod},
+           given={Virginia},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d36e506a96f916c5450bd967ea71904e}{%
+           family={Pel{á}ez},
+           familyi={P\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{20f8255e7c9f607cc74a280866111532}
+      \strng{fullhash}{20f8255e7c9f607cc74a280866111532}
+      \strng{bibnamehash}{20f8255e7c9f607cc74a280866111532}
+      \strng{authorbibnamehash}{20f8255e7c9f607cc74a280866111532}
+      \strng{authornamehash}{20f8255e7c9f607cc74a280866111532}
+      \strng{authorfullhash}{20f8255e7c9f607cc74a280866111532}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new approach for solving Kepler equation for elliptical orbits is developed in this paper. This new approach takes advantage of the very good behaviour of the modified Newton--Raphson method when the initial seed is close to the looked for solution. To determine a good initial seed the eccentric anomaly domain $[0, \pi]$ is discretized in several intervals and for each one of these intervals a fifth degree interpolating polynomial is introduced. The six coefficients of the polynomial are obtained by requiring six conditions at both ends of the corresponding interval. Thus the real function and the polynomial have equal values at both ends of the interval. Similarly relations are imposed for the two first derivatives. In the singular corner of the Kepler equation, $M \ll 1$ and $1 − e \ll 0$ an asymptotic expansion is developed. In most of the cases, the seed generated leads to reach machine error accuracy with the modified Newton--Raphson method with no iterations or just one iteration. This approach improves the computational time compared with other methods currently in use.}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{number}{2}
+      \field{title}{An efficient code to solve the Kepler equation. Elliptic case}
+      \field{volume}{467}
+      \field{year}{2017}
+      \field{pages}{1702\bibrangedash 1713}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1093/mnras/stx138
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/mnras/article/467/2/1702/2929272
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/mnras/article/467/2/1702/2929272
+      \endverb
+    \endentry
+    \entry{ryabov2006elementary}{book}{}
+      \name{author}{2}{}{%
+        {{hash=9e5052f43bfd8d979d4701e86a7ac722}{%
+           family={Ryabov},
+           familyi={R\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=105281ebf5ebeeab1513ef44a1fd2d03}{%
+           family={Yankovsky},
+           familyi={Y\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Corporation}%
+      }
+      \strng{namehash}{169538cea22ae13f83e456e931d18f34}
+      \strng{fullhash}{169538cea22ae13f83e456e931d18f34}
+      \strng{bibnamehash}{169538cea22ae13f83e456e931d18f34}
+      \strng{authorbibnamehash}{169538cea22ae13f83e456e931d18f34}
+      \strng{authornamehash}{169538cea22ae13f83e456e931d18f34}
+      \strng{authorfullhash}{169538cea22ae13f83e456e931d18f34}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An accessible exposition of gravitation theory and celestial mechanics, this classic, oft-cited work was written by a distinguished Soviet astronomer. It explains with exceptional clarity the methods used by physicists in studying celestial phenomena. A historical introduction explains the Ptolemaic view of planetary motion and its displacement by the studies of Copernicus, Kepler, and Newton. Succeeding chapters examine the making of celestial observations and measurements and explain such central concepts as the ecliptic, the orbital plane, the two- and three-body problems, and perturbed motion. Ryabov also describes how perturbations in the path of Uranus led to the discovery of Neptune, and he devotes considerable attention to satellites, including a detailed treatment of the first artificial satellite, Sputnik I. Additional topics include planetary rotation, the calculation of units of time, and the motions of the stars, with illustrations of how the law of gravity determines the shapes of galaxies. The book concludes with a deeper consideration of gravity, pointing out basic distinctions between classical and Einsteinian theories.}
+      \field{title}{An elementary survey of celestial mechanics}
+      \field{year}{2006}
+    \endentry
+    \entry{sideris2013ordinary}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e11a58ec588254dd56ca1c435fc18691}{%
+           family={Sideris},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e11a58ec588254dd56ca1c435fc18691}
+      \strng{fullhash}{e11a58ec588254dd56ca1c435fc18691}
+      \strng{bibnamehash}{e11a58ec588254dd56ca1c435fc18691}
+      \strng{authorbibnamehash}{e11a58ec588254dd56ca1c435fc18691}
+      \strng{authornamehash}{e11a58ec588254dd56ca1c435fc18691}
+      \strng{authorfullhash}{e11a58ec588254dd56ca1c435fc18691}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ordinary differential equations and dynamical systems}
+      \field{volume}{2}
+      \field{year}{2013}
+    \endentry
+    \entry{stiefel1971linear}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c185d0b376ccad7e206845cc317b68ec}{%
+           family={Stiefel},
+           familyi={S\bibinitperiod},
+           given={Eduard\bibnamedelima L},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=436c00c0b0854219f010d4f4727c3c5c}{%
+           family={Scheifele},
+           familyi={S\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0279d8a20fece11af00391b677bc692e}
+      \strng{fullhash}{0279d8a20fece11af00391b677bc692e}
+      \strng{bibnamehash}{0279d8a20fece11af00391b677bc692e}
+      \strng{authorbibnamehash}{0279d8a20fece11af00391b677bc692e}
+      \strng{authornamehash}{0279d8a20fece11af00391b677bc692e}
+      \strng{authorfullhash}{0279d8a20fece11af00391b677bc692e}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Our presentation of some fundamental domains of celestial mechanics requires no special preliminary knowledge; however, the chosen mathe matical method is new in so far as the pure two-body motion is described by linear differential equations, which even have constant coefficients. In other words an equivalence between the Keplerian motion and a harmonic oscillation is established; this approach to celestial mechanics will be referred to as the linear theory. Besides the possibility of the mutual fruitful interaction between celestial and oscillatory mechanics which is thereby created, our linear differential equations are as a result everywhere regular. The opposite is true of the classical Newtonian equations, which are singular at the collision of the two moving bodies Regularization is however not the leitmotiv of the book; the many regularization methods [1] which do not lead to linear differential equations are therefore not described. Apart from the basic idea of the use of linear differential equations and the resulting advantages, there were two further scientific goals which we had in mind. First, it should be permissible not only to transform the coordinates of the mobile but also to introduce other independent variables instead of the time. The often cumbersome solution of the Keplerian equation in theoretical studies can thereby be avoided. This leads to the further consequence that the linear theory is uniform with respect to the value of the eccentricity.}
+      \field{title}{Linear and regular celestial mechanics: perturbed two-body motion, numerical methods, canonical theory}
+      \field{volume}{174}
+      \field{year}{1971}
+    \endentry
+    \entry{strogatz2024nonlinear}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b0115f77df78376c68429033349375fc}{%
+           family={Strogatz},
+           familyi={S\bibinitperiod},
+           given={Steven\bibnamedelima H},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall/CRC}%
+      }
+      \strng{namehash}{b0115f77df78376c68429033349375fc}
+      \strng{fullhash}{b0115f77df78376c68429033349375fc}
+      \strng{bibnamehash}{b0115f77df78376c68429033349375fc}
+      \strng{authorbibnamehash}{b0115f77df78376c68429033349375fc}
+      \strng{authornamehash}{b0115f77df78376c68429033349375fc}
+      \strng{authorfullhash}{b0115f77df78376c68429033349375fc}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nonlinear dynamics and chaos: with applications to physics, biology, chemistry, and engineering}
+      \field{year}{2024}
+    \endentry
+    \entry{taff1989solving}{article}{}
+      \name{author}{2}{}{%
+        {{hash=715403e5a6b354edc4512bb32f995f95}{%
+           family={Taff},
+           familyi={T\bibinitperiod},
+           given={Laurence\bibnamedelima G},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=4f1af92c04b60c3d8fe5d9461c5dc1a7}{%
+           family={Brennan},
+           familyi={B\bibinitperiod},
+           given={TA},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{28efbd7f29b58ce6bc8cef945d9d7608}
+      \strng{fullhash}{28efbd7f29b58ce6bc8cef945d9d7608}
+      \strng{bibnamehash}{28efbd7f29b58ce6bc8cef945d9d7608}
+      \strng{authorbibnamehash}{28efbd7f29b58ce6bc8cef945d9d7608}
+      \strng{authornamehash}{28efbd7f29b58ce6bc8cef945d9d7608}
+      \strng{authorfullhash}{28efbd7f29b58ce6bc8cef945d9d7608}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Intrigued by the recent advances in research on solving Kepler's equation, we have attacked the problem too. Our contributions emphasize the unified derivation of all known bounds and several starting values, a proof of the optimality of these bounds, a very thorough numerical exploration of a large variety of starting values and solution techniques in both mean anomaly/eccentricity space and eccentric anomaly/eccentricity space, and finally the best and simplest starting value/solution algorithm: $M + e$ and Wegstein's secant modification of the method of successive substitutions. The very close second is Broucke's bounds coupled with Newton's second-order scheme.}
+      \field{journaltitle}{Celestial Mechanics and Dynamical Astronomy}
+      \field{title}{On solving Kepler's equation}
+      \field{volume}{46}
+      \field{year}{1989}
+      \field{pages}{163\bibrangedash 176}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/BF00053046
+      \endverb
+      \verb{urlraw}
+      \verb https://ui.adsabs.harvard.edu/abs/1989CeMDA..46..163T/abstract
+      \endverb
+      \verb{url}
+      \verb https://ui.adsabs.harvard.edu/abs/1989CeMDA..46..163T/abstract
+      \endverb
+    \endentry
+    \entry{thomson2012introduction}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8e65bb6add05f3aff1323806df6aaf2c}{%
+           family={Thomson},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima Tyrrell},
+           giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Corporation}%
+      }
+      \strng{namehash}{8e65bb6add05f3aff1323806df6aaf2c}
+      \strng{fullhash}{8e65bb6add05f3aff1323806df6aaf2c}
+      \strng{bibnamehash}{8e65bb6add05f3aff1323806df6aaf2c}
+      \strng{authorbibnamehash}{8e65bb6add05f3aff1323806df6aaf2c}
+      \strng{authornamehash}{8e65bb6add05f3aff1323806df6aaf2c}
+      \strng{authorfullhash}{8e65bb6add05f3aff1323806df6aaf2c}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although this classic introduction to space-flight engineering was first published not long after Sputnik was launched, the fundamental principles it elucidates are as varied today as then. The problems to which these principles are applied have changed, and the widespread use of computers has accelerated problem-solving techniques, but this book is still a valuable basic text for advanced undergraduate and graduate students of aerospace engineering. The first two chapters cover vector algebra and kinematics, including angular velocity vector, tangential and normal components, and the general case of space motion. The third chapter deals with the transformation of coordinates, with sections of Euler's angles, and the transformation of angular velocities. A variety of interesting problems regarding the motion of satellites and other space vehicles is discussed in Chapter 4, which includes the two-body problem, orbital change due to impulsive thrust, long-range ballistic trajectories, and the effect of the Earth's oblateness. The fifth and sixth chapters describe gyrodynamics and the dynamics of gyroscopic instruments, covering such topics as the displacement of a rigid body, precession and nutation of the Earth's polar axis, oscillation of the gyrocompass, and inertial navigation. Chapter 7 is an examination of space vehicle motion, with analyses of general equations in body conditions and their transformation to inertial coordinates, attitude drift of space vehicles, and variable mass. The eighth chapter discusses optimization of the performance of single-stage and multistage rockets. Chapter 9 deals with generalized theories of mechanics, including holonomic and non-holonomic systems, Lagrange's Equation for impulsive forces, and missile dynamics analysis. Throughout this clear, comprehensive text, practice problems (with answers to many) aid the student in mastering analytic techniques, and numerous charts and diagrams reinforce each lesson. 1961 edition.}
+      \field{title}{Introduction to space dynamics}
+      \field{year}{2012}
+    \endentry
+    \entry{verhulst2006nonlinear}{book}{}
+      \name{author}{1}{}{%
+        {{hash=19cca9408de782dd09cf48f8c93cd1b0}{%
+           family={Verhulst},
+           familyi={V\bibinitperiod},
+           given={Ferdinand},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{19cca9408de782dd09cf48f8c93cd1b0}
+      \strng{fullhash}{19cca9408de782dd09cf48f8c93cd1b0}
+      \strng{bibnamehash}{19cca9408de782dd09cf48f8c93cd1b0}
+      \strng{authorbibnamehash}{19cca9408de782dd09cf48f8c93cd1b0}
+      \strng{authornamehash}{19cca9408de782dd09cf48f8c93cd1b0}
+      \strng{authorfullhash}{19cca9408de782dd09cf48f8c93cd1b0}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nonlinear differential equations and dynamical systems}
+      \field{year}{2006}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

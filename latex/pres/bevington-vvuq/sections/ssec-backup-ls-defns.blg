@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'ssec-backup-ls-defns.blg'
+[81] biber-darwin:322> INFO - === Tue Mar 31, 2026, 22:06:50
+[235] Utils.pm:320> ERROR - Cannot find 'ssec-backup-ls-defns.bcf'!
+[235] Biber.pm:132> INFO - ERRORS: 1

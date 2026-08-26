@@ -1,0 +1,273 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{18}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Anz-Meador, Opiela, and Liou}{Anz-Meador
+  et~al\mbox{.}}{2023}]%
+        {anz2023history}
+\bibfield{author}{\bibinfo{person}{Phillip Anz-Meador}, \bibinfo{person}{John
+  Opiela}, {and} \bibinfo{person}{Jer-Chyi Liou}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{History of on-orbit satellite
+  fragmentations}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Courtland}{Courtland}{2009}]%
+        {courtland2009satellite}
+\bibfield{author}{\bibinfo{person}{Rachel Courtland}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Satellite crash prediction is plagued with
+  uncertainty}.
+\newblock \bibinfo{journal}{\emph{New Scientist}} (\bibinfo{year}{2009}).
+\newblock
+\urldef\tempurl%
+\url{https://www.newscientist.com/article/dn16592-satellite-crash-prediction-is-plagued-with-uncertainty/}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed: 2024-12-25.}
+
+
+\bibitem[\protect\citeauthoryear{Curcic}{Curcic}{2020}]%
+        {curcic2020modern}
+\bibfield{author}{\bibinfo{person}{Milan Curcic}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Modern Fortran: Building efficient parallel
+  applications}}.
+\newblock \bibinfo{publisher}{Manning Publications}, \bibinfo{address}{Shelter
+  Island, NY}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{Defense Intelligence Agency}}{{Defense
+  Intelligence Agency}}{2019}]%
+        {DIA2019Challenges}
+\bibfield{author}{\bibinfo{person}{{Defense Intelligence Agency}}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Challenges to Security in Space}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{Defense
+  Intelligence Agency}.
+\newblock
+\urldef\tempurl%
+\url{https://www.dia.mil/Military-Power-Publications}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Information cutoff date: January 2019.}
+
+
+\bibitem[\protect\citeauthoryear{Ge, Eachempati, Khaldi, and Chapman}{Ge
+  et~al\mbox{.}}{2015}]%
+        {ge2015evaluation}
+\bibfield{author}{\bibinfo{person}{Shiyao Ge}, \bibinfo{person}{Deepak
+  Eachempati}, \bibinfo{person}{Dounia Khaldi}, {and} \bibinfo{person}{Barbara
+  Chapman}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{An evaluation of anticipated extensions for fortran
+  coarrays}. In \bibinfo{booktitle}{\emph{2015 9th International Conference on
+  Partitioned Global Address Space Programming Models}}. IEEE,
+  \bibinfo{pages}{47--58}.
+\newblock
+\urldef\tempurl%
+\url{https://ieeexplore.ieee.org/document/7306097}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Hanson and Hopkins}{Hanson and
+  Hopkins}{2013}]%
+        {Hanson2013}
+\bibfield{author}{\bibinfo{person}{Richard~J. Hanson} {and}
+  \bibinfo{person}{Tim Hopkins}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Numerical Computing with Modern Fortran}}.
+\newblock \bibinfo{publisher}{Society for Industrial and Applied Mathematics},
+  \bibinfo{address}{Philadelphia, PA}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1137/1.9781611973129}
+\showDOI{\tempurl}
+\showeprint{https://epubs.siam.org/doi/pdf/10.1137/1.9781611973129}
+
+
+\bibitem[\protect\citeauthoryear{Hildreth and Arnold}{Hildreth and
+  Arnold}{2014}]%
+        {hildreth2014threats}
+\bibfield{author}{\bibinfo{person}{Steven~A Hildreth} {and}
+  \bibinfo{person}{Allison Arnold}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{title}{Threats to us national security interests in space:
+  Orbital debris mitigation and removal}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jodice and Guerber}{Jodice and
+  Guerber}{2014}]%
+        {jodice2014space}
+\bibfield{author}{\bibinfo{person}{Adam~P Jodice} {and} \bibinfo{person}{Mark~R
+  Guerber}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Space combat capability... do we have it?}
+\newblock \bibinfo{journal}{\emph{Air \& Space Power Journal}}
+  \bibinfo{volume}{28}, \bibinfo{number}{6} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{82--99}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Markus}{Markus}{2012}]%
+        {markus2012modern}
+\bibfield{author}{\bibinfo{person}{Arjen Markus}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Modern Fortran in practice}}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mellor-Crummey, Adhianto, Scherer~III, and
+  Jin}{Mellor-Crummey et~al\mbox{.}}{2009}]%
+        {mellor2009new}
+\bibfield{author}{\bibinfo{person}{John Mellor-Crummey},
+  \bibinfo{person}{Laksono Adhianto}, \bibinfo{person}{William~N Scherer~III},
+  {and} \bibinfo{person}{Guohua Jin}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{A new vision for Coarray Fortran}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Third Conference on Partitioned
+  Global Address Space Programing Models}}. \bibinfo{pages}{1--9}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Metcalf, Reid, Cohen, and Bader}{Metcalf
+  et~al\mbox{.}}{2024}]%
+        {metcalf2024modern}
+\bibfield{author}{\bibinfo{person}{Michael Metcalf}, \bibinfo{person}{John
+  Reid}, \bibinfo{person}{Malcolm Cohen}, {and} \bibinfo{person}{Reinhold
+  Bader}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Modern Fortran Explained: Incorporating
+  Fortran 2023}}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Newman, Frigm, and McKinley}{Newman
+  et~al\mbox{.}}{2009}]%
+        {newman2009s}
+\bibfield{author}{\bibinfo{person}{Lauri~Kraft Newman}, \bibinfo{person}{Ryan
+  Frigm}, {and} \bibinfo{person}{David McKinley}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{It's Not A Big Sky After All: Justification for a
+  Close Approach Prediction and Risk Assessment Process}. In
+  \bibinfo{booktitle}{\emph{2009 AAS/AIAA Astrodynamics Specialist
+  Conference}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Olivier et~al\mbox{.}}{Olivier
+  et~al\mbox{.}}{2008}]%
+        {olivier2008simulation}
+\bibfield{author}{\bibinfo{person}{Scot~S Olivier} {et~al\mbox{.}}}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{A Simulation and modeling framework for space
+  situational awareness}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  Advanced Maui Optical and Space Surveillance Technologies Conference, Wailea,
+  Maui, Hawaii}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Reid}{Reid}{2010}]%
+        {reid2010coarrays}
+\bibfield{author}{\bibinfo{person}{John Reid}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Coarrays in the next fortran standard}. In
+  \bibinfo{booktitle}{\emph{ACM SIGPLAN Fortran Forum}},
+  Vol.~\bibinfo{volume}{29}. ACM New York, NY, USA, \bibinfo{pages}{10--27}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Storz, Bowman, and Branson}{Storz
+  et~al\mbox{.}}{2001}]%
+        {storz2001space}
+\bibfield{author}{\bibinfo{person}{Mark~F Storz}, \bibinfo{person}{Bruce~R
+  Bowman}, {and} \bibinfo{person}{Major James~I Branson}.}
+  \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Space Battlelab's High Accuracy Satellite Drag
+  Model}. In \bibinfo{booktitle}{\emph{Air Force Space Command, Space Analysis
+  Center (ASAC), Peterson AFB. Presented at the AIAAA Astrodynamics Specialist
+  Conference and Exhibit, August}}, Vol.~\bibinfo{volume}{5}. Citeseer.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vee and Hsu}{Vee and Hsu}{1999}]%
+        {vee1999parallel}
+\bibfield{author}{\bibinfo{person}{Voon-Yee Vee} {and}
+  \bibinfo{person}{Wen-Jing Hsu}.} \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{Parallel discrete event simulation: A survey}.
+\newblock \bibinfo{journal}{\emph{Nanyang Technological University, Tech. Rep}}
+  (\bibinfo{year}{1999}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wang}{Wang}{2010}]%
+        {Wang:2010aa}
+\bibfield{author}{\bibinfo{person}{Ting Wang}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Analysis of Debris from the Collision of the Cosmos
+  2251 and the Iridium 33 Satellites}.
+\newblock \bibinfo{journal}{\emph{Science \& Global Security}}
+  \bibinfo{volume}{18}, \bibinfo{number}{2} (\bibinfo{year}{2010}),
+  \bibinfo{pages}{87--118}.
+\newblock
+\showeprint{http://scienceandglobalsecurity.org/archive/sgs18tingwang.pdf}
+\urldef\tempurl%
+\url{https://scienceandglobalsecurity.org/archive/2010/06/analysis_of_debris_from_the_co.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Ziegler, Hu, and Rosenblit}{Ziegler
+  et~al\mbox{.}}{1989}]%
+        {Zeigler1989}
+\bibfield{author}{\bibinfo{person}{B.P. Ziegler}, \bibinfo{person}{J.H. Hu},
+  {and} \bibinfo{person}{J.W. Rosenblit}.} \bibinfo{year}{1989}\natexlab{}.
+\newblock \showarticletitle{Hierarchical, modular modelling in DEVS-scheme}. In
+  \bibinfo{booktitle}{\emph{WSC '89: Proceedings of the 21st conference on
+  Winter simulation}}. \bibinfo{pages}{84--85}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/Pages 84 - 89 https://doi-org/10.1145/76738.76749}
+\showDOI{\tempurl}
+
+
+\end{thebibliography}

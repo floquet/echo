@@ -1,0 +1,175 @@
+\BOOKMARK [1][-]{section.1}{Refactoring Strategy}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Options}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Clarity and Maintainability}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Recommendation}{section.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Symptoms of Decay}{subsection.1.3}% 5
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Modernization Principles}{subsection.1.3}% 6
+\BOOKMARK [1][-]{section.2}{Overview of the Fortran Code acsub.f08}{}% 7
+\BOOKMARK [2][-]{subsection.2.1}{Overview of the ACSUB Subroutine}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Purpose}{subsection.2.1}% 9
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Inputs and State}{subsection.2.1}% 10
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Structure}{subsection.2.1}% 11
+\BOOKMARK [3][-]{subsubsection.2.1.4}{Major Comment Lines}{subsection.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.2}{Use the Compiler to Read the Code}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.3}{Overview Changes Required For Compilation}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.4}{Overview of m\137ulf.f08}{section.2}% 15
+\BOOKMARK [1][-]{section.3}{Refactor Comparison}{}% 16
+\BOOKMARK [2][-]{subsection.3.1}{Admonition: Never Enter \040Numerically}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.2}{Opening Declarations}{section.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Primary Issues}{subsection.3.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Before and After}{subsection.3.2}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Key Improvements}{subsection.3.2}% 21
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Conclusion}{subsection.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.3}{Best Practices for Procedure Calls}{section.3}% 23
+\BOOKMARK [2][-]{subsection.3.4}{Critique of Output Code}{section.3}% 24
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Maintainability Issues}{subsection.3.4}% 25
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Critical Problems}{subsection.3.4}% 26
+\BOOKMARK [3][-]{subsubsection.3.4.3}{Hidden Costs}{subsection.3.4}% 27
+\BOOKMARK [3][-]{subsubsection.3.4.4}{Prompt Rewrite}{subsection.3.4}% 28
+\BOOKMARK [3][-]{subsubsection.3.4.5}{Modern Alternative}{subsection.3.4}% 29
+\BOOKMARK [2][-]{subsection.3.5}{subroutine jitseed}{section.3}% 30
+\BOOKMARK [3][-]{subsubsection.3.5.1}{Primary Issues}{subsection.3.5}% 31
+\BOOKMARK [3][-]{subsubsection.3.5.2}{Before and After}{subsection.3.5}% 32
+\BOOKMARK [3][-]{subsubsection.3.5.3}{Key Improvements}{subsection.3.5}% 33
+\BOOKMARK [3][-]{subsubsection.3.5.4}{Conclusion}{subsection.3.5}% 34
+\BOOKMARK [2][-]{subsection.3.6}{Variable and Constant Management in Legacy Fortran}{section.3}% 35
+\BOOKMARK [3][-]{subsubsection.3.6.1}{Example 1: Variable Reuse and Naming}{subsection.3.6}% 36
+\BOOKMARK [3][-]{subsubsection.3.6.2}{Example 2: Mathematical Constants}{subsection.3.6}% 37
+\BOOKMARK [3][-]{subsubsection.3.6.3}{Best Practices}{subsection.3.6}% 38
+\BOOKMARK [2][-]{subsection.3.7}{This is an Excel Spreadsheet, Not Fortran}{section.3}% 39
+\BOOKMARK [3][-]{subsubsection.3.7.1}{Array Access Pattern}{subsection.3.7}% 40
+\BOOKMARK [3][-]{subsubsection.3.7.2}{Magic Numbers}{subsection.3.7}% 41
+\BOOKMARK [3][-]{subsubsection.3.7.3}{Variable Naming}{subsection.3.7}% 42
+\BOOKMARK [3][-]{subsubsection.3.7.4}{Structural Issues}{subsection.3.7}% 43
+\BOOKMARK [3][-]{subsubsection.3.7.5}{Violations of Modern Fortran Principles}{subsection.3.7}% 44
+\BOOKMARK [3][-]{subsubsection.3.7.6}{An Excel Cradle}{subsection.3.7}% 45
+\BOOKMARK [3][-]{subsubsection.3.7.7}{Memory Allocation and Deallocation}{subsection.3.7}% 46
+\BOOKMARK [3][-]{subsubsection.3.7.8}{Crash-on-Contact}{subsection.3.7}% 47
+\BOOKMARK [2][-]{subsection.3.8}{Nightmarish Naming Scheme}{section.3}% 48
+\BOOKMARK [2][-]{subsection.3.9}{Extreme Cyclomatic Complexity}{section.3}% 49
+\BOOKMARK [3][-]{subsubsection.3.9.1}{Before and After: if Block}{subsection.3.9}% 50
+\BOOKMARK [3][-]{subsubsection.3.9.2}{Key Improvements if Block}{subsection.3.9}% 51
+\BOOKMARK [3][-]{subsubsection.3.9.3}{Before and After: if, Multiple Tests}{subsection.3.9}% 52
+\BOOKMARK [3][-]{subsubsection.3.9.4}{Key Improvements, Multiple Tests}{subsection.3.9}% 53
+\BOOKMARK [2][-]{subsection.3.10}{Bit-Brained: The Good, the Bad, and the Hardware}{section.3}% 54
+\BOOKMARK [3][-]{subsubsection.3.10.1}{Before: Bit Checks Everywhere}{subsection.3.10}% 55
+\BOOKMARK [3][-]{subsubsection.3.10.2}{After: Encapsulated Flag Access}{subsection.3.10}% 56
+\BOOKMARK [3][-]{subsubsection.3.10.3}{Flag Toolkit Module}{subsection.3.10}% 57
+\BOOKMARK [3][-]{subsubsection.3.10.4}{Key Improvements}{subsection.3.10}% 58
+\BOOKMARK [3][-]{subsubsection.3.10.5}{Hardware Still Welcome}{subsection.3.10}% 59
+\BOOKMARK [3][-]{subsubsection.3.10.6}{Final Thoughts}{subsection.3.10}% 60
+\BOOKMARK [2][-]{subsection.3.11}{Memory Management}{section.3}% 61
+\BOOKMARK [3][-]{subsubsection.3.11.1}{Before and After: Mass memory handling}{subsection.3.11}% 62
+\BOOKMARK [3][-]{subsubsection.3.11.2}{Key Improvements}{subsection.3.11}% 63
+\BOOKMARK [2][-]{subsection.3.12}{Numerical Comparisons}{section.3}% 64
+\BOOKMARK [3][-]{subsubsection.3.12.1}{Before and After: Comparing REAL Numbers}{subsection.3.12}% 65
+\BOOKMARK [3][-]{subsubsection.3.12.2}{Before and After: Mass memory handling}{subsection.3.12}% 66
+\BOOKMARK [3][-]{subsubsection.3.12.3}{Key Improvements}{subsection.3.12}% 67
+\BOOKMARK [2][-]{subsection.3.13}{The Impossibility of Exact Floating-Point Comparisons}{section.3}% 68
+\BOOKMARK [2][-]{subsection.3.14}{IEEE Floating-Point Support in Fortran}{section.3}% 69
+\BOOKMARK [3][-]{subsubsection.3.14.1}{Standard Compliance}{subsection.3.14}% 70
+\BOOKMARK [3][-]{subsubsection.3.14.2}{Platform Support}{subsection.3.14}% 71
+\BOOKMARK [3][-]{subsubsection.3.14.3}{Compilation Requirements}{subsection.3.14}% 72
+\BOOKMARK [2][-]{subsection.3.15}{Limitations}{section.3}% 73
+\BOOKMARK [2][-]{subsection.3.16}{Input and Output}{section.3}% 74
+\BOOKMARK [3][-]{subsubsection.3.16.1}{Before and After: Mass memory handling}{subsection.3.16}% 75
+\BOOKMARK [3][-]{subsubsection.3.16.2}{Key Improvements}{subsection.3.16}% 76
+\BOOKMARK [3][-]{subsubsection.3.16.3}{Memory Is Automatically Released at Scope Exit}{subsection.3.16}% 77
+\BOOKMARK [1][-]{section.4}{Bridge Code}{}% 78
+\BOOKMARK [2][-]{subsection.4.1}{The Enigmatic l Array: A Case Study in Bridge Building}{section.4}% 79
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Why Bridge Code is the Scalpel}{subsection.4.1}% 80
+\BOOKMARK [3][-]{subsubsection.4.1.2}{The Compromise of Bits}{subsection.4.1}% 81
+\BOOKMARK [3][-]{subsubsection.4.1.3}{The Path Forward}{subsection.4.1}% 82
+\BOOKMARK [3][-]{subsubsection.4.1.4}{The Fortran Renaissance}{subsection.4.1}% 83
+\BOOKMARK [2][-]{subsection.4.2}{nsize}{section.4}% 84
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Principles and Purpose}{subsection.4.2}% 85
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Original Code}{subsection.4.2}% 86
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Bridge Code}{subsection.4.2}% 87
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Why It Works}{subsection.4.2}% 88
+\BOOKMARK [3][-]{subsubsection.4.2.5}{Conclusion}{subsection.4.2}% 89
+\BOOKMARK [3][-]{subsubsection.4.2.6}{Derived Types}{subsection.4.2}% 90
+\BOOKMARK [3][-]{subsubsection.4.2.7}{Module}{subsection.4.2}% 91
+\BOOKMARK [3][-]{subsubsection.4.2.8}{Use of Fortran}{subsection.4.2}% 92
+\BOOKMARK [1][-]{section.5}{Modernization Principles}{}% 93
+\BOOKMARK [2][-]{subsection.5.1}{Improvements}{section.5}% 94
+\BOOKMARK [2][-]{subsection.5.2}{Best Practices}{section.5}% 95
+\BOOKMARK [2][-]{subsection.5.3}{Embrace module}{section.5}% 96
+\BOOKMARK [3][-]{subsubsection.5.3.1}{dimension attribute}{subsection.5.3}% 97
+\BOOKMARK [3][-]{subsubsection.5.3.2}{iso\137fortran\137env}{subsection.5.3}% 98
+\BOOKMARK [2][-]{subsection.5.4}{implicit none}{section.5}% 99
+\BOOKMARK [2][-]{subsection.5.5}{move\137alloc}{section.5}% 100
+\BOOKMARK [3][-]{subsubsection.5.5.1}{norm2}{subsection.5.5}% 101
+\BOOKMARK [3][-]{subsubsection.5.5.2}{private and public}{subsection.5.5}% 102
+\BOOKMARK [3][-]{subsubsection.5.5.3}{use with only}{subsection.5.5}% 103
+\BOOKMARK [2][-]{subsection.5.6}{-Wunused-variable}{section.5}% 104
+\BOOKMARK [2][-]{subsection.5.7}{Flags}{section.5}% 105
+\BOOKMARK [3][-]{subsubsection.5.7.1}{-Wuse-without-only}{subsection.5.7}% 106
+\BOOKMARK [2][-]{subsection.5.8}{Language Updates}{section.5}% 107
+\BOOKMARK [3][-]{subsubsection.5.8.1}{newunit [276]metcalf2024modern}{subsection.5.8}% 108
+\BOOKMARK [3][-]{subsubsection.5.8.2}{Standard I/O Units via iso\137fortran\137env}{subsection.5.8}% 109
+\BOOKMARK [3][-]{subsubsection.5.8.3}{Derived Types}{subsection.5.8}% 110
+\BOOKMARK [3][-]{subsubsection.5.8.4}{Hidden Semantic Meaning: call subps}{subsection.5.8}% 111
+\BOOKMARK [3][-]{subsubsection.5.8.5}{Best Practices for Procedure Calls}{subsection.5.8}% 112
+\BOOKMARK [3][-]{subsubsection.5.8.6}{Precision in Modern Fortran}{subsection.5.8}% 113
+\BOOKMARK [3][-]{subsubsection.5.8.7}{Modules and Submodules}{subsection.5.8}% 114
+\BOOKMARK [3][-]{subsubsection.5.8.8}{Paean to Portibility}{subsection.5.8}% 115
+\BOOKMARK [2][-]{subsection.5.9}{Effective Use of Language Features}{section.5}% 116
+\BOOKMARK [3][-]{subsubsection.5.9.1}{Reduction Functions: Expressive, Efficient, and Safe}{subsection.5.9}% 117
+\BOOKMARK [3][-]{subsubsection.5.9.2}{Troublesome Application of any\(...\)}{subsection.5.9}% 118
+\BOOKMARK [3][-]{subsubsection.5.9.3}{Fortran Best Practices}{subsection.5.9}% 119
+\BOOKMARK [3][-]{subsubsection.5.9.4}{Vector Computing}{subsection.5.9}% 120
+\BOOKMARK [3][-]{subsubsection.5.9.5}{Native Parallelism with Coarrays and Teams}{subsection.5.9}% 121
+\BOOKMARK [3][-]{subsubsection.5.9.6}{Preparing for Parallel Computing}{subsection.5.9}% 122
+\BOOKMARK [3][-]{subsubsection.5.9.7}{Modern Tools for Scientific Code Development}{subsection.5.9}% 123
+\BOOKMARK [3][-]{subsubsection.5.9.8}{The Gospel of Portability}{subsection.5.9}% 124
+\BOOKMARK [1][-]{section.6}{Compilation Flags: A Simple Linter}{}% 125
+\BOOKMARK [2][-]{subsection.6.1}{Compilation Flags}{section.6}% 126
+\BOOKMARK [2][-]{subsection.6.2}{Assessment of Compiler Warnings}{section.6}% 127
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Manifestation of Stack-to-Static Promotion Warnings}{subsection.6.2}% 128
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Implications of Implicit Reallocation on Assignment}{subsection.6.2}% 129
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Dangers of Sloppy Lifetime Management for Allocatable Arrays}{subsection.6.2}% 130
+\BOOKMARK [3][-]{subsubsection.6.2.4}{Precision Pandemonium}{subsection.6.2}% 131
+\BOOKMARK [2][-]{subsection.6.3}{Using a Fortran Linter on Legacy Code}{section.6}% 132
+\BOOKMARK [3][-]{subsubsection.6.3.1}{What a Linter Can Do}{subsection.6.3}% 133
+\BOOKMARK [3][-]{subsubsection.6.3.2}{What a Linter Cannot Do}{subsection.6.3}% 134
+\BOOKMARK [3][-]{subsubsection.6.3.3}{Tools Worth Trying}{subsection.6.3}% 135
+\BOOKMARK [3][-]{subsubsection.6.3.4}{Other Fortran Websites}{subsection.6.3}% 136
+\BOOKMARK [3][-]{subsubsection.6.3.5}{Summary}{subsection.6.3}% 137
+\BOOKMARK [1][-]{appendix.A}{Connecting with C++}{}% 138
+\BOOKMARK [2][-]{subsection.A.1}{Philosophical Differences: Fortran and \040C++}{appendix.A}% 139
+\BOOKMARK [2][-]{subsection.A.2}{Memory Management and Parallelism in Fortran and C++}{appendix.A}% 140
+\BOOKMARK [2][-]{subsection.A.3}{Memory Management in Fortran and C++}{appendix.A}% 141
+\BOOKMARK [2][-]{subsection.A.4}{C++ Equivalents}{appendix.A}% 142
+\BOOKMARK [3][-]{subsubsection.A.4.1}{merge equivalent}{subsection.A.4}% 143
+\BOOKMARK [3][-]{subsubsection.A.4.2}{Using std::transform}{subsection.A.4}% 144
+\BOOKMARK [3][-]{subsubsection.A.4.3}{With SIMD}{subsection.A.4}% 145
+\BOOKMARK [1][-]{appendix.B}{Fortran Commands and Principles}{}% 146
+\BOOKMARK [2][-]{subsection.B.1}{Vector Commands}{appendix.B}% 147
+\BOOKMARK [3][-]{subsubsection.B.1.1}{ANY}{subsection.B.1}% 148
+\BOOKMARK [3][-]{subsubsection.B.1.2}{MATMUL}{subsection.B.1}% 149
+\BOOKMARK [3][-]{subsubsection.B.1.3}{MERGE}{subsection.B.1}% 150
+\BOOKMARK [3][-]{subsubsection.B.1.4}{SUM}{subsection.B.1}% 151
+\BOOKMARK [2][-]{subsection.B.2}{Numeric Tools}{appendix.B}% 152
+\BOOKMARK [3][-]{subsubsection.B.2.1}{EPSILON}{subsection.B.2}% 153
+\BOOKMARK [3][-]{subsubsection.B.2.2}{HUGE}{subsection.B.2}% 154
+\BOOKMARK [3][-]{subsubsection.B.2.3}{TINY}{subsection.B.2}% 155
+\BOOKMARK [2][-]{subsection.B.3}{Memory Manipulation Commands}{appendix.B}% 156
+\BOOKMARK [3][-]{subsubsection.B.3.1}{ALLOCATE}{subsection.B.3}% 157
+\BOOKMARK [3][-]{subsubsection.B.3.2}{DEALLOCATE}{subsection.B.3}% 158
+\BOOKMARK [3][-]{subsubsection.B.3.3}{MOVE\137ALLOC}{subsection.B.3}% 159
+\BOOKMARK [1][-]{appendix.C}{Compiler Flags}{}% 160
+\BOOKMARK [2][-]{subsection.C.1}{Warning Flags \(\044Wflags\)}{appendix.C}% 161
+\BOOKMARK [2][-]{subsection.C.2}{Runtime and Semantic Flags \(\044fflags\)}{appendix.C}% 162
+\BOOKMARK [2][-]{subsection.C.3}{General/Optimization Flags \(\044oflags\)}{appendix.C}% 163
+\BOOKMARK [1][-]{appendix.D}{Precision and Linter Strategy}{}% 164
+\BOOKMARK [2][-]{subsection.D.1}{Precision}{appendix.D}% 165
+\BOOKMARK [3][-]{subsubsection.D.1.1}{ISO Fortran and Portable Precision}{subsection.D.1}% 166
+\BOOKMARK [3][-]{subsubsection.D.1.2}{Controlling Real Precision with a Single Definition}{subsection.D.1}% 167
+\BOOKMARK [2][-]{subsection.D.2}{Using a Fortran Linter on Legacy Code}{appendix.D}% 168
+\BOOKMARK [3][-]{subsubsection.D.2.1}{What a Linter Can Do}{subsection.D.2}% 169
+\BOOKMARK [3][-]{subsubsection.D.2.2}{What a Linter Cannot Do}{subsection.D.2}% 170
+\BOOKMARK [3][-]{subsubsection.D.2.3}{Summary}{subsection.D.2}% 171
+\BOOKMARK [1][-]{appendix.E}{Rustic Linter - Full Results From Compiling With Flags}{}% 172
+\BOOKMARK [2][-]{subsection.E.1}{oflags}{appendix.E}% 173
+\BOOKMARK [2][-]{subsection.E.2}{fflags}{appendix.E}% 174
+\BOOKMARK [2][-]{subsection.E.3}{Wflags}{appendix.E}% 175

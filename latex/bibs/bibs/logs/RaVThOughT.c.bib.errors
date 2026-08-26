@@ -1,0 +1,11 @@
+Line 1: Escaped '%' in line: \%\% This BibTeX bibliography file was created using BibDesk.
+Line 2: Escaped '%' in line: \%\% https://bibdesk.sourceforge.io/
+Line 4: Escaped '%' in line: \%\% Created for Daniel M. Topa at 2024-12-22 11:20:46 -0700
+Line 7: Escaped '%' in line: \%\% Saved with string encoding Unicode (UTF-8)
+Line 28: Escaped '%' in line: bdsk-url-2 = {https://doi.org/Not\%20Available}}
+Line 52: Invalid month 'July' found; consider fixing.
+Line 63: Escaped '%' in line: A computational study of fluidic counterflow thrust vectoring was conducted, utilizing the PAB3D computational fluid dynamics code with two-equation turbulence closure and Reynolds stress modeling. The study validated computational results against experimental data and explored the physics of counterflow-induced thrust vectoring. It was revealed that effective vectoring can be achieved with less than 1\\% secondary flow requirements. Insights into shear layer dynamics and pressure gradients were presented, offering implications for improved control in multi-functional propulsion systems.
+Line 67: Escaped '&' in line: booktitle = {35th AIAA/ASME/SAE/ASEE Joint Propulsion Conference \\& Exhibit},
+Line 69: Invalid month 'June' found; consider fixing.
+Line 157: Invalid month 'June' found; consider fixing.
+Line 165: Invalid month '12' found; consider fixing.

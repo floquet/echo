@@ -1,0 +1,397 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for Daniel Topa at 2025-05-02 00:04:14 -0600 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@misc{wu2022legionprof,
+	author = {Wei Wu and Seema Mirchandaney and Elliott Slaughter},
+	date-added = {2025-05-02 00:04:09 -0600},
+	date-modified = {2025-05-02 00:04:09 -0600},
+	howpublished = {Presented at the Legion Retreat 2022},
+	institution = {NVIDIA and SLAC National Accelerator Laboratory},
+	note = {Slide deck},
+	title = {Legion Profiler},
+	url = {https://theory.stanford.edu/~aiken/LegionRetreat22/slides/wu.pdf},
+	year = {2022},
+	bdsk-url-1 = {https://theory.stanford.edu/~aiken/LegionRetreat22/slides/wu.pdf}}
+
+@inproceedings{treichler2014realm,
+	abstract = {We present Realm, an event-based runtime system for heterogeneous, distributed memory machines. Realm is fully
+asynchronous: all runtime actions are non-blocking. Realm
+supports spawning computations, moving data, and reservations, a novel synchronization primitive. Asynchrony is
+exposed via a light-weight event system capable of operating without central management.
+We describe an implementation of Realm that relies on a
+novel generational event data structure for efficiently handling large numbers of events in a distributed address space.
+Microbenchmark experiments show our implementation of
+Realm approaches the underlying hardware performance limits. We measure the performance of three real-world applications on the Keeneland supercomputer. Our results
+demonstrate that Realm confers considerable latency hiding to clients, attaining significant speedups over traditional
+bulk-synchronous and independently optimized MPI codes.},
+	author = {Treichler, Sean and Bauer, Michael and Aiken, Alex},
+	booktitle = {Proceedings of the 23rd international conference on Parallel architectures and compilation},
+	date-added = {2025-04-28 10:35:53 -0600},
+	date-modified = {2025-04-28 10:36:54 -0600},
+	pages = {263--276},
+	title = {Realm: An event-based low-level runtime for distributed memory architectures},
+	url = {https://dl-acm-org.libproxy.unm.edu/doi/pdf/10.1145/2628071.2628084},
+	year = {2014},
+	bdsk-url-1 = {https://dl-acm-org.libproxy.unm.edu/doi/pdf/10.1145/2628071.2628084}}
+
+@inproceedings{lee2018dynamic,
+	abstract = {Many recent programming systems for both supercomputing and data center workloads generate task graphs to express computations that run on parallel and distributed machines. Due to the overhead associated with constructing these graphs the dependence analysis that generates them is often statically computed and memoized, and the resulting graph executed repeatedly at runtime. However, many applications require a dynamic dependence analysis due to data dependent behavior, but there are new challenges in capturing and re- executing task graphs at runtime. In this work, we introduce dynamic tracing, a technique to capture a dynamic dependence analysis of a trace that generates a task graph, and replay it. We show that an implementation of dynamic tracing improves strong scaling by an average of 4.9× and up to 7.0× on a suite of already optimized benchmarks.},
+	author = {Lee, Wonchan and Slaughter, Elliott and Bauer, Michael and Treichler, Sean and Warszawski, Todd and Garland, Michael and Aiken, Alex},
+	booktitle = {SC18: International Conference for High Performance Computing, Networking, Storage and Analysis},
+	date-added = {2025-04-28 10:33:56 -0600},
+	date-modified = {2025-04-28 10:34:49 -0600},
+	organization = {IEEE},
+	pages = {441--453},
+	title = {Dynamic tracing: Memoization of task graphs for dynamic task-based runtimes},
+	url = {http://theory.stanford.edu.libproxy.unm.edu/~aiken/publications/papers/sc18.pdf},
+	year = {2018},
+	bdsk-url-1 = {http://theory.stanford.edu.libproxy.unm.edu/~aiken/publications/papers/sc18.pdf}}
+
+@inproceedings{8287762,
+	abstract = {Accessing external resources (e.g., loading input data, checkpointing snapshots, and out-of-core processing) can have a significant impact on the performance of supercomputer applications. However, no existing programming systems for high-performance computing directly manage and optimize these external accesses. As a result, users must explicitly manage external accesses alongside their computation at the application level, which can result in both correctness and performance issues. We address this limitation by introducing Iris, a task-based programming model with semantics for external resources. Iris allows applications to describe their access requirements to external resources and the relationship of those accesses to the computation. Iris incorporates external I/O into a deferred execution model, reschedules external I/O to overlap I/O with computation, and reduces external I/O when possible. We evaluate Iris on three microbenchmarks representative of important workloads in HPC and a full combustion simulation, S3D. We demonstrate that the Iris implementation of S3D reduces the external I/O overhead by up to 20×, compared to the Legion and the Fortran implementations.},
+	author = {Jia, Zhihao and Treichler, Sean and Shipman, Galen and Bauer, Michael and Watkins, Noah and Maltzahn, Carlos and McCormick, Patrick and Aiken, Alex},
+	booktitle = {2017 IEEE 24th International Conference on High Performance Computing (HiPC)},
+	date-added = {2025-04-23 19:53:04 -0600},
+	date-modified = {2025-04-23 19:53:31 -0600},
+	doi = {10.1109/HiPC.2017.00043},
+	keywords = {Task analysis;Iris recognition;Runtime;Computational modeling;Coherence;Programming;Semantics;External Resource;I/O;Task Based Programming Model;Deferred Execution},
+	pages = {307-316},
+	title = {Integrating External Resources with a Task-Based Programming Model},
+	year = {2017},
+	bdsk-url-1 = {https://doi.org/10.1109/HiPC.2017.00043}}
+
+@article{charles1997convergence,
+	author = {Charles, ED and Tatum, JB},
+	date-added = {2025-04-21 15:01:37 -0600},
+	date-modified = {2025-04-21 15:01:37 -0600},
+	journal = {Celestial Mechanics and Dynamical Astronomy},
+	pages = {357--372},
+	publisher = {Springer},
+	title = {The convergence of Newton--Raphson iteration with Kepler's equation},
+	volume = {69},
+	year = {1997}}
+
+@inproceedings{slaughter2015regent,
+	abstract = {We present Regent, a high-productivity programming language for high performance computing with logical regions. Regent users compose programs with tasks (functions eligible for parallel execution) and logical regions (hierarchical collections of structured objects). Regent programs appear to execute sequentially, require no explicit synchronization, and are trivially deadlock-free. Regent's type system catches many common classes of mistakes and guarantees that a program with correct serial execution produces identical results on parallel and distributed machines.
+We present an optimizing compiler for Regent that translates Regent programs into efficient implementations for Legion, an asynchronous task-based model. Regent employs several novel compiler optimizations to minimize the dynamic overhead of the runtime system and enable efficient operation. We evaluate Regent on three benchmark applications and demonstrate that Regent achieves performance comparable to hand-tuned Legion.},
+	author = {Slaughter, Elliott and Lee, Wonchan and Treichler, Sean and Bauer, Michael and Aiken, Alex},
+	booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+	date-added = {2025-04-17 22:29:07 -0600},
+	date-modified = {2025-04-17 22:30:13 -0600},
+	pages = {1--12},
+	title = {Regent: a high-productivity programming language for HPC with logical regions},
+	url = {https://dl.acm.org/doi/pdf/10.1145/2807591.2807629},
+	year = {2015},
+	bdsk-url-1 = {https://dl.acm.org/doi/pdf/10.1145/2807591.2807629}}
+
+@inproceedings{slaughter2019pygion,
+	abstract = {Dynamic languages provide the flexibility needed to implement expressive support for task-based parallel programming constructs. We present Pygion, a Python interface for the Legion task-based programming system, and show that it can provide features comparable to Regent, a statically typed programming language with dedicated support for the Legion programming model. Furthermore, we show that the dynamic nature of Python permits the implementation of several key optimizations (index launches, futures, mapping) currently implemented in the Regent compiler. Together these features enable Pygion code that is comparable in expressiveness but more flexible than Regent, and substantially more concise, less error prone, and easier to use than C++ Legion code. Pygion is designed to interoperate with Regent and can use Regent to generate high- performance CPU and GPU kernel implementations. We show that, in combination with high-performance kernels written in Regent, Pygion is able to achieve efficient, scalable execution on up to 512 nodes of the heterogeneous supercomputer Piz Daint.},
+	author = {Slaughter, Elliott and Aiken, Alex},
+	booktitle = {2019 IEEE/ACM Parallel Applications Workshop, Alternatives To MPI (PAW-ATM)},
+	date-added = {2025-04-17 22:25:26 -0600},
+	date-modified = {2025-04-17 22:26:13 -0600},
+	organization = {IEEE},
+	pages = {58--72},
+	title = {Pygion: Flexible, scalable task-based parallelism with python},
+	url = {https://elliottslaughter.com/pdfs/pawatm2019.pdf},
+	year = {2019},
+	bdsk-url-1 = {https://elliottslaughter.com/pdfs/pawatm2019.pdf}}
+
+@article{maedatask,
+	abstract = {There is an ever-growing demand for integrated computational modeling and analysis of complex systems in various areas of science and engineering. In addition to massive high-fidelity simulations, combinations of a large number of simulation runs at various levels of fidelity and parameters as well as parallel data processing are required for control, design, and optimization for practical engineering applications. The effective use of high-performance computing (HPC) systems is a key challenge to address these demands. Meanwhile, modern HPC systems are rapidly evolving into heterogeneous machines featuring different kinds of processors, such as GPUs and CPUs, and deep memory hierarchies (Mittal & Vetter 2015). Many physics-based simulation and data-analysis tools, such as computational fluid dynamics (CFD) solvers, have been designed for a single kind of processor based on the single program, multiple data (SPMD) technique realized by explicit parallel programming models like the message passing interface (MPI)(Gropp et al. 1999). Adaptation of these tools to heterogeneous machines often requires cumbersome programming since one has to explicitly implement parallelism to specify, for instance, domain decomposition, inter-processor communication, and data movement among the memory hierarchies. The twofold complexity of targeted applications and machine architectures is becoming a critical drawback for work efficiency. Implicit parallelism is a characteristic of programming models that allows a compiler or interpreter to automatically exploit the parallelism inherent in the computations expressed by the language's constructs, easing the need for the programmer to manually implement parallelism. In practice, implicit parallelism is realized by task-based programming, in which a program is split into a set of tasks which can be distributed and executed concurrently (eg, Thoman et al. 2018; Slaughter et al. 2020). Since the tasks can be in principle heterogeneous and their execution can be asynchronous, various kinds of task ensembles can potentially be efficiently parallelized without extensive programming efforts. Implicit parallel programming models can therefore be suitable for building complex software applications on heterogeneous systems. Of the various programming systems, the Legion programming system (hereafter Legion) is an implicit, task-based parallel programming model conceived for distributed heterogeneous architectures (Bauer et al. 2012). Legion features abstraction to describe properties of program data (eg, independence, locality) as well as high-level languages and interfaces to address its application programming interface (API), notable of which in the present context are Regent, Pygion, and the C++ mapping interface (mapper). Regent is a generative, task-based programming language interfacing Legion's API (Slaughter et al. 2015). Pygion is a Python-API of Legion which enables the direct use of general Python libraries in tasks executed in the Legion runtime (Slaughter & Aiken 2019). The mapper provides programmer controlled},
+	author = {Maeda, K and Teixeira, T},
+	date-added = {2025-04-17 22:18:58 -0600},
+	date-modified = {2025-04-17 22:22:52 -0600},
+	title = {Task-based framework for physics-based ensemble simulation and in situ data processing},
+	url = {https://www.researchgate.net/profile/Kazuki-Maeda-3/publication/367283641_Task-based_framework_for_physics-based_ensemble_simulation_and_in_situ_data_processing/links/63daa3a764fc860638057038/Task-based-framework-for-physics-based-ensemble-simulation-and-in-situ-data-processing.pdf},
+	bdsk-url-1 = {https://www.researchgate.net/profile/Kazuki-Maeda-3/publication/367283641_Task-based_framework_for_physics-based_ensemble_simulation_and_in_situ_data_processing/links/63daa3a764fc860638057038/Task-based-framework-for-physics-based-ensemble-simulation-and-in-situ-data-processing.pdf}}
+
+@article{treichler2013language,
+	abstract = {Applications written for distributed-memory parallel architectures must partition their data to enable parallel execution. As memory hierarchies become deeper, it is increasingly necessary that the data partitioning also be hierarchical
+to match. Current language proposals perform this hierarchical partitioning statically, which excludes many important
+applications where the appropriate partitioning is itself data
+dependent and so must be computed dynamically. We describe Legion, a region-based programming system, where
+each region may be partitioned into subregions. Partitions
+are computed dynamically and are fully programmable. The
+division of data need not be disjoint and subregions of a region may overlap, or alias one another. Computations use
+regions with certain privileges (e.g., expressing that a computation uses a region read-only) and data coherence (e.g.,
+expressing that the computation need only be atomic with
+respect to other operations on the region), which can be controlled on a per-region (or subregion) basis.
+We present the novel aspects of the Legion design, in particular the combination of static and dynamic checks used to
+enforce soundness. We give an extended example illustrating
+how Legion can express computations with dynamically determined relationships between computations and data partitions. We prove the soundness of Legion's type system, and
+show Legion type checking improves performance by up to
+71\% by eliding provably safe memory checks. In particular, we show that the dynamic checks to detect aliasing at
+runtime at the region granularity have negligible overhead.
+We report results for three real-world applications running
+on distributed memory machines, achieving up to 62.5X
+speedup on 96 GPUs on the Keeneland supercomputer.},
+	author = {Treichler, Sean and Bauer, Michael and Aiken, Alex},
+	date-added = {2025-04-17 21:39:55 -0600},
+	date-modified = {2025-04-17 21:41:55 -0600},
+	journal = {ACM SIGPLAN Notices},
+	number = {10},
+	pages = {495--514},
+	publisher = {ACM New York, NY, USA},
+	title = {Language support for dynamic, hierarchical data partitioning},
+	url = {https://www-cs.stanford.edu/~sjt/pubs/oopsla13a-extended.pdf},
+	volume = {48},
+	year = {2013},
+	bdsk-url-1 = {https://www-cs.stanford.edu/~sjt/pubs/oopsla13a-extended.pdf}}
+
+@inproceedings{treichler2016dependent,
+	abstract = {A key problem in parallel programming is how data is parti-
+tioned: divided into subsets that can be operated on in paral-
+lel and, in distributed memory machines, spread across mul-
+tiple address spaces.
+We present a dependent partitioning framework that al-
+lows an application to concisely describe relationships be-
+tween partitions. Applications first establish independent
+partitions, which may contain arbitrary subsets of applica-
+tion data, permitting the expression of arbitrary application-
+specific data distributions. Dependent partitions are then
+derived from these using the dependent partitioning oper-
+ations provided by the framework. By directly capturing
+inter-partition relationships, our framework can soundly and
+precisely reason about programs to perform important pro-
+gram analyses crucial to ensuring correctness and achieving
+good performance. As an example of the reasoning made
+possible, we present a static analysis that discharges most
+consistency checks on partitioned data during compilation.
+We describe an implementation of our framework within
+Regent, a language designed for the Legion programming
+model. The use of dependent partitioning constructs results
+in a 86-96\% decrease in the lines of code required to de-
+scribe the partitioning, eliminates many of the expensive dy-
+namic checks required for soundness by the current Regent
+partitioning implementation, and speeds up the computation
+of partitions by 2.6-12.7X even on a single thread. Addition-
+ally, we show that a distributed implementation incorporated
+into the the Legion runtime system allows partitioning of
+data sets that are too large to fit on a single node and yields a
+further 29X speedup of partitioning operations on 64 nodes.},
+	author = {Treichler, Sean and Bauer, Michael and Sharma, Rahul and Slaughter, Elliott and Aiken, Alex},
+	booktitle = {Proceedings of the 2016 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications},
+	date-added = {2025-04-17 21:39:39 -0600},
+	date-modified = {2025-04-17 21:47:34 -0600},
+	pages = {344--358},
+	title = {Dependent partitioning},
+	url = {https://theory.stanford.edu/~aiken/publications/papers/oopsla16.pdf},
+	year = {2016},
+	bdsk-url-1 = {https://theory.stanford.edu/~aiken/publications/papers/oopsla16.pdf}}
+
+@techreport{chen2015legion,
+	author = {Chen, Jacqueline H},
+	date-added = {2025-04-17 21:39:25 -0600},
+	date-modified = {2025-04-17 21:39:25 -0600},
+	institution = {Sandia National Lab.(SNL-CA), Livermore, CA (United States)},
+	title = {Legion as a Programming Model for Combustion Simulation at the Exascale.},
+	year = {2015}}
+
+@inproceedings{yu2016legion,
+	abstract = {We present a study of scientific data analytics on
+heterogeneous architectures using the Legion runtime system.
+Legion is a new programming model and runtime system
+targeting distributed heterogeneous architectures. It introduces
+logical regions as a new abstraction for describing the structures and usages of program data. We describe how to leverage
+logical regions to express important properties of program
+data, such as locality and independence, for scientific data
+analytics that can consist of multiple operations with different
+data types. Our approach can help users simplify programming
+on the data partition, data organization, and data movement
+for distributed-memory heterogeneous architectures, thereby
+facilitating a simultaneous execution of multiple analytics operations on modern and future supercomputers. We demonstrate
+the scalability and the usability of our approach by a hybrid
+data partitioning and distribution scheme for different data
+types using both CPUs and GPUs on a heterogeneous system.},
+	author = {Yu, Lina and Yu, Hongfeng},
+	booktitle = {2016 IEEE International Conference on Big Data (Big Data)},
+	date-added = {2025-04-17 21:34:46 -0600},
+	date-modified = {2025-04-17 21:37:56 -0600},
+	organization = {IEEE},
+	pages = {2305--2314},
+	title = {Legion-based scientific data analytics on heterogeneous processors},
+	url = {https://cse.unl.edu/~yu/homepage/publications/paper/2016.Legion-based%20Scientific%20Data%20Analytics%20on%20Heterogeneous%20Processors.pdf},
+	year = {2016},
+	bdsk-url-1 = {https://cse.unl.edu/~yu/homepage/publications/paper/2016.Legion-based%20Scientific%20Data%20Analytics%20on%20Heterogeneous%20Processors.pdf}}
+
+@inproceedings{bauer2012legion,
+	abstract = {Modern parallel architectures have both heterogeneous processors and deep, complex memory hierarchies. We present Legion, a programming model and runtime system for achieving high performance on these machines. Legion is organized around logical regions, which express both locality and independence of program data, and tasks, functions that perform computations on regions. We describe a runtime system that dynamically extracts parallelism from Legion programs, using a distributed, parallel scheduling algorithm that identifies both independent tasks and nested parallelism. Legion also enables explicit, programmer controlled movement of data through the memory hierarchy and placement of tasks based on locality information via a novel mapping interface. We evaluate our Legion implementation on three applications: fluid-flow on a regular grid, a three-level AMR code solving a heat diffusion equation, and a circuit simulation.},
+	author = {Bauer, Michael and Treichler, Sean and Slaughter, Elliott and Aiken, Alex},
+	booktitle = {SC'12: Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis},
+	date-added = {2025-04-16 16:33:36 -0600},
+	date-modified = {2025-04-16 16:33:50 -0600},
+	organization = {IEEE},
+	pages = {1--11},
+	title = {Legion: Expressing locality and independence with logical regions},
+	year = {2012}}
+
+@inproceedings{murakami2021processor,
+	abstract = {In recent years, machine learning has become widespread. Since machine learning algorithms have become complex and the amount of data to be handled have become large, the execution times of machine learning programs have been increasing. Processors called accelerators can contribute to the execution of a machine learning program with a short time. However, the processors including the accelerators have different characteristics. Therefore, it is unclear whether existing machine learning programs are executed on the appropriate processor or not. This paper proposes a method for selecting a processor suitable for each machine learning program. In the proposed method, the selection is based on the estimation of the execution time of machine learning programs on each processor. The proposed method does not need to execute a target machine learning program in advance. From the experimental results, it is clarified that the proposed method can achieve up to 5.3 times faster execution than the original implementation by NumPy. These results prove that the proposed method can be used in a system that automatically selects the processor so that each machine learning program can be easily executed on the best processor.},
+	author = {Murakami, Kou and Komatsu, Kazuhiko and Sato, Masayuki and Kobayashi, Hiroaki},
+	booktitle = {2021 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)},
+	date-added = {2025-04-16 12:04:53 -0600},
+	date-modified = {2025-04-16 12:08:12 -0600},
+	organization = {IEEE},
+	pages = {779--788},
+	title = {A processor selection method based on execution time estimation for machine learning programs},
+	url = {https://ieeexplore-ieee-org.libproxy.unm.edu/stamp/stamp.jsp?arnumber=9460592},
+	year = {2021},
+	bdsk-url-1 = {https://ieeexplore-ieee-org.libproxy.unm.edu/stamp/stamp.jsp?arnumber=9460592}}
+
+@inproceedings{herten2023many,
+	abstract = {In recent history, GPUs became a key driver of compute performance in HPC. With the installation of the Frontier supercomputer, they became the enablers of the Exascale era; further largest-scale installations are in progress (Aurora, El Capitan, JUPITER). But the early-day dominance by NVIDIA and their CUDA programming model has changed: The current HPC GPU landscape features three vendors (AMD, Intel, NVIDIA), each with native and derived programming models. The choices are ample, but not all models are supported on all platforms, especially if support for Fortran is needed; in addition, some restrictions might apply. It is hard for scientific programmers to navigate this abundance of choices and limits. This paper gives a guide by matching the GPU platforms with supported programming models, presented in a concise table and further elaborated in detailed comments. An assessment is made regarding the level of support of a model on a platform},
+	author = {Herten, Andreas},
+	booktitle = {Proceedings of the SC'23 Workshops of the International Conference on High Performance Computing, Network, Storage, and Analysis},
+	date-added = {2025-04-16 12:04:15 -0600},
+	date-modified = {2025-04-16 12:07:58 -0600},
+	pages = {1019--1026},
+	title = {Many cores, many models: GPU programming model vs. vendor compatibility overview},
+	url = {https://dl-acm-org.libproxy.unm.edu/doi/pdf/10.1145/3624062.3624178},
+	year = {2023},
+	bdsk-url-1 = {https://dl-acm-org.libproxy.unm.edu/doi/pdf/10.1145/3624062.3624178}}
+
+@inproceedings{gotz2020heat,
+	abstract = {---To cope with the rapid growth in available data, the efficiency o f data analysis and machine learning libraries has recently received increased attention. Although great advancements have been made in traditional array-based computations, most are limited by the resources available on a single computation node. Consequently, novel approaches must be made to exploit distributed resources, e.g. distributed memory architectures. To this end, we introduce HeAT, an array-based numerical programming framework for large-scale parallel processing with an easy-to-use NumPy-like API. HeAT utilizes PyTorch as a node-local eager execution engine and distributes the workload on arbitrarily large high-performance computing systems via MPI. It provides both low-level array computations, as well as assorted higher-level algorithms. With HeAT, it is possible for a NumPy user to take full advantage of their available resources, significantly l owering t he b arrier t o d istributed d ata analysis. When compared to similar frameworks, HeAT achieves speedups of up to two orders of magnitude.},
+	author = {G{\"o}tz, Markus and Debus, Charlotte and Coquelin, Daniel and Krajsek, Kai and Comito, Claudia and Knechtges, Philipp and Hagemeier, Bj{\"o}rn and Tarnawa, Michael and Hanselmann, Simon and Siggel, Martin and others},
+	booktitle = {2020 IEEE International Conference on Big Data (Big Data)},
+	date-added = {2025-04-16 12:04:04 -0600},
+	date-modified = {2025-04-16 12:16:54 -0600},
+	organization = {IEEE},
+	pages = {276--287},
+	title = {HeAT--a distributed and GPU-accelerated tensor framework for data analytics},
+	url = {https://ieeexplore-ieee-org.libproxy.unm.edu/stamp/stamp.jsp?arnumber=9378050},
+	year = {2020},
+	bdsk-url-1 = {https://ieeexplore-ieee-org.libproxy.unm.edu/stamp/stamp.jsp?arnumber=9378050}}
+
+@inproceedings{wang2022swpy,
+	abstract = {The NumPy computational library, the most typical scientific computing library in Python, is generally limited to a single-node or multi-threaded CPU-only execution model. With the increasing size of datasets, the increasing complexity of programs, and their growing computational overhead, these resources are far beyond what a single CPU node can provide, and there is a growing need to solve these problems by utilizing more massive computational resources. In this paper, we port the NumPy numerical computation library for domestic heterogeneous multicore processors and make full use of the huge computational resources of sunway multicore processors to optimize the parallel acceleration of common key functions in the NumPy library, forming the heterogeneous multicore Python computation library - SWPy. },
+	author = {Wang, Qihan and Pang, Jianming and Yue, Feng and Yang, Shudan},
+	booktitle = {2022 IEEE 10th Joint International Information Technology and Artificial Intelligence Conference (ITAIC)},
+	date-added = {2025-04-16 12:03:51 -0600},
+	date-modified = {2025-04-16 14:56:50 -0600},
+	organization = {IEEE},
+	pages = {1171--1178},
+	title = {SWPy: Python numerical computing library optimization for domestic many-core processors},
+	url = {https://ieeexplore-ieee-org.libproxy.unm.edu/stamp/stamp.jsp?arnumber=9836688},
+	volume = {10},
+	year = {2022},
+	bdsk-url-1 = {https://ieeexplore-ieee-org.libproxy.unm.edu/stamp/stamp.jsp?arnumber=9836688}}
+
+@inproceedings{bauer2021scaling,
+	author = {Bauer, Michael and Lee, Wonchan and Slaughter, Elliott and Jia, Zhihao and Di Renzo, Mario and Papadakis, Manolis and Shipman, Galen and McCormick, Patrick and Garland, Michael and Aiken, Alex},
+	booktitle = {Proceedings of the 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming},
+	date-added = {2025-04-16 12:03:38 -0600},
+	date-modified = {2025-04-16 12:03:38 -0600},
+	pages = {105--118},
+	title = {Scaling implicit parallelism via dynamic control replication},
+	year = {2021}}
+
+@article{ziogas2025productivity,
+	abstract = {Python has become the de facto language for scientific computing. Programming in Python is highly productive, mainly due to its rich science-oriented software ecosystem built around the NumPy module. As a result, the demand for Python support in High Performance Computing (HPC) has skyrocketed. However, the Python language itself does not necessarily offer high performance. In this work, we present a workflow that retains Python's high productivity while achieving portable performance across different architectures. The workflow's key features are HPC-oriented language extensions and a set of automatic optimizations powered by a data-centric intermediate representation. We show performance results and scaling across CPU, GPU, FPGA, and the Piz Daint supercomputer (up to 23,328 cores), with 2.47x and 3.75x speedups over previous-best solutions, first-ever Xilinx and Intel FPGA results of annotated Python, and up to 93.16% scaling efficiency on 512 nodes.},
+	author = {Ziogas, Alexandros Nikolaos and Schneider, Timo and Ben-Nun, Tal and Calotoiu, Alexandru and De Matteis, Tiziano and de Fine Licht, Johannes and Lavarini, Luca and Hoefler, Torsten},
+	date-added = {2025-04-16 11:46:07 -0600},
+	date-modified = {2025-04-16 12:09:46 -0600},
+	journal = {IEEE Transactions on Parallel and Distributed Systems},
+	number = {5},
+	pages = {804--820},
+	publisher = {IEEE},
+	title = {Productivity, Portability, Performance, and Reproducibility: Data-Centric Python},
+	url = {https://dl-acm-org.libproxy.unm.edu/doi/pdf/10.1145/3458817.3476176},
+	volume = {36},
+	year = {2025},
+	bdsk-url-1 = {https://dl-acm-org.libproxy.unm.edu/doi/pdf/10.1145/3458817.3476176}}
+
+@inproceedings{ziogas2021productivity,
+	abstract = {Python has become the de facto language for scientific computing. Programming in Python is highly productive, mainly due to its rich science-oriented software ecosystem built around the NumPy module. As a result, the demand for Python support in High-Performance Computing (HPC) has skyrocketed. However, the Python language itself does not necessarily offer high performance. This work presents a workflow that retains Python's high productivity while achieving portable performance across different architectures. The workflow's key features are HPC-oriented language extensions and a set of automatic optimizations powered by a data-centric intermediate representation. We show performance results and scaling across CPU, GPU, FPGA, and the Piz Daint supercomputer (up to 23,328 cores), with 2.47x and 3.75x speedups over previous-best solutions, first-ever Xilinx and Intel FPGA results of annotated Python, and up to 93.16% scaling efficiency on 512 nodes. Our benchmarks were reproduced in the Student Cluster Competition (SCC) during the Supercomputing Conference (SC) 2022. We present and discuss the student teams' results. },
+	author = {Ziogas, Alexandros Nikolaos and Schneider, Timo and Ben-Nun, Tal and Calotoiu, Alexandru and De Matteis, Tiziano and de Fine Licht, Johannes and Lavarini, Luca and Hoefler, Torsten},
+	booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+	date-added = {2025-04-16 11:42:29 -0600},
+	date-modified = {2025-04-16 12:08:22 -0600},
+	pages = {1--13},
+	title = {Productivity, portability, performance: Data-centric Python},
+	url = {https://ieeexplore-ieee-org.libproxy.unm.edu/stamp/stamp.jsp?arnumber=10960277},
+	year = {2021},
+	bdsk-url-1 = {https://ieeexplore-ieee-org.libproxy.unm.edu/stamp/stamp.jsp?arnumber=10960277}}
+
+@article{yadavperformance,
+	author = {Yadav, Rohan},
+	date-added = {2025-04-16 11:42:11 -0600},
+	date-modified = {2025-04-16 11:42:11 -0600},
+	title = {Performance Accessibility Through Distributed Array Programming}}
+
+@inproceedings{sundram2022task,
+	abstract = {We present distributed task fusion, a runtime optimization for task-based runtimes operating on parallel and heterogeneous systems. Distributed task fusion dynamically performs an efficient buffering, analysis, and fusion of asynchronously-evaluated distributed operations, reducing the overheads inherent to scheduling distributed tasks in implicitly parallel frameworks and runtimes. We identify the constraints under which distributed task fusion is permissible and describe an implementation in Legate, a domain-agnostic library for constructing portable and scalable task-based libraries. We present performance results using cuNumeric, a Legate library that enables scalable execution of NumPy pipelines on parallel and heterogeneous systems. We realize speedups up to 1.5x with task fusion enabled on up to 32 P100 GPUs, thus demonstrating efficient execution of pipelines involving many successive finegrained tasks. Finally, we discuss potential future work, including complementary optimizations that could result in additional performance improvements.},
+	author = {Sundram, Shiv and Lee, Wonchan and Aiken, Alex},
+	booktitle = {2022 IEEE/ACM Parallel Applications Workshop: Alternatives To MPI+ X (PAW-ATM)},
+	date-added = {2025-04-16 11:41:57 -0600},
+	date-modified = {2025-04-16 12:08:46 -0600},
+	organization = {IEEE},
+	pages = {13--25},
+	title = {Task Fusion in Distributed Runtimes},
+	year = {2022}}
+
+@article{dally2021evolution,
+	author = {Dally, William J and Keckler, Stephen W and Kirk, David B},
+	date-added = {2025-04-16 11:41:45 -0600},
+	date-modified = {2025-04-16 11:41:45 -0600},
+	journal = {IEEE Micro},
+	number = {6},
+	pages = {42--51},
+	publisher = {IEEE},
+	title = {Evolution of the graphics processing unit (GPU)},
+	volume = {41},
+	year = {2021}}
+
+@article{bauer2021supercomputing,
+	abstract = {Legate is a recently developed software system for constructing scalable simulation and data analysis programs using convenient, familiar notation. It demonstrates how coupling Python, with a runtime system originally designed for high-performance computing, can enable the creation of libraries that mimic the familiar interface of NumPy and Pandas for execution on both desktops and supercomputers.},
+	author = {Bauer, Michael and Lee, Wonchan and Papadakis, Manolis and Zalewski, Marcin and Garland, Michael},
+	date-added = {2025-04-16 11:41:33 -0600},
+	date-modified = {2025-04-16 12:08:51 -0600},
+	journal = {Computing in Science \& Engineering},
+	number = {4},
+	pages = {73--79},
+	publisher = {IEEE},
+	title = {Supercomputing in python with legate},
+	url = {https://ieeexplore-ieee-org.libproxy.unm.edu/stamp/stamp.jsp?arnumber=9500090},
+	volume = {23},
+	year = {2021},
+	bdsk-url-1 = {https://ieeexplore-ieee-org.libproxy.unm.edu/stamp/stamp.jsp?arnumber=9500090}}
+
+@inproceedings{yadav2023legate,
+	abstract = {The sparse module of the popular SciPy Python library is widely used across applications in scientific computing, data analysis 
+            and machine learning. The standard implementation of SciPy is restricted to a single CPU and cannot take advantage of modern distributed 
+            and accelerated computing resources. We introduce Legate Sparse, a system that transparently distributes and accelerates unmodified 
+            sparse matrix-based SciPy programs across clusters of CPUs and GPUs, and composes with cuNumeric, a distributed NumPy library. Legate 
+            Sparse uses a combination of static and dynamic techniques to efficiently compose independently written sparse and dense array 
+            programming libraries, providing a unified Python interface for distributed sparse and dense array computations. We show that Legate 
+            Sparse is competitive with single-GPU libraries like CuPy and achieves 65\% of the performance of PETSc on up to 1280 CPU cores and 
+            192 GPUs of the Summit supercomputer, while offering the productivity benefits of idiomatic SciPy and NumPy.},
+	author = {Yadav, Rohan and Lee, Wonchan and Elibol, Melih and Papadakis, Manolis and Lee-Patti, Taylor and Garland, Michael and Aiken, Alex and Kjolstad, Fredrik and Bauer, Michael},
+	booktitle = {Proceedings of the international conference for high performance computing, networking, storage and analysis},
+	date-added = {2025-04-16 11:41:22 -0600},
+	date-modified = {2025-04-16 12:09:00 -0600},
+	pages = {1--13},
+	title = {Legate sparse: distributed sparse computing in python},
+	url = {https://dl-acm-org.libproxy.unm.edu/doi/pdf/10.1145/3581784.3607033},
+	year = {2023},
+	bdsk-url-1 = {https://dl-acm-org.libproxy.unm.edu/doi/pdf/10.1145/3581784.3607033}}
+
+@inproceedings{bauer2019legate,
+	abstract = {NumPy is a popular Python library used for performing arraybased numerical computations. The canonical implementation of NumPy used by most programmers runs on a single CPU core and is parallelized to use multiple cores for some operations. This restriction to a single-node CPU-only execution limits both the size of data that can be handled and the potential speed of NumPy code. In this work we introduce Legate, a drop-in replacement for NumPy that requires only a single-line code change and can scale up to an arbitrary number of GPU accelerated nodes. Legate works by translating NumPy programs to the Legion programming model and then leverages the scalability of the Legion runtime system to distribute data and computations across an arbitrary sized machine. Compared to similar programs written in the distributed Dask array library in Python, Legate achieves speed-ups of up to 10X on 1280 CPUs and 100X on 256 GPUs.},
+	author = {Bauer, Michael and Garland, Michael},
+	booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+	date-added = {2025-04-16 11:41:10 -0600},
+	date-modified = {2025-04-17 20:51:47 -0600},
+	pages = {1--23},
+	title = {Legate NumPy: Accelerated and distributed array computing},
+	url = {https://dl.acm.org/doi/pdf/10.1145/3295500.3356175},
+	year = {2019},
+	bdsk-url-1 = {https://dl-acm-org.libproxy.unm.edu/doi/pdf/10.1145/3295500.3356175}}

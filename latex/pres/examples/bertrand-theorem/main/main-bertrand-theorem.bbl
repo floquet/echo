@@ -1,0 +1,461 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{arnol2013mathematical}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2755fc69f695f57530bc4c405fb5809e}{%
+           family={Arnol'd},
+           familyi={A\bibinitperiod},
+           given={Vladimir\bibnamedelima Igorevich},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{2755fc69f695f57530bc4c405fb5809e}
+      \strng{fullhash}{2755fc69f695f57530bc4c405fb5809e}
+      \strng{bibnamehash}{2755fc69f695f57530bc4c405fb5809e}
+      \strng{authorbibnamehash}{2755fc69f695f57530bc4c405fb5809e}
+      \strng{authornamehash}{2755fc69f695f57530bc4c405fb5809e}
+      \strng{authorfullhash}{2755fc69f695f57530bc4c405fb5809e}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mathematical methods of classical mechanics}
+      \field{volume}{60}
+      \field{year}{2013}
+    \endentry
+    \entry{bertrand1873theoreme}{article}{}
+      \name{author}{1}{}{%
+        {{hash=055bd3eb290c8b9cdc862ed73250428c}{%
+           family={Bertrand},
+           familyi={B\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{055bd3eb290c8b9cdc862ed73250428c}
+      \strng{fullhash}{055bd3eb290c8b9cdc862ed73250428c}
+      \strng{bibnamehash}{055bd3eb290c8b9cdc862ed73250428c}
+      \strng{authorbibnamehash}{055bd3eb290c8b9cdc862ed73250428c}
+      \strng{authornamehash}{055bd3eb290c8b9cdc862ed73250428c}
+      \strng{authorfullhash}{055bd3eb290c8b9cdc862ed73250428c}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{https://gallica.bnf.fr/ark:/12148/bpt6k3034n pp. 851-855}
+      \field{journaltitle}{CR Acad. Sci}
+      \field{month}{07}
+      \field{number}{16}
+      \field{title}{Théorème relatif au mouvement d'un point attiré vers un centre fixe}
+      \field{volume}{77}
+      \field{year}{1873}
+      \field{pages}{849\bibrangedash 853}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb https://gallica.bnf.fr/ark:/12148/bpt6k3034n
+      \endverb
+      \verb{url}
+      \verb https://gallica.bnf.fr/ark:/12148/bpt6k3034n
+      \endverb
+    \endentry
+    \entry{chin2015truly}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1ad885c258fad9ac6c794789380c6978}{%
+           family={Chin},
+           familyi={C\bibinitperiod},
+           given={Siu\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing}%
+      }
+      \strng{namehash}{1ad885c258fad9ac6c794789380c6978}
+      \strng{fullhash}{1ad885c258fad9ac6c794789380c6978}
+      \strng{bibnamehash}{1ad885c258fad9ac6c794789380c6978}
+      \strng{authorbibnamehash}{1ad885c258fad9ac6c794789380c6978}
+      \strng{authornamehash}{1ad885c258fad9ac6c794789380c6978}
+      \strng{authorfullhash}{1ad885c258fad9ac6c794789380c6978}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Physics}
+      \field{number}{4}
+      \field{title}{A truly elementary proof of Bertrand's theorem}
+      \field{volume}{83}
+      \field{year}{2015}
+      \field{pages}{320\bibrangedash 323}
+      \range{pages}{4}
+    \endentry
+    \entry{goldstein2eclassical}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c0e35b6777e73243aa18df96822aa96b}{%
+           family={Goldstein},
+           familyi={G\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{c0e35b6777e73243aa18df96822aa96b}
+      \strng{fullhash}{c0e35b6777e73243aa18df96822aa96b}
+      \strng{bibnamehash}{c0e35b6777e73243aa18df96822aa96b}
+      \strng{authorbibnamehash}{c0e35b6777e73243aa18df96822aa96b}
+      \strng{authornamehash}{c0e35b6777e73243aa18df96822aa96b}
+      \strng{authorfullhash}{c0e35b6777e73243aa18df96822aa96b}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Classical mechanics}
+      \field{year}{1980}
+    \endentry
+    \entry{jose1998classical}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5de5284aceffc5e3729e57978f9a4d75}{%
+           family={Jos{é}},
+           familyi={J\bibinitperiod},
+           given={Jorge\bibnamedelima V},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=fb5d8d3a86052f583a81fd28c31bb97a}{%
+           family={Saletan},
+           familyi={S\bibinitperiod},
+           given={Eugene\bibnamedelima J},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{18f98d95bc381654e1f2c0ee7298d530}
+      \strng{fullhash}{18f98d95bc381654e1f2c0ee7298d530}
+      \strng{bibnamehash}{18f98d95bc381654e1f2c0ee7298d530}
+      \strng{authorbibnamehash}{18f98d95bc381654e1f2c0ee7298d530}
+      \strng{authornamehash}{18f98d95bc381654e1f2c0ee7298d530}
+      \strng{authorfullhash}{18f98d95bc381654e1f2c0ee7298d530}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Classical dynamics: a contemporary approach}
+      \field{year}{1998}
+    \endentry
+    \entry{jovanovic2015note}{article}{}
+      \name{author}{1}{}{%
+        {{hash=389bce38699b9e167e0db4c451b75f65}{%
+           family={Jovanović},
+           familyi={J\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{389bce38699b9e167e0db4c451b75f65}
+      \strng{fullhash}{389bce38699b9e167e0db4c451b75f65}
+      \strng{bibnamehash}{389bce38699b9e167e0db4c451b75f65}
+      \strng{authorbibnamehash}{389bce38699b9e167e0db4c451b75f65}
+      \strng{authornamehash}{389bce38699b9e167e0db4c451b75f65}
+      \strng{authorfullhash}{389bce38699b9e167e0db4c451b75f65}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Theoretical and Applied Mechanics}
+      \field{number}{1}
+      \field{title}{A note on the proof of Bertrand's theorem}
+      \field{volume}{42}
+      \field{year}{2015}
+      \field{pages}{27\bibrangedash 33}
+      \range{pages}{7}
+    \endentry
+    \entry{musgrove2020partial}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cbd8ee9f9031124b8964414e584b1ed7}{%
+           family={Musgrove},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima F},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbd8ee9f9031124b8964414e584b1ed7}
+      \strng{fullhash}{cbd8ee9f9031124b8964414e584b1ed7}
+      \strng{bibnamehash}{cbd8ee9f9031124b8964414e584b1ed7}
+      \strng{authorbibnamehash}{cbd8ee9f9031124b8964414e584b1ed7}
+      \strng{authornamehash}{cbd8ee9f9031124b8964414e584b1ed7}
+      \strng{authorfullhash}{cbd8ee9f9031124b8964414e584b1ed7}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Partial Proof of Bertrand's Theorem}
+      \field{year}{2020}
+    \endentry
+    \entry{ortega2019proof}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0c63ce1535c26c10c639d090c89fdb11}{%
+           family={Ortega},
+           familyi={O\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9bb0a821c3974de59c3108827099ea54}{%
+           family={Rojas},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{ba37ad13cf1542e159893f4f13b18b81}
+      \strng{fullhash}{ba37ad13cf1542e159893f4f13b18b81}
+      \strng{bibnamehash}{ba37ad13cf1542e159893f4f13b18b81}
+      \strng{authorbibnamehash}{ba37ad13cf1542e159893f4f13b18b81}
+      \strng{authornamehash}{ba37ad13cf1542e159893f4f13b18b81}
+      \strng{authorfullhash}{ba37ad13cf1542e159893f4f13b18b81}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Dynamics and Differential Equations}
+      \field{number}{4}
+      \field{title}{A proof of Bertrand's theorem using the theory of isochronous potentials}
+      \field{volume}{31}
+      \field{year}{2019}
+      \field{pages}{2017\bibrangedash 2028}
+      \range{pages}{12}
+    \endentry
+    \entry{quilantan1995alternative}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b44f5feea09a80a2cb0696b9fc312397}{%
+           family={Quilantán},
+           familyi={Q\bibinitperiod},
+           given={José\bibnamedelimb Luis\bibnamedelima Castro},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0d3bf8dcc5beba0807f4ef0529092bfb}{%
+           family={Río-Correa},
+           familyi={R\bibinithyphendelim C\bibinitperiod},
+           given={José\bibnamedelima Luis},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           prefix={del},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=841a5d0a65a5a18997a14a4975bcb506}{%
+           family={Medina},
+           familyi={M\bibinitperiod},
+           given={Marco\bibnamedelimb Antonio\bibnamedelima Rosales},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a581b732d7a5be4065a3531066c54f8}
+      \strng{fullhash}{9a581b732d7a5be4065a3531066c54f8}
+      \strng{bibnamehash}{9a581b732d7a5be4065a3531066c54f8}
+      \strng{authorbibnamehash}{9a581b732d7a5be4065a3531066c54f8}
+      \strng{authornamehash}{9a581b732d7a5be4065a3531066c54f8}
+      \strng{authorfullhash}{9a581b732d7a5be4065a3531066c54f8}
+      \field{sortinit}{Q}
+      \field{sortinithash}{c54e16deb53fc904a621fa8fd8703b5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Mexicana de Física}
+      \field{number}{5}
+      \field{title}{Alternative proof of Bertrand's theorem using a phase space approach}
+      \field{volume}{42}
+      \field{year}{1995}
+      \field{pages}{867\bibrangedash 877}
+      \range{pages}{11}
+    \endentry
+    \entry{santos2011english}{article}{}
+      \name{author}{3}{}{%
+        {{hash=be75a582524ef548709ad90e40fd99de}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={FC},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b7ede3e603c5198189c40f381539e7dd}{%
+           family={Soares},
+           familyi={S\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d5f59b17a409b18bce70bb13dec6b7eb}{%
+           family={Tort},
+           familyi={T\bibinitperiod},
+           given={AC},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9a5b89d5bfdaed01eacb305303e3f70}
+      \strng{fullhash}{c9a5b89d5bfdaed01eacb305303e3f70}
+      \strng{bibnamehash}{c9a5b89d5bfdaed01eacb305303e3f70}
+      \strng{authorbibnamehash}{c9a5b89d5bfdaed01eacb305303e3f70}
+      \strng{authornamehash}{c9a5b89d5bfdaed01eacb305303e3f70}
+      \strng{authorfullhash}{c9a5b89d5bfdaed01eacb305303e3f70}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Lat. Am. J. Phys. Educ}
+      \field{number}{4}
+      \field{title}{An English translation of Bertrand's theorem}
+      \field{volume}{5}
+      \field{year}{2011}
+      \field{pages}{694}
+      \range{pages}{1}
+    \endentry
+    \entry{goldstein3errata}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeltitlesource}{title}
+      \field{month}{09}
+      \field{title}{Textbook errata page}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb http://astro.physics.sc.edu/goldstein/
+      \endverb
+      \verb{url}
+      \verb http://astro.physics.sc.edu/goldstein/
+      \endverb
+      \keyw{errata,corrections,comments,goldstein,classical mechanics}
+    \endentry
+    \entry{tiersten2003errors}{article}{}
+      \name{author}{1}{}{%
+        {{hash=50cead15b68f90d2a19097355257b331}{%
+           family={Tiersten},
+           familyi={T\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {[Woodbury, NY, etc. Published for the American Association of Physics~{\ldots}}%
+      }
+      \strng{namehash}{50cead15b68f90d2a19097355257b331}
+      \strng{fullhash}{50cead15b68f90d2a19097355257b331}
+      \strng{bibnamehash}{50cead15b68f90d2a19097355257b331}
+      \strng{authorbibnamehash}{50cead15b68f90d2a19097355257b331}
+      \strng{authornamehash}{50cead15b68f90d2a19097355257b331}
+      \strng{authorfullhash}{50cead15b68f90d2a19097355257b331}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Physics}
+      \field{number}{2}
+      \field{title}{Errors in Goldstein's Classical Mechanics}
+      \field{volume}{71}
+      \field{year}{2003}
+      \field{pages}{103}
+      \range{pages}{1}
+    \endentry
+    \entry{tikochinsky1988simplified}{article}{}
+      \name{author}{1}{}{%
+        {{hash=80da90e4e06da243969166b6fb231072}{%
+           family={Tikochinsky},
+           familyi={T\bibinitperiod},
+           given={Yoel},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{80da90e4e06da243969166b6fb231072}
+      \strng{fullhash}{80da90e4e06da243969166b6fb231072}
+      \strng{bibnamehash}{80da90e4e06da243969166b6fb231072}
+      \strng{authorbibnamehash}{80da90e4e06da243969166b6fb231072}
+      \strng{authornamehash}{80da90e4e06da243969166b6fb231072}
+      \strng{authorfullhash}{80da90e4e06da243969166b6fb231072}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Physics}
+      \field{number}{12}
+      \field{title}{A simplified proof of Bertrand's theorem}
+      \field{volume}{56}
+      \field{year}{1988}
+      \field{pages}{1073\bibrangedash 1075}
+      \range{pages}{3}
+    \endentry
+    \entry{tu2019pedagogical}{article}{}
+      \name{author}{2}{}{%
+        {{hash=71c10ba873b1de6ead312f3694e87b66}{%
+           family={TU},
+           familyi={T\bibinitperiod},
+           given={Jeevitha},
+           giveni={J\bibinitperiod}}}%
+        {{hash=93fa20c18cc322f3c12e62e6100ffa8a}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Sanjit},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{ca745dfecb032b69af3b83c74f4b538e}
+      \strng{fullhash}{ca745dfecb032b69af3b83c74f4b538e}
+      \strng{bibnamehash}{ca745dfecb032b69af3b83c74f4b538e}
+      \strng{authorbibnamehash}{ca745dfecb032b69af3b83c74f4b538e}
+      \strng{authornamehash}{ca745dfecb032b69af3b83c74f4b538e}
+      \strng{authorfullhash}{ca745dfecb032b69af3b83c74f4b538e}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Resonance}
+      \field{number}{11}
+      \field{title}{A Pedagogical Relook at Bertrand's Theorem}
+      \field{volume}{24}
+      \field{year}{2019}
+      \field{pages}{1235\bibrangedash 1251}
+      \range{pages}{17}
+    \endentry
+    \entry{osti_6712863}{article}{}
+      \name{author}{2}{}{%
+        {{hash=282412a0f163332f78b2d08738d44f43}{%
+           family={Unseren},
+           familyi={U\bibinitperiod},
+           given={M\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6a774957f3d92a4257ae898cd7117cc6}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={F\bibnamedelima M},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0fe332592ea3dea98f251ae0b8249f32}
+      \strng{fullhash}{0fe332592ea3dea98f251ae0b8249f32}
+      \strng{bibnamehash}{0fe332592ea3dea98f251ae0b8249f32}
+      \strng{authorbibnamehash}{0fe332592ea3dea98f251ae0b8249f32}
+      \strng{authornamehash}{0fe332592ea3dea98f251ae0b8249f32}
+      \strng{authorfullhash}{0fe332592ea3dea98f251ae0b8249f32}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Errata report on Herbert Goldstein's Classical Mechanics: Second edition}
+      \field{year}{1993}
+      \verb{doi}
+      \verb 10.2172/6712863
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/6712863
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/6712863
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,327 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{boyd2019rbsp}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=15c02fea02824351145b677fda4bf7c7}{%
+           family={Boyd},
+           familyi={B\bibinitperiod},
+           given={AJ},
+           giveni={A\bibinitperiod}}}%
+        {{hash=533caba6f7fc498ebf23f43bdfe41562}{%
+           family={Reeves},
+           familyi={R\bibinitperiod},
+           given={GD},
+           giveni={G\bibinitperiod}}}%
+        {{hash=70b0f1d9e41a9869dc49b8fb50207b9b}{%
+           family={Spence},
+           familyi={S\bibinitperiod},
+           given={HE},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c5580414314a703d94f9a5032ebdce9a}{%
+           family={Funsten},
+           familyi={F\bibinitperiod},
+           given={HO},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0a636e00510c0588fbcc10354f3a968b}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={BA},
+           giveni={B\bibinitperiod}}}%
+        {{hash=117b002c0873d9837efc85a34d12eea1}{%
+           family={Skoug},
+           familyi={S\bibinitperiod},
+           given={RM},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d86287c12c5c4f862abb40e5e2c1b59c}{%
+           family={Blake},
+           familyi={B\bibinitperiod},
+           given={JB},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e9bb928e5730026c8ebb9cdf2649d52b}{%
+           family={Fennell},
+           familyi={F\bibinitperiod},
+           given={JF},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2b23d0f2f1667efb6e5dd9281ef887e8}{%
+           family={Claudepierre},
+           familyi={C\bibinitperiod},
+           given={SG},
+           giveni={S\bibinitperiod}}}%
+        {{hash=df09db08ee41297875ffb41330677e61}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={DN},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{329421e867166d0f9839a0f8a9d89a13}
+      \strng{fullhash}{724bf1b5329fd8acb68719261b85c6d9}
+      \strng{bibnamehash}{329421e867166d0f9839a0f8a9d89a13}
+      \strng{authorbibnamehash}{329421e867166d0f9839a0f8a9d89a13}
+      \strng{authornamehash}{329421e867166d0f9839a0f8a9d89a13}
+      \strng{authorfullhash}{724bf1b5329fd8acb68719261b85c6d9}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We describe a new data product combining the spin‐averaged electron flux measurements from the Radiation Belt Storm Probes (RBSP) Energetic Particle Composition and Thermal Plasma (ECT) suite on the National Aeronautics and Space Administration's Van Allen Probes. We describe the methodology used to combine each of the data sets and produce a consistent set of spectra for September 2013 to the present. Three‐minute‐averaged flux spectra are provided spanning energies from 15 eV up to 20 MeV. This new data product provides additional utility to the ECT data and offers a consistent cross calibrated data set for researchers interested in examining the dynamics of the inner magnetosphere across a wide range of energies.}
+      \field{journaltitle}{Journal of Geophysical Research: Space Physics}
+      \field{number}{11}
+      \field{title}{RBSP-ECT combined spin-averaged electron flux data product}
+      \field{volume}{124}
+      \field{year}{2019}
+      \field{pages}{9124\bibrangedash 9136}
+      \range{pages}{13}
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JA026733
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JA026733
+      \endverb
+    \endentry
+    \entry{boyd2021rbsp}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=5e5cf12056bba90ec534cd750aa2f7c1}{%
+           family={Boyd},
+           familyi={B\bibinitperiod},
+           given={Alexander\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=70b0f1d9e41a9869dc49b8fb50207b9b}{%
+           family={Spence},
+           familyi={S\bibinitperiod},
+           given={HE},
+           giveni={H\bibinitperiod}}}%
+        {{hash=533caba6f7fc498ebf23f43bdfe41562}{%
+           family={Reeves},
+           familyi={R\bibinitperiod},
+           given={GD},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c5580414314a703d94f9a5032ebdce9a}{%
+           family={Funsten},
+           familyi={F\bibinitperiod},
+           given={HO},
+           giveni={H\bibinitperiod}}}%
+        {{hash=491ea08a09e08a6e7f2a4ce38c8f7384}{%
+           family={Skoug},
+           familyi={S\bibinitperiod},
+           given={Ruth\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=99bd9d5606f15be88a6f8af6d4fc0aec}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Brian\bibnamedelima Arthur},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d86287c12c5c4f862abb40e5e2c1b59c}{%
+           family={Blake},
+           familyi={B\bibinitperiod},
+           given={JB},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e9bb928e5730026c8ebb9cdf2649d52b}{%
+           family={Fennell},
+           familyi={F\bibinitperiod},
+           given={JF},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2b23d0f2f1667efb6e5dd9281ef887e8}{%
+           family={Claudepierre},
+           familyi={C\bibinitperiod},
+           given={SG},
+           giveni={S\bibinitperiod}}}%
+        {{hash=258943a3f628febd7c97fd22325a63a8}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima N},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{418fd6ba2b83ace8f9db48ef9d2cb38e}
+      \strng{fullhash}{1698e9d7199c3d0c28e5b1ac5f7656ff}
+      \strng{bibnamehash}{418fd6ba2b83ace8f9db48ef9d2cb38e}
+      \strng{authorbibnamehash}{418fd6ba2b83ace8f9db48ef9d2cb38e}
+      \strng{authornamehash}{418fd6ba2b83ace8f9db48ef9d2cb38e}
+      \strng{authorfullhash}{1698e9d7199c3d0c28e5b1ac5f7656ff}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We describe a new data product combining pitch angle resolved electron flux measurements from the Radiation Belt Storm Probes (RBSP) Energetic Particle Composition and Thermal Plasma (ECT) suite on the National Aeronautics and Space Administration's Van Allen Probes. We describe the methodology used to combine each of the data sets and produce a consistent set of pitch‐angle‐resolved spectra for the entire Van Allen Probes mission. Three‐minute‐averaged flux spectra are provided spanning energies from 15 eV up to 20 MeV. This new data product offers researchers a consistent cross calibrated data set to explore the particle dynamics of the inner magnetosphere across a wide range of energies.}
+      \field{journaltitle}{Journal of Geophysical Research: Space Physics}
+      \field{number}{3}
+      \field{title}{RBSP-ECT combined pitch angle resolved electron flux data product}
+      \field{volume}{126}
+      \field{year}{2021}
+      \field{pages}{e2020JA028637}
+      \range{pages}{-1}
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JA026733
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JA026733
+      \endverb
+    \endentry
+    \entry{Glasstone1964Effects}{report}{}
+      \name{author}{2}{}{%
+        {{hash=6bbef81f7bc0d403f9a8be54d611aeec}{%
+           family={Glasstone},
+           familyi={G\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+        {{hash=633b8fb12f194a1daf60c7804e6eb2d7}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={Philip\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {U.S. Department of Defense}%
+      }
+      \strng{namehash}{645209b03bb6b7b36c772683225bc995}
+      \strng{fullhash}{645209b03bb6b7b36c772683225bc995}
+      \strng{bibnamehash}{645209b03bb6b7b36c772683225bc995}
+      \strng{authorbibnamehash}{645209b03bb6b7b36c772683225bc995}
+      \strng{authornamehash}{645209b03bb6b7b36c772683225bc995}
+      \strng{authorfullhash}{645209b03bb6b7b36c772683225bc995}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{02}
+      \field{note}{A revision of the 1957 edition, prepared by the Defense Atomic Support Agency in coordination with other governmental agencies and published by the U.S. Atomic Energy Commission}
+      \field{title}{The Effects of Nuclear Weapons}
+      \field{type}{techreport}
+      \field{year}{1964}
+      \verb{doi}
+      \verb 10.2172/972902
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/972900
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/972900
+      \endverb
+    \endentry
+    \entry{griffiths2013}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a00328547222c4a2a201442ee59dccfd}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{fullhash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{bibnamehash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{authorbibnamehash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{authornamehash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{authorfullhash}{a00328547222c4a2a201442ee59dccfd}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Introduction to electrodynamics}
+      \field{year}{2013}
+    \endentry
+    \entry{Wikipedia2025L-shell}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wikipedia, The Free Encyclopedia}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Last edited on 15 April 2025, at 23:16 (UTC)}
+      \field{title}{L-shell}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/L-shell
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/L-shell
+      \endverb
+    \endentry
+    \entry{Wikipedia_rbsp}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wikipedia, The Free Encyclopedia}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Last edited on 10 March 2025, at 23:16 (UTC)}
+      \field{title}{Van Allen Probes}
+      \field{urlday}{23}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Van_Allen_Probes
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Van_Allen_Probes
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

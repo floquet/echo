@@ -1,0 +1,188 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This file is a template using the "beamer" package to create slides for a talk or presentation
+% - Giving a talk on some subject.
+% - The talk is between 15min and 45min long.
+% - Style is ornate.
+
+% MODIFIED by Jonathan Kew, 2008-07-06
+% The header comments and encoding in this file were modified for inclusion with TeXworks.
+% The content is otherwise unchanged from the original distributed with the beamer package.
+
+\documentclass{beamer}
+
+
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU General Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice. 
+
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  % or ...
+
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+\newcommand{\pGraphics}{P:/Topa,Daniel/TeX/pres/hyperion-001/local/graphics}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[]{hyperref}
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+\begin{document}
+
+\title[Confidence Assessment] % (optional, use only with long paper titles)
+{Confidence Assessment for IIR\#2}
+
+\subtitle
+{Presentation Subtitle} % (optional)
+
+\author[Teague, Topa] % (optional, use only with lots of authors)
+{F.~Author\inst{1} \and S.~Another\inst{2}}
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[Universities of Somewhere and Elsewhere] % (optional, but mostly needed)
+{
+  \inst{1}%
+  Department of Computer Science\\
+  University of Somewhere
+  \and
+  \inst{2}%
+  Department of Theoretical Philosophy\\
+  University of Elsewhere}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[Short Occasion] % (optional)
+{Date / Occasion}
+
+\subject{Talks}
+%
+\begin{frame}{Confidence Plots: Top Line}
+    \centering
+    \footnotesize
+    
+    % Set up a customized table
+    % - First column (r): Right-aligns the numbering to line up the rightmost decimals
+    % - @{\hspace{0.3cm}}: Forces a clean, consistent structural indent gap
+    % - Second column (l): Left-aligns your system text entries
+    
+    \begin{tabular}{ l @{\hspace{0.3cm}} l c }
+        \textbf{WBS} & \textbf{Product Element} & \textbf{Confidence Scores}  \\ \hline
+       	\noalign{\vskip 2mm}
+         \raisebox{0.8cm}{1.0}   
+         & \raisebox{0.8cm}{Strategic Missile Weapon System} 
+         & \includegraphics[ scale = 0.4 ]{\pGraphics/img-conf-overall-01.pdf} \\
+    \end{tabular}
+\end{frame}
+%
+\begin{frame}{Confidence Numbers: Top Line}
+\begin{table}[htbp]
+\centering
+\begin{tabular}{l rrr rrr r }
+&  \multicolumn{3}{c}{Overall} &  \multicolumn{3}{c}{Elemental} \\
+WBS 
+& \multicolumn{1}{c}{$\mu$} 
+&  \multicolumn{1}{c}{$\sigma$} 
+& \multicolumn{1}{c}{$m$} 
+&  \multicolumn{1}{c}{$\mu$}
+&  \multicolumn{1}{c}{$\sigma$}
+&  \multicolumn{1}{c}{$m$}
+&  \multicolumn{1}{c}{$\mu_{O} - \mu_{E}$}  \\ \hline
+       	\noalign{\vskip 1mm}
+1.0         & $0.23$          & $0.43$          & $42$            & $-0.15$          & $0.30$          & $41$     & $0.38$        \\
+\end{tabular}
+%\caption{Sample data table matching your column types.}
+\label{tab:test_data}
+\end{table}
+
+\end{frame}
+%
+\begin{frame}{Launch System Hierarchy}
+    \centering
+    \footnotesize
+    
+    % Set up a customized table
+    % - First column (r): Right-aligns the numbering to line up the rightmost decimals
+    % - @{\hspace{0.3cm}}: Forces a clean, consistent structural indent gap
+    % - Second column (l): Left-aligns your system text entries
+    
+    \begin{tabular}{ l @{\hspace{0.3cm}} l }
+        \textbf{WBS} & \textbf{Product Element} \\
+         1.0   & Strategic Missile Weapon System \\
+        1.2.1 & Launch Facility Equipment \\
+        1.2.2 & Launch Support Equipment \\
+        1.2.3 & Launch Control Interfaces \\
+        1.2.4 & Environmental Control Equipment \\
+    \end{tabular}
+
+\end{frame}
+%
+\begin{frame}{Launch System Hierarchy}
+    \centering
+    \footnotesize
+    
+    % Set up a customized table
+    % - First column (r): Right-aligns the numbering to line up the rightmost decimals
+    % - @{\hspace{0.3cm}}: Forces a clean, consistent structural indent gap
+    % - Second column (l): Left-aligns your system text entries
+    
+    \begin{tabular}{ l @{\hspace{0.3cm}} l }
+        \textbf{WBS} & \textbf{Product Element} \\
+         1.2   & Launch System \\
+        1.2.1 & Launch Facility Equipment \\
+        1.2.2 & Launch Support Equipment \\
+        1.2.3 & Launch Control Interfaces \\
+        1.2.4 & Environmental Control Equipment \\
+    \end{tabular}
+\end{frame}
+
+\section*{Summary}
+
+\begin{frame}{Summary}
+
+  % Keep the summary *very short*.
+  \begin{itemize}
+  \item
+    The \alert{first main message} of your talk in one or two lines.
+  \item
+    The \alert{second main message} of your talk in one or two lines.
+  \item
+    Perhaps a \alert{third message}, but not more than that.
+  \end{itemize}
+  
+  % The following outlook is optional.
+  \vskip0pt plus.5fill
+  \begin{itemize}
+  \item
+    Outlook
+    \begin{itemize}
+    \item
+      Something you haven't solved.
+    \item
+      Something else you haven't solved.
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+\end{document}
+
+

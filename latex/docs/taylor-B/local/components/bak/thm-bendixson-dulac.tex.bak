@@ -1,0 +1,16 @@
+% \input{\pGlobalThms/"thm-bendixson-dulac"}
+\typeout{ \enumElements \pGlobalThms/"thm-bendixson-dulac"}
+
+\begin{theorem}[Bendixson-Dulac]
+    Consider a continuously differentiable vector field $\mathbf{F} = (f(x, y), g(x, y))$ in $\mathbb{R}^2$. If there exists a continuously differentiable scalar function $B(x, y)$ (called a Dulac function) such that
+\begin{equation}
+	\nabla \cdot (B \mathbf{F}) = \frac{\partial (Bf)}{\partial x} + \frac{\partial (Bg)}{\partial y}
+\label{eq:bendixson-dulac}
+%\end{equation}
+%    \[
+%    \nabla \cdot (B \mathbf{F}) = \frac{\partial (Bf)}{\partial x} + \frac{\partial (Bg)}{\partial y}
+%    \]
+%    does not change sign in a simply connected region $R$, then $R$ contains no periodic orbits.
+\end{theorem}
+
+\endinput  %  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -

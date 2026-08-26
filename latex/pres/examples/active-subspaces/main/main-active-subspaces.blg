@@ -1,0 +1,29 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main-active-subspaces.blg'
+[70] biber-darwin:322> INFO - === Tue Dec 16, 2025, 10:15:50
+[86] Biber.pm:415> INFO - Reading 'main-active-subspaces.bcf'
+[147] Biber.pm:943> INFO - Found 9 citekeys in bib section 0
+[158] Biber.pm:4256> INFO - Processing section 0
+[159] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//active-subspaces.bib'
+[159] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//active-subspaces.bib' to /Users/dantopa/GitHub//latex-2025//bibs//active-subspaces.bib
+[159] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//seismic.bib'
+[159] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//seismic.bib' to /Users/dantopa/GitHub//latex-2025//bibs//seismic.bib
+[159] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[159] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' to /Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib
+[168] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//active-subspaces.bib' for section 0
+[171] bibtex.pm:1653> INFO - LaTeX decoding ...
+[189] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//active-subspaces.bib'
+[224] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//seismic.bib' for section 0
+[229] bibtex.pm:1653> INFO - LaTeX decoding ...
+[301] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//seismic.bib'
+[312] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' for section 0
+[320] bibtex.pm:1653> INFO - LaTeX decoding ...
+[489] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[490] Utils.pm:304> WARN - Duplicate entry key: 'tarantola2005inverse' in file '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib', skipping ...
+[515] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[515] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[515] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[515] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[528] bbl.pm:652> INFO - Writing 'main-active-subspaces.bbl' with encoding 'UTF-8'
+[533] bbl.pm:755> INFO - Output to main-active-subspaces.bbl
+[533] Biber.pm:128> INFO - WARNINGS: 1

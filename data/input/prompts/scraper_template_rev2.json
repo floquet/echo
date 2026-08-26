@@ -1,0 +1,39 @@
+{
+  "date": "string (ISO 8601 format: YYYY-MM-DD)",
+  "owner": "string (Must be selected from the provided Product List)",
+  "gov_personnel": [
+    {"name": "string", "role": "string"}
+  ],
+  "ctr_personnel": [
+    {"name": "string", "role": "string"}
+  ],
+  "leadership_messages": {
+    "message1": "string",
+    "message2": "string",
+    "message3": "string"
+  },
+  "score_overall": "integer (-1, 0, or 1)",
+  "rationale": "string",
+  "areas": [
+    {
+      "area_name": "Scope and Deliverables Definition",
+      "score": "integer (-1, 0, or 1)",
+      "text": "string"
+    },
+    {
+      "area_name": "Schedule Planning and IMS-Loading Readiness",
+      "score": "integer (-1, 0, or 1)",
+      "text": "string"
+    },
+    {
+      "area_name": "Cross-Product/Cross-Function Integration",
+      "score": "integer (-1, 0, or 1)",
+      "text": "string"
+    }
+  ],
+  "products": "string",
+  "strengths": "string",
+  "concerns": "string",
+  "questions": "string",
+  "integration": "string"
+}

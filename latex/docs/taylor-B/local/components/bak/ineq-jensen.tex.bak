@@ -1,0 +1,24 @@
+% \input{\pLocalTheorems "ineq-jensen"}
+
+%\subsection{Convexity of the Least Squares Minimizers}
+\begin{inequality}[Jensen's Inequality]
+
+Given a concave function $\phi\colon \real{+} \mapsto \real{}$, a set of sample points $\seqm{x}$ and positive weights $\seqm{a}$, the following inequality holds
+%
+\begin{equation}
+	\phi \paren{ \frac{\itwo{a}{x}} {\itwo{a}{\one}} } \ge \frac{\itwo{a}{\phi(x)}} {\itwo{a}{\one}}
+	\label{eq:jensen}
+\end{equation}
+%
+where $\one$ is the constant vector of dimension $m$.
+
+\label{ineq-jensen}
+\end{inequality}
+%   +   +   +   +   +   +   +   +   +   +
+\begin{proof}
+See Jensen, \cite{jensen1906fonctions}.
+%
+\end{proof}
+
+
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

@@ -1,0 +1,41 @@
+\frametitle{Modern C++ Parallel Programming}
+\footnotesize
+
+\textbf{Key Advantages of Standard C++ Parallelism}
+\begin{itemize}
+\item \textbf{Portability}
+  \begin{itemize}
+  \item No vendor-specific extensions required
+  \end{itemize}
+\item \textbf{Safety}
+  \begin{itemize}
+  \item RAII for threads (\texttt{std::jthread})
+  \end{itemize}
+\item \textbf{Performance}
+  \begin{itemize}
+  \item Compiler optimizes \texttt{par\_unseq} execution
+  \end{itemize}
+\item \textbf{Future-proof}
+  \begin{itemize}
+  \item Backed by ISO standard
+  \end{itemize}
+\end{itemize}
+\framebreak
+\textbf{What Compilers Actually Do}
+\begin{itemize}
+\item Thread pools (via TBB or OpenMP)
+\item SIMD instructions (e.g., AVX/NEON)
+\item GPU kernels (SYCL/OpenMP offload)
+\end{itemize}
+
+\textbf{Implementation Status}
+\begin{itemize}
+\item Fully supported:
+  \begin{itemize}
+  \item Parallel STL (GCC 9+, Clang 10+, MSVC 19.14+)
+  \end{itemize}
+\item Partial support:
+  \begin{itemize}
+  \item \texttt{std::simd} (GCC 13+, Clang experimental)
+  \end{itemize}
+\end{itemize}

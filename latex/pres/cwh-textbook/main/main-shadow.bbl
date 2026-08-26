@@ -1,0 +1,620 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{altalhi2019analytical}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{hash=ed88ae0123eedc84b425e3fc894c86c9}{%
+           family={Altalhi},
+           familyi={A\bibinitperiod},
+           given={Shaheera\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=60b5eff8714d2ea16c89313ad182ef6f}{%
+           family={El\bibnamedelima Saftawy},
+           familyi={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Magdy\bibnamedelima Ibrahim},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Scientific Research Publishing}%
+      }
+      \strng{namehash}{7289b553f0ebe63771e11507a81e9bc8}
+      \strng{fullhash}{7289b553f0ebe63771e11507a81e9bc8}
+      \strng{bibnamehash}{7289b553f0ebe63771e11507a81e9bc8}
+      \strng{authorbibnamehash}{7289b553f0ebe63771e11507a81e9bc8}
+      \strng{authornamehash}{7289b553f0ebe63771e11507a81e9bc8}
+      \strng{authorfullhash}{7289b553f0ebe63771e11507a81e9bc8}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The relative motion between multiple satellites is a developed technique with many applications. Formation-flying missions use the relative motion dynamics in their design. In this work, the motion in invariant relative orbits is considered under the effects of second-order zonal harmonics in an equatorial orbit. The Hamiltonian framework is used to formulate the problem. All the possible conditions of the invariant relative motion are obtained with different inclinations of the follower satellite orbits. These second-order conditions warrantee the drift rates keeping two, or more, neighboring orbits from drifting apart. The conditions have been modeled. All the possibilities of choosing mean elements of the leader satellite orbit and differences in momenta between leader and follower satellites' orbits are presented.}
+      \field{journaltitle}{International Journal of Astronomy and Astrophysics}
+      \field{number}{03}
+      \field{title}{Analytical Solution for Formation Flying Problem near Equatorial-Circular Reference Orbit}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{pages}{217}
+      \range{pages}{1}
+    \endentry
+    \entry{boetzel2017solving}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bb8323ddd99b56aa3071b604b1f1d45a}{%
+           family={Boetzel},
+           familyi={B\bibinitperiod},
+           given={Yannick},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9ca43aa09c16273e785b8e3730cb5b98}{%
+           family={Susobhanan},
+           familyi={S\bibinitperiod},
+           given={Abhimanyu},
+           giveni={A\bibinitperiod}}}%
+        {{hash=117f72981acdaab1bd09757d37a866d0}{%
+           family={Gopakumar},
+           familyi={G\bibinitperiod},
+           given={Achamveedu},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b4c19284d49a362fbd43beadb1ec5891}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=89855aa7ac6f8cd6ac65e033b4124b87}{%
+           family={Jetzer},
+           familyi={J\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{049ae95e5ced22a097927892bbc4cc49}
+      \strng{fullhash}{6a7118f594b466f337f45ffc52a6d527}
+      \strng{bibnamehash}{049ae95e5ced22a097927892bbc4cc49}
+      \strng{authorbibnamehash}{049ae95e5ced22a097927892bbc4cc49}
+      \strng{authornamehash}{049ae95e5ced22a097927892bbc4cc49}
+      \strng{authorfullhash}{6a7118f594b466f337f45ffc52a6d527}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We provide an elegant way of solving analytically the third post-Newtonian (3PN) accurate Kepler equation, associated with the 3PN-accurate generalized quasi-Keplerian parametrization for compact binaries in eccentric orbits. An additional analytic solution is presented to check the correctness of our compact solution and we perform comparisons between our PN-accurate analytic solution and a very accurate numerical solution of the PN-accurate Kepler equation. We adapt our approach to compute crucial 3PN-accurate inputs that will be required to compute analytically both the time and frequency domain ready-to-use amplitude-corrected PN-accurate search templates for compact binaries in inspiralling eccentric orbits.}
+      \field{journaltitle}{Physical Review D}
+      \field{number}{4}
+      \field{title}{Solving post-Newtonian accurate Kepler equation}
+      \field{volume}{96}
+      \field{year}{2017}
+      \field{pages}{044011}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.96.044011
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.aps.org/prd/abstract/10.1103/PhysRevD.96.044011
+      \endverb
+      \verb{url}
+      \verb https://journals.aps.org/prd/abstract/10.1103/PhysRevD.96.044011
+      \endverb
+    \endentry
+    \entry{brauer1989qualitative}{book}{}
+      \name{author}{2}{}{%
+        {{hash=cce7419708114ddcc3d5832a90fd28b5}{%
+           family={Brauer},
+           familyi={B\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod}}}%
+        {{hash=75d584b4832acbe3465e41b24009f9a3}{%
+           family={Nohel},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Corporation}%
+      }
+      \strng{namehash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{fullhash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{bibnamehash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{authorbibnamehash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{authornamehash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{authorfullhash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The qualitative theory of ordinary differential equations: an introduction}
+      \field{year}{1989}
+    \endentry
+    \entry{butcher2018nonlinear}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6accd052863017efa08cbeb3b912cf43}{%
+           family={Butcher},
+           familyi={B\bibinitperiod},
+           given={Eric\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b4b0bb0871ed5ed13a63fb940785eef6}{%
+           family={Lovell},
+           familyi={L\bibinitperiod},
+           given={T\bibnamedelima Alan},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c8c5880f31cbecf12c7ab4d84aca38fd}
+      \strng{fullhash}{c8c5880f31cbecf12c7ab4d84aca38fd}
+      \strng{bibnamehash}{c8c5880f31cbecf12c7ab4d84aca38fd}
+      \strng{authorbibnamehash}{c8c5880f31cbecf12c7ab4d84aca38fd}
+      \strng{authornamehash}{c8c5880f31cbecf12c7ab4d84aca38fd}
+      \strng{authorfullhash}{c8c5880f31cbecf12c7ab4d84aca38fd}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Nonlinear normal modes (NNMs) are obtained for spacecraft relative motion in the case of bounded Keplerian reference orbits. For this purpose, the Lyapunov-Floquet transformation, invariant manifold-based order reduction, and time-dependent normal forms are employed on the third order extension of the Tschauner-Hempel equations to obtain the NNM manifolds and the reduced order dynamics on the NNMs. This approach extends the modal interpretation of relative orbital motion from the Hill-Clohessy-Wiltshire equations to the regime of elliptic reference orbits and large separation distances in which second and third order nonlinearities are non-negligible.}
+      \field{journaltitle}{Acta Astronautica}
+      \field{title}{Nonlinear normal modes of relative orbital motion for unperturbed two-body reference orbits}
+      \field{volume}{153}
+      \field{year}{2018}
+      \field{pages}{191\bibrangedash 200}
+      \range{pages}{10}
+    \endentry
+    \entry{carter1990optimal}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=eca172dc52ecb190a0094e0c8acf1fb0}{%
+           family={Carter},
+           familyi={C\bibinitperiod},
+           given={Thomas\bibnamedelima E},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{eca172dc52ecb190a0094e0c8acf1fb0}
+      \strng{fullhash}{eca172dc52ecb190a0094e0c8acf1fb0}
+      \strng{bibnamehash}{eca172dc52ecb190a0094e0c8acf1fb0}
+      \strng{authorbibnamehash}{eca172dc52ecb190a0094e0c8acf1fb0}
+      \strng{authornamehash}{eca172dc52ecb190a0094e0c8acf1fb0}
+      \strng{authorfullhash}{eca172dc52ecb190a0094e0c8acf1fb0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Principal results of a recent theory of fuel optimal space trajectories for linear differential equations are presented. Both impulsive and bounded-thrust problems are treated. A new form of the Lawden Primer vector is found that is identical for both problems. For this reason, starting iteratives from the solution of the impulsive problem are highly effective in the solution of the two-point boundary-value problem associated with bounded thrust. These results were applied to the problem of fuel optimal maneuvers of a spacecraft near a satellite in circular orbit using the Clohessy-Wiltshire equations. For this case two-point boundary-value problems were solved using a microcomputer, and optimal trajectory shapes displayed. The results of this theory can also be applied if the satellite is in an arbitrary Keplerian orbit through the use of the Tschauner-Hempel equations. A new form of the solution of these equations has been found that is identical for elliptical, parabolic, and hyperbolic orbits except in the way that a certain integral is evaluated. For elliptical orbits this integral is evaluated through the use of the eccentric anomaly. An analogous evaluation is performed for hyperbolic orbits}
+      \field{booktitle}{NASA, Goddard Space Flight Center, Flight Mechanics (Estimation Theory Symposium, 1990}
+      \field{title}{Optimal trajectories based on linear equations}
+      \field{year}{1990}
+    \endentry
+    \entry{PhysRevD.95.104009}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f73ead9a1cac18840b8ec82d485a7406}{%
+           family={Foffa},
+           familyi={F\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a090fc3a56372ed6c78dc2844966d707}{%
+           family={Mastrolia},
+           familyi={M\bibinitperiod},
+           given={Pierpaolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=05c5c44bb0e4e0bcaf117c6b0e0c08ba}{%
+           family={Sturani},
+           familyi={S\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=05b2626a5a6eef68fd4b6085dff958a0}{%
+           family={Sturm},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{281ef60a8686c6d5edeaea192ba58244}
+      \strng{fullhash}{66f0110163b091230d54cb65f86c72d6}
+      \strng{bibnamehash}{281ef60a8686c6d5edeaea192ba58244}
+      \strng{authorbibnamehash}{281ef60a8686c6d5edeaea192ba58244}
+      \strng{authornamehash}{281ef60a8686c6d5edeaea192ba58244}
+      \strng{authorfullhash}{66f0110163b091230d54cb65f86c72d6}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Working within the post-Newtonian (PN) approximation to general relativity, we use the effective field theory (EFT) framework to study the conservative dynamics of the two-body motion at fourth PN order, at fifth order in the Newton constant. This is one of the missing pieces preventing the computation of the full Lagrangian at fourth PN order using EFT methods. We exploit the analogy between diagrams in the EFT gravitational theory and two-point functions in massless gauge theory, to address the calculation of four-loop amplitudes by means of standard multiloop diagrammatic techniques. For those terms which can be directly compared, our result confirms the findings of previous studies, performed using different methods.}
+      \field{issue}{10}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{5}
+      \field{title}{Effective field theory approach to the gravitational two-body dynamics at fourth post-Newtonian order and quintic in the Newton constant}
+      \field{volume}{95}
+      \field{year}{2017}
+      \field{pages}{104009}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.95.104009
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.95.104009
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.95.104009
+      \endverb
+    \endentry
+    \entry{Grossi2021}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=4e2b526ade618deb69c83e4db7bc90ee}{%
+           family={Grossi},
+           familyi={G\bibinitperiod},
+           given={Paul\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Department of Aeronautics \& Astronautics, Graduate School of Engineering}%
+        {Management}%
+      }
+      \list{location}{1}{%
+        {Wright-Patterson AFB, OH}%
+      }
+      \strng{namehash}{4e2b526ade618deb69c83e4db7bc90ee}
+      \strng{fullhash}{4e2b526ade618deb69c83e4db7bc90ee}
+      \strng{bibnamehash}{4e2b526ade618deb69c83e4db7bc90ee}
+      \strng{authorbibnamehash}{4e2b526ade618deb69c83e4db7bc90ee}
+      \strng{authornamehash}{4e2b526ade618deb69c83e4db7bc90ee}
+      \strng{authorfullhash}{4e2b526ade618deb69c83e4db7bc90ee}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{[Add abstract text here if desired]}
+      \field{month}{3}
+      \field{number}{AFIT-ENY-MS-21-M-302}
+      \field{title}{Safe Spacecraft Rendezvous and Proximity Operations via Reachability Analysis}
+      \field{type}{Master's thesis}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://apps.dtic.mil/sti/pdfs/AD1139797.pdf
+      \endverb
+      \verb{url}
+      \verb https://apps.dtic.mil/sti/pdfs/AD1139797.pdf
+      \endverb
+    \endentry
+    \entry{PhysRevD.72.104022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7769cadce226ad731560bed4424819b7}{%
+           family={Keresztes},
+           familyi={K\bibinitperiod},
+           given={Zoltán},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=784db0db8308b96fd6d84831dde409b1}{%
+           family={Mikóczi},
+           familyi={M\bibinitperiod},
+           given={Balázs},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3fdbd081134678deb4648433865653a4}{%
+           family={Gergely},
+           familyi={G\bibinitperiod},
+           given={László\bibnamedelima Á.},
+           giveni={L\bibinitperiod\bibinitdelim Á\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{e1ddd5b5a21d441483c615813c6b664e}
+      \strng{fullhash}{e1ddd5b5a21d441483c615813c6b664e}
+      \strng{bibnamehash}{e1ddd5b5a21d441483c615813c6b664e}
+      \strng{authorbibnamehash}{e1ddd5b5a21d441483c615813c6b664e}
+      \strng{authornamehash}{e1ddd5b5a21d441483c615813c6b664e}
+      \strng{authorfullhash}{e1ddd5b5a21d441483c615813c6b664e}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Compact binaries consisting of neutron stars/black holes on eccentric orbit undergo a perturbed Keplerian motion. The perturbations are either of relativistic origin or are related to the spin, mass quadrupole, and magnetic dipole moments of the binary components. The post-Newtonian motion of such systems decouples into radial and angular parts. We present here for the first time the radial motion of such a binary encoded in a generalized Kepler equation, with the inclusion of all above-mentioned contributions, up to linear order in the perturbations. Together with suitably introduced parametrizations, the radial motion is solved completely.}
+      \field{issue}{10}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{11}
+      \field{title}{Kepler equation for inspiralling compact binaries}
+      \field{volume}{72}
+      \field{year}{2005}
+      \field{pages}{104022}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.72.104022
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.72.104022
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.72.104022
+      \endverb
+    \endentry
+    \entry{kopeikin2004parametrized}{article}{}
+      \name{author}{2}{}{%
+        {{hash=139382c6f39a6a541778a3554a0d5291}{%
+           family={Kopeikin},
+           familyi={K\bibinitperiod},
+           given={Sergei},
+           giveni={S\bibinitperiod}}}%
+        {{hash=57fd06c21f6a16934b5e8b2f859448fa}{%
+           family={Vlasov},
+           familyi={V\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{00d2a5897b0b2057de9b727ef60f7354}
+      \strng{fullhash}{00d2a5897b0b2057de9b727ef60f7354}
+      \strng{bibnamehash}{00d2a5897b0b2057de9b727ef60f7354}
+      \strng{authorbibnamehash}{00d2a5897b0b2057de9b727ef60f7354}
+      \strng{authornamehash}{00d2a5897b0b2057de9b727ef60f7354}
+      \strng{authorfullhash}{00d2a5897b0b2057de9b727ef60f7354}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Post-Newtonian relativistic theory of astronomical reference frames based on Einstein's general theory of relativity was adopted by General Assembly of the International Astronomical Union in 2000. This theory is extended in the present paper by taking into account all relativistic effects caused by the presumable existence of a scalar field and parametrized by two parameters, β and γ, of the parametrized post-Newtonian (PPN) formalism. We use a general class of the scalar-tensor (Brans-Dicke type) theories of gravitation to work out PPN concepts of global and local reference frames for an astronomical N-body system. The global reference frame is a standard PPN coordinate system. A local reference frame is constructed in the vicinity of a weakly self-gravitating body (a sub-system of the bodies) that is a member of the astronomical N-body system. Such local inertial frame is required for unambiguous derivation of the equations of motion of the body in the field of other members of the N-body system and for construction of adequate algorithms for data analysis of various gravitational experiments conducted in ground-based laboratories and/or on board of spacecrafts in the solar system. We assume that the bodies comprising the N-body system have weak gravitational field and move slowly. At the same time we do not impose any specific limitations on the distribution of density, velocity and the equation of state of the body's matter. Scalar--tensor equations of the gravitational field are solved by making use of the post-Newtonian approximations so that the metric tensor and the scalar field are obtained as functions of the global and local coordinates. A correspondence between the local and global coordinate frames is found by making use of asymptotic expansion matching technique. This technique allows us to find a class of the post-Newtonian coordinate transformations between the frames as well as equations of translational motion of the origin of the local frame along with the law of relativistic precession of its spatial axes. These transformations depend on the PPN parameters \beta and \gamma, generalize general relativistic transformations of the IAU 2000 resolutions, and should be used in the data processing of the solar system gravitational experiments aimed to detect the presence of the scalar field. These PPN transformations are also applicable in the precise time-keeping metrology, celestial mechanics, astrometry, geodesy and navigation. We consider a multipolar post-Newtonian expansion of the gravitational and scalar fields and construct a set of internal and external gravitational multipoles depending on the parameters \beta and \gamma. These PPN multipoles generalize the Thorne-Blanchet-Damour multipoles defined in harmonic coordinates of general theory of relativity. The PPN multipoles of the scalar-tensor theory of gravity are split in three classes---active, conformal, and scalar multipoles. Only two of them are algebraically independent and we chose to work with the conformal and active multipoles. We derive the laws of conservations of the multipole moments and show that they must be formulated in terms of the conformal multipoles. We focus then on the law of conservation of body's linear momentum which is defined as a time derivative of the conformal dipole moment of the body in the local coordinates. We prove that the local force violating the law of conservation of the body's linear momentum depends exclusively on the active multipole moments of the body along with a few other terms which depend on the internal structure of the body and are responsible for the violation of the strong principle of equivalence (the Nordtvedt effect).}
+      \field{journaltitle}{Physics Reports}
+      \field{number}{4-6}
+      \field{title}{Parametrized post-Newtonian theory of reference frames, multipolar expansions and equations of motion in the N-body problem}
+      \field{volume}{400}
+      \field{year}{2004}
+      \field{pages}{209\bibrangedash 318}
+      \range{pages}{110}
+    \endentry
+    \entry{lancaster1970relative}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c48b99537ca2693b100c7535fdf291da}{%
+           family={Lancaster},
+           familyi={L\bibinitperiod},
+           given={ER},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c48b99537ca2693b100c7535fdf291da}
+      \strng{fullhash}{c48b99537ca2693b100c7535fdf291da}
+      \strng{bibnamehash}{c48b99537ca2693b100c7535fdf291da}
+      \strng{authorbibnamehash}{c48b99537ca2693b100c7535fdf291da}
+      \strng{authornamehash}{c48b99537ca2693b100c7535fdf291da}
+      \strng{authorfullhash}{c48b99537ca2693b100c7535fdf291da}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The use of the turbulent kinetic energy equation reduces the uncertainty introduced by the phenomenological model of eddy viscosity. The coefficients of a\= 0.3, ak= 0.7 and a2= 1.5 provide reasonable predictions for most of the studied engineering problems. However, detailed turbulence measurements are very much needed if the turbulence energy approach can be of any significance in contributing to the basic understanding of the turbulence phenomenon.}
+      \field{journaltitle}{AIAA Journal}
+      \field{number}{10}
+      \field{title}{Relative motion of two particles in elliptic orbits}
+      \field{volume}{8}
+      \field{year}{1970}
+      \field{pages}{1878\bibrangedash 1879}
+      \range{pages}{2}
+    \endentry
+    \entry{o2021general}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cdf208f1ffaac7d5e78110e7f08193ca}{%
+           family={O'Leary},
+           familyi={O\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{cdf208f1ffaac7d5e78110e7f08193ca}
+      \strng{fullhash}{cdf208f1ffaac7d5e78110e7f08193ca}
+      \strng{bibnamehash}{cdf208f1ffaac7d5e78110e7f08193ca}
+      \strng{authorbibnamehash}{cdf208f1ffaac7d5e78110e7f08193ca}
+      \strng{authornamehash}{cdf208f1ffaac7d5e78110e7f08193ca}
+      \strng{authorfullhash}{cdf208f1ffaac7d5e78110e7f08193ca}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{General Relativistic and Post-Newtonian Dynamics for Near-Earth Objects and Solar System Bodies}
+      \field{year}{2021}
+    \endentry
+    \entry{roh2018numerical}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d96c59a149ecdf3af0500eb95a1b0c5b}{%
+           family={Roh},
+           familyi={R\bibinitperiod},
+           given={Kyoung-Min},
+           giveni={K\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {American Institute of Aeronautics}%
+        {Astronautics}%
+      }
+      \strng{namehash}{d96c59a149ecdf3af0500eb95a1b0c5b}
+      \strng{fullhash}{d96c59a149ecdf3af0500eb95a1b0c5b}
+      \strng{bibnamehash}{d96c59a149ecdf3af0500eb95a1b0c5b}
+      \strng{authorbibnamehash}{d96c59a149ecdf3af0500eb95a1b0c5b}
+      \strng{authornamehash}{d96c59a149ecdf3af0500eb95a1b0c5b}
+      \strng{authorfullhash}{d96c59a149ecdf3af0500eb95a1b0c5b}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{PRECISE orbital knowledge is one of the most stringent requirements for a global navigation satellite system (GNSS) because the positions of the GNSS satellites serve as reference points. If the reference points are provided with high precision, better solutions can be achieved in most applications, such as positioning and time synchronization. One of the most important issues for precise orbit determination is that the orbital dynamic model should have an accuracy equivalent to that of the measurements. The measurement technology of the GNSS, based on the time and frequency transfer through atomic clocks, has achieved an accuracy on the order of 1× 10− 16, which is several orders of magnitude lower than that of the relativistic effect. The continuing progress in atomic clocks is expected to improve the accuracy at the rate of one order of magnitude per decade. There have been several extensive studies about the relativistic effects on the signal and time transfer in the GNSS [1]. The major relativistic effect of gravitational blue shift has already been taken into account in the Global Positioning System (GPS). The clocks on GPS satellites are adjusted so that the clocks appear to a ground station to have its chosen frequency. The details and additional relativistic effects on the atomic clocks in the GNSS satellites will not be discussed here because this Note focuses on the relativistic effects on the equations of motion of the GNSS satellites. Readers interested in the relativistic effects on the atomic clocks in the GNSS satellites can refer to the paper by Ashby [2]. According to the advances in measurement systems, the dynamic model (ie, the equations of motion of satellites) also needs to take into account the relativistic effects. Therefore, the International Earth Rotation and Reference System Service (IERS) has first recommended that the largest relativistic effect must be included (ie, the Schwarzschild terms), and this recommendation appeared in the IERS standards of 1992 [3]. The latest IERS conventions of 2010 [4] suggested that two additional relativistic perturbations (ie, the Lense--Thirring effect and de Sitter precession) should be taken into account for precise orbit determination. However, these two additional relativistic terms are still often ignored in GPS data processing [5].}
+      \field{journaltitle}{Journal of Spacecraft and Rockets}
+      \field{number}{4}
+      \field{title}{Numerical evaluation of post-Newtonian perturbations on the Global Navigation Satellite System}
+      \field{volume}{55}
+      \field{year}{2018}
+      \field{pages}{1028\bibrangedash 1033}
+      \range{pages}{6}
+      \keyw{GNSS,KASIOP,LAGEOS,LARES,GLONASS}
+    \endentry
+    \entry{ROH20162255}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d96c59a149ecdf3af0500eb95a1b0c5b}{%
+           family={Roh},
+           familyi={R\bibinitperiod},
+           given={Kyoung-Min},
+           giveni={K\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=ac85249d0ebf5b2734e4ad5ac03f6a08}{%
+           family={Kopeikin},
+           familyi={K\bibinitperiod},
+           given={Sergei\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6dca90fa2d221d33ca431e0586bf2f04}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Jung-Ho},
+           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{1be1209b02ffca38830b2503d7b085c8}
+      \strng{fullhash}{1be1209b02ffca38830b2503d7b085c8}
+      \strng{bibnamehash}{1be1209b02ffca38830b2503d7b085c8}
+      \strng{authorbibnamehash}{1be1209b02ffca38830b2503d7b085c8}
+      \strng{authornamehash}{1be1209b02ffca38830b2503d7b085c8}
+      \strng{authorfullhash}{1be1209b02ffca38830b2503d7b085c8}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the post-Newtonian perturbations in the orbit of a near-Earth satellite by integrating them with a high-fidelity orbit propagation software KASIOP. The perturbations of the orbital elements are evaluated for various cases from a low-Earth orbit to a geostationary one, and from an equatorial to a polar orbit. In particular, the numerical simulation is applied to the LARES-like satellite under a realistic orbital configuration. The relativistic perturbations include the Schwarzschild term, the effects of Lense-Thirring precession, and the post-Newtonian term due to the quadrupole moment of the Earth as well as the post-Newtonian gravitoelectric and gravitomagnetic forces, which are produced by the tidal potential of the solar system bodies, are also modeled. The latter three terms are usually ignored in most orbit-propagation software. The secular variations of the orbital elements are evaluated from the orbital positions propagated for a half year. For a medium altitude orbit like that of the LARES mission, the magnitude of the relativistic perturbations ranges from the order of 10−7m/s2 by the Schwarzschild effect to 10−15m/s2 by the relativistic tidal effects. The orbital integration shows that the secular variations in three orbital elements -- the ascending node, the argument of perigee, and the mean anomaly at epoch -- are larger than the systematic error as results of the relativistic perturbations. The magnitudes of the secular variation are investigated in terms of the orbital altitude, inclination, and the size of each perturbation force. The numerical simulation rendered in this study shows that the secular post-Newtonian perturbations with the magnitude lying beyond the Schwarzschild and the Lense-Thirring effects need to be taken into account in current and upcoming space geodesy missions.}
+      \field{issn}{0273-1177}
+      \field{journaltitle}{Advances in Space Research}
+      \field{number}{11}
+      \field{title}{Numerical simulation of the post-Newtonian equations of motion for the near Earth satellite with an application to the LARES satellite}
+      \field{volume}{58}
+      \field{year}{2016}
+      \field{pages}{2255\bibrangedash 2268}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.asr.2016.08.009
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0273117716304422
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0273117716304422
+      \endverb
+      \keyw{Post-Newtonian,Orbit propagation,General relativity,Space Geodesy,Earth Quadrupole Moment,KASIOP}
+    \endentry
+    \entry{Sherrill2013}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=61da78fb3b5659af46e7feabc0a91e08}{%
+           family={Sherrill},
+           familyi={S\bibinitperiod},
+           given={Ryan\bibnamedelima Edward},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Auburn University}%
+      }
+      \list{location}{1}{%
+        {Auburn, Alabama}%
+      }
+      \strng{namehash}{61da78fb3b5659af46e7feabc0a91e08}
+      \strng{fullhash}{61da78fb3b5659af46e7feabc0a91e08}
+      \strng{bibnamehash}{61da78fb3b5659af46e7feabc0a91e08}
+      \strng{authorbibnamehash}{61da78fb3b5659af46e7feabc0a91e08}
+      \strng{authornamehash}{61da78fb3b5659af46e7feabc0a91e08}
+      \strng{authorfullhash}{61da78fb3b5659af46e7feabc0a91e08}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Rendezvous and proximity operations involving satellites operating near each other have been performed since the Gemini missions. A better understanding of the dynamics of satellites in close proximity could be helpful for both mission planners and operators as well as for algorithm development. With this increased understanding, future satellite missions may involve an impromptu fly-around of another satellite and a greater focus on satellite autonomy. In satellite proximity operations, it is desirable to express the relative motion of a deputy satellite with respect to the chief satellite. For satellites in elliptic orbits, this relative motion can be described by the time-varying Linearized Equations of Relative Motion. Making an assumption that the chief satellite is in a circular orbit results in the linear time-invariant Hill-Clohessy-Wiltshire equations. These equations allow the relative-motion solution to be intuitively visualized. Due to the abundance of algorithms in the literature based on the Hill-Clohessy-Wiltshire equations, the focus of this dissertation is to explore the relationship between relative motion in elliptic orbits and the Hill-Clohessy-Wiltshire equations. The major contributions of this work are twofold. First, three time-varying coordinate transformations are derived which relate the Hill-Clohessy-Wiltshire equations to the Linearized Equations of Relative Motion. These transformations show that the Hill-Clohessy-Wiltshire equations are able to exactly capture the time-varying dynamics. Second, the literature does not contain infinite-horizon continuous-thrust control for satellites in elliptic orbits. A time-varying gain matrix was constructed using the time-varying coordinate transformations, optimal-control theory, and a control method from the literature. This control is able to drive the deputy's position toward rendezvous with an elliptic chief.}
+      \field{month}{5}
+      \field{title}{Dynamics and Control of Satellite Relative Motion in Elliptic Orbits using Lyapunov-Floquet Theory}
+      \field{type}{phdthesis}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://etd.auburn.edu/bitstream/handle/10415/3594/Sherrill_Dissertation_Final.pdf?sequence=2
+      \endverb
+      \verb{url}
+      \verb https://etd.auburn.edu/bitstream/handle/10415/3594/Sherrill_Dissertation_Final.pdf?sequence=2
+      \endverb
+    \endentry
+    \entry{tschauner1965rendezvous}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d83db3300d0eb58f7a4ba6f856008511}{%
+           family={Tschauner},
+           familyi={T\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6d1959e827497cc3aaa69b39ff22f7c7}{%
+           family={Hempel},
+           familyi={H\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9963bf91b0036a70fc09e6341b78fa64}
+      \strng{fullhash}{9963bf91b0036a70fc09e6341b78fa64}
+      \strng{bibnamehash}{9963bf91b0036a70fc09e6341b78fa64}
+      \strng{authorbibnamehash}{9963bf91b0036a70fc09e6341b78fa64}
+      \strng{authornamehash}{9963bf91b0036a70fc09e6341b78fa64}
+      \strng{authorfullhash}{9963bf91b0036a70fc09e6341b78fa64}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astronautica Acta}
+      \field{number}{2}
+      \field{title}{Rendezvous zu einem in elliptischer Bahn umlaufenden Ziel}
+      \field{volume}{11}
+      \field{year}{1965}
+      \field{pages}{104\bibrangedash +}
+      \range{pages}{-1}
+    \endentry
+    \entry{xu2016relativisticdynamicsrelativemotions}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=a9f1e89449a8f9e0a4b65ee24d8f421d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=36bd9a6d362df509469e9f6989bbfa48}{%
+           family={Qiang},
+           familyi={Q\bibinitperiod},
+           given={Li-E},
+           giveni={L\bibinithyphendelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{10b0865ab1116dd76b8519972944fc54}
+      \strng{fullhash}{10b0865ab1116dd76b8519972944fc54}
+      \strng{bibnamehash}{10b0865ab1116dd76b8519972944fc54}
+      \strng{authorbibnamehash}{10b0865ab1116dd76b8519972944fc54}
+      \strng{authornamehash}{10b0865ab1116dd76b8519972944fc54}
+      \strng{authorfullhash}{10b0865ab1116dd76b8519972944fc54}
+      \field{sortinit}{X}
+      \field{sortinithash}{e90038f30fa4b9ce59606fc8347e3cc7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.EP}
+      \field{eprinttype}{arXiv}
+      \field{title}{Relativistic Dynamics of Relative Motions (I): Post-Newtonian Extension of the Hill-Clohessy-Wiltshire Equations}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1607.04791
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1607.04791
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1607.04791
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

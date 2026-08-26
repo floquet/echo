@@ -1,0 +1,2509 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  2 JUL 2025 11:52
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main-fortran-best-practices.tex
+(./main-fortran-best-practices.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+\@indexfile=\write3
+\openout3 = `main-fortran-best-practices.idx'.
+
+
+Writing index file main-fortran-best-practices.idx
+(/usr/local/texlive/2020/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)))
+(|kpsewhich -var-value=HOME)
+(/Users/dantopa/GitHub//latex-2025//global/config//common/config-base.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"config-base.tex"
+(/Users/dantopa/GitHub//latex-2025//global/config//common//paths-base.tex
+ == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//com
+mon//"paths-base.tex"
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//packages-base.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"packages-common.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen135
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen136
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count175
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count176
+\leftroot@=\count177
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count178
+\DOTSCASE@=\count179
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count180
+\c@MaxMatrixCols=\count181
+\dotsspace@=\muskip16
+\c@parentequation=\count182
+\dspbrk@lvl=\count183
+\tag@help=\toks16
+\row@=\count184
+\column@=\count185
+\maxfields@=\count186
+\andhelp@=\toks17
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count187
+\calc@Bcount=\count188
+\calc@Adimen=\dimen144
+\calc@Bdimen=\dimen145
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count189
+\calc@Cskip=\skip54
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count190
+\l_MT_multwidth_dim=\dimen146
+\origjot=\skip55
+\l_MT_shortvdotswithinadjustabove_dim=\dimen147
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen148
+\l_MT_above_intertext_sep=\dimen149
+\l_MT_below_intertext_sep=\dimen150
+\l_MT_above_shortintertext_sep=\dimen151
+\l_MT_below_shortintertext_sep=\dimen152
+\xmathstrut@box=\box47
+\xmathstrut@dim=\dimen153
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen154
+\ar@mcellbox=\box48
+\extrarowheight=\dimen155
+\NC@list=\toks21
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box49
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\everycr=\toks22
+\minrowclearance=\skip58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip59
+\multirow@cntb=\count191
+\multirow@dima=\skip60
+\bigstrutjot=\dimen156
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count192
+\mult@box=\box50
+\multicol@leftmargin=\dimen157
+\c@unbalance=\count193
+\c@collectmore=\count194
+\doublecol@number=\count195
+\multicoltolerance=\count196
+\multicolpretolerance=\count197
+\full@width=\dimen158
+\page@free=\dimen159
+\premulticols=\dimen160
+\postmulticols=\dimen161
+\multicolsep=\skip61
+\multicolbaselineskip=\skip62
+\partial@page=\box51
+\last@line=\box52
+\maxbalancingoverflow=\dimen162
+\mult@rightbox=\box53
+\mult@grightbox=\box54
+\mult@gfirstbox=\box55
+\mult@firstbox=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count198
+\c@columnbadness=\count199
+\c@finalcolumnbadness=\count266
+\last@try=\dimen163
+\multicolovershoot=\dimen164
+\multicolundershoot=\dimen165
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count267
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen166
+\lightrulewidth=\dimen167
+\cmidrulewidth=\dimen168
+\belowrulesep=\dimen169
+\belowbottomsep=\dimen170
+\aboverulesep=\dimen171
+\abovetopsep=\dimen172
+\cmidrulesep=\dimen173
+\cmidrulekern=\dimen174
+\defaultaddspace=\dimen175
+\@cmidla=\count268
+\@cmidlb=\count269
+\@aboverulesep=\dimen176
+\@belowrulesep=\dimen177
+\@thisruleclass=\count270
+\@lastruleclass=\count271
+\@thisrulewidth=\dimen178
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen179
+\Gin@req@width=\dimen180
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/overpic/overpic.sty
+Package: overpic 2020/02/22 1.3 picture overlays (RN)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count272
+\d@lta=\count273
+\@delta=\dimen181
+\@@delta=\dimen182
+\@gridcnt=\count274
+\@joinkind=\count275
+\@dotgap=\dimen183
+\@ddotgap=\dimen184
+\@x@diff=\count276
+\@y@diff=\count277
+\x@diff=\dimen185
+\y@diff=\dimen186
+\@dotbox=\box96
+\num@segments=\count278
+\num@segmentsi=\count279
+\@datafile=\read2
+)
+\OVP@box=\box97
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen187
+\pgfutil@tempdimb=\dimen188
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box98
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks26
+))
+\pgf@x=\dimen189
+\pgf@y=\dimen190
+\pgf@xa=\dimen191
+\pgf@ya=\dimen192
+\pgf@xb=\dimen193
+\pgf@yb=\dimen194
+\pgf@xc=\dimen195
+\pgf@yc=\dimen196
+\pgf@xd=\dimen197
+\pgf@yd=\dimen198
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count280
+\c@pgf@countb=\count281
+\c@pgf@countc=\count282
+\c@pgf@countd=\count283
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+\pgf@sys@id@count=\count284
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count285
+\pgfsyssoftpath@bigbuffer@items=\count286
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen199
+\pgfmath@count=\count287
+\pgfmath@box=\box99
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count288
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen256
+\pgf@picmaxx=\dimen257
+\pgf@picminy=\dimen258
+\pgf@picmaxy=\dimen259
+\pgf@pathminx=\dimen260
+\pgf@pathmaxx=\dimen261
+\pgf@pathminy=\dimen262
+\pgf@pathmaxy=\dimen263
+\pgf@xx=\dimen264
+\pgf@xy=\dimen265
+\pgf@yx=\dimen266
+\pgf@yy=\dimen267
+\pgf@zx=\dimen268
+\pgf@zy=\dimen269
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen270
+\pgf@path@lasty=\dimen271
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen272
+\pgf@shorten@start@additional=\dimen273
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box100
+\pgf@hbox=\box101
+\pgf@layerbox@main=\box102
+\pgf@picture@serial@count=\count289
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen274
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen275
+\pgf@pt@y=\dimen276
+\pgf@pt@temp=\dimen277
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen278
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen279
+\pgf@sys@shading@range@num=\count290
+\pgf@shadingcount=\count291
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box103
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box104
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen280
+\pgf@nodesepend=\dimen281
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen282
+\pgffor@skip=\dimen283
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count292
+\pgfplotmarksize=\dimen284
+)
+\tikz@lastx=\dimen285
+\tikz@lasty=\dimen286
+\tikz@lastxsaved=\dimen287
+\tikz@lastysaved=\dimen288
+\tikz@lastmovetox=\dimen289
+\tikz@lastmovetoy=\dimen290
+\tikzleveldistance=\dimen291
+\tikzsiblingdistance=\dimen292
+\tikz@figbox=\box105
+\tikz@figbox@bg=\box106
+\tikz@tempbox=\box107
+\tikz@tempbox@bg=\box108
+\tikztreelevel=\count293
+\tikznumberofchildren=\count294
+\tikznumberofcurrentchild=\count295
+\tikz@fig@count=\count296
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count297
+\pgfmatrixcurrentcolumn=\count298
+\pgf@matrix@numberofcolumns=\count299
+)
+\tikz@expandcount=\count300
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowinset=\dimen293
+\pgfarrowlength=\dimen294
+\pgfarrowwidth=\dimen295
+\pgfarrowlinewidth=\dimen296
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen297
+\pgfdecoratedremainingdistance=\dimen298
+\pgfdecoratedinputsegmentcompleteddistance=\dimen299
+\pgfdecoratedinputsegmentremainingdistance=\dimen300
+\pgf@decorate@distancetomove=\dimen301
+\pgf@decorate@repeatstate=\count301
+\pgfdecorationsegmentamplitude=\dimen302
+\pgfdecorationsegmentlength=\dimen303
+)
+\tikz@lib@dec@box=\box109
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+))
+\AM@pagewidth=\dimen304
+\AM@pageheight=\dimen305
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box110
+\AM@global@opts=\toks35
+\AM@pagecnt=\count302
+\AM@toc@title=\toks36
+\c@AM@survey=\count303
+\AM@templatesizebox=\box111
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen306
+\Hy@linkcounter=\count304
+\Hy@pagecounter=\count305
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count306
+Package hyperref Info: Option `breaklinks' set `true' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count307
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen307
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count308
+\Field@Width=\dimen308
+\Fld@charsize=\dimen309
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+\Hy@abspage=\count309
+\c@Item=\count310
+\c@Hfootnote=\count311
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count312
+\c@bookmark@seq@number=\count313
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip63
+))
+(/Users/dantopa/GitHub//latex-2025//global/config//common//hyperlinks-base.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"hyperlinks-base.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//hyperlinks//hl-mil-org.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//hype
+rlinks//"hl-mil-org.tex"
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//listings-codes.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//listings-codes.tex
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count314
+\lst@gtempboxa=\box112
+\lst@token=\toks37
+\lst@length=\count315
+\lst@currlwidth=\dimen310
+\lst@column=\count316
+\lst@pos=\count317
+\lst@lostspace=\dimen311
+\lst@width=\dimen312
+\lst@newlines=\count318
+\lst@lineno=\count319
+\lst@maxwidth=\dimen313
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count320
+\lst@skipnumbers=\count321
+\lst@framebox=\box113
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+File: lststyles.tex 2024/11/26 Custom Listings Styles
+)
+(/Users/dantopa/GitHub//latex-2025//global/config//common//num-components.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"num-components.tex"
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//num-list.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"num-list.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip64
+\enit@outerparindent=\dimen314
+\enit@toks=\toks38
+\enit@inbox=\box114
+\enit@count@id=\count322
+\enitdp@description=\count323
+)
+\c@saveenumi=\count324
+)
+(/Users/dantopa/GitHub//latex-2025//global/config//common//glossaries.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"glossaries.tex" 
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2020/03/19 v4.46 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
+)
+\XKV@depth=\count325
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count326
+)
+\@glsmfirst=\toks41
+\@glsmrest=\toks42
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count327
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count328
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count329
+\FP@xia=\count330
+\FP@xib=\count331
+\FP@xfa=\count332
+\FP@xfb=\count333
+\FP@rega=\count334
+\FP@regb=\count335
+\FP@regs=\count336
+\FP@times=\count337
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count338
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks43
+\@dtl@tmpcount=\count339
+\dtl@tmplength=\skip65
+\dtl@sortresult=\count340
+\@dtl@numgrpsepcount=\count341
+\@dtl@datatype=\count342
+\dtl@codeA=\count343
+\dtl@codeB=\count344
+\@dtl@foreach@level=\count345
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/base/glossaries-compat
+ible-307.sty
+Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
+)
+\gls@level=\count346
+\@gls@tmpb=\toks44
+\gls@tmplen=\skip66
+\glskeylisttok=\toks45
+\glslabeltok=\toks46
+\glsshorttok=\toks47
+\glslongtok=\toks48
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
+av.sty
+Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
+ty
+Package: glossary-list 2020/03/19 v4.46 (NLCT)
+\glslistdottedwidth=\skip67
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
+ty
+Package: glossary-long 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip68
+\LTright=\skip69
+\LTpre=\skip70
+\LTpost=\skip71
+\LTchunksize=\count347
+\LTcapwidth=\dimen315
+\LT@head=\box115
+\LT@firsthead=\box116
+\LT@foot=\box117
+\LT@lastfoot=\box118
+\LT@cols=\count348
+\LT@rows=\count349
+\c@LT@tables=\count350
+\c@LT@chunks=\count351
+\LT@p@ftn=\toks49
+)
+\glsdescwidth=\skip72
+\glspagelistwidth=\skip73
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-super.
+sty
+Package: glossary-super 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count352
+\ST@wd=\dimen316
+\ST@rightskip=\skip74
+\ST@leftskip=\skip75
+\ST@parfillskip=\skip76
+\ST@pageleft=\dimen317
+\ST@headht=\dimen318
+\ST@tailht=\dimen319
+\ST@pagesofar=\dimen320
+\ST@pboxht=\dimen321
+\ST@lineht=\dimen322
+\ST@prevht=\dimen323
+\ST@toadd=\dimen324
+\ST@dimen=\dimen325
+\ST@pbox=\box119
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
+ty
+Package: glossary-tree 2020/03/19 v4.46 (NLCT)
+\glstreeindent=\skip77
+))
+\glswrite=\write5
+\glo@main@file=\write6
+\openout6 = `main-fortran-best-practices.glo'.
+
+Package glossaries Info: Writing glossary file main-fortran-best-practices.glo 
+on input line 8.
+\glo@acronym@file=\write7
+\openout7 = `main-fortran-best-practices.acn'.
+
+Package glossaries Info: Writing glossary file main-fortran-best-practices.acn 
+on input line 8.
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//aux-loads.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"aux-loads.tex"
+(/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-colors.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-colors.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-delimiters.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-delimiters.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-A.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-A.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-bold-letters.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-bold-letters.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-mat-basics.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//libs//aux/Global/"lib-mat-basics.tex"
+))) (/Users/dantopa/GitHub//latex-2025//global/config//docs/config-flavor.tex
+  @@ DOCUMENT SETUP @@ /Users/dantopa/GitHub//latex-2025//global/config//docs//
+"config-flavor.tex"
+(/Users/dantopa/GitHub//latex-2025//global/config//docs//theorems-flavor.tex
+  @@ DOCUMENT SETUP @@ /Users/dantopa/GitHub//latex-2025//global/config//docs//
+"theorems.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks50
+\thm@bodyfont=\toks51
+\thm@headfont=\toks52
+\thm@notefont=\toks53
+\thm@headpunct=\toks54
+\thm@preskip=\skip78
+\thm@postskip=\skip79
+\thm@headsep=\skip80
+\dth@everypar=\toks55
+)
+\c@theorem=\count353
+\c@definition=\count354
+\c@remark=\count355
+
+(/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-proofs.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-proofs.tex"
+)) (/Users/dantopa/GitHub//latex-2025//global/config//docs//packages-flavor.tex
+  @@ DOCUMENT SETUP @@ /Users/dantopa/GitHub//latex-2025//global/config//docs//
+"packages-flavor.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count356
+\Gm@cntv=\count357
+\c@Gm@tempcnt=\count358
+\Gm@bindingoffset=\dimen326
+\Gm@wd@mp=\dimen327
+\Gm@odd@mp=\dimen328
+\Gm@even@mp=\dimen329
+\Gm@layoutwidth=\dimen330
+\Gm@layoutheight=\dimen331
+\Gm@layouthoffset=\dimen332
+\Gm@layoutvoffset=\dimen333
+\Gm@dimlist=\toks56
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip81
+\@affilsep=\skip82
+\c@Maxaffil=\count359
+\c@authors=\count360
+\c@affil=\count361
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
+)))
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//config/
+config-local.tex
+  -- LOCAL CONFIGURATION -- /Users/dantopa/GitHub//latex-2025//docs/fortran-bes
+t-practices//local//config//"config-local.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//config/
+packages-local.tex
+  -- LOCAL CONFIGURATION -- /Users/dantopa/GitHub//latex-2025//docs/fortran-bes
+t-practices//local//config//"packages-local.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//config/
+macros-local.tex
+  -- LOCAL CONFIGURATION -- /Users/dantopa/GitHub//latex-2025//docs/fortran-bes
+t-practices//local//config//"macros-local.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//config/
+aux-local.tex
+  -- LOCAL CONFIGURATION -- /Users/dantopa/GitHub//latex-2025//docs/fortran-bes
+t-practices//local//config//"aux-local.tex"
+))
+ @@ DOCUMENT SETUP @@ 
+(/Users/dantopa/GitHub//latex-2025//global/config//common//href-hidden.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"href-hidden.tex"
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//bib-config-a.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"bib-config-a.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count362
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count363
+\c@listtotal=\count364
+\c@listcount=\count365
+\c@liststart=\count366
+\c@liststop=\count367
+\c@citecount=\count368
+\c@citetotal=\count369
+\c@multicitecount=\count370
+\c@multicitetotal=\count371
+\c@instcount=\count372
+\c@maxnames=\count373
+\c@minnames=\count374
+\c@maxitems=\count375
+\c@minitems=\count376
+\c@citecounter=\count377
+\c@maxcitecounter=\count378
+\c@savedcitecounter=\count379
+\c@uniquelist=\count380
+\c@uniquename=\count381
+\c@refsection=\count382
+\c@refsegment=\count383
+\c@maxextratitle=\count384
+\c@maxextratitleyear=\count385
+\c@maxextraname=\count386
+\c@maxextradate=\count387
+\c@maxextraalpha=\count388
+\c@abbrvpenalty=\count389
+\c@highnamepenalty=\count390
+\c@lownamepenalty=\count391
+\c@maxparens=\count392
+\c@parenlevel=\count393
+\blx@tempcnta=\count394
+\blx@tempcntb=\count395
+\blx@tempcntc=\count396
+\blx@maxsection=\count397
+\blx@maxsegment@0=\count398
+\blx@notetype=\count399
+\blx@parenlevel@text=\count400
+\blx@parenlevel@foot=\count401
+\blx@sectionciteorder@0=\count402
+\blx@entrysetcounter=\count403
+\labelnumberwidth=\skip83
+\labelalphawidth=\skip84
+\biblabelsep=\skip85
+\bibitemsep=\skip86
+\bibnamesep=\skip87
+\bibinitsep=\skip88
+\bibparsep=\skip89
+\bibhang=\skip90
+\blx@bcfin=\read4
+\blx@bcfout=\write8
+\blx@langwohyphens=\language86
+\c@mincomprange=\count404
+\c@maxcomprange=\count405
+\c@mincompwidth=\count406
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count407
+\c@savedafterword=\count408
+\c@annotator=\count409
+\c@savedannotator=\count410
+\c@author=\count411
+\c@savedauthor=\count412
+\c@bookauthor=\count413
+\c@savedbookauthor=\count414
+\c@commentator=\count415
+\c@savedcommentator=\count416
+\c@editor=\count417
+\c@savededitor=\count418
+\c@editora=\count419
+\c@savededitora=\count420
+\c@editorb=\count421
+\c@savededitorb=\count422
+\c@editorc=\count423
+\c@savededitorc=\count424
+\c@foreword=\count425
+\c@savedforeword=\count426
+\c@holder=\count427
+\c@savedholder=\count428
+\c@introduction=\count429
+\c@savedintroduction=\count430
+\c@namea=\count431
+\c@savednamea=\count432
+\c@nameb=\count433
+\c@savednameb=\count434
+\c@namec=\count435
+\c@savednamec=\count436
+\c@translator=\count437
+\c@savedtranslator=\count438
+\c@shortauthor=\count439
+\c@savedshortauthor=\count440
+\c@shorteditor=\count441
+\c@savedshorteditor=\count442
+\c@labelname=\count443
+\c@savedlabelname=\count444
+\c@institution=\count445
+\c@savedinstitution=\count446
+\c@lista=\count447
+\c@savedlista=\count448
+\c@listb=\count449
+\c@savedlistb=\count450
+\c@listc=\count451
+\c@savedlistc=\count452
+\c@listd=\count453
+\c@savedlistd=\count454
+\c@liste=\count455
+\c@savedliste=\count456
+\c@listf=\count457
+\c@savedlistf=\count458
+\c@location=\count459
+\c@savedlocation=\count460
+\c@organization=\count461
+\c@savedorganization=\count462
+\c@origlocation=\count463
+\c@savedoriglocation=\count464
+\c@origpublisher=\count465
+\c@savedorigpublisher=\count466
+\c@publisher=\count467
+\c@savedpublisher=\count468
+\c@language=\count469
+\c@savedlanguage=\count470
+\c@origlanguage=\count471
+\c@savedoriglanguage=\count472
+\c@pageref=\count473
+\c@savedpageref=\count474
+\shorthandwidth=\skip91
+\shortjournalwidth=\skip92
+\shortserieswidth=\skip93
+\shorttitlewidth=\skip94
+\shortauthorwidth=\skip95
+\shorteditorwidth=\skip96
+\locallabelnumberwidth=\skip97
+\locallabelalphawidth=\skip98
+\localshorthandwidth=\skip99
+\localshortjournalwidth=\skip100
+\localshortserieswidth=\skip101
+\localshorttitlewidth=\skip102
+\localshortauthorwidth=\skip103
+\localshorteditorwidth=\skip104
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count475
+\c@textcitetotal=\count476
+\c@textcitemaxnames=\count477
+\c@biburlbigbreakpenalty=\count478
+\c@biburlbreakpenalty=\count479
+\c@biburlnumpenalty=\count480
+\c@biburlucpenalty=\count481
+\c@biburllcpenalty=\count482
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count483
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count484
+\c@bbx:relatedtotal=\count485
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)))
+\@quotelevel=\count486
+\@quotereset=\count487
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count488
+\l__pdf_internal_box=\box120
+)
+(./main-fortran-best-practices.aux
+
+LaTeX Warning: Label `lst:AtmosphericParams' multiply defined.
+
+
+LaTeX Warning: Label `lst:before-if-multi' multiply defined.
+
+
+LaTeX Warning: Label `lst:before-if-multi' multiply defined.
+
+
+LaTeX Warning: Label `lst:before-if-multi' multiply defined.
+
+
+LaTeX Warning: Label `lst:before-if-multi' multiply defined.
+
+
+LaTeX Warning: Label `lst:lst-fortran-after-memory' multiply defined.
+
+
+LaTeX Warning: Label `lst:lst-fortran-after-memory-II' multiply defined.
+
+)
+\openout1 = `main-fortran-best-practices.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 66
+.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count489
+\scratchdimen=\dimen334
+\scratchbox=\box121
+\nofMPsegments=\count490
+\nofMParguments=\count491
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count492
+\MPscratchDim=\dimen335
+\MPnumerator=\count493
+\makeMPintoPDFobject=\count494
+\everyMPtoPDFconversion=\toks58
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box122
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package hyperref Info: Link coloring OFF on input line 66.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count495
+)
+LaTeX Info: Redefining \ref on input line 66.
+LaTeX Info: Redefining \pageref on input line 66.
+LaTeX Info: Redefining \nameref on input line 66.
+ (./main-fortran-best-practices.out) (./main-fortran-best-practices.out)
+\@outlinefile=\write9
+\openout9 = `main-fortran-best-practices.out'.
+
+\c@lstlisting=\count496
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout8 = `main-fortran-best-practices.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main-fortran-best-practices.bbl' found.
+
+(./main-fortran-best-practices.bbl)
+Package biblatex Info: Reference section=0 on input line 66.
+Package biblatex Info: Reference segment=0 on input line 66.
+ (./main-fortran-best-practices.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+5.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+5.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+5.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 15.
+ [1
+
+\openout5 = `main-fortran-best-practices.ist'.
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+ [4])
+\tf@toc=\write10
+\openout10 = `main-fortran-best-practices.toc'.
+
+
+(./main-fortran-best-practices.lol [5] [6])
+\tf@lol=\write11
+\openout11 = `main-fortran-best-practices.lol'.
+
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/sec-r
+efactor.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"sec-strategy.tex"
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+9.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 19.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 19.
+ [7]
+
+LaTeX Warning: Reference `chap:modernization' on page 8 undefined on input line
+ 57.
+
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/sec-c
+ode.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"sec-code.tex"
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 5.
+[8]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 23.
+ [9]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-results-major-comments.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-results-major-comments.tex"
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 4.
+) [10]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-before-faust.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-before-faust.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <8> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 5.
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-mulf-reference.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-mulf-reference.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-strawman-module.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-strawman-module.tex"
+[11]))
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/sec-c
+ompare.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"sec-compare.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/ssec-
+compare-pi.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"ssec-compare-pi.tex"
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\pi' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-extraneous-precision.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-extraneous-precision.tex"
+[12]) (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <7> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 17.
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/ssec-
+refactor-declarations.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"ssec-refactor-declarations.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-original-declarations.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-original-declarations.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-refactored-declarations.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-refactored-declarations.tex"
+[13]) [14]
+Overfull \hbox (16.61229pt too wide) in paragraph at lines 45--47
+\T1/lmr/m/n/10 and dummy ar-gu-ments at com-pile time. For in-stance, with \T1/
+lmtt/m/n/10 gfortran\T1/lmr/m/n/10 , the \T1/lmtt/m/n/10 -Wimplicit-interface
+ []
+
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-chaos.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-precision-chaos.tex"
+) [15]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-prompt.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-prompt.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//compone
+nts//tables/tbl-io.tex
+  \%\% CONTENT SETUP \%\% {/Users/dantopa/GitHub//latex-2025//docs/fortran-best
+-practices//local//components//tables/"tbl-io.tex"} 
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-type.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-type.tex"
+[16]))
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/ssec-
+refactor-jitseed.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"ssec-refactor-jitseed.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-jitseed-original.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-jitseed-original.tex"
+[17])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-jitseed-refactored.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-jitseed-refactored.tex"
+)
+Overfull \hbox (23.20528pt too wide) in paragraph at lines 33--34
+[]\T1/lmr/bx/n/10 Types de-clared ex-plic-itly: \T1/lmr/m/n/10 Re-places im-pli
+cit typ-ing and \T1/lmtt/m/n/10 dimension \T1/lmr/m/n/10 with ex-plicit \T1/lmt
+t/m/n/10 real(kind=rp)
+ []
+
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/ssec-
+compare-multiuse.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"ssec-compare-multiuse.tex"
+[18]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-bash-char-c.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-bash-char-c.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-char-c-output.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-char-c-output.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-math-constants.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-math-constants.tex"
+[19]))
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/ssec-
+compare-excel.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"ssec-compare-excel.tex"
+[20]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-excel.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-excel.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-excel-III.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-excel-III.tex"
+) [21] [22])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/ssec-
+compare-memory.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"ssec-compare-memory.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-before-allocation.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-before-allocation.tex"
+) [23]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-after-allocation.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-after-allocation.tex"
+) [24] [25])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/ssec-
+compare-naming.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"ssec-compare-naming.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-excel-II.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-excel-II.tex"
+[26])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-before-threshold.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-before-threshold.tex"
+) [27]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-after-threshold.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-after-threshold.tex"
+) [28]
+Overfull \hbox (12.80643pt too wide) in paragraph at lines 68--69
+[]\T1/lmr/bx/n/10 Hardcoded unit con-ver-sion and clip-ping \T1/lmr/m/n/10 ^^V 
+Ex-pres-sions like \T1/lmtt/m/n/10 min(99999., 100.*u(32121))
+ []
+
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/ssec-
+compare-IFfluenza.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"ssec-compare-bits.tex"
+[29]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-before-if-block.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-before-if-multi.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-after-if-block.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-after-if-block.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-before-if-multi.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-before-if-multi.tex"
+[30])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-after-if-multi.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-after-if-multi.tex"
+))
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/ssec-
+compare-bits.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"ssec-compare-bits.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-before-bit-inline.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-before-bit-inline.tex"
+[31])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-after-bit-inline.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-after-bit-inline.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-mod-bits.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-mod-bits.tex"
+[32]))
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/ssec-
+compare-memory-management.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"ssec-compare-memory-management.tex"
+[33]
+Overfull \hbox (1.7686pt too wide) in paragraph at lines 25--26
+[]\T1/lmr/bx/n/10 Destructors re-quired: \T1/lmr/m/n/10 Cleanup logic must be e
+x-plicit and de-fen-sive, es-pe-cially for exception-
+ []
+
+[34]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-before-memory.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-before-memory.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-before-memory-init.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-before-memory-init.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-after-memory-I.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-after-memory-I.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-after-memory-II.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-after-memory-II.tex"
+[35])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-after-memory-IIa.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-after-memory-IIa.tex"
+) [36])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/ssec-
+compare-numerics.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"ssec-compare-numerics.tex"
+
+Overfull \hbox (1.57924pt too wide) in paragraph at lines 6--7
+\T1/lmr/m/n/10 Fundamental lim-i-ta-tions in IEEE 754 arith-metic pre-vent re-l
+i-able ex-act equal-ity test-ing due to: 
+ []
+
+[37]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-before-comparision.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-before-comparision.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-after-comparision.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-after-comparision.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-after-comparision-extended.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-after-comparision-extended.tex"
+[38]) [39])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/ssec-
+compare-ieee.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"ssec-compare-ieee.tex"
+[40])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/ssec-
+compare-io.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"ssec-compare-io.tex"
+[41]
+Overfull \hbox (1.7686pt too wide) in paragraph at lines 20--21
+[]\T1/lmr/bx/n/10 Destructors re-quired: \T1/lmr/m/n/10 Cleanup logic must be e
+x-plicit and de-fen-sive, es-pe-cially for exception-
+ []
+
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-before-memory.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-before-memory.tex"
+[42])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-before-memory-init.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-before-memory-init.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-before-scope.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-before-scope.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-after-memory-I.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-after-memory-I.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-after-memory-II.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-after-memory-II.tex"
+[43]) [44]
+Overfull \hbox (5.08115pt too wide) in paragraph at lines 80--81
+ []\T1/lmr/bx/n/10 Why it works.[] \T1/lmr/m/n/10 Each vari-able listed in \T1/
+lmtt/m/n/10 deallocate(...) \T1/lmr/m/n/10 above is de-clared lo-cally as \T1/l
+mtt/m/n/10 allocatable\T1/lmr/m/n/10 ,
+ []
+
+[45]))
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/sec-b
+ridge.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"sec-bridge.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-control-bridge.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-control-bridge.tex"
+[46]) [47]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-before-bridge.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-before-bridge.tex"
+[48])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-after-bridge.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-after-bridge.tex"
+[49])
+Overfull \hbox (37.17976pt too wide) in paragraph at lines 109--110
+[]\T1/lmr/m/n/10 The type \T1/lmtt/m/n/10 system_census \T1/lmr/m/n/10 is al-ph
+a-bet-ized, doc-u-mented, and kind-correct. The \T1/lmtt/m/n/10 set_census_from
+_nsize_sub
+ []
+
+[50] [51] [52])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/sec-m
+odern-principles.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"sec-modern-principles.tex"
+[53]
+Overfull \hbox (3.57016pt too wide) in paragraph at lines 48--49
+[]\T1/lmr/bx/n/10 Precision con-sis-tency \T1/lmr/m/n/10 ^^V In-stead of hard-c
+od-ing kind val-ues (like \T1/lmtt/m/n/10 selected_real_kind(15)\T1/lmr/m/n/10 
+),
+ []
+
+
+Overfull \hbox (41.78754pt too wide) in paragraph at lines 54--55
+[]\T1/lmr/bx/n/10 Compatibility with mod-ern com-pil-ers \T1/lmr/m/n/10 ^^V All
+ mod-ern For-tran com-pil-ers sup-port \T1/lmtt/m/n/10 iso_fortran_env\T1/lmr/m
+/n/10 .
+ []
+
+
+Overfull \hbox (37.46774pt too wide) in paragraph at lines 71--72
+[]\T1/lmr/m/n/10 It re-moves the need for ver-bose, error-prone checks such as 
+\T1/lmtt/m/n/10 IF (ALLOCATED(...)) DEALLOCATE(...)\T1/lmr/m/n/10 . 
+ []
+
+[54] [55]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\cite' on input line 129.
+
+[56]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-call-upp.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-call-upp.tex"
+[57]) [58]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-call-dwn.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-call-dwn.tex"
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--4
+
+ []
+
+) [59]
+Overfull \hbox (16.61229pt too wide) in paragraph at lines 273--274
+\T1/lmr/m/n/10 and dummy ar-gu-ments at com-pile time. For in-stance, with \T1/
+lmtt/m/n/10 gfortran\T1/lmr/m/n/10 , the \T1/lmtt/m/n/10 -Wimplicit-interface
+ []
+
+[60]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//compone
+nts//figures/fig-submodules.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//components//figures/"lst-bash-compilation-flags.tex"
+
+Overfull \hbox (12.213pt too wide) in paragraph at lines 23--24
+ [] 
+ []
+
+[61])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-main-module.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-main-module.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-wfs-submodule.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-wfs-submodule.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-bash-ls.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-bash-ls.tex"
+) [62] [63] [64]
+Overfull \hbox (1.81049pt too wide) in paragraph at lines 445--446
+[]\T1/lmr/bx/n/10 Whole-array syn-tax\T1/lmr/m/n/10 : \T1/lmtt/m/n/10 A(:, :, :
+) = B(:, :, :) + C(:, :, :)\T1/lmr/m/n/10 , \T1/lmtt/m/n/10 A(:) = 1.0_REAL64\T
+1/lmr/m/n/10 ,
+ []
+
+
+LaTeX Warning: Citation 'numrich1998co' on page 65 undefined on input line 454.
+
+
+[65] [66] [67])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/sec-f
+lags-and-compilation.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"sec-flags-and-compilation.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-bash-compilation-flags.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-bash-compilation-flags.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-bash-stub-compilation.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-bash-stub-compilation.tex"
+[68]) [69]
+Overfull \hbox (8.49431pt too wide) in paragraph at lines 43--44
+[]\T1/lmtt/m/n/10 Warning: Array 'atm' is larger than limit set by '-fmax-stack
+-var-size=',
+ []
+
+
+Overfull \hbox (3.24432pt too wide) in paragraph at lines 43--44
+\T1/lmtt/m/n/10 moved from stack to static storage. This makes the procedure un
+safe when
+ []
+
+
+Overfull \hbox (8.49431pt too wide) in paragraph at lines 60--61
+[]\T1/lmtt/m/n/10 Warning: Code for reallocating the allocatable array at (1) w
+ill be added
+ []
+
+[70] [71]
+Overfull \hbox (1.68867pt too wide) in paragraph at lines 112--117
+\T1/lmtt/m/n/10 34, 241, 285, 291, 403, 499, 499, 562, 609, 701, 703, 760, 760,
+ 816, 847, 884,
+ []
+
+
+Overfull \hbox (17.43863pt too wide) in paragraph at lines 112--117
+\T1/lmtt/m/n/10 888, 899, 900, 901, 967, 970, 1028, 1055, 1055, 1056, 1056, 106
+3, 1129, 1129, 821 
+ []
+
+
+Overfull \hbox (9.34273pt too wide) in paragraph at lines 120--122
+[]\T1/lmr/m/n/10 10 REAL(*) to IN-TE-GER(4) con-ver-sions (pos-si-ble trun-ca-t
+ion or pre-ci-sion loss, \T1/lmtt/m/n/10 -Wconversion\T1/lmr/m/n/10 )): 
+ []
+
+[72] [73])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/app-c
+++.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"app-c++.tex"
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/lmr/m/n/10 Automatic deal-lo-ca-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+[]|\T1/lmr/m/n/10 Manual via \T1/lmtt/m/n/10 new/delete \T1/lmr/m/n/10 or
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 28--29
+\T1/lmtt/m/n/10 malloc/free\T1/lmr/m/n/10 ; safer al-ter-na-tives
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 30--30
+[]|\T1/lmr/m/n/10 Native multi-dimensional ar-rays
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 31--32
+[]|\T1/lmr/m/n/10 Manual in-dex-ing or third-party
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 31--32
+\T1/lmr/m/n/10 li-braries (\T1/lmtt/m/n/10 std::vector\T1/lmr/m/n/10 , Eigen,
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 33--33
+\T1/lmr/m/n/10 check-ing for \T1/lmtt/m/n/10 allocatable \T1/lmr/m/n/10 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\T1/lmr/bx/n/10 Parallelism
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\T1/lmr/m/n/10 Coarrays (PGAS); compiler-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/lmr/m/n/10 parallel ar-ray ex-pres-sions;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+[]|\T1/lmr/m/n/10 Explicit thread, task, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\T1/lmr/bx/n/10 Compiler-native
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\T1/lmr/m/n/10 en-able au-to-matic vec-tor-iza-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]|\T1/lmr/bx/n/10 Performance
+ []
+
+[75]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 68.
+
+Underfull \hbox (badness 3907) in paragraph at lines 73--75
+[]|\T1/lmr/m/n/9 Stack vari-ables; ex-plicit heap via
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+[]|\T1/lmr/m/n/9 Only with smart point-ers (e.g.,
+ []
+
+
+Underfull \hbox (badness 6859) in paragraph at lines 84--84
+[]|\T1/lmr/m/n/9 Permitted for \T1/lmtt/m/n/9 allocatable \T1/lmr/m/n/9 ar-rays
+
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 96--96
+[]|\T1/lmr/m/n/9 Low with \T1/lmtt/m/n/9 allocatable\T1/lmr/m/n/9 ; high with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\T1/lmr/bx/n/9 Parallel pro-gram-ming
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 100--100
+[]|\T1/lmr/m/n/9 Coarrays (PGAS); OpenMP; MPI
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 101--103
+[]|\T1/lmr/m/n/9 OpenMP; MPI; C++20 \T1/lmtt/m/n/9 <thread>\T1/lmr/m/n/9 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+[]|\T1/lmr/bx/n/9 Parallel mem-ory ab-
+ []
+
+
+Overfull \hbox (32.78668pt too wide) in paragraph at lines 68--112
+ [] 
+ []
+
+[76]
+Underfull \hbox (badness 4647) in paragraph at lines 135--137
+[]|\T1/lmr/m/n/9 Stack vari-ables, ex-plicit heap via
+ []
+
+
+Underfull \hbox (badness 6859) in paragraph at lines 146--146
+[]|\T1/lmr/m/n/9 Permitted for \T1/lmtt/m/n/9 allocatable \T1/lmr/m/n/9 ar-rays
+
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 151--153
+[]|\T1/lmr/m/n/9 Requires man-ual in-dex-ing or STL
+ []
+
+
+Overfull \hbox (32.78668pt too wide) in paragraph at lines 130--162
+ [] 
+ []
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+) [77])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/app-f
+ortran.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"app-fortran.tex"
+[78] [79] [80] [81])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/sec-c
+ompiler-flags.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"sec-compiler-flags.tex"
+[82]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-bash-flag-bundles.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-bash-flag-bundles.tex"
+))
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/app-p
+recision-and-linter.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"app-precision-and-linter.tex.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-fortran-precision-definitions.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-fortran-precision-definitions.tex"
+[83]
+
+Package Listings Warning: Text dropped after begin of listing on input line 5.
+
+) [84] [85])
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//sections/app-l
+inter-output.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//sections/"app-linter-output.tex"
+
+Overfull \hbox (11.56412pt too wide) in paragraph at lines 4--4
+[]\T1/lmr/bx/n/14.4 Rustic Lin-ter - Full Re-sults From Com-pil-ing With Flags 
+
+ []
+
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-bash-oflags-compilation.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-bash-oflags-compilation.tex"
+)
+
+LaTeX Warning: Reference `' on page 86 undefined on input line 23.
+
+[86]
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-bash-fflags-compilation.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-bash-fflags-compilation.tex"
+)
+
+LaTeX Warning: Reference `)' on page 87 undefined on input line 32.
+
+
+(/Users/dantopa/GitHub//latex-2025//docs/fortran-best-practices//local//listing
+s/lst-bash-Wflags-compilation.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/fortran-best-
+practices//local//listings/"lst-bash-Wflags-compilation.tex"
+[87] [88] [89] [90] [91] [92] [93] [94] [95] [96]
+Overfull \hbox (27.32426pt too wide) in paragraph at lines 665--666
+[][] 
+ []
+
+
+Overfull \hbox (45.17442pt too wide) in paragraph at lines 700--701
+[][] 
+ []
+
+[97]
+Overfull \hbox (45.17442pt too wide) in paragraph at lines 710--711
+[][] 
+ []
+
+)) [98]
+Overfull \hbox (8.2179pt too wide) in paragraph at lines 96--96
+[]\T1/lmr/m/it/10 Fortran Wiki\T1/lmr/m/n/10 . []$\T1/lmtt/m/n/10 https : / / f
+ortranwiki . org / fortran / show / HomePage$[]\T1/lmr/m/n/10 . A community-mai
+ntained
+ []
+
+[99] (./main-fortran-best-practices.ind [100
+
+
+
+])
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+(./main-fortran-best-practices.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+Package rerunfilecheck Info: File `main-fortran-best-practices.out' has not cha
+nged.
+(rerunfilecheck)             Checksum: 01AF1E6F2AA5D2C5ECAA8B263B2C85FB;13852.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main-fortran-best-practices
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main-fortran-best-practices.run.xml'.
+
+\openout1 = `main-fortran-best-practices.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
+ ) 
+Here is how much of TeX's memory you used:
+ 38446 strings out of 480608
+ 713121 string characters out of 5903631
+ 1652152 words of memory out of 5000000
+ 51113 multiletter control sequences out of 15000+600000
+ 620963 words of font info for 89 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,15n,151p,2120b,2082s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
+texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/t
+exmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2020/texmf-dist/
+fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/
+dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/l
+m-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/loca
+l/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pub
+lic/lm/lmmi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi
+6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr
+/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texl
+ive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/te
+xmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fo
+nts/type1/public/lm/lmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/p
+ublic/lm/lmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr
+6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/
+local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texliv
+e/2020/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2020/texmf-dist/font
+s/type1/public/lm/lmri12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/lm/lmri7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lms
+y10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></u
+sr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2020
+/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dis
+t/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
+e1/public/lm/lmtt9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb>
+Output written on main-fortran-best-practices.pdf (100 pages, 901625 bytes).
+PDF statistics:
+ 3988 PDF objects out of 4296 (max. 8388607)
+ 3818 compressed objects within 39 object streams
+ 2199 named destinations out of 2487 (max. 500000)
+ 1413 words of extra memory for PDF output out of 10000 (max. 10000000)
+

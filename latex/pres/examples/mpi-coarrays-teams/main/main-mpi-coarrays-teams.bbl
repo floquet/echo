@@ -1,0 +1,168 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{jia2018dissectingnvidiavoltagpu}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=9dd54699b2c2473b656e16cb77363635}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Zhe},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=58a5f8d773a19f091221ced01fdcd125}{%
+           family={Maggioni},
+           familyi={M\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9618bf74236c3d97b70375f8ac2b9195}{%
+           family={Staiger},
+           familyi={S\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d2b022387afe9f3316576bae8e469bf2}{%
+           family={Scarpazza},
+           familyi={S\bibinitperiod},
+           given={Daniele\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{df614e672e7e477dbd4b676b5a8c14e0}
+      \strng{fullhash}{a1119159dbd38937c5620d29ee691bd4}
+      \strng{bibnamehash}{df614e672e7e477dbd4b676b5a8c14e0}
+      \strng{authorbibnamehash}{df614e672e7e477dbd4b676b5a8c14e0}
+      \strng{authornamehash}{df614e672e7e477dbd4b676b5a8c14e0}
+      \strng{authorfullhash}{a1119159dbd38937c5620d29ee691bd4}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.DC}
+      \field{eprinttype}{arXiv}
+      \field{title}{Dissecting the NVIDIA Volta GPU Architecture via Microbenchmarking}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1804.06826
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1804.06826
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1804.06826
+      \endverb
+    \endentry
+    \entry{schieffer2024harnessingintegratedcpugpumemory}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=ed0623933c5b4f9e4f445762b01a16ac}{%
+           family={Schieffer},
+           familyi={S\bibinitperiod},
+           given={Gabin},
+           giveni={G\bibinitperiod}}}%
+        {{hash=946c3e16ea93afbab850012c7e1d6b00}{%
+           family={Wahlgren},
+           familyi={W\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=62e35a279e83b786c66c87905e94c4d5}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6e917905726d92f98244b58a81ac5aa1}{%
+           family={Faj},
+           familyi={F\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4970e34e020ee6157f9ddbcb99d910f9}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Ivy},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{347847cff26a6d24c82614b69b9f168a}
+      \strng{fullhash}{041f203a007cb0fd3fa72c1909a60df1}
+      \strng{bibnamehash}{347847cff26a6d24c82614b69b9f168a}
+      \strng{authorbibnamehash}{347847cff26a6d24c82614b69b9f168a}
+      \strng{authornamehash}{347847cff26a6d24c82614b69b9f168a}
+      \strng{authorfullhash}{041f203a007cb0fd3fa72c1909a60df1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.DC}
+      \field{eprinttype}{arXiv}
+      \field{title}{Harnessing Integrated CPU-GPU System Memory for HPC: a first look into Grace Hopper}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2407.07850
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2407.07850
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2407.07850
+      \endverb
+    \endentry
+    \entry{schuiki2018scalable}{article}{}
+      \name{author}{4}{}{%
+        {{hash=056a9790094f6de04eab507260982715}{%
+           family={Schuiki},
+           familyi={S\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ece4c0d2a315beac539838ace0a6bf8a}{%
+           family={Schaffner},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5797ea2545525fd7b77b2fb6c8c0054f}{%
+           family={G{ü}rkaynak},
+           familyi={G\bibinitperiod},
+           given={Frank\bibnamedelima K},
+           giveni={F\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=ba31f0daddec3d14ef6a4f5279845d2d}{%
+           family={Benini},
+           familyi={B\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e8a2e0a845c20cf24c34837e8c9c85fb}
+      \strng{fullhash}{dd043fa5fc04869639efdf8dd5015a3e}
+      \strng{bibnamehash}{e8a2e0a845c20cf24c34837e8c9c85fb}
+      \strng{authorbibnamehash}{e8a2e0a845c20cf24c34837e8c9c85fb}
+      \strng{authornamehash}{e8a2e0a845c20cf24c34837e8c9c85fb}
+      \strng{authorfullhash}{dd043fa5fc04869639efdf8dd5015a3e}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Computers}
+      \field{number}{4}
+      \field{title}{A scalable near-memory architecture for training deep neural networks on large in-memory datasets}
+      \field{volume}{68}
+      \field{year}{2018}
+      \field{pages}{484\bibrangedash 497}
+      \range{pages}{14}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

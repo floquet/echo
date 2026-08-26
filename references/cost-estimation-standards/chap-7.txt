@@ -1,0 +1,9 @@
+https://www.epa.gov/sites/default/files/2017-12/documents/epaccmcostestimationmethodchapter_7thedition_2017.pdf
+Cost Estimation: Concepts and Methodology
+
+This chapter presents a methodology that will enable the user, having knowledge of the
+source being controlled, to produce study-level estimates of the costs incurred by regulated entities
+for a control system applied to that source. The methodology, which applies to each of the control
+systems included in this Manual, is general enough to be used with other “add-on” systems as well.
+Further, the methodology can apply to estimating the costs of fugitive emission controls and other
+non-stack abatement methods.

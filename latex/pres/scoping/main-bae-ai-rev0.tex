@@ -1,0 +1,218 @@
+% Compile the document with pdflatex, bibliography sequence:
+% 1. pdflatex main-bae-ai-rev0.tex      % First pass
+% 2. biber main-bae-ai-rev0             % Compile the bibliography
+% 3. pdflatex main-bae-ai-rev0.tex      % Second pass
+% 4. pdflatex main-bae-ai-rev0.tex      % Final pass to resolve references
+\documentclass{beamer}
+\newcommand{\yshift}{0.0} % Vertical offset for decorative logos
+
+% Fetch home directory to make this file independent of the file system
+\usepackage{catchfile}
+\CatchFileDef{\HomePath}{|kpsewhich -var-value=HOME}{}
+\makeatletter
+\edef\HomePath{\expandafter\zap@space\HomePath \@empty}
+\makeatother
+
+% Define GitHub and repository paths
+\newcommand{\pGithub}{\HomePath/GitHub/}
+\newcommand{\pRepo}{\pGithub/latex-2025/}
+
+% Navigation variables: FLAVOR, PROJECT TITLE
+\newcommand{\flavor}{pres}        % Type: pres (presentation) or doc (document)
+\newcommand{\projTitle}{bae-ai-rev0}   % Project Title
+
+\newcommand{\pBibs}{\pRepo/bibs/}
+\newcommand{\pGlobal}{\pRepo/global/}
+\newcommand{\pConfigRoot}{\pRepo/global/config/}
+\newcommand{\pConfigGlobal}{\pConfigRoot/common/}
+\newcommand{\pConfigFlavor}{\pConfigRoot/\flavor/}
+
+\newcommand{\enumMain}  { ** MAIN CONFIGURATION ** }
+\newcommand{\enumBase}  { == BASE CONFIGURATION == }
+\newcommand{\enumFlavor}  { ** FLAVOR CONFIGURATION ** }
+\newcommand{\enumLocal} { -- LOCAL CONFIGURATION -- }
+\newcommand{\enumAux} { >> AUXILIARY LIBRARY << }
+\newcommand{\enumHL} { >> HYPERKLINKS IBRARY << }
+\newcommand{\enumGlossary} { >> GLOSSARY LIBRARY << }
+\newcommand{\enumElements} { >> ELEMENTS LIBRARY << }
+\newcommand{\enumPres}  { ++ PRESENTATION SETUP ++ }
+\newcommand{\enumDocs}  { @@ DOCUMENT SETUP @@ }
+\newcommand{\enumContent} { !! CONTENT SETUP !! }
+
+% Load configuration files hierarchically
+\input{\pConfigGlobal "config-base.tex"}
+%\input{\pConfigFlavor "config-flavor.tex"}
+\input{\pConfigFlavor/"config-flavor-bae.tex"}
+\input{\pConfig "config-local.tex"}
+
+\typeout{\enumDocs}
+% Choose hyperlink configuration:
+\input{\pConfigGlobal/"href-hidden.tex"}   % For hidden links (clean, professional)
+% \input{\pConfigGlobal/"href-visible.tex"} % For visible links (debugging, drafts)
+
+%\usepackage[printwatermark]{xwatermark}
+% \newwatermark[ allpages, color=red!5, angle=45, scale=3, xpos=0, ypos=0 ]{DRAFT}
+
+% Debugging with visible slide boundaries
+% \setbeamertemplate{background canvas}[grid][ step = 1cm ]
+
+%   --   --   --   --   --   --   --   --   --   -- Bibliography format, content
+\input{\pConfigGlobal/"bib-config-a.tex"}
+\addbibresource{\pBibs/textbooks.bib}
+%\addbibresource{\pBibs/bae-ai-rev0.bib}
+%\addbibresource{\pBibs/*.bib}
+
+
+% Document metadata
+%   --   --   --   --   --   --   --   --   --   -- Title, Author
+%Technical
+% AI-Assisted Evaluation of Contractor Cost Estimates
+% AI-Based Analysis of Contractor Cost Estimates
+% AI-Driven Assessment of Contractor Cost Estimates
+% AI Review of Contractor Cost Estimates
+% Applying Generative AI to Contractor Cost Estimate Evaluation
+
+%Acquisition / Government
+% Generative AI for Independent Evaluation of Contractor Cost Estimates
+% Using Generative AI to Assess Contractor Cost Estimates
+% Applying Large Language Models to Contractor Cost Estimate Review
+% AI Support for Contractor Cost Estimate Evaluation
+
+%Systems Engineering
+% An AI Pipeline for Evaluating Contractor Cost Estimates
+% A Generative AI Architecture for Contractor Cost Estimate Review
+% An Agent-Based Pipeline for Cost Estimate Evaluation
+% Architecture for AI Evaluation of Contractor Cost Estimates
+
+%Research
+% Toward AI-Assisted Evaluation of Contractor Cost Estimates
+% A Framework for AI Evaluation of Contractor Cost Estimates
+% An Architecture for AI-Based Cost Estimate Assessment
+% A Generative AI Framework for Contractor Cost Analysis
+
+\title[Generative AI Framework for Cost Analysis]{A Generative AI Framework\\ for Contractor Cost Analysis}
+\author[\hLogoBAE \phantom{wwwwwwwwwwwwwwwwwwwwww} \TopaBAE]{\TopaBAE \\ \TopaBAEEmail}
+\institute{\bae}
+\date{\today}
+
+\begin{document}
+
+% Title slide
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Welcome audience, frame the problem
+\begin{frame}
+\frametitle{Mission Statement}
+\begin{center}
+		\bl{What information} must be provided to a \bl{generative AI} system to enable \bl{credible evaluation} of \bl{cost estimates}?
+\end{center}
+\end{frame}
+\begin{frame}
+%}
+\frametitle{Schematic}
+\center
+	%\href{https://github.com/spack/spack}{
+	\begin{overpic}[ scale = 0.15 ]
+		{\pGraphics/flow.png}
+	\end{overpic}%}
+\end{frame}
+
+\begin{frame}[ allowframebreaks ]\frametitle{Presentation Overview}
+    \tableofcontents
+\end{frame}
+
+%   --   --   --   --   --   --   --   --   --   -- Sections
+% Primary content
+	\input{\pSections "sec-survey.tex"}
+	\input{\pSections "sec-inputs.tex"}
+	\input{\pSections "sec-ai-pipeline.tex"}
+	\input{\pSections "sec-ai-components.tex"}
+	\input{\pSections "sec-outputs.tex"}
+	%\input{\pSections "sec-backup.tex"}
+
+\appendix
+
+%%   --   --   --   --   --   --   --   --   --   -- Glossary
+%\section{}
+%\begin{frame}[ allowframebreaks ]
+%\small
+%    \frametitle{Glossary}
+%    \printglossary[ type=main ]
+%    \printglossary[ type=\acronymtype, title=Acronyms ]
+%\end{frame}
+
+%   --   --   --   --   --   --   --   --   --   -- References
+\section{} % Do not add to navigation panel
+\begin{frame}[ allowframebreaks ]
+    \frametitle{References}
+    \printbibliography
+\end{frame}
+
+% Questions?
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\end{document}
+
+\tiny
+\scriptsize
+\footnotesize
+\small
+\normalsize
+\large
+\Large
+\LARGE
+\huge
+\Huge
+
+% \, thin space (normally 1/6 of a quad);
+% \> medium space (normally 2/9 of a quad);
+% \; thick space (normally 5/18 of a quad);
+
+\begin{frame}\frametitle{Frame Title}
+\begin{enumerate}
+	\item First item
+	\item Second item
+	\item Third item
+\end{enumerate}
+\end{frame}
+
+\begin{frame}\frametitle{Frame Title}
+\begin{equation}
+	\begin{array}{ccc} 
+			% Example matrix layout
+			a & b & c \
+			d & e & f \
+			g & h & i
+	\end{array}
+% \label{eq:example}
+\end{equation}
+\end{frame}
+
+\begin{frame}\frametitle{Graphic Example}
+\center
+	\href{https://example.com}{
+	\begin{overpic}[scale=1.0]{\pLocalGraphics graphic-file}
+		%\put(-7,-10){Auxiliary text.}
+	\end{overpic}}
+\end{frame}
+
+\begin{frame}\frametitle{Frame Title}
+\begin{table}[htp]
+%\caption{Default caption}
+\begin{center}
+	\begin{tabular}{cc}
+		\hline
+		Column 1 & Column 2 \
+		\hline
+		Data 1 & Data 2 \
+		Data 3 & Data 4 \
+		\hline
+	\end{tabular}
+\end{center}
+% \label{tab:example}
+\end{table}
+\end{frame}

@@ -1,0 +1,52 @@
+% \input{\pLocalTheorems "thm-mean-ls"}
+%
+%\clearpage
+\subsection{The Mean as Least Squares}
+\begin{theorem}[The Mean as Least Squares]
+
+Given a vector $z\icm$, and a prophetically-named constant $\mu\in\cmplx{}$, pose the model equation
+\begin{equation}
+	z = \mu \one
+%\tag{\ref{eq:coalesce}}
+\label{eq:mean-lsf}
+\end{equation}
+where $\one$ is the constant vector of length $m$. The least squares solution for this model is
+\begin{equation}
+		%
+	\mu = \frac{\itwo{\one}{z}}{\innerSelf{\one}}.
+		%
+\label{eq:thm:mean:soln}
+\end{equation}
+%
+\label{thm:mean-ls}
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+   
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+	Define the minimization target function, the length of the residual error vector, as
+		%
+\begin{equation}
+	\phi^{2}(\mu) = \normts{z - \mu \one} = \innerSelf{z} + \mu^{*}\mu\innerSelf{\one} - \mu\itwo{z}{\one} - \mu^{*}\itwo{\one}{z} 
+\label{eq:pf-phi}
+\end{equation}
+		%
+The least squares solution is the point $\mu$ which satisfies
+		%
+\begin{equation}
+	\frac{d}{d \mu} \phi^{2}(\mu) = 0.
+%\label{eq:}
+\end{equation}
+		%
+	The condition becomes 
+		%
+\begin{equation}
+	\mu^{*}\innerSelf{\one} - \itwo{z}{\one} = 0.
+%\label{eq:}
+\end{equation}
+		%
+Taking the complex conjugate of both sides of this equation reduces \eqref{eq:thm:mean:soln}. (Notice the connection to      theorem \ref{thm:simple} with $v = z$ and $u = \one$.)
+\end{proof}
+%
+%
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

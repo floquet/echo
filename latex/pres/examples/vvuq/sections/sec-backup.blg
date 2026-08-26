@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'sec-backup.blg'
+[137] biber-darwin:322> INFO - === Sun Mar 15, 2026, 11:15:11
+[418] Utils.pm:320> ERROR - Cannot find 'sec-backup.bcf'!
+[419] Biber.pm:132> INFO - ERRORS: 1

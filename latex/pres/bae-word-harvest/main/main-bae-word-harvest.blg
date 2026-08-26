@@ -1,0 +1,19 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main-bae-word-harvest.blg'
+[67] biber-darwin:322> INFO - === Thu Aug  6, 2026, 02:25:56
+[78] Biber.pm:415> INFO - Reading 'main-bae-word-harvest.bcf'
+[147] Biber.pm:943> INFO - Found 2 citekeys in bib section 0
+[160] Biber.pm:4256> INFO - Processing section 0
+[160] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[160] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' to /Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib
+[168] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' for section 0
+[183] bibtex.pm:1653> INFO - LaTeX decoding ...
+[428] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[472] Utils.pm:304> WARN - I didn't find a database entry for 'metcalf2024modern' (section 0)
+[479] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[479] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[479] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[479] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[485] bbl.pm:652> INFO - Writing 'main-bae-word-harvest.bbl' with encoding 'UTF-8'
+[486] bbl.pm:755> INFO - Output to main-bae-word-harvest.bbl
+[486] Biber.pm:128> INFO - WARNINGS: 1

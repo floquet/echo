@@ -1,0 +1,33 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{1}{Key Observations}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{2}{Why Refactor}{5}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Code Problems}{11}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Major}{16}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Moderate}{29}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{3}{Minor}{52}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Compilation Flags}{79}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{1}{Warning Flags}{82}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{2}{Runtime Flags}{89}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{3}{Other Flags}{91}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Bridge Code}{93}{1}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{1}{Census Variables}{94}{1}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{2}{Bit Twidling}{99}{1}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Backup Section}{103}{1}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{1}{IEEE Arithmetic}{104}{1}{5}

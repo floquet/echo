@@ -1,0 +1,295 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{clerman2011modern}{book}{}
+      \name{author}{2}{}{%
+        {{hash=3454ab53de49a774b16204f5756a0094}{%
+           family={Clerman},
+           familyi={C\bibinitperiod},
+           given={Norman\bibnamedelima S},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=cc931afbc35a3a7bc5636c6f3c10034c}{%
+           family={Spector},
+           familyi={S\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{acfbbb1a4ceefb5df5af1ee360b61e64}
+      \strng{fullhash}{acfbbb1a4ceefb5df5af1ee360b61e64}
+      \strng{bibnamehash}{acfbbb1a4ceefb5df5af1ee360b61e64}
+      \strng{authorbibnamehash}{acfbbb1a4ceefb5df5af1ee360b61e64}
+      \strng{authornamehash}{acfbbb1a4ceefb5df5af1ee360b61e64}
+      \strng{authorfullhash}{acfbbb1a4ceefb5df5af1ee360b61e64}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Fortran is one of the oldest high-level languages and remains the premier language for writing code for science and engineering applications. This book is for anyone who uses Fortran, from the novice learner to the advanced expert. It describes best practices for programmers, scientists, engineers, computer scientists and researchers who want to apply good style and incorporate rigorous usage in their own Fortran code or to establish guidelines for a team project. The presentation concentrates primarily on the characteristics of Fortran 2003, while also describing methods in Fortran 90/95 and valuable new features in Fortran 2008. The authors draw on more than a half century of experience writing production Fortran code to present clear succinct guidelines on formatting, naming, documenting, programming and packaging conventions and various programming paradigms such as parallel processing (including OpenMP, MPI and coarrays), OOP, generic programming and C language interoperability.}
+      \field{title}{Modern Fortran: style and usage}
+      \field{year}{2011}
+    \endentry
+    \entry{hanson2013numerical}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c98f1633d999d4df5bcda559be3494f6}{%
+           family={Hanson},
+           familyi={H\bibinitperiod},
+           given={Richard\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9e28620956c60bf065ac8bffe86cd80f}{%
+           family={Hopkins},
+           familyi={H\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{619831997a7253e045eae14166779798}
+      \strng{fullhash}{619831997a7253e045eae14166779798}
+      \strng{bibnamehash}{619831997a7253e045eae14166779798}
+      \strng{authorbibnamehash}{619831997a7253e045eae14166779798}
+      \strng{authornamehash}{619831997a7253e045eae14166779798}
+      \strng{authorfullhash}{619831997a7253e045eae14166779798}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Numerical computing with modern Fortran}
+      \field{year}{2013}
+    \endentry
+    \entry{markus2012modern}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e1e2105d41dcd3b19f9e581dc91644fc}{%
+           family={Markus},
+           familyi={M\bibinitperiod},
+           given={Arjen},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{e1e2105d41dcd3b19f9e581dc91644fc}
+      \strng{fullhash}{e1e2105d41dcd3b19f9e581dc91644fc}
+      \strng{bibnamehash}{e1e2105d41dcd3b19f9e581dc91644fc}
+      \strng{authorbibnamehash}{e1e2105d41dcd3b19f9e581dc91644fc}
+      \strng{authornamehash}{e1e2105d41dcd3b19f9e581dc91644fc}
+      \strng{authorfullhash}{e1e2105d41dcd3b19f9e581dc91644fc}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{From its earliest days, the Fortran programming language has been designed with computing efficiency in mind. The latest standard, Fortran 2008, incorporates a host of modern features, including object-orientation, array operations, user-defined types, and provisions for parallel computing. This tutorial guide shows Fortran programmers how to apply these features in twenty-first-century style: modular, concise, object-oriented, and resource-efficient, using multiple processors. It offers practical real-world examples of interfacing to C, memory management, graphics and GUIs, and parallel computing using MPI, OpenMP, and coarrays. The author also analyzes several numerical algorithms and their implementations and illustrates the use of several open source libraries. Full source code for the examples is available on the book's website.}
+      \field{title}{Modern Fortran in practice}
+      \field{year}{2012}
+    \endentry
+    \entry{metcalf2024modern}{book}{}
+      \name{author}{4}{}{%
+        {{hash=32c94d99aa891837a9de9705c68c8c29}{%
+           family={Metcalf},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=09427c885be5f5b6701787068880c1cb}{%
+           family={Reid},
+           familyi={R\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3bfd3e4663b648daa75cb852279811e0}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Malcolm},
+           giveni={M\bibinitperiod}}}%
+        {{hash=048ec47f5ded528bd3c315bcbe5d23b8}{%
+           family={Bader},
+           familyi={B\bibinitperiod},
+           given={Reinhold},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{df6c6b4966599d6f671bba7d0fff0519}
+      \strng{fullhash}{e27a0abd8fde834db84a83f6344747f5}
+      \strng{bibnamehash}{df6c6b4966599d6f671bba7d0fff0519}
+      \strng{authorbibnamehash}{df6c6b4966599d6f671bba7d0fff0519}
+      \strng{authornamehash}{df6c6b4966599d6f671bba7d0fff0519}
+      \strng{authorfullhash}{e27a0abd8fde834db84a83f6344747f5}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Fortran remains one of the principal programming languages used in high-performance scientific, numerical, and engineering computing. A series of significant revisions to the standard versions of the language have progressively enhanced its capabilities, and the current standard-Fortran 2023-brings with it further additions and improvements. The language as defined by its most recent standards, with their introduction of object-oriented programming and of coarrays, is often referred to generically as' Modern Fortran', and this term is increasingly used in the literature. Thus, we see that Fortran's particular advantages as a high-end numerical language, especially where arrays are the main form of data object and/or where complex arithmetic is involved, are still to the fore. It is able to attain the highest achievable optimization, mainly because multi-dimensional arrays are'natural'objects and because its pointers are highly constrained. There is every sign that Modern Fortran will continue to be used to tackle major scientific computing problems in the next decade and beyond and will long remain a living tribute to its early pioneers. This third edition of Modern Fortran Explained expands on the second. The material contained in the four final chapters of the second edition have been merged into the main text, thereby offering, in 20 chapters, a comprehensive and uniform description of Fortran 2018. The additional features now brought by the 2023 standard, which are mostly relatively minor in nature, are described in two final chapters, the first on generic programming and the second on the other features. This structure enables the reader to distinguish clearly between what is old and what is new. This new edition, written by experts in the field, three of whom have actively contributed to Fortran 2023, is thus a complete and authoritative description of Fortran in its latest form, with the intention that it remain the main reference work in the field.}
+      \field{title}{Modern Fortran Explained: Incorporating Fortran 2023}
+      \field{year}{2024}
+    \endentry
+    \entry{mozdzynski2015partitioned}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e0fa3725247523c2baf511405e92f026}{%
+           family={Mozdzynski},
+           familyi={M\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8523e75439970af293f754238fa50046}{%
+           family={Hamrud},
+           familyi={H\bibinitperiod},
+           given={Mats},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6a9cef90809ffde68918bfbb437825df}{%
+           family={Wedi},
+           familyi={W\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage UK: London, England}%
+      }
+      \strng{namehash}{1dcdf135a1790853a79612ea4289f3f1}
+      \strng{fullhash}{1dcdf135a1790853a79612ea4289f3f1}
+      \strng{bibnamehash}{1dcdf135a1790853a79612ea4289f3f1}
+      \strng{authorbibnamehash}{1dcdf135a1790853a79612ea4289f3f1}
+      \strng{authornamehash}{1dcdf135a1790853a79612ea4289f3f1}
+      \strng{authorfullhash}{1dcdf135a1790853a79612ea4289f3f1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Today the European Centre for Medium Range Weather Forecasts (ECMWF) runs a 16 km global T1279 operational weather forecast model using 1536 cores of an IBM Power7. Following the historical evolution in resolution upgrades, the ECMWF could expect to be running a 2.5 km global forecast model by 2030 on an exascale system that should be available and hopefully affordable by then. To achieve this would require the Integrated Forecasting System (IFS) to run efficiently on about 1000 times the number of cores it uses today. In a step towards this goal, the ECMWF have demonstrated the IFS running a 10 km global model efficiently on over 40,000 cores of HECToR a Cray XE6 at the Edinburgh Parallel Computing Centre. However, getting to over a million cores remains a formidable challenge, and many scalability improvements have yet to be implemented. The ECMWF is exploring the use of Fortran2008 coarrays; in particular, it is possibly the first time that coarrays have been used in a world-leading production application within the context of OpenMP parallel regions. The purpose of these optimisations is primarily to allow the overlap of computation and communication, and further, in the semi-Lagrangian advection scheme, to reduce the volume of data communicated. The importance of this research is such that if these and other planned developments are successful, the IFS model may continue to use the spectral transform method to 2030 and beyond on an exascale-sized system. The current status of the coarray scalability developments within the IFS are described together with a brief outline of future developments.}
+      \field{journaltitle}{The International Journal of High Performance Computing Applications}
+      \field{number}{3}
+      \field{title}{A partitioned global address space implementation of the European centre for medium range weather forecasts integrated forecasting system}
+      \field{volume}{29}
+      \field{year}{2015}
+      \field{pages}{261\bibrangedash 273}
+      \range{pages}{13}
+    \endentry
+    \entry{ray2019fortran}{book}{}
+      \name{author}{1}{}{%
+        {{hash=eee8393ea52d28f9370b0848a0ce310b}{%
+           family={Ray},
+           familyi={R\bibinitperiod},
+           given={Subrata},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall/CRC}%
+      }
+      \strng{namehash}{eee8393ea52d28f9370b0848a0ce310b}
+      \strng{fullhash}{eee8393ea52d28f9370b0848a0ce310b}
+      \strng{bibnamehash}{eee8393ea52d28f9370b0848a0ce310b}
+      \strng{authorbibnamehash}{eee8393ea52d28f9370b0848a0ce310b}
+      \strng{authornamehash}{eee8393ea52d28f9370b0848a0ce310b}
+      \strng{authorfullhash}{eee8393ea52d28f9370b0848a0ce310b}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The programming language Fortran dates back to 1957 when a team of IBM engineers released the first Fortran Compiler. During the past 60 years, the language had been revised and updated several times to incorporate more features to enable writing clean and structured computer programs. The present version is Fortran 2018. Since the dawn of the computer era, there had been a constant demand for a ``larger'' and ``faster'' machine. To increase the speed there are three hurdles. The density of the active components on a VLSI chip cannot be increased indefinitely and with the increase of the density heat dissipation becomes a major problem. Finally, the speed of any signal cannot exceed the velocity of the light. However, by using several inexpensive processors in parallel coupled with specialized software and hardware, programmers can achieve computing speed similar to a supercomputer. This book can be used to learn the modern Fortran from the beginning and the technique of developing parallel programs using Fortran. It is for anyone who wants to learn Fortran. Knowledge beyond high school mathematics is not required. There is not another book on the market yet which deals with Fortran 2018 as well as parallel programming.}
+      \field{title}{Fortran 2018 with parallel programming}
+      \field{year}{2019}
+    \endentry
+    \entry{williams2019c++}{book}{}
+      \name{author}{1}{}{%
+        {{hash=497c5804c01683eb601dd96d50e19909}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Simon}%
+        {Schuster}%
+      }
+      \strng{namehash}{497c5804c01683eb601dd96d50e19909}
+      \strng{fullhash}{497c5804c01683eb601dd96d50e19909}
+      \strng{bibnamehash}{497c5804c01683eb601dd96d50e19909}
+      \strng{authorbibnamehash}{497c5804c01683eb601dd96d50e19909}
+      \strng{authornamehash}{497c5804c01683eb601dd96d50e19909}
+      \strng{authorfullhash}{497c5804c01683eb601dd96d50e19909}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{C++ Concurrency in Action, Second Edition is the definitive guide to writing elegant multithreaded applications in C++. Updated for C++ 17, it carefully addresses every aspect of concurrent development, from starting new threads to designing fully functional multithreaded algorithms and data structures. Concurrency master Anthony Williams presents examples and practical tasks in every chapter, including insights that will delight even the most experienced developer.}
+      \field{title}{C++ concurrency in action}
+      \field{year}{2019}
+    \endentry
+    \entry{nersc10_workload}{report}{}
+      \name{author}{5}{}{%
+        {{hash=4763a976f92d9dd2b741bbb4def90521}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Nicholas\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2cd19670426469d26b1e29010a15d673}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Brandon},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d6c3f81780523327f70016cb07d1871d}{%
+           family={Dosanjh},
+           familyi={D\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cd4f83f25a08d497036df86a81047b4b}{%
+           family={Kaltz},
+           familyi={K\bibinitperiod},
+           given={Teresa\bibnamedelima L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=dfd392c230fed420a844e8b2f567a39c}{%
+           family={Bailey},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Energy Research Scientific Computing Center (NERSC)}%
+      }
+      \strng{namehash}{786f3c339a037a9c5151c54a478be5fa}
+      \strng{fullhash}{b8045eddd18ccbe066f474603b3e521a}
+      \strng{bibnamehash}{786f3c339a037a9c5151c54a478be5fa}
+      \strng{authorbibnamehash}{786f3c339a037a9c5151c54a478be5fa}
+      \strng{authornamehash}{786f3c339a037a9c5151c54a478be5fa}
+      \strng{authorfullhash}{b8045eddd18ccbe066f474603b3e521a}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{NERSC-10 Workload Analysis}
+      \field{type}{techreport}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://portal.nersc.gov/project/m888/nersc10/workload/N10_Workload_Analysis.latest.pdf
+      \endverb
+      \verb{url}
+      \verb https://portal.nersc.gov/project/m888/nersc10/workload/N10_Workload_Analysis.latest.pdf
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{llnl_mpi_tutorial}
+  \missing{numrich2018parallel}
+\endrefsection
+\endinput
+

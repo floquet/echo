@@ -1,0 +1,721 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{chen2022nuclear}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0180842ca4dde7937e004e9fbca913c2}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0180842ca4dde7937e004e9fbca913c2}
+      \strng{fullhash}{0180842ca4dde7937e004e9fbca913c2}
+      \strng{bibnamehash}{0180842ca4dde7937e004e9fbca913c2}
+      \strng{authorbibnamehash}{0180842ca4dde7937e004e9fbca913c2}
+      \strng{authornamehash}{0180842ca4dde7937e004e9fbca913c2}
+      \strng{authorfullhash}{0180842ca4dde7937e004e9fbca913c2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{South China Morning Post}
+      \field{note}{Published: October 20, 2022}
+      \field{title}{Chinese Physicists Simulate Nuclear Blast Against Satellites}
+      \field{urlday}{28}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scmp.com/news/china/science/article/3196629/chinese-physicists-simulate-nuclear-blast-against-satellites
+      \endverb
+      \verb{url}
+      \verb https://www.scmp.com/news/china/science/article/3196629/chinese-physicists-simulate-nuclear-blast-against-satellites
+      \endverb
+    \endentry
+    \entry{dupont2004orbit}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cad95326768794bb7b25bf489898ce8b}{%
+           family={Dupont},
+           familyi={D\bibinitperiod},
+           given={Daniel\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Scientific American, a division of Nature America, Inc.}%
+      }
+      \strng{namehash}{cad95326768794bb7b25bf489898ce8b}
+      \strng{fullhash}{cad95326768794bb7b25bf489898ce8b}
+      \strng{bibnamehash}{cad95326768794bb7b25bf489898ce8b}
+      \strng{authorbibnamehash}{cad95326768794bb7b25bf489898ce8b}
+      \strng{authornamehash}{cad95326768794bb7b25bf489898ce8b}
+      \strng{authorfullhash}{cad95326768794bb7b25bf489898ce8b}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific American}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Nuclear Explosions in Orbit}
+      \field{urlday}{28}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{290}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{100\bibrangedash 107}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/26047760
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/26047760
+      \endverb
+    \endentry
+    \entry{feltman2024podcast}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=ce07d057cb54e996e3dd74970154e30e}{%
+           family={Feltman},
+           familyi={F\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e83f1574e6457398cbe9d220d9c8907a}{%
+           family={Parshall},
+           familyi={P\bibinitperiod},
+           given={Allison},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6ad209993b89e34e96d652f44bca7e8b}{%
+           family={Mwangi},
+           familyi={M\bibinitperiod},
+           given={Fonda},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5b3610a98b95fdb200fa239e86d7aaae}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Alexa},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6efaf5a1b164a5d871ba7f00d7d06186}
+      \strng{fullhash}{ab9dbd9a1c4ef5a0a8d4c47a6bcd1b8c}
+      \strng{bibnamehash}{6efaf5a1b164a5d871ba7f00d7d06186}
+      \strng{authorbibnamehash}{6efaf5a1b164a5d871ba7f00d7d06186}
+      \strng{authornamehash}{6efaf5a1b164a5d871ba7f00d7d06186}
+      \strng{authorfullhash}{ab9dbd9a1c4ef5a0a8d4c47a6bcd1b8c}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\emph{Scientific American Podcast}}
+      \field{note}{Podcast episode published June 19, 2024}
+      \field{title}{What Happens if a Nuclear Weapon Goes Off in Space?}
+      \field{urlday}{28}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scientificamerican.com/podcast/episode/we-already-know-the-dangers-of-nukes-in-space/
+      \endverb
+      \verb{url}
+      \verb https://www.scientificamerican.com/podcast/episode/we-already-know-the-dangers-of-nukes-in-space/
+      \endverb
+    \endentry
+    \entry{osti_6852629}{report}{}
+      \name{author}{2}{}{%
+        {{hash=ba3851796963a5f3f573a8479548a3ad}{%
+           family={Glasstone},
+           familyi={G\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5db491e5ef7958b2e2f08d7760ea6d3a}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={P\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Department of Defense, Washington, D.C. (USA); Department of Energy, Washington, D.C. (USA)}%
+      }
+      \strng{namehash}{c94d8524449288447c6001bb17ad48ad}
+      \strng{fullhash}{c94d8524449288447c6001bb17ad48ad}
+      \strng{bibnamehash}{c94d8524449288447c6001bb17ad48ad}
+      \strng{authorbibnamehash}{c94d8524449288447c6001bb17ad48ad}
+      \strng{authornamehash}{c94d8524449288447c6001bb17ad48ad}
+      \strng{authorfullhash}{c94d8524449288447c6001bb17ad48ad}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Since the last edition of ''The Effects of Nuclear Weapons'' in 1962 much new information has become available concerning nuclear weapon effects. This has come in part from the series of atmospheric tests, including several at very high altitudes, conducted in the Pacific Ocean area in 1962. In addition, laboratory studies, theoretical calculations, and computer simulations have provided a better understanding of the various effects. A new chapter has been added on the electromagnetic pulse. The chapter titles are as follows: general principles of nuclear explosions; descriptions of nuclear explosions; air blast phenomena in air and surface bursts; air blast loading; structural damage from air blast; shock effects of surface and subsurface bursts; thermal radiation and its effects; initial nuclear radiation; residual nuclear radiation and fallout; radio and radar effects; the electromagnetic pulse and its effects; and biological effects. (LTN)}
+      \field{month}{01}
+      \field{title}{The Effects of Nuclear Weapons. Third edition}
+      \field{type}{techreport}
+      \field{year}{1977}
+      \verb{doi}
+      \verb 10.2172/6852629
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/6852629
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/6852629
+      \endverb
+    \endentry
+    \entry{hennigan2024cosmos2553}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b039ac68c9db8ef4ccf5cc7b5e33677d}{%
+           family={Hennigan},
+           familyi={H\bibinitperiod},
+           given={W.J.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b039ac68c9db8ef4ccf5cc7b5e33677d}
+      \strng{fullhash}{b039ac68c9db8ef4ccf5cc7b5e33677d}
+      \strng{bibnamehash}{b039ac68c9db8ef4ccf5cc7b5e33677d}
+      \strng{authorbibnamehash}{b039ac68c9db8ef4ccf5cc7b5e33677d}
+      \strng{authornamehash}{b039ac68c9db8ef4ccf5cc7b5e33677d}
+      \strng{authorfullhash}{b039ac68c9db8ef4ccf5cc7b5e33677d}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The New York Times}
+      \field{month}{12}
+      \field{note}{Graphics by Taylor Maggiacomo and Jeremy Ashkenas}
+      \field{title}{What One Russian Satellite Tells Us About the Future of Nuclear Warfare}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nytimes.com/interactive/2024/12/05/opinion/nuclear-weapons-space.html
+      \endverb
+      \verb{url}
+      \verb https://www.nytimes.com/interactive/2024/12/05/opinion/nuclear-weapons-space.html
+      \endverb
+    \endentry
+    \entry{liao2023emp}{report}{}
+      \name{author}{3}{}{%
+        {{hash=bc99656acfc17beb6f28691bd1c8628d}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={DaHan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8e4498511abccfa614b0148ea307a32e}{%
+           family={Markel},
+           familyi={M\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ff22d22f1202c6b3d7eab12ef7957f22}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yilu},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Oak Ridge National Laboratory, U.S. Department of Energy}%
+      }
+      \strng{namehash}{f17e1996d70f89aeb08c9ee20ad0685a}
+      \strng{fullhash}{f17e1996d70f89aeb08c9ee20ad0685a}
+      \strng{bibnamehash}{f17e1996d70f89aeb08c9ee20ad0685a}
+      \strng{authorbibnamehash}{f17e1996d70f89aeb08c9ee20ad0685a}
+      \strng{authornamehash}{f17e1996d70f89aeb08c9ee20ad0685a}
+      \strng{authorfullhash}{f17e1996d70f89aeb08c9ee20ad0685a}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{note}{Graphic created by Andy Sproles/ORNL}
+      \field{title}{Study Probes Risks to Power Plants from Electromagnetic Pulse}
+      \field{type}{techreport}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.ornl.gov/news/study-probes-risks-power-plants-electromagnetic-pulse
+      \endverb
+      \verb{url}
+      \verb https://www.ornl.gov/news/study-probes-risks-power-plants-electromagnetic-pulse
+      \endverb
+    \endentry
+    \entry{liu2022asat}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f9cf90b3bd6cc51f96d2dbd896ba363c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhen},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9cf90b3bd6cc51f96d2dbd896ba363c}
+      \strng{fullhash}{f9cf90b3bd6cc51f96d2dbd896ba363c}
+      \strng{bibnamehash}{f9cf90b3bd6cc51f96d2dbd896ba363c}
+      \strng{authorbibnamehash}{f9cf90b3bd6cc51f96d2dbd896ba363c}
+      \strng{authornamehash}{f9cf90b3bd6cc51f96d2dbd896ba363c}
+      \strng{authorfullhash}{f9cf90b3bd6cc51f96d2dbd896ba363c}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{South China Morning Post}
+      \field{note}{Published: October 1, 2022}
+      \field{title}{China's Military Blasts US Call to Ban Anti-Satellite Missile Tests}
+      \field{urlday}{28}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scmp.com/news/china/military/article/3194508/chinas-military-blasts-us-call-ban-anti-satellite-missile-tests
+      \endverb
+      \verb{url}
+      \verb https://www.scmp.com/news/china/military/article/3194508/chinas-military-blasts-us-call-ban-anti-satellite-missile-tests
+      \endverb
+    \endentry
+    \entry{interfax2022kosmos2553}{article}{}
+      \name{author}{1}{}{%
+        {{hash=60b1759e363ca5bb8430f565f7954c16}{%
+           family={{Military News Agency}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{60b1759e363ca5bb8430f565f7954c16}
+      \strng{fullhash}{60b1759e363ca5bb8430f565f7954c16}
+      \strng{bibnamehash}{60b1759e363ca5bb8430f565f7954c16}
+      \strng{authorbibnamehash}{60b1759e363ca5bb8430f565f7954c16}
+      \strng{authornamehash}{60b1759e363ca5bb8430f565f7954c16}
+      \strng{authorfullhash}{60b1759e363ca5bb8430f565f7954c16}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Interfax Russia}
+      \field{month}{2}
+      \field{note}{Military News, 2:00 PM}
+      \field{title}{Information about the Kosmos-2553 spacecraft launched from Plesetsk has been entered into the main catalog of space objects}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.interfax-russia.ru/military/news/566128
+      \endverb
+      \verb{url}
+      \verb https://www.interfax-russia.ru/military/news/566128
+      \endverb
+    \endentry
+    \entry{moro_cosmos2553_2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2f7e9e9fa3ba5b49001480809338249c}{%
+           family={Moro},
+           familyi={M\bibinitperiod},
+           given={Maria\bibnamedelima Francesca},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f7e9e9fa3ba5b49001480809338249c}
+      \strng{fullhash}{2f7e9e9fa3ba5b49001480809338249c}
+      \strng{bibnamehash}{2f7e9e9fa3ba5b49001480809338249c}
+      \strng{authorbibnamehash}{2f7e9e9fa3ba5b49001480809338249c}
+      \strng{authornamehash}{2f7e9e9fa3ba5b49001480809338249c}
+      \strng{authorfullhash}{2f7e9e9fa3ba5b49001480809338249c}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Journalistic analysis of the Cosmos-2553 satellite's potential nuclear capabilities and geopolitical implications.}
+      \field{journaltitle}{Virgilio Notizie}
+      \field{month}{5}
+      \field{note}{Accessed: 2025-08-06}
+      \field{title}{{Cosmos-2553 is Putin's secret nuclear weapon of Russia: how it works and why it frightens Americans}}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.virgilio.it/notizie/cosmos-2553-e-l-arma-nucleare-segreta-della-russia-di-putin-come-funziona-e-perche-spaventa-americani-1620096
+      \endverb
+      \verb{url}
+      \verb https://www.virgilio.it/notizie/cosmos-2553-e-l-arma-nucleare-segreta-della-russia-di-putin-come-funziona-e-perche-spaventa-americani-1620096
+      \endverb
+    \endentry
+    \entry{n2yo_cosmos2553}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=414f59e5a96bd8f9e5e95cc307e6ea5f}{%
+           family={{n2yo.com}},
+           familyi={n\bibinitperiod}}}%
+      }
+      \strng{namehash}{414f59e5a96bd8f9e5e95cc307e6ea5f}
+      \strng{fullhash}{414f59e5a96bd8f9e5e95cc307e6ea5f}
+      \strng{bibnamehash}{414f59e5a96bd8f9e5e95cc307e6ea5f}
+      \strng{authorbibnamehash}{414f59e5a96bd8f9e5e95cc307e6ea5f}
+      \strng{authornamehash}{414f59e5a96bd8f9e5e95cc307e6ea5f}
+      \strng{authorfullhash}{414f59e5a96bd8f9e5e95cc307e6ea5f}
+      \field{sortinit}{n}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Satellite tracking database}
+      \field{note}{Accessed: 2025-08-06. NORAD ID: 51511; Int'l Code: 2022-011A; Perigee: 2,000.2 km; Apogee: 2,006.7 km; Inclination: 67.1$\,^{\circ}$; Period: 127.1 minutes; Semi major axis: 8374 km; RCS: Unknown; Launch date: February 5, 2022; Source: Commonwealth of Independent States (CIS); Launch site: Plesetsk Missile and Space Complex (PKMTR)}
+      \field{title}{{COSMOS 2553 Satellite Catalog Entry}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.n2yo.com//satellite/?s=51511
+      \endverb
+      \verb{url}
+      \verb https://www.n2yo.com//satellite/?s=51511
+      \endverb
+    \endentry
+    \entry{parshall2024article}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e83f1574e6457398cbe9d220d9c8907a}{%
+           family={Parshall},
+           familyi={P\bibinitperiod},
+           given={Allison},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e83f1574e6457398cbe9d220d9c8907a}
+      \strng{fullhash}{e83f1574e6457398cbe9d220d9c8907a}
+      \strng{bibnamehash}{e83f1574e6457398cbe9d220d9c8907a}
+      \strng{authorbibnamehash}{e83f1574e6457398cbe9d220d9c8907a}
+      \strng{authornamehash}{e83f1574e6457398cbe9d220d9c8907a}
+      \strng{authorfullhash}{e83f1574e6457398cbe9d220d9c8907a}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific American}
+      \field{note}{Article edited by Lee Billings. Published: June 13, 2024}
+      \field{title}{What Happens if a Nuke Goes Off in Space?}
+      \field{urlday}{28}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scientificamerican.com/article/what-happens-if-a-nuclear-weapon-goes-off-in-space/
+      \endverb
+      \verb{url}
+      \verb https://www.scientificamerican.com/article/what-happens-if-a-nuclear-weapon-goes-off-in-space/
+      \endverb
+    \endentry
+    \entry{pence2025hanes}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=bd20c20a52ed5ae75deb0f69dcb6d765}{%
+           family={Pence},
+           familyi={P\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1ead7390691f27cf52b77bcd735cb92a}{%
+           family={Reynolds},
+           familyi={R\bibinitperiod},
+           given={Adam\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Center for Strategic}%
+        {International Studies (CSIS)}%
+      }
+      \strng{namehash}{d65f0149c442f148f939d3825cc54adc}
+      \strng{fullhash}{d65f0149c442f148f939d3825cc54adc}
+      \strng{bibnamehash}{d65f0149c442f148f939d3825cc54adc}
+      \strng{authorbibnamehash}{d65f0149c442f148f939d3825cc54adc}
+      \strng{authornamehash}{d65f0149c442f148f939d3825cc54adc}
+      \strng{authorfullhash}{d65f0149c442f148f939d3825cc54adc}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Brief}
+      \field{month}{7}
+      \field{note}{Accessed July 19, 2025}
+      \field{title}{High-Altitude Nuclear Explosions: Myths and Reality}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.csis.org/analysis/high-altitude-nuclear-explosions-myths-and-reality
+      \endverb
+      \verb{url}
+      \verb https://www.csis.org/analysis/high-altitude-nuclear-explosions-myths-and-reality
+      \endverb
+    \endentry
+    \entry{roulette2025cosmos2553}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8d7a4c3563cbc849b5b1e83ec03f5268}{%
+           family={Roulette},
+           familyi={R\bibinitperiod},
+           given={Joey},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d7a4c3563cbc849b5b1e83ec03f5268}
+      \strng{fullhash}{8d7a4c3563cbc849b5b1e83ec03f5268}
+      \strng{bibnamehash}{8d7a4c3563cbc849b5b1e83ec03f5268}
+      \strng{authorbibnamehash}{8d7a4c3563cbc849b5b1e83ec03f5268}
+      \strng{authornamehash}{8d7a4c3563cbc849b5b1e83ec03f5268}
+      \strng{authorfullhash}{8d7a4c3563cbc849b5b1e83ec03f5268}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Russia's Cosmos 2553 satellite has been seen spinning, U.S. firms say. Satellite is part of U.S. allegations Russia has a nuclear space weapon program. 'Tumbling' movements suggest satellite is no longer operational. U.S., Russia have been vying over military space developments.}
+      \field{journaltitle}{Reuters}
+      \field{month}{4}
+      \field{note}{Updated April 25, 2025}
+      \field{title}{Russian satellite linked to nuclear weapon program appears out of control, U.S. analysts say}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.reuters.com/business/media-telecom/russian-satellite-linked-nuclear-weapon-program-appears-out-control-us-analysts-2025-04-25/
+      \endverb
+      \verb{url}
+      \verb https://www.reuters.com/business/media-telecom/russian-satellite-linked-nuclear-weapon-program-appears-out-control-us-analysts-2025-04-25/
+      \endverb
+    \endentry
+    \entry{russianspaceweb_fregat}{report}{}
+      \name{author}{1}{}{%
+        {{hash=a2a6fa97162f1f48fc09095a081b0372}{%
+           family={{RussianSpaceWeb}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {RussianSpaceWeb}%
+      }
+      \strng{namehash}{a2a6fa97162f1f48fc09095a081b0372}
+      \strng{fullhash}{a2a6fa97162f1f48fc09095a081b0372}
+      \strng{bibnamehash}{a2a6fa97162f1f48fc09095a081b0372}
+      \strng{authorbibnamehash}{a2a6fa97162f1f48fc09095a081b0372}
+      \strng{authornamehash}{a2a6fa97162f1f48fc09095a081b0372}
+      \strng{authorfullhash}{a2a6fa97162f1f48fc09095a081b0372}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Entering service at the turn of the 21st century, the Fregat (frigate) became the main fourth stage for the Soyuz family of rockets flying from four launch sites around the world. The Fregat was also adapted as a third stage of the Zenit rocket for some of its most critical missions.}
+      \field{note}{Accessed: 2025-08-06}
+      \field{title}{Fregat Upper Stage}
+      \field{type}{Technical Documentation}
+      \field{year}{2000}
+      \verb{urlraw}
+      \verb https://www.russianspaceweb.com/fregat.html
+      \endverb
+      \verb{url}
+      \verb https://www.russianspaceweb.com/fregat.html
+      \endverb
+    \endentry
+    \entry{russianspaceweb_neitron_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a2a6fa97162f1f48fc09095a081b0372}{%
+           family={{RussianSpaceWeb}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2a6fa97162f1f48fc09095a081b0372}
+      \strng{fullhash}{a2a6fa97162f1f48fc09095a081b0372}
+      \strng{bibnamehash}{a2a6fa97162f1f48fc09095a081b0372}
+      \strng{authorbibnamehash}{a2a6fa97162f1f48fc09095a081b0372}
+      \strng{authornamehash}{a2a6fa97162f1f48fc09095a081b0372}
+      \strng{authorfullhash}{a2a6fa97162f1f48fc09095a081b0372}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Opening Russia's orbital launch attempts in 2022, a Soyuz-2-1a rocket delivered a classified satellite into orbit, following a liftoff from a military spaceport in Plesetsk, north of Moscow on February 5.}
+      \field{note}{Accessed: 2025-08-06}
+      \field{title}{Soyuz launches a secret cargo}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.russianspaceweb.com/neitron.html
+      \endverb
+      \verb{url}
+      \verb https://www.russianspaceweb.com/neitron.html
+      \endverb
+    \endentry
+    \entry{savage2010early}{report}{}
+      \name{author}{3}{}{%
+        {{hash=1b2f816ed912564eb240a1976a1d7632}{%
+           family={Savage},
+           familyi={S\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=20fcd5593e990b732a0f2e1c1a198a0e}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7dbc73c3f877fc70a3bd4b2ccf82ac76}{%
+           family={Radasky},
+           familyi={R\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Metatech Corporation}%
+      }
+      \list{location}{1}{%
+        {Oak Ridge, TN}%
+      }
+      \strng{namehash}{42c47cd5a2c41d27264dd7db3f115e03}
+      \strng{fullhash}{42c47cd5a2c41d27264dd7db3f115e03}
+      \strng{bibnamehash}{42c47cd5a2c41d27264dd7db3f115e03}
+      \strng{authorbibnamehash}{42c47cd5a2c41d27264dd7db3f115e03}
+      \strng{authornamehash}{42c47cd5a2c41d27264dd7db3f115e03}
+      \strng{authorfullhash}{42c47cd5a2c41d27264dd7db3f115e03}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Prepared for Oak Ridge National Laboratory}
+      \field{title}{The Early-Time (E1) High-Altitude Electromagnetic Pulse (HEMP) and Its Impact on the U.S. Power Grid}
+      \field{type}{techreport}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb http://large.stanford.edu/courses/2019/ph241/rogers1/docs/meta-r-320.pdf
+      \endverb
+      \verb{url}
+      \verb http://large.stanford.edu/courses/2019/ph241/rogers1/docs/meta-r-320.pdf
+      \endverb
+    \endentry
+    \entry{snyder2025effects}{report}{}
+      \name{author}{5}{}{%
+        {{hash=e52c8b442a4517590b0e03a264aee1f1}{%
+           family={Snyder},
+           familyi={S\bibinitperiod},
+           given={Don},
+           giveni={D\bibinitperiod}}}%
+        {{hash=00742c4c4bc7b76deb949aa4f312af99}{%
+           family={Putney},
+           familyi={P\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c0db7d210b27c099373cebf8daba68c0}{%
+           family={Leidy},
+           familyi={L\bibinitperiod},
+           given={Erin\bibnamedelima N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=37f20cc2f99d58033485bd51e2e2c8ed}{%
+           family={Hartnett},
+           familyi={H\bibinitperiod},
+           given={Gavin\bibnamedelima S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=72654cd4e0d47012033ebf5f45c83278}{%
+           family={Bonomo},
+           familyi={B\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {RAND Corporation}%
+      }
+      \strng{namehash}{9074254ce124578a2187b21057bcd3c4}
+      \strng{fullhash}{d1ff3644ac305f4d44a39a8cab4f2bc4}
+      \strng{bibnamehash}{9074254ce124578a2187b21057bcd3c4}
+      \strng{authorbibnamehash}{9074254ce124578a2187b21057bcd3c4}
+      \strng{authornamehash}{9074254ce124578a2187b21057bcd3c4}
+      \strng{authorfullhash}{d1ff3644ac305f4d44a39a8cab4f2bc4}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{note}{Sponsored by CISA; 42 pages}
+      \field{number}{RR‑A3028‑3}
+      \field{title}{The Effects of High-Altitude Nuclear Explosions on Non‑Military Satellites}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.7249/RRA3028-3
+      \endverb
+      \verb{urlraw}
+      \verb https://www.rand.org/pubs/research_reports/RRA3028-3.html
+      \endverb
+      \verb{url}
+      \verb https://www.rand.org/pubs/research_reports/RRA3028-3.html
+      \endverb
+    \endentry
+    \entry{DOE_NV209_Rev16}{report}{}
+      \name{author}{1}{}{%
+        {{hash=4f8385a52f43ec441b14d24838d1b57e}{%
+           family={{U.S. Department of Energy, Nevada Operations Office}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Nevada National Security Site}%
+      }
+      \strng{namehash}{4f8385a52f43ec441b14d24838d1b57e}
+      \strng{fullhash}{4f8385a52f43ec441b14d24838d1b57e}
+      \strng{bibnamehash}{4f8385a52f43ec441b14d24838d1b57e}
+      \strng{authorbibnamehash}{4f8385a52f43ec441b14d24838d1b57e}
+      \strng{authornamehash}{4f8385a52f43ec441b14d24838d1b57e}
+      \strng{authorfullhash}{4f8385a52f43ec441b14d24838d1b57e}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{note}{Revision 16, supersedes previous versions}
+      \field{number}{DOE/NV--209-REV 16}
+      \field{title}{United States Nuclear Tests: July 1945 through September 1992}
+      \field{type}{techreport}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://nnss.gov/wp-content/uploads/2023/08/DOE_NV-209_Rev16.pdf
+      \endverb
+      \verb{url}
+      \verb https://nnss.gov/wp-content/uploads/2023/08/DOE_NV-209_Rev16.pdf
+      \endverb
+    \endentry
+    \entry{vincent2022hane}{article}{}
+      \name{author}{1}{}{%
+        {{hash=00851713481b1c019782e41a5f9605a2}{%
+           family={Vincent},
+           familyi={V\bibinitperiod},
+           given={Robert\bibnamedelima "Tony"},
+           giveni={R\bibinitperiod\bibinitdelim "\bibinitperiod}}}%
+      }
+      \strng{namehash}{00851713481b1c019782e41a5f9605a2}
+      \strng{fullhash}{00851713481b1c019782e41a5f9605a2}
+      \strng{bibnamehash}{00851713481b1c019782e41a5f9605a2}
+      \strng{authorbibnamehash}{00851713481b1c019782e41a5f9605a2}
+      \strng{authornamehash}{00851713481b1c019782e41a5f9605a2}
+      \strng{authorfullhash}{00851713481b1c019782e41a5f9605a2}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{War on the Rocks}
+      \field{note}{Published: September 23, 2022}
+      \field{title}{Getting Serious about the Threat of High Altitude Nuclear Detonations}
+      \field{urlday}{28}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://warontherocks.com/2022/09/getting-serious-about-the-threat-of-high-altitude-nuclear-detonations/
+      \endverb
+      \verb{url}
+      \verb https://warontherocks.com/2022/09/getting-serious-about-the-threat-of-high-altitude-nuclear-detonations/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

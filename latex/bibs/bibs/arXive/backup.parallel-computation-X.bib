@@ -1,0 +1,257 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for Daniel Topa at 2025-04-13 10:11:21 -0600 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@article{kusswurm2022modern,
+	abstract = {SIMD (single instruction multiple data) is a parallel computing technology that simultaneously executes the same processor operation using multiple data items. For example, a SIMD-capable processor can carry out an arithmetic operation using several elements of a floating-point array concurrently. Programs often use SIMD operations to accelerate the performance of computationally intense algorithms in machine learning, image processing, audio/video encoding and decoding, data mining, and computer graphics. Since the late 1990s, both AMD and Intel have incorporated various SIMD instruction set extensions into their respective x86 processors. The most recent x86 SIMD instruction set extensions are called AVX (Advanced Vector Extensions), AVX2, and AVX-512. These SIMD resources facilitate arithmetic and other data processing operations using multiple elements in a 128-, 256-, or 512-bit wide processor register (most standard x86 arithmetic operations are carried out using scalar values in an 8-, 16-, 32-, or 64-bit wide register).
+Despite the incorporation of advanced SIMD capabilities in x86 modern processors, high-level language compilers are sometimes unable to fully exploit these resources. To optimally utilize the SIMD capabilities of a modern x86 processor, a software developer must occasionally write SIMD code that explicitly employs the AVX, AVX2, or AVX-512 instruction sets. A software developer can use either C++ SIMD intrinsic functions or assembly language programming to accomplish this. A C++ SIMD intrinsic function is code that looks like an ordinary C++ function but is handled differently by the compiler. More specifically, the compiler directly translates a C++ SIMD intrinsic function into one or more assembly language instructions without the overhead of a normal function (or subroutine) call. Before continuing, a couple of caveats are warranted. First, the SIMD programming techniques described in this book are not appropriate for every ``slow'' algorithm or function. Both C++ SIMD intrinsic function use and assembly language code development should be regarded as specialized programming tools that can significantly accelerate the performance of an algorithm or function when judiciously employed. However, it is important to note that explicit SIMD coding usually requires extra effort during initial development and possibly when performing future maintenance. Second, it should be noted that SIMD parallelism is different than other types of parallel computing you may have encountered. For example, the task-level parallelism of an application that exploits multiple processor cores or threads to accelerate the performance of an algorithm is different than SIMD parallelism. Task-level parallelism and SIMD parallelism are not mutually exclusive; they are frequently utilized together. The focus of this book is x86 SIMD parallelism and software development, specifically the computational resources of AVX, AVX2, and AVX-512.},
+	author = {Kusswurm, Daniel},
+	date-added = {2025-04-13 10:09:50 -0600},
+	date-modified = {2025-04-13 10:10:52 -0600},
+	journal = {Apress: Berkeley, CA, USA},
+	publisher = {Springer},
+	title = {Modern Parallel Programming with C++ and Assembly},
+	year = {2022}}
+
+@misc{jia2018dissectingnvidiavoltagpu,
+	archiveprefix = {arXiv},
+	author = {Zhe Jia and Marco Maggioni and Benjamin Staiger and Daniele P. Scarpazza},
+	date-added = {2025-04-06 18:14:55 -0600},
+	date-modified = {2025-04-06 18:14:55 -0600},
+	eprint = {1804.06826},
+	primaryclass = {cs.DC},
+	title = {Dissecting the NVIDIA Volta GPU Architecture via Microbenchmarking},
+	url = {https://arxiv.org/abs/1804.06826},
+	year = {2018},
+	bdsk-url-1 = {https://arxiv.org/abs/1804.06826}}
+
+@misc{schieffer2024harnessingintegratedcpugpumemory,
+	archiveprefix = {arXiv},
+	author = {Gabin Schieffer and Jacob Wahlgren and Jie Ren and Jennifer Faj and Ivy Peng},
+	date-added = {2025-04-06 18:05:42 -0600},
+	date-modified = {2025-04-06 18:05:42 -0600},
+	eprint = {2407.07850},
+	primaryclass = {cs.DC},
+	title = {Harnessing Integrated CPU-GPU System Memory for HPC: a first look into Grace Hopper},
+	url = {https://arxiv.org/abs/2407.07850},
+	year = {2024},
+	bdsk-url-1 = {https://arxiv.org/abs/2407.07850}}
+
+@article{schuiki2018scalable,
+	author = {Schuiki, Fabian and Schaffner, Michael and G{\"u}rkaynak, Frank K and Benini, Luca},
+	date-added = {2025-04-06 17:41:42 -0600},
+	date-modified = {2025-04-06 17:41:42 -0600},
+	journal = {IEEE Transactions on Computers},
+	number = {4},
+	pages = {484--497},
+	publisher = {IEEE},
+	title = {A scalable near-memory architecture for training deep neural networks on large in-memory datasets},
+	volume = {68},
+	year = {2018}}
+
+@inproceedings{bachan2017upc++,
+	abstract = {We describe UPC++ V1.0, a C++11 library that supports APGAS programming. UPC++ targets distributed data structures where communication is irregular or fine-grained. The key abstractions are global pointers, asynchronous programming via RPC, and futures. Global pointers incorporate ownership information useful in optimizing for locality. Futures capture data readiness state, are useful for scheduling and also enable the programmer to chain operations to execute asynchronously as high-latency dependencies become satisfied,via continuations. The interfaces for moving non-contiguous data and handling memories with different optimal access methods are composable and closely resemble those used in modern C++. Communication in UPC++ runs at close to hardware speeds by utilizing the low-overhead GASNet-EX communication library.},
+	author = {Bachan, John and Bonachea, Dan and Hargrove, Paul H and Hofmeyr, Steve and Jacquelin, Mathias and Kamil, Amir and van Straalen, Brian and Baden, Scott B},
+	booktitle = {Proceedings of the Second Annual PGAS Applications Workshop},
+	date-added = {2025-04-03 19:58:55 -0600},
+	date-modified = {2025-04-03 19:59:08 -0600},
+	pages = {1--4},
+	title = {The UPC++ PGAS library for exascale computing},
+	year = {2017}}
+
+@inproceedings{conway2017monte,
+	abstract = {This study uses the numerical engine in the General Mission Analysis Tool, driven from the parallel processing tool Paramat, to model a conjuction analysis between two spacecraft on eccentric, nearly coincident trajectories. The spacecraft initial states are separated by 92 meters, and come to within about 9 meters of each other two days later when propagated on their nominal trajectories. The covariance matrix of the initial state data is used to perturb each spacecraft, and the spacecraft are then propagated to the point of closest approach. A Monte Carlo study of the close approach separations and the probability of collision is presented using these perturbed states. The modeling is performed using several different force models, and the results of each configuration are shown to be similar. Two additional test cases are also briefly examined. Performance data for the study is presented, along with a discussion of the methodology and of the tools used.},
+	author = {Conway, Darrel J},
+	booktitle = {Proceedings of the AIAA/AAS Astrodynamics Specialist Conference},
+	date-added = {2025-03-26 21:45:31 -0600},
+	date-modified = {2025-03-26 21:45:53 -0600},
+	title = {A Monte-Carlo Study of Conjunction Analysis Using Paramat},
+	year = {2017}}
+
+@article{conwayusing,
+	abstract = {NASA's General Mission Analysis Tool, GMAT, 1 is an open source flight dynamics tool used for mission analysis, maneuver planning, trajectory optimization, and navigation. GMAT is in operational use in the Flight Dynamics Facility at Goddard Space Flight Center. Thinking Systems' Paramat uses the GMAT numerical engine to perform large scale analysis on high performance computer workstations. Paramat has been demonstrated for large scale Monte Carlo analysis problems consisting of hundreds to hundreds of thousands of runs.},
+	author = {Conway, Darrel J and Garber, Darren D},
+	date-added = {2025-03-26 21:41:27 -0600},
+	date-modified = {2025-03-26 21:41:36 -0600},
+	title = {USING THE PARAMAT SYSTEM IN MISSION ANALYSIS AND DESIGN}}
+
+@misc{youtube_yjpJwTOIppw,
+	author = {UPCXX PGAS},
+	date-added = {2025-03-21 16:32:05 -0600},
+	date-modified = {2025-03-21 16:33:03 -0600},
+	note = {Accessed: 2025-03-21 16:03:15 MDT},
+	title = {Intro to High-Performance Parallel Distributed Computing with Chapel, UPC++, Coarray Fortran (day 1)},
+	url = {https://www.youtube.com/watch?v=yjpJwTOIppw},
+	year = {2025},
+	bdsk-url-1 = {https://www.youtube.com/watch?v=VIDEO_ID}}
+
+@misc{youtube_Frz_AF46a04,
+	author = {NERSC},
+	date-added = {2025-03-21 16:26:02 -0600},
+	date-modified = {2025-03-21 16:26:45 -0600},
+	note = {Accessed: 2025-03-21 16:03:15 MDT},
+	title = {Modern Fortran, with emphasis on coarrays (John Reid, JKR Associates/Rutherford Appleton Laboratory)},
+	url = {https://www.youtube.com/watch?v=Frz_AF46a04},
+	year = {2025},
+	bdsk-url-1 = {https://www.youtube.com/watch?v=VIDEO_ID}}
+
+@misc{youtube_LTMwkO7gZwQ,
+	author = {Damian Rouson},
+	date-added = {2025-03-21 16:13:22 -0600},
+	date-modified = {2025-03-21 16:27:20 -0600},
+	note = {Accessed: 2025-03-21 16:03:15 MDT},
+	title = {Parallel Programming in Modern Fortran},
+	url = {https://www.youtube.com/watch?v=LTMwkO7gZwQ},
+	year = {2025},
+	bdsk-url-1 = {https://www.youtube.com/watch?v=VIDEO_ID}}
+
+@misc{youtube_tGSoCvTLfkw,
+	author = {Sharcnet HPC},
+	date-added = {2025-03-21 16:05:04 -0600},
+	date-modified = {2025-03-21 16:06:22 -0600},
+	note = {Accessed: 2025-03-21 16:03:15 MDT},
+	title = {Parallel programming without MPI - Using coarrays in Fortran},
+	url = {https://www.youtube.com/watch?v=tGSoCvTLfkw},
+	year = {2025},
+	bdsk-url-1 = {https://www.youtube.com/watch?v=VIDEO_ID}}
+
+@article{lagraviere2021newcomer,
+	abstract = {A newcomer in the Partitioned Global Address Space (PGAS) 'world' has arrived in its version 1.0: Unified Parallel C++ (UPC++). UPC++ targets distributed data structures where communication is irregular or fine-grained. The key abstractions are global pointers, asynchronous programming via RPC, futures and promises. UPC++ API for moving non-contiguous data and handling memories with different optimal access methods resemble those used in modern C++. In this study we provide two kernels implemented in UPC++: a sparse-matrix vector multiplication (SpMV) as part of a Partial-Differential Equation solver, and an implementation of the Heat Equation on a 2D-domain. Code listings of these two kernels are available in the article in order to show the differences in programming style between UPC and UPC++. We provide a performance comparison between UPC and UPC++ using single-node, multi-node hardware and many-core hardware (Intel Xeon Phi Knight's Landing).},
+	author = {Lagravi{\`e}re, J{\'e}r{\'e}mie and Langguth, Johannes and Prugger, Martina and Ha, Phuong H and Cai, Xing},
+	date-added = {2025-03-21 13:19:04 -0600},
+	date-modified = {2025-03-21 13:19:38 -0600},
+	journal = {arXiv preprint arXiv:2102.03614},
+	title = {A Newcomer In The PGAS World--UPC++ vs UPC: A Comparative Study},
+	year = {2021}}
+
+@misc{podkopaev2016operationalaspectsccconcurrency,
+	abstract = {In this work, we present a family of operational semantics that gradually approximates the realistic program behaviors in the C/C++11 memory model. Each semantics in our framework is built by elaborating and combining two simple ingredients: viewfronts and operation buffers. Viewfronts allow us to express the spatial aspect of thread interaction, i.e., which values a thread can read, while operation buffers enable manipulation with the temporal execution aspect, i.e., determining the order in which the results of certain operations can be observed by concurrently running threads.
+Starting from a simple abstract state machine, through a series of gradual refinements of the abstract state, we capture such language aspects and synchronization primitives as release/acquire atomics, sequentially-consistent and non-atomic memory accesses, also providing a semantics for relaxed atomics, while avoiding the Out-of-Thin-Air problem. To the best of our knowledge, this is the first formal and executable operational semantics of C11 capable of expressing all essential concurrent aspects of the standard.
+We illustrate our approach via a number of characteristic examples, relating the observed behaviors to those of standard litmus test programs from the literature. We provide an executable implementation of the semantics in PLT Redex, along with a number of implemented litmus tests and examples, and showcase our prototype on a large case study: randomized testing and debugging of a realistic Read-Copy-Update data structure.},
+	archiveprefix = {arXiv},
+	author = {Podkopaev, Anton and Sergey, Ilya and Nanevski, Aleksandar},
+	date-added = {2025-03-20 23:23:56 -0600},
+	date-modified = {2025-03-20 23:24:57 -0600},
+	eprint = {1606.01400},
+	primaryclass = {cs.PL},
+	title = {Operational Aspects of C/C++ Concurrency},
+	url = {https://arxiv.org/abs/1606.01400},
+	year = {2016},
+	bdsk-url-1 = {https://arxiv.org/abs/1606.01400}}
+
+@article{kafura1992act++,
+	author = {Kafura, Dennis G and Mukherji, Manibrata and Lavender, Gregory R},
+	date-added = {2025-03-20 23:19:41 -0600},
+	date-modified = {2025-03-20 23:19:41 -0600},
+	title = {ACT++ 2.0: A class library for concurrent programming in C++ using Actors},
+	year = {1992}}
+
+@article{buhr1992muc++,
+	abstract = {We present a design, including its motivation, for introducing concurrency into C++. The design work is based on a set of requirements and elementary execution properties that generate a corresponding set of programming language constructs needed to express concurrency. The new constructs continue to support object-oriented facilities such as inheritance and code reuse. Features that allow flexibility in accepting and subsequently postponing servicing of requests are provided. Currently, a major portion of the design is implemented, supporting concurrent programs on shared-memory uniprocessor and multiprocessor computers.},
+	author = {Buhr, Peter A. and Ditchfield, Glen and Stroobosscher, Richard A. and Younger, BM and Zarnke, C. Robert},
+	date-added = {2025-03-20 23:19:22 -0600},
+	date-modified = {2025-03-20 23:27:54 -0600},
+	journal = {Software: Practice and Experience},
+	number = {2},
+	pages = {137--172},
+	publisher = {Wiley Online Library},
+	title = {$\mu$C++: Concurrency in the object-oriented language C++},
+	volume = {22},
+	year = {1992}}
+
+@article{wu2016extensive,
+	author = {Wu, Di and Chen, Lin and Zhou, Yuming and Xu, Baowen},
+	date-added = {2025-03-20 23:19:07 -0600},
+	date-modified = {2025-03-20 23:19:07 -0600},
+	journal = {Information and Software Technology},
+	pages = {1--18},
+	publisher = {Elsevier},
+	title = {An extensive empirical study on C++ concurrency constructs},
+	volume = {76},
+	year = {2016}}
+
+@article{gehani1988concurrent,
+	author = {Gehani, Narain H. and Roome, William D.},
+	date-added = {2025-03-20 23:18:56 -0600},
+	date-modified = {2025-03-20 23:18:56 -0600},
+	journal = {Software: Practice and Experience},
+	number = {12},
+	pages = {1157--1177},
+	publisher = {Wiley Online Library},
+	title = {Concurrent C++: Concurrent programming with class (es)},
+	volume = {18},
+	year = {1988}}
+
+@article{boehm2008foundations,
+	abstract = {Currently multi-threaded C or C++ programs combine a singlethreaded programming language with a separate threads library. This is not entirely sound [7]. We describe an effort, currently nearing completion, to address these issues by explicitly providing semantics for threads in the next revision of the C++ standard. Our approach is similar to that recently followed by Java [25], in that, at least for a welldefined and interesting subset of the language, we give sequentially consistent semantics to programs that do not contain data races. Nonetheless, a number of our decisions are often surprising even to those familiar with the Java effort: * We (mostly) insist on sequential consistency for race-free programs, in spite of mplementation issues that came to light after the Java work.
+* We give no semantics to programs with data races. There are no benign C++ data races.
+* We use weaker semantics for trylock than existing languages or libraries, allowing us to promise sequential consistency with an intuitive race definition, even for programs with trylock.
+This paper describes the simple model we would like to be able to provide for C++ threads programmers, and explain how this, together with some practical, but often under-appreciated implementation constraints, drives us towards the above decisions.},
+	author = {Boehm, Hans-J and Adve, Sarita V},
+	date-added = {2025-03-20 23:18:42 -0600},
+	date-modified = {2025-03-20 23:22:43 -0600},
+	journal = {ACM SIGPLAN Notices},
+	number = {6},
+	pages = {68--78},
+	publisher = {ACM New York, NY, USA},
+	title = {Foundations of the C++ concurrency memory model},
+	volume = {43},
+	year = {2008}}
+
+@article{podkopaev2016operational,
+	author = {Podkopaev, Anton and Sergey, Ilya and Nanevski, Aleksandar},
+	date-added = {2025-03-20 23:18:31 -0600},
+	date-modified = {2025-03-20 23:18:31 -0600},
+	journal = {arXiv preprint arXiv:1606.01400},
+	title = {Operational aspects of C/C++ concurrency},
+	year = {2016}}
+
+@article{batty2011mathematizing,
+	abstract = {Shared-memory concurrency in C and C++ is pervasive in systems programming, but has long been poorly defined. This motivated an ongoing shared effort by the standards committees to specify concurrent behaviour in the next versions of both languages. They aim to provide strong guarantees for race-free programs, together
+with new (but subtle) relaxed-memory atomic primitives for highperformance concurrent code. However, the current draft standards, while the result of careful deliberation, are not yet clear and rigorous definitions, and harbour substantial problems in their details.
+
+In this paper we establish a mathematical (yet readable) semantics for C++ concurrency. We aim to capture the intent of the current (`Final Committee') Draft as closely as ossible, but discuss changes that fix many of its problems. We prove that a proposed x86 implementation of the concurrency primitives is correct with respect to the x86-TSO model, and describe our CPPMEM tool for exploring the semantics of examples, using code generated from our Isabelle/HOL definitions.
+
+Having already motivated changes to the draft standard, this work will aid discussion of any further changes, provide a correctness condition for compilers, and give a much-needed basis for analysis and verification of concurrent C and C++ programs.},
+	author = {Batty, Mark and Owens, Scott and Sarkar, Susmit and Sewell, Peter and Weber, Tjark},
+	date-added = {2025-03-20 23:18:20 -0600},
+	date-modified = {2025-03-20 23:26:13 -0600},
+	journal = {ACM SIGPLAN Notices},
+	number = {1},
+	pages = {55--66},
+	publisher = {ACM New York, NY, USA},
+	title = {Mathematizing C++ concurrency},
+	volume = {46},
+	year = {2011}}
+
+@article{shukur2020state,
+	abstract = {In this paper, several works have been presented related to clustering parallel computing for distributed systems. The trend of the paper is to focus on the strengths of previous works in this field towards enhancing the performance of distributed systems. This concentration was conducted by presenting several techniques, each of which has weak and strong features. The most challenging points for all techniques vary from increasing the performance of the system to time-responding to overcome overhead running of the system. For a more specific approach to addressing concurrent computation besides parallel computing classifications for distributed systems, this paper relies on a comprehensive feature study and comparison between SYNC and ASYNC modes.},
+	author = {Shukur, Hanan and Zeebaree, Subhi RM and Ahmed, Abdulraheem Jamil and Zebari, Rizgar R and Ahmed, Omar and Tahir, Bareen Shams Aldeen and Sadeeq, Mohammed AM},
+	date-added = {2025-03-13 17:00:23 -0600},
+	date-modified = {2025-03-13 17:00:42 -0600},
+	journal = {Journal of Applied Science and Technology Trends},
+	number = {2},
+	pages = {148--154},
+	title = {A State of Art: Survey for Concurrent Computation and Clustering of Parallel Computing for Distributed Systems},
+	volume = {1},
+	year = {2020}}
+
+@article{navarro2014survey,
+	abstract = {Parallel computing has become an important subject in the field of computer science and has proven to be critical when researching high performance solutions. The evolution of computer architectures (multi-core and many-core) towards a higher number of cores can only confirm that parallelism is the method of choice for speeding up an algorithm. In the last decade, the graphics processing unit, or GPU, has gained an important place in the field of high performance computing (HPC) because of its low cost and massive parallel processing power. Super-computing has become, for the first time, available to anyone at the price of a desktop computer. In this paper, we survey the concept of parallel computing and especially GPU computing. Achieving efficient parallel algorithms for the GPU is not a trivial task, there are several technical restrictions that must be satisfied in order to achieve the expected performance. Some of these limitations are consequences of the underlying architecture of the GPU and the theoretical models behind it. Our goal is to present a set of theoretical and technical concepts that are often required to understand the GPU and its massive parallelism model. In particular, we show how this new technology can help the field of computational physics, especially when the problem is data-parallel. We present four examples of computational physics problems; n-body, collision detection, Potts model and cellular automata simulations. These examples well represent the kind of problems that are suitable for GPU computing. By understanding the GPU architecture and its massive parallelism programming model, one can overcome many of the technical limitations found along the way, design better GPU-based algorithms for computational physics problems and achieve speedups that can reach up to two orders of magnitude when compared to sequential implementations.
+},
+	author = {Navarro, Cristobal A and Hitschfeld-Kahler, Nancy and Mateu, Luis},
+	date-added = {2025-03-13 16:55:33 -0600},
+	date-modified = {2025-03-13 16:56:03 -0600},
+	journal = {Communications in Computational Physics},
+	number = {2},
+	pages = {285--329},
+	publisher = {Cambridge University Press},
+	title = {A survey on parallel computing and its applications in data-parallel problems using GPU architectures},
+	volume = {15},
+	year = {2014}}

@@ -1,0 +1,40 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for Daniel Topa at 2025-02-09 17:16:09 -0700 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@dataset{xcei,
+	abstract = {Presented are some Fortran 90 programs to compute five complete elliptic integrals of first and second kind,K(m), E(m), B(m), D(m), S(m): 1) xcei.f90, test driver of "ceik", "ceie", "ceib", "ceid", and "ceis", 2) ceik.f90, real*8 function to compute K(m), 3) ceie.f90, real*8 function to compute E(m), 4) ceib.f90, real*8 function to compute B(m) = (E(m)-(1-m)K(m))/m, 5) ceid.f90, real*8 function to compute D(m) = (K(m)-E(m))/m, 6) ceis.f90, real*8 function to compute S(m) = (D(m)-B(m))/m. Notice that B(m) and S(m) are most fundamental since the others are computable from them without suffering precision loss when m is small. Also, the output of "xcei" is attached.},
+	author = {Fukushima, Toshio},
+	date-added = {2025-02-09 17:15:57 -0700},
+	date-modified = {2025-02-09 17:15:57 -0700},
+	month = {02},
+	title = {xcei.f90 (F90 package of complete elliptic integral computation)},
+	year = {2016}}
+
+@dataset{xelbd,
+	abstract = {This file contains some Fortran 90 programs to compute associate incomplete elliptic integrals of first and second kind: B(phi|m) and D(phi|m): 1) xelbd.f90: test driver of "elbd" and "relbd" 2) elbd.f90: subroutine to compute B(phi|m) and D(phi|m) in double precision 3) relbd.f90: subroutine to compute B(phi|m) and D(phi|m) in single precision 4) celbd.f90: subroutine to compute B(m) and D(m) in double precision 5) rcelbd.f90:subroutine to compute B(m) and D(m) in single precision Once B(phi|m) and D(phi|m) are given, F(phi|m) and E(phi|m) are computed as F(phi|m) = B(phi|m) + D(phi|m), E(phi|m) = B(phi|m) + (1-m) D(phi|m) Similarly K(m) = B(m) + D(m), E(m) = B(m) + (1-m) D(m) The file also includes the output file of "xelbd"},
+	author = {Fukushima, Toshio},
+	date-added = {2025-02-09 17:15:57 -0700},
+	date-modified = {2025-02-09 17:15:57 -0700},
+	doi = {10.13140/RG.2.1.1985.2408},
+	month = {05},
+	title = {xelbd.f90(Fortran 90 package to compute general complete/incomplete elliptic integral of first/second kind in single/double precision)},
+	year = {2016},
+	bdsk-url-1 = {https://doi.org/10.13140/RG.2.1.1985.2408}}
+
+@unknown{xlog1p,
+	abstract = {This is a Fortran 90 test program package of "qlog1p", "dlog1p", and "slog1p", the quadruple, double, and single precision programs to compute a special logarithm function, log1p(x) = log(1+x), accurately by mini-max rational approximations. "qlog1p", "dlog1p", and "slog1p" keep 33, 16, and 9 digit accuracy for arbitrary value of x, especially even when |x| is small. They are fast in the sense that "dlog1p" and "slog1p" run 20\% and 30\% faster than "dlog(x)" in the standard math library, respectively, while "qlog1p" runs 9 times slower than "qlog(x)".},
+	author = {Fukushima, Toshio},
+	date-added = {2025-02-09 17:15:57 -0700},
+	date-modified = {2025-02-09 17:15:57 -0700},
+	doi = {10.13140/RG.2.2.16473.88162},
+	month = {10},
+	title = {xlog1p.txt: Fortran test program package of "qlog1p", "dlog1p", and "slog1p", the quadruple, double, and single precision programs to compute a special logarithm function, log1p(x) = log(1+x), accurately by mini-max rational approximations},
+	year = {2019},
+	bdsk-url-1 = {https://doi.org/10.13140/RG.2.2.16473.88162}}

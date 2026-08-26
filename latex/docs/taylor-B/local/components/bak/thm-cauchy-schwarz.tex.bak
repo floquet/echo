@@ -1,0 +1,63 @@
+% \input{\pLocalTheorems "thm-cauchy-schwarz"}
+
+\subsection{Cauchy-Schwarz Theorem}
+\begin{theorem}[Cauchy-Schwarz]
+Given two nonzero vectors $t^{b}\in\cmplx{m}$ and $R\in\cmplx{m}$, the following scalar relationship is true
+		%
+\begin{equation}
+	\etb{} \er{} \ge \itr{}^{2}.
+\label{eq:cs}
+\end{equation}
+		%
+\label{thm:Cauchy-Schwarz}
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+	Craft a useful linear combination and exploit the positivity of inner products. Let $\alpha$ and $\beta$ be arbitrary real constants and define the vector
+		%
+\begin{equation*}
+	A = \alpha t^{b} + \beta R.
+%\label{eq:}
+\end{equation*}
+		%
+	Tune the constants of inner product to reproduce the premise statement:
+		%
+\begin{equation*}
+	\innerSelf{A} = \alpha^{2} \etb{} + \beta^{2} \er + 2 \alpha \beta \itr \ge 0.
+%\label{eq:}
+\end{equation*}
+		%
+One successful path focuses on creating $\itr{}^{2}$ by letting
+		%
+\begin{equation*}
+	\beta{} = \itr{}.
+%\label{eq:}
+\end{equation*}
+%
+The inner product is now
+%
+\begin{equation*}
+	\innerSelf{A} = \alpha^{2} \etb{} + \itr^{2} \er + 2 \alpha \itr^{2} \ge 0.
+%\label{eq:}
+\end{equation*}
+%
+By inspection, we see that
+		%
+\begin{equation*}
+	\alpha = -\er{}
+%\label{eq:}
+\end{equation*}
+%
+provides the inner product expression
+		%
+\begin{equation*}
+	\innerSelf{A} = \etb{}\er{}^{2} - \er{} \itr^{2} \ge 0.
+%\label{eq:}
+\end{equation*}
+%
+Divide by $\er{}\ne 0$ to recover \eqref{eq:cs}. The estimate is sharp; equality is achieved when $t^{b}$ and $R$ are colinear.
+
+\end{proof}
+%
+%
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

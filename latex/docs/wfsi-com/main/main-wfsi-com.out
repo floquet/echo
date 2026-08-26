@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Introduction}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{The spatial irradiance distribution in the focal plane}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{The average value of the slope of the sampled wavefront}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Center of Mass and Focal Spot Location}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Special case: domain centered exactly on peak}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Typical case: domain centered approximately on peak}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Correction Strategies}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Tsvetkov method}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{Tsvetkov method corrected}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.3}{Partial pixels}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Summary}{}% 12
+\BOOKMARK [1][-]{section.6}{Acknowledgements}{}% 13
+\BOOKMARK [1][-]{section.7}{Publication Note}{}% 14

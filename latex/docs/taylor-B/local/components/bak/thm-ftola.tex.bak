@@ -1,0 +1,25 @@
+% \input{\pThms/"thm-ftola.tex"}
+\typeout{ \enumContent \pThms/"thm-ftola.tex"}
+
+\begin{theorem}[\label{thm:ftola}Fundamental Theorem of Linear Algebra]
+
+A matrix $\aicmn$ induces the following subspaces:
+\begin{equation}
+	\begin{array}{rcccccl}
+			%
+		\text{solution space} & \mathbb{C}^{n}  & = & \brnga{*} & \oplus & \rnlla{}  & \text{(row space)}\\
+			%
+		\text{measurement space} & \mathbb{C}^{m}  & = & \brnga{} & \oplus & \rnlla{*} & \text{(column space)}
+			%
+	\end{array}
+\label{eq:thm ftola}
+\end{equation}
+%
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+For example, see the series Meyer's equations 5.11.6 and 5.11.7 \cite{meyer2000matrix}.
+\end{proof}
+
+
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

@@ -1,0 +1,646 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{ai_solutions_j2_perturbation}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=89a52fc7ec85cef2875cf6a39c0458ec}{%
+           family={{a.i. solutions}},
+           familyi={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{89a52fc7ec85cef2875cf6a39c0458ec}
+      \strng{fullhash}{89a52fc7ec85cef2875cf6a39c0458ec}
+      \strng{bibnamehash}{89a52fc7ec85cef2875cf6a39c0458ec}
+      \strng{authorbibnamehash}{89a52fc7ec85cef2875cf6a39c0458ec}
+      \strng{authornamehash}{89a52fc7ec85cef2875cf6a39c0458ec}
+      \strng{authorfullhash}{89a52fc7ec85cef2875cf6a39c0458ec}
+      \field{sortinit}{a}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-02-27}
+      \field{title}{J2 Perturbation}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://ai-solutions.com/_freeflyeruniversityguide/j2_perturbation.htm
+      \endverb
+      \verb{url}
+      \verb https://ai-solutions.com/_freeflyeruniversityguide/j2_perturbation.htm
+      \endverb
+    \endentry
+    \entry{bate2020fundamentals}{book}{}
+      \name{author}{4}{}{%
+        {{hash=5db78013ec69497d9f1b6716c96292c9}{%
+           family={Bate},
+           familyi={B\bibinitperiod},
+           given={Roger\bibnamedelima R},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a0308466286f0824bf643284215c2caa}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Donald\bibnamedelima D},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ae9f531bdde8d442f2817ee9d0a89896}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Jerry\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f6ac640541336de879dd507e75fe536a}{%
+           family={Saylor},
+           familyi={S\bibinitperiod},
+           given={William\bibnamedelima W},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Dover Publications}%
+      }
+      \strng{namehash}{0e66e681d0a62bb32c74b749ea6bba27}
+      \strng{fullhash}{59744796e2f0c42f3c482af7b612db2d}
+      \strng{bibnamehash}{0e66e681d0a62bb32c74b749ea6bba27}
+      \strng{authorbibnamehash}{0e66e681d0a62bb32c74b749ea6bba27}
+      \strng{authornamehash}{0e66e681d0a62bb32c74b749ea6bba27}
+      \strng{authorfullhash}{59744796e2f0c42f3c482af7b612db2d}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamentals of astrodynamics}
+      \field{year}{2020}
+    \endentry
+    \entry{boyce2021elementary}{book}{}
+      \name{author}{3}{}{%
+        {{hash=cd2f3f46a13671d5a3c84ea92508961b}{%
+           family={Boyce},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima E},
+           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=1e7ccc9b6cddf4e828a034954daaa860}{%
+           family={DiPrima},
+           familyi={D\bibinitperiod},
+           given={Richard\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=1e95eeb69006bce8937d0c2a5eb87296}{%
+           family={Meade},
+           familyi={M\bibinitperiod},
+           given={Douglas\bibnamedelima B},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{b324e48f0c4c936ae245e0cb508bf6e0}
+      \strng{fullhash}{b324e48f0c4c936ae245e0cb508bf6e0}
+      \strng{bibnamehash}{b324e48f0c4c936ae245e0cb508bf6e0}
+      \strng{authorbibnamehash}{b324e48f0c4c936ae245e0cb508bf6e0}
+      \strng{authornamehash}{b324e48f0c4c936ae245e0cb508bf6e0}
+      \strng{authorfullhash}{b324e48f0c4c936ae245e0cb508bf6e0}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Elementary differential equations and boundary value problems}
+      \field{year}{2021}
+    \endentry
+    \entry{clohessy1960terminal}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ab18038c7b484ed46b56ed3ecd584b69}{%
+           family={Clohessy},
+           familyi={C\bibinitperiod},
+           given={WH},
+           giveni={W\bibinitperiod}}}%
+        {{hash=fb122c9c8515f7b4a0d9d7156c787d15}{%
+           family={Wiltshire},
+           familyi={W\bibinitperiod},
+           given={RS},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c6fa172cc7a1ba23637337caf329441}
+      \strng{fullhash}{5c6fa172cc7a1ba23637337caf329441}
+      \strng{bibnamehash}{5c6fa172cc7a1ba23637337caf329441}
+      \strng{authorbibnamehash}{5c6fa172cc7a1ba23637337caf329441}
+      \strng{authornamehash}{5c6fa172cc7a1ba23637337caf329441}
+      \strng{authorfullhash}{5c6fa172cc7a1ba23637337caf329441}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper assumes a requirement for an unmanned multiunit satellite to be assembled in orbit. The requirement to be met is to bring the satellites together so that they do not collide but actually rendezvous. The equations of motion of the rendezvous satellite in a relative coordinate system are derived and used to compute a final injection velocity which would effect collision after a time r. The velocity is corrected periodically by a command guidance system and just before impact retrothrust is applied. A terminal infrared homing sj^ stem is required to actually accomplish physical contact and joining of the satellites. The first satellite placed in orbit is the" control satellite" and controls all the satellites to be assembled and contains the ccmputer, command guidance equipment, precision orientation equipment, and other features necessary to effect rendezvous. The succeeding satellites contain a propulsion system, a rough attitude control system, and a command receiver plus whatever scientific equipment they carry to perform their basic mission. This paper presents the following:(1) A description of how the" control center's" orbit is determined and made available to the" control center" computer.(2) The attitude sensing and control system of the" control center" and of the" rendezvous" satellite.(3) The measurement system by which the" control center" determines relative position and velocity of the" rendezvous" satellite.}
+      \field{journaltitle}{Journal of the aerospace sciences}
+      \field{number}{9}
+      \field{title}{Terminal guidance system for satellite rendezvous}
+      \field{volume}{27}
+      \field{year}{1960}
+      \field{pages}{653\bibrangedash 658}
+      \range{pages}{6}
+    \endentry
+    \entry{henderson1992reference}{report}{}
+      \name{author}{1}{}{%
+        {{hash=ad3f02b4921dcc55acf512c61e8e24b0}{%
+           family={Henderson},
+           familyi={H\bibinitperiod},
+           given={David\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad3f02b4921dcc55acf512c61e8e24b0}
+      \strng{fullhash}{ad3f02b4921dcc55acf512c61e8e24b0}
+      \strng{bibnamehash}{ad3f02b4921dcc55acf512c61e8e24b0}
+      \strng{authorbibnamehash}{ad3f02b4921dcc55acf512c61e8e24b0}
+      \strng{authornamehash}{ad3f02b4921dcc55acf512c61e8e24b0}
+      \strng{authorfullhash}{ad3f02b4921dcc55acf512c61e8e24b0}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The analysis presented in this paper defines the reference coordinate frames, equations of motion, and control parameters necessary to model the relative motion and attitude of spacecraft in close proximity with another space system during the Automatic Rendezvous and Capture phase of an on-orbit operation. The relative docking port target position vector and the attitude control matrix are defined based upon an arbitrary spacecraft design. These translation and rotation control parameters could be used to drive the error signal input to the vehicle flight control system. Measurements for these control parameters would become the bases for an autopilot or feedback control system (FCS) design for a specific spacecraft.}
+      \field{title}{Reference equations of motion for automatic rendezvous and capture}
+      \field{type}{techreport}
+      \field{year}{1992}
+    \endentry
+    \entry{hill1878researches}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6e114c910e5898d17f0977859d8ab5f7}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={G.\bibnamedelimi W.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Johns Hopkins University Press}%
+      }
+      \strng{namehash}{6e114c910e5898d17f0977859d8ab5f7}
+      \strng{fullhash}{6e114c910e5898d17f0977859d8ab5f7}
+      \strng{bibnamehash}{6e114c910e5898d17f0977859d8ab5f7}
+      \strng{authorbibnamehash}{6e114c910e5898d17f0977859d8ab5f7}
+      \strng{authornamehash}{6e114c910e5898d17f0977859d8ab5f7}
+      \strng{authorfullhash}{6e114c910e5898d17f0977859d8ab5f7}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Mathematics}
+      \field{number}{1}
+      \field{title}{Researches in the Lunar Theory}
+      \field{volume}{1}
+      \field{year}{1878}
+      \field{pages}{5\bibrangedash 26}
+      \range{pages}{22}
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/2369430
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/2369430
+      \endverb
+    \endentry
+    \entry{hintz2015orbital}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4702b4da79662d24d261884db06ee6d8}{%
+           family={Hintz},
+           familyi={H\bibinitperiod},
+           given={Gerald\bibnamedelima R},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4702b4da79662d24d261884db06ee6d8}
+      \strng{fullhash}{4702b4da79662d24d261884db06ee6d8}
+      \strng{bibnamehash}{4702b4da79662d24d261884db06ee6d8}
+      \strng{authorbibnamehash}{4702b4da79662d24d261884db06ee6d8}
+      \strng{authornamehash}{4702b4da79662d24d261884db06ee6d8}
+      \strng{authorfullhash}{4702b4da79662d24d261884db06ee6d8}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cham, Switzerland: Springer International Publishing. isbn}
+      \field{title}{Orbital mechanics and astrodynamics}
+      \field{year}{2015}
+      \field{pages}{978\bibrangedash 3}
+      \range{pages}{-4}
+    \endentry
+    \entry{hirsch1974differential}{book}{}
+      \name{author}{3}{}{%
+        {{hash=697b9e10d72a5f4aec2034a99cf01a9b}{%
+           family={Hirsch},
+           familyi={H\bibinitperiod},
+           given={Morris\bibnamedelima W},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=fc90fa46ed42aa32417d13dd34fc6b48}{%
+           family={Devaney},
+           familyi={D\bibinitperiod},
+           given={Robert\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=394b6b61c0209947040512295d62d07d}{%
+           family={Smale},
+           familyi={S\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic press}%
+      }
+      \strng{namehash}{bd675c5b3cf6d8ac40f388db2287a142}
+      \strng{fullhash}{bd675c5b3cf6d8ac40f388db2287a142}
+      \strng{bibnamehash}{bd675c5b3cf6d8ac40f388db2287a142}
+      \strng{authorbibnamehash}{bd675c5b3cf6d8ac40f388db2287a142}
+      \strng{authornamehash}{bd675c5b3cf6d8ac40f388db2287a142}
+      \strng{authorfullhash}{bd675c5b3cf6d8ac40f388db2287a142}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Differential equations, dynamical systems, and linear algebra}
+      \field{volume}{60}
+      \field{year}{1974}
+    \endentry
+    \entry{kaplan2020modern}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cf28cb38183cfb4ad89980f6cb3c21db}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Marshall\bibnamedelima H},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Dover Publications}%
+      }
+      \strng{namehash}{cf28cb38183cfb4ad89980f6cb3c21db}
+      \strng{fullhash}{cf28cb38183cfb4ad89980f6cb3c21db}
+      \strng{bibnamehash}{cf28cb38183cfb4ad89980f6cb3c21db}
+      \strng{authorbibnamehash}{cf28cb38183cfb4ad89980f6cb3c21db}
+      \strng{authornamehash}{cf28cb38183cfb4ad89980f6cb3c21db}
+      \strng{authorfullhash}{cf28cb38183cfb4ad89980f6cb3c21db}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modern spacecraft dynamics and control}
+      \field{year}{2020}
+    \endentry
+    \entry{doi:10.1137/1020098}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0eaaa911086b3df76e4c944adec7dd3e}{%
+           family={Moler},
+           familyi={M\bibinitperiod},
+           given={Cleve},
+           giveni={C\bibinitperiod}}}%
+        {{hash=632df74adafeb5905dcd3526dd53224a}{%
+           family={Van\bibnamedelima Loan},
+           familyi={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0c2c1c5b15f3a46a9d65c41f197223c}
+      \strng{fullhash}{b0c2c1c5b15f3a46a9d65c41f197223c}
+      \strng{bibnamehash}{b0c2c1c5b15f3a46a9d65c41f197223c}
+      \strng{authorbibnamehash}{b0c2c1c5b15f3a46a9d65c41f197223c}
+      \strng{authornamehash}{b0c2c1c5b15f3a46a9d65c41f197223c}
+      \strng{authorfullhash}{b0c2c1c5b15f3a46a9d65c41f197223c}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In principle, the exponential of a matrix could be computed in many ways. Methods involving approximation theory, differential equations, the matrix eigenvalues, and the matrix characteristic polynomial have been proposed. In practice, consideration of computational stability and efficiency indicates that some of the methods are preferable to others, but that none are completely satisfactory.}
+      \field{journaltitle}{SIAM Review}
+      \field{number}{4}
+      \field{title}{Nineteen Dubious Ways to Compute the Exponential of a Matrix}
+      \field{volume}{20}
+      \field{year}{1978}
+      \field{pages}{801\bibrangedash 836}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1137/1020098
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1137/1020098
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1137/1020098
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1137/1020098
+      \endverb
+    \endentry
+    \entry{doi:10.1137/S00361445024180}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0eaaa911086b3df76e4c944adec7dd3e}{%
+           family={Moler},
+           familyi={M\bibinitperiod},
+           given={Cleve},
+           giveni={C\bibinitperiod}}}%
+        {{hash=632df74adafeb5905dcd3526dd53224a}{%
+           family={Van\bibnamedelima Loan},
+           familyi={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0c2c1c5b15f3a46a9d65c41f197223c}
+      \strng{fullhash}{b0c2c1c5b15f3a46a9d65c41f197223c}
+      \strng{bibnamehash}{b0c2c1c5b15f3a46a9d65c41f197223c}
+      \strng{authorbibnamehash}{b0c2c1c5b15f3a46a9d65c41f197223c}
+      \strng{authornamehash}{b0c2c1c5b15f3a46a9d65c41f197223c}
+      \strng{authorfullhash}{b0c2c1c5b15f3a46a9d65c41f197223c}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In principle, the exponential of a matrix could be computed in many ways. Methods involving approximation theory, differential equations, the matrix eigenvalues, and the matrix characteristic polynomial have been proposed. In practice, consideration of computational stability and efficiency indicates that some of the methods are preferable to others but that none are completely satisfactory.Most of this paper was originally published in 1978. An update, with a separate bibliography, describes a few recent developments.}
+      \field{journaltitle}{SIAM Review}
+      \field{number}{1}
+      \field{title}{Nineteen Dubious Ways to Compute the Exponential of a Matrix, Twenty-Five Years Later}
+      \field{volume}{45}
+      \field{year}{2003}
+      \field{pages}{3\bibrangedash 49}
+      \range{pages}{47}
+      \verb{doi}
+      \verb 10.1137/S00361445024180
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1137/S00361445024180
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1137/S00361445024180
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1137/S00361445024180
+      \endverb
+    \endentry
+    \entry{perko2013differential}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2e86fbceb5185d82a8b0e6fccbdf1691}{%
+           family={Perko},
+           familyi={P\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{fullhash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{bibnamehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{authorbibnamehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{authornamehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{authorfullhash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mathematics is playing an ever more important role in the physical and biological sciences, provoking a blurring of boundaries between scientific disciplines and a resurgence of interest in the modern as well as the clas sical techniques of applied mathematics. This renewal of interest, both in research and teaching, has led to the establishment of the series: Texts in Applied Mathematics (TAM). The development of new courses is a natural consequence of a high level of excitement on the research frontier as newer techniques, such as numerical and symbolic computer systems, dynamical systems, and chaos, mix with and reinforce the traditional methods of applied mathematics. Thus, the purpose of this textbook series is to meet the current and future needs of these advances and encourage the teaching of new courses. TAM will publish textbooks suitable for use in advanced undergraduate and beginning graduate courses, and will complement the Applied Math ematical Sciences (AMS) series, which will focus on advanced textbooks and research level monographs.}
+      \field{title}{Differential equations and dynamical systems}
+      \field{volume}{7}
+      \field{year}{2013}
+    \endentry
+    \entry{price1968derivation}{report}{}
+      \name{author}{2}{}{%
+        {{hash=c630603f31e4e733a93c3be3fbe3b8a2}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={DB},
+           giveni={D\bibinitperiod}}}%
+        {{hash=72f8e819abb79898fcf836f6ab9e28cd}{%
+           family={Sparrow},
+           familyi={S\bibinitperiod},
+           given={GW},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f43d8ca121f22171387bf1280e452c39}
+      \strng{fullhash}{f43d8ca121f22171387bf1280e452c39}
+      \strng{bibnamehash}{f43d8ca121f22171387bf1280e452c39}
+      \strng{authorbibnamehash}{f43d8ca121f22171387bf1280e452c39}
+      \strng{authornamehash}{f43d8ca121f22171387bf1280e452c39}
+      \strng{authorfullhash}{f43d8ca121f22171387bf1280e452c39}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The desirability of obtaining simplified and accurate relative equations of motion for two- impulse rendezvous application resulted in the examination of the Clohessy and Wiltshire type of simplified equation. An analysis of these equations revealed that large errors were possible if the radial separation of the two vehicles was large. In an effort to develop more accurate equations for rendezvous, the apparent erroneous terms were replaced by exact terms.}
+      \field{title}{Derivation of approximate equations for solving the planar rendezvous problem}
+      \field{type}{techreport}
+      \field{year}{1968}
+    \endentry
+    \entry{schaub2003analytical}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5d9753c98d823c83966f248dbe18f6fd}{%
+           family={Schaub},
+           familyi={S\bibinitperiod},
+           given={Hanspeter},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fc213a94bb17c691b35d3ec947794815}{%
+           family={Junkins},
+           familyi={J\bibinitperiod},
+           given={John\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Aiaa}%
+      }
+      \strng{namehash}{1d7a171a58363aa8bf04eece48bbe6dd}
+      \strng{fullhash}{1d7a171a58363aa8bf04eece48bbe6dd}
+      \strng{bibnamehash}{1d7a171a58363aa8bf04eece48bbe6dd}
+      \strng{authorbibnamehash}{1d7a171a58363aa8bf04eece48bbe6dd}
+      \strng{authornamehash}{1d7a171a58363aa8bf04eece48bbe6dd}
+      \strng{authorfullhash}{1d7a171a58363aa8bf04eece48bbe6dd}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analytical mechanics of space systems}
+      \field{year}{2003}
+    \endentry
+    \entry{sherrill2015lyapunov}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d468b5da0cccfbb5ced8104b0680c8ac}{%
+           family={Sherrill},
+           familyi={S\bibinitperiod},
+           given={Ryan\bibnamedelima E},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=773f5705bc0939c1c1be4e2ccce0a067}{%
+           family={Sinclair},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2eefd4d88b5e9dc8ccc21413b498520d}{%
+           family={Sinha},
+           familyi={S\bibinitperiod},
+           given={SC},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b4b0bb0871ed5ed13a63fb940785eef6}{%
+           family={Lovell},
+           familyi={L\bibinitperiod},
+           given={T\bibnamedelima Alan},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{278c139ec0f4ef32e9d00514c72c93b9}
+      \strng{fullhash}{10e7779cb0fd2c4ea78b490b58dd530b}
+      \strng{bibnamehash}{278c139ec0f4ef32e9d00514c72c93b9}
+      \strng{authorbibnamehash}{278c139ec0f4ef32e9d00514c72c93b9}
+      \strng{authornamehash}{278c139ec0f4ef32e9d00514c72c93b9}
+      \strng{authorfullhash}{10e7779cb0fd2c4ea78b490b58dd530b}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper proposes a method for continuous-thrust control of satellite formations in elliptic orbits. A previously calculated Lyapunov-Floquet transformation relates the linearized equations of relative motion for elliptic chief orbits to the Hill-Clohessy-Wiltshire equations describing circular chiefs. Using a control law based on Lyapunov-Floquet theory, a time-varying feedback gain is computed that drives a deputy satellite toward rendezvous with an elliptic chief. This control law stabilizes the relative motion across a wide range of chief eccentricities.}
+      \field{journaltitle}{IEEE Transactions on Aerospace and Electronic Systems}
+      \field{number}{4}
+      \field{title}{Lyapunov-Floquet control of satellite relative motion in elliptic orbits}
+      \field{volume}{51}
+      \field{year}{2015}
+      \field{pages}{2800\bibrangedash 2810}
+      \range{pages}{11}
+    \endentry
+    \entry{starek2017fast}{article}{}
+      \name{author}{5}{}{%
+        {{hash=2c0b27bb2ada0a24dae3982063596481}{%
+           family={Starek},
+           familyi={S\bibinitperiod},
+           given={Joseph\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=98768cc4d9919626aa859e688479e182}{%
+           family={Schmerling},
+           familyi={S\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=944b2d1f6f8e59f6820e6769c3ba8171}{%
+           family={Maher},
+           familyi={M\bibinitperiod},
+           given={Gabriel\bibnamedelima D},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=25257b9a17d130794a1dea1e018b105e}{%
+           family={Barbee},
+           familyi={B\bibinitperiod},
+           given={Brent\bibnamedelima W},
+           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=35318fcd7c56edabda1a4c70f2174048}{%
+           family={Pavone},
+           familyi={P\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {American Institute of Aeronautics}%
+        {Astronautics}%
+      }
+      \strng{namehash}{7a135650843eac21b55f51a30a8cba2d}
+      \strng{fullhash}{30f3f31cd9987f91d0e2054424370741}
+      \strng{bibnamehash}{7a135650843eac21b55f51a30a8cba2d}
+      \strng{authorbibnamehash}{7a135650843eac21b55f51a30a8cba2d}
+      \strng{authornamehash}{7a135650843eac21b55f51a30a8cba2d}
+      \strng{authorfullhash}{30f3f31cd9987f91d0e2054424370741}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents a sampling-based motion planning algorithm for real-time and propellant-optimized autonomous spacecraft trajectory generation in near-circular orbits. Specifically, this paper leverages recent algorithmic advances in the field of robot motion planning to the problem of impulsively actuated, propellant-optimized rendezvous and proximity operations under the Clohessy--Wiltshire--Hill dynamics model. The approach calls upon a modified version of the FMT* algorithm to grow a set of feasible trajectories over a deterministic, low-dispersion set of sample points covering the free state space. To enforce safety, the tree is only grown over the subset of actively safe samples, from which there exists a feasible one-burn collision-avoidance maneuver that can safely circularize the spacecraft orbit along its coasting arc under a given set of potential thruster failures. Key features of the proposed algorithm include 1) theoretical guarantees in terms of trajectory safety and performance, 2) amenability to real-time implementation, and 3) generality, in the sense that a large class of constraints can be handled directly. As a result, the proposed algorithm offers the potential for widespread application, ranging from on-orbit satellite servicing to orbital debris removal and autonomous inspection missions.}
+      \field{journaltitle}{Journal of Guidance, Control, and Dynamics}
+      \field{number}{2}
+      \field{title}{Fast, safe, propellant-efficient spacecraft motion planning under Clohessy--Wiltshire--Hill dynamics}
+      \field{volume}{40}
+      \field{year}{2017}
+      \field{pages}{418\bibrangedash 438}
+      \range{pages}{21}
+    \endentry
+    \entry{vallado2001fundamentals}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5ce77d9d427077b0792c85535de9fc7e}{%
+           family={Vallado},
+           familyi={V\bibinitperiod},
+           given={David\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{5ce77d9d427077b0792c85535de9fc7e}
+      \strng{fullhash}{5ce77d9d427077b0792c85535de9fc7e}
+      \strng{bibnamehash}{5ce77d9d427077b0792c85535de9fc7e}
+      \strng{authorbibnamehash}{5ce77d9d427077b0792c85535de9fc7e}
+      \strng{authornamehash}{5ce77d9d427077b0792c85535de9fc7e}
+      \strng{authorfullhash}{5ce77d9d427077b0792c85535de9fc7e}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamentals of astrodynamics and applications}
+      \field{volume}{12}
+      \field{year}{2001}
+    \endentry
+    \entry{wright2008minimizing}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bdf1cea5f1b3e1fcd6e6550936537f71}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Jonathan\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdf1cea5f1b3e1fcd6e6550936537f71}
+      \strng{fullhash}{bdf1cea5f1b3e1fcd6e6550936537f71}
+      \strng{bibnamehash}{bdf1cea5f1b3e1fcd6e6550936537f71}
+      \strng{authorbibnamehash}{bdf1cea5f1b3e1fcd6e6550936537f71}
+      \strng{authornamehash}{bdf1cea5f1b3e1fcd6e6550936537f71}
+      \strng{authorfullhash}{bdf1cea5f1b3e1fcd6e6550936537f71}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The purpose of this thesis is to examine the secular effects of the J 2 oblateness perturbation on close proximity satellites. The main objective is to analyze the deputy's position and velocity with respect to the chief and adjust the initial conditions of the deputy in an attempt to minimize the secular effects of J 2 perturbations. Previous work has provided a method of obtaining a closed form solution for J 2 invariance with co-planar orbits. Therefore, this work will primarily consider deputy orbits that experience motion outside of the chief's orbital plane. Upon determining the required initial conditions, the invariance will be verified through numerical integration. The method will be considered successful when it is able to reduce secular effects to near numerical tolerances.}
+      \field{title}{Minimizing Secular J 2 Perturbation Effects on Satellite Formations}
+      \field{year}{2008}
+    \endentry
+    \entry{zwillinger2021handbook}{book}{}
+      \name{author}{2}{}{%
+        {{hash=3b36e79115e11a7fb3f82dd999ac6e54}{%
+           family={Zwillinger},
+           familyi={Z\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cdf850531358432bf7c7d1835be0f8bd}{%
+           family={Dobrushkin},
+           familyi={D\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall/CRC}%
+      }
+      \strng{namehash}{da3df802a941185ab2d14cc892c854d9}
+      \strng{fullhash}{da3df802a941185ab2d14cc892c854d9}
+      \strng{bibnamehash}{da3df802a941185ab2d14cc892c854d9}
+      \strng{authorbibnamehash}{da3df802a941185ab2d14cc892c854d9}
+      \strng{authornamehash}{da3df802a941185ab2d14cc892c854d9}
+      \strng{authorfullhash}{da3df802a941185ab2d14cc892c854d9}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Handbook of differential equations}
+      \field{year}{2021}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

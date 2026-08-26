@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'sec-intro.blg'
+[74] biber-darwin:322> INFO - === Mon Dec 15, 2025, 23:35:11
+[198] Utils.pm:320> ERROR - Cannot find 'sec-intro.bcf'!
+[198] Biber.pm:132> INFO - ERRORS: 1

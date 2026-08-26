@@ -1,0 +1,387 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{boetzel2017solving}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bb8323ddd99b56aa3071b604b1f1d45a}{%
+           family={Boetzel},
+           familyi={B\bibinitperiod},
+           given={Yannick},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9ca43aa09c16273e785b8e3730cb5b98}{%
+           family={Susobhanan},
+           familyi={S\bibinitperiod},
+           given={Abhimanyu},
+           giveni={A\bibinitperiod}}}%
+        {{hash=117f72981acdaab1bd09757d37a866d0}{%
+           family={Gopakumar},
+           familyi={G\bibinitperiod},
+           given={Achamveedu},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b4c19284d49a362fbd43beadb1ec5891}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=89855aa7ac6f8cd6ac65e033b4124b87}{%
+           family={Jetzer},
+           familyi={J\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{049ae95e5ced22a097927892bbc4cc49}
+      \strng{fullhash}{6a7118f594b466f337f45ffc52a6d527}
+      \strng{bibnamehash}{049ae95e5ced22a097927892bbc4cc49}
+      \strng{authorbibnamehash}{049ae95e5ced22a097927892bbc4cc49}
+      \strng{authornamehash}{049ae95e5ced22a097927892bbc4cc49}
+      \strng{authorfullhash}{6a7118f594b466f337f45ffc52a6d527}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We provide an elegant way of solving analytically the third post-Newtonian (3PN) accurate Kepler equation, associated with the 3PN-accurate generalized quasi-Keplerian parametrization for compact binaries in eccentric orbits. An additional analytic solution is presented to check the correctness of our compact solution and we perform comparisons between our PN-accurate analytic solution and a very accurate numerical solution of the PN-accurate Kepler equation. We adapt our approach to compute crucial 3PN-accurate inputs that will be required to compute analytically both the time and frequency domain ready-to-use amplitude-corrected PN-accurate search templates for compact binaries in inspiralling eccentric orbits.}
+      \field{journaltitle}{Physical Review D}
+      \field{number}{4}
+      \field{title}{Solving post-Newtonian accurate Kepler equation}
+      \field{volume}{96}
+      \field{year}{2017}
+      \field{pages}{044011}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.96.044011
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.aps.org/prd/abstract/10.1103/PhysRevD.96.044011
+      \endverb
+      \verb{url}
+      \verb https://journals.aps.org/prd/abstract/10.1103/PhysRevD.96.044011
+      \endverb
+    \endentry
+    \entry{french1971newtonian}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d8e5ce55abe4685cd21379dba0a782fe}{%
+           family={French},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {W. W. Norton \& Company}%
+      }
+      \strng{namehash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{fullhash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{bibnamehash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{authorbibnamehash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{authornamehash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{authorfullhash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780393099703}
+      \field{series}{The M.I.T. Introductory Physics Series}
+      \field{title}{Newtonian Mechanics}
+      \field{year}{1971}
+    \endentry
+    \entry{fukushima1999fast}{article}{}
+      \name{author}{1}{}{%
+        {{hash=58c85e9cbeded4e598f959ce11692793}{%
+           family={Fukushima},
+           familyi={F\bibinitperiod},
+           given={Toshio},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{58c85e9cbeded4e598f959ce11692793}
+      \strng{fullhash}{58c85e9cbeded4e598f959ce11692793}
+      \strng{bibnamehash}{58c85e9cbeded4e598f959ce11692793}
+      \strng{authorbibnamehash}{58c85e9cbeded4e598f959ce11692793}
+      \strng{authornamehash}{58c85e9cbeded4e598f959ce11692793}
+      \strng{authorfullhash}{58c85e9cbeded4e598f959ce11692793}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We developed a procedure to solve a modification of the standard form of the universal Kepler's equation, which is expressed as a nondimensional equation with respect to a nondimensional variable. After reducing the domain of the variable and the argument by using the symmetry and the periodicity of the equation, the method first separates the case where the solution is so small that it is given an inverted series. Second, it separates the cases where the elliptic, parabolic, or hyperbolic standard forms of Kepler's equation are suitable. Here the separation is done by judging whether detouring these nonuniversal equations will cause a 1-bit loss of information to their nonuniversal solutions or not. Then the nonuniversal equations are solved by the author's procedures to solve the elliptic Kepler's equation (Fukushima, 1997a), Barker's equation (Fukushima, 1998), and the hyperbolic Kepler's equation (Fukushima, 1997b), respectively. And their nonuniversal solutions are transformed back to the solution of the universal equation. For the rest of the case, we obtain an approximate solution by solving roughly the approximated cubic equation as we did in solving Barker's equation. Then the correction to the approximate solution is obtained by Halley's method precisely. There the special function appeared in the universal equation is rewritten into a combination of similar special functions of small arguments, so that they are efficiently evaluated by their Taylor series. Numerical measurements showed that, in the case of Intel Pentium II processor, the new method is 10--25 times as fast as Shepperd's method (Shepperd, 1985) and 7--13 times as fast as the standard Newton method.}
+      \field{journaltitle}{Celestial Mechanics and Dynamical Astronomy}
+      \field{number}{3}
+      \field{title}{Fast procedure solving universal Kepler's equation}
+      \field{volume}{75}
+      \field{year}{1999}
+      \field{pages}{201\bibrangedash 226}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1023/A:1008368820433
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/article/10.1023/A:1008368820433
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/article/10.1023/A:1008368820433
+      \endverb
+    \endentry
+    \entry{gerlach1994accelerated}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c6c98f7855617ecb9eb76f709e0d3b1d}{%
+           family={Gerlach},
+           familyi={G\bibinitperiod},
+           given={J{ü}rgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{c6c98f7855617ecb9eb76f709e0d3b1d}
+      \strng{fullhash}{c6c98f7855617ecb9eb76f709e0d3b1d}
+      \strng{bibnamehash}{c6c98f7855617ecb9eb76f709e0d3b1d}
+      \strng{authorbibnamehash}{c6c98f7855617ecb9eb76f709e0d3b1d}
+      \strng{authornamehash}{c6c98f7855617ecb9eb76f709e0d3b1d}
+      \strng{authorfullhash}{c6c98f7855617ecb9eb76f709e0d3b1d}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Siam Review}
+      \field{number}{2}
+      \field{title}{Accelerated convergence in Newton's method}
+      \field{volume}{36}
+      \field{year}{1994}
+      \field{pages}{272\bibrangedash 276}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/2132465
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/2132465
+      \endverb
+    \endentry
+    \entry{markley1995kepler}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d1abf4423327696d755c812e2ed525d9}{%
+           family={Markley},
+           familyi={M\bibinitperiod},
+           given={F\bibnamedelima Landis},
+           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d1abf4423327696d755c812e2ed525d9}
+      \strng{fullhash}{d1abf4423327696d755c812e2ed525d9}
+      \strng{bibnamehash}{d1abf4423327696d755c812e2ed525d9}
+      \strng{authorbibnamehash}{d1abf4423327696d755c812e2ed525d9}
+      \strng{authornamehash}{d1abf4423327696d755c812e2ed525d9}
+      \strng{authorfullhash}{d1abf4423327696d755c812e2ed525d9}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kepler's Equation is solved over the entire range of elliptic motion by a fifth-order refinement of the solution of a cubic equation. This method is not iterative, and requires only four transcendental function evaluations: a square root, a cube root, and two trigonometric functions. The maximum relative error of the algorithm is less than one part in $10^{18}$ , exceeding the capability of double-precision computer arithmetic. Roundoff errors in double-precision implementation of the algorithm are addressed, and procedures to avoid them are developed.}
+      \field{journaltitle}{Celestial Mechanics and Dynamical Astronomy}
+      \field{title}{Kepler equation solver}
+      \field{volume}{63}
+      \field{year}{1995}
+      \field{pages}{101\bibrangedash 111}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb https://ntrs.nasa.gov/api/citations/19950021346/downloads/19950021346.pdf
+      \endverb
+      \verb{url}
+      \verb https://ntrs.nasa.gov/api/citations/19950021346/downloads/19950021346.pdf
+      \endverb
+    \endentry
+    \entry{odell1986procedures}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a47156c040d5df24070f12e9527829f9}{%
+           family={Odell},
+           familyi={O\bibinitperiod},
+           given={AW},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6e1edef205cc0e67e60dd0512a4b48cd}{%
+           family={Gooding},
+           familyi={G\bibinitperiod},
+           given={RH},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{9500f67fb342789120bcf6bb60e2e766}
+      \strng{fullhash}{9500f67fb342789120bcf6bb60e2e766}
+      \strng{bibnamehash}{9500f67fb342789120bcf6bb60e2e766}
+      \strng{authorbibnamehash}{9500f67fb342789120bcf6bb60e2e766}
+      \strng{authornamehash}{9500f67fb342789120bcf6bb60e2e766}
+      \strng{authorfullhash}{9500f67fb342789120bcf6bb60e2e766}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We review starting formulae and iteration processes for the solution of Kepler's equation, and give details of two complete procedures. The first has been in use for a number of years, but the second is entirely new. The new procedure operates with an iterative process that always gives fourth-order convergence and is taken to only two iterations. The error in the resulting solution then never exceeds $7\times10^{−15} I $ rad.}
+      \field{journaltitle}{Celestial mechanics}
+      \field{number}{4}
+      \field{title}{Procedures for solving Kepler's equation}
+      \field{volume}{38}
+      \field{year}{1986}
+      \field{pages}{307\bibrangedash 334}
+      \range{pages}{28}
+    \endentry
+    \entry{raposo2018efficient}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7176865aba66606db8e673225f2bdeef}{%
+           family={Raposo-Pulido},
+           familyi={R\bibinithyphendelim P\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d36e506a96f916c5450bd967ea71904e}{%
+           family={Pel{á}ez},
+           familyi={P\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {EDP Sciences}%
+      }
+      \strng{namehash}{eb2f19b465a57259993b3d9c3e1d7379}
+      \strng{fullhash}{eb2f19b465a57259993b3d9c3e1d7379}
+      \strng{bibnamehash}{eb2f19b465a57259993b3d9c3e1d7379}
+      \strng{authorbibnamehash}{eb2f19b465a57259993b3d9c3e1d7379}
+      \strng{authornamehash}{eb2f19b465a57259993b3d9c3e1d7379}
+      \strng{authorfullhash}{eb2f19b465a57259993b3d9c3e1d7379}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper introduces a new approach for solving the Kepler equation for hyperbolic orbits through the Hyperbolic Kepler Equation--Space Dynamics Group (HKE--SDG) code. Rather than developing new algorithms, we substantially improve classic Newton--Raphson schemes by optimizing the initial seed selection. For discretized domains of hyperbolic anomaly, we implement fifth-degree interpolating polynomials (with asymptotic expansion for the final interval) whose six coefficients are determined by matching function values and first derivatives at interval endpoints. A specialized asymptotic expansion handles the singular corner ($|M| < 0.15$, $1 < e < 1.25$). Numerical simulations demonstrate machine-error accuracy within maximum three iterations (99.8\% cases $\leq$2 iterations) across double/quadruple precision implementations. The HKE--SDG algorithm achieves superior precision (0.3s execution in double precision) while maintaining reliability, particularly in the singular corner where a single asymptotic expansion suffices. Comparative analysis confirms its precision advantage over existing methods in both precision regimes.}
+      \field{journaltitle}{Astronomy \& Astrophysics}
+      \field{title}{An efficient code to solve the Kepler equation-Hyperbolic case}
+      \field{volume}{619}
+      \field{year}{2018}
+      \field{pages}{A129}
+      \range{pages}{-1}
+      \verb{urlraw}
+      \verb https://www.aanda.org/articles/aa/pdf/2018/11/aa33563-18.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.aanda.org/articles/aa/pdf/2018/11/aa33563-18.pdf
+      \endverb
+    \endentry
+    \entry{raposo2017efficient}{article}{}
+      \name{author}{2}{}{%
+        {{hash=56f460898a229dd5c5c118707844795e}{%
+           family={Raposo-Pulido},
+           familyi={R\bibinithyphendelim P\bibinitperiod},
+           given={Virginia},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d36e506a96f916c5450bd967ea71904e}{%
+           family={Pel{á}ez},
+           familyi={P\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{20f8255e7c9f607cc74a280866111532}
+      \strng{fullhash}{20f8255e7c9f607cc74a280866111532}
+      \strng{bibnamehash}{20f8255e7c9f607cc74a280866111532}
+      \strng{authorbibnamehash}{20f8255e7c9f607cc74a280866111532}
+      \strng{authornamehash}{20f8255e7c9f607cc74a280866111532}
+      \strng{authorfullhash}{20f8255e7c9f607cc74a280866111532}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new approach for solving Kepler equation for elliptical orbits is developed in this paper. This new approach takes advantage of the very good behaviour of the modified Newton--Raphson method when the initial seed is close to the looked for solution. To determine a good initial seed the eccentric anomaly domain $[0, \pi]$ is discretized in several intervals and for each one of these intervals a fifth degree interpolating polynomial is introduced. The six coefficients of the polynomial are obtained by requiring six conditions at both ends of the corresponding interval. Thus the real function and the polynomial have equal values at both ends of the interval. Similarly relations are imposed for the two first derivatives. In the singular corner of the Kepler equation, $M \ll 1$ and $1 − e \ll 0$ an asymptotic expansion is developed. In most of the cases, the seed generated leads to reach machine error accuracy with the modified Newton--Raphson method with no iterations or just one iteration. This approach improves the computational time compared with other methods currently in use.}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{number}{2}
+      \field{title}{An efficient code to solve the Kepler equation. Elliptic case}
+      \field{volume}{467}
+      \field{year}{2017}
+      \field{pages}{1702\bibrangedash 1713}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1093/mnras/stx138
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/mnras/article/467/2/1702/2929272
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/mnras/article/467/2/1702/2929272
+      \endverb
+    \endentry
+    \entry{taff1989solving}{article}{}
+      \name{author}{2}{}{%
+        {{hash=715403e5a6b354edc4512bb32f995f95}{%
+           family={Taff},
+           familyi={T\bibinitperiod},
+           given={Laurence\bibnamedelima G},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=4f1af92c04b60c3d8fe5d9461c5dc1a7}{%
+           family={Brennan},
+           familyi={B\bibinitperiod},
+           given={TA},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{28efbd7f29b58ce6bc8cef945d9d7608}
+      \strng{fullhash}{28efbd7f29b58ce6bc8cef945d9d7608}
+      \strng{bibnamehash}{28efbd7f29b58ce6bc8cef945d9d7608}
+      \strng{authorbibnamehash}{28efbd7f29b58ce6bc8cef945d9d7608}
+      \strng{authornamehash}{28efbd7f29b58ce6bc8cef945d9d7608}
+      \strng{authorfullhash}{28efbd7f29b58ce6bc8cef945d9d7608}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Intrigued by the recent advances in research on solving Kepler's equation, we have attacked the problem too. Our contributions emphasize the unified derivation of all known bounds and several starting values, a proof of the optimality of these bounds, a very thorough numerical exploration of a large variety of starting values and solution techniques in both mean anomaly/eccentricity space and eccentric anomaly/eccentricity space, and finally the best and simplest starting value/solution algorithm: $M + e$ and Wegstein's secant modification of the method of successive substitutions. The very close second is Broucke's bounds coupled with Newton's second-order scheme.}
+      \field{journaltitle}{Celestial Mechanics and Dynamical Astronomy}
+      \field{title}{On solving Kepler's equation}
+      \field{volume}{46}
+      \field{year}{1989}
+      \field{pages}{163\bibrangedash 176}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/BF00053046
+      \endverb
+      \verb{urlraw}
+      \verb https://ui.adsabs.harvard.edu/abs/1989CeMDA..46..163T/abstract
+      \endverb
+      \verb{url}
+      \verb https://ui.adsabs.harvard.edu/abs/1989CeMDA..46..163T/abstract
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{enwiki:1188516830}
+\endrefsection
+\endinput
+

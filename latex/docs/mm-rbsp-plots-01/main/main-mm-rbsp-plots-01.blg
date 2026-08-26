@@ -1,0 +1,27 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main-mm-rbsp-plots-01.blg'
+[70] biber-darwin:322> INFO - === Wed Jun 25, 2025, 09:40:26
+[89] Biber.pm:415> INFO - Reading 'main-mm-rbsp-plots-01.bcf'
+[153] Biber.pm:943> INFO - Found 6 citekeys in bib section 0
+[164] Biber.pm:4256> INFO - Processing section 0
+[165] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//space.bib'
+[165] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//space.bib' to /Users/dantopa/GitHub//latex-2025//bibs//space.bib
+[165] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[165] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' to /Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib
+[165] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//nukes-in-space.bib'
+[165] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//nukes-in-space.bib' to /Users/dantopa/GitHub//latex-2025//bibs//nukes-in-space.bib
+[180] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//space.bib' for section 0
+[185] bibtex.pm:1653> INFO - LaTeX decoding ...
+[239] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//space.bib'
+[286] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' for section 0
+[293] bibtex.pm:1653> INFO - LaTeX decoding ...
+[445] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[458] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//nukes-in-space.bib' for section 0
+[471] bibtex.pm:1653> INFO - LaTeX decoding ...
+[713] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//nukes-in-space.bib'
+[744] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[744] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[744] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[745] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[758] bbl.pm:652> INFO - Writing 'main-mm-rbsp-plots-01.bbl' with encoding 'UTF-8'
+[763] bbl.pm:755> INFO - Output to main-mm-rbsp-plots-01.bbl

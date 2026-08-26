@@ -1,0 +1,497 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{36}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Anz-Meador, Opiela, and Liou}{Anz-Meador
+  et~al\mbox{.}}{2023}]%
+        {anz2023history}
+\bibfield{author}{\bibinfo{person}{Phillip Anz-Meador}, \bibinfo{person}{John
+  Opiela}, {and} \bibinfo{person}{Jer-Chyi Liou}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{History of on-orbit satellite
+  fragmentations}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bernholdt, Allan, Armstrong, Bertrand, Chiu,
+  Dahlgren, Damevski, Elwasif, Epperly, Govindaraju, et~al\mbox{.}}{Bernholdt
+  et~al\mbox{.}}{2006}]%
+        {bernholdt2006component}
+\bibfield{author}{\bibinfo{person}{David~E Bernholdt},
+  \bibinfo{person}{Benjamin~A Allan}, \bibinfo{person}{Robert Armstrong},
+  \bibinfo{person}{Felipe Bertrand}, \bibinfo{person}{Kenneth Chiu},
+  \bibinfo{person}{Tamara~L Dahlgren}, \bibinfo{person}{Kostadin Damevski},
+  \bibinfo{person}{Wael~R Elwasif}, \bibinfo{person}{Thomas~GW Epperly},
+  \bibinfo{person}{Madhusudhan Govindaraju}, {et~al\mbox{.}}}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{A component architecture for high-performance
+  scientific computing}.
+\newblock \bibinfo{journal}{\emph{The International Journal of High Performance
+  Computing Applications}} \bibinfo{volume}{20}, \bibinfo{number}{2}
+  (\bibinfo{year}{2006}), \bibinfo{pages}{163--202}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Burgin and Sidor}{Burgin and Sidor}{1988}]%
+        {burgin1988rule}
+\bibfield{author}{\bibinfo{person}{George~H Burgin} {and} \bibinfo{person}{LB
+  Sidor}.} \bibinfo{year}{1988}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Rule-based air combat simulation}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Courtland}{Courtland}{2009}]%
+        {courtland2009satellite}
+\bibfield{author}{\bibinfo{person}{Rachel Courtland}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Satellite crash prediction is plagued with
+  uncertainty}.
+\newblock \bibinfo{journal}{\emph{New Scientist}} (\bibinfo{year}{2009}).
+\newblock
+\urldef\tempurl%
+\url{https://www.newscientist.com/article/dn16592-satellite-crash-prediction-is-plagued-with-uncertainty/}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed: 2024-12-25.}
+
+
+\bibitem[\protect\citeauthoryear{Curcic}{Curcic}{2020}]%
+        {curcic2020modern}
+\bibfield{author}{\bibinfo{person}{Milan Curcic}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Modern Fortran: Building efficient parallel
+  applications}}.
+\newblock \bibinfo{publisher}{Manning Publications}, \bibinfo{address}{Shelter
+  Island, NY}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fujimoto}{Fujimoto}{1990}]%
+        {fujimoto1990parallel}
+\bibfield{author}{\bibinfo{person}{Richard~M Fujimoto}.}
+  \bibinfo{year}{1990}\natexlab{}.
+\newblock \showarticletitle{Parallel discrete event simulation}.
+\newblock \bibinfo{journal}{\emph{Commun. ACM}} \bibinfo{volume}{33},
+  \bibinfo{number}{10} (\bibinfo{year}{1990}), \bibinfo{pages}{30--53}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fujimoto}{Fujimoto}{1993}]%
+        {fujimoto1993parallel}
+\bibfield{author}{\bibinfo{person}{Richard~M Fujimoto}.}
+  \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{Parallel discrete event simulation: Will the field
+  survive?}
+\newblock \bibinfo{journal}{\emph{ORSA Journal on Computing}}
+  \bibinfo{volume}{5}, \bibinfo{number}{3} (\bibinfo{year}{1993}),
+  \bibinfo{pages}{213--230}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ge, Eachempati, Khaldi, and Chapman}{Ge
+  et~al\mbox{.}}{2015}]%
+        {ge2015evaluation}
+\bibfield{author}{\bibinfo{person}{Shiyao Ge}, \bibinfo{person}{Deepak
+  Eachempati}, \bibinfo{person}{Dounia Khaldi}, {and} \bibinfo{person}{Barbara
+  Chapman}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{An evaluation of anticipated extensions for fortran
+  coarrays}. In \bibinfo{booktitle}{\emph{2015 9th International Conference on
+  Partitioned Global Address Space Programming Models}}. IEEE,
+  \bibinfo{pages}{47--58}.
+\newblock
+\urldef\tempurl%
+\url{https://ieeexplore.ieee.org/document/7306097}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Hanson and Hopkins}{Hanson and
+  Hopkins}{2013}]%
+        {Hanson2013}
+\bibfield{author}{\bibinfo{person}{Richard~J. Hanson} {and}
+  \bibinfo{person}{Tim Hopkins}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Numerical Computing with Modern Fortran}}.
+\newblock \bibinfo{publisher}{Society for Industrial and Applied Mathematics},
+  \bibinfo{address}{Philadelphia, PA}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1137/1.9781611973129}
+\showDOI{\tempurl}
+\showeprint{https://epubs.siam.org/doi/pdf/10.1137/1.9781611973129}
+
+
+\bibitem[\protect\citeauthoryear{Heidelberger}{Heidelberger}{1988}]%
+        {heidelberger1988discrete}
+\bibfield{author}{\bibinfo{person}{Philip Heidelberger}.}
+  \bibinfo{year}{1988}\natexlab{}.
+\newblock \showarticletitle{Discrete event simulations and parallel processing:
+  statistical properties}.
+\newblock \bibinfo{journal}{\emph{SIAM J. Sci. Statist. Comput.}}
+  \bibinfo{volume}{9}, \bibinfo{number}{6} (\bibinfo{year}{1988}),
+  \bibinfo{pages}{1114--1132}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hildreth and Arnold}{Hildreth and
+  Arnold}{2014}]%
+        {hildreth2014threats}
+\bibfield{author}{\bibinfo{person}{Steven~A Hildreth} {and}
+  \bibinfo{person}{Allison Arnold}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{title}{Threats to us national security interests in space:
+  Orbital debris mitigation and removal}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jodice and Guerber}{Jodice and
+  Guerber}{2014}]%
+        {jodice2014space}
+\bibfield{author}{\bibinfo{person}{Adam~P Jodice} {and} \bibinfo{person}{Mark~R
+  Guerber}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Space combat capability... do we have it?}
+\newblock \bibinfo{journal}{\emph{Air \& Space Power Journal}}
+  \bibinfo{volume}{28}, \bibinfo{number}{6} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{82--99}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Korniss, Novotny, Guclu, Toroczkai, and
+  Rikvold}{Korniss et~al\mbox{.}}{2003}]%
+        {korniss2003suppressing}
+\bibfield{author}{\bibinfo{person}{Gy{\"o}rgy Korniss}, \bibinfo{person}{Mark~A
+  Novotny}, \bibinfo{person}{HASAN Guclu}, \bibinfo{person}{Zolt{\'a}n
+  Toroczkai}, {and} \bibinfo{person}{Per~Arne Rikvold}.}
+  \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Suppressing roughness of virtual times in parallel
+  discrete-event simulations}.
+\newblock \bibinfo{journal}{\emph{Science}} \bibinfo{volume}{299},
+  \bibinfo{number}{5607} (\bibinfo{year}{2003}), \bibinfo{pages}{677--679}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lee, Oh, Kim, Bae, Kim, and Jee}{Lee
+  et~al\mbox{.}}{2022}]%
+        {lee2022development}
+\bibfield{author}{\bibinfo{person}{Minseok Lee}, \bibinfo{person}{Jihyun Oh},
+  \bibinfo{person}{Cheonyoung Kim}, \bibinfo{person}{Jungho Bae},
+  \bibinfo{person}{Yongduk Kim}, {and} \bibinfo{person}{Cheolkyu Jee}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{The Development of Rule-Based AI Engagement Model
+  for Air-to-Air Combat Simulation}.
+\newblock \bibinfo{journal}{\emph{Journal of the Korea Institute of Military
+  Science and Technology}} \bibinfo{volume}{25}, \bibinfo{number}{6}
+  (\bibinfo{year}{2022}), \bibinfo{pages}{637--647}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Li, Yao, Tang, Zhu, and Lin}{Li
+  et~al\mbox{.}}{2020}]%
+        {LI2020102067}
+\bibfield{author}{\bibinfo{person}{Tianlin Li}, \bibinfo{person}{Yiping Yao},
+  \bibinfo{person}{Wenjie Tang}, \bibinfo{person}{Feng Zhu}, {and}
+  \bibinfo{person}{Zhongwei Lin}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{An efficient multi-threaded memory allocator for
+  PDES applications}.
+\newblock \bibinfo{journal}{\emph{Simulation Modelling Practice and Theory}}
+  \bibinfo{volume}{100} (\bibinfo{year}{2020}), \bibinfo{pages}{102067}.
+\newblock
+\showISSN{1569-190X}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.simpat.2020.102067}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Lin}{Lin}{1992}]%
+        {lin1992parallelism}
+\bibfield{author}{\bibinfo{person}{Yi-Bing Lin}.}
+  \bibinfo{year}{1992}\natexlab{}.
+\newblock \showarticletitle{Parallelism analyzers for parallel discrete event
+  simulation}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Modeling and Computer
+  Simulation (TOMACS)}} \bibinfo{volume}{2}, \bibinfo{number}{3}
+  (\bibinfo{year}{1992}), \bibinfo{pages}{239--264}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lin and Fishwick}{Lin and Fishwick}{1996}]%
+        {lin1996asynchronous}
+\bibfield{author}{\bibinfo{person}{Yi-Bing Lin} {and} \bibinfo{person}{Paul~A
+  Fishwick}.} \bibinfo{year}{1996}\natexlab{}.
+\newblock \showarticletitle{Asynchronous parallel discrete event simulation}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Systems, Man, and
+  Cybernetics-Part A: Systems and Humans}} \bibinfo{volume}{26},
+  \bibinfo{number}{4} (\bibinfo{year}{1996}), \bibinfo{pages}{397--412}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lindlan, Cuny, Malony, Shende, Mohr,
+  Rivenburgh, and Rasmussen}{Lindlan et~al\mbox{.}}{2000}]%
+        {lindlan2000tool}
+\bibfield{author}{\bibinfo{person}{Kathleen~A Lindlan}, \bibinfo{person}{Janice
+  Cuny}, \bibinfo{person}{Allen~D Malony}, \bibinfo{person}{Sameer Shende},
+  \bibinfo{person}{Bernd Mohr}, \bibinfo{person}{Reid Rivenburgh}, {and}
+  \bibinfo{person}{Craig Rasmussen}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{A tool framework for static and dynamic analysis of
+  object-oriented software with templates}. In \bibinfo{booktitle}{\emph{SC'00:
+  Proceedings of the 2000 ACM/IEEE Conference on Supercomputing}}. IEEE,
+  \bibinfo{pages}{49--49}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Malony, Shende, Trebon, Ray, Armstrong,
+  Rasmussen, and Sottile}{Malony et~al\mbox{.}}{2005}]%
+        {malony2005performance}
+\bibfield{author}{\bibinfo{person}{A Malony}, \bibinfo{person}{Sameer Shende},
+  \bibinfo{person}{Nick Trebon}, \bibinfo{person}{Jaideep Ray},
+  \bibinfo{person}{R Armstrong}, \bibinfo{person}{Craig Rasmussen}, {and}
+  \bibinfo{person}{M Sottile}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Performance technology for parallel and distributed
+  component software}.
+\newblock \bibinfo{journal}{\emph{Concurrency and Computation: Practice and
+  Experience}} \bibinfo{volume}{17}, \bibinfo{number}{2-4}
+  (\bibinfo{year}{2005}), \bibinfo{pages}{117--141}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Markus}{Markus}{2012}]%
+        {markus2012modern}
+\bibfield{author}{\bibinfo{person}{Arjen Markus}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Modern Fortran in practice}}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mellor-Crummey, Adhianto, Scherer~III, and
+  Jin}{Mellor-Crummey et~al\mbox{.}}{2009}]%
+        {mellor2009new}
+\bibfield{author}{\bibinfo{person}{John Mellor-Crummey},
+  \bibinfo{person}{Laksono Adhianto}, \bibinfo{person}{William~N Scherer~III},
+  {and} \bibinfo{person}{Guohua Jin}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{A new vision for Coarray Fortran}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Third Conference on Partitioned
+  Global Address Space Programing Models}}. \bibinfo{pages}{1--9}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Metcalf, Reid, Cohen, and Bader}{Metcalf
+  et~al\mbox{.}}{2024}]%
+        {metcalf2024modern}
+\bibfield{author}{\bibinfo{person}{Michael Metcalf}, \bibinfo{person}{John
+  Reid}, \bibinfo{person}{Malcolm Cohen}, {and} \bibinfo{person}{Reinhold
+  Bader}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Modern Fortran Explained: Incorporating
+  Fortran 2023}}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Newman, Frigm, and McKinley}{Newman
+  et~al\mbox{.}}{2009}]%
+        {newman2009s}
+\bibfield{author}{\bibinfo{person}{Lauri~Kraft Newman}, \bibinfo{person}{Ryan
+  Frigm}, {and} \bibinfo{person}{David McKinley}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{It's Not A Big Sky After All: Justification for a
+  Close Approach Prediction and Risk Assessment Process}. In
+  \bibinfo{booktitle}{\emph{2009 AAS/AIAA Astrodynamics Specialist
+  Conference}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nicol}{Nicol}{1993}]%
+        {nicol1993cost}
+\bibfield{author}{\bibinfo{person}{David~M Nicol}.}
+  \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{The cost of conservative synchronization in
+  parallel discrete event simulations}.
+\newblock \bibinfo{journal}{\emph{Journal of the ACM (JACM)}}
+  \bibinfo{volume}{40}, \bibinfo{number}{2} (\bibinfo{year}{1993}),
+  \bibinfo{pages}{304--333}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nicol and Liu}{Nicol and Liu}{2002}]%
+        {nicol2002composite}
+\bibfield{author}{\bibinfo{person}{David~M Nicol} {and} \bibinfo{person}{Jason
+  Liu}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Composite synchronization in parallel
+  discrete-event simulation}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Parallel and Distributed
+  Systems}} \bibinfo{volume}{13}, \bibinfo{number}{5} (\bibinfo{year}{2002}),
+  \bibinfo{pages}{433--446}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nutaro}{Nutaro}{2003}]%
+        {nutaro2003parallel}
+\bibfield{author}{\bibinfo{person}{James~Joseph Nutaro}.}
+  \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Parallel discrete event simulation with application
+  to continuous systems}.
+\newblock  (\bibinfo{year}{2003}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Olivier et~al\mbox{.}}{Olivier
+  et~al\mbox{.}}{2008}]%
+        {olivier2008simulation}
+\bibfield{author}{\bibinfo{person}{Scot~S Olivier} {et~al\mbox{.}}}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{A Simulation and modeling framework for space
+  situational awareness}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  Advanced Maui Optical and Space Surveillance Technologies Conference, Wailea,
+  Maui, Hawaii}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Reed, Malony, and McCredie}{Reed
+  et~al\mbox{.}}{1988}]%
+        {reed1988parallel}
+\bibfield{author}{\bibinfo{person}{Daniel~A. Reed}, \bibinfo{person}{Allen~D.
+  Malony}, {and} \bibinfo{person}{Bradley~D. McCredie}.}
+  \bibinfo{year}{1988}\natexlab{}.
+\newblock \showarticletitle{Parallel discrete event simulation using shared
+  memory}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
+  \bibinfo{volume}{14}, \bibinfo{number}{4} (\bibinfo{year}{1988}),
+  \bibinfo{pages}{541--553}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Reid}{Reid}{2010}]%
+        {reid2010coarrays}
+\bibfield{author}{\bibinfo{person}{John Reid}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Coarrays in the next fortran standard}. In
+  \bibinfo{booktitle}{\emph{ACM SIGPLAN Fortran Forum}},
+  Vol.~\bibinfo{volume}{29}. ACM New York, NY, USA, \bibinfo{pages}{10--27}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Reiher, Wieland, and Jefferson}{Reiher
+  et~al\mbox{.}}{1989}]%
+        {reiher1989limitation}
+\bibfield{author}{\bibinfo{person}{Peter~L Reiher}, \bibinfo{person}{Frederick
+  Wieland}, {and} \bibinfo{person}{David Jefferson}.}
+  \bibinfo{year}{1989}\natexlab{}.
+\newblock \showarticletitle{Limitation of optimism in the time warp operating
+  system}. In \bibinfo{booktitle}{\emph{Proceedings of the 21st conference on
+  Winter Simulation}}. \bibinfo{pages}{765--770}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shende and Malony}{Shende and Malony}{2006}]%
+        {shende2006tau}
+\bibfield{author}{\bibinfo{person}{Sameer~S Shende} {and}
+  \bibinfo{person}{Allen~D Malony}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{The TAU parallel performance system}.
+\newblock \bibinfo{journal}{\emph{The International Journal of High Performance
+  Computing Applications}} \bibinfo{volume}{20}, \bibinfo{number}{2}
+  (\bibinfo{year}{2006}), \bibinfo{pages}{287--311}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Storz, Bowman, and Branson}{Storz
+  et~al\mbox{.}}{2001}]%
+        {storz2001space}
+\bibfield{author}{\bibinfo{person}{Mark~F Storz}, \bibinfo{person}{Bruce~R
+  Bowman}, {and} \bibinfo{person}{Major James~I Branson}.}
+  \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Space Battlelab's High Accuracy Satellite Drag
+  Model}. In \bibinfo{booktitle}{\emph{Air Force Space Command, Space Analysis
+  Center (ASAC), Peterson AFB. Presented at the AIAAA Astrodynamics Specialist
+  Conference and Exhibit, August}}, Vol.~\bibinfo{volume}{5}. Citeseer.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vee and Hsu}{Vee and Hsu}{1999}]%
+        {vee1999parallel}
+\bibfield{author}{\bibinfo{person}{Voon-Yee Vee} {and}
+  \bibinfo{person}{Wen-Jing Hsu}.} \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{Parallel discrete event simulation: A survey}.
+\newblock \bibinfo{journal}{\emph{Nanyang Technological University, Tech. Rep}}
+  (\bibinfo{year}{1999}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wang}{Wang}{2010}]%
+        {Wang:2010aa}
+\bibfield{author}{\bibinfo{person}{Ting Wang}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Analysis of Debris from the Collision of the Cosmos
+  2251 and the Iridium 33 Satellites}.
+\newblock \bibinfo{journal}{\emph{Science \& Global Security}}
+  \bibinfo{volume}{18}, \bibinfo{number}{2} (\bibinfo{year}{2010}),
+  \bibinfo{pages}{87--118}.
+\newblock
+\showeprint{http://scienceandglobalsecurity.org/archive/sgs18tingwang.pdf}
+\urldef\tempurl%
+\url{https://scienceandglobalsecurity.org/archive/2010/06/analysis_of_debris_from_the_co.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Wieland}{Wieland}{1989}]%
+        {wieland1989distributed}
+\bibfield{author}{\bibinfo{person}{Frederick Wieland}.}
+  \bibinfo{year}{1989}\natexlab{}.
+\newblock \showarticletitle{Distributed combat simulation and Time Warp: The
+  model and its performance}. In \bibinfo{booktitle}{\emph{Proc. of the SCS
+  Multiconference on Distributed Simulation}}. \bibinfo{pages}{14--20}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ziegler, Hu, and Rosenblit}{Ziegler
+  et~al\mbox{.}}{1989}]%
+        {Zeigler1989}
+\bibfield{author}{\bibinfo{person}{B.P. Ziegler}, \bibinfo{person}{J.H. Hu},
+  {and} \bibinfo{person}{J.W. Rosenblit}.} \bibinfo{year}{1989}\natexlab{}.
+\newblock \showarticletitle{Hierarchical, modular modelling in DEVS-scheme}. In
+  \bibinfo{booktitle}{\emph{WSC '89: Proceedings of the 21st conference on
+  Winter simulation}}. \bibinfo{pages}{84--85}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/Pages 84 - 89 https://doi-org/10.1145/76738.76749}
+\showDOI{\tempurl}
+
+
+\end{thebibliography}

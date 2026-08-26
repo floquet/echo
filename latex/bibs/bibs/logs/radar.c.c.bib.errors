@@ -1,0 +1,20 @@
+Line 1: Escaped '%' in line: \\%\\% This BibTeX bibliography file was created using BibDesk.
+Line 2: Escaped '%' in line: \\%\\% https://bibdesk.sourceforge.io/
+Line 4: Escaped '%' in line: \\%\\% Created for Daniel Topa at 2024-12-18 20:38:26 -0700
+Line 7: Escaped '%' in line: \\%\\% Saved with string encoding Unicode (UTF-8)
+Line 40: Escaped '&' in line: publisher = {Taylor \\\& Francis},
+Line 104: Escaped '%' in line: url = {https://math.osu.edu/sites/math.osu.edu/files/What\\%20is\\%202018\\%20Muntz\\%20Szasz\\%20Theorem.pdf},
+Line 105: Escaped '%' in line: bdsk-url-1 = {https://math.osu.edu/sites/math.osu.edu/files/What\\%20is\\%202018\\%20Muntz\\%20Szasz\\%20Theorem.pdf}}
+Line 133: Escaped '%' in line: url = {https://www.ll.mit.edu/sites/default/files/outreach/doc/2018-07/lecture\\%204.pdf},
+Line 135: Escaped '%' in line: bdsk-url-1 = {https://www.ll.mit.edu/sites/default/files/outreach/doc/2018-07/lecture\\%204.pdf}}
+Line 228: Escaped '&' in line: publisher = {John Wiley \\\& Sons},
+Line 317: Invalid month '9' found; consider fixing.
+Line 330: Invalid month '11' found; consider fixing.
+Line 343: Invalid month '8' found; consider fixing.
+Line 365: Invalid month '3' found; consider fixing.
+Line 375: Escaped '&' in line: journal = {IEEE Aerospace \\\& Electronic Systems Society},
+Line 425: Escaped '&' in line: publisher = {Taylor \\\& Francis},
+Line 433: Invalid month 'March' found; consider fixing.
+Line 453: Invalid month 'April' found; consider fixing.
+Line 460: Invalid month 'April' found; consider fixing.
+Line 533: Escaped '&' in line: publisher = {John Wiley \\\& Sons},

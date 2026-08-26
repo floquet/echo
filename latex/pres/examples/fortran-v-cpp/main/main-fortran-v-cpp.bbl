@@ -1,0 +1,936 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{batty2011mathematizing}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e83596eadc67cebb7a1f938398f17918}{%
+           family={Batty},
+           familyi={B\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=04b670f6d1f73db0f24b85e5b4562755}{%
+           family={Owens},
+           familyi={O\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=05af72045565493cd85f8d5167330aa2}{%
+           family={Sarkar},
+           familyi={S\bibinitperiod},
+           given={Susmit},
+           giveni={S\bibinitperiod}}}%
+        {{hash=36aa14ea12e51326290dd02c24f754c2}{%
+           family={Sewell},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a7452baee6a0ea25f307c6b754eb06d5}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Tjark},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{b0847519fe8c88ef9169da7f5cf6f99d}
+      \strng{fullhash}{ed67f4db97e1da7367b8a5a76c3b7070}
+      \strng{bibnamehash}{b0847519fe8c88ef9169da7f5cf6f99d}
+      \strng{authorbibnamehash}{b0847519fe8c88ef9169da7f5cf6f99d}
+      \strng{authornamehash}{b0847519fe8c88ef9169da7f5cf6f99d}
+      \strng{authorfullhash}{ed67f4db97e1da7367b8a5a76c3b7070}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Shared-memory concurrency in C and C++ is pervasive in systems programming, but has long been poorly defined. This motivated an ongoing shared effort by the standards committees to specify concurrent behaviour in the next versions of both languages. They aim to provide strong guarantees for race-free programs, together with new (but subtle) relaxed-memory atomic primitives for highperformance concurrent code. However, the current draft standards, while the result of careful deliberation, are not yet clear and rigorous definitions, and harbour substantial problems in their details. In this paper we establish a mathematical (yet readable) semantics for C++ concurrency. We aim to capture the intent of the current (`Final Committee') Draft as closely as ossible, but discuss changes that fix many of its problems. We prove that a proposed x86 implementation of the concurrency primitives is correct with respect to the x86-TSO model, and describe our CPPMEM tool for exploring the semantics of examples, using code generated from our Isabelle/HOL definitions. Having already motivated changes to the draft standard, this work will aid discussion of any further changes, provide a correctness condition for compilers, and give a much-needed basis for analysis and verification of concurrent C and C++ programs.}
+      \field{journaltitle}{ACM SIGPLAN Notices}
+      \field{number}{1}
+      \field{title}{Mathematizing C++ concurrency}
+      \field{volume}{46}
+      \field{year}{2011}
+      \field{pages}{55\bibrangedash 66}
+      \range{pages}{12}
+    \endentry
+    \entry{boehm2008foundations}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a7e5f01ae77f0f26947021a466d459b5}{%
+           family={Boehm},
+           familyi={B\bibinitperiod},
+           given={Hans-J},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=627cb129a51d4528454f6379c34746be}{%
+           family={Adve},
+           familyi={A\bibinitperiod},
+           given={Sarita\bibnamedelima V},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{dcf99b30a4ac0d30650c5c2a3775267f}
+      \strng{fullhash}{dcf99b30a4ac0d30650c5c2a3775267f}
+      \strng{bibnamehash}{dcf99b30a4ac0d30650c5c2a3775267f}
+      \strng{authorbibnamehash}{dcf99b30a4ac0d30650c5c2a3775267f}
+      \strng{authornamehash}{dcf99b30a4ac0d30650c5c2a3775267f}
+      \strng{authorfullhash}{dcf99b30a4ac0d30650c5c2a3775267f}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Currently multi-threaded C or C++ programs combine a singlethreaded programming language with a separate threads library. This is not entirely sound [7]. We describe an effort, currently nearing completion, to address these issues by explicitly providing semantics for threads in the next revision of the C++ standard. Our approach is similar to that recently followed by Java [25], in that, at least for a welldefined and interesting subset of the language, we give sequentially consistent semantics to programs that do not contain data races. Nonetheless, a number of our decisions are often surprising even to those familiar with the Java effort: * We (mostly) insist on sequential consistency for race-free programs, in spite of mplementation issues that came to light after the Java work. * We give no semantics to programs with data races. There are no benign C++ data races. * We use weaker semantics for trylock than existing languages or libraries, allowing us to promise sequential consistency with an intuitive race definition, even for programs with trylock. This paper describes the simple model we would like to be able to provide for C++ threads programmers, and explain how this, together with some practical, but often under-appreciated implementation constraints, drives us towards the above decisions.}
+      \field{journaltitle}{ACM SIGPLAN Notices}
+      \field{number}{6}
+      \field{title}{Foundations of the C++ concurrency memory model}
+      \field{volume}{43}
+      \field{year}{2008}
+      \field{pages}{68\bibrangedash 78}
+      \range{pages}{11}
+    \endentry
+    \entry{buhr1992muc++}{article}{}
+      \name{author}{5}{}{%
+        {{hash=a228256fe74a44f7da1f2879d472b9ff}{%
+           family={Buhr},
+           familyi={B\bibinitperiod},
+           given={Peter\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=eca86d877e005de4122bad6404d96960}{%
+           family={Ditchfield},
+           familyi={D\bibinitperiod},
+           given={Glen},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0a590e35b2b42de553995286299802b8}{%
+           family={Stroobosscher},
+           familyi={S\bibinitperiod},
+           given={Richard\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ca10d63ae682bec9c65fc90750eb00be}{%
+           family={Younger},
+           familyi={Y\bibinitperiod},
+           given={BM},
+           giveni={B\bibinitperiod}}}%
+        {{hash=915ccfa5c3d670b14e95bea102f5056a}{%
+           family={Zarnke},
+           familyi={Z\bibinitperiod},
+           given={C.\bibnamedelimi Robert},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{4897b880039cc7ab80f70befd97b70b9}
+      \strng{fullhash}{ce358f3a67875b87f7b5a455ca216c99}
+      \strng{bibnamehash}{4897b880039cc7ab80f70befd97b70b9}
+      \strng{authorbibnamehash}{4897b880039cc7ab80f70befd97b70b9}
+      \strng{authornamehash}{4897b880039cc7ab80f70befd97b70b9}
+      \strng{authorfullhash}{ce358f3a67875b87f7b5a455ca216c99}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a design, including its motivation, for introducing concurrency into C++. The design work is based on a set of requirements and elementary execution properties that generate a corresponding set of programming language constructs needed to express concurrency. The new constructs continue to support object-oriented facilities such as inheritance and code reuse. Features that allow flexibility in accepting and subsequently postponing servicing of requests are provided. Currently, a major portion of the design is implemented, supporting concurrent programs on shared-memory uniprocessor and multiprocessor computers.}
+      \field{journaltitle}{Software: Practice and Experience}
+      \field{number}{2}
+      \field{title}{$\mu$C++: Concurrency in the object-oriented language C++}
+      \field{volume}{22}
+      \field{year}{1992}
+      \field{pages}{137\bibrangedash 172}
+      \range{pages}{36}
+    \endentry
+    \entry{clerman2011modern}{book}{}
+      \name{author}{2}{}{%
+        {{hash=3454ab53de49a774b16204f5756a0094}{%
+           family={Clerman},
+           familyi={C\bibinitperiod},
+           given={Norman\bibnamedelima S},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=cc931afbc35a3a7bc5636c6f3c10034c}{%
+           family={Spector},
+           familyi={S\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{acfbbb1a4ceefb5df5af1ee360b61e64}
+      \strng{fullhash}{acfbbb1a4ceefb5df5af1ee360b61e64}
+      \strng{bibnamehash}{acfbbb1a4ceefb5df5af1ee360b61e64}
+      \strng{authorbibnamehash}{acfbbb1a4ceefb5df5af1ee360b61e64}
+      \strng{authornamehash}{acfbbb1a4ceefb5df5af1ee360b61e64}
+      \strng{authorfullhash}{acfbbb1a4ceefb5df5af1ee360b61e64}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Fortran is one of the oldest high-level languages and remains the premier language for writing code for science and engineering applications. This book is for anyone who uses Fortran, from the novice learner to the advanced expert. It describes best practices for programmers, scientists, engineers, computer scientists and researchers who want to apply good style and incorporate rigorous usage in their own Fortran code or to establish guidelines for a team project. The presentation concentrates primarily on the characteristics of Fortran 2003, while also describing methods in Fortran 90/95 and valuable new features in Fortran 2008. The authors draw on more than a half century of experience writing production Fortran code to present clear succinct guidelines on formatting, naming, documenting, programming and packaging conventions and various programming paradigms such as parallel processing (including OpenMP, MPI and coarrays), OOP, generic programming and C language interoperability.}
+      \field{title}{Modern Fortran: style and usage}
+      \field{year}{2011}
+    \endentry
+    \entry{diehl2024parallel}{book}{}
+      \name{author}{3}{}{%
+        {{hash=bc668b052aa5853311e49edebe36de8b}{%
+           family={Diehl},
+           familyi={D\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=162b46fe2a23bbafcae446ec3dc7f536}{%
+           family={Brandt},
+           familyi={B\bibinitperiod},
+           given={Steven\bibnamedelima R},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=9bc969990f326c8dca622f1f798fabd3}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Hartmut},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{5af74cb936fe795ed9f9e64f4dcb9447}
+      \strng{fullhash}{5af74cb936fe795ed9f9e64f4dcb9447}
+      \strng{bibnamehash}{5af74cb936fe795ed9f9e64f4dcb9447}
+      \strng{authorbibnamehash}{5af74cb936fe795ed9f9e64f4dcb9447}
+      \strng{authornamehash}{5af74cb936fe795ed9f9e64f4dcb9447}
+      \strng{authorfullhash}{5af74cb936fe795ed9f9e64f4dcb9447}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This textbook focuses on practical parallel C++ programming at the graduate student level. In particular, it shows the APIs and related language features in the C++ 17 and C++ 20 standards, covering both single node and distributed systems. It shows that with the parallel features in the C++ 17 and C++ 20 standards, learning meta-languages like OpenMP is no longer necessary. Using the C++ standard library for parallelism and concurrency (HPX), the same language features can be extended to distributed codes, providing a higher-level C++ interface to distributed programming than the Message Passing Interface (MPI). The book starts with the single-threaded implementation of the fractal sets, eg Julia set, and Mandelbrot set, using the C++ Standard Library (SL)'s container and algorithms. This code base is used for parallel implementation using low-level threads, asynchronous programming, parallel algorithms, and coroutines. The asynchronous programming examples are then extended to distributed programming using the C++ standard library for parallelism and concurrency (HPX). Octo-Tiger, an astrophysics code for stellar merger, is used as a showcase for a portable, efficient, and scalable high-performance application using HPX. The book's core audience is advanced undergraduate and graduate students who want to learn the basics of parallel and distributed C++ programming but are not computer science majors. Basic C++ knowledge, like functions, classes, loops, and conditional statements, is assumed as a requirement, while C++ advanced topics, like generic programming, lambda functions, smart pointers, and move semantics, are briefly summarized in the appendix}
+      \field{title}{Parallel C+: Efficient and Scalable High-Performance Parallel Programming Using HPX}
+      \field{year}{2024}
+    \endentry
+    \entry{gehani1988concurrent}{article}{}
+      \name{author}{2}{}{%
+        {{hash=da7a0d9fc57b88ff1c6cff67cdbe3e02}{%
+           family={Gehani},
+           familyi={G\bibinitperiod},
+           given={Narain\bibnamedelima H.},
+           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3e88bedbd4a435202c1ff13038aa69b4}{%
+           family={Roome},
+           familyi={R\bibinitperiod},
+           given={William\bibnamedelima D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{02413e592df981ddb8ac6541e39e65bd}
+      \strng{fullhash}{02413e592df981ddb8ac6541e39e65bd}
+      \strng{bibnamehash}{02413e592df981ddb8ac6541e39e65bd}
+      \strng{authorbibnamehash}{02413e592df981ddb8ac6541e39e65bd}
+      \strng{authornamehash}{02413e592df981ddb8ac6541e39e65bd}
+      \strng{authorfullhash}{02413e592df981ddb8ac6541e39e65bd}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Software: Practice and Experience}
+      \field{number}{12}
+      \field{title}{Concurrent C++: Concurrent programming with class (es)}
+      \field{volume}{18}
+      \field{year}{1988}
+      \field{pages}{1157\bibrangedash 1177}
+      \range{pages}{21}
+    \endentry
+    \entry{hanson2013numerical}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c98f1633d999d4df5bcda559be3494f6}{%
+           family={Hanson},
+           familyi={H\bibinitperiod},
+           given={Richard\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9e28620956c60bf065ac8bffe86cd80f}{%
+           family={Hopkins},
+           familyi={H\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{619831997a7253e045eae14166779798}
+      \strng{fullhash}{619831997a7253e045eae14166779798}
+      \strng{bibnamehash}{619831997a7253e045eae14166779798}
+      \strng{authorbibnamehash}{619831997a7253e045eae14166779798}
+      \strng{authornamehash}{619831997a7253e045eae14166779798}
+      \strng{authorfullhash}{619831997a7253e045eae14166779798}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Numerical computing with modern Fortran}
+      \field{year}{2013}
+    \endentry
+    \entry{youtube_tGSoCvTLfkw}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=66991fc478cff37acb0a66a573a033de}{%
+           family={HPC},
+           familyi={H\bibinitperiod},
+           given={Sharcnet},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{66991fc478cff37acb0a66a573a033de}
+      \strng{fullhash}{66991fc478cff37acb0a66a573a033de}
+      \strng{bibnamehash}{66991fc478cff37acb0a66a573a033de}
+      \strng{authorbibnamehash}{66991fc478cff37acb0a66a573a033de}
+      \strng{authornamehash}{66991fc478cff37acb0a66a573a033de}
+      \strng{authorfullhash}{66991fc478cff37acb0a66a573a033de}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-03-21 16:03:15 MDT}
+      \field{title}{Parallel programming without MPI - Using coarrays in Fortran}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=tGSoCvTLfkw
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=tGSoCvTLfkw
+      \endverb
+    \endentry
+    \entry{kafura1992act++}{article}{}
+      \name{author}{3}{}{%
+        {{hash=974c46aa73cbb6e0c758fb79edbe36a8}{%
+           family={Kafura},
+           familyi={K\bibinitperiod},
+           given={Dennis\bibnamedelima G},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=83e573b9f19e8c61301bb9bcc388e1ce}{%
+           family={Mukherji},
+           familyi={M\bibinitperiod},
+           given={Manibrata},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9d5c40f2b731073623cfa6d1921de59a}{%
+           family={Lavender},
+           familyi={L\bibinitperiod},
+           given={Gregory\bibnamedelima R},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{11c37226854796890afbd75f951dbb90}
+      \strng{fullhash}{11c37226854796890afbd75f951dbb90}
+      \strng{bibnamehash}{11c37226854796890afbd75f951dbb90}
+      \strng{authorbibnamehash}{11c37226854796890afbd75f951dbb90}
+      \strng{authornamehash}{11c37226854796890afbd75f951dbb90}
+      \strng{authorfullhash}{11c37226854796890afbd75f951dbb90}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ACT++ 2.0: A class library for concurrent programming in C++ using Actors}
+      \field{year}{1992}
+    \endentry
+    \entry{llnl_mpi_tutorial}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ca1c3ac7262ecc4711634445a405811e}{%
+           family={Laboratory},
+           familyi={L\bibinitperiod},
+           given={Lawrence\bibnamedelimb Livermore\bibnamedelima National},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca1c3ac7262ecc4711634445a405811e}
+      \strng{fullhash}{ca1c3ac7262ecc4711634445a405811e}
+      \strng{bibnamehash}{ca1c3ac7262ecc4711634445a405811e}
+      \strng{authorbibnamehash}{ca1c3ac7262ecc4711634445a405811e}
+      \strng{authornamehash}{ca1c3ac7262ecc4711634445a405811e}
+      \strng{authorfullhash}{ca1c3ac7262ecc4711634445a405811e}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://hpc-tutorials.llnl.gov/mpi/what_is_mpi/}}
+      \field{note}{Accessed: [Insert Date of Access]}
+      \field{title}{MPI Tutorial}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://hpc-tutorials.llnl.gov/mpi/what_is_mpi/
+      \endverb
+      \verb{url}
+      \verb https://hpc-tutorials.llnl.gov/mpi/what_is_mpi/
+      \endverb
+    \endentry
+    \entry{lagraviere2021newcomer}{article}{}
+      \name{author}{5}{}{%
+        {{hash=f56c4de785613047960478584db736b5}{%
+           family={Lagravi{è}re},
+           familyi={L\bibinitperiod},
+           given={J{é}r{é}mie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=232a0b2afee4b0b6f8a09b9b5250fd44}{%
+           family={Langguth},
+           familyi={L\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c8c4c4fa3a638d0664df03e2ae6b0678}{%
+           family={Prugger},
+           familyi={P\bibinitperiod},
+           given={Martina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a6a013c84705ab28837d779cce2f7264}{%
+           family={Ha},
+           familyi={H\bibinitperiod},
+           given={Phuong\bibnamedelima H},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=485f0b8ca4e0e26426167b63fccd1964}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Xing},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a710bb1aa008f4f03b69d3c07e68764}
+      \strng{fullhash}{050a593ebe2c87166dcb12539302a284}
+      \strng{bibnamehash}{6a710bb1aa008f4f03b69d3c07e68764}
+      \strng{authorbibnamehash}{6a710bb1aa008f4f03b69d3c07e68764}
+      \strng{authornamehash}{6a710bb1aa008f4f03b69d3c07e68764}
+      \strng{authorfullhash}{050a593ebe2c87166dcb12539302a284}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A newcomer in the Partitioned Global Address Space (PGAS) 'world' has arrived in its version 1.0: Unified Parallel C++ (UPC++). UPC++ targets distributed data structures where communication is irregular or fine-grained. The key abstractions are global pointers, asynchronous programming via RPC, futures and promises. UPC++ API for moving non-contiguous data and handling memories with different optimal access methods resemble those used in modern C++. In this study we provide two kernels implemented in UPC++: a sparse-matrix vector multiplication (SpMV) as part of a Partial-Differential Equation solver, and an implementation of the Heat Equation on a 2D-domain. Code listings of these two kernels are available in the article in order to show the differences in programming style between UPC and UPC++. We provide a performance comparison between UPC and UPC++ using single-node, multi-node hardware and many-core hardware (Intel Xeon Phi Knight's Landing).}
+      \field{journaltitle}{arXiv preprint arXiv:2102.03614}
+      \field{title}{A Newcomer In The PGAS World--UPC++ vs UPC: A Comparative Study}
+      \field{year}{2021}
+    \endentry
+    \entry{markus2012modern}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e1e2105d41dcd3b19f9e581dc91644fc}{%
+           family={Markus},
+           familyi={M\bibinitperiod},
+           given={Arjen},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{e1e2105d41dcd3b19f9e581dc91644fc}
+      \strng{fullhash}{e1e2105d41dcd3b19f9e581dc91644fc}
+      \strng{bibnamehash}{e1e2105d41dcd3b19f9e581dc91644fc}
+      \strng{authorbibnamehash}{e1e2105d41dcd3b19f9e581dc91644fc}
+      \strng{authornamehash}{e1e2105d41dcd3b19f9e581dc91644fc}
+      \strng{authorfullhash}{e1e2105d41dcd3b19f9e581dc91644fc}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{From its earliest days, the Fortran programming language has been designed with computing efficiency in mind. The latest standard, Fortran 2008, incorporates a host of modern features, including object-orientation, array operations, user-defined types, and provisions for parallel computing. This tutorial guide shows Fortran programmers how to apply these features in twenty-first-century style: modular, concise, object-oriented, and resource-efficient, using multiple processors. It offers practical real-world examples of interfacing to C, memory management, graphics and GUIs, and parallel computing using MPI, OpenMP, and coarrays. The author also analyzes several numerical algorithms and their implementations and illustrates the use of several open source libraries. Full source code for the examples is available on the book's website.}
+      \field{title}{Modern Fortran in practice}
+      \field{year}{2012}
+    \endentry
+    \entry{metcalf2024modern}{book}{}
+      \name{author}{4}{}{%
+        {{hash=32c94d99aa891837a9de9705c68c8c29}{%
+           family={Metcalf},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=09427c885be5f5b6701787068880c1cb}{%
+           family={Reid},
+           familyi={R\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3bfd3e4663b648daa75cb852279811e0}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Malcolm},
+           giveni={M\bibinitperiod}}}%
+        {{hash=048ec47f5ded528bd3c315bcbe5d23b8}{%
+           family={Bader},
+           familyi={B\bibinitperiod},
+           given={Reinhold},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{df6c6b4966599d6f671bba7d0fff0519}
+      \strng{fullhash}{e27a0abd8fde834db84a83f6344747f5}
+      \strng{bibnamehash}{df6c6b4966599d6f671bba7d0fff0519}
+      \strng{authorbibnamehash}{df6c6b4966599d6f671bba7d0fff0519}
+      \strng{authornamehash}{df6c6b4966599d6f671bba7d0fff0519}
+      \strng{authorfullhash}{e27a0abd8fde834db84a83f6344747f5}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Fortran remains one of the principal programming languages used in high-performance scientific, numerical, and engineering computing. A series of significant revisions to the standard versions of the language have progressively enhanced its capabilities, and the current standard-Fortran 2023-brings with it further additions and improvements. The language as defined by its most recent standards, with their introduction of object-oriented programming and of coarrays, is often referred to generically as' Modern Fortran', and this term is increasingly used in the literature. Thus, we see that Fortran's particular advantages as a high-end numerical language, especially where arrays are the main form of data object and/or where complex arithmetic is involved, are still to the fore. It is able to attain the highest achievable optimization, mainly because multi-dimensional arrays are'natural'objects and because its pointers are highly constrained. There is every sign that Modern Fortran will continue to be used to tackle major scientific computing problems in the next decade and beyond and will long remain a living tribute to its early pioneers. This third edition of Modern Fortran Explained expands on the second. The material contained in the four final chapters of the second edition have been merged into the main text, thereby offering, in 20 chapters, a comprehensive and uniform description of Fortran 2018. The additional features now brought by the 2023 standard, which are mostly relatively minor in nature, are described in two final chapters, the first on generic programming and the second on the other features. This structure enables the reader to distinguish clearly between what is old and what is new. This new edition, written by experts in the field, three of whom have actively contributed to Fortran 2023, is thus a complete and authoritative description of Fortran in its latest form, with the intention that it remain the main reference work in the field.}
+      \field{title}{Modern Fortran Explained: Incorporating Fortran 2023}
+      \field{year}{2024}
+    \endentry
+    \entry{mozdzynski2015partitioned}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e0fa3725247523c2baf511405e92f026}{%
+           family={Mozdzynski},
+           familyi={M\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8523e75439970af293f754238fa50046}{%
+           family={Hamrud},
+           familyi={H\bibinitperiod},
+           given={Mats},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6a9cef90809ffde68918bfbb437825df}{%
+           family={Wedi},
+           familyi={W\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage UK: London, England}%
+      }
+      \strng{namehash}{1dcdf135a1790853a79612ea4289f3f1}
+      \strng{fullhash}{1dcdf135a1790853a79612ea4289f3f1}
+      \strng{bibnamehash}{1dcdf135a1790853a79612ea4289f3f1}
+      \strng{authorbibnamehash}{1dcdf135a1790853a79612ea4289f3f1}
+      \strng{authornamehash}{1dcdf135a1790853a79612ea4289f3f1}
+      \strng{authorfullhash}{1dcdf135a1790853a79612ea4289f3f1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Today the European Centre for Medium Range Weather Forecasts (ECMWF) runs a 16 km global T1279 operational weather forecast model using 1536 cores of an IBM Power7. Following the historical evolution in resolution upgrades, the ECMWF could expect to be running a 2.5 km global forecast model by 2030 on an exascale system that should be available and hopefully affordable by then. To achieve this would require the Integrated Forecasting System (IFS) to run efficiently on about 1000 times the number of cores it uses today. In a step towards this goal, the ECMWF have demonstrated the IFS running a 10 km global model efficiently on over 40,000 cores of HECToR a Cray XE6 at the Edinburgh Parallel Computing Centre. However, getting to over a million cores remains a formidable challenge, and many scalability improvements have yet to be implemented. The ECMWF is exploring the use of Fortran2008 coarrays; in particular, it is possibly the first time that coarrays have been used in a world-leading production application within the context of OpenMP parallel regions. The purpose of these optimisations is primarily to allow the overlap of computation and communication, and further, in the semi-Lagrangian advection scheme, to reduce the volume of data communicated. The importance of this research is such that if these and other planned developments are successful, the IFS model may continue to use the spectral transform method to 2030 and beyond on an exascale-sized system. The current status of the coarray scalability developments within the IFS are described together with a brief outline of future developments.}
+      \field{journaltitle}{The International Journal of High Performance Computing Applications}
+      \field{number}{3}
+      \field{title}{A partitioned global address space implementation of the European centre for medium range weather forecasts integrated forecasting system}
+      \field{volume}{29}
+      \field{year}{2015}
+      \field{pages}{261\bibrangedash 273}
+      \range{pages}{13}
+    \endentry
+    \entry{youtube_Frz_AF46a04}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6ff015bc28fa1c67a6948e81dc4222b}{%
+           family={NERSC},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6ff015bc28fa1c67a6948e81dc4222b}
+      \strng{fullhash}{b6ff015bc28fa1c67a6948e81dc4222b}
+      \strng{bibnamehash}{b6ff015bc28fa1c67a6948e81dc4222b}
+      \strng{authorbibnamehash}{b6ff015bc28fa1c67a6948e81dc4222b}
+      \strng{authornamehash}{b6ff015bc28fa1c67a6948e81dc4222b}
+      \strng{authorfullhash}{b6ff015bc28fa1c67a6948e81dc4222b}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-03-21 16:03:15 MDT}
+      \field{title}{Modern Fortran, with emphasis on coarrays (John Reid, JKR Associates/Rutherford Appleton Laboratory)}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=Frz_AF46a04
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=Frz_AF46a04
+      \endverb
+    \endentry
+    \entry{numrich2018parallel}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cace66cd2fcfef5b6db466289ea62841}{%
+           family={Numrich},
+           familyi={N\bibinitperiod},
+           given={Robert\bibnamedelima W},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall/CRC}%
+      }
+      \strng{namehash}{cace66cd2fcfef5b6db466289ea62841}
+      \strng{fullhash}{cace66cd2fcfef5b6db466289ea62841}
+      \strng{bibnamehash}{cace66cd2fcfef5b6db466289ea62841}
+      \strng{authorbibnamehash}{cace66cd2fcfef5b6db466289ea62841}
+      \strng{authornamehash}{cace66cd2fcfef5b6db466289ea62841}
+      \strng{authorfullhash}{cace66cd2fcfef5b6db466289ea62841}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Parallel Programming with Co-Arrays describes the basic techniques used to design parallel algorithms for high-performance, scientific computing. It is intended for upper-level undergraduate students and graduate students who need to develop parallel codes with little or no previous introduction to parallel computing. It is also intended as a reference manual for researchers active in the field of scientific computing. All the algorithms in the book are based on partition operators. These operators provide a unifying principle that fits seemingly disparate techniques into an overall framework for algorithm design. The book uses the co-array programming model to illustrate how to write code for concrete examples, but it emphasizes that the important concepts for algorithm design are independent of the programming model. With these concepts in mind, the reader can write algorithms in different programming models based on personal taste and comfort.}
+      \field{title}{Parallel programming with co-arrays}
+      \field{year}{2018}
+    \endentry
+    \entry{youtube_yjpJwTOIppw}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a9928b9db128a39eef8c3d845ad87ddb}{%
+           family={PGAS},
+           familyi={P\bibinitperiod},
+           given={UPCXX},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9928b9db128a39eef8c3d845ad87ddb}
+      \strng{fullhash}{a9928b9db128a39eef8c3d845ad87ddb}
+      \strng{bibnamehash}{a9928b9db128a39eef8c3d845ad87ddb}
+      \strng{authorbibnamehash}{a9928b9db128a39eef8c3d845ad87ddb}
+      \strng{authornamehash}{a9928b9db128a39eef8c3d845ad87ddb}
+      \strng{authorfullhash}{a9928b9db128a39eef8c3d845ad87ddb}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-03-21 16:03:15 MDT}
+      \field{title}{Intro to High-Performance Parallel Distributed Computing with Chapel, UPC++, Coarray Fortran (day 1)}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=yjpJwTOIppw
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=yjpJwTOIppw
+      \endverb
+    \endentry
+    \entry{pitt2017guide}{book}{}
+      \name{author}{2}{}{%
+        {{hash=bcf47d45be135211b83438037d335c4d}{%
+           family={Pitt-Francis},
+           familyi={P\bibinithyphendelim F\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4870734c7a5efe45fd9610901890f004}{%
+           family={Whiteley},
+           familyi={W\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e8cca7e308e2b7a5278bc832d0d23313}
+      \strng{fullhash}{e8cca7e308e2b7a5278bc832d0d23313}
+      \strng{bibnamehash}{e8cca7e308e2b7a5278bc832d0d23313}
+      \strng{authorbibnamehash}{e8cca7e308e2b7a5278bc832d0d23313}
+      \strng{authornamehash}{e8cca7e308e2b7a5278bc832d0d23313}
+      \strng{authorfullhash}{e8cca7e308e2b7a5278bc832d0d23313}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This simple-to-follow textbook/reference provides an invaluable guide to object-oriented C++ programming for scientific computing. Through a series of clear and concise discussions, the key features most useful to the novice programmer are explored, enabling the reader to quickly master the basics and build the confidence to investigate less well-used features when needed. The text presents a hands-on approach that emphasizes the benefits of learning by example, stressing the importance of a clear programming style to minimise the introduction of errors into the code, and offering an extensive selection of practice exercises. This updated and enhanced new edition includes additional material on software testing, and on some new features introduced in modern C++ standards such as C++11. Topics and features: presents a practical treatment of the C++ programming language for applications in scientific computing; reviews the essentials of procedural programming in C++, covering variables, flow of control, input and output, pointers, functions and reference variables; introduces the concept of classes, showcasing the main features of object-orientation, and discusses such advanced C++ features as templates and exceptions; examines the development of a collection of classes for linear algebra calculations, and presents an introduction to parallel computing using MPI; describes how to construct an object-oriented library for solving second order differential equations; contains appendices reviewing linear algebra and useful programming constructs, together with solutions to selected exercises; provides exercises and programming tips at the end of every chapter, and supporting code at an associated website. This accessible textbook is a ``must-read'' for programmers of all levels of expertise. Basic familiarity with concepts such as operations between vectors and matrices, and the Newton-Raphson method for finding the roots of non-linear equations, would be an advantage, but extensive knowledge of the underlying mathematics is not assumed.}
+      \field{title}{Guide to scientific computing in C++}
+      \field{year}{2017}
+    \endentry
+    \entry{podkopaev2016operationalaspectsccconcurrency}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=bc8a1dd4ef79d7e26005ad370f38bf2d}{%
+           family={Podkopaev},
+           familyi={P\bibinitperiod},
+           given={Anton},
+           giveni={A\bibinitperiod}}}%
+        {{hash=219ce47ae5465bf8aff4ffe6dd07349c}{%
+           family={Sergey},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod}}}%
+        {{hash=cc84d82acf9f31b0a72fd44855766ea9}{%
+           family={Nanevski},
+           familyi={N\bibinitperiod},
+           given={Aleksandar},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f99ddab39e73171b9bade7b22582179}
+      \strng{fullhash}{0f99ddab39e73171b9bade7b22582179}
+      \strng{bibnamehash}{0f99ddab39e73171b9bade7b22582179}
+      \strng{authorbibnamehash}{0f99ddab39e73171b9bade7b22582179}
+      \strng{authornamehash}{0f99ddab39e73171b9bade7b22582179}
+      \strng{authorfullhash}{0f99ddab39e73171b9bade7b22582179}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this work, we present a family of operational semantics that gradually approximates the realistic program behaviors in the C/C++11 memory model. Each semantics in our framework is built by elaborating and combining two simple ingredients: viewfronts and operation buffers. Viewfronts allow us to express the spatial aspect of thread interaction, i.e., which values a thread can read, while operation buffers enable manipulation with the temporal execution aspect, i.e., determining the order in which the results of certain operations can be observed by concurrently running threads. Starting from a simple abstract state machine, through a series of gradual refinements of the abstract state, we capture such language aspects and synchronization primitives as release/acquire atomics, sequentially-consistent and non-atomic memory accesses, also providing a semantics for relaxed atomics, while avoiding the Out-of-Thin-Air problem. To the best of our knowledge, this is the first formal and executable operational semantics of C11 capable of expressing all essential concurrent aspects of the standard. We illustrate our approach via a number of characteristic examples, relating the observed behaviors to those of standard litmus test programs from the literature. We provide an executable implementation of the semantics in PLT Redex, along with a number of implemented litmus tests and examples, and showcase our prototype on a large case study: randomized testing and debugging of a realistic Read-Copy-Update data structure.}
+      \field{eprintclass}{cs.PL}
+      \field{eprinttype}{arXiv}
+      \field{title}{Operational Aspects of C/C++ Concurrency}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1606.01400
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1606.01400
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1606.01400
+      \endverb
+    \endentry
+    \entry{ray2019fortran}{book}{}
+      \name{author}{1}{}{%
+        {{hash=eee8393ea52d28f9370b0848a0ce310b}{%
+           family={Ray},
+           familyi={R\bibinitperiod},
+           given={Subrata},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall/CRC}%
+      }
+      \strng{namehash}{eee8393ea52d28f9370b0848a0ce310b}
+      \strng{fullhash}{eee8393ea52d28f9370b0848a0ce310b}
+      \strng{bibnamehash}{eee8393ea52d28f9370b0848a0ce310b}
+      \strng{authorbibnamehash}{eee8393ea52d28f9370b0848a0ce310b}
+      \strng{authornamehash}{eee8393ea52d28f9370b0848a0ce310b}
+      \strng{authorfullhash}{eee8393ea52d28f9370b0848a0ce310b}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The programming language Fortran dates back to 1957 when a team of IBM engineers released the first Fortran Compiler. During the past 60 years, the language had been revised and updated several times to incorporate more features to enable writing clean and structured computer programs. The present version is Fortran 2018. Since the dawn of the computer era, there had been a constant demand for a ``larger'' and ``faster'' machine. To increase the speed there are three hurdles. The density of the active components on a VLSI chip cannot be increased indefinitely and with the increase of the density heat dissipation becomes a major problem. Finally, the speed of any signal cannot exceed the velocity of the light. However, by using several inexpensive processors in parallel coupled with specialized software and hardware, programmers can achieve computing speed similar to a supercomputer. This book can be used to learn the modern Fortran from the beginning and the technique of developing parallel programs using Fortran. It is for anyone who wants to learn Fortran. Knowledge beyond high school mathematics is not required. There is not another book on the market yet which deals with Fortran 2018 as well as parallel programming.}
+      \field{title}{Fortran 2018 with parallel programming}
+      \field{year}{2019}
+    \endentry
+    \entry{youtube_LTMwkO7gZwQ}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=873efdc2174b11ea7c75d1f868946fee}{%
+           family={Rouson},
+           familyi={R\bibinitperiod},
+           given={Damian},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{873efdc2174b11ea7c75d1f868946fee}
+      \strng{fullhash}{873efdc2174b11ea7c75d1f868946fee}
+      \strng{bibnamehash}{873efdc2174b11ea7c75d1f868946fee}
+      \strng{authorbibnamehash}{873efdc2174b11ea7c75d1f868946fee}
+      \strng{authornamehash}{873efdc2174b11ea7c75d1f868946fee}
+      \strng{authorfullhash}{873efdc2174b11ea7c75d1f868946fee}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-03-21 16:03:15 MDT}
+      \field{title}{Parallel Programming in Modern Fortran}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=LTMwkO7gZwQ
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=LTMwkO7gZwQ
+      \endverb
+    \endentry
+    \entry{shukur2020state}{article}{}
+      \name{author}{7}{}{%
+        {{hash=a7cb518eccbaf1a02cbf2eeb0fed56b8}{%
+           family={Shukur},
+           familyi={S\bibinitperiod},
+           given={Hanan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3d4aaeb21b0c77e53c258baefdbb134a}{%
+           family={Zeebaree},
+           familyi={Z\bibinitperiod},
+           given={Subhi\bibnamedelima RM},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=5ee9c7b355cd43c123dfd0f492e246c4}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Abdulraheem\bibnamedelima Jamil},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=795551a3f74efc0ef5ddb6bdcd12d152}{%
+           family={Zebari},
+           familyi={Z\bibinitperiod},
+           given={Rizgar\bibnamedelima R},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=74e30cf1cd4aa02f1e724cb819f7fa38}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Omar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=b8490e07169c90177973c42eb3c1d816}{%
+           family={Tahir},
+           familyi={T\bibinitperiod},
+           given={Bareen\bibnamedelimb Shams\bibnamedelima Aldeen},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a23c22e132539ad8a3372e0d5fe53299}{%
+           family={Sadeeq},
+           familyi={S\bibinitperiod},
+           given={Mohammed\bibnamedelima AM},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c32c6d80cc5be39e42510ae49fc723b3}
+      \strng{fullhash}{c73b494cc8d0a15464bcbd828d954dd6}
+      \strng{bibnamehash}{c32c6d80cc5be39e42510ae49fc723b3}
+      \strng{authorbibnamehash}{c32c6d80cc5be39e42510ae49fc723b3}
+      \strng{authornamehash}{c32c6d80cc5be39e42510ae49fc723b3}
+      \strng{authorfullhash}{c73b494cc8d0a15464bcbd828d954dd6}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, several works have been presented related to clustering parallel computing for distributed systems. The trend of the paper is to focus on the strengths of previous works in this field towards enhancing the performance of distributed systems. This concentration was conducted by presenting several techniques, each of which has weak and strong features. The most challenging points for all techniques vary from increasing the performance of the system to time-responding to overcome overhead running of the system. For a more specific approach to addressing concurrent computation besides parallel computing classifications for distributed systems, this paper relies on a comprehensive feature study and comparison between SYNC and ASYNC modes.}
+      \field{journaltitle}{Journal of Applied Science and Technology Trends}
+      \field{number}{2}
+      \field{title}{A State of Art: Survey for Concurrent Computation and Clustering of Parallel Computing for Distributed Systems}
+      \field{volume}{1}
+      \field{year}{2020}
+      \field{pages}{148\bibrangedash 154}
+      \range{pages}{7}
+    \endentry
+    \entry{williams2019c++}{book}{}
+      \name{author}{1}{}{%
+        {{hash=497c5804c01683eb601dd96d50e19909}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Simon}%
+        {Schuster}%
+      }
+      \strng{namehash}{497c5804c01683eb601dd96d50e19909}
+      \strng{fullhash}{497c5804c01683eb601dd96d50e19909}
+      \strng{bibnamehash}{497c5804c01683eb601dd96d50e19909}
+      \strng{authorbibnamehash}{497c5804c01683eb601dd96d50e19909}
+      \strng{authornamehash}{497c5804c01683eb601dd96d50e19909}
+      \strng{authorfullhash}{497c5804c01683eb601dd96d50e19909}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{C++ Concurrency in Action, Second Edition is the definitive guide to writing elegant multithreaded applications in C++. Updated for C++ 17, it carefully addresses every aspect of concurrent development, from starting new threads to designing fully functional multithreaded algorithms and data structures. Concurrency master Anthony Williams presents examples and practical tasks in every chapter, including insights that will delight even the most experienced developer.}
+      \field{title}{C++ concurrency in action}
+      \field{year}{2019}
+    \endentry
+    \entry{nersc10_workload}{report}{}
+      \name{author}{5}{}{%
+        {{hash=4763a976f92d9dd2b741bbb4def90521}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Nicholas\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2cd19670426469d26b1e29010a15d673}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Brandon},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d6c3f81780523327f70016cb07d1871d}{%
+           family={Dosanjh},
+           familyi={D\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cd4f83f25a08d497036df86a81047b4b}{%
+           family={Kaltz},
+           familyi={K\bibinitperiod},
+           given={Teresa\bibnamedelima L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=dfd392c230fed420a844e8b2f567a39c}{%
+           family={Bailey},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Energy Research Scientific Computing Center (NERSC)}%
+      }
+      \strng{namehash}{786f3c339a037a9c5151c54a478be5fa}
+      \strng{fullhash}{b8045eddd18ccbe066f474603b3e521a}
+      \strng{bibnamehash}{786f3c339a037a9c5151c54a478be5fa}
+      \strng{authorbibnamehash}{786f3c339a037a9c5151c54a478be5fa}
+      \strng{authornamehash}{786f3c339a037a9c5151c54a478be5fa}
+      \strng{authorfullhash}{b8045eddd18ccbe066f474603b3e521a}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{NERSC-10 Workload Analysis}
+      \field{type}{techreport}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://portal.nersc.gov/project/m888/nersc10/workload/N10_Workload_Analysis.latest.pdf
+      \endverb
+      \verb{url}
+      \verb https://portal.nersc.gov/project/m888/nersc10/workload/N10_Workload_Analysis.latest.pdf
+      \endverb
+    \endentry
+    \entry{wu2016extensive}{article}{}
+      \name{author}{4}{}{%
+        {{hash=65027af5f4f54f2e6c7bb140253872e2}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Di},
+           giveni={D\bibinitperiod}}}%
+        {{hash=17e889465f015f567550ebf95e2ff125}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f6034647d3edd123f0f58d54feeb0695}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yuming},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=33a2fbf36484e35836ed60370fd8e8fd}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Baowen},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7f0e13b8bc9100b49037998919e091c4}
+      \strng{fullhash}{b8e23790d7b9541ff6dbbe167c8289de}
+      \strng{bibnamehash}{7f0e13b8bc9100b49037998919e091c4}
+      \strng{authorbibnamehash}{7f0e13b8bc9100b49037998919e091c4}
+      \strng{authornamehash}{7f0e13b8bc9100b49037998919e091c4}
+      \strng{authorfullhash}{b8e23790d7b9541ff6dbbe167c8289de}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information and Software Technology}
+      \field{title}{An extensive empirical study on C++ concurrency constructs}
+      \field{volume}{76}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+    \endentry
+    \entry{youtube-xmdi-compare}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0c035b5b40c5070b4f19fca06aae843b}{%
+           family={xmdi},
+           familyi={x\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c035b5b40c5070b4f19fca06aae843b}
+      \strng{fullhash}{0c035b5b40c5070b4f19fca06aae843b}
+      \strng{bibnamehash}{0c035b5b40c5070b4f19fca06aae843b}
+      \strng{authorbibnamehash}{0c035b5b40c5070b4f19fca06aae843b}
+      \strng{authornamehash}{0c035b5b40c5070b4f19fca06aae843b}
+      \strng{authorfullhash}{0c035b5b40c5070b4f19fca06aae843b}
+      \field{sortinit}{x}
+      \field{sortinithash}{e90038f30fa4b9ce59606fc8347e3cc7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Which free scientific computing language is the fastest to program and execute? The answer probably won't surprise you because it's obvious.}
+      \field{note}{Accessed: 2025-03-10}
+      \field{title}{Python vs Fortran vs Octave (Matlab) side-by-side performance comparison}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=pJIxVS-wlHc
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=pJIxVS-wlHc
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

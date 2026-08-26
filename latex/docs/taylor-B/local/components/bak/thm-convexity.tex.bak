@@ -1,0 +1,68 @@
+% \input{\pLocalTheorems "thm-convexity"}
+
+\subsection{Convexity of the Least Squares Minimizers}
+\begin{theorem}[Convexity of least squares minimizers]
+
+Given a matrix $\aicmnr$ with rank $\paren{\rho\le n}$, and a data vector $\bicn$, then $\chi$, the set of least squares minimizers,
+%
+\begin{equation*}
+	\chi = \argmin_{x\icn} \normt{\axmb},
+\end{equation*}
+%
+is a convex set.
+
+\label{thm:theory convex set}
+\end{theorem}
+%   +   +   +   +   +   +   +   +   +   +
+\begin{proof}
+
+%For every element $x\in\chi$ the least total squared error is
+%%
+%\begin{equation}
+%	t^{2} = \normts{\A{}x-b}.
+%%\label{eq:}
+%\end{equation}
+%%
+%
+Consider two minimizers $x_{1}, x_{2} \in \chi$ and a variation parameter $\lambda\in\brac{0,1}$. Establish that the linear combination is also in the set of minimizers:
+%
+\begin{equation}
+	\lambda x_{1} + \paren{1-\lambda} x_{2}\in\chi
+\label{eq:convexity premise}
+\end{equation}
+%
+%\begin{equation}
+%	t^{2} = \normts{\lambda \A\, x_{1} + \paren{1-\lambda}\A\, x_{2} - b}
+%%\label{eq:}
+%\end{equation}
+%
+Solve using matrix norm properties and the theorem of Pythagoras:
+\begin{equation}
+	\begin{split}
+		\normts{\A{}\paren{\lambda x_{1} + \paren{1-\lambda} x_{2}} - b} \le
+		\lambda \normts{\A{}\,x_{1} - b} + \paren{1-\lambda}\normts{\A{}\,x_{2} - b}
+	\end{split}
+\label{eq:theory convex membership}
+\end{equation}
+%
+Because the $x$ variables are minimizers, the squared norms achieve the minimum value (least total squared error) $t^{2}$.
+%
+\begin{equation}
+	\lambda \normts{\A{}\,x_{1} - b} + \paren{1-\lambda}\normts{\A{}\,x_{2} - b} =
+	\lambda t^{2} + \paren{1-\lambda}t^{2} = t^{2}
+%\label{eq:}
+\end{equation}
+%
+From which we conclude that for all possible values of $\lambda$, the norm of the linear combination of the minimizers in \eqref{eq:theory convex membership} maintains minimal value:
+%
+\begin{equation}
+	\normts{\A{}\paren{\lambda x_{1} + \paren{1-\lambda} x_{2}} - b} = t^{2}, \ \forall \lambda \in \brac{0,1},
+%\label{eq:}
+\end{equation}
+%
+thereby establishing the premise.
+%
+\end{proof}
+
+
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

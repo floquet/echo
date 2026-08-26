@@ -1,0 +1,19 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main-fortran-best-practices.blg'
+[69] biber-darwin:322> INFO - === Sun May 18, 2025, 18:40:31
+[83] Biber.pm:415> INFO - Reading 'main-fortran-best-practices.bcf'
+[156] Biber.pm:943> INFO - Found 12 citekeys in bib section 0
+[169] Biber.pm:4256> INFO - Processing section 0
+[169] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib'
+[169] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib' to /Users/dantopa/GitHub//latex-2025//bibs//fortran.bib
+[169] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//oeuvre.bib'
+[169] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//oeuvre.bib' to /Users/dantopa/GitHub//latex-2025//bibs//oeuvre.bib
+[178] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib' for section 0
+[186] bibtex.pm:1653> INFO - LaTeX decoding ...
+[374] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib'
+[445] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[445] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[445] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[445] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[458] bbl.pm:652> INFO - Writing 'main-fortran-best-practices.bbl' with encoding 'UTF-8'
+[464] bbl.pm:755> INFO - Output to main-fortran-best-practices.bbl

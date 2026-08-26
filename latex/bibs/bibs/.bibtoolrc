@@ -1,0 +1,16 @@
+preserve.key.case = on
+pass.comments = off
+rewrite.rule = { " # "\"" }
+rewrite.rule = { ' # "'" }
+rewrite.rule = { – # "--" }
+rewrite.rule = { — # "---" }
+rewrite.rule = { … # "\\ldots{}" }
+rewrite.rule = { é # "{\\'e}" }
+rewrite.rule = { É # "{\\'E}" }
+rewrite.rule = { á # "{\\'a}" }
+rewrite.rule = { ö # "{\\\"o}" }
+rewrite.rule = { ü # "{\\\"u}" }
+rewrite.rule = { ñ # "{\\~n}" }
+rewrite.rule = { µ # "\\textmu{}" }
+rewrite.rule = { ° # "\\degree{}" }
+

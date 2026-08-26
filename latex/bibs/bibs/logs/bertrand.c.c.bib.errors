@@ -1,0 +1,15 @@
+Line 1: Escaped '%' in line: \\%\\% This BibTeX bibliography file was created using BibDesk.
+Line 2: Escaped '%' in line: \\%\\% https://bibdesk.sourceforge.io/
+Line 4: Escaped '%' in line: \\%\\% Created for Daniel Topa at 2024-12-22 15:28:14 -0700
+Line 7: Escaped '%' in line: \\%\\% Saved with string encoding Unicode (UTF-8)
+Line 103: Escaped '&' in line: publisher = {Springer Science \\\& Business Media},
+Line 122: Escaped '&' in line: publisher = {Springer Science \\\& Business Media},
+Line 134: Escaped '&' in line: howpublished = {\url{https://en.wikipedia.org/w/index.php?title=Bertrand\\\%27s_theorem\\&oldid=1188516830}},
+Line 134: Escaped '%' in line: howpublished = {\url{https://en.wikipedia.org/w/index.php?title=Bertrand\\\%27s_theorem\\\&oldid=1188516830}},
+Line 141: Escaped '&' in line: howpublished = {\url{https://en.wikipedia.org/w/index.php?title=Quantum_chromodynamics\\&oldid=1241525826}},
+Line 148: Escaped '&' in line: howpublished = {\url{https://en.wikipedia.org/w/index.php?title=Quantum_electrodynamics\\&oldid=1232054504}},
+Line 157: Escaped '&' in line: url = {https://en.wikipedia.org/w/index.php?title=Lyapunov_stability\\&oldid=1233536190},
+Line 159: Escaped '&' in line: bdsk-url-1 = {https://en.wikipedia.org/w/index.php?title=Lyapunov_stability\\&oldid=1233536190}}
+Line 563: Invalid month '07' found; consider fixing.
+Line 575: Invalid month '09' found; consider fixing.
+Line 601: Invalid month '1' found; consider fixing.

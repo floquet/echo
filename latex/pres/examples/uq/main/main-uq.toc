@@ -1,0 +1,79 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Bevington}{9}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{1}{Propagation of Errors}{11}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {1}{1}{1}{Linear Theory}{12}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {1}{1}{2}{Examples}{16}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{2}{Specific Formulas}{18}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {1}{2}{1}{Addition \& Subtraction}{19}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {1}{2}{2}{Multiplication \& Division}{22}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {1}{2}{3}{Powers}{26}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {1}{2}{4}{Exponentials}{27}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {1}{2}{5}{Logarithms}{28}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Gockenbach}{29}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Introduction to inverse problems}{31}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Well-posed, ill-posed, and inverse problems}{32}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{3}{Tikhonov regularization}{33}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{4}{Compact operators and the singular value expansion}{34}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{5}{Tikhonov regularization with seminorms}{35}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Bardsely}{36}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{1}{Characterization of Inverse Problems}{38}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{2}{Regularization by Spectral Filtering}{39}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{3}{Two-Dimensional Test Cases}{40}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{4}{Bayes' Law, Markov Random Field Priors}{41}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{5}{Linear Inverse Problems}{42}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{6}{Nonlinear Inverse Problems}{43}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Smith}{44}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{1}{Representation of Random Inputs}{46}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{2}{Frequentist Techniques for Parameter Estimation}{47}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{3}{Bayesian Techniques for Parameter Estimation}{48}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{4}{Uncertainty Propagation in Models}{49}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{5}{Local Sensitivity Analysis}{50}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{6}{Global Sensitivity Analysis}{51}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Tarantola}{52}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{1}{The General Discrete Inverse Problem}{54}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{2}{Monte Carlo Methods}{55}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{3}{The Least-Squares Criterion}{56}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{4}{Least-Absolute-Values Criterion and Minimax Criterion}{57}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{5}{Functional Inverse Problems}{58}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{6}{Problems}{59}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {5}{6}{1}{Problem $7.1$}{60}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Burn Extinction}{89}{0}{6}

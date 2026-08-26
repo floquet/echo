@@ -1,0 +1,30 @@
+% \input{\pThms/"cor-intercept-only-error.tex"}
+\typeout{ \enumContent \pThms/"cor-intercept-only-error.tex"}
+%
+\begin{corollary}[Error for Intercept Only]
+
+Given least squares problem and solution in theorem \ref{thm:ls}, the corresponding error is
+		%
+\begin{equation}
+	\sigma_{0} = \sqrt{ \frac{\overline{z^{2}} - \overline{z}^{2}} {m-1} }
+\label{eq:cor-stmt:mean}
+\end{equation}
+		%
+\label{cor:intercept-only-error}
+\end{corollary}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+   
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+The specific template for the least squares error in $a_{0}$ is
+		%
+\begin{equation}
+	\sigma_{a} = \sqrt{ \frac{\phi^{2}\paren{(a_{0})_{p}}} {m-1} \innerSelf{\Upsilon}}
+\tag{\ref{eq:error-template}}
+\end{equation}
+where the vector $\Upsilon$ encodes the derivatives of the solution with respect to each datum:
+
+\end{proof}
+%
+%
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

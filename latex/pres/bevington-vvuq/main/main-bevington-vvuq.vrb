@@ -1,0 +1,11 @@
+\frametitle{Macros}
+\center
+\bl{Macros} provide a mechanism for defining reusable, named constructs that encapsulate both \bl{content} and \bl{formatting}.
+\tiny
+\begin{verbatim}
+	\newcommand{\quartet}{\href{https://en.wikipedia.org/wiki/Anscombe\%27s_quartet}{Anscombe's data set quartet}}
+\end{verbatim}
+\normalsize
+		\begin{itemize}
+			\item The macro \verb|\quartet| defines a single semantic reference that consistently expands to a hyperlink to \quartet
+		\end{itemize}

@@ -1,0 +1,381 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{brauer1989qualitative}{book}{}
+      \name{author}{2}{}{%
+        {{hash=cce7419708114ddcc3d5832a90fd28b5}{%
+           family={Brauer},
+           familyi={B\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod}}}%
+        {{hash=75d584b4832acbe3465e41b24009f9a3}{%
+           family={Nohel},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Corporation}%
+      }
+      \strng{namehash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{fullhash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{bibnamehash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{authorbibnamehash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{authornamehash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{authorfullhash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The qualitative theory of ordinary differential equations: an introduction}
+      \field{year}{1989}
+    \endentry
+    \entry{colman2011chaos}{article}{}
+      \name{author}{1}{}{%
+        {{hash=64565e0cf41fe5f1a635603f4c341849}{%
+           family={Colman},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{64565e0cf41fe5f1a635603f4c341849}
+      \strng{fullhash}{64565e0cf41fe5f1a635603f4c341849}
+      \strng{bibnamehash}{64565e0cf41fe5f1a635603f4c341849}
+      \strng{authorbibnamehash}{64565e0cf41fe5f1a635603f4c341849}
+      \strng{authornamehash}{64565e0cf41fe5f1a635603f4c341849}
+      \strng{authorfullhash}{64565e0cf41fe5f1a635603f4c341849}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{journaltitle}{The New York Times}
+      \field{month}{7}
+      \field{note}{Accessed 11 July 2011}
+      \field{title}{There's No Quiet Without Noise}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nytimes.com/2011/07/10/fashion/a-machine-designed-to-add-chaos-to-order.html
+      \endverb
+      \verb{url}
+      \verb https://www.nytimes.com/2011/07/10/fashion/a-machine-designed-to-add-chaos-to-order.html
+      \endverb
+    \endentry
+    \entry{Lyapunov1992}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8a56196788c7a7e4b08fdd72f276a2da}{%
+           family={Lyapunov},
+           familyi={L\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{8a56196788c7a7e4b08fdd72f276a2da}
+      \strng{fullhash}{8a56196788c7a7e4b08fdd72f276a2da}
+      \strng{bibnamehash}{8a56196788c7a7e4b08fdd72f276a2da}
+      \strng{authorbibnamehash}{8a56196788c7a7e4b08fdd72f276a2da}
+      \strng{authornamehash}{8a56196788c7a7e4b08fdd72f276a2da}
+      \strng{authorfullhash}{8a56196788c7a7e4b08fdd72f276a2da}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0748400620}
+      \field{title}{General Problem of the Stability of Motion}
+      \field{year}{1992}
+      \verb{urlraw}
+      \verb https://www.amazon.com/General-Problem-Stability-Motion-Lyapunov/dp/0748400621
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.com/General-Problem-Stability-Motion-Lyapunov/dp/0748400621
+      \endverb
+    \endentry
+    \entry{lyapunov1892}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=7814e82f44c358239bdab72eaff4ff12}{%
+           family={Lyapunov},
+           familyi={L\bibinitperiod},
+           given={Aleksandr\bibnamedelima Mikhailovich},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Kharkiv}%
+      }
+      \list{language}{1}{%
+        {Russian}%
+      }
+      \list{location}{1}{%
+        {Kharkiv, Ukraine}%
+      }
+      \strng{namehash}{7814e82f44c358239bdab72eaff4ff12}
+      \strng{fullhash}{7814e82f44c358239bdab72eaff4ff12}
+      \strng{bibnamehash}{7814e82f44c358239bdab72eaff4ff12}
+      \strng{authorbibnamehash}{7814e82f44c358239bdab72eaff4ff12}
+      \strng{authornamehash}{7814e82f44c358239bdab72eaff4ff12}
+      \strng{authorfullhash}{7814e82f44c358239bdab72eaff4ff12}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Doctoral dissertation}
+      \field{title}{The General Problem of the Stability of Motion}
+      \field{type}{phdthesis}
+      \field{year}{1892}
+    \endentry
+    \entry{perko2013differential}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2e86fbceb5185d82a8b0e6fccbdf1691}{%
+           family={Perko},
+           familyi={P\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{fullhash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{bibnamehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{authorbibnamehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{authornamehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{authorfullhash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mathematics is playing an ever more important role in the physical and biological sciences, provoking a blurring of boundaries between scientific disciplines and a resurgence of interest in the modern as well as the clas sical techniques of applied mathematics. This renewal of interest, both in research and teaching, has led to the establishment of the series: Texts in Applied Mathematics (TAM). The development of new courses is a natural consequence of a high level of excitement on the research frontier as newer techniques, such as numerical and symbolic computer systems, dynamical systems, and chaos, mix with and reinforce the traditional methods of applied mathematics. Thus, the purpose of this textbook series is to meet the current and future needs of these advances and encourage the teaching of new courses. TAM will publish textbooks suitable for use in advanced undergraduate and beginning graduate courses, and will complement the Applied Math ematical Sciences (AMS) series, which will focus on advanced textbooks and research level monographs.}
+      \field{title}{Differential equations and dynamical systems}
+      \field{volume}{7}
+      \field{year}{2013}
+    \endentry
+    \entry{wikipedia_Chetaev_instability_theorem}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wikipedia, The Free Encyclopedia}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed June 21, 2025}
+      \field{title}{Chetaev instability theorem}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Chetaev_instability_theorem
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Chetaev_instability_theorem
+      \endverb
+    \endentry
+    \entry{wikipedia_equilibrium_point}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wikipedia, The Free Encyclopedia}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed June 21, 2025}
+      \field{title}{Equilibrium point (mathematics)}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Equilibrium_point_(mathematics)
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Equilibrium_point_(mathematics)
+      \endverb
+    \endentry
+    \entry{wikipedia_LaSalle_invariance_principle}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wikipedia, The Free Encyclopedia}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed June 21, 2025}
+      \field{title}{LaSalle's invariance principle}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/LaSalle%27s_invariance_principle
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/LaSalle%27s_invariance_principle
+      \endverb
+    \endentry
+    \entry{wikipedia_lyapunov_function}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wikipedia, The Free Encyclopedia}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{4}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed June 21, 2025}
+      \field{title}{Lyapunov function}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Lyapunov_function
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Lyapunov_function
+      \endverb
+    \endentry
+    \entry{wikipedia_lyapunov_stability}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wikipedia, The Free Encyclopedia}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{5}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed June 21, 2025}
+      \field{title}{Lyapunov stability}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Lyapunov_stability
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Lyapunov_stability
+      \endverb
+    \endentry
+    \entry{wikipedia_van_der_pol}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wikipedia, The Free Encyclopedia}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{6}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed June 21, 2025}
+      \field{title}{Van der Pol oscillator}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Van_der_Pol_oscillator
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Van_der_Pol_oscillator
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

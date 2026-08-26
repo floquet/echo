@@ -1,0 +1,27 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{4}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{1}{Ode to ODEs}{10}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{2}{Baseball Propagator}{17}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Perspectives}{30}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Setting The Stage}{31}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Newtonian Mechanics}{39}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{3}{Coordinate Systems}{59}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Literature}{86}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{1}{Kepler: A Textbook Staple}{88}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{2}{Posing Kepler's Equation}{91}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{3}{Solving Kepler's Equation}{92}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Beyond Classical Mechanics}{109}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{1}{Relativity}{110}{0}{4}

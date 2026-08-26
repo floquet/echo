@@ -1,0 +1,524 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{bethe1947blast}{report}{}
+      \name{author}{6}{}{%
+        {{hash=e7697850ca021b757e1ea35cafb8d194}{%
+           family={Bethe},
+           familyi={B\bibinitperiod},
+           given={Hans\bibnamedelima Albrecht},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=13cc966ed0aea4fd0f350ac882c238aa}{%
+           family={Fuchs},
+           familyi={F\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f8743213f8e31a5ebe4ac1fb58f5c001}{%
+           family={Hirschfelder},
+           familyi={H\bibinitperiod},
+           given={Joseph\bibnamedelima Oakland},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=f7de54a63c4dd05b07770a99eb3a1bdb}{%
+           family={Magee},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=2a393adca4995e5002fa9d5b9a95a572}{%
+           family={Peieris},
+           familyi={P\bibinitperiod},
+           given={RE},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f8744afb2b8eb53c5804cbac615dbad1}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Los Alamos National Laboratory, Los Alamos, NM (United States)}%
+      }
+      \strng{namehash}{8bc2e7bd6bba1a45e6b111d8a86cea35}
+      \strng{fullhash}{6c633bcf3ae72a6a67b02141038ede35}
+      \strng{bibnamehash}{8bc2e7bd6bba1a45e6b111d8a86cea35}
+      \strng{authorbibnamehash}{8bc2e7bd6bba1a45e6b111d8a86cea35}
+      \strng{authornamehash}{8bc2e7bd6bba1a45e6b111d8a86cea35}
+      \strng{authorfullhash}{6c633bcf3ae72a6a67b02141038ede35}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Blast Wave}
+      \field{type}{techreport}
+      \field{year}{1947}
+      \keyw{LA-2000}
+    \endentry
+    \entry{bevington1e}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3af7fac3e5ffc763bb2cfa87639c0823}{%
+           family={Bevington},
+           familyi={B\bibinitperiod},
+           given={Philip\bibnamedelima R},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{fullhash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{bibnamehash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{authorbibnamehash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{authornamehash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{authorfullhash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{journaltitle}{Computers in Physics}
+      \field{title}{Data reduction and error analysis for the physical sciences}
+      \field{year}{1969}
+      \field{pages}{415\bibrangedash 416}
+      \range{pages}{2}
+    \endentry
+    \entry{glasstone1964effects}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6bbef81f7bc0d403f9a8be54d611aeec}{%
+           family={Glasstone},
+           familyi={G\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {US Atomic Energy Commission}%
+      }
+      \strng{namehash}{6bbef81f7bc0d403f9a8be54d611aeec}
+      \strng{fullhash}{6bbef81f7bc0d403f9a8be54d611aeec}
+      \strng{bibnamehash}{6bbef81f7bc0d403f9a8be54d611aeec}
+      \strng{authorbibnamehash}{6bbef81f7bc0d403f9a8be54d611aeec}
+      \strng{authornamehash}{6bbef81f7bc0d403f9a8be54d611aeec}
+      \strng{authorfullhash}{6bbef81f7bc0d403f9a8be54d611aeec}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The effects of nuclear weapons}
+      \field{year}{1964}
+    \endentry
+    \entry{GVL1996}{book}{}
+      \name{author}{2}{}{%
+        {{hash=8b856da92ad549d323acc679ecf7f474}{%
+           family={Golub},
+           familyi={G\bibinitperiod},
+           given={Gene\bibnamedelima H.},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=4ed2d13e66ef340bd8d892c23333c87b}{%
+           family={Van\bibnamedelima Loan},
+           familyi={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Charles\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Johns Hopkins University Press}%
+      }
+      \strng{namehash}{315525c1558db03561c0e8a8b605758b}
+      \strng{fullhash}{315525c1558db03561c0e8a8b605758b}
+      \strng{bibnamehash}{315525c1558db03561c0e8a8b605758b}
+      \strng{authorbibnamehash}{315525c1558db03561c0e8a8b605758b}
+      \strng{authornamehash}{315525c1558db03561c0e8a8b605758b}
+      \strng{authorfullhash}{315525c1558db03561c0e8a8b605758b}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Matrix Computations}
+      \field{year}{1996}
+    \endentry
+    \entry{horn2012matrix}{book}{}
+      \name{author}{2}{}{%
+        {{hash=472bb8160d835c69b57bcf72a2e976f2}{%
+           family={Horn},
+           familyi={H\bibinitperiod},
+           given={Roger\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=dac60894a8d7e4e7a13519d50f5fbf9a}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Charles\bibnamedelima R},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge university press}%
+      }
+      \strng{namehash}{eecf59942273a63031b3fcbcfd5fa22f}
+      \strng{fullhash}{eecf59942273a63031b3fcbcfd5fa22f}
+      \strng{bibnamehash}{eecf59942273a63031b3fcbcfd5fa22f}
+      \strng{authorbibnamehash}{eecf59942273a63031b3fcbcfd5fa22f}
+      \strng{authornamehash}{eecf59942273a63031b3fcbcfd5fa22f}
+      \strng{authorfullhash}{eecf59942273a63031b3fcbcfd5fa22f}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Matrix analysis}
+      \field{year}{2012}
+    \endentry
+    \entry{hughes2010measurements}{book}{}
+      \name{author}{2}{}{%
+        {{hash=a7f6ea810c92e923e7b12ce8748bc904}{%
+           family={Hughes},
+           familyi={H\bibinitperiod},
+           given={Ifan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=1ae4d38d473221b1dfa3cb416a29ebb5}{%
+           family={Hase},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {OUP Oxford}%
+      }
+      \strng{namehash}{e861172396e70b8edde933cbddf791f8}
+      \strng{fullhash}{e861172396e70b8edde933cbddf791f8}
+      \strng{bibnamehash}{e861172396e70b8edde933cbddf791f8}
+      \strng{authorbibnamehash}{e861172396e70b8edde933cbddf791f8}
+      \strng{authornamehash}{e861172396e70b8edde933cbddf791f8}
+      \strng{authorfullhash}{e861172396e70b8edde933cbddf791f8}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This hands-on guide is primarily intended to be used in undergraduate laboratories in the physical sciences and engineering. It assumes no prior knowledge of statistics. It introduces the necessary concepts where needed, with key points illustrated with worked examples and graphic illustrations. In contrast to traditional mathematical treatments it uses a combination of spreadsheet and calculus-based approaches, suitable as a quick and easy on-the-spot reference. The emphasis throughout is on practical strategies to be adopted in the laboratory. Error analysis is introduced at a level accessible to school leavers, and carried through to research level. Error calculation and propagation is presented though a series of rules-of-thumb, look-up tables and approaches amenable to computer analysis. The general approach uses the chi-square statistic extensively. Particular attention is given to hypothesis testing and extraction of parameters and their uncertainties by fitting mathematical models to experimental data. Routines implemented by most contemporary data analysis packages are analysed and explained. The book finishes with a discussion of advanced fitting strategies and an introduction to Bayesian analysis.}
+      \field{title}{Measurements and their uncertainties: a practical guide to modern error analysis}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://global.oup.com/academic/product/measurements-and-their-uncertainties-9780199566334
+      \endverb
+      \verb{url}
+      \verb https://global.oup.com/academic/product/measurements-and-their-uncertainties-9780199566334
+      \endverb
+    \endentry
+    \entry{doi:10.1137/1.9780898717907}{book}{}
+      \name{author}{1}{}{%
+        {{hash=355a1a9fd33650fa55cdeb29f4a956ab}{%
+           family={Laub},
+           familyi={L\bibinitperiod},
+           given={Alan\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Philadelphia, PA}%
+      }
+      \list{publisher}{2}{%
+        {Society for Industrial}%
+        {Applied Mathematics}%
+      }
+      \strng{namehash}{355a1a9fd33650fa55cdeb29f4a956ab}
+      \strng{fullhash}{355a1a9fd33650fa55cdeb29f4a956ab}
+      \strng{bibnamehash}{355a1a9fd33650fa55cdeb29f4a956ab}
+      \strng{authorbibnamehash}{355a1a9fd33650fa55cdeb29f4a956ab}
+      \strng{authornamehash}{355a1a9fd33650fa55cdeb29f4a956ab}
+      \strng{authorfullhash}{355a1a9fd33650fa55cdeb29f4a956ab}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{SIREV Review (link) Matrix Analysis for Scientists and Engineers provides a blend of undergraduate- and graduate-level topics in matrix theory and linear algebra that relieves instructors of the burden of reviewing such material in subsequent courses that depend heavily on the language of matrices. Consequently, the text provides an often-needed bridge between undergraduate-level matrix theory and linear algebra and the level of matrix analysis required for graduate-level study and research. The text is sufficiently compact that the material can be taught comfortably in a one-quarter or one-semester course. Throughout the book, the author emphasizes the concept of matrix factorization to provide a foundation for a later course in numerical linear algebra. The author addresses connections to differential and difference equations as well as to linear system theory and encourages instructors to augment these examples with other applications of their own choosing. Audience Because the tools of matrix analysis are applied on a daily basis to problems in biology, chemistry, econometrics, engineering, physics, statistics, and a wide variety of other fields, the text can serve a rather diverse audience. The book is primarily intended to be used as a text for senior undergraduate or beginning graduate students in engineering, the sciences, mathematics, computer science, or computational science who wish to be familiar enough with matrix analysis and linear algebra that they can effectively use the tools and ideas of these fundamental subjects in a variety of applications. However, individual engineers and scientists who need a concise reference or a text for self-study will also find this book useful. Prerequisites for using this text are knowledge of calculus and some previous exposure to matrices and linear algebra, including, for example, a basic knowledge of determinants, singularity of matrices, eigenvalues and eigenvectors, and positive definite matrices. There are exercises at the end of each chapter.}
+      \field{title}{Matrix Analysis for Scientists and Engineers}
+      \field{year}{2004}
+      \verb{doi}
+      \verb 10.1137/1.9780898717907
+      \endverb
+      \verb{eprint}
+      \verb https://epubs.siam.org/doi/pdf/10.1137/1.9780898717907
+      \endverb
+      \verb{urlraw}
+      \verb https://epubs.siam.org/doi/abs/10.1137/1.9780898717907
+      \endverb
+      \verb{url}
+      \verb https://epubs.siam.org/doi/abs/10.1137/1.9780898717907
+      \endverb
+    \endentry
+    \entry{doi:10.1137/1.9781611972214}{book}{}
+      \name{author}{1}{}{%
+        {{hash=355a1a9fd33650fa55cdeb29f4a956ab}{%
+           family={Laub},
+           familyi={L\bibinitperiod},
+           given={Alan\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Philadelphia, PA}%
+      }
+      \list{publisher}{2}{%
+        {Society for Industrial}%
+        {Applied Mathematics}%
+      }
+      \strng{namehash}{355a1a9fd33650fa55cdeb29f4a956ab}
+      \strng{fullhash}{355a1a9fd33650fa55cdeb29f4a956ab}
+      \strng{bibnamehash}{355a1a9fd33650fa55cdeb29f4a956ab}
+      \strng{authorbibnamehash}{355a1a9fd33650fa55cdeb29f4a956ab}
+      \strng{authornamehash}{355a1a9fd33650fa55cdeb29f4a956ab}
+      \strng{authorfullhash}{355a1a9fd33650fa55cdeb29f4a956ab}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using an approach that author Alan Laub calls ``matrix analysis for grown-ups,'' this new textbook introduces fundamental concepts of numerical linear algebra and their application to solving certain numerical problems arising in state-space control and systems theory. It is written for advanced undergraduate and beginning graduate students and can be used as a follow-up to Matrix Analysis for Scientists and Engineers (SIAM, 2005), a compact single-semester introduction to matrix analysis for engineers and computational scientists by the same author. Computational Matrix Analysis provides readers with a one-semester introduction to numerical linear algebra; an introduction to statistical condition estimation in book form for the first time; and an overview of certain computational problems in control and systems theory. The book features a number of elements designed to help students learn to use numerical linear algebra in day-to-day computing or research, including a brief review of matrix analysis, including notation, and an introduction to finite (IEEE) arithmetic; discussion and examples of conditioning, stability, and rounding analysis; an introduction to mathematical software topics related to numerical linear algebra; a thorough introduction to Gaussian elimination, along with condition estimation techniques; coverage of linear least squares, with orthogonal reduction and QR factorization; variants of the QR algorithm; and applications of the discussed algorithms. Audience This book is intended for students who are interested in quickly learning the fundamentals of numerical linear algebra. It is also appropriate for mathematically competent engineers and scientists engaged in computation who wish to delve more deeply into how and why their algorithms work or do not work.}
+      \field{title}{Computational Matrix Analysis}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1137/1.9781611972214
+      \endverb
+      \verb{eprint}
+      \verb https://epubs.siam.org/doi/pdf/10.1137/1.9781611972214
+      \endverb
+      \verb{urlraw}
+      \verb https://epubs.siam.org/doi/abs/10.1137/1.9781611972214
+      \endverb
+      \verb{url}
+      \verb https://epubs.siam.org/doi/abs/10.1137/1.9781611972214
+      \endverb
+    \endentry
+    \entry{meyer2000matrix}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4c69e3607c3315a1262f92ab7e95985b}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Carl\bibnamedelima D},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Siam}%
+      }
+      \strng{namehash}{4c69e3607c3315a1262f92ab7e95985b}
+      \strng{fullhash}{4c69e3607c3315a1262f92ab7e95985b}
+      \strng{bibnamehash}{4c69e3607c3315a1262f92ab7e95985b}
+      \strng{authorbibnamehash}{4c69e3607c3315a1262f92ab7e95985b}
+      \strng{authornamehash}{4c69e3607c3315a1262f92ab7e95985b}
+      \strng{authorfullhash}{4c69e3607c3315a1262f92ab7e95985b}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Matrix analysis and applied linear algebra}
+      \field{volume}{71}
+      \field{year}{2000}
+    \endentry
+    \entry{sedov46}{article}{}
+      \name{author}{1}{}{%
+        {{hash=860967e76deae837345e4697a39079e7}{%
+           family={Sedov},
+           familyi={S\bibinitperiod},
+           given={Leonid\bibnamedelima Ivanovich},
+           giveni={L\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{860967e76deae837345e4697a39079e7}
+      \strng{fullhash}{860967e76deae837345e4697a39079e7}
+      \strng{bibnamehash}{860967e76deae837345e4697a39079e7}
+      \strng{authorbibnamehash}{860967e76deae837345e4697a39079e7}
+      \strng{authornamehash}{860967e76deae837345e4697a39079e7}
+      \strng{authorfullhash}{860967e76deae837345e4697a39079e7}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Mathematics and Mechanics}
+      \field{title}{Propagation of strong shock waves}
+      \field{volume}{10}
+      \field{year}{1946}
+      \field{pages}{241\bibrangedash 250}
+      \range{pages}{10}
+    \endentry
+    \entry{sedov2018similarity}{book}{}
+      \name{author}{1}{}{%
+        {{hash=860967e76deae837345e4697a39079e7}{%
+           family={Sedov},
+           familyi={S\bibinitperiod},
+           given={Leonid\bibnamedelima Ivanovich},
+           giveni={L\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC press}%
+      }
+      \strng{namehash}{860967e76deae837345e4697a39079e7}
+      \strng{fullhash}{860967e76deae837345e4697a39079e7}
+      \strng{bibnamehash}{860967e76deae837345e4697a39079e7}
+      \strng{authorbibnamehash}{860967e76deae837345e4697a39079e7}
+      \strng{authornamehash}{860967e76deae837345e4697a39079e7}
+      \strng{authorfullhash}{860967e76deae837345e4697a39079e7}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Similarity and dimensional methods in mechanics}
+      \field{year}{1993}
+    \endentry
+    \entry{stakgold2011green}{book}{}
+      \name{author}{2}{}{%
+        {{hash=fb1829e921e454404c2b6133c17de1c7}{%
+           family={Stakgold},
+           familyi={S\bibinitperiod},
+           given={Ivar},
+           giveni={I\bibinitperiod}}}%
+        {{hash=d1a1682b1dcf45c91d8705ee1a54c287}{%
+           family={Holst},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{39fe8e3b6f96af2760e614874f3134df}
+      \strng{fullhash}{39fe8e3b6f96af2760e614874f3134df}
+      \strng{bibnamehash}{39fe8e3b6f96af2760e614874f3134df}
+      \strng{authorbibnamehash}{39fe8e3b6f96af2760e614874f3134df}
+      \strng{authornamehash}{39fe8e3b6f96af2760e614874f3134df}
+      \strng{authorfullhash}{39fe8e3b6f96af2760e614874f3134df}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Green's Functions and Boundary Value Problems}
+      \field{year}{2011}
+    \endentry
+    \entry{steele2004cauchy}{book}{}
+      \name{author}{1}{}{%
+        {{hash=06d75fe5c25083530d589284c63efa6e}{%
+           family={Steele},
+           familyi={S\bibinitperiod},
+           given={J\bibnamedelima Michael},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{06d75fe5c25083530d589284c63efa6e}
+      \strng{fullhash}{06d75fe5c25083530d589284c63efa6e}
+      \strng{bibnamehash}{06d75fe5c25083530d589284c63efa6e}
+      \strng{authorbibnamehash}{06d75fe5c25083530d589284c63efa6e}
+      \strng{authornamehash}{06d75fe5c25083530d589284c63efa6e}
+      \strng{authorfullhash}{06d75fe5c25083530d589284c63efa6e}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Cauchy-Schwarz master class: an introduction to the art of mathematical inequalities}
+      \field{year}{2004}
+    \endentry
+    \entry{Strang}{book}{}
+      \name{author}{1}{}{%
+        {{hash=93733dfde0c47db226efad798ab3b662}{%
+           family={Strang},
+           familyi={S\bibinitperiod},
+           given={Gilbert},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{93733dfde0c47db226efad798ab3b662}
+      \strng{fullhash}{93733dfde0c47db226efad798ab3b662}
+      \strng{bibnamehash}{93733dfde0c47db226efad798ab3b662}
+      \strng{authorbibnamehash}{93733dfde0c47db226efad798ab3b662}
+      \strng{authornamehash}{93733dfde0c47db226efad798ab3b662}
+      \strng{authorfullhash}{93733dfde0c47db226efad798ab3b662}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Linear Algebra and Its Applications}
+      \field{year}{1980}
+    \endentry
+    \entry{taylor1950formationI}{article}{}
+      \name{author}{1}{}{%
+        {{hash=afcf5e4a27132f07402e4fc8ca150a6e}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Geoffrey\bibnamedelima Ingram},
+           giveni={G\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society London}%
+      }
+      \strng{namehash}{afcf5e4a27132f07402e4fc8ca150a6e}
+      \strng{fullhash}{afcf5e4a27132f07402e4fc8ca150a6e}
+      \strng{bibnamehash}{afcf5e4a27132f07402e4fc8ca150a6e}
+      \strng{authorbibnamehash}{afcf5e4a27132f07402e4fc8ca150a6e}
+      \strng{authornamehash}{afcf5e4a27132f07402e4fc8ca150a6e}
+      \strng{authorfullhash}{afcf5e4a27132f07402e4fc8ca150a6e}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences}
+      \field{number}{1065}
+      \field{title}{The Formation of a Blast Wave by a Very Intense Explosion I. Theoretical discussion}
+      \field{volume}{201}
+      \field{year}{1950}
+      \field{pages}{159\bibrangedash 174}
+      \range{pages}{16}
+    \endentry
+    \entry{taylor1950formationII}{article}{}
+      \name{author}{1}{}{%
+        {{hash=afcf5e4a27132f07402e4fc8ca150a6e}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Geoffrey\bibnamedelima Ingram},
+           giveni={G\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society London}%
+      }
+      \strng{namehash}{afcf5e4a27132f07402e4fc8ca150a6e}
+      \strng{fullhash}{afcf5e4a27132f07402e4fc8ca150a6e}
+      \strng{bibnamehash}{afcf5e4a27132f07402e4fc8ca150a6e}
+      \strng{authorbibnamehash}{afcf5e4a27132f07402e4fc8ca150a6e}
+      \strng{authornamehash}{afcf5e4a27132f07402e4fc8ca150a6e}
+      \strng{authorfullhash}{afcf5e4a27132f07402e4fc8ca150a6e}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences}
+      \field{number}{1065}
+      \field{title}{The Formation of a Blast Wave by a Very Intense Explosion II. The Atomic Explosion of 1945}
+      \field{volume}{201}
+      \field{year}{1950}
+      \field{pages}{175\bibrangedash 186}
+      \range{pages}{12}
+    \endentry
+  \enddatalist
+  \missing{laub2004matrix}
+\endrefsection
+\endinput
+

@@ -1,0 +1,63 @@
+\BOOKMARK [0][-]{chapter.1}{Purpose and Scope}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Core Notation}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Model State}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Training Datasets}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Prompts}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.4}{Input Documents and Data Sheets}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.5}{Calibration Corpus}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.6}{Inference Configuration}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Training as an Ordered Operation}{}% 9
+\BOOKMARK [1][-]{section.3.1}{Training Operator}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.2}{Behavioral Effects of Training Order}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.3}{Model States to Compare}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.4}{Ordered Training Sequence}{chapter.3}% 13
+\BOOKMARK [0][-]{chapter.4}{Inference Runs}{}% 14
+\BOOKMARK [0][-]{chapter.5}{Calibration as a Behavioral Probe}{}% 15
+\BOOKMARK [1][-]{section.5.1}{Fixed Calibration Evaluation}{chapter.5}% 16
+\BOOKMARK [1][-]{section.5.2}{Behavioral Dimensions}{chapter.5}% 17
+\BOOKMARK [0][-]{chapter.6}{Factorial Experimental Design}{}% 18
+\BOOKMARK [0][-]{chapter.7}{Persistent Identity and Provenance}{}% 19
+\BOOKMARK [1][-]{section.7.1}{UUIDs}{chapter.7}% 20
+\BOOKMARK [1][-]{section.7.2}{UUIDs and Content Hashes}{chapter.7}% 21
+\BOOKMARK [1][-]{section.7.3}{Immutable Runs}{chapter.7}% 22
+\BOOKMARK [0][-]{chapter.8}{Model Lineage}{}% 23
+\BOOKMARK [0][-]{chapter.9}{Prompt Lineage}{}% 24
+\BOOKMARK [0][-]{chapter.10}{Hallucination Tracking}{}% 25
+\BOOKMARK [1][-]{section.10.1}{Operational Definition}{chapter.10}% 26
+\BOOKMARK [1][-]{section.10.2}{Support Categories}{chapter.10}% 27
+\BOOKMARK [1][-]{section.10.3}{Failure Taxonomy}{chapter.10}% 28
+\BOOKMARK [2][-]{subsection.10.3.1}{Fabrication}{section.10.3}% 29
+\BOOKMARK [2][-]{subsection.10.3.2}{Contradiction}{section.10.3}% 30
+\BOOKMARK [2][-]{subsection.10.3.3}{Overstatement}{section.10.3}% 31
+\BOOKMARK [2][-]{subsection.10.3.4}{Attribution Error}{section.10.3}% 32
+\BOOKMARK [2][-]{subsection.10.3.5}{Traceability Failure}{section.10.3}% 33
+\BOOKMARK [2][-]{subsection.10.3.6}{Unsupported Synthesis}{section.10.3}% 34
+\BOOKMARK [2][-]{subsection.10.3.7}{Omission-Induced Distortion}{section.10.3}% 35
+\BOOKMARK [2][-]{subsection.10.3.8}{Entity Confusion}{section.10.3}% 36
+\BOOKMARK [2][-]{subsection.10.3.9}{Temporal Confusion}{section.10.3}% 37
+\BOOKMARK [2][-]{subsection.10.3.10}{False Precision}{section.10.3}% 38
+\BOOKMARK [0][-]{chapter.11}{Claim-to-Evidence Traceability}{}% 39
+\BOOKMARK [0][-]{chapter.12}{Quantitative Traceability Metrics}{}% 40
+\BOOKMARK [1][-]{section.12.1}{Evidence Coverage}{chapter.12}% 41
+\BOOKMARK [1][-]{section.12.2}{Citation Precision}{chapter.12}% 42
+\BOOKMARK [1][-]{section.12.3}{Evidence Recall}{chapter.12}% 43
+\BOOKMARK [1][-]{section.12.4}{Attribution Accuracy}{chapter.12}% 44
+\BOOKMARK [1][-]{section.12.5}{Unsupported-Claim Rate}{chapter.12}% 45
+\BOOKMARK [1][-]{section.12.6}{Contradiction Rate}{chapter.12}% 46
+\BOOKMARK [1][-]{section.12.7}{Omission Rate}{chapter.12}% 47
+\BOOKMARK [1][-]{section.12.8}{Traceability Completeness}{chapter.12}% 48
+\BOOKMARK [0][-]{chapter.13}{Repeated Runs and Behavioral Stability}{}% 49
+\BOOKMARK [1][-]{section.13.1}{Evidence-Set Similarity}{chapter.13}% 50
+\BOOKMARK [1][-]{section.13.2}{Claim-Set Similarity}{chapter.13}% 51
+\BOOKMARK [1][-]{section.13.3}{Rating Stability}{chapter.13}% 52
+\BOOKMARK [0][-]{chapter.14}{Tracking Variation by Pipeline Stage}{}% 53
+\BOOKMARK [0][-]{chapter.15}{HDF5 as the Experimental Store}{}% 54
+\BOOKMARK [1][-]{section.15.1}{Claim-Support Matrix}{chapter.15}% 55
+\BOOKMARK [1][-]{section.15.2}{Evidence-Selection Matrix}{chapter.15}% 56
+\BOOKMARK [1][-]{section.15.3}{Recommended HDF5 Content}{chapter.15}% 57
+\BOOKMARK [0][-]{chapter.16}{Hybrid Storage Architecture}{}% 58
+\BOOKMARK [0][-]{chapter.17}{File Organization}{}% 59
+\BOOKMARK [0][-]{chapter.18}{Participant and Entity Tracking}{}% 60
+\BOOKMARK [0][-]{chapter.19}{Questions the Project Can Answer}{}% 61
+\BOOKMARK [0][-]{chapter.20}{Recommended Experimental Workflow}{}% 62
+\BOOKMARK [0][-]{chapter.21}{Central Research Question}{}% 63

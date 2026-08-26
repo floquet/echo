@@ -1,0 +1,34 @@
+% \input{\pLocalTheorems "thm-no-existence"}
+%
+\begin{theorem}[Nonexistence of Linear Operator]
+For a given vector $t\in\real{m}$ as described in \eqref{eq:mesh}, and a number $b\in\real{}\setminus\{1\}$, there is no linear operator $\A{}\in\cmplx{m\times m}$ such that
+		%
+\begin{equation}
+	\A{}t = t^{b}.
+\label{eq:nope}
+\end{equation}
+		%
+\label{thm:no-existence}
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+	If $\A{}$ is a linear operator, then it satisfies both $\A{}t + \A{}t = \A{}(t + t)= \A{}(2t)$ and $\A{}t + \A{}t = 2\A{}t$ implying $2\A{}t =\A{}(2t)$. However, using the definition \eqref{eq:nope} this equality is violated by the nominated operator
+			%
+%\begin{equation*}
+%\begin{split}
+%	2\A{}t &\ne  \A{}(2t), \\
+%	2t^{b} &\ne (2t)^{b},
+%\end{split}
+%%\label{eq:}
+%\end{equation*}
+			%
+\begin{equation*}
+	2t^{b} \ne (2t)^{b},
+%\label{eq:}
+\end{equation*}
+		%
+except when $b=1$.
+\end{proof}
+%
+%
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

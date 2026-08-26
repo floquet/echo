@@ -1,0 +1,135 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{vee1999parallel}
+\citation{Zeigler1989}
+\@writefile{toc}{\contentsline {section}{Abstract}{1}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Context and Motivation}{1}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Contributions}{1}{subsection.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Paper Organization}{1}{subsection.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Background and Related Work}{1}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}PDES and Satellite Simulations}{1}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}HPC for Orbital Simulations}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Challenges in HPC for PDES}{2}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Scalability Challenges}{2}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Synchronization Overhead}{2}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Communication Latency}{2}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Memory and Storage Constraints}{2}{section*.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Event Scheduling and Ordering}{2}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Fault Tolerance}{2}{section*.10}\protected@file@percent }
+\citation{olivier2008simulation}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Prior Work on PDES for Space Engagements}{3}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}HPC Tools for Developing Parallel Codes}{3}{subsection.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Adaptive PDES for Localized, Asynchronous Space Engagements}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Where Traditional PDES Falls Short}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Causal Bubbles: Localizing Interactions}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Causally Disconnected Bubbles: Localizing Interactions}{3}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Multi-Time Scale Synchronization}{3}{subsection.3.4}\protected@file@percent }
+\citation{reid2010coarrays,mellor2009new,ge2015evaluation}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Illustration of two independent engagements in an $e=\sqrt  {3}/2$ elliptical orbit. At perihelion, a 2-red-on-3-blue engagement unfolds, while at aphelion, a 3-red-on-2-blue encounter occurs. These engagements are causally disconnected—separated by vast distances and hours of orbital evolution. No immediate interaction or synchronization is required, exemplifying the concept of causal bubbles in PDES. Only when orbital dynamics bring these regions into proximity does synchronization become necessary.\relax }}{4}{figure.caption.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Event-Driven Logging and Communication}{4}{subsection.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Fortran: Rethinking Parallelism with Coarrays}{4}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}The Real Challenge: PDES at HPC Scale}{4}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Fortran: The Unique Intersection of Parallelism and Vector Arithmetic}{4}{subsection.4.2}\protected@file@percent }
+\citation{curcic2020modern,Hanson2013,markus2012modern,metcalf2024modern}
+\citation{reid2010coarrays}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Vector $\cap $ Parallel $=$ Fortran. Fortran sits at the crossroads of numerical vectorization and large-scale parallelism, uniquely bridging both worlds in high-performance computing.\relax }}{5}{figure.caption.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Coarray Fortran: Parallelism Without the MPI Burden}{5}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Why Coarrays Over MPI for Satellite Engagements}{5}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Parallel Representation of Satellite Teams Using Coarrays}{5}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Challenges: Where Coarrays Still Fall Short}{5}{subsection.4.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Challenges: Where Coarrays Still Fall Short}{5}{subsection.4.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Fortran: Abstracting away the machine. Compiler evolution and the simplification using vector addition in assembly, F77, and F90.\relax }}{6}{table.caption.13}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Comparison of Coarrays vs. MPI for Satellite Engagements\relax }}{6}{table.caption.14}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:coarrays_vs_mpi}{{2}{6}{Comparison of Coarrays vs. MPI for Satellite Engagements\relax }{table.caption.14}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Comparison of MPI and Coarray Fortran for initialization, communication, and synchronization. Coarray commands and syntax highlighted in blue.\relax }}{6}{table.caption.15}\protected@file@percent }
+\newlabel{tab:mpi-vs-coarrays}{{3}{6}{Comparison of MPI and Coarray Fortran for initialization, communication, and synchronization. Coarray commands and syntax highlighted in blue.\relax }{table.caption.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Taming Parallelism: Coarray Fortran and Image Teams in Practice}{6}{section.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Mission Level Engagement Teams at $t_{0}$\relax }}{7}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:t0}{{3}{7}{Mission Level Engagement Teams at $t_{0}$\relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Mission Level Engagement Teams at $t_{f}$\relax }}{7}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:tf}{{4}{7}{Mission Level Engagement Teams at $t_{f}$\relax }{figure.caption.17}{}}
+\citation{mellor2009new}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Survivors Regroup for a New Engagement\relax }}{8}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:tlater}{{5}{8}{Survivors Regroup for a New Engagement\relax }{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Independent Propagation First: Removing Global Dependencies}{8}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Synchronization and Event Handling: Smarter Syncing}{8}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Scaling Beyond Compiler Limitations: A Pragmatic Hybrid Approach}{8}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Understanding the Diagrams: Image Teams in Action}{8}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Comparing Image Teams and MPI: Strengths and Limitations}{8}{subsection.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.1}Benefits of MPI}{8}{subsubsection.5.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.2}Drawbacks of Image Teams}{8}{subsubsection.5.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.3}When to Use MPI vs. Image Teams}{8}{subsubsection.5.5.3}\protected@file@percent }
+\citation{courtland2009satellite,newman2009s,Wang:2010aa}
+\citation{hildreth2014threats}
+\citation{jodice2014space}
+\citation{storz2001space}
+\citation{Kessler}
+\citation{anz2023history}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Future Vision: Can Coarrays Achieve What HPF Could Not?}{9}{subsection.5.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Defining the Engagement Problem: Multi-Agent Orbital Scenarios}{9}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}The Need for Large-Scale Simulations}{9}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Space Debris}{9}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.1}Cooperative Observation and Computation}{9}{subsubsection.6.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.2}Unfavorable Geometry}{9}{subsubsection.6.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The two point solution with a degree of freedom in the rotation angle $\phi $. While the arrows always point at $p_{0}$, the solution breaks down when the lines are collinear.\relax }}{9}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:example-elbow-rotate}{{6}{9}{The two point solution with a degree of freedom in the rotation angle $\phi $. While the arrows always point at $p_{0}$, the solution breaks down when the lines are collinear.\relax }{figure.caption.19}{}}
+\newlabel{eq:xls}{{6}{9}{Unfavorable Geometry}{equation.6.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.3}Triangulation in $\mathbb  {R}^3$}{9}{subsubsection.6.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.4}Linear System Representation}{9}{subsubsection.6.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.5}Dot Products and Hadamard Products}{9}{subsubsection.6.2.5}\protected@file@percent }
+\newlabel{eq:ax=b}{{5}{10}{Unfavorable Geometry}{equation.6.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.6}Inverse of the Product Matrix}{10}{subsubsection.6.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.7}Condition Number Analysis}{10}{subsubsection.6.2.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.8}Ghost Debris}{10}{subsubsection.6.2.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.9}Conclusion}{10}{subsubsection.6.2.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Multi-Agent Scenarios: Red on Blue in Dynamic Orbits}{10}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Command and Control Considerations}{10}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}AI/ML as a Complementary Use Case}{10}{subsection.6.5}\protected@file@percent }
+\bibstyle{ACM-Reference-Format}
+\bibdata{/Users/dantopa/GitHub/latex-2025/bibs/coarray,/Users/dantopa/GitHub/latex-2025/bibs/fortran,/Users/dantopa/GitHub/latex-2025/bibs/orbits,/Users/dantopa/GitHub/latex-2025/bibs/pdes,/Users/dantopa/GitHub/latex-2025/bibs/space-debris}
+\bibcite{anz2023history}{{1}{2023}{{Anz-Meador et~al\mbox  {.}}}{{Anz-Meador, Opiela, and Liou}}}
+\bibcite{courtland2009satellite}{{2}{2009}{{Courtland}}{{Courtland}}}
+\bibcite{curcic2020modern}{{3}{2020}{{Curcic}}{{Curcic}}}
+\bibcite{DIA2019Challenges}{{4}{2019}{{{Defense Intelligence Agency}}}{{{Defense Intelligence Agency}}}}
+\bibcite{ge2015evaluation}{{5}{2015}{{Ge et~al\mbox  {.}}}{{Ge, Eachempati, Khaldi, and Chapman}}}
+\bibcite{Hanson2013}{{6}{2013}{{Hanson and Hopkins}}{{Hanson and Hopkins}}}
+\bibcite{hildreth2014threats}{{7}{2014}{{Hildreth and Arnold}}{{Hildreth and Arnold}}}
+\bibcite{jodice2014space}{{8}{2014}{{Jodice and Guerber}}{{Jodice and Guerber}}}
+\bibcite{markus2012modern}{{9}{2012}{{Markus}}{{Markus}}}
+\bibcite{mellor2009new}{{10}{2009}{{Mellor-Crummey et~al\mbox  {.}}}{{Mellor-Crummey, Adhianto, Scherer~III, and Jin}}}
+\bibcite{metcalf2024modern}{{11}{2024}{{Metcalf et~al\mbox  {.}}}{{Metcalf, Reid, Cohen, and Bader}}}
+\bibcite{newman2009s}{{12}{2009}{{Newman et~al\mbox  {.}}}{{Newman, Frigm, and McKinley}}}
+\bibcite{olivier2008simulation}{{13}{2008}{{Olivier et~al\mbox  {.}}}{{Olivier et~al\mbox  {.}}}}
+\bibcite{reid2010coarrays}{{14}{2010}{{Reid}}{{Reid}}}
+\bibcite{storz2001space}{{15}{2001}{{Storz et~al\mbox  {.}}}{{Storz, Bowman, and Branson}}}
+\bibcite{vee1999parallel}{{16}{1999}{{Vee and Hsu}}{{Vee and Hsu}}}
+\bibcite{Wang:2010aa}{{17}{2010}{{Wang}}{{Wang}}}
+\bibcite{Zeigler1989}{{18}{1989}{{Ziegler et~al\mbox  {.}}}{{Ziegler, Hu, and Rosenblit}}}
+\newlabel{tocindent-1}{0pt}
+\newlabel{tocindent0}{0pt}
+\newlabel{tocindent1}{4.185pt}
+\newlabel{tocindent2}{10.34999pt}
+\newlabel{tocindent3}{18.198pt}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion and Future Work}{11}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Key Takeaways}{11}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Future Directions}{11}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{11}{section*.22}\protected@file@percent }
+\newlabel{TotPages}{{11}{11}{}{page.11}{}}

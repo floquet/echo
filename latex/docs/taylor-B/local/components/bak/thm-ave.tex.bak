@@ -1,0 +1,43 @@
+% \input{local/theorems-local/thm-ave}
+
+\begin{lemma}\label{Tave}[Differences and Averaging]
+Given vectors $u, v, \alpha \in\cmplx{m}$, $m\ge 2$, the average of the differences is equal to the difference of the averages.
+\label{thm:ave}
+\end{lemma}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+   
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+%
+Start with the vector equation
+		%
+\begin{equation*}
+	v - u = \alpha
+%\label{eq:}
+\end{equation*}
+		%
+Form the inner products with $\one$, the unit vector of length $m$,
+		%
+\begin{equation*}
+	\itwo{\one}{v-u} = \itwo{\one}{\Delta}
+%\label{eq:}
+\end{equation*}
+		%
+Form the mean values by division with $\innerSelf{\one} = m$ to find
+		%
+\begin{equation*}
+	\overline{v-u} = \overline{\alpha}.
+%\label{eq:}
+\end{equation*}
+%
+As the average is a linear operation
+		%
+\begin{equation*}
+	\overline{v-u} = \overline{v} - \overline{u }.
+%\label{eq:}
+\end{equation*}
+		%
+\end{proof}
+%
+%
+\endinput  %  ==  ==  ==  ==  ==  ==  ==  ==  ==

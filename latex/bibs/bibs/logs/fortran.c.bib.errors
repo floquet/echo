@@ -1,0 +1,10 @@
+Line 1: Escaped '%' in line: \%\% This BibTeX bibliography file was created using BibDesk.
+Line 2: Escaped '%' in line: \%\% https://bibdesk.sourceforge.io/
+Line 4: Escaped '%' in line: \%\% Created for Daniel M. Topa at 2025-01-11 11:20:43 -0700
+Line 7: Escaped '%' in line: \%\% Saved with string encoding Unicode (UTF-8)
+Line 32: Escaped '%' in line: abstract = {This is a Fortran 90 test program package of "qlog1p", "dlog1p", and "slog1p", the quadruple, double, and single precision programs to compute a special logarithm function, log1p(x) = log(1+x), accurately by mini-max rational approximations. "qlog1p", "dlog1p", and "slog1p" keep 33, 16, and 9 digit accuracy for arbitrary value of x, especially even when |x| is small. They are fast in the sense that "dlog1p" and "slog1p" run 20\\% and 30\\% faster than "dlog(x)" in the standard math library, respectively, while "qlog1p" runs 9 times slower than "qlog(x)".},
+Line 35: Invalid month '10' found; consider fixing.
+Line 44: Invalid month '05' found; consider fixing.
+Line 52: Invalid month '02' found; consider fixing.
+Line 58: Escaped '&' in line: publisher = {Springer Science \\& Business Media},
+Line 69: Escaped '&' in line: publisher = {Springer Science \\& Business Media},

@@ -1,0 +1,1736 @@
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {1}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {2}{2}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{3}{3/3}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {3}{3}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{4}{4/4}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {4}{4}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{5}{5/5}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {5}{5}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{6}{6/6}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {6}{6}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{6}{6/7}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {6}{7}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{6}{6/8}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {6}{8}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{6}{6/9}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {6}{9}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{6}{6/10}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {6}{10}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{6}{6/11}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {6}{11}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {1}{11}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {1}{11}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {1}{Least Squares Problem}{12}{Least Squares Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{1}{12/13}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {12}{13}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {12}{13}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{1}{1}{14}{Input Data}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{1}{14/14}{Input Data}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {14}{14}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{2}{15/15}{Input Data}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {15}{15}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{3}{16/16}{Input Data}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {16}{16}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{4}{17/17}{Input Data}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {17}{17}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{5}{18/19}{Input Data}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {18}{19}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{6}{20/20}{Input Data}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {20}{20}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{7}{21/21}{Input Data}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {21}{21}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{8}{22/23}{Input Data}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {22}{23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{9}{24/24}{Input Data}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {24}{24}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{10}{25/25}{Input Data}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {25}{25}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{11}{26/26}{Input Data}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {26}{26}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{12}{27/27}{Input Data}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {27}{27}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {14}{27}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{1}{2}{28}{Linear Model}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{2}{1}{28/28}{Linear Model}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {28}{28}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{2}{2}{29/29}{Linear Model}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {29}{29}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{2}{3}{30/31}{Linear Model}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {30}{31}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {28}{31}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{1}{3}{32}{Differential Equations}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{3}{1}{32/32}{Differential Equations}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {32}{32}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{3}{2}{33/33}{Differential Equations}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {33}{33}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{3}{3}{34/34}{Differential Equations}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {34}{34}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{3}{4}{35/35}{Differential Equations}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {35}{35}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {32}{35}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{1}{4}{36}{Solving the Laplace Equation}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{4}{1}{36/36}{Solving the Laplace Equation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {36}{36}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{4}{2}{37/37}{Solving the Laplace Equation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {37}{37}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {36}{37}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{1}{5}{38}{Model Creation}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{5}{1}{38/39}{Model Creation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {38}{39}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{5}{2}{40/40}{Model Creation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {40}{40}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{5}{3}{41/41}{Model Creation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {41}{41}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{5}{4}{42/42}{Model Creation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {42}{42}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{5}{5}{43/43}{Model Creation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {43}{43}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {12}{43}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {38}{43}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {2}{Least Squares Tools}{44}{Least Squares Tools}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{1}{44/44}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {44}{44}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {44}{44}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{2}{1}{45}{FTOLA}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{1}{1}{45/45}{FTOLA}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {45}{45}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{1}{2}{46/46}{FTOLA}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {46}{46}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{1}{3}{47/47}{FTOLA}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {47}{47}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{1}{4}{48/48}{FTOLA}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {48}{48}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{1}{5}{49/49}{FTOLA}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {49}{49}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{1}{6}{50/50}{FTOLA}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {50}{50}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{1}{7}{51/51}{FTOLA}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {51}{51}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {45}{51}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{2}{2}{52}{The Fredholm Alternative}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{2}{1}{52/53}{The Fredholm Alternative}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {52}{53}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{2}{2}{54/54}{The Fredholm Alternative}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {54}{54}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{2}{3}{55/55}{The Fredholm Alternative}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {55}{55}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{2}{4}{56/56}{The Fredholm Alternative}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {56}{56}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{2}{5}{57/57}{The Fredholm Alternative}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {57}{57}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{2}{6}{58/58}{The Fredholm Alternative}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {58}{58}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{2}{7}{59/59}{The Fredholm Alternative}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {59}{59}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{2}{8}{60/60}{The Fredholm Alternative}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {60}{60}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{2}{9}{61/61}{The Fredholm Alternative}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {61}{61}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{2}{10}{62/62}{The Fredholm Alternative}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {62}{62}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {52}{62}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{2}{3}{63}{The Singular Value Decomposition (SVD)}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{1}{63/63}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {63}{63}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{2}{64/64}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {64}{64}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{2}{3}{1}{65}{Definition}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{3}{65/65}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {65}{65}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{4}{66/66}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {66}{66}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{5}{67/67}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {67}{67}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{6}{68/68}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {68}{68}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{7}{69/69}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {69}{69}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{8}{70/70}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {70}{70}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{9}{71/71}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {71}{71}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{10}{72/72}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {72}{72}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{2}{3}{2}{73}{Sabot Matrix}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{11}{73/73}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {73}{73}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{12}{74/74}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {74}{74}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{13}{75/75}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {75}{75}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{14}{76/76}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {76}{76}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{15}{77/77}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {77}{77}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{16}{78/78}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {78}{78}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{17}{79/79}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {79}{79}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{2}{3}{3}{80}{Mapping Actions}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{18}{80/80}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {80}{80}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{19}{81/81}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {81}{81}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{2}{3}{4}{82}{Least Squares Solution}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{20}{82/82}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {82}{82}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{21}{83/83}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {83}{83}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{22}{84/84}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {84}{84}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{23}{85/85}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {85}{85}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{2}{3}{5}{86}{Matrix Pseudoinverse}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{24}{86/86}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {86}{86}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{25}{87/87}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {87}{87}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{26}{88/88}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {88}{88}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{27}{89/89}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {89}{89}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{28}{90/90}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {90}{90}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{29}{91/91}{The Singular Value Decomposition (SVD)}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {91}{91}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {63}{91}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{2}{4}{92}{Linear Algebra Solution}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{1}{92/92}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {92}{92}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{2}{93/93}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {93}{93}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{3}{94/94}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {94}{94}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{4}{95/95}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {95}{95}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{5}{96/96}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {96}{96}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{6}{97/97}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {97}{97}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{2}{4}{1}{98}{Calculus Solution}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{2}{4}{2}{98}{Seeing the Solution}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{7}{98/99}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {98}{99}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{8}{100/100}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {100}{100}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{9}{101/101}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {101}{101}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{10}{102/102}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {102}{102}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{2}{4}{3}{103}{Matrix Pseudoinverse}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{11}{103/103}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {103}{103}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{12}{104/104}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {104}{104}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{13}{105/105}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {105}{105}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{14}{106/106}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {106}{106}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{15}{107/107}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {107}{107}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{16}{108/108}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {108}{108}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{17}{109/109}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {109}{109}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{18}{110/110}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {110}{110}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{19}{111/111}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {111}{111}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{20}{112/112}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {112}{112}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{2}{4}{4}{113}{Seeing $9-$vectors}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{21}{113/113}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {113}{113}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{22}{114/114}{Linear Algebra Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {114}{114}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {92}{114}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{2}{5}{115}{Bounding Errors}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{5}{1}{115/115}{Bounding Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {115}{115}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{5}{2}{116/116}{Bounding Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {116}{116}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{5}{3}{117/117}{Bounding Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {117}{117}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {115}{117}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{2}{6}{118}{Least Squares Solutions}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{1}{118/118}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {118}{118}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{2}{119/119}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {119}{119}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{2}{6}{1}{120}{Numerical Solution via Normal Equations}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{3}{120/120}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {120}{120}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{4}{121/121}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {121}{121}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{5}{122/122}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {122}{122}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{6}{123/123}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {123}{123}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{7}{124/124}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {124}{124}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{8}{125/125}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {125}{125}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{2}{6}{2}{126}{Numerical Solution via $\mathbf {QR}{}$ Decomposition}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{9}{126/126}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {126}{126}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{10}{127/127}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {127}{127}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{11}{128/128}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {128}{128}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{12}{129/129}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {129}{129}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{13}{130/130}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {130}{130}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{14}{131/131}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {131}{131}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{15}{132/132}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {132}{132}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{16}{133/133}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {133}{133}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{2}{6}{3}{134}{Numerical Solution via Singular Value Decomposition}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{17}{134/134}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {134}{134}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{18}{135/135}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {135}{135}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{19}{136/136}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {136}{136}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{20}{137/137}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {137}{137}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{21}{138/138}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {138}{138}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{22}{139/139}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {139}{139}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{23}{140/140}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {140}{140}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{24}{141/141}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {141}{141}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{25}{142/142}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {142}{142}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{26}{143/143}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {143}{143}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{27}{144/144}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {144}{144}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{28}{145/145}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {145}{145}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{29}{146/146}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {146}{146}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{30}{147/147}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {147}{147}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{31}{148/148}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {148}{148}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{32}{149/149}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {149}{149}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{6}{33}{150/150}{Least Squares Solutions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {150}{150}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {44}{150}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {118}{150}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {3}{Error Propagation}{151}{Error Propagation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{1}{151/151}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {151}{151}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{2}{152/152}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {152}{152}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {151}{152}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{3}{1}{153}{Examples}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{1}{153/153}{Examples}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {153}{153}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{3}{1}{1}{154}{Rectangle Area}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{2}{154/154}{Examples}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {154}{154}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{3}{1}{2}{155}{Rectangle Perimeter}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{3}{155/155}{Examples}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {155}{155}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{4}{156/156}{Examples}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {156}{156}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{5}{157/157}{Examples}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {157}{157}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{6}{158/158}{Examples}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {158}{158}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {153}{158}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{3}{2}{159}{Rules}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{2}{1}{159/160}{Rules}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {159}{160}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{2}{2}{161/161}{Rules}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {161}{161}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{2}{3}{162/162}{Rules}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {162}{162}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{2}{4}{163/163}{Rules}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {163}{163}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{2}{5}{164/164}{Rules}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {164}{164}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {159}{164}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{3}{3}{165}{Specific Formulas}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{3}{1}{165/165}{Specific Formulas}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {165}{165}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{3}{3}{1}{166}{Addition \& Subtraction}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{3}{2}{166/166}{Specific Formulas}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {166}{166}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{3}{3}{2}{167}{Multiplication \& Division}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{3}{3}{167/167}{Specific Formulas}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {167}{167}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{3}{3}{167/168}{Specific Formulas}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {167}{168}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{3}{4}{169/169}{Specific Formulas}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {169}{169}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{3}{4}{169/170}{Specific Formulas}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {169}{170}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{3}{3}{3}{171}{Powers}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{3}{5}{171/171}{Specific Formulas}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {171}{171}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{3}{3}{4}{172}{Exponentials}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{3}{6}{172/172}{Specific Formulas}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {172}{172}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{3}{3}{5}{173}{Logarithms}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{3}{7}{173/173}{Specific Formulas}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {173}{173}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {165}{173}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{3}{4}{174}{Least Squares Error Propagation}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{3}{4}{1}{174}{Normal Equations Error Propagation}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{4}{1}{174/175}{Least Squares Error Propagation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {174}{175}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{4}{2}{176/176}{Least Squares Error Propagation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {176}{176}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{4}{3}{177/177}{Least Squares Error Propagation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {177}{177}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{4}{4}{178/178}{Least Squares Error Propagation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {178}{178}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{4}{5}{179/179}{Least Squares Error Propagation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {179}{179}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{3}{4}{2}{180}{\bf {QR} Error Propagation}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{3}{4}{3}{180}{SVD Error Propagation}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {151}{179}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {174}{179}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {4}{Verification \& Validation}{180}{Verification \& Validation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{1}{180/180}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {180}{180}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{2}{181/181}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {181}{181}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{3}{182/183}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {182}{183}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{4}{184/184}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {184}{184}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{5}{185/185}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {185}{185}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{6}{186/186}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {186}{186}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {180}{186}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{4}{1}{187}{Ver: Visual Confirmation of the Minimum}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{1}{1}{187/187}{Ver: Visual Confirmation of the Minimum}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {187}{187}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{1}{2}{188/188}{Ver: Visual Confirmation of the Minimum}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {188}{188}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{1}{3}{189/189}{Ver: Visual Confirmation of the Minimum}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {189}{189}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{1}{4}{190/190}{Ver: Visual Confirmation of the Minimum}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {190}{190}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{1}{5}{191/191}{Ver: Visual Confirmation of the Minimum}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {191}{191}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{1}{6}{192/192}{Ver: Visual Confirmation of the Minimum}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {192}{192}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{1}{7}{193/193}{Ver: Visual Confirmation of the Minimum}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {193}{193}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {187}{193}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{4}{2}{194}{Ver: Verification of Code}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{1}{194/194}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {194}{194}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{4}{2}{1}{195}{External Verification}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{2}{195/195}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {195}{195}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{3}{196/196}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {196}{196}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{4}{197/197}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {197}{197}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{5}{198/198}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {198}{198}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{6}{199/199}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {199}{199}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{7}{200/200}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {200}{200}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{8}{201/201}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {201}{201}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{9}{202/202}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {202}{202}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{10}{203/203}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {203}{203}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{11}{204/204}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {204}{204}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{12}{205/205}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {205}{205}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{13}{206/206}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {206}{206}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{14}{207/207}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {207}{207}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{4}{2}{2}{208}{LAPACK}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{15}{208/208}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {208}{208}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{16}{209/209}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {209}{209}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{17}{210/210}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {210}{210}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{18}{211/211}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {211}{211}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{19}{212/212}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {212}{212}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{20}{213/213}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {213}{213}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{21}{214/214}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {214}{214}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{22}{215/215}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {215}{215}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{23}{216/216}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {216}{216}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{24}{217/217}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {217}{217}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{25}{218/218}{Ver: Verification of Code}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {218}{218}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{4}{2}{3}{219}{Basics}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {194}{218}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{4}{3}{219}{Ver: Perturbative Analysis of Solution}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{1}{219/219}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {219}{219}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{4}{3}{1}{220}{Perturb Solution}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{2}{220/220}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {220}{220}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{3}{221/221}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {221}{221}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{4}{222/222}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {222}{222}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{5}{223/223}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {223}{223}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{6}{224/224}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {224}{224}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{7}{225/225}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {225}{225}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{8}{226/226}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {226}{226}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{9}{227/227}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {227}{227}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{4}{3}{2}{228}{Perturb Data}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{10}{228/228}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {228}{228}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{11}{229/229}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {229}{229}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{12}{230/230}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {230}{230}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{13}{231/231}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {231}{231}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{14}{232/232}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {232}{232}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{15}{233/233}{Ver: Perturbative Analysis of Solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {233}{233}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {219}{233}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{4}{4}{234}{Val: Understanding $\sigma $}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{4}{1}{234/234}{Val: Understanding $\sigma $}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {234}{234}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{4}{2}{235/235}{Val: Understanding $\sigma $}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {235}{235}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{4}{3}{236/236}{Val: Understanding $\sigma $}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {236}{236}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{4}{4}{237/237}{Val: Understanding $\sigma $}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {237}{237}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{4}{5}{238/238}{Val: Understanding $\sigma $}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {238}{238}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{4}{6}{239/239}{Val: Understanding $\sigma $}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {239}{239}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{4}{7}{240/240}{Val: Understanding $\sigma $}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {240}{240}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{4}{8}{241/241}{Val: Understanding $\sigma $}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {241}{241}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {234}{241}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{4}{5}{242}{Val: Seeing Uncertainty}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{5}{1}{242/242}{Val: Seeing Uncertainty}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {242}{242}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{5}{2}{243/243}{Val: Seeing Uncertainty}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {243}{243}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{5}{3}{244/244}{Val: Seeing Uncertainty}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {244}{244}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{5}{4}{245/245}{Val: Seeing Uncertainty}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {245}{245}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{5}{5}{246/246}{Val: Seeing Uncertainty}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {246}{246}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{5}{6}{247/247}{Val: Seeing Uncertainty}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {247}{247}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{5}{7}{248/248}{Val: Seeing Uncertainty}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {248}{248}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {180}{248}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {242}{248}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {5}{Uncertainty Quantification}{249}{Uncertainty Quantification}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{1}{249/249}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {249}{249}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{2}{250/250}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {250}{250}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {249}{250}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{5}{1}{251}{Analysis of Residual Errors}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{1}{251/251}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {251}{251}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{2}{252/252}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {252}{252}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{5}{1}{1}{253}{Mean Value of the Residuals}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{3}{253/253}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {253}{253}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{4}{254/254}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {254}{254}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{5}{255/255}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {255}{255}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{6}{256/256}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {256}{256}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{5}{1}{2}{257}{Population}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{7}{257/257}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {257}{257}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{8}{258/258}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {258}{258}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{5}{1}{3}{259}{Correlation}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{9}{259/259}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {259}{259}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{10}{260/260}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {260}{260}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{11}{261/261}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {261}{261}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{12}{262/262}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {262}{262}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{13}{263/263}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {263}{263}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{14}{264/264}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {264}{264}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{15}{265/265}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {265}{265}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{16}{266/266}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {266}{266}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{17}{267/267}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {267}{267}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{18}{268/268}{Analysis of Residual Errors}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {268}{268}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {251}{268}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{5}{2}{269}{Convergence Analysis}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{2}{1}{269/269}{Convergence Analysis}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {269}{269}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{2}{2}{270/270}{Convergence Analysis}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {270}{270}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{2}{3}{271/271}{Convergence Analysis}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {271}{271}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {269}{271}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{5}{3}{272}{Improving Precision}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{3}{1}{272/272}{Improving Precision}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {272}{272}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{3}{2}{273/273}{Improving Precision}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {273}{273}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{3}{3}{274/274}{Improving Precision}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {274}{274}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{3}{4}{275/275}{Improving Precision}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {275}{275}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{3}{5}{276/276}{Improving Precision}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {276}{276}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{3}{6}{277/277}{Improving Precision}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {277}{277}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{3}{7}{278/278}{Improving Precision}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {278}{278}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {272}{278}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{5}{4}{279}{Signal To Noise}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{4}{1}{279/279}{Signal To Noise}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {279}{279}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{4}{2}{280/280}{Signal To Noise}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {280}{280}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{4}{3}{281/282}{Signal To Noise}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {281}{282}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{4}{4}{283/283}{Signal To Noise}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {283}{283}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {279}{283}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{5}{5}{284}{Statistical Uncertainty Reduction}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{5}{1}{284/284}{Statistical Uncertainty Reduction}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {284}{284}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{5}{2}{285/285}{Statistical Uncertainty Reduction}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {285}{285}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{5}{3}{286/286}{Statistical Uncertainty Reduction}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {286}{286}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{5}{4}{287/288}{Statistical Uncertainty Reduction}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {287}{288}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{5}{5}{289/289}{Statistical Uncertainty Reduction}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {289}{289}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{5}{6}{290/290}{Statistical Uncertainty Reduction}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {290}{290}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{5}{7}{291/291}{Statistical Uncertainty Reduction}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {291}{291}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{5}{8}{292/292}{Statistical Uncertainty Reduction}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {292}{292}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {284}{292}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{5}{6}{293}{Interpolation}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{6}{1}{293/293}{Interpolation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {293}{293}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{6}{2}{294/296}{Interpolation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {294}{296}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{6}{3}{297/297}{Interpolation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {297}{297}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{6}{4}{298/298}{Interpolation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {298}{298}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{6}{5}{299/299}{Interpolation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {299}{299}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {249}{299}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {293}{299}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {6}{Backup Section}{300}{Backup Section}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{1}{300/300}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {300}{300}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {300}{300}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{6}{1}{301}{Beamer Basics}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{6}{1}{1}{301}{Navigation}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{1}{301/301}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {301}{301}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{2}{302/302}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {302}{302}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{3}{303/303}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {303}{303}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{4}{304/304}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {304}{304}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{5}{305/305}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {305}{305}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{6}{306/306}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {306}{306}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{7}{307/307}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {307}{307}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{8}{308/308}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {308}{308}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{6}{1}{2}{309}{Macros}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{9}{309/309}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {309}{309}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{10}{310/310}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {310}{310}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{11}{311/311}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {311}{311}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{12}{312/312}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {312}{312}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{13}{313/313}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {313}{313}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{14}{314/314}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {314}{314}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{15}{315/315}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {315}{315}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{16}{316/316}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {316}{316}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{17}{317/317}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {317}{317}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{6}{1}{3}{318}{Computer Code Interpretation}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{18}{318/318}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {318}{318}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{1}{19}{319/319}{Beamer Basics}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {319}{319}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {301}{319}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{6}{2}{320}{Tarantola Inverse Problem}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{1}{320/320}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {320}{320}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{2}{321/321}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {321}{321}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{6}{2}{1}{322}{Problem $7.1$}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{3}{322/322}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {322}{322}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{6}{2}{2}{323}{Measurement Sequence}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{4}{323/323}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {323}{323}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{5}{324/324}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {324}{324}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{6}{325/325}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {325}{325}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{7}{326/326}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {326}{326}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{8}{327/327}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {327}{327}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{9}{328/328}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {328}{328}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{10}{329/329}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {329}{329}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{6}{2}{3}{330}{$10^{6}$ Simulations: Analysis}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{11}{330/330}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {330}{330}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{12}{331/332}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {331}{332}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{13}{333/333}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {333}{333}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{14}{334/334}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {334}{334}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{15}{335/335}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {335}{335}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{16}{336/336}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {336}{336}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{17}{337/337}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {337}{337}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{18}{338/338}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {338}{338}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{19}{339/339}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {339}{339}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{20}{340/340}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {340}{340}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{21}{341/341}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {341}{341}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{22}{342/342}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {342}{342}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{6}{2}{4}{343}{Tight Grid Array}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{23}{343/343}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {343}{343}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{24}{344/344}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {344}{344}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{6}{2}{5}{345}{Other Arrays}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{25}{345/345}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {345}{345}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{26}{346/346}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {346}{346}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{27}{347/347}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {347}{347}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{2}{28}{348/348}{Tarantola Inverse Problem}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {348}{348}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {320}{348}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{6}{3}{349}{Why Least Squares?}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsubsectionentry {0}{6}{3}{1}{349}{Norms}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{1}{349/349}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {349}{349}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{2}{350/350}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {350}{350}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{3}{351/351}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {351}{351}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{4}{352/352}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {352}{352}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{5}{353/353}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {353}{353}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{6}{354/354}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {354}{354}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{7}{355/355}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {355}{355}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{8}{356/356}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {356}{356}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{9}{357/357}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {357}{357}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{10}{358/358}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {358}{358}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{11}{359/359}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {359}{359}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{12}{360/360}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {360}{360}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{13}{361/361}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {361}{361}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{14}{362/362}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {362}{362}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{15}{363/363}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {363}{363}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{16}{364/364}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {364}{364}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{3}{17}{365/365}{Why Least Squares?}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {365}{365}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {349}{365}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{6}{4}{366}{Least Squares Terminology}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{4}{1}{366/366}{Least Squares Terminology}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {366}{366}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{4}{2}{367/367}{Least Squares Terminology}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {367}{367}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{4}{3}{368/368}{Least Squares Terminology}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {368}{368}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{4}{4}{369/369}{Least Squares Terminology}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {369}{369}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{4}{5}{370/370}{Least Squares Terminology}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {370}{370}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{4}{6}{371/371}{Least Squares Terminology}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {371}{371}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{4}{7}{372/372}{Least Squares Terminology}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {372}{372}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{4}{8}{373/373}{Least Squares Terminology}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {373}{373}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{4}{9}{374/374}{Least Squares Terminology}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {374}{374}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{4}{10}{375/375}{Least Squares Terminology}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {375}{375}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{4}{11}{376/376}{Least Squares Terminology}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {376}{376}}
+\headcommand {\gdef \insertmainframenumber {361}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\partentry {\translate {Appendix}}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@partpages {1}{376}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {300}{376}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {366}{376}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@appendixpages {377}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {377}{376}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {377}{376}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {377}{376}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {377}{376}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {8}{References}{377}{References}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{0}{377/377}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {377}{377}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{0}{377/378}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {377}{378}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{0}{377/379}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {377}{379}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{0}{377/380}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {377}{380}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{0}{377/381}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {377}{381}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{0}{377/382}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {377}{382}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{0}{377/383}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {377}{383}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{1}{384/384}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {384}{384}}
+\headcommand {\beamer@partpages {377}{384}}
+\headcommand {\beamer@subsectionpages {377}{384}}
+\headcommand {\beamer@sectionpages {377}{384}}
+\headcommand {\beamer@documentpages {384}}
+\headcommand {\gdef \inserttotalframenumber {369}}

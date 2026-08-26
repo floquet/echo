@@ -1,0 +1,21 @@
+# Source: 21463739-B346-4AFA-B61E-B4FF43920835
+# checksum: cc961df13257789c9085ba943dc500dcf2bc513c151ba82c4c25b304538531c1  bravo.docx 
+# Mon Aug 10 17:33:25 MDT 2026
+Date: 3/19/2026
+Account: Alpha - ABCD
+Product: Training Systems Branch
+Gov: Bill Brown (ML), Gary Green (Lead Engineer), Peter Purple (Safe Cracker), Rick Red (Wheel Man)
+Ctr: Quint Quartz (CAM), Frank Feldspar (Fence), Oscar Ore (Muscle), Harvey Halide (Muscle), Mike Magnetite (Comic Relief)
+Leadership: 1. text
+Rationale: text
+score_a1: 1
+Area_1: text
+score_a2: 0
+Area_2: text
+score_a3: -1
+Area_3: text
+Products: text
+Strengths: text
+Concerns: text
+Questions: text
+Integration: text

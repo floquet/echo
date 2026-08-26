@@ -1,0 +1,188 @@
+% Compile the document with pdflatex, bibliography sequence:
+% 1. pdflatex main-bevington-vvuq.tex      % First pass
+% 2. biber main-bevington-vvuq             % Compile the bibliography
+% 3. pdflatex main-bevington-vvuq.tex      % Second pass
+% 4. pdflatex main-bevington-vvuq.tex      % Final pass to resolve references
+\documentclass{beamer}
+\newcommand{\yshift}{0.0} % Vertical offset for decorative logos
+
+% Fetch home directory to make this file independent of the file system
+\usepackage{catchfile}
+\CatchFileDef{\HomePath}{|kpsewhich -var-value=HOME}{}
+\makeatletter
+\edef\HomePath{\expandafter\zap@space\HomePath \@empty}
+\makeatother
+
+% Define GitHub and repository paths
+\newcommand{\pGithub}{\HomePath/GitHub/}
+\newcommand{\pRepo}{\pGithub/latex-2025/}
+
+% Navigation variables: FLAVOR, PROJECT TITLE
+\newcommand{\flavor}{pres}        % Type: pres (presentation) or doc (document)
+\newcommand{\projTitle}{bevington-vvuq}   % Project Title
+
+\newcommand{\pBibs}{\pRepo/bibs/}
+\newcommand{\pGlobal}{\pRepo/global/}
+\newcommand{\pConfigRoot}{\pRepo/global/config/}
+\newcommand{\pConfigGlobal}{\pConfigRoot/common/}
+\newcommand{\pConfigFlavor}{\pConfigRoot/\flavor/}
+
+\newcommand{\enumMain}  { ** MAIN CONFIGURATION ** }
+\newcommand{\enumBase}  { == BASE CONFIGURATION == }
+\newcommand{\enumFlavor}  { ** FLAVOR CONFIGURATION ** }
+\newcommand{\enumLocal} { -- LOCAL CONFIGURATION -- }
+\newcommand{\enumAux} { >> AUXILIARY LIBRARY << }
+\newcommand{\enumHL} { >> HYPERKLINKS IBRARY << }
+\newcommand{\enumGlossary} { >> GLOSSARY LIBRARY << }
+\newcommand{\enumElements} { >> ELEMENTS LIBRARY << }
+\newcommand{\enumPres}  { ++ PRESENTATION SETUP ++ }
+\newcommand{\enumDocs}  { @@ DOCUMENT SETUP @@ }
+\newcommand{\enumContent} { !! CONTENT SETUP !! }
+
+% Load configuration files hierarchically
+\input{\pConfigGlobal "config-base.tex"}
+\input{\pConfigFlavor "config-flavor-dsg.tex"}
+\input{\pConfig "config-local.tex"}
+
+\typeout{\enumDocs}
+% Choose hyperlink configuration:
+\input{\pConfigGlobal/"href-hidden.tex"}   % For hidden links (clean, professional)
+% \input{\pConfigGlobal/"href-visible.tex"} % For visible links (debugging, drafts)
+
+%   --   --   --   --   --   --   --   --   --   -- Bibliography format, content
+\input{\pConfigGlobal/"bib-config-a.tex"}
+\addbibresource{\pBibs/textbooks.bib}
+
+\renewcommand{\listingFontSize}{\scriptsize}
+
+% Document metadata
+%   --   --   --   --   --   --   --   --   --   -- Title, Author
+\title[VVUQ and the Bevington Example]{A VVUQ Analysis of a \\ Classic Least Squares Example}
+\author[\TopaHII]{\TopaDSG \\ \TopaDSGemail}
+\institute{\dsgit}
+\date{\today}
+
+\begin{document}
+
+% Title slide
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Welcome audience, frame the problem
+\begin{frame}\frametitle{Heat Transfer Via Least Squares}
+\begin{center}
+	%\href{}{
+	\begin{overpic}[ width = \textwidth ]
+		{\pGraphics/bevington-temperature-bar-color.pdf}
+		%\put(50, 50)	{\colorbox{white}{$a+b$}}
+	\end{overpic}
+\end{center}
+\end{frame}
+%
+			\input{\pGlobalSlides/"slide-bev-before-after.tex"}
+%
+\begin{frame}\frametitle{Goal}
+\center
+	Using this physics-centric problem we will show how \\
+	VVUQ can turn a collection of codes into a 
+	\bl{robust, reliable scientific tool}.
+\end{frame}
+%
+\begin{frame}\frametitle{Goal}
+\center
+	A discourse on \href{https://en.wikipedia.org/wiki/Software_verification_and_validation}{\bl{Verification}, \bl{Validation}} and \bl{\uq} using a common example.
+\twodots
+\end{frame}
+%
+
+\begin{frame}[ allowframebreaks ]\frametitle{Presentation Overview}
+    \tableofcontents
+\end{frame}
+
+%   --   --   --   --   --   --   --   --   --   -- Sections
+% Primary content
+	\input{\pSections/"sec-introduction.tex"}
+	\input{\pSections/"sec-sample-analysis.tex"}
+	%\input{\pSections/"sec-code.tex"}
+	\input{\pSections/"sec-snapshot.tex"}
+	\input{\pSections/"sec-data-structure.tex"}
+	%\input{\pSections "sec-backup.tex"}
+
+\appendix
+	\input{\pSections/"app-theory.tex"}
+	%\input{\pSections "app-normal-eqns.tex"}
+	
+	%   --   --   --   --   --   --   --   --   --   -- References
+\section{} % Do not add to navigation panel
+\begin{frame}[ allowframebreaks ]
+    \frametitle{References}
+    \printbibliography
+\end{frame}
+
+% Questions?
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\end{document}
+
+\tiny
+\scriptsize
+\footnotesize
+\small
+\normalsize
+\large
+\Large
+\LARGE
+\huge
+\Huge
+
+% \, thin space (normally 1/6 of a quad);
+% \> medium space (normally 2/9 of a quad);
+% \; thick space (normally 5/18 of a quad);
+
+\begin{frame}\frametitle{Frame Title}
+\begin{enumerate}
+	\item First item
+	\item Second item
+	\item Third item
+\end{enumerate}
+\end{frame}
+
+\begin{frame}\frametitle{Frame Title}
+\begin{equation}
+	\begin{array}{ccc} 
+			% Example matrix layout
+			a & b & c \
+			d & e & f \
+			g & h & i
+	\end{array}
+% \label{eq:example}
+\end{equation}
+\end{frame}
+
+\begin{frame}\frametitle{Graphic Example}
+\center
+	\href{https://example.com}{
+	\begin{overpic}[scale=1.0]{\pLocalGraphics/graphic-file.pdf}
+		%\put(-7,-10){Auxiliary text.}
+	\end{overpic}}
+\end{frame}
+
+\begin{frame}\frametitle{Frame Title}
+\begin{table}[htp]
+%\caption{Default caption}
+\begin{center}
+	\begin{tabular}{cc}
+		\hline
+		Column 1 & Column 2 \
+		\hline
+		Data 1 & Data 2 \
+		Data 3 & Data 4 \
+		\hline
+	\end{tabular}
+\end{center}
+% \label{tab:example}
+\end{table}
+\end{frame}

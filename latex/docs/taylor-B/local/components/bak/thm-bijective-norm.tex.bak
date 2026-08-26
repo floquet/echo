@@ -1,0 +1,12 @@
+% \input{\pLocalTheorems "thm-bijective-norm"}
+
+\begin{theorem}[Exponentiation is Bijective]
+Show that the vector operation in \eqref{} $t^{b}$ is bijective, that is, the operator is one-to-one and onto.
+\label{thm:bijective-norm}
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof} Show the vector operation is one-to-one. Show the norm operator is onto.
+\end{proof}
+%
+%
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

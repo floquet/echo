@@ -1,0 +1,27 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main-legacy-code.blg'
+[70] biber-darwin:322> INFO - === Wed Jul  2, 2025, 11:36:01
+[88] Biber.pm:415> INFO - Reading 'main-legacy-code.bcf'
+[156] Biber.pm:943> INFO - Found 6 citekeys in bib section 0
+[171] Biber.pm:4256> INFO - Processing section 0
+[171] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib'
+[171] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib' to /Users/dantopa/GitHub//latex-2025//bibs//fortran.bib
+[172] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[172] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' to /Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib
+[172] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//coarray.bib'
+[172] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//coarray.bib' to /Users/dantopa/GitHub//latex-2025//bibs//coarray.bib
+[182] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib' for section 0
+[191] bibtex.pm:1653> INFO - LaTeX decoding ...
+[363] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib'
+[406] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' for section 0
+[418] bibtex.pm:1653> INFO - LaTeX decoding ...
+[567] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[576] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//coarray.bib' for section 0
+[584] bibtex.pm:1653> INFO - LaTeX decoding ...
+[696] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//coarray.bib'
+[721] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[721] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[721] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[721] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[726] bbl.pm:652> INFO - Writing 'main-legacy-code.bbl' with encoding 'UTF-8'
+[729] bbl.pm:755> INFO - Output to main-legacy-code.bbl

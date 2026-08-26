@@ -1,0 +1,12 @@
+% \input{\pLocalTheorems "thm-bijective-tb"}
+
+\begin{theorem}[Norm is Bijective]
+Show that the operator $\normts{t^{b}}$ is bijective, that is, the operator is one-to-one and onto.
+\label{thm:bijective-tb}
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof} Show the norm operative is one-to-one. Show the norm operator is onto.
+\end{proof}
+%
+%
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

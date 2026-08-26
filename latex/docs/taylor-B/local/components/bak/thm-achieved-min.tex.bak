@@ -1,0 +1,48 @@
+% \input{\pLocalTheorems "thm-achieved-min"}
+
+%\clearpage
+\begin{theorem}[Achieved Least Squares Minimum]
+The achieved minimum for the least squares problem
+		%
+%\begin{equation}
+%	(a,b)_{LS} = \argmin\limits_{(a,b) \in \mathbb{R}^{2}} \normt{at^{b} - R}.
+%\tag{\ref{eq:power-law-ls}}
+%\end{equation}
+		
+is independent of the linear parameter $a$ and is given by
+		%
+\begin{equation}
+	(a,b)_{LS} = \argmin\limits_{(a,b) \in \mathbb{R}^{2}} \normts{at^{b} - R} = \er - \frac{\inner{t^{b},R}^{2}} {\etb}
+\label{eq:achieved-min}
+\end{equation}
+		%
+\label{thm:achieved}
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+Define the merit function
+		%
+\begin{equation}
+	\phi(a,b) = \innerecho{at^{b} - R} = a^{2} \etb -2 a \itr{} + \er,
+\label{eq:merit}
+\end{equation}
+		%
+which is quadratic in the fit parameter $a$. Hence, the minimization along the $a$-axis is at
+		%
+\begin{equation}
+	a_{\pm} = \etb{}^{-1} \paren{\itr{} \pm \sqrt{\itr{}^{2} - \etb{} \er{}}}
+\label{eq:}
+\end{equation}
+The discriminant is greater than or equal to zero as shown in \ref{thm:swapping-identity}.
+		%
+(Do I need that result?) The minimum value along the $a-$axis is
+		%
+\begin{equation}
+	\phi(a_{min},b) = \amin
+\label{eq:merit}
+\end{equation}
+		%
+\end{proof}
+
+
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

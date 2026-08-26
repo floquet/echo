@@ -1,0 +1,704 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for Daniel Topa at 2025-06-16 10:22:27 -0600 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@article{bethune2014performance,
+	abstract = {Ever-increasing core counts create the need to develop parallel algorithms that avoid closely coupled execution across all cores. We present performance analysis of several parallel asynchronous implementations of Jacobi's method for solving systems of linear equations, using MPI, SHMEM and OpenMP. In particular we have solved systems of over 4 billion unknowns using up to 32,768 processes on a Cray XE6 supercomputer. We show that the precise implementation details of asynchronous algorithms can strongly affect the resulting performance and convergence behaviour of our solvers in unexpected ways, discuss how our specific implementations could be generalised to other classes of problem, and suggest how existing parallel programming models might be extended to allow asynchronous algorithms to be expressed more easily.},
+	author = {Bethune, Iain and Bull, J Mark and Dingle, Nicholas J and Higham, Nicholas J},
+	date-added = {2025-06-16 10:22:25 -0600},
+	date-modified = {2025-06-16 10:22:25 -0600},
+	journal = {The International Journal of High Performance Computing Applications},
+	number = {1},
+	pages = {97--111},
+	publisher = {Sage Publications Sage UK: London, England},
+	title = {Performance analysis of asynchronous Jacobi's method implemented in MPI, SHMEM and OpenMP},
+	volume = {28},
+	year = {2014}}
+
+@misc{coarrays_doc,
+	author = {Anton Shterenlikht},
+	date-added = {2025-03-13 16:33:58 -0600},
+	date-modified = {2025-03-13 17:00:47 -0600},
+	note = {Accessed: 2024-03-13},
+	title = {Parallel programming with Fortran 2008 and 2018 coarrays},
+	url = {https://coarrays.sourceforge.io/doc.html},
+	year = {2024},
+	bdsk-url-1 = {https://coarrays.sourceforge.io/doc.html}}
+
+@article{shterenlikht2018parallel,
+	author = {Shterenlikht, A},
+	date-added = {2025-03-13 16:32:17 -0600},
+	date-modified = {2025-03-13 16:32:17 -0600},
+	journal = {Mech. Eng. Dept., The University of Bristol, Bristol BS8 1TR},
+	title = {Parallel Programming with Fortran 2008 and 2018 Coarrays},
+	year = {2018}}
+
+@misc{llnl_mpi_tutorial,
+	author = {Lawrence Livermore National Laboratory},
+	date-added = {2025-03-11 11:35:42 -0600},
+	date-modified = {2025-03-11 11:35:42 -0600},
+	howpublished = {\url{https://hpc-tutorials.llnl.gov/mpi/what_is_mpi/}},
+	note = {Accessed: [Insert Date of Access]},
+	title = {MPI Tutorial},
+	url = {https://hpc-tutorials.llnl.gov/mpi/what_is_mpi/},
+	year = {2023},
+	bdsk-url-1 = {https://hpc-tutorials.llnl.gov/mpi/what_is_mpi/}}
+
+@conference{osti_1886637,
+	annote = {The LLVM Flang compiler ("Flang") is currently Fortran 95 compliant, and the frontend can parse Fortran 2018. However, Flang does not have a comprehensive 2018 test suite and does not fully implement the static semantics of the 2018 standard. We are investigating whether agile software development techniques, such as pair programming and test-driven development (TDD), can help Flang to rapidly progress to Fortran 2018 compliance. Because of the paramount importance of parallelism in high-performance computing, we are focusing on Fortran's parallel features, commonly denoted ``Coarray Fortran.'' We are developing what we believe are the first exhaustive, open-source tests for the static semantics of Fortran 2018 parallel features, and contributing them to the LLVM project. A related effort involves writing runtime tests for parallel 2018 features and supporting those tests by developing a new parallel runtime library: the CoArray Fortran Framework of Efficient Interfaces to Network Environments (Caffeine).},
+	author = {Rasmussen, Katherine and Rouson, Damian and George, Naj{\'e} and Bonachea, Dan and Kadhem, Hussain and Friesen, Brian},
+	date-added = {2025-02-25 22:08:53 -0700},
+	date-modified = {2025-02-25 22:08:53 -0700},
+	doi = {10.25344/S4CP4S},
+	month = {11},
+	organization = {Lawrence Berkeley National Lab. (LBNL), Berkeley, CA (United States)},
+	place = {United States},
+	title = {Agile Acceleration of LLVM Flang Support for Fortran 2018 Parallel Programming},
+	url = {https://www.osti.gov/biblio/1886637},
+	year = {2022},
+	bdsk-url-1 = {https://www.osti.gov/biblio/1886637},
+	bdsk-url-2 = {https://doi.org/10.25344/S4CP4S}}
+
+@conference{osti_1886635,
+	annote = {This paper provides an introduction to the CoArray Fortran Framework of Efficient Interfaces to Network Environments (Caffeine), a parallel runtime library built atop the GASNet-EX exascale networking library. Caffeine leverages several non-parallel Fortran features to write type- and rank-agnostic interfaces and corresponding procedure definitions that support parallel Fortran 2018 features, including communication, collective operations, and related services. One major goal is to develop a runtime library that can eventually be considered for adoption by LLVM Flang, enabling that compiler to support the parallel features of Fortran. The paper describes the motivations behind Caffeine's design and implementation decisions, details the current state of Caffeine's development, and previews future work. We explain how the design and implementation offer benefits related to software sustainability by lowering the barrier to user contributions, reducing complexity through the use of Fortran 2018 C-interoperability features, and high performance through the use of a lightweight communication substrate.},
+	author = {Rouson, Damian and Bonachea, Dan},
+	date-added = {2025-02-25 22:08:38 -0700},
+	date-modified = {2025-02-25 22:08:38 -0700},
+	doi = {10.25344/S4459B},
+	month = {11},
+	organization = {Lawrence Berkeley National Lab. (LBNL), Berkeley, CA (United States)},
+	place = {United States},
+	title = {Caffeine: CoArray Fortran Framework of Efficient Interfaces to Network Environments},
+	url = {https://www.osti.gov/biblio/1886635},
+	year = {2022},
+	bdsk-url-1 = {https://www.osti.gov/biblio/1886635},
+	bdsk-url-2 = {https://doi.org/10.25344/S4459B}}
+
+@conference{osti_2440850,
+	annote = {Fortran compilers that provide support for Fortran's native parallel features often do so with a runtime library that depends on details of both the compiler implementation and the communication library, while others provide limited or no support at all. This paper introduces a new generalized interface that is both compiler- and runtime-library-agnostic, providing flexibility while fully supporting all of Fortran's parallel features. The Parallel Runtime Interface for Fortran (PRIF) was developed to be portable across shared- and distributed-memory systems, with varying operating systems, toolchains and architectures. It achieves this by defining a set of Fortran procedures corresponding to each of the parallel features defined in the Fortran standard that may be invoked by a Fortran compiler and implemented by a runtime library. PRIF aims to be used as the solution for LLVM Flang to provide parallel Fortran support. This paper also briefly describes our PRIF prototype implementation: Caffeine.},
+	author = {Bonachea, Dan and Rasmussen, Katherine and Richardson, Brad and Rouson, Damian},
+	date-added = {2025-02-25 22:08:04 -0700},
+	date-modified = {2025-02-25 22:08:04 -0700},
+	doi = {10.25344/S4N017},
+	month = {11},
+	organization = {Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)},
+	place = {United States},
+	title = {Parallel Runtime Interface for Fortran (PRIF): A Multi-Image Solution for LLVM Flang},
+	url = {https://www.osti.gov/biblio/2440850},
+	year = {2024},
+	bdsk-url-1 = {https://www.osti.gov/biblio/2440850},
+	bdsk-url-2 = {https://doi.org/10.25344/S4N017}}
+
+@techreport{NASA20230001092,
+	author = {Unknown},
+	date-added = {2025-02-25 21:59:39 -0700},
+	date-modified = {2025-02-25 21:59:39 -0700},
+	institution = {NASA},
+	note = {Accessed: 2025-02-24},
+	number = {20230001092},
+	title = {FEATS Submission},
+	type = {Technical Report},
+	url = {https://ntrs.nasa.gov/api/citations/20230001092/downloads/WAMTA23_FEATS_Submission.pdf},
+	year = {2023},
+	bdsk-url-1 = {https://ntrs.nasa.gov/api/citations/20230001092/downloads/WAMTA23_FEATS_Submission.pdf}}
+
+@conference{osti_2440849,
+	annote = {This poster explores native parallel features in Fortran 2023 through the lens of supporting applications with libraries, compilers, and parallel runtimes. The language revision informally named Fortran 2008 introduced parallelism in the form of Single Program Multiple Data (SPMD) execution with two broad feature sets: (1) loop-level parallelism via do concurrent and (2) a Partitioned Global Address Space (PGAS) comprised of distributed ``coarray'' data structures. Fortran's native parallelism has demonstrated high performance [1] and reduced the burden of inserting what sometimes amounts to more directives than code. Several compilers support both feature sets, typically by translating do concurrent into serial do loops annotated by parallel directives and by translating SPMD/PGAS features into direct calls to a communication library. Our research focuses primarily on two questions: (1) can the compiler's parallel runtime library be developed in the language being compiled (Fortran) and (2) can we define an interface to the runtime that liberates compilers from being hardwired to one runtime and vice versa. We are answering these questions by developing the Parallel Runtime Interface for Fortran (PRIF) [2] and the Co-Array Fortran Framework of Efficient Interfaces to Network Environments (Caffeine) [3]. Caffeine is initially targeting adoption by LLVM Flang, a new open-source Fortran compiler developed by a broad community in industry, academia, and government labs. We are also exploring the use of these features in Inference-Engine, a deep learning library designed to facilitate neural network training and inference for high-performance computing applications written in modern Fortran.},
+	author = {Rasmussen, Katherine and Rouson, Damian and Bonachea, Dan and Richardson, Brad},
+	date-added = {2025-02-25 21:59:28 -0700},
+	date-modified = {2025-02-25 21:59:28 -0700},
+	doi = {10.25344/S4RP5K},
+	month = {09},
+	organization = {Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)},
+	place = {United States},
+	title = {A Full-Stack Exploration of Language-Based Parallelism in Fortran 2023},
+	url = {https://www.osti.gov/biblio/2440849},
+	year = {2024},
+	bdsk-url-1 = {https://www.osti.gov/biblio/2440849},
+	bdsk-url-2 = {https://doi.org/10.25344/S4RP5K}}
+
+@article{osti_2481490,
+	annote = {Most parallel scientific programs contain compiler directives (pragmas) such as those from OpenMP (Hermanns in Parallel programming in Fortran 95 using openMP, 2002. School of Aeronautical Engineering, Universidad Polit{\'e}cnica de Madrid, Espa{\~n}a, 2011), explicit calls to runtime library procedures such as those implementing the Message Passing Interface (MPI) (in A message-passing interface standard version 4.0, 2021. https://www.mpi-forum.org/docs/mpi-4.0/mpi40-report.pdf), or compiler-specific language extensions such as those provided by CUDA (Ruetsch and Fatica in CUDA Fortran for scientists and engineers: best practices for efficient CUDA Fortran programming, Elsevier, 2013). By contrast, the recent Fortran standards empower developers to express parallel algorithms without directly referencing lower-level parallel programming models (Numrich in Parallel programming with co-arrays, CRC Press, 2018, and Curcic in Modern Fortran: building efficient parallel applications, Manning Publications, 2020). Fortran's parallel features place the language within the Partitioned Global Address Space (PGAS) class of programming models. When writing programs that exploit data parallelism, application developers often find it straightforward to develop custom parallel algorithms. Problems involving complex, heterogeneous, staged calculations, however, pose much greater challenges. Such applications require careful coordination of tasks in a manner that respects dependencies prescribed by a directed acyclic graph. When rolling one's own solution proves difficult, extending a customizable framework becomes attractive. Further, the paper presents the design, implementation, and use of the Framework for Extensible Asynchronous Task Scheduling (FEATS), which we believe to be the first task scheduling tool written in modern Fortran. We describe the benefits and compromises associated with choosing Fortran as the implementation language, and we propose ways in which future Fortran standards can best support the use case in this paper.},
+	author = {Richardson, Brad and Rouson, Damian and Snyder, Harris and Singleterry, Robert},
+	date-added = {2025-02-25 21:59:28 -0700},
+	date-modified = {2025-02-25 21:59:28 -0700},
+	doi = {10.1007/s42979-024-02682-y},
+	issn = {ISSN 2661-8907},
+	journal = {SN Computer Science (Online)},
+	month = {03},
+	number = {4},
+	place = {United States},
+	publisher = {Springer Nature},
+	title = {Scheduling and Performance of Asynchronous Tasks in Fortran 2018 with FEATS},
+	url = {https://www.osti.gov/biblio/2481490},
+	volume = {5},
+	year = {2024},
+	bdsk-url-1 = {https://www.osti.gov/biblio/2481490},
+	bdsk-url-2 = {https://doi.org/10.1007/s42979-024-02682-y}}
+
+@article{sharma2017mpi,
+	abstract = {High‐resolution numerical methods and unstructured meshes are required in many applications of Computational Fluid Dynamics (CFD). These methods are quite computationally expensive and hence benefit from being parallelized. Message Passing Interface (MPI) has been utilized traditionally as a parallelization strategy. However, the inherent complexity of MPI contributes further to the existing complexity of the CFD scientific codes. The Partitioned Global Address Space (PGAS) parallelization paradigm was introduced in an attempt to improve the clarity of the parallel implementation. We present our experiences of converting an unstructured high‐resolution compressible Navier‐Stokes CFD solver from MPI to PGAS Coarray Fortran. We present the challenges, methodology, and performance measurements of our approach using Coarray Fortran. With the Cray compiler, we observe Coarray Fortran as a viable alternative to MPI. We are hopeful that Intel and open‐source implementations could be utilized in the future.},
+	author = {Sharma, Anuj and Moulitsas, Irene},
+	date-added = {2025-01-09 19:52:11 -0700},
+	date-modified = {2025-01-09 19:52:37 -0700},
+	journal = {Scientific Programming},
+	number = {1},
+	pages = {3409647},
+	publisher = {Wiley Online Library},
+	title = {MPI to Coarray Fortran: Experiences with a CFD Solver for Unstructured Meshes},
+	volume = {2017},
+	year = {2017}}
+
+@misc{fortranCoarrayMPIExamples,
+	author = {skphy},
+	date-added = {2025-01-14 19:33:11 -0700},
+	date-modified = {2025-01-14 19:33:11 -0700},
+	note = {Accessed: 2025-01-14},
+	title = {Fortran Coarray and MPI Examples},
+	url = {https://github.com/skphy/fortran-coarray-mpi-examples},
+	year = {2025},
+	bdsk-url-1 = {https://github.com/skphy/fortran-coarray-mpi-examples}}
+
+@article{shterenlikht2019mpi,
+	author = {Shterenlikht, Anton and Cebamanos, Luis},
+	date-added = {2025-01-14 19:22:12 -0700},
+	date-modified = {2025-01-14 19:22:12 -0700},
+	journal = {Parallel Computing},
+	pages = {37--49},
+	publisher = {Elsevier},
+	title = {MPI vs Fortran coarrays beyond 100k cores: 3D cellular automata},
+	volume = {84},
+	year = {2019}}
+
+@article{1050511,
+	abstract = {This paper considers the design, fabrication, and characterization of very small Mosfet switching devices suitable for digital integrated circuits, using dimensions of the order of 1 /spl mu/. Scaling relationships are presented which show how a conventional MOSFET can be reduced in size. An improved small device structure is presented that uses ion implantation, to provide shallow source and drain regions and a nonuniform substrate doping profile. One-dimensional models are used to predict the substrate doping profile and the corresponding threshold voltage versus source voltage characteristic. A two-dimensional current transport model is used to predict the relative degree of short-channel effects for different device parameter combinations. Polysilicon-gate MOSFET's with channel lengths as short as 0.5 /spl mu/ were fabricated, and the device characteristics measured and compared with predicted values. The performance improvement expected from using these very small devices in highly miniaturized integrated circuits is projected.},
+	author = {Dennard, R.H. and Gaensslen, F.H. and Yu, Hwa-Nien and Rideout, V.L. and Bassous, E. and LeBlanc, A.R.},
+	date-added = {2025-01-11 22:01:58 -0700},
+	date-modified = {2025-01-11 22:02:22 -0700},
+	doi = {10.1109/JSSC.1974.1050511},
+	journal = {IEEE Journal of Solid-State Circuits},
+	keywords = {Doping profiles;Semiconductor process modeling;Predictive models;Threshold voltage;Fabrication;Switching circuits;Digital integrated circuits;MOSFET circuits;Ion implantation;Length measurement},
+	number = {5},
+	pages = {256-268},
+	title = {Design of ion-implanted MOSFET's with very small physical dimensions},
+	volume = {9},
+	year = {1974},
+	bdsk-url-1 = {https://doi.org/10.1109/JSSC.1974.1050511}}
+
+@misc{gcc_coarraylib,
+	author = {GNU Compiler Collection (GCC)},
+	date-added = {2025-01-10 11:07:59 -0700},
+	date-modified = {2025-01-10 11:07:59 -0700},
+	note = {Accessed: 2025-01-10},
+	title = {CoarrayLib: A Library for Coarray Fortran Programs},
+	url = {https://gcc.gnu.org/wiki/CoarrayLib},
+	year = {n.d.},
+	bdsk-url-1 = {https://gcc.gnu.org/wiki/CoarrayLib}}
+
+@manual{hudak_pgas_tutorial,
+	author = {David Hudak},
+	date-added = {2025-01-10 10:35:02 -0700},
+	date-modified = {2025-01-10 10:35:02 -0700},
+	note = {Accessed: 2025-01-10},
+	organization = {Ohio Supercomputer Center (OSC)},
+	title = {PGAS Tutorial: Partitioned Global Address Space Languages and Libraries},
+	url = {https://www.osc.edu/sites/osc.edu/files/staff_files/dhudak/pgas-tutorial.pdf},
+	year = {n.d.},
+	bdsk-url-1 = {https://www.osc.edu/sites/osc.edu/files/staff_files/dhudak/pgas-tutorial.pdf}}
+
+@misc{AnneFouCoarrays,
+	author = {Anne Fouilloux},
+	date-added = {2025-01-10 09:58:42 -0700},
+	date-modified = {2025-01-10 09:58:42 -0700},
+	howpublished = {\url{https://annefou.github.io/Fortran/coarrays/coarrays.html}},
+	note = {Accessed: 2025-01-10},
+	title = {Introduction to Coarrays in Fortran},
+	year = {2025}}
+
+@book{numrich2018parallel,
+	abstract = {Parallel Programming with Co-Arrays describes the basic techniques used to design parallel algorithms for high-performance, scientific computing. It is intended for upper-level undergraduate students and graduate students who need to develop parallel codes with little or no previous introduction to parallel computing. It is also intended as a reference manual for researchers active in the field of scientific computing. All the algorithms in the book are based on partition operators. These operators provide a unifying principle that fits seemingly disparate techniques into an overall framework for algorithm design. The book uses the co-array programming model to illustrate how to write code for concrete examples, but it emphasizes that the important concepts for algorithm design are independent of the programming model. With these concepts in mind, the reader can write algorithms in different programming models based on personal taste and comfort.},
+	author = {Numrich, Robert W},
+	date-added = {2025-01-09 23:30:11 -0700},
+	date-modified = {2025-01-09 23:30:11 -0700},
+	publisher = {Chapman and Hall/CRC},
+	title = {Parallel programming with co-arrays},
+	year = {2018}}
+
+@misc{NumrichCAFSlides,
+	author = {Robert W. Numrich},
+	date-added = {2025-01-09 23:09:14 -0700},
+	date-modified = {2025-01-09 23:09:14 -0700},
+	howpublished = {Presentation slides, available at \url{https://faculty.csbsju.edu/mheroux/fall2011_csci317/NumrichCafTalk.pdf}},
+	note = {Accessed: 2025-01-10},
+	title = {Introduction to Co-Array Fortran},
+	year = {2011}}
+
+@misc{dursi2025coarray,
+	author = {L. J. Dursi},
+	date-added = {2025-01-08 11:42:35 -0700},
+	date-modified = {2025-01-08 11:42:35 -0700},
+	howpublished = {\url{https://github.com/ljdursi/coarray-examples}},
+	note = {Accessed: 2025-01-08},
+	title = {Coarray Examples},
+	url = {https://github.com/ljdursi/coarray-examples},
+	year = {2025},
+	bdsk-url-1 = {https://github.com/ljdursi/coarray-examples}}
+
+@misc{koenig2025coarray,
+	author = {Thomas Koenig},
+	date-added = {2025-01-08 11:40:37 -0700},
+	date-modified = {2025-01-08 11:40:37 -0700},
+	howpublished = {\url{https://github.com/tkoenig1/coarray-tutorial/blob/main/tutorial.md}},
+	note = {Accessed: 2025-01-08},
+	title = {Coarray Tutorial},
+	url = {https://github.com/tkoenig1/coarray-tutorial/blob/main/tutorial.md},
+	year = {2025},
+	bdsk-url-1 = {https://github.com/tkoenig1/coarray-tutorial/blob/main/tutorial.md}}
+
+@misc{norvig2025parallel,
+	author = {Paul Norvig},
+	date-added = {2025-01-08 11:39:07 -0700},
+	date-modified = {2025-01-08 11:39:07 -0700},
+	howpublished = {\url{https://www.paulnorvig.com/guides/parallel-programming-with-coarrays-in-fortran.html}},
+	note = {Accessed: 2025-01-08},
+	title = {Parallel Programming with Coarrays in Fortran},
+	url = {https://www.paulnorvig.com/guides/parallel-programming-with-coarrays-in-fortran.html},
+	year = {2025},
+	bdsk-url-1 = {https://www.paulnorvig.com/guides/parallel-programming-with-coarrays-in-fortran.html}}
+
+@misc{opencoarrays,
+	author = {Sourcery Institute},
+	date-added = {2025-01-08 11:36:42 -0700},
+	date-modified = {2025-01-08 11:36:42 -0700},
+	howpublished = {\url{https://github.com/sourceryinstitute/OpenCoarrays}},
+	note = {Accessed: 2025-01-08},
+	title = {OpenCoarrays: An open-source transport layer supporting coarray Fortran compilers},
+	url = {https://github.com/sourceryinstitute/OpenCoarrays},
+	year = {2025},
+	bdsk-url-1 = {https://github.com/sourceryinstitute/OpenCoarrays}}
+
+@misc{numrich2001caf,
+	author = {Robert W. Numrich},
+	date-added = {2025-01-08 07:43:43 -0700},
+	date-modified = {2025-01-08 07:43:43 -0700},
+	howpublished = {Presentation},
+	month = sep,
+	note = {Talk slides available at \url{https://faculty.csbsju.edu/mheroux/fall2011_csci317/NumrichCafTalk.pdf}},
+	title = {Co-array Fortran (CAF): Parallel Processing without the Pain},
+	year = {2001}}
+
+@inproceedings{gabriel2004open,
+	abstract = {A large number of MPI implementations are currently available, each of which emphasize different aspects of high-performance computing or are intended to solve a specific research problem. The result is a myriad of incompatible MPI implementations, all of which require separate installation, and the combination of which present significant logistical challenges for end users. Building upon prior research, and influenced by experience gained from the code bases of the LAM/MPI, LA-MPI, and FT-MPI projects, Open MPI is an all-new, production-quality MPI-2 implementation that is fundamentally centered around component concepts. Open MPI provides a unique combination of novel features previously unavailable in an open-source, production-quality implementation of MPI. Its component architecture provides both a stable platform for third-party research as well as enabling the run-time composition of independent software add-ons. This paper presents a high-level overview the goals, design, and implementation of Open MPI.},
+	author = {Gabriel, Edgar and Fagg, Graham E and Bosilca, George and Angskun, Thara and Dongarra, Jack J and Squyres, Jeffrey M and Sahay, Vishal and Kambadur, Prabhanjan and Barrett, Brian and Lumsdaine, Andrew and others},
+	booktitle = {Recent Advances in Parallel Virtual Machine and Message Passing Interface: 11th European PVM/MPI Users' Group Meeting Budapest, Hungary, September 19-22, 2004. Proceedings 11},
+	date-added = {2025-01-07 14:33:06 -0700},
+	date-modified = {2025-01-07 14:33:31 -0700},
+	organization = {Springer},
+	pages = {97--104},
+	title = {Open MPI: Goals, concept, and design of a next generation MPI implementation},
+	year = {2004}}
+
+@article{garain2015comparing,
+	abstract = {Language-based approaches to parallelism have been incorporated into the Fortran standard. These Fortran extensions go under the name of Coarray Fortran (CAF) and full-featured compilers that support CAF have become available from Cray and Intel; the GNU implementation is expected in 2015. CAF combines elegance of expression with simplicity of implementation to yield an efficient parallel programming language. Elegance of expression results in very compact parallel code. The existence of a standard helps with portability and maintainability. CAF was designed to excel at one-sided communication and similar functions that support one-sided communication are also available in the recent MPI-3 standard. One-sided communication is expected to be very valuable for structured mesh applications involving partial differential equations, amongst other possible applications. This paper focuses on a comparison of CAF and MPI for a few very useful applications areas that are routinely used for solving partial differential equations on structured meshes. The three specific areas are Fast Fourier Techniques, Computational Fluid Dynamics, and Multigrid Methods.
+For each of those applications areas, we have developed optimized CAF code and optimized MPI code that is based on the one-sided messaging capabilities of MPI-3. Weak scalability studies that compare CAF and MPI-3 are presented on up to 65,536 processors. Both paradigms scale well, showing that they are well-suited for Petascale-class applications. Some of the applications shown (like Fast Fourier Techniques and Computational Fluid Dynamics) require large, coarse-grained messaging. Such applications emphasize high bandwidth. Our other application (Multigrid Methods) uses pointwise smoothers which require a large amount of fine-grained messaging. In such applications, a premium is placed on low latency. Our studies show that both CAF and MPI-3 offer the twin advantages of high bandwidth and low latency for messages of all sizes. Even for large numbers of processors, CAF either draws level with MPI-3 or shows a slight advantage over MPI-3. Both CAF and MPI-3 are shown to provide substantial advantages over MPI-2.
+In addition to the weak scalability studies, we also catalogue some of the best-usage strategies that we have found for our successful implementations of one-sided messaging in CAF and MPI-3. We show that CAF code is of course much easier to write and maintain, and the simpler syntax makes the parallelism easier to understand.},
+	author = {Garain, Sudip and Balsara, Dinshaw S and Reid, John},
+	date-added = {2025-01-07 09:53:49 -0700},
+	date-modified = {2025-01-09 19:55:44 -0700},
+	journal = {Journal of Computational Physics},
+	pages = {237--253},
+	publisher = {Elsevier},
+	title = {Comparing Coarray Fortran (CAF) with MPI for several structured mesh PDE applications},
+	url = {https://www.sciencedirect.com/science/article/pii/S002199911500354X},
+	volume = {297},
+	year = {2015},
+	bdsk-url-1 = {https://www.sciencedirect.com/science/article/pii/S002199911500354X}}
+
+@phdthesis{browne2013implementation,
+	author = {Browne, Don MJ},
+	date-added = {2025-01-07 09:47:51 -0700},
+	date-modified = {2025-01-07 09:47:51 -0700},
+	school = {Dissertation: The University of Edinburgh},
+	title = {An Implementation of the Coarray Programming Model in C+},
+	year = {2013}}
+
+@inproceedings{siehl2016mpmd,
+	abstract = {MPMD (Multiple-Program Multiple-Data) might be a great way to express parallelism more naturally, since most real-world processes may consist of multiple distinct tasks which are executed in parallel. With that, MPMD could be regarded as a kind of general purpose parallelism, in contrast to pure SPMD (Single-Program Multiple-Data) which might be much more limited to some specific algorithm.
+We developed some example program to briefly demonstrate how we use Fortran 2008 coarrays to do MPMD-like parallel programming. While the coding itself is not that difficult, it is also required to make the code accessible to others and thus, to identify and explain the key coding techniques. Therefore, section 2.1 may serve as a first preparation to understand our MPMD example program, whereas section 2.2 explains our example program in more detail. Section 2.4 brings some modifications to our example program to illustrate a simple PGAS load balancing technique.},
+	author = {Siehl, Michael},
+	booktitle = {ACM SIGPLAN Fortran Forum},
+	date-added = {2025-01-07 09:34:33 -0700},
+	date-modified = {2025-01-07 09:34:47 -0700},
+	number = {2},
+	organization = {ACM New York, NY, USA},
+	pages = {4--15},
+	title = {MPMD with Coarray Fortran (2008) an Example Program},
+	volume = {35},
+	year = {2016}}
+
+@inproceedings{fanfarillo2016caf,
+	author = {Fanfarillo, Alessandro and Hammond, Jeff},
+	booktitle = {Proceedings of the 23rd European MPI Users' Group Meeting},
+	date-added = {2025-01-07 09:32:38 -0700},
+	date-modified = {2025-01-07 09:32:38 -0700},
+	pages = {198--207},
+	title = {Caf events implementation using mpi-3 capabilities},
+	year = {2016}}
+
+@inproceedings{numrich1998co,
+	abstract = {Co-Array Fortran, formerly known as F--, is a small extension of Fortran 95 for parallel processing. A Co-Array Fortran program is interpreted as if it were replicated a number of times and all copies were executed asynchronously. Each copy has its own set of data objects and is termed an image. The array syntax of Fortran 95 is extended with additional trailing subscripts in square brackets to give a clear and straightforward representation of any access to data that is spread across images.References without square brackets are to local data, so code that can run independently is uncluttered. Only where there are square brackets, or where there is a procedure call and the procedure contains square brackets, is communication between images involved.There are intrinsic procedures to synchronize images, return the number of images, and return the index of the current image.We introduce the extension; give examples to illustrate how clear, powerful, and flexible it can be; and provide a technical definition.},
+	author = {Numrich, Robert W and Reid, John},
+	booktitle = {ACM Sigplan Fortran Forum},
+	date-added = {2025-01-07 09:28:10 -0700},
+	date-modified = {2025-01-07 09:28:28 -0700},
+	number = {2},
+	organization = {ACM New York, NY, USA},
+	pages = {1--31},
+	title = {Co-Array Fortran for parallel programming},
+	volume = {17},
+	year = {1998}}
+
+@inproceedings{yang2013managing,
+	abstract = {As the gap between processor speed and network latency continues to increase, avoiding exposed communication latency is critical for high performance on modern supercomputers. One can hide communication latency by overlapping it with computation using non-blocking data transfers, or avoid exposing communication latency by moving computation to the location of data it manipulates. Coarray Fortran 2.0 (CAF 2.0) - a partitioned global address space language - provides a rich set of asynchronous operations for avoiding exposed latency including asynchronous copies, function shipping, and asynchronous collectives. CAF 2.0 provides event variables to manage completion of asynchronous operations that use explicit completion. This paper describes CAF 2.0's finish and cofence synchronization constructs, which enable one to manage implicit completion of asynchronous operations. finish ensures global completion of a set of asynchronous operations across the members of a team. Because of CAF 2.0's SPMD model, its semantics and implementation of finish differ significantly from those of finish in X10 and HabaneroC. cofence controls local data completion of implicitlysynchronized asynchronous operations. Together these constructs provide the ability to tune a program's performance by exploiting the difference between local data completion, local operation completion, and global completion of asynchronous operations, while hiding network latency. We explore subtle interactions between cofence, finish, events, asynchronous copies and collectives, and function shipping. We justify their presence in a relaxed memory model for CAF 2.0. We demonstrate the utility of these constructs in the context of two benchmarks: Unbalanced Tree Search (UTS), and HPC Challenge RandomAccess. We achieve 74\%-77\% parallel efficiency for 4K-32K cores for UTS using the T1WL spec, which demonstrates scalable performance using our synchronization constructs. Our cofence micro-benchmark shows that for a producer-consumer scenario, using local data completion rather than local operation completion yields superior performance.},
+	author = {Yang, Chaoran and Murthy, Karthik and Mellor-Crummey, John},
+	booktitle = {2013 IEEE 27th International Symposium on Parallel and Distributed Processing},
+	date-added = {2025-01-07 09:21:59 -0700},
+	date-modified = {2025-01-07 09:22:19 -0700},
+	organization = {IEEE},
+	pages = {1321--1332},
+	title = {Managing asynchronous operations in Coarray Fortran 2.0},
+	year = {2013}}
+
+@inproceedings{ge2015evaluation,
+	abstract = {A set of parallel features, broadly referred to as Fortran coarrays, was added to the Fortran 2008 standard. It is expected that several new parallel features, designed to complement or augment this feature set, will be added to the next revision of the standard. This includes statements for forming and changing between image teams, as well as statements for performing communication and synchronization with respect to image teams. In this paper, we describe an early implementation and evaluation of these anticipated features within the OpenUH compiler and its CAF runtime system. We demonstrate the utility of team-based barriers in comparison to the existing sync images statement for performing synchronization amongst a team of images. Techniques for hiding synchronization and incorporating locality-awareness with a collectives implementation based on 1-sided communication are described, and we present the impact of these optimizations for allreduce operations based on message length. Our results showed better performance for medium to large sized messages compared to the corresponding allreduce implementation using the Cray Fortran Coarrays implementation. Using the new teams and collectives features, we obtained 6.2\% performance improvement compared to an original Fortran 2008 version of the CG benchmark from the NAS Parallel Benchmark Suite for class D, when using 1024 images.
+},
+	author = {Ge, Shiyao and Eachempati, Deepak and Khaldi, Dounia and Chapman, Barbara},
+	booktitle = {2015 9th International Conference on Partitioned Global Address Space Programming Models},
+	date-added = {2025-01-07 09:12:05 -0700},
+	date-modified = {2025-01-09 19:47:00 -0700},
+	organization = {IEEE},
+	pages = {47--58},
+	title = {An evaluation of anticipated extensions for fortran coarrays},
+	url = {https://ieeexplore.ieee.org/document/7306097},
+	year = {2015},
+	bdsk-url-1 = {https://ieeexplore.ieee.org/document/7306097}}
+
+@inproceedings{6012916,
+	abstract = {Today's largest supercomputers have over two hundred thousand CPU cores and even larger systems are under development. Typically, these systems are programmed using message passing. Over the past decade, there has been considerable interest in developing simpler and more expressive programming models for them. Partitioned global address space (PGAS) languages are viewed as perhaps the most promising alternative. In this paper, we report on our experience developing a set of PGAS extensions to Fortran that we call Co array Fortran 2.0 (CAF 2.0). Our design for CAF 2.0 goes well beyond the original 1998 design of Co array Fortran (CAF) by Numrich and Reid. CAF 2.0 includes language support for many features including teams, collective communication, asynchronous communication, function shipping, and synchronization. We describe the implementation of these features and our experiences using them to implement the High Performance Computing Challenge (HPCC) benchmarks, including High Performance Linpack (HPL), Random Access, Fast Fourier Transform (FFT), and STREAM triad. On 4096 CPU cores of a Cray XT with 2.3 GHz single socket quad-core Opteron processors, we achieved 18.3 TFLOP/s with HPL, 2.01 GUP/s with Random Access, 125 GFLOP/s with FFT, and a bandwidth of 8.73 TByte/s with STREAM triad. we call Co array Fortran 2.0 (CAF 2.0). Our design for CAF 2.0 goes well beyond the original 1998 design of Coarray Fortran (CAF) by Numrich and Reid. CAF 2.0 includes language support for many features including teams, collective communication, asynchronous communication, function shipping, and synchronization. We describe the implementation of these features and our experiences using them to implement the High Performance Computing Challenge (HPCC) benchmarks, including High Performance Linpack (HPL), Random Access, Fast Fourier Transform (FFT), and STREAM triad. On 4096 CPU cores of a Cray XT with 2.3 GHz single socket quad-core Opteron processors, we achieved 18.3 TFLOP/s with HPL, 2.01 GUP/s with Random Access, 125 GFLOP/s with FFT, and a bandwidth of 8.73 TByte/s with STREAM triad.},
+	author = {Jin, Guohua and Mellor-Crummey, John and Adhianto, Laksono and Scherer III, William N. and Yang, Chaoran},
+	booktitle = {2011 IEEE International Parallel \& Distributed Processing Symposium},
+	date-added = {2025-01-07 08:42:38 -0700},
+	date-modified = {2025-01-11 10:48:37 -0700},
+	doi = {10.1109/IPDPS.2011.104},
+	keywords = {Benchmark testing;Program processors;Synchronization;Runtime;Data structures;Electronics packaging;Computer languages},
+	pages = {1089-1100},
+	title = {Implementation and Performance Evaluation of the HPC Challenge Benchmarks in Coarray Fortran 2.0},
+	year = {2011},
+	bdsk-url-1 = {https://doi.org/10.1109/IPDPS.2011.104}}
+
+@inproceedings{khaldi2015team,
+	abstract = {We describe how 2-level memory hierarchies can be exploited to optimize the implementation of teams in the parallel facet of the upcoming Fortran 2015 standard. We focus on reducing the cost associated with moving data within a computing node and between nodes, finding that this distinction is of key importance when looking at performance issues. We introduce a new hardware-aware approach for PGAS, to be used within a runtime system, to optimize the communications in the virtual topologies and clusters that are binding different teams together. We have applied, and implemented into the CAF OpenUH compiler, this methodology to three important collective operations, namely barrier, all-to-all reduction and one-to-all broadcast; this is the first Fortran compiler that both provides teams and handles such a memory hierarchy methodology within teams},
+	author = {Khaldi, Dounia and Eachempati, Deepak and Ge, Shiyao and Jouvelot, Pierre and Chapman, Barbara},
+	booktitle = {2015 IEEE International Conference on Cluster Computing},
+	date-added = {2025-01-07 08:32:48 -0700},
+	date-modified = {2025-01-07 08:33:10 -0700},
+	organization = {IEEE},
+	pages = {448--451},
+	title = {A team-based methodology of memory hierarchy-aware runtime support in Coarray Fortran},
+	year = {2015}}
+
+@book{balaji2020parallel,
+	author = {Pavan Balaji},
+	date-added = {2025-01-07 08:18:13 -0700},
+	date-modified = {2025-01-07 08:18:13 -0700},
+	doi = {10.7551/mitpress/11103.001.0001},
+	publisher = {MIT Press},
+	title = {Programming Models for Parallel Computing},
+	year = {2020},
+	bdsk-url-1 = {https://doi.org/10.7551/mitpress/11103.001.0001}}
+
+@book{wolfe1996compilers,
+	author = {Michael Wolfe},
+	date-added = {2025-01-07 08:17:56 -0700},
+	date-modified = {2025-01-07 08:17:56 -0700},
+	publisher = {Addison-Wesley},
+	title = {High-Performance Compilers for Parallel Computing},
+	year = {1996}}
+
+@inproceedings{graham2005openmpi,
+	author = {Richard L. Graham and Timothy S. Woodall and Jeffrey M. Squyres},
+	booktitle = {Proceedings, 11th European PVM/MPI Users' Group Meeting},
+	date-added = {2025-01-07 08:17:50 -0700},
+	date-modified = {2025-01-07 08:17:50 -0700},
+	pages = {97--104},
+	title = {Open MPI: Goals, Concept, and Design of a Next Generation MPI Implementation},
+	year = {2005}}
+
+@manual{mpi_standard,
+	author = {{Message Passing Interface Forum}},
+	date-added = {2025-01-07 08:17:45 -0700},
+	date-modified = {2025-01-07 08:17:45 -0700},
+	organization = {MPI Forum},
+	title = {MPI: A Message-Passing Interface Standard},
+	url = {https://www.mpi-forum.org/docs/},
+	year = {2015},
+	bdsk-url-1 = {https://www.mpi-forum.org/docs/}}
+
+@book{foster1995parallel,
+	author = {Ian Foster},
+	date-added = {2025-01-07 08:17:39 -0700},
+	date-modified = {2025-01-07 08:17:39 -0700},
+	publisher = {Addison-Wesley},
+	title = {Designing and Building Parallel Programs},
+	url = {https://www.mcs.anl.gov/~itf/dbpp/},
+	year = {1995},
+	bdsk-url-1 = {https://www.mcs.anl.gov/~itf/dbpp/}}
+
+@article{flynn1972taxonomy,
+	author = {Michael J. Flynn},
+	date-added = {2025-01-07 08:17:34 -0700},
+	date-modified = {2025-01-07 08:17:34 -0700},
+	doi = {10.1109/TC.1972.5009071},
+	journal = {IEEE Transactions on Computers},
+	number = {9},
+	pages = {948--960},
+	title = {Some Computer Organizations and Their Effectiveness},
+	volume = {C-21},
+	year = {1972},
+	bdsk-url-1 = {https://doi.org/10.1109/TC.1972.5009071}}
+
+@misc{modern_fortran_parallel,
+	abstract = {This webpage provides an overview of parallel programming in Modern Fortran, covering coarrays, OpenMP, and MPI. It is part of a comprehensive Modern Fortran tutorial.},
+	author = {West Virginia University High-Performance Computing},
+	date-added = {2025-01-06 18:51:44 -0700},
+	date-modified = {2025-01-06 18:51:44 -0700},
+	note = {Accessed: 2025-01-06},
+	title = {Modern Fortran: Parallel Programming},
+	url = {https://wvuhpc.github.io/Modern-Fortran/20-Parallel-Programming/index.html},
+	year = {n.d.},
+	bdsk-url-1 = {https://wvuhpc.github.io/Modern-Fortran/20-Parallel-Programming/index.html}}
+
+@misc{rupp2018microprocessor,
+	abstract = {This dataset and analysis extend the well-known "35 Years of Microprocessor Trend Data" originally compiled by Horowitz et al., providing updated information through 2018. The trends include transistor counts, clock frequencies, power consumption, single-thread performance, and the number of cores.},
+	author = {Karl Rupp},
+	date-added = {2025-01-06 18:47:35 -0700},
+	date-modified = {2025-01-06 18:47:35 -0700},
+	note = {Accessed: 2025-01-06},
+	title = {42 Years of Microprocessor Trend Data},
+	url = {https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/},
+	year = {2018},
+	bdsk-url-1 = {https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/}}
+
+@misc{rupp2015microprocessor,
+	abstract = {One of the most popular plots when it comes to technologic advancements in microprocessors in general and Moore's Law in particular is a plot entitled 35 Years of Microprocessor Trend Data based on data by M. Horowitz, F. Labonte, O. Shacham, K. Olukotun, L. Hammond, and C. Batten. Later, trend lines with some (speculative) extrapolation were added by C. Moore. },
+	author = {Karl Rupp},
+	date-added = {2025-01-06 18:43:20 -0700},
+	date-modified = {2025-01-06 18:49:43 -0700},
+	note = {Accessed: 2025-01-06},
+	title = {40 Years of Microprocessor Trend Data},
+	url = {https://www.karlrupp.net/2015/06/40-years-of-microprocessor-trend-data/},
+	year = {2015},
+	bdsk-url-1 = {https://www.karlrupp.net/2018/02/42-years-of-microprocessor-trend-data/}}
+
+@article{mckevitt2025accelerating,
+	abstract = {Fortran's prominence in scientific computing requires strategies to ensure both that legacy codes are efficient on high-performance computing systems, and that the language remains attractive for the development of new high-performance codes. Coarray Fortran (CAF), part of the Fortran 2008 standard introduced for parallel programming, facilitates distributed memory parallelism with a syntax familiar to Fortran programmers, simplifying the transition from single-processor to multi-processor coding. This research focuses on innovating and refining a parallel programming methodology that fuses the strengths of Intel Coarray Fortran, Nvidia CUDA Fortran, and OpenMP for distributed memory parallelism, high-speed GPU acceleration and shared memory parallelism respectively. We consider the management of pageable and pinned memory, CPU-GPU affinity in NUMA multiprocessors, and robust compiler interfacing with speed optimisation. We demonstrate our method through its application to a parallelised Poisson solver and compare the methodology, implementation, and scaling performance to that of the Message Passing Interface (MPI), finding CAF offers similar speeds with easier implementation. For new codes, this approach offers a faster route to optimised parallel computing. For legacy codes, it eases the transition to parallel computing, allowing their transformation into scalable, high-performance computing applications without the need for extensive re-design or additional syntax.
+},
+	author = {McKevitt, James and Vorobyov, Eduard I and Kulikov, Igor},
+	date-added = {2025-01-06 11:14:39 -0700},
+	date-modified = {2025-01-09 19:46:44 -0700},
+	journal = {Journal of Parallel and Distributed Computing},
+	pages = {104977},
+	publisher = {Elsevier},
+	title = {Accelerating Fortran codes: A method for integrating Coarray Fortran with CUDA Fortran and OpenMP},
+	url = {https://www.sciencedirect.com/science/article/pii/S0743731524001412},
+	volume = {195},
+	year = {2025},
+	bdsk-url-1 = {https://www.sciencedirect.com/science/article/pii/S0743731524001412}}
+
+@inproceedings{fanfarillo2014opencoarrays,
+	author = {Fanfarillo, Alessandro and Burnus, Tobias and Cardellini, Valeria and Filippone, Salvatore and Nagle, Dan and Rouson, Damian},
+	booktitle = {Proceedings of the 8th International Conference on Partitioned Global Address Space Programming Models},
+	date-added = {2025-01-06 11:02:21 -0700},
+	date-modified = {2025-01-06 11:02:21 -0700},
+	pages = {1--11},
+	title = {OpenCoarrays: open-source transport layers supporting coarray Fortran compilers},
+	year = {2014}}
+
+@article{yang2014portable,
+	abstract = {The past decade has seen the advent of a number of parallel programming models such as Coarray Fortran (CAF), Unified Parallel C, X10, and Chapel. Despite the productivity gains promised by these models, most parallel scientific applications still rely on MPI as their data movement model. One reason for this trend is that it is hard for users to incrementally adopt these new programming models in existing MPI applications. Because each model use its own runtime system, they duplicate resources and are potentially error-prone. Such independent runtime systems were deemed necessary because MPI was considered insufficient in the past to play this role for these languages.
+The recently released MPI-3, however, adds several new capabilities that now provide all of the functionality needed to act as a runtime, including a much more comprehensive one-sided communication framework. In this paper, we investigate how MPI-3 can form a runtime system for one example programming model, CAF, with a broader goal of enabling a single application to use both MPI and CAF with the highest level of interoperability.},
+	author = {Yang, Chaoran and Bland, Wesley and Mellor-Crummey, John and Balaji, Pavan},
+	date-added = {2025-01-06 11:00:25 -0700},
+	date-modified = {2025-01-06 11:00:36 -0700},
+	journal = {ACM SIGPLAN Notices},
+	number = {8},
+	pages = {81--92},
+	publisher = {ACM New York, NY, USA},
+	title = {Portable, MPI-interoperable coarray Fortran},
+	volume = {49},
+	year = {2014}}
+
+@inproceedings{shterenlikht2015fortran,
+	author = {Shterenlikht, Anton and Margetts, Lee and Cebamanos, Luis and Henty, David},
+	booktitle = {ACM Sigplan Fortran Forum},
+	date-added = {2025-01-06 10:44:08 -0700},
+	date-modified = {2025-01-06 10:44:08 -0700},
+	number = {1},
+	organization = {ACM New York, NY, USA},
+	pages = {10--30},
+	title = {Fortran 2008 coarrays},
+	volume = {34},
+	year = {2015}}
+
+@article{reid2020history,
+	abstract = {The coarray programming model is an expression of the Single-Program-Multiple-Data (SPMD) programming model through the simple device of adding a codimension to the Fortran language. A data object declared with a codimension is a coarray object. Codimensions express the idea that some objects are located in local memory while others are located in remote memory. Coarray syntax obeys most of the same rules for normal array syntax. It is familiar to the Fortran programmer so the use of coarray syntax is natural and intuitive. Although the basic idea is quite simple, inserting it into the language definition turned out to be difficult.
+In addition, the process was complicated by rapidly changing hardware and heated arguments over whether parallelism should be supported best as an interface to language-independent libraries, as a set of directives superimposed on languages, or as a set of specific extensions to existing languages.
+In this paper, we review both the early history of coarrays and also their development into a part of Fortran 2008 and eventually into a larger part of Fortran 2018. Coarrays have been used, for example, in weather forecasting and in neural networks and deep learning.},
+	author = {Reid, John and Long, Bill and Steidel, Jon},
+	date-added = {2025-01-06 10:38:42 -0700},
+	date-modified = {2025-01-06 10:38:57 -0700},
+	journal = {Proceedings of the ACM on Programming Languages},
+	number = {HOPL},
+	pages = {1--30},
+	publisher = {ACM New York, NY, USA},
+	title = {History of coarrays and SPMD parallelism in Fortran},
+	volume = {4},
+	year = {2020}}
+
+@article{radhakrishnan2015using,
+	abstract = {This paper summarizes a strategy for parallelizing a legacy Fortran 77 program using the object-oriented (OO) and coarray features that entered Fortran in the 2003 and 2008 standards, respectively. OO programming (OOP) facilitates the construction of an extensible suite of model-verification and performance tests that drive the development. Coarray parallel programming facilitates a rapid evolution from a serial application to a parallel application capable of running on multicore processors and many-core accelerators in shared and distributed memory. We delineate 17 code modernization steps used to refactor and parallelize the program and study the resulting performance. Our initial studies were done using the Intel Fortran compiler on a 32-core shared memory server. Scaling behavior was very poor, and profile analysis using TAU showed that the bottleneck in the performance was due to our implementation of a collective, sequential summation procedure. We were able to improve the scalability and achieve nearly linear speedup by replacing the sequential summation with a parallel, binary tree algorithm. We also tested the Cray compiler, which provides its own collective summation procedure. Intel provides no collective reductions. With Cray, the program shows linear speedup even in distributed-memory execution. We anticipate similar results with other compilers once they support the new collective procedures proposed for Fortran 2015.},
+	author = {Radhakrishnan, Hari and Rouson, Damian WI and Morris, Karla and Shende, Sameer and Kassinos, Stavros C},
+	date-added = {2025-01-06 10:36:39 -0700},
+	date-modified = {2025-01-06 10:58:42 -0700},
+	journal = {Scientific Programming},
+	number = {1},
+	pages = {904983},
+	publisher = {Wiley Online Library},
+	title = {Using coarrays to parallelize legacy Fortran applications: Strategy and case study},
+	volume = {2015},
+	year = {2015}}
+
+@inproceedings{numrich2006parallel,
+	author = {Numrich, Robert W},
+	booktitle = {Parallel Processing and Applied Mathematics: 6th International Conference, PPAM 2005, Pozna{\'n}, Poland, September 11-14, 2005, Revised Selected Papers 6},
+	date-added = {2025-01-06 10:35:56 -0700},
+	date-modified = {2025-01-06 10:35:56 -0700},
+	organization = {Springer},
+	pages = {960--969},
+	title = {A parallel numerical library for co-array Fortran},
+	year = {2006}}
+
+@inproceedings{reid2010coarrays,
+	author = {Reid, John},
+	booktitle = {ACM SIGPLAN Fortran Forum},
+	date-added = {2025-01-06 10:35:02 -0700},
+	date-modified = {2025-01-06 10:35:02 -0700},
+	number = {2},
+	organization = {ACM New York, NY, USA},
+	pages = {10--27},
+	title = {Coarrays in the next fortran standard},
+	volume = {29},
+	year = {2010}}
+
+@inproceedings{mellor2009new,
+	abstract = {In 1998, Numrich and Reid proposed Coarray Fortran as a simple set of extensions to Fortran 95 [7]. Their principal extension to Fortran was support for shared data known as coarrays. In 2005, the Fortran Standards Committee began exploring the addition of coarrays to Fortran 2008, which is now being finalized. Careful review of drafts of the emerging Fortran 2008 standard led us to identify several shortcomings with the proposed coarray extensions. In this paper, we briefly critique the coarray extensions proposed for Fortran 2008, outline a new vision for coarrays in Fortran language that is far more expressive, and briefly describe our strategy for implementing the language extensions that we propose.},
+	author = {Mellor-Crummey, John and Adhianto, Laksono and Scherer III, William N and Jin, Guohua},
+	booktitle = {Proceedings of the Third Conference on Partitioned Global Address Space Programing Models},
+	date-added = {2025-01-06 10:34:19 -0700},
+	date-modified = {2025-01-07 08:47:47 -0700},
+	pages = {1--9},
+	title = {A new vision for Coarray Fortran},
+	year = {2009}}
+
+@inproceedings{rivas2019persistent,
+	abstract = {The inherent integration of novel hardware and software components on HPC is expected to considerably aggravate the Mean Time Between Failures (MTBF) on scientific applications, while simultaneously increase the programming complexity of these clusters. In this work, we present the initial steps towards the integration of transparent resilience support inside Coarray Fortran. In particular, we propose persistent coarrays, an extension of OpenCoarrays that integrates MPI storage windows to leverage its transport layer and seamlessly map coarrays to files on storage. Preliminary results indicate that our approach provides clear benefits on representative workloads, while incurring in minimal source code changes.},
+	author = {Rivas-Gomez, Sergio and Fanfarillo, Alessandro and Narasimhamurthy, Sai and Markidis, Stefano},
+	booktitle = {Proceedings of the 26th European MPI Users' Group Meeting},
+	date-added = {2025-01-06 10:33:15 -0700},
+	date-modified = {2025-01-06 10:33:25 -0700},
+	pages = {1--8},
+	title = {Persistent coarrays: integrating mpi storage windows in coarray fortran},
+	year = {2019}}
+
+@inproceedings{eachempati2010open,
+	abstract = {Coarray Fortran (CAF) comprises a set of proposed language extensions to Fortran that are expected to be adopted as part of the Fortran 2008 standard. In contrast to prior open-source implementation efforts, our approach is to use a single, unified compiler infrastructure to translate, optimize and generate binaries from CAF codes. In this paper, we will describe our compiler and runtime implementation of CAF using an Open64-based compiler infrastructure. We will detail the process by which we generate a high-level intermediate representation from the CAF code in our compilers front-end, how our compiler analyzes and translate this IR to generate a binary which makes use of our runtime system, and how we support the runtime execution model with our runtime library. We have carried out experiments using both an ARMCI- and GASNet-based runtime implementation, and we present these results.},
+	author = {Eachempati, Deepak and Jun, Hyoung Joon and Chapman, Barbara},
+	booktitle = {Proceedings of the Fourth Conference on Partitioned Global Address Space Programming Model},
+	date-added = {2025-01-06 10:31:51 -0700},
+	date-modified = {2025-01-06 10:32:40 -0700},
+	pages = {1--8},
+	title = {An open-source compiler and runtime implementation for Coarray Fortran},
+	year = {2010}}
+
+@mastersthesis{odabacsiparallel,
+	abstract = {Co-array Fortran (CAF) is a small set of extensions to Fortran 90. And also CAF is an emerging model for scalable, global address space paralel programming. CAF?s global address space programming model simplifies the development of SPMD paralel programs by shifting the burden for managing the details of communication from developers to compilers.In this study I introduce CAF?s Programming Model, provide it?s technical specifications, explain CAFs memory model and PGAS (Partitioned Global Address Space) , make comparsion between two SPMD language CAF and OpenMP.In case, I select Matrix Multiplication as a problem and wrote Co Array Fortran code fort his problem. I ran it on Amazon EC2 Cluster with 16 CPU and CentOS operating system. Finally I showed the performance numbers fort his work.},
+	author = {Odaba{\c{s}}i, A{\c{s}}kin},
+	date-added = {2025-01-06 10:29:07 -0700},
+	date-modified = {2025-01-06 10:30:03 -0700},
+	school = {Fen Bilimleri Enstit{\"u}s{\"u}},
+	title = {Parallel programming techniques by using co-array Fortran},
+	url = {https://acikbilim.yok.gov.tr/handle/20.500.12812/638701},
+	bdsk-url-1 = {https://acikbilim.yok.gov.tr/handle/20.500.12812/638701}}
+
+@inproceedings{jin2011implementation,
+	abstract = {Today's largest supercomputers have over two hundred thousand CPU cores and even larger systems are under development. Typically, these systems are programmed using message passing. Over the past decade, there has been considerable interest in developing simpler and more expressive programming models for them. Partitioned global address space (PGAS) languages are viewed as perhaps the most promising alternative. In this paper, we report on our experience developing a set of PGAS extensions to Fortran that we call Co array Fortran 2.0 (CAF 2.0). Our design for CAF 2.0 goes well beyond the original 1998 design of Co array Fortran (CAF) by Numrich and Reid. CAF 2.0 includes language support for many features including teams, collective communication, asynchronous communication, function shipping, and synchronization. We describe the implementation of these features and our experiences using them to implement the High Performance Computing Challenge (HPCC) benchmarks, including High Performance Linpack (HPL), Random Access, Fast Fourier Transform (FFT), and STREAM triad. On 4096 CPU cores of a Cray XT with 2.3 GHz single socket quad-core Opteron processors, we achieved 18.3 TFLOP/s with HPL, 2.01 GUP/s with Random Access, 125 GFLOP/s with FFT, and a bandwidth of 8.73 TByte/s with STREAM triad. we call Co array Fortran 2.0 (CAF 2.0). Our design for CAF 2.0 goes well beyond the original 1998 design of Coarray Fortran (CAF) by Numrich and Reid. CAF 2.0 includes language support for many features including teams, collective communication, asynchronous communication, function shipping, and synchronization. We describe the implementation of these features and our experiences using them to implement the High Performance Computing Challenge (HPCC) benchmarks, including High Performance Linpack (HPL), Random Access, Fast Fourier Transform (FFT), and STREAM triad. On 4096 CPU cores of a Cray XT with 2.3 GHz single socket quad-core Opteron processors, we achieved 18.3 TFLOP/s with HPL, 2.01 GUP/s with Random Access, 125 GFLOP/s with FFT, and a bandwidth of 8.73 TByte/s with STREAM triad.},
+	author = {Jin, Guohua and Mellor-Crummey, John and Adhianto, Laksono and Scherer III, William N and Yang, Chaoran},
+	booktitle = {2011 IEEE International Parallel \& Distributed Processing Symposium},
+	date-added = {2025-01-06 10:28:14 -0700},
+	date-modified = {2025-01-06 10:28:32 -0700},
+	organization = {IEEE},
+	pages = {1089--1100},
+	title = {Implementation and performance evaluation of the hpc challenge benchmarks in coarray fortran 2.0},
+	year = {2011}}
+
+@phdthesis{ge2016implementation,
+	author = {Ge, Shiyao},
+	date-added = {2025-01-06 10:26:03 -0700},
+	date-modified = {2025-01-06 10:26:03 -0700},
+	title = {Implementation and Evaluation of Additional Parallel Features of Coarary Fortran},
+	year = {2016}}
+
+@inproceedings{rouson2022caffeine,
+	abstract = {This paper provides an introduction to the CoArray Fortran Framework of Efficient Interfaces to Network Environments (Caffeine), a parallel runtime library built atop the GASNet-EX exascale networking library. Caffeine leverages several non-parallel Fortran features to write type- and rankagnostic interfaces and corresponding procedure definitions that support parallel Fortran 2018 features, including communication, collective operations, and related services. One major goal is to develop a runtime library that can eventually be considered for adoption by LLVM Flang, enabling that compiler to support the parallel features of Fortran. The paper describes the motivations behind Caffeine's design and implementation decisions, details the current state of Caffeine's development, and previews future work. We explain how the design and implementation offer benefits related to software sustainability by lowering the barrier to user contributions, reducing complexity through the use of Fortran 2018 C-interoperability features, and high performance through the use of a lightweight communication substrate.
+},
+	author = {Rouson, Damian and Bonachea, Dan},
+	booktitle = {2022 IEEE/ACM Eighth Workshop on the LLVM Compiler Infrastructure in HPC (LLVM-HPC)},
+	date-added = {2025-01-06 10:22:19 -0700},
+	date-modified = {2025-01-06 10:22:34 -0700},
+	organization = {IEEE},
+	pages = {34--42},
+	title = {Caffeine: Coarray Fortran framework of efficient interfaces to network environments},
+	year = {2022}}
+
+@article{fanfarillo2019resilient,
+	abstract = {With the increase in the number of hardware components and layers of the software stack in High Performance Computing (HPC) there will likely be an increment in number of hardware and software failures, which will be user-visible. Even under the most optimistic assumptions about the individual components reliability, probabilistic amplification from using millions of nodes has a dramatic impact on the Mean Time Between Failure (MTBF) of the entire platform.
+Although several techniques to address this problem have been developed, the support provided by the programming model, for the user to mitigate or work around this issue, is still insufficient. The Fortran 2018 standard defines failed images, a new feature that allows the programmer to detect and manage image failures in a parallel program.
+In this paper we show how to use failed images and teams, another feature defined in the Fortran 2018 standard, to implement resilient computational applications.},
+	author = {Fanfarillo, Alessandro and Garain, Sudip Kumar and Balsara, Dinshaw and Nagle, Daniel},
+	date-added = {2025-01-06 10:21:08 -0700},
+	date-modified = {2025-01-09 19:47:25 -0700},
+	journal = {Parallel Computing},
+	pages = {58--67},
+	publisher = {Elsevier},
+	title = {Resilient computational applications using Coarray Fortran},
+	url = {https://www.sciencedirect.com/science/article/abs/pii/S0167819118303867},
+	volume = {81},
+	year = {2019},
+	bdsk-url-1 = {https://www.sciencedirect.com/science/article/abs/pii/S0167819118303867}}
+
+@article{eachempati2014coarray,
+	author = {Eachempati, Deepak and Richardson, Alan and Jana, Siddhartha and Liao, Terrence and Calandra, Henri and Chapman, Barbara},
+	date-added = {2025-01-06 10:18:55 -0700},
+	date-modified = {2025-01-06 10:18:55 -0700},
+	journal = {Cluster Computing},
+	pages = {569--583},
+	publisher = {Springer},
+	title = {A Coarray Fortran implementation to support data-intensive application development},
+	volume = {17},
+	year = {2014}}

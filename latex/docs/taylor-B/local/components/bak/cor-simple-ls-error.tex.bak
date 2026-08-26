@@ -1,0 +1,60 @@
+% \input{\pThms/"cor-simple-ls-error.tex"}
+\typeout{ \enumContent \pThms/"cor-simple-ls-error.tex"}
+%
+%\clearpage
+\begin{corollary}[Error for the rank one solution]
+
+Given the least squares problem and solution in theorem \ref{thm:simple}, the corresponding error is
+		%
+\begin{equation}
+	\sigma_{\alpha} = \sqrt{ \frac{ \innerSelf{\bl{u}} \innerSelf{v} - \inner{\bl{u}}{v}^{2} } {(m-1)\innerSelf{\bl{u}}^{2}}},
+\label{eq:cor-stmt:a}
+\end{equation}
+%
+where the Cauchy-Schwarz identity appears in the numerator.
+		%
+\label{cor:cor-stmt:b}
+\end{corollary}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+   
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+The template \eqref{eq:error-template} for the least squares error in $\alpha$ is
+		%
+\begin{equation}
+	\sigma_{\alpha} = \sqrt{ \frac{\phi^{2}_{min}} {m-1} \innerSelf{\chi}}
+\tag{\ref{eq:error-template}}
+\end{equation}
+where the $m-$dimensional vector $\chi$ encodes the derivatives of the solution with respect to each datum:
+		%
+\begin{equation}
+	\chi_{k} = \frac{\partial}{\partial v_{k}} a_{p} = \partial_{k} \frac{\inner{\bl{u}}{v}}{\innerSelf{u}} = \frac{u_{k}}{\innerSelf{u}}, \qquad k=1:m
+\label{eq:cor-stmt:c}
+\end{equation}
+%
+translating to the vector form
+		%
+\begin{equation}
+	\chi = \innerSelf{u}^{-1}u
+\label{eq:cor-stmt:d}
+\end{equation}
+		%		%
+with norm $\innerSelf{\chi} = \innerSelf{\bl{u}}^{-1}$. Direct substitution of the least squares solution \eqref{eq:soln simple} into the definition for $\phi^{2}(\alpha)$ in \eqref{eq:phi-min-sq} and multiplying by the scalar $\innerSelf{\chi}$ provides
+		%
+\begin{equation}
+	\phi^{2}\paren{a_{p}} = \innerSelf{v} - \frac{ \inner{\bl{u}}{v}^{2} } {\innerSelf{\bl{u}}}
+\label{eq:cor-stmt:f}
+\end{equation}
+%
+with the product
+		%
+\begin{equation}
+	\phi^{2}\paren{a_{p}}\innerSelf{\chi} = \frac{ \innerSelf{\bl{u}}\innerSelf{v} - \inner{\bl{u}}{v}^{2} } {\innerSelf{\bl{u}}^{2}}
+\label{eq:cor-stmt:e}
+\end{equation}
+		%
+which, when substituted into the template \eqref{eq:error-template} provides the form in  \eqref{eq:cor-stmt:a}.
+\end{proof}
+%
+%
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

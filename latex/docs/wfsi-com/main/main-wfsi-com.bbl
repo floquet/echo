@@ -1,0 +1,110 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{goodman2005introduction}{book}{}
+      \name{author}{1}{}{%
+        {{hash=715ae9f4b2b2a8e252870bb9ebf7884c}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Joseph\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Roberts}%
+        {Company publishers}%
+      }
+      \strng{namehash}{715ae9f4b2b2a8e252870bb9ebf7884c}
+      \strng{fullhash}{715ae9f4b2b2a8e252870bb9ebf7884c}
+      \strng{bibnamehash}{715ae9f4b2b2a8e252870bb9ebf7884c}
+      \strng{authorbibnamehash}{715ae9f4b2b2a8e252870bb9ebf7884c}
+      \strng{authornamehash}{715ae9f4b2b2a8e252870bb9ebf7884c}
+      \strng{authorfullhash}{715ae9f4b2b2a8e252870bb9ebf7884c}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This textbook deals with fourier analysis applications in optics, and in particular with its applications to diffraction, imaging, optical data processing, holography and optical communications. Fourier analysis is a universal tool that has found application within a wide range of areas in physics and engineering and this third edition has been written to help your students understand the complexity of a subject that can be challenging to grasp at times. Chapters cover foundations of scalar diffraction theory, Fresnel and Fraunhofer diffraction moving onto Wave-Optics Analysis of Coherent Optical Systems and Wavefront Modulation. Joseph Goodman's work in Electrical Engineering has been recognised by a variety of awards and honours, so his text is able to guide students through a comprehensive introduction into Fourier Optics.}
+      \field{title}{Introduction to Fourier optics}
+      \field{year}{2005}
+    \endentry
+    \entry{topa2002optimized}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=4a3c39a441c238079ab434012515fdb8}{%
+           family={Topa},
+           familyi={T\bibinitperiod},
+           given={Daniel\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Seattle, WA, USA}%
+      }
+      \list{organization}{1}{%
+        {SPIE's 47th Annual Meeting}%
+      }
+      \list{publisher}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{4a3c39a441c238079ab434012515fdb8}
+      \strng{fullhash}{4a3c39a441c238079ab434012515fdb8}
+      \strng{bibnamehash}{4a3c39a441c238079ab434012515fdb8}
+      \strng{authorbibnamehash}{4a3c39a441c238079ab434012515fdb8}
+      \strng{authornamehash}{4a3c39a441c238079ab434012515fdb8}
+      \strng{authorfullhash}{4a3c39a441c238079ab434012515fdb8}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Optical Design and Analysis Software {II}}
+      \field{month}{7}
+      \field{series}{International Symposium on Optical Science and Technology}
+      \field{title}{Optimized methods for focal spot location using center of mass algorithms}
+      \field{volume}{4769}
+      \field{year}{2002}
+    \endentry
+    \entry{weisstein2002crc}{book}{}
+      \name{author}{1}{}{%
+        {{hash=819197bfeff32a3f58d49b2a3eb0a580}{%
+           family={Weisstein},
+           familyi={W\bibinitperiod},
+           given={Eric\bibnamedelima W},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall/CRC}%
+      }
+      \strng{namehash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{fullhash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{bibnamehash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{authorbibnamehash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{authornamehash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{authorfullhash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CRC concise encyclopedia of mathematics}
+      \field{year}{2002}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

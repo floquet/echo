@@ -1,0 +1,269 @@
+%%%	%%%	%%%	%%%	%%%
+\section{Least Squares Methods: \bsvd}
+
+% \input{../sections/"sec delta"/sec-03.tex}
+
+%%%	%%%	%%%	%%%	%%%
+\subsection{Structure of the \bsvd}
+
+\begin{frame}
+\frametitle{\bsvd: Big Picture}
+	{\large{
+		%
+Given a nonzero matrix $\aicmnr$, a matrix with complex entries with $m$ rows, $n$ columns, and matrix rank $0<\rho\le\min\paren{m,n}$, then there exists a decomposition of the form
+%
+\begin{equation}
+	\svdk{*}
+\label{eq:svdk}
+\end{equation}
+		%
+	}}
+\end{frame}
+
+\begin{frame}
+\frametitle{\bsvd: Big Picture}
+	{\large{
+		%
+\begin{enumerate}
+  \item column vectors of unitary matrix $\V{}\icnn$ represent an orthonormal span of the row space (\bl{solution space}),
+  \item column vectors of unitary matrix $\U{}\icmm$ represent an orthonormal span of the column space (\bl{measurement space}),
+  \item entries in the diagonal matrix $\ess{}\in\real{\byy{\rho}}$ contain the singular values; the square root of ordered, nonzero \bl{eigenvalues of the product matrix} $\wx{*}$,
+  \item the sabot matrix $\sig{}\irmn$ pads, $\ess{}$, the matrix of singular values with zeros so that is \bl{conformable} with both $\U{}$ and $\V{}$.
+\end{enumerate}
+		%
+	}}
+\end{frame}
+
+\begin{frame}
+\frametitle{Conformability}
+	{\large{
+	$$\A{}\in\cmplx{4\times2}_{1}$$
+		%
+\begin{equation}
+	\begin{array}{cccccc}
+			%
+		&\A{} &= &\U{} &\sig{} &\V{*}\\[5pt]
+			%
+		&\mat{c|c}{&\\\hline&\\\hline&\\\hline&} &= 
+			&\mat{c|c|c|c}{\ccb&\ccr&\ccr&\ccr\\\hline
+						   \ccb&\ccr&\ccr&\ccr\\\hline
+						   \ccb&\ccr&\ccr&\ccr\\\hline
+						   \ccb&\ccr&\ccr&\ccr}
+			&\mat{c|c}{\cellcolor{black!20}&0 \\\hline
+					0 & 0 \\\hline
+					0 & 0 \\\hline
+					0 & 0 }
+			&\mat{c|c}{\ccb&\ccb\\\hline\ccr&\ccr} \\[35pt]
+			%
+			& m\times n&& m\times m& \dim\paren{\A{}} & n\times n
+			%
+	\end{array}
+\label{eq:}
+\end{equation}
+		%
+	}}
+\end{frame}
+
+%%%	%%%	%%%	%%%	%%%
+\subsection{Fundamental Subspace and the \bsvd}
+
+\begin{frame}
+	\frametitle{\bf{Column Vectors Span Subspaces}}
+	{\large{
+		%
+	\begin{equation}
+	\begin{split}
+		\V{} &= \vcols,	\\
+		\U{} &= \ucols.
+	\end{split}
+	\label{eq:}
+	\end{equation}
+		%
+\begin{table}[htbp]
+%\caption{Orthonormal spans for the invariant subspaces.}
+	\begin{center}
+		\begin{tabular}{cclcccl}
+			%
+			&& range spaces &&&& null spaces \\\hline
+			%
+		$\brnga{*}$ &=& span$\lst{\bvo, \dots, \bvrho}$ & \qquad &
+		$\rnlla{*}$ &=& span$\lst{\rurpo, \dots, \rum}$ \\
+			%
+		$\brnga{}$  &=& span$\lst{\buo, \dots, \burho}$ &&
+		$\rnlla{}$  &=& span$\lst{\rvrpo, \dots, \rvn}$ \\
+			%
+		\end{tabular}
+	\end{center}
+\label{tab:xxx}
+\end{table}
+	}}
+\end{frame}
+
+\begin{frame}
+	\frametitle{\bf{\bsvd \ as Column Vectors}}
+{\small{
+\begin{equation}
+	\begin{array}{ccccc}
+		\A{} &= &\U{} &\sig{} &\V{*} \\
+			&=& \mat{cccccc}{\buo & \dots & \burho & \rurpo & \dots & \rum}
+			 & \mat{ccc|c}{\sigma_{1} &&&
+			 			\\ & \ddots && \zero 
+						\\ && \sigma_{\rho} 
+						\\\hline & \zero && \zero}
+			 & \mat{c}{\bvo^{*} \\ \vdots \\ \bvrho^{*} \\ \rvrpo^{*} \\ \vdots \\ \rvn^{*}}
+	\end{array}
+%\label{eq:}
+\end{equation}
+}}
+\end{frame}
+
+\begin{frame}
+	\frametitle{\bf{Subspace Mappings: Watkins Diagram}}
+{\small{
+\begin{table}[htbp]
+	\begin{center}
+		\begin{tabular}{ccccccc}
+		  %
+		  & $\A{}$ &&&& $\A{*}$ \\
+		  %
+		  $\bvo$ & $\xrightarrow[]{ \phantom{1} \sigma_{1} \phantom{1} }$ & $\buo$ & &
+		  $\buo$ & $\xrightarrow[]{ \phantom{1} \sigma_{1} \phantom{1} }$ & $\bvo$ \\
+		  %
+		  $\bvt$ & $\xrightarrow[]{ \phantom{1} \sigma_{2} \phantom{1} }$ & $\but$ & &
+		  $\but$ & $\xrightarrow[]{ \phantom{1} \sigma_{2} \phantom{1} }$ & $\bvt$ \\
+		  %
+		  $\vdots$ & & $\vdots$ & & $\vdots$ &  & $\vdots$ \\
+		  %
+		  ${\bl{ v_{\rho} }}$ & $\xrightarrow[]{ \phantom{1} \sigma_{\rho} \phantom{1} }$ & ${\bl{ u_{\rho} }}$ & &
+		  ${\bl{ u_{\rho} }}$ & $\xrightarrow[]{ \phantom{1} \sigma_{\rho} \phantom{1} }$ & ${\bl{ v_{\rho} }}$ \\[5pt]
+		  %
+		  %
+		  ${\rd{ v_{\rho+1} }}$ & $\xrightarrow[]{ \phantom{1} \phantom{\sigma_{\rho}} \phantom{1} }$ & $\zero$ & & 
+		  ${\rd{ u_{\rho+1} }}$ & $\xrightarrow[]{ \phantom{1} \phantom{\sigma_{\rho}} \phantom{1} }$ & $\zero$ \\ \\
+		  %
+		  ${\rd {\vdots }}$ & & $\vdots$ & & ${\rd {\vdots }}$ &  & $\vdots$ \\
+		  %
+		  ${\rd{ v_{m} }}$ & $\xrightarrow[]{ \phantom{1} \phantom{\sigma_{\rho}} \phantom{1} }$ & $\zero$ & & 
+		  ${\rd{ u_{n} }}$ & $\xrightarrow[]{ \phantom{1} \phantom{\sigma_{\rho}} \phantom{1} }$ & $\zero$ \\ \\\hline \\
+		  %
+		  $\cmplxm$ & $\mapsto$ & $\cmplxn$ && $\cmplxn$ & $\mapsto$ & $\cmplxm$
+		  %
+		\end{tabular}
+	\end{center}
+	%\caption[The Watkins diagram]{The Watkins diagram showing the mapping action of a matrix and its adjoint. The relationship between the left and right eigenvectors is shown.}
+	\label{tab:watkins diagram}
+\end{table}
+}}
+\end{frame}
+
+%%%	%%%	%%%	%%%	%%%
+\subsection{\bsvd \ and \ls}
+
+\begin{frame}
+\frametitle{Minimize Total Squared Error}
+	{\large{
+		%
+\begin{equation}
+\begin{split}
+	\normts{ \axmb } 
+		&= \normts{\svd{*} - b} \\
+		&= \normts{\ess{} \V{*}b - \U{*}b }
+\end{split}
+\end{equation}
+		%
+	Use Pythagorus to separate \bl{range} and \rd{null} space components.
+		%
+	}}
+\end{frame}
+
+\begin{frame}
+\frametitle{\ls \ Result}
+	{\large{
+		%
+\begin{equation}
+\begin{split}
+	\normts{ \axmb } 
+		&= \normts{\svd{*} - b} \\
+		&= \underbrace{\normts{ \ess{} \cvr{*} x -\curs{*} b  }}_{\substack{\text{under control}\\\text{adjust }x}} + \underbrace{ \usnb }_{\text{no control}}
+\end{split}
+\end{equation}
+		%
+	}}
+\end{frame}
+
+\begin{frame}
+\frametitle{Minimize Total Squared Error}
+	{\large{
+		%
+\begin{equation}
+	\ess{} \cvr{*} x_{\star} - \curs{*} b = \zero.
+\end{equation}
+		%
+	}}
+\end{frame}
+
+\begin{frame}
+\frametitle{Moore--Penrose Pseudoinverse Appears Magically}
+	{\large{
+		%
+\begin{equation}
+	\begin{array}{lcr}
+		x_{\star} = \xp = \mppthin{*} b  = \Ap b.
+	\end{array}
+\label{eq:thunderbolt}
+\end{equation}
+		%
+}}
+\end{frame}
+
+
+\endinput  %  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+
+
+\begin{frame}
+\frametitle{\ls \ Result}
+	{\large{
+		%
+		%
+	}}
+\end{frame}
+
+\begin{frame}
+	\frametitle{\bf{Establishing \bMut}}
+	{\large{
+		%
+	\begin{equation}
+		
+	%\label{eq:}
+	\end{equation}
+		%
+	}}
+\end{frame}
+
+\begin{frame}
+	\frametitle{\bf{Establishing \bMut}}
+	{\large{
+		%
+	\begin{equation}
+	\begin{split}
+		
+	\end{split}
+	\label{eq:}
+	\end{equation}
+		%
+	}}
+\end{frame}
+
+\begin{frame}
+	\frametitle{\bf{Establishing \bMut}}
+	{\large{
+		%
+	\begin{equation}
+	\begin{array}{rcl}
+		
+	\end{array}
+	\label{eq:}
+	\end{equation}
+		%
+	}}
+\end{frame}

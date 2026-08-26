@@ -1,0 +1,318 @@
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {1}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {2}{2}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{3}{3/3}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {3}{3}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {1}{3}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {1}{3}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {1}{Introduction}{4}{Introduction}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{1}{4/4}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {4}{4}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{2}{5/5}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {5}{5}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{3}{6/6}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {6}{6}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {4}{6}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{1}{1}{7}{Reconstruction}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{1}{7/7}{Reconstruction}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {7}{7}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{2}{8/8}{Reconstruction}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {8}{8}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{1}{3}{9/9}{Reconstruction}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {9}{9}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {7}{9}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{1}{2}{10}{Shack-Hartmann Sensor}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{2}{1}{10/10}{Shack-Hartmann Sensor}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {10}{10}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {4}{10}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {10}{10}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {2}{Shack-Hartmann Reconstructor}{11}{Shack-Hartmann Reconstructor}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{1}{11/11}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {11}{11}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {11}{11}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{2}{1}{12}{X}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{1}{1}{12/12}{X}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {12}{12}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {12}{12}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{2}{2}{13}{Y}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{2}{1}{13/13}{Y}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {13}{13}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {11}{13}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {13}{13}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {3}{Orthogonality}{14}{Orthogonality}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{1}{14/14}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {14}{14}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{2}{15/15}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {15}{15}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{3}{16/16}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {16}{16}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{4}{17/17}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {17}{17}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{5}{18/18}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {18}{18}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{6}{19/19}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {19}{19}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {14}{19}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{3}{1}{20}{Orthogonal Functions}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{1}{20/20}{Orthogonal Functions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {20}{20}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{2}{21/21}{Orthogonal Functions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {21}{21}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{3}{22/22}{Orthogonal Functions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {22}{22}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{4}{23/23}{Orthogonal Functions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {23}{23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{5}{24/24}{Orthogonal Functions}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {24}{24}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {20}{24}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{3}{2}{25}{Mathematical Formalities}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{2}{1}{25/25}{Mathematical Formalities}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {25}{25}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {14}{25}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {25}{25}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {4}{Mean Value}{26}{Mean Value}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{1}{26/26}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {26}{26}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{2}{27/27}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {27}{27}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{3}{28/28}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {28}{28}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {26}{28}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{4}{1}{29}{Foundation Integral}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{1}{1}{29/29}{Foundation Integral}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {29}{29}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{1}{2}{30/30}{Foundation Integral}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {30}{30}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{1}{3}{31/31}{Foundation Integral}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {31}{31}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{1}{4}{32/32}{Foundation Integral}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {32}{32}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {29}{32}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{4}{2}{33}{Mean value over the unit disk $\overline {\mathbb {D}^{2}}$}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{1}{33/33}{Mean value over the unit disk $\overline {\mathbb {D}^{2}}$}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {33}{33}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{2}{34/34}{Mean value over the unit disk $\overline {\mathbb {D}^{2}}$}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {34}{34}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{3}{35/35}{Mean value over the unit disk $\overline {\mathbb {D}^{2}}$}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {35}{35}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{4}{36/36}{Mean value over the unit disk $\overline {\mathbb {D}^{2}}$}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {36}{36}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{5}{37/37}{Mean value over the unit disk $\overline {\mathbb {D}^{2}}$}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {37}{37}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {33}{37}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{4}{3}{38}{Mean using monomial expansion}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{1}{38/38}{Mean using monomial expansion}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {38}{38}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{2}{39/39}{Mean using monomial expansion}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {39}{39}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{3}{40/40}{Mean using monomial expansion}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {40}{40}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{4}{41/41}{Mean using monomial expansion}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {41}{41}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{5}{42/42}{Mean using monomial expansion}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {42}{42}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {38}{42}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{4}{4}{43}{Mean value of the radial Zernike polynomials}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{4}{1}{43/43}{Mean value of the radial Zernike polynomials}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {43}{43}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{4}{2}{44/44}{Mean value of the radial Zernike polynomials}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {44}{44}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {43}{44}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{4}{5}{45}{DeepSeek}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{5}{1}{45/45}{DeepSeek}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {45}{45}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{5}{2}{46/46}{DeepSeek}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {46}{46}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{5}{3}{47/47}{DeepSeek}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {47}{47}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{5}{4}{48/48}{DeepSeek}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {48}{48}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{5}{5}{49/49}{DeepSeek}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {49}{49}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {26}{49}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {45}{49}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {5}{Backup Section}{50}{Backup Section}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{1}{50/50}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {50}{50}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {50}{50}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{5}{1}{51}{X}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{1}{1}{51/51}{X}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {51}{51}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {51}{51}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{5}{2}{52}{Y}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{2}{1}{52/52}{Y}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {52}{52}}
+\headcommand {\gdef \insertmainframenumber {52}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\partentry {\translate {Appendix}}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@partpages {1}{52}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {50}{52}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {52}{52}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@appendixpages {53}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {53}{52}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {53}{52}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{1}{53/53}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {53}{53}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{2}{54/54}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\beamer@partpages {53}{54}}
+\headcommand {\beamer@subsectionpages {53}{54}}
+\headcommand {\beamer@sectionpages {53}{54}}
+\headcommand {\beamer@documentpages {54}}
+\headcommand {\gdef \inserttotalframenumber {54}}

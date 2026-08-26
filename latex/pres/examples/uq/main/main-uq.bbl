@@ -1,0 +1,223 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{bardsley2018computational}{book}{}
+      \name{author}{1}{}{%
+        {{hash=868024a9bf38fc7ad9655b180018f3a9}{%
+           family={Bardsley},
+           familyi={B\bibinitperiod},
+           given={Johnathan\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{868024a9bf38fc7ad9655b180018f3a9}
+      \strng{fullhash}{868024a9bf38fc7ad9655b180018f3a9}
+      \strng{bibnamehash}{868024a9bf38fc7ad9655b180018f3a9}
+      \strng{authorbibnamehash}{868024a9bf38fc7ad9655b180018f3a9}
+      \strng{authornamehash}{868024a9bf38fc7ad9655b180018f3a9}
+      \strng{authorfullhash}{868024a9bf38fc7ad9655b180018f3a9}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This book is an introduction to both computational inverse problems and uncertainty quantification (UQ) for inverse problems. The book also presents more advanced material on Bayesian methods and UQ, including Markov chain Monte Carlo sampling methods for UQ in inverse problems. Each chapter contains MATLAB® code that implements the algorithms and generates the figures, as well as a large number of exercises accessible to both graduate students and researchers. Audience Computational Uncertainty Quantification for Inverse Problems is intended for graduate students, researchers, and applied scientists. It is appropriate for courses on computational inverse problems, Bayesian methods for inverse problems, and UQ methods for inverse problems.}
+      \field{series}{Computational Science \& Engineering}
+      \field{title}{Computational Uncertainty Quantification for Inverse Problems}
+      \field{year}{2018}
+      \verb{doi}
+      \verb https://doi.org/10.1137/1.9781611975383
+      \endverb
+    \endentry
+    \entry{bevington1e}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3af7fac3e5ffc763bb2cfa87639c0823}{%
+           family={Bevington},
+           familyi={B\bibinitperiod},
+           given={Philip\bibnamedelima R},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{fullhash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{bibnamehash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{authorbibnamehash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{authornamehash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{authorfullhash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{journaltitle}{Computers in Physics}
+      \field{title}{Data reduction and error analysis for the physical sciences}
+      \field{year}{1969}
+      \field{pages}{415\bibrangedash 416}
+      \range{pages}{2}
+    \endentry
+    \entry{courant1936differential}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cbd386a8e82953321d78271e8559b24b}{%
+           family={Courant},
+           familyi={C\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Interscience Publishers, Incorporated}%
+      }
+      \strng{namehash}{cbd386a8e82953321d78271e8559b24b}
+      \strng{fullhash}{cbd386a8e82953321d78271e8559b24b}
+      \strng{bibnamehash}{cbd386a8e82953321d78271e8559b24b}
+      \strng{authorbibnamehash}{cbd386a8e82953321d78271e8559b24b}
+      \strng{authornamehash}{cbd386a8e82953321d78271e8559b24b}
+      \strng{authorfullhash}{cbd386a8e82953321d78271e8559b24b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Differential and Integral Calculus: Functions of several variables and their derivatives}
+      \field{volume}{2}
+      \field{year}{1936}
+    \endentry
+    \entry{gockenbach2016linear}{book}{}
+      \name{author}{1}{}{%
+        {{hash=65d14324a8ca87804a2f5a3ef5f09942}{%
+           family={Gockenbach},
+           familyi={G\bibinitperiod},
+           given={Mark\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Mathematical Soc.}%
+      }
+      \strng{namehash}{65d14324a8ca87804a2f5a3ef5f09942}
+      \strng{fullhash}{65d14324a8ca87804a2f5a3ef5f09942}
+      \strng{bibnamehash}{65d14324a8ca87804a2f5a3ef5f09942}
+      \strng{authorbibnamehash}{65d14324a8ca87804a2f5a3ef5f09942}
+      \strng{authornamehash}{65d14324a8ca87804a2f5a3ef5f09942}
+      \strng{authorfullhash}{65d14324a8ca87804a2f5a3ef5f09942}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Inverse problems occur frequently in science and technology, whenever we need to infer causes from effects that we can measure. Mathematically, they are difficult problems because they are unstable: small bits of noise in the measurement can completely throw off the solution. Nevertheless, there are methods for finding good approximate solutions. Linear Inverse Problems and Tikhonov Regularization examines one such method: Tikhonov regularization for linear inverse problems defined on Hilbert spaces. This is a clear example of the power of applying deep mathematical theory to solve practical problems. Beginning with a basic analysis of Tikhonov regularization, this book introduces the singular value expansion for compact operators, and uses it to explain why and how the method works. Tikhonov regularization with seminorms is also analyzed, which requires introducing densely defined unbounded operators and their basic properties. Some of the relevant background is included in appendices, making the book accessible to a wide range of readers.}
+      \field{series}{The Carus Mathematical Monographs}
+      \field{title}{Linear inverse problems and Tikhonov regularization}
+      \field{volume}{32}
+      \field{year}{2016}
+    \endentry
+    \entry{higham2002accuracy}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5bec9d02065c9b35d45c881a24f7a1cd}{%
+           family={Higham},
+           familyi={H\bibinitperiod},
+           given={Nicholas\bibnamedelima J},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{5bec9d02065c9b35d45c881a24f7a1cd}
+      \strng{fullhash}{5bec9d02065c9b35d45c881a24f7a1cd}
+      \strng{bibnamehash}{5bec9d02065c9b35d45c881a24f7a1cd}
+      \strng{authorbibnamehash}{5bec9d02065c9b35d45c881a24f7a1cd}
+      \strng{authornamehash}{5bec9d02065c9b35d45c881a24f7a1cd}
+      \strng{authorfullhash}{5bec9d02065c9b35d45c881a24f7a1cd}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Accuracy and Stability of Numerical Algorithms gives a thorough, up-to-date treatment of the behavior of numerical algorithms in finite precision arithmetic. It combines algorithmic derivations, perturbation theory, and rounding error analysis, all enlivened by historical perspective and informative quotations. This second edition expands and updates the coverage of the first edition (1996) and includes numerous improvements to the original material. Two new chapters treat symmetric indefinite systems and skew-symmetric systems, and nonlinear systems and Newton's method. Twelve new sections include coverage of additional error bounds for Gaussian elimination, rank revealing LU factorizations, weighted and constrained least squares problems, and the fused multiply-add operation found on some modern computer architectures. An expanded treatment of Gaussian elimination incorporates rook pivoting, along with a thorough discussion of the choice of pivoting strategy and the effects of scaling. The book's detailed descriptions of floating point arithmetic and of software issues reflect the fact that IEEE arithmetic is now ubiquitous. Although not designed specifically as a textbook, this new edition is a suitable reference for an advanced course. It can also be used by instructors at all levels as a supplementary text from which to draw examples, historical perspective, statements of results, and exercises. With its thorough indexes and extensive, up-to-date bibliography, the book provides a mine of information in a readily accessible form.}
+      \field{series}{Other Titles in Applied Mathematics}
+      \field{title}{Accuracy and stability of numerical algorithms}
+      \field{year}{2002}
+      \verb{doi}
+      \verb https://doi.org/10.1137/1.9780898718027
+      \endverb
+    \endentry
+    \entry{smith2024uncertainty}{book}{}
+      \name{author}{1}{}{%
+        {{hash=fabaa75c178763573d5117d9f580b329}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Ralph\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{fabaa75c178763573d5117d9f580b329}
+      \strng{fullhash}{fabaa75c178763573d5117d9f580b329}
+      \strng{bibnamehash}{fabaa75c178763573d5117d9f580b329}
+      \strng{authorbibnamehash}{fabaa75c178763573d5117d9f580b329}
+      \strng{authornamehash}{fabaa75c178763573d5117d9f580b329}
+      \strng{authorfullhash}{fabaa75c178763573d5117d9f580b329}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The field of uncertainty quantification is evolving rapidly because of increasing emphasis on models that require quantified uncertainties for large-scale applications, novel algorithm development, and new computational architectures that facilitate implementation of these algorithms. Uncertainty Quantification: Theory, Implementation, and Applications provides readers with the basic concepts, theory, and algorithms necessary to quantify input and response uncertainties for simulation models arising in a broad range of disciplines. The book begins with a detailed discussion of applications where uncertainty quantification is critical for both scientific understanding and policy. It then covers concepts from probability and statistics, parameter selection techniques, frequentist and Bayesian model calibration, propagation of uncertainties, quantification of model discrepancy, surrogate model construction, and local and global sensitivity analysis. The author maintains a complementary web page where readers can find data used in the exercises and other supplementary material. Uncertainty Quantification: Theory, Implementation, and Applications includes: a large number of definitions and examples that use a suite of relatively simple models to illustrate concepts; numerous references to current and open research issues; exercises that illustrate basic concepts and guide readers through the numerical implementation of algorithms for prototypical problems; a wide range of applications, including weather and climate models, subsurface hydrology and geology models, nuclear power plant design, and models for biological phenomena; and recent advances and topics that have appeared in the research literature within the last 15 years, including aspects of Bayesian model calibration, surrogate model development, parameter techniques, and global sensitivity analysis. Software and related material can be found at https://rsmith.math.ncsu.edu/. Audience The text is intended for advanced undergraduates, graduate students, and researchers in mathematics, statistics, operations research, computer science, biology, science, and engineering. It can be used as a textbook for one- or two-semester courses on uncertainty quantification or as a resource for researchers in a wide array of disciplines. A basic knowledge of probability, linear algebra, ordinary and partial differential equations, and introductory numerical analysis techniques is assumed.}
+      \field{series}{Computational Science \& Engineering}
+      \field{title}{Uncertainty quantification: theory, implementation, and applications}
+      \field{year}{2024}
+      \verb{doi}
+      \verb https://doi.org/10.1137/1.9781611973228
+      \endverb
+      \keyw{uncertainty quantification,model calibration,surrogate models,parameter selection,sensitivity analysis}
+    \endentry
+    \entry{tarantola2005inverse}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7f5b2d6262ddc71c1e6f1cbe3ecc5fbe}{%
+           family={Tarantola},
+           familyi={T\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{7f5b2d6262ddc71c1e6f1cbe3ecc5fbe}
+      \strng{fullhash}{7f5b2d6262ddc71c1e6f1cbe3ecc5fbe}
+      \strng{bibnamehash}{7f5b2d6262ddc71c1e6f1cbe3ecc5fbe}
+      \strng{authorbibnamehash}{7f5b2d6262ddc71c1e6f1cbe3ecc5fbe}
+      \strng{authornamehash}{7f5b2d6262ddc71c1e6f1cbe3ecc5fbe}
+      \strng{authorfullhash}{7f5b2d6262ddc71c1e6f1cbe3ecc5fbe}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While the prediction of observations is a forward problem, the use of actual observations to infer the properties of a model is an inverse problem. Inverse problems are difficult because they may not have a unique solution. The description of uncertainties plays a central role in the theory, which is based on probability theory. This book proposes a general approach that is valid for linear as well as for nonlinear problems. The philosophy is essentially probabilistic and allows the reader to understand the basic difficulties appearing in the resolution of inverse problems. The book attempts to explain how a method of acquisition of information can be applied to actual real-world problems, and many of the arguments are heuristic. Prompted by recent developments in inverse theory, Inverse Problem Theory and Methods for Model Parameter Estimation is a completely rewritten version of a 1987 book by the same author. In this version there are lots of algorithmic details for Monte Carlo methods, least-squares discrete problems, and least-squares problems involving functions. In addition, some notions are clarified, the role of optimization techniques is underplayed, and Monte Carlo methods are taken much more seriously. The first part of the book deals exclusively with discrete inverse problems with a finite number of parameters while the second part of the book deals with general inverse problems.}
+      \field{series}{Other Titles in Applied Mathematics}
+      \field{title}{Inverse problem theory and methods for model parameter estimation}
+      \field{year}{2005}
+      \verb{doi}
+      \verb https://doi.org/10.1137/1.9780898717921
+      \endverb
+      \keyw{Inverse problems,inverse methods,probability,uncertainties,least-squares}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

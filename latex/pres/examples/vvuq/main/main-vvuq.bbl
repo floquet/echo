@@ -1,0 +1,168 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{bevington1e}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3af7fac3e5ffc763bb2cfa87639c0823}{%
+           family={Bevington},
+           familyi={B\bibinitperiod},
+           given={Philip\bibnamedelima R},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{fullhash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{bibnamehash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{authorbibnamehash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{authornamehash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \strng{authorfullhash}{3af7fac3e5ffc763bb2cfa87639c0823}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{journaltitle}{Computers in Physics}
+      \field{title}{Data reduction and error analysis for the physical sciences}
+      \field{year}{1969}
+      \field{pages}{415\bibrangedash 416}
+      \range{pages}{2}
+    \endentry
+    \entry{overkamp2013vv}{book}{}
+      \name{author}{2}{}{%
+        {{hash=952422fbdc4203924b1b7d3fccf41d31}{%
+           family={Oberkampf},
+           familyi={O\bibinitperiod},
+           given={William\bibnamedelima L.},
+           giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=771fa26ae9f4f17e76ab8ac25bf9ee5b}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{aa8b54639ddfe70d55238d0ad4304694}
+      \strng{fullhash}{aa8b54639ddfe70d55238d0ad4304694}
+      \strng{bibnamehash}{aa8b54639ddfe70d55238d0ad4304694}
+      \strng{authorbibnamehash}{aa8b54639ddfe70d55238d0ad4304694}
+      \strng{authornamehash}{aa8b54639ddfe70d55238d0ad4304694}
+      \strng{authorfullhash}{aa8b54639ddfe70d55238d0ad4304694}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1107032774}
+      \field{title}{Verification and Validation in Scientific Computing}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/CBO9781139013552
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/CBO9781139013552
+      \endverb
+    \endentry
+    \entry{schlesinger1979terminology}{article}{}
+      \name{author}{1}{}{%
+        {{hash=43c3550f054682af0729a0015933198f}{%
+           family={Schlesinger},
+           familyi={S\bibinitperiod},
+           given={Stewart},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{43c3550f054682af0729a0015933198f}
+      \strng{fullhash}{43c3550f054682af0729a0015933198f}
+      \strng{bibnamehash}{43c3550f054682af0729a0015933198f}
+      \strng{authorbibnamehash}{43c3550f054682af0729a0015933198f}
+      \strng{authornamehash}{43c3550f054682af0729a0015933198f}
+      \strng{authorfullhash}{43c3550f054682af0729a0015933198f}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Simulation}
+      \field{number}{3}
+      \field{title}{Terminology for model credibility}
+      \field{volume}{32}
+      \field{year}{1979}
+      \field{pages}{103\bibrangedash 104}
+      \range{pages}{2}
+    \endentry
+    \entry{thacker2004concepts}{article}{}
+      \name{author}{6}{}{%
+        {{hash=273fd89a91f30a76e5c456d2fd130349}{%
+           family={Thacker},
+           familyi={T\bibinitperiod},
+           given={Ben\bibnamedelima H},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=2c0cba3a09ec966e2c5e5d32e05143fe}{%
+           family={Doebling},
+           familyi={D\bibinitperiod},
+           given={Scott\bibnamedelima W},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=edd0357f57bade28dede0e12a7377c61}{%
+           family={Hemez},
+           familyi={H\bibinitperiod},
+           given={Francois\bibnamedelima M},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f27c15f66962bdaf51c3b4beb1965235}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Mark\bibnamedelima C},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=da317f296a703545744ffc177226d4c7}{%
+           family={Pepin},
+           familyi={P\bibinitperiod},
+           given={Jason\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=9678f6369e95b05f06372b279fad7504}{%
+           family={Rodriguez},
+           familyi={R\bibinitperiod},
+           given={Edward\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Los Alamos National Lab., Los Alamos, NM (US)}%
+      }
+      \strng{namehash}{22f6938dab434342e8fa62e47170d70e}
+      \strng{fullhash}{54f9ba9a53f619fa53a1fb78f8608cf1}
+      \strng{bibnamehash}{22f6938dab434342e8fa62e47170d70e}
+      \strng{authorbibnamehash}{22f6938dab434342e8fa62e47170d70e}
+      \strng{authornamehash}{22f6938dab434342e8fa62e47170d70e}
+      \strng{authorfullhash}{54f9ba9a53f619fa53a1fb78f8608cf1}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{LA-14167-MS}
+      \field{title}{Concepts of model verification and validation}
+      \field{year}{2004}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

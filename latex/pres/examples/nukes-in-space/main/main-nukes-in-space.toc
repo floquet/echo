@@ -1,0 +1,37 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{5}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{1}{Terrestrial Nuclear Weapons}{6}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{2}{B}{10}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Source}{11}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Glasstone \& Dolan}{12}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{NV-209}{17}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{3}{Project Starfish}{22}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{4}{Project Argus}{23}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{5}{Project Excalibur}{24}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Backup Section}{26}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{1}{Popular Literature}{27}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {3}{1}{1}{What if a Nuclear Weapon Detonated in Space?}{27}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {3}{1}{2}{Space Threat Assessment 2024}{29}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {3}{1}{3}{NYTimes}{40}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {3}{1}{4}{E1 HEMP and Impact of Power Grid}{46}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {3}{1}{5}{KOCMOC 2553}{49}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {3}{1}{6}{Scientific American}{58}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsubsectionintoc {3}{1}{7}{In the News}{59}{0}{3}

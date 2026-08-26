@@ -1,0 +1,115 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{fancyvrb}
+\geometry{margin=1in}
+\title{BibTool: A Pedagogical Introduction for Managing Bib\TeX{} Chaos}
+\author{Daniel M. Topa}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Managing Bib\TeX{} databases at scale can be frustrating. Syntax errors, duplicate entries, mangled Unicode, and inconsistent formatting can cause hours of pain in tools like BibDesk, \LaTeX, or arXiv submissions.
+
+\emph{BibTool} is a command-line utility designed specifically to sanitize, sort, merge, and standardize Bib\TeX{} files. It is especially helpful for power users who consolidate multiple \texttt{.bib} files, such as in your case with over 50 active bibliography files. If BibTool performs as promised, it could indeed be a ``heaven-sent'' utility.
+
+\section{Theoretical Foundation}
+
+BibTool operates on Bib\TeX{} files as \emph{structured data}, not flat text. It parses entries into internal objects, then allows you to:
+\begin{itemize}
+  \item Filter and rewrite fields (e.g., fix Unicode, strip comments)
+  \item Sort entries by key, author, year, etc.
+  \item Normalize formatting and layout
+  \item Merge multiple files into one canonical source
+  \item Detect and flag duplicate keys
+\end{itemize}
+
+Configuration is managed through a file (typically named \texttt{.bibtoolrc}) and includes support for custom rewrite rules and output formatting.
+
+\section{Real-World Applications}
+
+\paragraph{Clean up long abstracts.} BibTool can restructure fields like \texttt{abstract} that are stored as unreadably long single lines. While it doesn't auto-wrap, it preserves structure and allows editors like BibDesk to render them more cleanly.
+
+\paragraph{Remove dangerous Unicode.} If you've encountered errors such as ``non-space characters ignored,'' BibTool can replace characters like en-dashes (–), smart quotes, or accented letters with LaTeX-safe equivalents using custom rewrite rules.
+
+\paragraph{Consolidate libraries.} With many files such as:
+\begin{verbatim}
+parallel-computation.bib
+parallel-computation-X.bib
+legate.bib
+coarray.bib
+...
+\end{verbatim}
+You can consolidate everything via:
+\begin{verbatim}
+bibtool -i *.bib -o master.bib
+\end{verbatim}
+Optionally sorted and cleaned:
+\begin{verbatim}
+bibtool -s -r .bibtoolrc -i *.bib -o master.bib
+\end{verbatim}
+
+\paragraph{Eliminate duplicates.} Add this line to your \texttt{.bibtoolrc}:
+\begin{verbatim}
+check.double.entries = on
+\end{verbatim}
+This flags entries with identical citation keys across files.
+
+\section{Clever Use Cases}
+
+\paragraph{Fix smart quotes automatically.} Add rules like:
+\begin{Verbatim}
+rewrite.rule = { “ # " }
+rewrite.rule = { ” # " }
+rewrite.rule = { ‘ # ` }
+rewrite.rule = { ’ # ' }
+\end{Verbatim}
+
+\paragraph{Filter only cited entries.} Extract only the entries used in a document:
+\begin{verbatim}
+bibtool -x main.aux -i master.bib -o used.bib
+\end{verbatim}
+
+\paragraph{Sort entries by author then year.} Add to \texttt{.bibtoolrc}:
+\begin{verbatim}
+sort.format = "%n"
+\end{verbatim}
+where \texttt{\%n} = name and \texttt{\%d} = date.
+
+\section{Suggested Setup for Your Environment}
+
+Create \texttt{.bibtoolrc} in \texttt{/Users/dantopa/GitHub/latex-2025/bibs/}:
+\begin{Verbatim}
+sort.entries = on
+preserve.key.case = on
+pass.comments = off
+rewrite.rule = { – # "--" }
+rewrite.rule = { — # "---" }
+rewrite.rule = { “ # " }
+rewrite.rule = { ” # " }
+rewrite.rule = { ‘ # ` }
+rewrite.rule = { ’ # ' }
+check.double.entries = on
+\end{Verbatim}
+
+Then clean your file:
+\begin{verbatim}
+bibtool -r .bibtoolrc -i parallel-computation.bib -o clean.bib
+\end{verbatim}
+Inspect \texttt{clean.bib}, then overwrite:
+\begin{verbatim}
+mv clean.bib parallel-computation.bib
+\end{verbatim}
+
+\section{Summary}
+
+BibTool is not a GUI tool, but its power lies in its predictability, scriptability, and configurability. Once your formatting rules are established, you can apply them across your entire bibliography stack with one command. For BibDesk or large \LaTeX{} projects, BibTool is like \texttt{clang-format} or \texttt{black} --- but for bibliography files.
+
+\emph{Let BibTool clean, correct, and protect your references --- so you can focus on writing.}
+
+\end{document}

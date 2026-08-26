@@ -1,0 +1,63 @@
+% \input{\pLocalTheorems "thm-LSsoln"}
+
+%\clearpage
+\subsection{Least Squares Solution}
+\subsubsection{Intercept Only Model}
+\begin{theorem}[Least Squares Solution-- Intercept Only]
+
+Start with two data vectors $x, y \in\real{m}$ with at least one set of distinctive indices $j$, $k$ such that $x_{j} \ne x_{k}$, and some constant slope $\zeta\in\cmplx{}$. Pose the model equation
+\begin{equation}
+	y = a_{0}\one + \zeta x
+\label{eq:thm:model}
+\end{equation}
+where $\one$ is the constant vector of length $m$. 
+
+The least squares solution for this model is
+\begin{equation}
+		%
+	a_{0} = \overline{y} - \text{Re}\paren{\zeta}\overline{x}
+		%
+\label{eq:thm:soln}
+\end{equation}
+with the overline used to indicate the arithmetic mean.
+
+\label{thm:ls}
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+The residual error vector encodes the difference between the expected values and the measured values
+		%
+\begin{equation}
+	r(a_{0}) = \normt{a_{0}\one + \zeta x - y}.
+\label{eq:thm:proof:residual}
+\end{equation}
+		%
+The least squares solution is defined as the set of values $a_{0}$ which minimize the length of this vector:
+		%
+\begin{equation}
+	a_{0} = \argmin_{a_{0} \in \real{}} \normt{ r(a_{0}) } = \argmin_{a_{0} \in \real{}} \normt{a_{0}\one + \zeta x - y}
+\label{eq:least squares definition}
+\end{equation}
+		%
+Find the minimum value $\normts{r(a_{0})} = \normts{a_{0}\one + \zeta x - y}$ by solving for the roots of the first derivative. Expand the norm as an inner product
+		%
+\begin{equation}
+\begin{split}
+	\normts{r(a_{0})} &= 
+		\inner{a_{0}\one + \zeta^{*} x - y, a_{0}\one + \zeta x - y} \\
+		&= a_{0}^{2} \innerecho{\one} + \abs{\zeta} \innerecho{x} + \innerecho{y} - 2 a_{0} \paren{ \zeta^{*} + \zeta} \inner{1,x} + 2 a_{0} \inner{1,y} +  \paren{ \zeta^{*} + \zeta} \inner{x, y}
+\end{split}
+\label{eq:expand}
+\end{equation}
+As the least squares minimizers are a convex set \cite{GVL1996}, the root of the gradient will be the minimum:
+		%
+\begin{equation}
+	\frac{d}{d a_{0}} \normts{r(a_{0})} = 0 \quad \Rightarrow \quad 2 a_{0} \innerecho{\one} + 2\text{Re}\paren{\zeta} \inner{1,x} - 2 \inner{1, y} = 0
+\label{eq:root}
+\end{equation}
+		%
+Solving for $a_{0}$ produces the particular least squares solution in \eqref{eq:thm:soln}.
+\end{proof}
+
+
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

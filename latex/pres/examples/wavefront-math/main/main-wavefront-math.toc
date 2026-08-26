@@ -1,0 +1,37 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{4}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{1}{Reconstruction}{7}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{2}{Shack-Hartmann Sensor}{10}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Shack-Hartmann Reconstructor}{11}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{X}{12}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Y}{13}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Orthogonality}{14}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{1}{Orthogonal Functions}{20}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {3}{2}{Mathematical Formalities}{25}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Mean Value}{26}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{1}{Foundation Integral}{29}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{2}{Mean value over the unit disk $\overline {\mathbb {D}^{2}}$}{33}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{3}{Mean using monomial expansion}{38}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{4}{Mean value of the radial Zernike polynomials}{43}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{5}{DeepSeek}{45}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Backup Section}{50}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{1}{X}{51}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{2}{Y}{52}{0}{5}

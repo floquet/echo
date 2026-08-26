@@ -1,0 +1,9 @@
+Line 12: Escaped naked '&' in line: abstract = {Innovation in Modeling and Simulation (M&S) refers to exploiting new ideas, exploiting new technology, and employing out-of-the-box thinking, which lead to the creation of new methodologies, techniques, concepts, frameworks, and software. This paper addresses the following questions: (a) what was the state of the art in M&S 50 years ago, what is it today, how much progress has been made? (b) how much innovation in M&S has been accomplished over the last half a century? (c) what were the obstacles to innovation in M&S? (d) what are some recommendations to promote innovation in M&S? (e) what message should be sent to the funding agencies to encourage innovation in M&S?},
+Line 153: Invalid month 'March' found; consider fixing.
+Line 223: Escaped naked '%' in line: bdsk-url-1 = {Pages%2084%20-%2089%20https://doi-org/10.1145/76738.76749}}
+Line 403: Invalid month '2019' found; consider fixing.
+Line 406: Invalid year 'August' found; replaced with '1900'.
+Line 707: Escaped naked '&' in line: url = {https://engagedscholarship.csuohio.edu/enece_facpub/455?utm_source=engagedscholarship.csuohio.edu%2Fenece_facpub%2F455&utm_medium=PDF&utm_campaign=PDFCoverPages},
+Line 707: Escaped naked '%' in line: url = {https://engagedscholarship.csuohio.edu/enece_facpub/455?utm_source=engagedscholarship.csuohio.edu%2Fenece_facpub%2F455\&utm_medium=PDF\&utm_campaign=PDFCoverPages},
+Line 709: Escaped naked '&' in line: bdsk-url-1 = {https://engagedscholarship.csuohio.edu/enece_facpub/455?utm_source=engagedscholarship.csuohio.edu%2Fenece_facpub%2F455&utm_medium=PDF&utm_campaign=PDFCoverPages}}
+Line 709: Escaped naked '%' in line: bdsk-url-1 = {https://engagedscholarship.csuohio.edu/enece_facpub/455?utm_source=engagedscholarship.csuohio.edu%2Fenece_facpub%2F455\&utm_medium=PDF\&utm_campaign=PDFCoverPages}}

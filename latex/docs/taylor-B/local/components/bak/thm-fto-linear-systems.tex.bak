@@ -1,0 +1,26 @@
+% \input{\pGlobalThms "thm-fto-linear-systems.tex"}
+\typeout{\enumContent \pGlobalThms "thm-fto-linear-systems.tex"}
+
+\begin{theorem}[Fundamental Theorem for Linear Systems]\label{thm:ftols}
+Given $\A{} \in \mathbb{R}^{n\times n}$. Then for a given $\mathbf{x}_{0} \in \mathbb{R}^n$, the initial value problem
+\begin{equation}\label{eq:thm:ftols:system}
+	\dot{\mathbf{x}} = \A{}\mathbf{x}, \quad \mathbf{x}(0) = \mathbf{x}_{0}
+\end{equation}
+has a unique solution given by
+\begin{equation}\label{eq:thm:ftols:soln}
+	\mathbf{x}(t) = e^{\A{}t} \mathbf{x}_{0}.
+\end{equation}
+
+\begin{proof}
+ See \cite[17]{perko2013differential}
+\end{proof}
+\end{theorem}
+
+\endinput  %  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+
+Differential Equations and Dynamical Systems
+Lawrence Perko
+Springer TAM 7, 2013
+\S 1.4
+Eqns 1, 2
+P. 16

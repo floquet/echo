@@ -1,0 +1,21 @@
+Master List
+export ptopa=$P:\Topa,Daniel\BOE-evaluations\cost-estimation-standards
+
+https://www.cbh.com/insights/articles/cost-estimating-system-requirements-dcaa-audit-guide/
+Contractor Business Systems Series: Part 2 — Cost Estimating System Requirements
+ptopa/Cost-Estimating-System-Requirements.txt
+
+
+https://www.osti.gov/servlets/purl/5850941
+DOE COST AND SCHEDULE CONTROL SYSTEMS CRITERIA FOR CONTRACT PERFORMANCE MEASUREMENT
+ptopa/5850941-osti.pdf
+
+
+https://www.epa.gov/sites/default/files/2017-12/documents/epaccmcostestimationmethodchapter_7thedition_2017.pdf
+Cost Estimation: Concepts and Methodology
+ptopa/epaccmcostestimationmethodchapter_7thedition_2017.pdf
+
+
+https://www.acquisition.gov/dfars/252.215-7002-cost-estimating-system-requirements.
+252.215-7002 Cost Estimating System Requirements.
+ptopa/dfars-252.215-7002.txt

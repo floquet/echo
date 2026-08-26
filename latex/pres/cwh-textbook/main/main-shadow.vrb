@@ -1,0 +1,75 @@
+\frametitle{Proof Outline}
+\highlight{Goal}: Show that the \highlight{initial value problem}
+\begin{equation}\tag{\ref{eq:thm:ftols:system}}
+	\dot{\mathbf{x}} = \A{}\mathbf{x}, \quad \mathbf{x}(0) = \mathbf{x}_{0}
+\end{equation}
+has a \highlight{unique solution} given by
+\begin{equation}\tag{\ref{eq:thm:ftols:soln}}
+	\mathbf{x}(t) = \expat \mathbf{x}_{0}.
+\end{equation}
+\highlight{Existence:}\\
+%\begin{enumerate}
+%	\item \bl{Existence}
+    \begin{itemize}
+    	%
+    	\item Apply definition of derivative to exponential
+    		\begin{equation}\label{eq:proof:1}
+    			\frac{d}{dt}\matee{t} = \lim\limits_{\delta t\to0} \frac{\matee{(t+\delta t)}-\matee{t}}{\delta t}
+    		\end{equation}
+    	\item Factor exponential term
+    		\begin{equation}\label{eq:proof:2}
+    		\lim\limits_{\delta t\to0} \frac{\matee{(t+\delta t)}-\matee{t}}{\delta t} = \lim\limits_{\delta t\to0} \matee{t}\paren{\frac{\matee{\delta t}-\I{m}}{\delta t}}
+    		\end{equation}
+    	%
+    	\item Using definition \ref{def:matrix-exp}
+    		\begin{equation}\label{eq:proof:3}
+    		\matee{\delta t}-\I{m} = \A{}\delta t + \tfrac{1}{2!}\mathbf{A}^{2}(\delta t)^{2} + \dots + \tfrac{1}{k!}\mathbf{A}^{k}(\delta t)^{k}
+    		\end{equation}
+    	%
+    	\item Using the definition of the matrix exponential \ref{def:matrix-exp}
+    		$$\lim\limits_{\delta t\to0} \paren{\frac{\matee{\delta t}-\I{m}}{\delta t}}
+    		= \lim\limits_{\delta t\to0} \lim\limits_{k\to\infty} \paren{\mathbf{A} + \tfrac{1}{2!}\mathbf{A}^{2}\delta t + \dots + \mathbf{A}^{k}(\delta t)^{k-1}}$$
+    	\framebreak
+    	\item Substitute in \eqref{eq:proof:2}
+    	\begin{multline}
+      \lim\limits_{\delta t\to0} \paren{\frac{\matee{\delta t}-\I{m}}{\delta t}}
+    		= \\ \lim\limits_{\delta t\to0} \lim\limits_{k\to\infty} \paren{\mathbf{A} + \tfrac{1}{2!}\mathbf{A}^{2}\delta t + \dots + \mathbf{A}^{k}(\delta t)^{k-1}}
+    \end{multline}
+    		\item Uniform convergence for $\abs{\delta t}< 1$ is established in theorem \ref{eq:thm:series-convergence}.
+    		%
+    		\item Interchange limits, recover $\frac{d}{dt}\matee{t} = \A{}\matee{t} $
+    		%
+    		\item $\therefore$ the derivative of $x(t) = \expat x_{0}$ is
+    		%
+            \begin{equation}\label{eq:x'}
+            \begin{split}
+            	x'(t) &= \frac{d}{dt}\paren{\expat x_{0}} = \paren{\expat}'x_{0} + \cancel{\expat x_{0}'}\\
+    				&= \A{}\expat x_{0}\\
+    				&= \A{}\,x(t)
+    		\end{split}
+            \end{equation}
+    %
+    		%
+    \end{itemize}
+\highlight{Uniqueness:}\\
+%	\item \bl{Uniqueness}
+    \begin{itemize}
+    	\item Consider $x(t)$ be any solution of the IVP
+    	\item Classic trick in constant-coefficient linear systems: remove the effect of $\A{}$ from the solution
+			%
+        \begin{equation}%\label{eq:}
+        	y(t) = e^{-\A{}t}x(t)
+        \end{equation}
+			%
+    	\item Again, differentiate
+            \begin{equation}\label{eq:x'}
+            \begin{split}
+            	y'(t) &= \frac{d}{dt}\paren{e^{-\A{}t}x(t)} = -\A{}e^{-\A{}t}x(t) + e^{-\A{}t}x(t)\\
+    				&= \A{}\expat x_{0}\\
+    				&= \A{}\,x(t)
+    		\end{split}
+            \end{equation}
+    	\item Define the fundamental matrix $X(t)$ to satisfy $X(0) = \I{m}$, so that for any initial condition $x_{0}$, the solution $x(t) =X(t)x_{0}$ satisfies $x(0)=x_{0}$ exactly
+		\item The normalization $X(0) = \I{m}$ ensures that the solution operator $x(t)=X(t)x_{0}$ satisfies the initial condition exactly, making $X(t)$ a natural choice for constructing the general solution to any linear initial value problem.
+    \end{itemize}
+%\end{enumerate}

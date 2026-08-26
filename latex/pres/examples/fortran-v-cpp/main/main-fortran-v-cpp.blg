@@ -1,0 +1,37 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main-fortran-v-cpp.blg'
+[67] biber-darwin:322> INFO - === Fri Mar 21, 2025, 16:37:26
+[83] Biber.pm:415> INFO - Reading 'main-fortran-v-cpp.bcf'
+[146] Biber.pm:943> INFO - Found 26 citekeys in bib section 0
+[158] Biber.pm:4256> INFO - Processing section 0
+[158] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib'
+[158] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib' to /Users/dantopa/GitHub//latex-2025//bibs//fortran.bib
+[158] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//coarray.bib'
+[158] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//coarray.bib' to /Users/dantopa/GitHub//latex-2025//bibs//coarray.bib
+[158] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//youtube.bib'
+[159] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//youtube.bib' to /Users/dantopa/GitHub//latex-2025//bibs//youtube.bib
+[159] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[159] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' to /Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib
+[159] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//parallel-computation.bib'
+[159] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//parallel-computation.bib' to /Users/dantopa/GitHub//latex-2025//bibs//parallel-computation.bib
+[170] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib' for section 0
+[178] bibtex.pm:1653> INFO - LaTeX decoding ...
+[309] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib'
+[367] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//coarray.bib' for section 0
+[374] bibtex.pm:1653> INFO - LaTeX decoding ...
+[502] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//coarray.bib'
+[514] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//youtube.bib' for section 0
+[516] bibtex.pm:1653> INFO - LaTeX decoding ...
+[518] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//youtube.bib'
+[522] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' for section 0
+[527] bibtex.pm:1653> INFO - LaTeX decoding ...
+[608] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[625] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//parallel-computation.bib' for section 0
+[628] bibtex.pm:1653> INFO - LaTeX decoding ...
+[658] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//parallel-computation.bib'
+[751] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[751] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[751] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[751] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[778] bbl.pm:652> INFO - Writing 'main-fortran-v-cpp.bbl' with encoding 'UTF-8'
+[791] bbl.pm:755> INFO - Output to main-fortran-v-cpp.bbl

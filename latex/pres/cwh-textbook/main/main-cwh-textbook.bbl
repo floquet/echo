@@ -1,0 +1,621 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{bate2020fundamentals}{book}{}
+      \name{author}{4}{}{%
+        {{hash=5db78013ec69497d9f1b6716c96292c9}{%
+           family={Bate},
+           familyi={B\bibinitperiod},
+           given={Roger\bibnamedelima R},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a0308466286f0824bf643284215c2caa}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Donald\bibnamedelima D},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ae9f531bdde8d442f2817ee9d0a89896}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Jerry\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f6ac640541336de879dd507e75fe536a}{%
+           family={Saylor},
+           familyi={S\bibinitperiod},
+           given={William\bibnamedelima W},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Dover Publications}%
+      }
+      \strng{namehash}{0e66e681d0a62bb32c74b749ea6bba27}
+      \strng{fullhash}{59744796e2f0c42f3c482af7b612db2d}
+      \strng{bibnamehash}{0e66e681d0a62bb32c74b749ea6bba27}
+      \strng{authorbibnamehash}{0e66e681d0a62bb32c74b749ea6bba27}
+      \strng{authornamehash}{0e66e681d0a62bb32c74b749ea6bba27}
+      \strng{authorfullhash}{59744796e2f0c42f3c482af7b612db2d}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamentals of astrodynamics}
+      \field{year}{2020}
+    \endentry
+    \entry{boyce2021elementary}{book}{}
+      \name{author}{3}{}{%
+        {{hash=cd2f3f46a13671d5a3c84ea92508961b}{%
+           family={Boyce},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima E},
+           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=1e7ccc9b6cddf4e828a034954daaa860}{%
+           family={DiPrima},
+           familyi={D\bibinitperiod},
+           given={Richard\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=1e95eeb69006bce8937d0c2a5eb87296}{%
+           family={Meade},
+           familyi={M\bibinitperiod},
+           given={Douglas\bibnamedelima B},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{b324e48f0c4c936ae245e0cb508bf6e0}
+      \strng{fullhash}{b324e48f0c4c936ae245e0cb508bf6e0}
+      \strng{bibnamehash}{b324e48f0c4c936ae245e0cb508bf6e0}
+      \strng{authorbibnamehash}{b324e48f0c4c936ae245e0cb508bf6e0}
+      \strng{authornamehash}{b324e48f0c4c936ae245e0cb508bf6e0}
+      \strng{authorfullhash}{b324e48f0c4c936ae245e0cb508bf6e0}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Elementary differential equations and boundary value problems}
+      \field{year}{2021}
+    \endentry
+    \entry{brauer1989qualitative}{book}{}
+      \name{author}{2}{}{%
+        {{hash=cce7419708114ddcc3d5832a90fd28b5}{%
+           family={Brauer},
+           familyi={B\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod}}}%
+        {{hash=75d584b4832acbe3465e41b24009f9a3}{%
+           family={Nohel},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Corporation}%
+      }
+      \strng{namehash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{fullhash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{bibnamehash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{authorbibnamehash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{authornamehash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \strng{authorfullhash}{3b2e9fc9c25aa296f7d9c952a588b7a8}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The qualitative theory of ordinary differential equations: an introduction}
+      \field{year}{1989}
+    \endentry
+    \entry{coddington1956theory}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=e8867c884d75d990c4e4407b71254420}{%
+           family={Coddington},
+           familyi={C\bibinitperiod},
+           given={Earl\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=383c8383f13be54ab69e28076ca08a38}{%
+           family={Levinson},
+           familyi={L\bibinitperiod},
+           given={Norman},
+           giveni={N\bibinitperiod}}}%
+        {{hash=df2f8de419570901de1a0683f8c767f2}{%
+           family={Teichmann},
+           familyi={T\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Physics}%
+      }
+      \strng{namehash}{67d4365998736aedb446ee70698f02fc}
+      \strng{fullhash}{67d4365998736aedb446ee70698f02fc}
+      \strng{bibnamehash}{67d4365998736aedb446ee70698f02fc}
+      \strng{authorbibnamehash}{67d4365998736aedb446ee70698f02fc}
+      \strng{authornamehash}{67d4365998736aedb446ee70698f02fc}
+      \strng{authorfullhash}{67d4365998736aedb446ee70698f02fc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Theory of ordinary differential equations}
+      \field{year}{1956}
+    \endentry
+    \entry{golub2013matrix}{book}{}
+      \name{author}{2}{}{%
+        {{hash=8b856da92ad549d323acc679ecf7f474}{%
+           family={Golub},
+           familyi={G\bibinitperiod},
+           given={Gene\bibnamedelima H},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=4ed2d13e66ef340bd8d892c23333c87b}{%
+           family={Van\bibnamedelima Loan},
+           familyi={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Charles\bibnamedelima F},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JHU press}%
+      }
+      \strng{namehash}{315525c1558db03561c0e8a8b605758b}
+      \strng{fullhash}{315525c1558db03561c0e8a8b605758b}
+      \strng{bibnamehash}{315525c1558db03561c0e8a8b605758b}
+      \strng{authorbibnamehash}{315525c1558db03561c0e8a8b605758b}
+      \strng{authornamehash}{315525c1558db03561c0e8a8b605758b}
+      \strng{authorfullhash}{315525c1558db03561c0e8a8b605758b}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Matrix computations}
+      \field{year}{2013}
+    \endentry
+    \entry{hirsch1974differential}{book}{}
+      \name{author}{3}{}{%
+        {{hash=697b9e10d72a5f4aec2034a99cf01a9b}{%
+           family={Hirsch},
+           familyi={H\bibinitperiod},
+           given={Morris\bibnamedelima W},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=fc90fa46ed42aa32417d13dd34fc6b48}{%
+           family={Devaney},
+           familyi={D\bibinitperiod},
+           given={Robert\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=394b6b61c0209947040512295d62d07d}{%
+           family={Smale},
+           familyi={S\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic press}%
+      }
+      \strng{namehash}{bd675c5b3cf6d8ac40f388db2287a142}
+      \strng{fullhash}{bd675c5b3cf6d8ac40f388db2287a142}
+      \strng{bibnamehash}{bd675c5b3cf6d8ac40f388db2287a142}
+      \strng{authorbibnamehash}{bd675c5b3cf6d8ac40f388db2287a142}
+      \strng{authornamehash}{bd675c5b3cf6d8ac40f388db2287a142}
+      \strng{authorfullhash}{bd675c5b3cf6d8ac40f388db2287a142}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Differential equations, dynamical systems, and linear algebra}
+      \field{volume}{60}
+      \field{year}{1974}
+    \endentry
+    \entry{kaplan2020modern}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cf28cb38183cfb4ad89980f6cb3c21db}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Marshall\bibnamedelima H},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Dover Publications}%
+      }
+      \strng{namehash}{cf28cb38183cfb4ad89980f6cb3c21db}
+      \strng{fullhash}{cf28cb38183cfb4ad89980f6cb3c21db}
+      \strng{bibnamehash}{cf28cb38183cfb4ad89980f6cb3c21db}
+      \strng{authorbibnamehash}{cf28cb38183cfb4ad89980f6cb3c21db}
+      \strng{authornamehash}{cf28cb38183cfb4ad89980f6cb3c21db}
+      \strng{authorfullhash}{cf28cb38183cfb4ad89980f6cb3c21db}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modern spacecraft dynamics and control}
+      \field{year}{2020}
+    \endentry
+    \entry{kohler2006elementary}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9bacaf8bb7d45775032fca3dd4f3775f}{%
+           family={Kohler},
+           familyi={K\bibinitperiod},
+           given={Werner\bibnamedelima E},
+           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=adcd6bad0d3cf78c8061fe0dca7905ae}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Lee\bibnamedelima W},
+           giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba2b95952861bb7b9fad83a9940e6fcd}
+      \strng{fullhash}{ba2b95952861bb7b9fad83a9940e6fcd}
+      \strng{bibnamehash}{ba2b95952861bb7b9fad83a9940e6fcd}
+      \strng{authorbibnamehash}{ba2b95952861bb7b9fad83a9940e6fcd}
+      \strng{authornamehash}{ba2b95952861bb7b9fad83a9940e6fcd}
+      \strng{authorfullhash}{ba2b95952861bb7b9fad83a9940e6fcd}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{(No Title)}
+      \field{title}{Elementary differential equations with boundary value problems}
+      \field{year}{2006}
+    \endentry
+    \entry{logan2006first}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b68a7baf9043281acaf1af93b83ca454}{%
+           family={Logan},
+           familyi={L\bibinitperiod},
+           given={J\bibnamedelima David},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{b68a7baf9043281acaf1af93b83ca454}
+      \strng{fullhash}{b68a7baf9043281acaf1af93b83ca454}
+      \strng{bibnamehash}{b68a7baf9043281acaf1af93b83ca454}
+      \strng{authorbibnamehash}{b68a7baf9043281acaf1af93b83ca454}
+      \strng{authornamehash}{b68a7baf9043281acaf1af93b83ca454}
+      \strng{authorfullhash}{b68a7baf9043281acaf1af93b83ca454}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There are many excellent texts on elementary differential equations designed for the standard sophomore course. However, in spite of the fact that most courses are one semester in length, the texts have evolved into calculus-like presentations that include a large collection of methods and applications, packaged with student manuals, and Web-based notes, projects, and supplements. All of this comes in several hundred pages of text with busy formats. Most students do not have the time or desire to read voluminous texts and explore internet supplements. The format of this differential equations book is different; it is a one-semester, brief treatment of the basic ideas, models, and solution methods. Its limited coverage places it somewhere between an outline and a detailed textbook. I have tried to write concisely, to the point, and in plain language. Many worked examples and exercises are included. A student who works through this primer will have the tools to go to the next level in applying differential equations to problems in engineering, science, and applied mathematics. It can give some instructors, who want more concise coverage, an alternative to existing texts. The numerical solution of differential equations is a central activity in science and engineering, and it is absolutely necessary to teach students some aspects of scientific computation as early as possible. I tried to build in flexibility regarding a computer environment. The text allows students to use a calculator or a computer algebra system to solve some problems numerically and symbolically, and templates of MATLAB and Maple programs and commands are given in an appendix. The instructor can include as much of this, or as little of this, as he or she desires. For many years I have taught this material to students who have had a standard three-semester calculus sequence. It was well received by those who}
+      \field{title}{A first course in differential equations}
+      \field{year}{2006}
+    \endentry
+    \entry{meirovitch2010methods}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9d0a05c3b9d21b2ffcc538bca89b1176}{%
+           family={Meirovitch},
+           familyi={M\bibinitperiod},
+           given={Leonard},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Corporation}%
+      }
+      \strng{namehash}{9d0a05c3b9d21b2ffcc538bca89b1176}
+      \strng{fullhash}{9d0a05c3b9d21b2ffcc538bca89b1176}
+      \strng{bibnamehash}{9d0a05c3b9d21b2ffcc538bca89b1176}
+      \strng{authorbibnamehash}{9d0a05c3b9d21b2ffcc538bca89b1176}
+      \strng{authornamehash}{9d0a05c3b9d21b2ffcc538bca89b1176}
+      \strng{authorfullhash}{9d0a05c3b9d21b2ffcc538bca89b1176}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Methods of analytical dynamics}
+      \field{year}{2010}
+    \endentry
+    \entry{meyer2004matrix}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0eefb172fd09b26a9b4d8dd45f450a19}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={CD},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{0eefb172fd09b26a9b4d8dd45f450a19}
+      \strng{fullhash}{0eefb172fd09b26a9b4d8dd45f450a19}
+      \strng{bibnamehash}{0eefb172fd09b26a9b4d8dd45f450a19}
+      \strng{authorbibnamehash}{0eefb172fd09b26a9b4d8dd45f450a19}
+      \strng{authornamehash}{0eefb172fd09b26a9b4d8dd45f450a19}
+      \strng{authorfullhash}{0eefb172fd09b26a9b4d8dd45f450a19}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM, Philadelphia}
+      \field{title}{Matrix analysis and applied linear algebra}
+      \field{year}{2004}
+    \endentry
+    \entry{MIT_OCW_CW_2008}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c8f17b9639fd4046dd85c2daf62d2605}{%
+           family={{MIT OpenCourseWare}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c8f17b9639fd4046dd85c2daf62d2605}
+      \strng{fullhash}{c8f17b9639fd4046dd85c2daf62d2605}
+      \strng{bibnamehash}{c8f17b9639fd4046dd85c2daf62d2605}
+      \strng{authorbibnamehash}{c8f17b9639fd4046dd85c2daf62d2605}
+      \strng{authornamehash}{c8f17b9639fd4046dd85c2daf62d2605}
+      \strng{authorfullhash}{c8f17b9639fd4046dd85c2daf62d2605}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online; accessed YYYY-MM-DD}
+      \field{note}{16.346 Astrodynamics, Fall 2008}
+      \field{title}{{Lecture 26: The Clohessy-Wiltshire Equations of Relative Motion}}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://ocw.mit.edu/courses/16-346-astrodynamics-fall-2008/e4f0632a9f1c98f7e9b25492e1a30eb1_lec_26.pdf
+      \endverb
+      \verb{url}
+      \verb https://ocw.mit.edu/courses/16-346-astrodynamics-fall-2008/e4f0632a9f1c98f7e9b25492e1a30eb1_lec_26.pdf
+      \endverb
+    \endentry
+    \entry{perko2013differential}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2e86fbceb5185d82a8b0e6fccbdf1691}{%
+           family={Perko},
+           familyi={P\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{fullhash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{bibnamehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{authorbibnamehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{authornamehash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \strng{authorfullhash}{2e86fbceb5185d82a8b0e6fccbdf1691}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mathematics is playing an ever more important role in the physical and biological sciences, provoking a blurring of boundaries between scientific disciplines and a resurgence of interest in the modern as well as the clas sical techniques of applied mathematics. This renewal of interest, both in research and teaching, has led to the establishment of the series: Texts in Applied Mathematics (TAM). The development of new courses is a natural consequence of a high level of excitement on the research frontier as newer techniques, such as numerical and symbolic computer systems, dynamical systems, and chaos, mix with and reinforce the traditional methods of applied mathematics. Thus, the purpose of this textbook series is to meet the current and future needs of these advances and encourage the teaching of new courses. TAM will publish textbooks suitable for use in advanced undergraduate and beginning graduate courses, and will complement the Applied Math ematical Sciences (AMS) series, which will focus on advanced textbooks and research level monographs.}
+      \field{title}{Differential equations and dynamical systems}
+      \field{volume}{7}
+      \field{year}{2013}
+    \endentry
+    \entry{schaub2003analytical}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5d9753c98d823c83966f248dbe18f6fd}{%
+           family={Schaub},
+           familyi={S\bibinitperiod},
+           given={Hanspeter},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fc213a94bb17c691b35d3ec947794815}{%
+           family={Junkins},
+           familyi={J\bibinitperiod},
+           given={John\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Aiaa}%
+      }
+      \strng{namehash}{1d7a171a58363aa8bf04eece48bbe6dd}
+      \strng{fullhash}{1d7a171a58363aa8bf04eece48bbe6dd}
+      \strng{bibnamehash}{1d7a171a58363aa8bf04eece48bbe6dd}
+      \strng{authorbibnamehash}{1d7a171a58363aa8bf04eece48bbe6dd}
+      \strng{authornamehash}{1d7a171a58363aa8bf04eece48bbe6dd}
+      \strng{authorfullhash}{1d7a171a58363aa8bf04eece48bbe6dd}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analytical mechanics of space systems}
+      \field{year}{2003}
+    \endentry
+    \entry{sherrill2015lyapunov}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d468b5da0cccfbb5ced8104b0680c8ac}{%
+           family={Sherrill},
+           familyi={S\bibinitperiod},
+           given={Ryan\bibnamedelima E},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=773f5705bc0939c1c1be4e2ccce0a067}{%
+           family={Sinclair},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2eefd4d88b5e9dc8ccc21413b498520d}{%
+           family={Sinha},
+           familyi={S\bibinitperiod},
+           given={SC},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b4b0bb0871ed5ed13a63fb940785eef6}{%
+           family={Lovell},
+           familyi={L\bibinitperiod},
+           given={T\bibnamedelima Alan},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{278c139ec0f4ef32e9d00514c72c93b9}
+      \strng{fullhash}{10e7779cb0fd2c4ea78b490b58dd530b}
+      \strng{bibnamehash}{278c139ec0f4ef32e9d00514c72c93b9}
+      \strng{authorbibnamehash}{278c139ec0f4ef32e9d00514c72c93b9}
+      \strng{authornamehash}{278c139ec0f4ef32e9d00514c72c93b9}
+      \strng{authorfullhash}{10e7779cb0fd2c4ea78b490b58dd530b}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper proposes a method for continuous-thrust control of satellite formations in elliptic orbits. A previously calculated Lyapunov-Floquet transformation relates the linearized equations of relative motion for elliptic chief orbits to the Hill-Clohessy-Wiltshire equations describing circular chiefs. Using a control law based on Lyapunov-Floquet theory, a time-varying feedback gain is computed that drives a deputy satellite toward rendezvous with an elliptic chief. This control law stabilizes the relative motion across a wide range of chief eccentricities.}
+      \field{journaltitle}{IEEE Transactions on Aerospace and Electronic Systems}
+      \field{number}{4}
+      \field{title}{Lyapunov-Floquet control of satellite relative motion in elliptic orbits}
+      \field{volume}{51}
+      \field{year}{2015}
+      \field{pages}{2800\bibrangedash 2810}
+      \range{pages}{11}
+    \endentry
+    \entry{strang1993fundamental}{article}{}
+      \name{author}{1}{}{%
+        {{hash=93733dfde0c47db226efad798ab3b662}{%
+           family={Strang},
+           familyi={S\bibinitperiod},
+           given={Gilbert},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{93733dfde0c47db226efad798ab3b662}
+      \strng{fullhash}{93733dfde0c47db226efad798ab3b662}
+      \strng{bibnamehash}{93733dfde0c47db226efad798ab3b662}
+      \strng{authorbibnamehash}{93733dfde0c47db226efad798ab3b662}
+      \strng{authornamehash}{93733dfde0c47db226efad798ab3b662}
+      \strng{authorfullhash}{93733dfde0c47db226efad798ab3b662}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Mathematical Monthly}
+      \field{number}{9}
+      \field{title}{The fundamental theorem of linear algebra}
+      \field{volume}{100}
+      \field{year}{1993}
+      \field{pages}{848\bibrangedash 855}
+      \range{pages}{8}
+    \endentry
+    \entry{strang2022introduction}{book}{}
+      \name{author}{1}{}{%
+        {{hash=93733dfde0c47db226efad798ab3b662}{%
+           family={Strang},
+           familyi={S\bibinitperiod},
+           given={Gilbert},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{93733dfde0c47db226efad798ab3b662}
+      \strng{fullhash}{93733dfde0c47db226efad798ab3b662}
+      \strng{bibnamehash}{93733dfde0c47db226efad798ab3b662}
+      \strng{authorbibnamehash}{93733dfde0c47db226efad798ab3b662}
+      \strng{authornamehash}{93733dfde0c47db226efad798ab3b662}
+      \strng{authorfullhash}{93733dfde0c47db226efad798ab3b662}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to linear algebra}
+      \field{year}{2022}
+    \endentry
+    \entry{vallado2001fundamentals}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5ce77d9d427077b0792c85535de9fc7e}{%
+           family={Vallado},
+           familyi={V\bibinitperiod},
+           given={David\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{5ce77d9d427077b0792c85535de9fc7e}
+      \strng{fullhash}{5ce77d9d427077b0792c85535de9fc7e}
+      \strng{bibnamehash}{5ce77d9d427077b0792c85535de9fc7e}
+      \strng{authorbibnamehash}{5ce77d9d427077b0792c85535de9fc7e}
+      \strng{authornamehash}{5ce77d9d427077b0792c85535de9fc7e}
+      \strng{authorfullhash}{5ce77d9d427077b0792c85535de9fc7e}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamentals of astrodynamics and applications}
+      \field{volume}{12}
+      \field{year}{2001}
+    \endentry
+    \entry{WikipediaCW}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Clohessy--Wiltshire equations describe a simplified model of orbital relative motion, in which the target is in a circular orbit, and the chaser spacecraft is in an elliptical or circular orbit. This model gives a first-order approximation of the chaser's motion in a target-centered coordinate system. It is used to plan the rendezvous of the chaser with the target.}
+      \field{howpublished}{Wikipedia, The Free Encyclopedia}
+      \field{note}{Last edited on 26 May 2025, at 06:15 (UTC)}
+      \field{title}{Clohessy--Wiltshire equations}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Clohessy%E2%80%93Wiltshire_equations
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Clohessy%E2%80%93Wiltshire_equations
+      \endverb
+    \endentry
+    \entry{WolframCW}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=70ecc9dcf9010dd78b6bb90fdc1e2f00}{%
+           family={{Wolfram Research}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{70ecc9dcf9010dd78b6bb90fdc1e2f00}
+      \strng{fullhash}{70ecc9dcf9010dd78b6bb90fdc1e2f00}
+      \strng{bibnamehash}{70ecc9dcf9010dd78b6bb90fdc1e2f00}
+      \strng{authorbibnamehash}{70ecc9dcf9010dd78b6bb90fdc1e2f00}
+      \strng{authornamehash}{70ecc9dcf9010dd78b6bb90fdc1e2f00}
+      \strng{authorfullhash}{70ecc9dcf9010dd78b6bb90fdc1e2f00}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Clohessy--Wiltshire equations model the relative motion between two satellites orbiting a central body. This is a linear model for the Cartesian position of one satellite relative to another. Two simulations are done here with different initial conditions for each simulation.}
+      \field{howpublished}{Wolfram Language \& System Documentation Center}
+      \field{note}{Featured Example in Wolfram Language Documentation}
+      \field{title}{Model the Relative Motion between Satellites in Orbit}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://reference.wolfram.com/language/example/ModelTheRelativeMotionBetweenSatellitesInOrbit.html
+      \endverb
+      \verb{url}
+      \verb https://reference.wolfram.com/language/example/ModelTheRelativeMotionBetweenSatellitesInOrbit.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

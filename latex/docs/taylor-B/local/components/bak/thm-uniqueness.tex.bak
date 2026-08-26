@@ -1,0 +1,14 @@
+% \input{local/setup-local/theorems/ "thm-uniqueness"}
+
+%\clearpage
+\begin{theorem}[Uniqueness of Solution for Nonlinear Least Squares]
+		%
+\label{thm:uniqueness}
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+	Let $b_{2} = b_{1} + \Delta$ where $\Delta \ne 0$. Then we have for example $t_{1}^{b_{2}} = t_{1}^{(b_{1}+\Delta)} =t_{1}^{b_{1}} t_{1}^{\Delta}$.
+\end{proof}
+
+
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

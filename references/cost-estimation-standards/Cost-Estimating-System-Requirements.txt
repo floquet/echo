@@ -1,0 +1,71 @@
+https://www.cbh.com/insights/articles/cost-estimating-system-requirements-dcaa-audit-guide/
+Contractor Business Systems Series: Part 2 — Cost Estimating System Requirements
+
+Contractor Business Systems are an important aspect of government contracting, and the estimating system is one of the key systems that contractors need to focus on. The Defense Federal Acquisition Regulation Supplement (DFARS) 252.215-7002 cost estimating system criteria benchmark the level of detail required for an acceptable estimating system. The requirement for an estimating system used to be primarily for major contractors, but now even smaller contractors need to pay attention to it, especially if they want to win government contracts. During the source selection process, the government may award points to contractors who have an established and approved estimating system.
+
+What Is an Estimating System?
+Per DFARS 252.215-7002, Cost Estimating System Requirements, an estimating system addresses a contractor’s “policies, procedures, and practices for budgeting and planning controls, and generating estimates of costs and other data included in proposals submitted to customers in the expectation of receiving contract awards.” The estimating system touches on accounting and purchasing systems, making it a critical piece of the contractor’s business systems. The government is looking for training across the different functions involved in estimating, documented basis of estimates, consistency, rate analysis and forward pricing. They also want to see fair and reasonable costs for subcontractors and other direct costs. The Cost Accounting Standards (CAS) also come into play if a contractor is CAS-covered.
+
+When Should a Contractor Consider a Cost Estimating System?
+Although the DFARS clause is to be inserted in all contracts to be awarded following submission of certified cost or pricing data, compliance with the detailed criteria in the clause is only required of large businesses that received $50 million in government business in their last fiscal year that required certified cost and pricing data. However, even if a contractor is below this threshold, it should start thinking about its estimating system if it plans to grow and bid on high-dollar contracts.
+
+What Areas Are Evaluated During a Defense Contract Audit Agency (DCAA) Estimating System Audit?
+Some of the areas and questions brought up for evaluation during an audit include:
+
+Are policies and procedures in place to ensure consistent estimates are developed?
+What does the organizational structure look like?
+Are key estimating team duties and responsibilities outlined in the policies and procedures?
+What estimating methodologies are used to develop a basis for the estimate?
+Does the contractor consider historical data, trend analysis, improvement curves, and regression analysis when developing proposals?
+What types of reviews occur to develop a sound proposal?
+Does the contractor perform peer reviews and management reviews that are documented?
+Does the contractor have an internal audit function to test various aspects of the business periodically?
+Does the contractor hire an external accounting firm to perform the internal audit function for it?
+Is the estimating team up to date on current estimating practices through an annual training program?
+Are proposal approvers up to date on training to provide consistent proposal reviews?
+Does the contractor store and retain proposal support in a consistent manner for the required retention periods of the contract?
+What Should Be Included in a Cost Estimating System Manual?
+The biggest requirement for an estimating system is a well-written manual that discloses the contractor’s estimating practices. The manual should outline the basis of estimate for each cost element, when cost or pricing data are required, and internal management review or internal audit. The contractor should also have templates or checklists that it uses to ensure consistency. The manual should be practical and not too long.
+
+Common pitfalls for contractors include having good processes but no written procedures to accompany them, not having documentation to show how they arrived at their estimates, not having evidence of review and not reviewing their policies and manuals on a regular basis.
+
+How Should a Contractor Prepare for the Estimating Systems Clause Requirement?
+If a contractor knows it will trigger the estimating system clause requirement, the contractor should prepare by documenting its processes, ensuring they can point to all the criteria and requirements of the clause and providing samples that demonstrate actual practice. The contractor should also prepare for a formal review by walking through its estimating system from beginning to end and guiding the discussion to keep it within the scope of the program.
+
+What Happens After DCAA Has Audited an Estimating System?
+DCAA will compile its findings into a report to present to the administrative contracting officer (ACO). According to DCAA’s annual report to Congress for FY 2023, an audit for business systems took approximately 259 days to complete. The ACO will then review the report, make an initial determination, allow for contractor response, and submit a final determination.
+
+Initial Determination
+The contracting officer will receive the audit report and will provide an initial determination to the contractor in writing. An initial determination will be made to describe any deficiencies in sufficient detail to allow the contractor to understand the noted deficiencies.
+
+Contractor Response
+If the contractor disagrees with the initial determination, it should reply to the contracting officer in writing within 30 days and state its rationale for disagreeing.
+
+Final Determination
+The contracting officer will review the contractor’s response and notify the contractor in writing of their final determination. In the final determination, the contracting officer will detail any remaining significant deficiencies noted in the initial determination and the adequacy of any proposed or completed corrective actions that could potentially lead to a system disapproval.
+
+The contractor will have 45 days of receipt of the final determination to either correct the significant deficiencies or submit an acceptable corrective action plan showing milestones and actions to eliminate the significant deficiencies.
+
+System Disapproval
+If the contracting officer makes a final determination to disapprove the contractor’s estimating system and the contractor has CAS-covered contracts, the contracting officer will withhold payments on those contracts in accordance with DFARS 252.242-7005.
+
+What To Do if Your Estimating System Has Been Disapproved
+If your estimating system has been disapproved, you should:
+
+Review the final determination carefully and consider seeking help in developing an appropriate response to the contracting officer
+Develop an acceptable corrective action plan that will either reduce or resolve significant deficiencies noted by your contracting officer
+Stick to the established milestones that you have agreed to
+Work closely with your contracting officer
+Be prepared for another visit from DCAA to review the cited estimating system deficiencies and be able to explain and demonstrate how the actions you have taken support the deficiencies being mitigated or resolved entirely. Once DCAA has submitted its findings to the contracting officer, a determination will be made to either remove, reduce, or continue the withholding until further action has been taken by the contractor.
+
+In summary, any contractor who plans to bid on high-dollar magnitude contracts should pay attention to its estimating system. Contractors need to have a written manual that outlines their estimating practices, templates or checklists for consistency, and evidence of review. They should review their policies and manuals on a regular basis and prepare for a formal review if they know they will trigger the estimating system requirement.
+
+Your Guide Forward
+Cherry Bekaert’s team of seasoned and experienced government contracting consultants is well-versed in business systems requirements and estimating system reviews. If you have any questions specific to your situation, we are readily available to discuss them with you.
+
+Related Insights
+Article: Contractor Business Systems Series: Part 1 — The Ins and Outs of Government Contractor Accounting System Requirements
+Article: Contractor Business Systems Series: Part 3 — Contractor Property Systems
+Article: Contractor Business Systems Series: Part 4 — Contractor Purchasing System
+Article: DoD Published Proposed Rule to Amend the Six DFARS Business Systems Clauses
+Article: Frequently Asked Questions about Contractor Business Systems

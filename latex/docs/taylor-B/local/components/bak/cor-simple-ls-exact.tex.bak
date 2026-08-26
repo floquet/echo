@@ -1,0 +1,51 @@
+% \input{\pThms/"cor-simple-ls-exact.tex"}
+\typeout{ \enumContent \pThms/"cor-simple-ls-exact.tex"}
+%
+%\clearpage
+\begin{corollary}[Exact solution for the rank one problem]
+
+The rank one problem,  $\alpha \bl{u} = v$, is exact if and only if the vectors $\bl{u}$ and $v$ are colinear. That is, given $\alpha \in \cmplx{} \setminus \lst{0}$
+		%
+\begin{equation}
+	\phi^{2}_{min} = 0 \iff \bl{u} = \alpha v
+\label{eq:cor-stmt:exact}
+\end{equation}
+		%
+\label{cor:mean-ls-exact}
+\end{corollary}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+   
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+The template \eqref{eq:error-template} for the least squares error in $\alpha$ is
+		%
+\begin{equation}
+	\sigma_{\alpha} = \sqrt{ \frac{\phi^{2}_{min}} {m-1} \innerSelf{\chi}}
+\tag{\ref{eq:error-template}}
+\end{equation}
+where the vector $\chi$ encodes the derivatives of the solution with respect to each datum:
+		%
+\begin{equation}
+	\frac{\partial}{\partial v_{k}} a_{p} = \frac{u_{k}}{\innerSelf{u}}
+\label{eq:upsilon-simple-component}
+\end{equation}
+		%
+or, in vector form,
+		%
+\begin{equation}
+	\chi = \innerSelf{\bl{u}}^{-1}u
+\label{eq:upsilon-simple}.
+\end{equation}
+		%		%
+Direct substitution of the least squares solution \eqref{eq:thm:mean:soln} into the definition for $\phi^{2}(\alpha)$ in \eqref{eq:pf-phi} provides
+		%
+\begin{equation}
+	\phi^{2}\paren{a_{p}} = \innerSelf{v} - \frac{\inner{u}{v}\inner{v}{u}}{\innerSelf{u}}.
+\label{eq:phi-min-simple}
+\end{equation}
+		%
+by now a familiar form, and using \eqref{eq:phi-min-simple} and \eqref{eq:upsilon-simple} in the template reduces to \eqref{eq:cor-stmt:sigma}.
+\end{proof}
+%
+%
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

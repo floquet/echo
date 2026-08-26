@@ -1,0 +1,266 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for Daniel M. Topa at 2026-04-05 19:59:49 -0600 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@conference{langston2013,
+	author = {Langston, A.K. and Martin, K.M.},
+	booktitle = {17th International Symposium on the Packaging and Transportation of Radioactive Materials},
+	date-added = {2026-04-05 18:59:31 -0600},
+	date-modified = {2026-04-05 19:59:49 -0600},
+	pages = {12},
+	title = {Verification of LS-DYNA MATERIALS USING SIMPLISTIC REPRESENTATIVE MODEL },
+	year = {2013}}
+
+@techreport{osti_1046104,
+	annote = {This report primarily concerns the use of two massively parallel finite element codes originally written and maintained at Lawrence Livermore National Laboratory. ALE3D is an explicit hydrodynamics code commonly employed to simulate wave propagation from high energy scenarios and the resulting interaction with nearby structures. This coupled response ensures that a structure is accurately applied with a blast loading varying both in space and time. Figure 1 illustrates the radial outward propagation of a pressure wave due to a center detonated spherical explosive originating from the lower left. The radial symmetry seen in this scenario is lost when instead a cylindrocal charge is detonated. Figure 2 indicates that a stronger, faster traveling pressure wave occurs in the direction of the normal axis to the cylinder. The ALE3D name is derived because of the use of arbitrary-Lagrange-Eulerian elements in which the mesh is allowed to advect; a process through which the mesh is modified to alleviate tanlging and general mesh distortion often cuased by high energy scenarios. The counterpart to an advecting element is a Lagrange element, whose mesh moves with the material. Ideally all structural components are kept Lagrange as long as possible to preserve accuracy of material variables and minimize advection related errors. Advection leads to mixed zoning, so using structural Lagrange elements also improves the visualization when post processing the results. A simplified representation of the advection process is shown in Figure 3. First the mesh is distorted due to material motion during the Lagrange step. The mesh is then shifted to an idealized and less distorted state to prevent irregular zones caused by the Lagrange motion. Lastly, the state variables are remapped to the elements of the newly constructed mesh. Note that Figure 3 represents a purely Eulerian mesh relaxation because the mesh is relocated back to the pre-Lagrange position. This is the case when the material flows through a still mesh. This is not typically done in an ALE3D analysis, especially if Lagrange elements exist. Deforming Lagrange elements would certainly tangle with a Eulerian mesh eventually. The best method in this case is to have an advecting mesh positioned as some relaxed version of the pre and post Lagrange step; this gives the best opportunity of modeling a high energy event with a combination of Lagrange and ALE elements. Dyne3D is another explicit dynamic analysis code, ParaDyn being the parallel version. ParaDyn is used for predicting the transient response of three dimensional structures using Lagrangian solid mechanics. Large deformation and mesh tangling is often resolved through the use of an element deletion scheme. This is useful to accommodate component failure, but if it is done purely as a means to preserve a useful mesh it can lead to problems because it does not maintain continuity of the material bulk response. Whatever medium exists between structural components is typically not modeled in ParaDyn. Instead, a structure either has a known loading profile applied or given initial conditions. The many included contact algorithms can calculate the loading response of materials if and when they collide. A recent implementation of an SPH module in which failed or deleted material nodes are converted to independent particles is currently being utilized for a variety of spall related problems and high velocity impact scenarios. Figure 4 shows an example of a projectile, given an initial velocity, and how it fails the first plate which generates SPH particles which then interact with and damage the second plate.},
+	author = {Margraf, Jonathan},
+	date-added = {2026-04-05 18:32:46 -0600},
+	date-modified = {2026-04-05 18:32:46 -0600},
+	doi = {10.2172/1046104},
+	institution = {Lawrence Livermore National Laboratory (LLNL), Livermore, CA (United States)},
+	month = {06},
+	place = {United States},
+	title = {Modeling the Structural Response from a Propagating High Explosive Using Smooth Particle Hydrodynamics},
+	url = {https://www.osti.gov/biblio/1046104},
+	year = {2012},
+	bdsk-url-1 = {https://www.osti.gov/biblio/1046104},
+	bdsk-url-2 = {https://doi.org/10.2172/1046104}}
+
+@article{dtic_AD0703920,
+	abstract = {A nonlinear, axisymmetric, dynamic finite-element method of analysis computer program is developed. Elastic, two-dimensional problems can also be analyzed without loss of efficiency. An extensive description of the analytical procedures used in the code is given. A FORTRAN IV listing of the computer code is presented along with information on utilizing the code to run problems. Analytical results are compared with experimental data obtained from testing a modeled buried structure subjected to a blast loading.},
+	author = {Farhoomand, Iraj and Wilson, Edward L and others},
+	date-added = {2026-04-05 17:27:10 -0600},
+	date-modified = {2026-04-05 17:40:36 -0600},
+	publisher = {Weapons Effects Laboratory (US)},
+	title = {A nonlinear finite element code for analyzing the blast response of underground structures},
+	year = {1970}}
+
+@techreport{osti_3001008,
+	annote = {On 18 October 2023 a 16.3-ton TNT equivalent chemical explosion was detonated underground at the Nevada National Security Site, generating a seismic event (Meyers et al., 2024). The associated seismic wavefield was measured on a Distributed Acoustic Sensing (DAS) array with slant range distances from 27 m -- 1123 m. The first arriving phase traveled at an apparent velocity of about 2640 m s-1 from 27 m to 420 m slant range and about 2470 m s-1 from 505 m to 1123 m slant range according to the first arrival moveouts on the DAS data. The first arrival from the explosion temporarily saturated the cable from a slant range of 27 m -- 186 m and 0.009 s to 0.084 s post detonation. From 186 m slant range to 420 m slant range, peak strain rates of 5.6 x 106 nm m-1 s-1 were observed for the first arrival phase. For the first arrival from 505 m slant range to 1123 m slant range, peak strain rates reduced to 8.0 x 104 nm m-1 s-1. A comparison of the scaled accelerations computed from DAS, the geophone pairs, and the measurements of co-located accelerometer pairs show common agreement at the scaled ranges of the single point sensors. This study adds to the body of work reporting near-source DAS observations of the seismic wavefields generated by underground chemical explosions. These results indicate that near-source DAS observations can refine interpretations of phase identification from single-point sensor observations. Phase identification could be one mechanism that contributes scatter to single point seismic measurements which would confound the performance of empirical relationships for small explosions. Removing that mechanism may therefore reduce interstation variability and increase empirical relationship performance for small explosions.},
+	author = {Chojnicki, Kirsten N. and St. Clair, James T. and Sprinkle, Dale P. and Feldman, Joshua D.},
+	date-added = {2026-04-05 17:09:25 -0600},
+	date-modified = {2026-04-05 17:09:25 -0600},
+	doi = {10.2172/3001008},
+	institution = {Pacific Northwest National Laboratory (PNNL), Richland, WA (United States)},
+	month = {03},
+	place = {United States},
+	publisher = {Pacific Northwest National Laboratory},
+	title = {Seismic DAS Observations of a large underground chemical explosion in dry tuff},
+	url = {https://www.osti.gov/biblio/3001008},
+	year = {2025},
+	bdsk-url-1 = {https://www.osti.gov/biblio/3001008},
+	bdsk-url-2 = {https://doi.org/10.2172/3001008}}
+
+@article{osti_2570657,
+	annote = {Simulations of rock damage and gas transport following underground explosions that omit preexisting fracture networks in the subsurface cannot fully characterize the influence of geo-structural variability on gas transport. Previous studies do not consider the impact that fracture network structure and variability have on gas seepage. In this study, we develop a sequentially coupled, axi-symmetric model to look at the damage pattern and resulting gas breakthrough curves following an underground explosion given different fracture network realizations. We simulate 0.327 and 0.164 kT chemical explosives with burial depths of 100 m for 90 stochastically generated fracture networks. Gases quickly reach the surface in 30\% of the higher yield simulations and 5\% of the lower yield simulations. The fast breakthrough can be attributed to the formation of connected pathways between fractures to the surface. The formation of a connected damage pathway to the surface is not clearly correlated with the fracture intensity (P32) in our simulations. Breakthrough curves with slower transport are highly variable depending on the fracture network sample. The variability in the breakthrough behavior indicates that ignoring the influence of fracture networks on rock damage, which strongly influences the hydraulic properties following an underground explosion, will likely lead to a large underestimation of the uncertainty in the gas transport to the surface. This work highlights the need for incorporation of fracture networks into models for accurately predicting gas seepage following underground explosions.},
+	author = {Stansberry, Aidan and Sweeney, Matthew R. and Hyman, Jeffrey D. and Strait, Justin and Lei, Zhou and Viswanathan, Hari S. and Stauffer, Philip H.},
+	date-added = {2026-04-05 15:47:11 -0600},
+	date-modified = {2026-04-05 17:00:58 -0600},
+	doi = {10.3390/geotechnics4010009},
+	issn = {ISSN 2673-7094},
+	journal = {Geotechnics},
+	month = {01},
+	number = {1},
+	place = {United States},
+	publisher = {MDPI},
+	title = {Fracture Network Influence on Rock Damage and Gas Transport following an Underground Explosion},
+	url = {https://www.osti.gov/biblio/2570657},
+	volume = {4},
+	year = {2024},
+	bdsk-url-1 = {https://www.osti.gov/biblio/2570657},
+	bdsk-url-2 = {https://doi.org/10.3390/geotechnics4010009}}
+
+@conference{osti_95997,
+	annote = {An extensive seismic network was deployed on the surface of Rainier Mesa for both the Non-Proliferation Experiment (NPE) Calibration shot as well as the full scale NPE event. This network was very similar to previous deployments for the nuclear events MISTY ECHO, MINERAL QUARRY, and HUNTERS TROPHY. For the full scale NPE event three-component accelerometers and seismometers were fielded at 32 sites across the mesa. A slightly smaller network with 28 stations was in operation for the 300 pound NPE calibration event. The mesa top array included both accelerometers and seismometers. The accelerometers were used to obtain data from the main NPE event while the seismometers with their higher sensitivity were used to record the 300 pound cal shot and several hundred after events from the NPE. Large spatial variations in ground motion are evident in both the full mesa data set as well as a small (80 m on a side) aperture, 9-element triangular array. This paper summarizes the data and discusses wave propagation effects. A companion paper presents a comparative source analysis.},
+	author = {Reinke, R E and Leverette, J A and Stump, B W},
+	date-added = {2026-04-05 15:42:00 -0600},
+	date-modified = {2026-04-05 15:42:00 -0600},
+	month = {12},
+	organization = {Lawrence Livermore National Lab., CA (United States)},
+	place = {United States},
+	title = {Near-source surface seismic measurements for the NPE, NPE Calibration, Hunter`s Trophy, and Mineral Quarry},
+	url = {https://www.osti.gov/biblio/95997},
+	year = {1994},
+	bdsk-url-1 = {https://www.osti.gov/biblio/95997}}
+
+@article{osti_2574154,
+	annote = {Understanding the surface topographic change that results from underground explosions is important for global security. Current techniques to relate the surface change to underground explosion characteristics usually involve assuming the earth has homogenous properties, leading to highly variable interpretations. Here we use an unoccupied aerial platform and a digital single lens reflex camera along with 200+ ground control points surveyed with a real-time kinematic global navigation satellite system to measure the surface topographic change resulting from two underground explosions at the Dry Alluvium Geology site in Yucca Flat, Nevada National Security Site, southern Nevada, United States. We find areas of 5--7 cm of subsidence that are not directly above the explosion source but rather 200--300 m away. For experiment DAG2, this zone is located south and west of the explosion, while for DAG4, there is a zone of subsidence located northeast of the explosion. In addition, late-time measurements show as much as 5 cm of horizontal change without measurable associated vertical change in the weeks following DAG4 but not DAG2. These indicate that the deformation resulting from underground chemical explosions can be very complex and bear little to no resemblance to predictions using half-space models. It is likely the tectonic environment plays a significant role in controlling the surface change, but the details are not fully understood.},
+	author = {Swanson, Erika M. and Crawford, Brandon Michael and Coats, Dane Erik and Klem, Susan Mary and Schultz-Fellenz, Emily S.},
+	date-added = {2026-04-05 09:57:57 -0600},
+	date-modified = {2026-04-05 09:57:57 -0600},
+	doi = {10.1130/GES02787.1},
+	issn = {ISSN 1553-040X},
+	journal = {Geosphere},
+	month = {01},
+	number = {2},
+	place = {United States},
+	publisher = {Geological Society of America},
+	title = {Complex surface topographic changes from explosive experiments at the Dry Alluvium Geology site, southern Nevada, United States},
+	url = {https://www.osti.gov/biblio/2574154},
+	volume = {21},
+	year = {2025},
+	bdsk-url-1 = {https://www.osti.gov/biblio/2574154},
+	bdsk-url-2 = {https://doi.org/10.1130/GES02787.1}}
+
+@techreport{osti_2999176,
+	annote = {Understanding the geophysical response near an underground explosion is crucial for generating insights into the source and emplacement conditions that produce distinct observations in monitoring scenarios occurring at greater distances. Recently, Shot A of the Low Yield Nuclear Monitoring (LYNM) Physics Experiment 1 (PE1) series was conducted at the Nevada National Security Site to provide ground truth for subsurface explosion signal models. This experiment resulted in measuring near-source ground motion at distances ranging from 70 to 1000 m/kt with a 99\% success rate, yielding high-fidelity knowledge of the near-field response that can serve as benchmarks for future numerical modeling and experiment planning. However, technical challenges exist in observing near-source phenomena while safeguarding sensitive data acquisition components from the detrimental effects of ground motion in the subsurface. This report outlines tools and techniques to address challenges associated with observing near-source accelerations and within the tunnel drift of the PE1 test bed. Additionally, we describe key systems designed with both modern advancements and legacy guidance to maximize the collection of high-quality ground motion data, which may be applied to constitutive and computational models, leading to new or improved understanding of the near- and far-field signals produced by underground explosions.},
+	author = {Robey, Richard Ellis and Wright, Andrew Alexander and Cochrane, Alfred Hardy},
+	date-added = {2026-04-04 21:02:11 -0600},
+	date-modified = {2026-04-04 21:33:23 -0600},
+	doi = {10.2172/2999176},
+	institution = {Sandia National Laboratories (SNL-NM), Albuquerque, NM (United States)},
+	month = {10},
+	place = {United States},
+	title = {Measurement of Close-in Ground Motion from an Underground Chemical Explosion},
+	url = {https://www.osti.gov/biblio/2999176},
+	year = {2025},
+	bdsk-url-1 = {https://www.osti.gov/biblio/2999176},
+	bdsk-url-2 = {https://doi.org/10.2172/2999176}}
+
+@techreport{osti_1958976,
+	annote = {This presentation outlines a series of experiments Los Alamos National Laboratory led as part of the Stockpile Responsiveness Program in 2019. The mid-scale experiments were designed to exercise case geometry perturbations and assess their performance characteristics with respect to mitigating penetrator angle of attack. The material was prepared for an HDBT workshop held at LANL January 19th, 2023.},
+	author = {Spawn, Casey Michael},
+	date-added = {2026-04-04 20:49:43 -0600},
+	date-modified = {2026-04-04 20:49:43 -0600},
+	doi = {10.2172/1958976},
+	institution = {Los Alamos National Laboratory (LANL), Los Alamos, NM (United States)},
+	month = {01},
+	place = {United States},
+	title = {Field Testing of Earth Penetrators [Slides]},
+	url = {https://www.osti.gov/biblio/1958976},
+	year = {2023},
+	bdsk-url-1 = {https://www.osti.gov/biblio/1958976},
+	bdsk-url-2 = {https://doi.org/10.2172/1958976}}
+
+@misc{davis2011,
+	author = {David, Charles},
+	date-added = {2026-04-04 20:41:31 -0600},
+	date-modified = {2026-04-04 21:10:18 -0600},
+	howpublished = {slide deck},
+	month = {2},
+	title = {Precision Strike Annual Review Air Armanent Center Perspective},
+	url = {https://ndia.dtic.mil/wp-content/uploads/2011/PSA_AnnualReview/Day1ColDavisFinal.pdf},
+	year = {2011},
+	bdsk-url-1 = {https://ndia.dtic.mil/wp-content/uploads/2008/fuze/IIHastie.pdf}}
+
+@techreport{blair2004,
+	author = {Blair, Dennis and Cams, Mike and Vitto, Vince},
+	date-added = {2026-04-04 20:26:31 -0600},
+	date-modified = {2026-04-04 20:39:16 -0600},
+	dtic = {ADA421606},
+	institution = {Defense Science Board, Office of the Under Secretary of Defense (Acquisition, Technology \& Logistics)},
+	title = {Future Strategic Strike Forces},
+	url = {https://apps.dtic.mil/sti/tr/pdf/ADA421606.pdf},
+	year = {2004},
+	bdsk-url-1 = {https://apps.dtic.mil/sti/tr/pdf/ADA421606.pdf}}
+
+@article{rumsfeld2001report,
+	author = {Rumsfeld, Donald H},
+	date-added = {2026-04-04 19:48:04 -0600},
+	date-modified = {2026-04-04 19:48:49 -0600},
+	journal = {Submitted by the Secretary of Defense in Conjunction with the Secretary of Energy in response to Section},
+	pages = {18},
+	title = {Report to Congress on the Defeat of Hard and Deeply Buried Targets},
+	url = {https://nsarchive2.gwu.edu/NSAEBB/NSAEBB372/docs/Underground-DeeplyBuried.pdf},
+	volume = {1044},
+	year = {2001},
+	bdsk-url-1 = {https://nsarchive2.gwu.edu/NSAEBB/NSAEBB372/docs/Underground-DeeplyBuried.pdf}}
+
+@article{baker2012strategic,
+	abstract = {Americas potential adversaries have realized that current non-nuclear penetrating weapons are relatively ineffective in destroying underground facilities. According to the Director of the Defense Intelligence Agency, the use of underground facilities...is expanding as potential adversaries conceal and protect their most vital national security functions and activities. National security functions and activities include but are not limited to Weapons of Mass Destruction WMD, the means of delivering WMD, anti-access weapons, senior leadership, protection of critical terrorist assets and facilities, and command and control assets. As such, underground facilities likely constitute adversary centers of gravity. In fact, vital national security functions and activities describe strategic centers of gravity. Therefore, if resources allow, attacks on these centers of gravity may deal a decisive blow to the enemy. This paper argues that successful targeting of these facilities may persuade the adversary to discontinue their efforts. The paper examines two historical events German U-boat campaign in WWII and the OIF decapitation strike to reveal that targeting underground facilities may largely contribute to halting the conflict or compelling an adversary to surrender before the conflict even starts. Next, it will examine the most relevant ethical questions surrounding the direct targeting of strategic leaders known to be hidden in such facilities. Finally, it will focus on specific challenges in defeating underground facilities. The conclusion argues that the strategic importance of underground facilities demands national-level attention to the practical and ethical questions relevant to successfully attacking and defeating them.
+apps.dtic.mil},
+	author = {Baker, Craig R},
+	date-added = {2026-04-04 19:18:58 -0600},
+	date-modified = {2026-04-04 19:21:14 -0600},
+	title = {The strategic importance of defeating underground facilities},
+	url = {https://apps.dtic.mil/sti/tr/pdf/ADA560679.pdf},
+	year = {2012},
+	bdsk-url-1 = {https://apps.dtic.mil/sti/tr/pdf/ADA560679.pdf}}
+
+@misc{dtriac2008,
+	abstract = {Underground and hardened facilities are used widely across the globe to protect strategically important assets of nations, to include those related to weapons of mass destruction. Over the last decade, they have presented challenges to the US military for holding such targets of adversaries at risk. Many studies have been accomplished to assess gaps in our military capabilities related to targeting these facilities. Limitations of kinetic weapons to effectively attack these targets highlighted the need to accomplish full-dimensional targeting of underground and hardened facilities in order to defeat them and render them ineffective. The benefits they provide to adversaries in concealment and protection, as well US and partner military limitations to targeting and defeating them, have served to accelerate construction of underground facilities and proliferation of associated technologies among these adversaries. Improvements in tunneling as well as anti-access/area denial capabilities will serve to compound challenges to targeting underground facilities over the next several decades. As new technologies emerge, specifically related to nanotechnology, hypersonic vehicles, directed energy weapons, and other non-kinetic capabilities, the Air Force must emphasize funding these technologies in order to develop of a family of systems supporting Global Strike forces that will provide the best opportunity for targeting and defeating underground and hardened facilities in the future. Moreover, as the US nuclear stockpile is further reduced and underground facilities are constructed at depths and in materials where current and future kinetic weapons are rendered ineffective, the US military may be unable to hold some of the most critical underground targets at risk. Thus the military may be faced with considering alternative means for holding those targets an adversary deems most vital at risk in order to deter action opposed to US interests.},
+	date-added = {2026-04-04 19:15:02 -0600},
+	date-modified = {2026-04-04 19:16:36 -0600},
+	howpublished = {slide deck},
+	month = {11},
+	title = {Defense Threat Reduction Information Analysis Center},
+	url = {https://apps.dtic.mil/sti/tr/pdf/ADA535057.pdf},
+	year = {2008},
+	bdsk-url-1 = {https://apps.dtic.mil/sti/tr/pdf/AD1018630.pdf}}
+
+@misc{rose2011,
+	abstract = {Underground and hardened facilities are used widely across the globe to protect strategically important assets of nations, to include those related to weapons of mass destruction. Over the last decade, they have presented challenges to the US military for holding such targets of adversaries at risk. Many studies have been accomplished to assess gaps in our military capabilities related to targeting these facilities. Limitations of kinetic weapons to effectively attack these targets highlighted the need to accomplish full-dimensional targeting of underground and hardened facilities in order to defeat them and render them ineffective. The benefits they provide to adversaries in concealment and protection, as well US and partner military limitations to targeting and defeating them, have served to accelerate construction of underground facilities and proliferation of associated technologies among these adversaries. Improvements in tunneling as well as anti-access/area denial capabilities will serve to compound challenges to targeting underground facilities over the next several decades. As new technologies emerge, specifically related to nanotechnology, hypersonic vehicles, directed energy weapons, and other non-kinetic capabilities, the Air Force must emphasize funding these technologies in order to develop of a family of systems supporting Global Strike forces that will provide the best opportunity for targeting and defeating underground and hardened facilities in the future. Moreover, as the US nuclear stockpile is further reduced and underground facilities are constructed at depths and in materials where current and future kinetic weapons are rendered ineffective, the US military may be unable to hold some of the most critical underground targets at risk. Thus the military may be faced with considering alternative means for holding those targets an adversary deems most vital at risk in order to deter action opposed to US interests.},
+	author = {Rose, Leo},
+	date-added = {2026-04-04 19:12:02 -0600},
+	date-modified = {2026-04-04 19:13:20 -0600},
+	howpublished = {slide deck},
+	title = {High Velocity Penetrating Weapon Program Overview},
+	url = {https://ndia.dtic.mil/wp-content/uploads/2011/SET/Rose.pdf},
+	year = {2011},
+	bdsk-url-1 = {https://apps.dtic.mil/sti/tr/pdf/AD1018630.pdf}}
+
+@misc{Carte2013,
+	author = {Carte, David and Fitle, Kyle},
+	date-added = {2026-04-04 18:33:34 -0600},
+	date-modified = {2026-04-04 18:35:50 -0600},
+	howpublished = {slide deck},
+	month = {4},
+	title = {Innovative Solutions Against Hard and Deeply Buried Target},
+	url = {https://ndia.dtic.mil/wp-content/uploads/2008/fuze/IIHastie.pdf},
+	year = {2013},
+	bdsk-url-1 = {https://ndia.dtic.mil/wp-content/uploads/2008/fuze/IIHastie.pdf}}
+
+@misc{hastie2008,
+	author = {Hastie, Dr. Robert},
+	date-added = {2026-04-04 18:27:45 -0600},
+	date-modified = {2026-04-04 18:41:07 -0600},
+	howpublished = {slide deck},
+	month = {05},
+	title = {DTRA Counter WMD Technologies Fuzing \& Instrumentation Technology},
+	url = {https://ndia.dtic.mil/wp-content/uploads/2008/fuze/IIHastie.pdf},
+	year = {2008},
+	bdsk-url-1 = {https://ndia.dtic.mil/wp-content/uploads/2008/fuze/IIHastie.pdf}}
+
+@techreport{adushkin2015underground,
+	author = {Adushkin, Vitaly V and Spivak, Alexander},
+	date-added = {2026-04-04 18:18:25 -0600},
+	date-modified = {2026-04-05 18:00:01 -0600},
+	note = {backup URL: https://erdc-library.erdc.dren.mil/server/api/core/bitstreams/81b728f8-8194-4ef8-e053-411ac80adeb3/content},
+	title = {Underground explosions},
+	url = {https://apps.dtic.mil/sti/pdfs/ADA627744.pdf},
+	year = {2015},
+	bdsk-url-1 = {https://apps.dtic.mil/sti/pdfs/ADA627744.pdf}}
+
+@techreport{dod2000,
+	author = {Deputy Under Secretary of Defense (Science and Technology)},
+	date-added = {2026-04-04 18:05:11 -0600},
+	date-modified = {2026-04-04 18:06:55 -0600},
+	month = {2},
+	title = {Defense Science and Technology and Strategy and Plans},
+	url = {https://nsarchive2.gwu.edu/NSAEBB/NSAEBB439/docs/Document11.pdf},
+	year = {2000},
+	bdsk-url-1 = {https://nsarchive2.gwu.edu/NSAEBB/NSAEBB439/docs/Document11.pdf}}
+
+@article{hart2012defeating,
+	abstract = {Underground and hardened facilities are used widely across the globe to protect strategically important assets of nations, to include those related to weapons of mass destruction. Over the last decade, they have presented challenges to the US military for holding such targets of adversaries at risk. Many studies have been accomplished to assess gaps in our military capabilities related to targeting these facilities. Limitations of kinetic weapons to effectively attack these targets highlighted the need to accomplish full-dimensional targeting of underground and hardened facilities in order to defeat them and render them ineffective. The benefits they provide to adversaries in concealment and protection, as well US and partner military limitations to targeting and defeating them, have served to accelerate construction of underground facilities and proliferation of associated technologies among these adversaries. Improvements in tunneling as well as anti-access/area denial capabilities will serve to compound challenges to targeting underground facilities over the next several decades. As new technologies emerge, specifically related to nanotechnology, hypersonic vehicles, directed energy weapons, and other non-kinetic capabilities, the Air Force must emphasize funding these technologies in order to develop of a family of systems supporting Global Strike forces that will provide the best opportunity for targeting and defeating underground and hardened facilities in the future. Moreover, as the US nuclear stockpile is further reduced and underground facilities are constructed at depths and in materials where current and future kinetic weapons are rendered ineffective, the US military may be unable to hold some of the most critical underground targets at risk. Thus the military may be faced with considering alternative means for holding those targets an adversary deems most vital at risk in order to deter action opposed to US interests.},
+	author = {Hart Jr, Russell},
+	date-added = {2026-04-04 12:50:25 -0600},
+	date-modified = {2026-04-04 18:07:35 -0600},
+	title = {Defeating Hard and Deeply Buried Targets in 2035},
+	url = {https://apps.dtic.mil/sti/tr/pdf/AD1018630.pdf},
+	year = {2012},
+	bdsk-url-1 = {https://apps.dtic.mil/sti/tr/pdf/AD1018630.pdf}}
+
+@book{national2005effects,
+	author = {National Research Council and Division on Engineering and Physical Sciences and Committee on the Effects of Nuclear Earth-Penetrator and Other Weapons},
+	date-added = {2026-04-04 12:43:36 -0600},
+	date-modified = {2026-04-04 12:43:36 -0600},
+	publisher = {National Academies Press},
+	title = {Effects of nuclear earth-penetrator and other weapons},
+	year = {2005}}

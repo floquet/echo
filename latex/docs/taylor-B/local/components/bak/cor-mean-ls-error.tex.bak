@@ -1,0 +1,68 @@
+% \input{\pThms/"cor-mean-ls-error.tex"}
+\typeout{ \enumContent \pThms/"cor-mean-ls-error.tex"}
+%
+%\clearpage
+\begin{corollary}[Error for the Mean]
+
+Given least squares problem and solution in theorem \ref{thm:mean-ls}, the corresponding error is
+		%
+\begin{equation}
+	\sigma_{\mu} = \sqrt{ \frac{\overline{v^{*}v} - \overline{v^{*}} \overline{v} } {m-1} }
+\label{eq:cor-stmt:mean}
+\end{equation}
+		%
+\label{cor:mean-ls-error}
+\end{corollary}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+   
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+The specific template for the least squares error in $\mu$ is
+		%
+\begin{equation}
+	\sigma_{\mu} = \sqrt{ \frac{\phi^{2}\paren{\mu_{p}}} {m-1} \innerSelf{\chi}}
+\tag{\ref{eq:error-template}}
+\end{equation}
+where the vector $\chi$ encodes the derivatives of the solution with respect to each datum:
+		%
+\begin{equation*}
+	\chi_{k} = \frac{d}{d_{v_{k}}} \mu \qquad k=1,m.	
+%\label{eq:}
+\end{equation*}
+		%
+The salient relationship is $\frac{d}{d_{v_{k}}} \inner{\one}{v} = 1$ which implies the vector $\chi = \innerSelf{\one}^{-1}\one$ with norm
+		%
+%\begin{equation*}
+%	\frac{d}{d_{v_{k}}} \inner{\one}{v} = 1
+%%\label{eq:}
+%\end{equation*}
+%		%
+%		%
+%\begin{equation*}
+%	\chi = \innerSelf{\one}^{-1}\one
+%%\label{eq:}
+%\end{equation*}
+		%
+		%
+\begin{equation*}
+	\innerSelf{\chi} = \innerSelf{\one}^{-1}.
+%\label{eq:}
+\end{equation*}
+		%
+Direct substitution of the least squares solution \eqref{eq:thm:mean:soln} into the definition for $\phi^{2}(\mu)$ in \eqref{eq:pf-phi} provides
+		%
+\begin{equation*}
+	\phi^{2}\paren{\mu_{p}} = \innerSelf{v}- \frac{\inner{\one}{v}\inner{v}{\one}} {\innerSelf{\one}},
+%\label{eq:}
+\end{equation*}
+		%
+by now a familiar form, and the solution becomes
+		%
+\begin{equation}
+	\sigma_{\mu} = \sqrt{ \frac{\overline{v^{*}v} - \overline{v^{*}} \overline{v} }{m-1}}.
+\label{eq:cor-prf-alpha}
+\end{equation}
+\end{proof}
+%
+%
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

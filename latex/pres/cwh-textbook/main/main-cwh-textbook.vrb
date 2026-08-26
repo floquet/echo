@@ -1,0 +1,14 @@
+\frametitle{Mathematica: Differential Equation Solution}
+\tiny
+\begin{equation}\label{eq:son}
+\begin{array}{ccccc}
+    x(t) &= &\Phi(t) &x_{0} \\
+    \mat{c}{x(t) \\ y(t) \\ \dot{x}(t) \\ \dot{y}(t)} &=
+    &\mat{cccc}{
+     4-3 \cos t & 0 & \sin t & -2 (\cos t-1) \\
+     -6 (t-\sin t) & 1 & 2 (\cos t-1) & 4 \sin t-3 t \\
+     3 \sin t & 0 & \cos t & 2 \sin t \\
+     6 (\cos t-1) & 0 & -2 \sin t & 4 \cos t-3 }
+     & \mat{c}{x(0) \\ y(0) \\ \dot{x}(0) \\ \dot{y}(0)}
+\end{array}
+\end{equation}

@@ -1,0 +1,35 @@
+% \input{\pLocalTheorems "thm-swapping-identity"}
+
+%\clearpage
+\begin{theorem}[Swapping Identity]
+In the limit where measurements vanish, the swapping identity holds:
+		%
+\begin{equation}
+	\equality
+\label{eq:main}
+\end{equation}
+		%
+\label{thm:swapping-identity}
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+When the merit function in \eqref{eq:phi-star}  achieves the smallest possible value $\phi_{\star}(b) = 0$ we have
+		%
+\begin{equation*}
+	\er - \frac{\inner{t^{b}, R}^{2}} {\etb} = 0.
+%\label{eq:}
+\end{equation*}
+		%
+Equation \eqref{eq:swap} follows immediately.
+
+Inequality \ref{eq:main} is sharp, with equality achieved in the perfect data limit $\normt{R_{\mathcal{N}}}\to 0$, providing the swapping identity
+		%
+\begin{equation}
+	\swap
+\label{eq:main}
+\end{equation}
+		%
+\end{proof}
+
+
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

@@ -1,0 +1,2540 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  3 MAY 2026 22:40
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main-taylor-B.tex
+(./main-taylor-B.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)))
+(|kpsewhich -var-value=HOME)
+(/Users/dantopa/GitHub//latex-2025//global/config//common/config-base.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"config-base.tex"
+(/Users/dantopa/GitHub//latex-2025//global/config//common//paths-base.tex
+ == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//com
+mon//"paths-base.tex"
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//packages-base.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"packages-common.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen135
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen136
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count175
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count176
+\leftroot@=\count177
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count178
+\DOTSCASE@=\count179
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count180
+\c@MaxMatrixCols=\count181
+\dotsspace@=\muskip16
+\c@parentequation=\count182
+\dspbrk@lvl=\count183
+\tag@help=\toks16
+\row@=\count184
+\column@=\count185
+\maxfields@=\count186
+\andhelp@=\toks17
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count187
+\calc@Bcount=\count188
+\calc@Adimen=\dimen144
+\calc@Bdimen=\dimen145
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count189
+\calc@Cskip=\skip54
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count190
+\l_MT_multwidth_dim=\dimen146
+\origjot=\skip55
+\l_MT_shortvdotswithinadjustabove_dim=\dimen147
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen148
+\l_MT_above_intertext_sep=\dimen149
+\l_MT_below_intertext_sep=\dimen150
+\l_MT_above_shortintertext_sep=\dimen151
+\l_MT_below_shortintertext_sep=\dimen152
+\xmathstrut@box=\box47
+\xmathstrut@dim=\dimen153
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen154
+\ar@mcellbox=\box48
+\extrarowheight=\dimen155
+\NC@list=\toks21
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box49
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\everycr=\toks22
+\minrowclearance=\skip58
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip59
+\multirow@cntb=\count191
+\multirow@dima=\skip60
+\bigstrutjot=\dimen156
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count192
+\mult@box=\box50
+\multicol@leftmargin=\dimen157
+\c@unbalance=\count193
+\c@collectmore=\count194
+\doublecol@number=\count195
+\multicoltolerance=\count196
+\multicolpretolerance=\count197
+\full@width=\dimen158
+\page@free=\dimen159
+\premulticols=\dimen160
+\postmulticols=\dimen161
+\multicolsep=\skip61
+\multicolbaselineskip=\skip62
+\partial@page=\box51
+\last@line=\box52
+\maxbalancingoverflow=\dimen162
+\mult@rightbox=\box53
+\mult@grightbox=\box54
+\mult@gfirstbox=\box55
+\mult@firstbox=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count198
+\c@columnbadness=\count199
+\c@finalcolumnbadness=\count266
+\last@try=\dimen163
+\multicolovershoot=\dimen164
+\multicolundershoot=\dimen165
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count267
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen166
+\lightrulewidth=\dimen167
+\cmidrulewidth=\dimen168
+\belowrulesep=\dimen169
+\belowbottomsep=\dimen170
+\aboverulesep=\dimen171
+\abovetopsep=\dimen172
+\cmidrulesep=\dimen173
+\cmidrulekern=\dimen174
+\defaultaddspace=\dimen175
+\@cmidla=\count268
+\@cmidlb=\count269
+\@aboverulesep=\dimen176
+\@belowrulesep=\dimen177
+\@thisruleclass=\count270
+\@lastruleclass=\count271
+\@thisrulewidth=\dimen178
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen179
+\Gin@req@width=\dimen180
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/overpic/overpic.sty
+Package: overpic 2020/02/22 1.3 picture overlays (RN)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count272
+\d@lta=\count273
+\@delta=\dimen181
+\@@delta=\dimen182
+\@gridcnt=\count274
+\@joinkind=\count275
+\@dotgap=\dimen183
+\@ddotgap=\dimen184
+\@x@diff=\count276
+\@y@diff=\count277
+\x@diff=\dimen185
+\y@diff=\dimen186
+\@dotbox=\box96
+\num@segments=\count278
+\num@segmentsi=\count279
+\@datafile=\read2
+)
+\OVP@box=\box97
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen187
+\pgfutil@tempdimb=\dimen188
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box98
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks26
+))
+\pgf@x=\dimen189
+\pgf@y=\dimen190
+\pgf@xa=\dimen191
+\pgf@ya=\dimen192
+\pgf@xb=\dimen193
+\pgf@yb=\dimen194
+\pgf@xc=\dimen195
+\pgf@yc=\dimen196
+\pgf@xd=\dimen197
+\pgf@yd=\dimen198
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count280
+\c@pgf@countb=\count281
+\c@pgf@countc=\count282
+\c@pgf@countd=\count283
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+\pgf@sys@id@count=\count284
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count285
+\pgfsyssoftpath@bigbuffer@items=\count286
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen199
+\pgfmath@count=\count287
+\pgfmath@box=\box99
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count288
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen256
+\pgf@picmaxx=\dimen257
+\pgf@picminy=\dimen258
+\pgf@picmaxy=\dimen259
+\pgf@pathminx=\dimen260
+\pgf@pathmaxx=\dimen261
+\pgf@pathminy=\dimen262
+\pgf@pathmaxy=\dimen263
+\pgf@xx=\dimen264
+\pgf@xy=\dimen265
+\pgf@yx=\dimen266
+\pgf@yy=\dimen267
+\pgf@zx=\dimen268
+\pgf@zy=\dimen269
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen270
+\pgf@path@lasty=\dimen271
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen272
+\pgf@shorten@start@additional=\dimen273
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box100
+\pgf@hbox=\box101
+\pgf@layerbox@main=\box102
+\pgf@picture@serial@count=\count289
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen274
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen275
+\pgf@pt@y=\dimen276
+\pgf@pt@temp=\dimen277
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen278
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen279
+\pgf@sys@shading@range@num=\count290
+\pgf@shadingcount=\count291
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box103
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box104
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen280
+\pgf@nodesepend=\dimen281
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen282
+\pgffor@skip=\dimen283
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count292
+\pgfplotmarksize=\dimen284
+)
+\tikz@lastx=\dimen285
+\tikz@lasty=\dimen286
+\tikz@lastxsaved=\dimen287
+\tikz@lastysaved=\dimen288
+\tikz@lastmovetox=\dimen289
+\tikz@lastmovetoy=\dimen290
+\tikzleveldistance=\dimen291
+\tikzsiblingdistance=\dimen292
+\tikz@figbox=\box105
+\tikz@figbox@bg=\box106
+\tikz@tempbox=\box107
+\tikz@tempbox@bg=\box108
+\tikztreelevel=\count293
+\tikznumberofchildren=\count294
+\tikznumberofcurrentchild=\count295
+\tikz@fig@count=\count296
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count297
+\pgfmatrixcurrentcolumn=\count298
+\pgf@matrix@numberofcolumns=\count299
+)
+\tikz@expandcount=\count300
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowinset=\dimen293
+\pgfarrowlength=\dimen294
+\pgfarrowwidth=\dimen295
+\pgfarrowlinewidth=\dimen296
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen297
+\pgfdecoratedremainingdistance=\dimen298
+\pgfdecoratedinputsegmentcompleteddistance=\dimen299
+\pgfdecoratedinputsegmentremainingdistance=\dimen300
+\pgf@decorate@distancetomove=\dimen301
+\pgf@decorate@repeatstate=\count301
+\pgfdecorationsegmentamplitude=\dimen302
+\pgfdecorationsegmentlength=\dimen303
+)
+\tikz@lib@dec@box=\box109
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+))
+\AM@pagewidth=\dimen304
+\AM@pageheight=\dimen305
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box110
+\AM@global@opts=\toks35
+\AM@pagecnt=\count302
+\AM@toc@title=\toks36
+\c@AM@survey=\count303
+\AM@templatesizebox=\box111
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen306
+\Hy@linkcounter=\count304
+\Hy@pagecounter=\count305
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count306
+Package hyperref Info: Option `breaklinks' set `true' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count307
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen307
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count308
+\Field@Width=\dimen308
+\Fld@charsize=\dimen309
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+\Hy@abspage=\count309
+\c@Item=\count310
+\c@Hfootnote=\count311
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count312
+\c@bookmark@seq@number=\count313
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip63
+))
+(/Users/dantopa/GitHub//latex-2025//global/config//common//hyperlinks-base.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"hyperlinks-base.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//hyperlinks//hl-mil-org.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//hype
+rlinks//"hl-mil-org.tex"
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//listings-codes.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//listings-codes.tex
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count314
+\lst@gtempboxa=\box112
+\lst@token=\toks37
+\lst@length=\count315
+\lst@currlwidth=\dimen310
+\lst@column=\count316
+\lst@pos=\count317
+\lst@lostspace=\dimen311
+\lst@width=\dimen312
+\lst@newlines=\count318
+\lst@lineno=\count319
+\lst@maxwidth=\dimen313
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count320
+\lst@skipnumbers=\count321
+\lst@framebox=\box113
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+File: lststyles.tex 2024/11/26 Custom Listings Styles
+)
+(/Users/dantopa/GitHub//latex-2025//global/config//common//num-components.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"num-components.tex"
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//num-list.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"num-list.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip64
+\enit@outerparindent=\dimen314
+\enit@toks=\toks38
+\enit@inbox=\box114
+\enit@count@id=\count322
+\enitdp@description=\count323
+)
+\c@saveenumi=\count324
+)
+(/Users/dantopa/GitHub//latex-2025//global/config//common//glossaries.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"glossaries.tex" 
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2020/03/19 v4.46 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
+)
+\XKV@depth=\count325
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count326
+)
+\@glsmfirst=\toks41
+\@glsmrest=\toks42
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count327
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count328
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count329
+\FP@xia=\count330
+\FP@xib=\count331
+\FP@xfa=\count332
+\FP@xfb=\count333
+\FP@rega=\count334
+\FP@regb=\count335
+\FP@regs=\count336
+\FP@times=\count337
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count338
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks43
+\@dtl@tmpcount=\count339
+\dtl@tmplength=\skip65
+\dtl@sortresult=\count340
+\@dtl@numgrpsepcount=\count341
+\@dtl@datatype=\count342
+\dtl@codeA=\count343
+\dtl@codeB=\count344
+\@dtl@foreach@level=\count345
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/base/glossaries-compat
+ible-307.sty
+Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
+)
+\gls@level=\count346
+\@gls@tmpb=\toks44
+\gls@tmplen=\skip66
+\glskeylisttok=\toks45
+\glslabeltok=\toks46
+\glsshorttok=\toks47
+\glslongtok=\toks48
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
+av.sty
+Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
+ty
+Package: glossary-list 2020/03/19 v4.46 (NLCT)
+\glslistdottedwidth=\skip67
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
+ty
+Package: glossary-long 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip68
+\LTright=\skip69
+\LTpre=\skip70
+\LTpost=\skip71
+\LTchunksize=\count347
+\LTcapwidth=\dimen315
+\LT@head=\box115
+\LT@firsthead=\box116
+\LT@foot=\box117
+\LT@lastfoot=\box118
+\LT@cols=\count348
+\LT@rows=\count349
+\c@LT@tables=\count350
+\c@LT@chunks=\count351
+\LT@p@ftn=\toks49
+)
+\glsdescwidth=\skip72
+\glspagelistwidth=\skip73
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-super.
+sty
+Package: glossary-super 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count352
+\ST@wd=\dimen316
+\ST@rightskip=\skip74
+\ST@leftskip=\skip75
+\ST@parfillskip=\skip76
+\ST@pageleft=\dimen317
+\ST@headht=\dimen318
+\ST@tailht=\dimen319
+\ST@pagesofar=\dimen320
+\ST@pboxht=\dimen321
+\ST@lineht=\dimen322
+\ST@prevht=\dimen323
+\ST@toadd=\dimen324
+\ST@dimen=\dimen325
+\ST@pbox=\box119
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
+ty
+Package: glossary-tree 2020/03/19 v4.46 (NLCT)
+\glstreeindent=\skip77
+))
+\glswrite=\write4
+\glo@main@file=\write5
+\openout5 = `main-taylor-B.glo'.
+
+Package glossaries Info: Writing glossary file main-taylor-B.glo on input line 
+8.
+\glo@acronym@file=\write6
+\openout6 = `main-taylor-B.acn'.
+
+Package glossaries Info: Writing glossary file main-taylor-B.acn on input line 
+8.
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//aux-loads.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"aux-loads.tex"
+(/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-A.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-A.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-bold-letters.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-bold-letters.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-colors.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-colors.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-delimiters.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-delimiters.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-mat-basics.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//libs//aux/Global/"lib-mat-basics.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-norms.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-norms.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-shortcuts.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-shortcuts.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-vec-cols.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-vec-cols.tex"
+))) (/Users/dantopa/GitHub//latex-2025//global/config//docs/config-flavor.tex
+  @@ DOCUMENT SETUP @@ /Users/dantopa/GitHub//latex-2025//global/config//docs//
+"config-flavor.tex"
+(/Users/dantopa/GitHub//latex-2025//global/config//docs//theorems-flavor.tex
+  @@ DOCUMENT SETUP @@ /Users/dantopa/GitHub//latex-2025//global/config//docs//
+"theorems.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks50
+\thm@bodyfont=\toks51
+\thm@headfont=\toks52
+\thm@notefont=\toks53
+\thm@headpunct=\toks54
+\thm@preskip=\skip78
+\thm@postskip=\skip79
+\thm@headsep=\skip80
+\dth@everypar=\toks55
+)
+\c@theorem=\count353
+\c@definition=\count354
+\c@remark=\count355
+
+(/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-proofs.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-proofs.tex"
+)) (/Users/dantopa/GitHub//latex-2025//global/config//docs//packages-flavor.tex
+  @@ DOCUMENT SETUP @@ /Users/dantopa/GitHub//latex-2025//global/config//docs//
+"packages-flavor.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count356
+\Gm@cntv=\count357
+\c@Gm@tempcnt=\count358
+\Gm@bindingoffset=\dimen326
+\Gm@wd@mp=\dimen327
+\Gm@odd@mp=\dimen328
+\Gm@even@mp=\dimen329
+\Gm@layoutwidth=\dimen330
+\Gm@layoutheight=\dimen331
+\Gm@layouthoffset=\dimen332
+\Gm@layoutvoffset=\dimen333
+\Gm@dimlist=\toks56
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip81
+\@affilsep=\skip82
+\c@Maxaffil=\count359
+\c@authors=\count360
+\c@affil=\count361
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
+)))
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//config/config-local.t
+ex
+  -- LOCAL CONFIGURATION -- /Users/dantopa/GitHub//latex-2025//docs/taylor-B//l
+ocal//config//"config-local.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//config//packages-loca
+l.tex
+  -- LOCAL CONFIGURATION -- /Users/dantopa/GitHub//latex-2025//docs/taylor-B//l
+ocal//config//"packages-local.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-03-06 L3 programming layer (loader) 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count362
+\l__pdf_internal_box=\box120
+))
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count363
+\g__xparse_grabber_int=\count364
+\l__xparse_m_args_int=\count365
+\l__xparse_v_nesting_int=\count366
+))
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//config//macros-local.
+tex
+  -- LOCAL CONFIGURATION -- /Users/dantopa/GitHub//latex-2025//docs/taylor-B//l
+ocal//config//"macros-local.tex"
+
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//config//macros-local.t
+ex:81: LaTeX Error: Command \one already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 \newcommand{\one}[0]			{ \mathbf{1} }
+                                          
+? 
+)
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//config//aux-local.tex
+  -- LOCAL CONFIGURATION -- /Users/dantopa/GitHub//latex-2025//docs/taylor-B//l
+ocal//config//"aux-local.tex"
+(../local/libs/aux/lib-custom-math-symbols.tex)
+(../local/libs/aux/lib-fields.tex)
+(/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-ftola-master.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-ftola-master.tex"
+
+(/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-ftola-projectors.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-ftola-projectors.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-ftola-subspaces.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-ftola-subspaces.tex"
+)) (../local/libs/aux/lib-inherited.tex)
+(../local/libs/aux/lib-least-squares.tex)
+(../local/libs/aux/lib-linear-algebra.tex) (../local/libs/aux/lib-norms.tex
+
+../local/libs/aux/lib-norms.tex:4: LaTeX Error: Command \norm already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...d{\norm}[1]			{\left\lVert #1 \right\rVert}
+                                                  
+? 
+) (../local/libs/aux/lib-sequences.tex) (../local/libs/aux/lib-shortcuts.tex
+
+../local/libs/aux/lib-shortcuts.tex:45: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...g/wiki/Singular_value_decomposition}{SVD}}
+                                                  
+? 
+../local/libs/aux/lib-shortcuts.tex:45: Missing number, treated as zero.
+<to be read again> 
+                   v
+l.45 ...g/wiki/Singular_value_decomposition}{SVD}}
+                                                  
+? 
+../local/libs/aux/lib-shortcuts.tex:45: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.45 ...g/wiki/Singular_value_decomposition}{SVD}}
+                                                  
+? 
+../local/libs/aux/lib-shortcuts.tex:45: You already have nine parameters.
+\reserved@a ... \def \expandafter d\reserved@b #10
+                                                  v{
+l.45 ...g/wiki/Singular_value_decomposition}{SVD}}
+                                                  
+? 
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-svd-master.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-svd-master.tex"
+(/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-svd-blocks.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-svd-blocks.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-svd-components.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-svd-components.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-svd-pseudoinverse.te
+x
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-svd-pseudoinverse.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-svd-vectors.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-svd-vectors.tex"
+)) (../local/libs/aux/lib-taylor-ref.tex) (../local/libs/aux/lib-tikz.tex)
+(../local/libs/aux/lib-vectors.tex) (../local/libs/aux/lib-x.tex))
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//config//hyperlinks-lo
+cal.tex
+  -- LOCAL CONFIGURATION -- /Users/dantopa/GitHub//latex-2025//docs/taylor-B//l
+ocal//config//"hyperlinks-local.tex"
+))
+ @@ DOCUMENT SETUP @@ 
+(/Users/dantopa/GitHub//latex-2025//global/config//common//href-hidden.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"href-hidden.tex"
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//bib-config-a.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"bib-config-a.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count367
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count368
+\c@listtotal=\count369
+\c@listcount=\count370
+\c@liststart=\count371
+\c@liststop=\count372
+\c@citecount=\count373
+\c@citetotal=\count374
+\c@multicitecount=\count375
+\c@multicitetotal=\count376
+\c@instcount=\count377
+\c@maxnames=\count378
+\c@minnames=\count379
+\c@maxitems=\count380
+\c@minitems=\count381
+\c@citecounter=\count382
+\c@maxcitecounter=\count383
+\c@savedcitecounter=\count384
+\c@uniquelist=\count385
+\c@uniquename=\count386
+\c@refsection=\count387
+\c@refsegment=\count388
+\c@maxextratitle=\count389
+\c@maxextratitleyear=\count390
+\c@maxextraname=\count391
+\c@maxextradate=\count392
+\c@maxextraalpha=\count393
+\c@abbrvpenalty=\count394
+\c@highnamepenalty=\count395
+\c@lownamepenalty=\count396
+\c@maxparens=\count397
+\c@parenlevel=\count398
+\blx@tempcnta=\count399
+\blx@tempcntb=\count400
+\blx@tempcntc=\count401
+\blx@maxsection=\count402
+\blx@maxsegment@0=\count403
+\blx@notetype=\count404
+\blx@parenlevel@text=\count405
+\blx@parenlevel@foot=\count406
+\blx@sectionciteorder@0=\count407
+\blx@entrysetcounter=\count408
+\labelnumberwidth=\skip83
+\labelalphawidth=\skip84
+\biblabelsep=\skip85
+\bibitemsep=\skip86
+\bibnamesep=\skip87
+\bibinitsep=\skip88
+\bibparsep=\skip89
+\bibhang=\skip90
+\blx@bcfin=\read4
+\blx@bcfout=\write7
+\blx@langwohyphens=\language86
+\c@mincomprange=\count409
+\c@maxcomprange=\count410
+\c@mincompwidth=\count411
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count412
+\c@savedafterword=\count413
+\c@annotator=\count414
+\c@savedannotator=\count415
+\c@author=\count416
+\c@savedauthor=\count417
+\c@bookauthor=\count418
+\c@savedbookauthor=\count419
+\c@commentator=\count420
+\c@savedcommentator=\count421
+\c@editor=\count422
+\c@savededitor=\count423
+\c@editora=\count424
+\c@savededitora=\count425
+\c@editorb=\count426
+\c@savededitorb=\count427
+\c@editorc=\count428
+\c@savededitorc=\count429
+\c@foreword=\count430
+\c@savedforeword=\count431
+\c@holder=\count432
+\c@savedholder=\count433
+\c@introduction=\count434
+\c@savedintroduction=\count435
+\c@namea=\count436
+\c@savednamea=\count437
+\c@nameb=\count438
+\c@savednameb=\count439
+\c@namec=\count440
+\c@savednamec=\count441
+\c@translator=\count442
+\c@savedtranslator=\count443
+\c@shortauthor=\count444
+\c@savedshortauthor=\count445
+\c@shorteditor=\count446
+\c@savedshorteditor=\count447
+\c@labelname=\count448
+\c@savedlabelname=\count449
+\c@institution=\count450
+\c@savedinstitution=\count451
+\c@lista=\count452
+\c@savedlista=\count453
+\c@listb=\count454
+\c@savedlistb=\count455
+\c@listc=\count456
+\c@savedlistc=\count457
+\c@listd=\count458
+\c@savedlistd=\count459
+\c@liste=\count460
+\c@savedliste=\count461
+\c@listf=\count462
+\c@savedlistf=\count463
+\c@location=\count464
+\c@savedlocation=\count465
+\c@organization=\count466
+\c@savedorganization=\count467
+\c@origlocation=\count468
+\c@savedoriglocation=\count469
+\c@origpublisher=\count470
+\c@savedorigpublisher=\count471
+\c@publisher=\count472
+\c@savedpublisher=\count473
+\c@language=\count474
+\c@savedlanguage=\count475
+\c@origlanguage=\count476
+\c@savedoriglanguage=\count477
+\c@pageref=\count478
+\c@savedpageref=\count479
+\shorthandwidth=\skip91
+\shortjournalwidth=\skip92
+\shortserieswidth=\skip93
+\shorttitlewidth=\skip94
+\shortauthorwidth=\skip95
+\shorteditorwidth=\skip96
+\locallabelnumberwidth=\skip97
+\locallabelalphawidth=\skip98
+\localshorthandwidth=\skip99
+\localshortjournalwidth=\skip100
+\localshortserieswidth=\skip101
+\localshorttitlewidth=\skip102
+\localshortauthorwidth=\skip103
+\localshorteditorwidth=\skip104
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count480
+\c@textcitetotal=\count481
+\c@textcitemaxnames=\count482
+\c@biburlbigbreakpenalty=\count483
+\c@biburlbreakpenalty=\count484
+\c@biburlnumpenalty=\count485
+\c@biburlucpenalty=\count486
+\c@biburllcpenalty=\count487
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count488
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count489
+\c@bbx:relatedtotal=\count490
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)))
+\@quotelevel=\count491
+\@quotereset=\count492
+
+(./main-taylor-B.aux
+
+LaTeX Warning: Label `eq:least-squares-solution' multiply defined.
+
+
+LaTeX Warning: Label `eq:Taylor-quoted' multiply defined.
+
+
+LaTeX Warning: Label `eq:solution' multiply defined.
+
+
+LaTeX Warning: Label `eq:sigma-zeta-terms' multiply defined.
+
+
+LaTeX Warning: Label `tab:taylor-adjusted-inner-products' multiply defined.
+
+)
+\openout1 = `main-taylor-B.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 62
+.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count493
+\scratchdimen=\dimen334
+\scratchbox=\box121
+\nofMPsegments=\count494
+\nofMParguments=\count495
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count496
+\MPscratchDim=\dimen335
+\MPnumerator=\count497
+\makeMPintoPDFobject=\count498
+\everyMPtoPDFconversion=\toks58
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box122
+Package hyperref Info: Link coloring OFF on input line 62.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count499
+)
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+LaTeX Info: Redefining \nameref on input line 62.
+ (./main-taylor-B.out) (./main-taylor-B.out)
+\@outlinefile=\write8
+\openout8 = `main-taylor-B.out'.
+
+\c@lstlisting=\count500
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout7 = `main-taylor-B.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main-taylor-B.bbl' found.
+
+(./main-taylor-B.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                laub2004matrix
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 62.
+Package biblatex Info: Reference segment=0 on input line 62.
+ [1
+
+\openout4 = `main-taylor-B.ist'.
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections/sec-abstract.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//sec
+tions/"sec-abstract.tex"
+) (./main-taylor-B.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+5.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+5.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [2])
+\tf@toc=\write9
+\openout9 = `main-taylor-B.toc'.
+
+
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections/sec-intro.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//sec
+tions//"sec-intro.tex"
+[3]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 18.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 18.
+
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections/sec-intro.tex:18: Un
+defined control sequence.
+<recently read> \lst 
+                     
+l.18 ...eters.} for time and fireball radius $\lst
+                                                  {t_{k},R_{k}}_{k=1}^{m}$. ...
+
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections/sec-intro.tex:18: Un
+defined control sequence.
+<recently read> \lst 
+                     
+l.18 ...inear methods. The final coordinates $\lst
+                                                  {x_{k},y_{k}}_{k=1}^{m}$ a...
+
+? 
+) (/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-taylor.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//sec
+tions//"sec-taylor.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//figures//
+fig-taylor-photos.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//figures//"fig-taylor-photos.tex"
+</Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/taylor/tII-p
+late-07.pdf, id=277, 451.6875pt x 744.7825pt>
+File: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/taylor/
+tII-plate-07.pdf Graphic file (type pdf)
+<use /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/taylor/t
+II-plate-07.pdf>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loca
+l//graphics/taylor/tII-plate-07.pdf  used on input line 9.
+(pdftex.def)             Requested size: 316.17908pt x 521.3442pt.
+
+LaTeX Warning: Float too large for page by 12.81186pt on input line 15.
+
+) [4] [5 </Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/tay
+lor/tII-plate-07.pdf>]
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//figures//
+fig-taylor-together.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//figures//"fig-taylor-together.tex"
+</Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/taylor/tII-t
+ab-1.pdf, id=306, 450.68375pt x 371.3875pt>
+File: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/taylor/
+tII-tab-1.pdf Graphic file (type pdf)
+<use /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/taylor/t
+II-tab-1.pdf>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loca
+l//graphics/taylor/tII-tab-1.pdf  used on input line 11.
+(pdftex.def)             Requested size: 180.2703pt x 148.55235pt.
+</Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/taylor/tII-f
+ig-01.pdf, id=308, 450.68375pt x 345.29pt>
+File: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/taylor/
+tII-fig-01.pdf Graphic file (type pdf)
+<use /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/taylor/t
+II-fig-01.pdf>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loca
+l//graphics/taylor/tII-fig-01.pdf  used on input line 17.
+(pdftex.def)             Requested size: 180.2703pt x 138.11354pt.
+) [6 </Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/taylor/
+tII-tab-1.pdf> </Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphi
+cs/taylor/tII-fig-01.pdf>]
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//figures//
+fig-02.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//figures//"fig-02.tex"
+</Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/taylor/sedov
+-fig-2.pdf, id=339, 260.975pt x 163.61125pt>
+File: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/taylor/
+sedov-fig-2.pdf Graphic file (type pdf)
+<use /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/taylor/s
+edov-fig-2.pdf>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loca
+l//graphics/taylor/sedov-fig-2.pdf  used on input line 6.
+(pdftex.def)             Requested size: 260.97437pt x 163.61084pt.
+)
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//figures/f
+ig-similar-glasstone.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//figures//"fig-similar-glasstone.tex"
+</Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/glasstone/si
+milarity.pdf, id=343, 514.92375pt x 717.68124pt>
+File: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/glassto
+ne/similarity.pdf Graphic file (type pdf)
+<use /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/glasston
+e/similarity.pdf>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loca
+l//graphics/glasstone/similarity.pdf  used on input line 14.
+(pdftex.def)             Requested size: 386.19186pt x 538.25961pt.
+
+LaTeX Warning: Float too large for page by 17.72623pt on input line 19.
+
+) [7 </Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/taylor/
+sedov-fig-2.pdf>] [8 </Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//
+graphics/glasstone/similarity.pdf>])
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra
+.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//sec
+tions//"sec-linear-algebra.tex"
+[9]
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//theorems/
+/thm-ftola.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//theorems//"thm-ftola.tex"
+) [10]
+(/Users/dantopa/GitHub//latex-2025//global//libs//components//tables//tab-ftola
+-master.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//global//libs//comp
+onents//tables//"tab-ftola-master.tex"
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+) [11
+
+]
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//theorems/
+thm-fredholm.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tables//"tab-fredholm.tex"
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+)
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tables//t
+ab-fred-residence.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tables//"tab-fred-residence.tex"
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tables//ta
+b-fred-residence.tex:10: Undefined control sequence.
+\spn #1->\text {span\,} \lst 
+                             { #1 }
+l.10 ...nd the Fredholm Alternatives still apply.}
+                                                  
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tables//ta
+b-fred-residence.tex:10: Undefined control sequence.
+\spn #1->\text {span\,} \lst 
+                             { #1 }
+l.10 ...nd the Fredholm Alternatives still apply.}
+                                                  
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tables//ta
+b-fred-residence.tex:10: Undefined control sequence.
+\spn #1->\text {span\,} \lst 
+                             { #1 }
+l.10 ...nd the Fredholm Alternatives still apply.}
+                                                  
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tables//ta
+b-fred-residence.tex:10: Undefined control sequence.
+\spn #1->\text {span\,} \lst 
+                             { #1 }
+l.10 ...nd the Fredholm Alternatives still apply.}
+                                                  
+? 
+)
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:87: Undefined control sequence.
+l.87 ...sian elimination or $\PP{}\!\A{} = \LL{}\U
+                                                  {}$ and there is no need t...
+
+? 
+[12
+
+]
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:132: Undefined control sequence.
+<recently read> \U 
+                   
+l.132 ...lution in the unitary domain matrices $\U
+                                                  {}$, for the measurement s...
+
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:136: Undefined control sequence.
+<recently read> \U 
+                   
+l.136 \A{} = \overarrow{\ \,$\cdecompcol{*}$}
+                                             {\quad \sig{} \quad}\underarrow...
+
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:136: Undefined control sequence.
+<argument> \U 
+              {}
+l.136 \A{} = \overarrow{\ \,$\cdecompcol{*}$}
+                                             {\quad \sig{} \quad}\underarrow...
+
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:136: Undefined control sequence.
+<argument> \U 
+              {}
+l.136 \A{} = \overarrow{\ \,$\cdecompcol{*}$}
+                                             {\quad \sig{} \quad}\underarrow...
+
+? 
+[13]
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:151: Undefined control sequence.
+l.151 		\A{} &= &\U
+                   {} &\sig{} &\V{*} \\
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:174: Undefined control sequence.
+\urs #1-> \U 
+             {\bk {#1}}_{\rnga {}} 
+l.174 	\Ap = \mpp{*} = \mppgeneral{*}
+                                     .
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:174: Undefined control sequence.
+\uns #1-> \U 
+             {\bk {#1}}_{\nlla {#1}} 
+l.174 	\Ap = \mpp{*} = \mppgeneral{*}
+                                     .
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:185: Undefined control sequence.
+<argument>  \U 
+               {*} \paren { \axmb }
+l.185 	\end{split}
+                  
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:185: Undefined control sequence.
+<argument>  \U 
+               {*} \paren { \axmb }
+l.185 	\end{split}
+                  
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:192: Undefined control sequence.
+l.192 	\U
+         {*}\A{} x = \U{*} \paren{\svd{*}} x = \sig{} \, \V{*}x,
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:192: Undefined control sequence.
+l.192 	\U{*}\A{} x = \U
+                       {*} \paren{\svd{*}} x = \sig{} \, \V{*}x,
+? 
+
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//equations
+/eq axmb as svd.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//equations//"eq axmb as svd.tex"
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//equations/
+eq axmb as svd.tex:10: Undefined control sequence.
+\urs #1-> \U 
+             {\bk {#1}}_{\rnga {}} 
+l.10 	\end{split}
+                 
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//equations/
+eq axmb as svd.tex:10: Undefined control sequence.
+\uns #1-> \U 
+             {\bk {#1}}_{\nlla {#1}} 
+l.10 	\end{split}
+                 
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//equations/
+eq axmb as svd.tex:10: Undefined control sequence.
+\urs #1-> \U 
+             {\bk {#1}}_{\rnga {}} 
+l.10 	\end{split}
+                 
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//equations/
+eq axmb as svd.tex:10: Undefined control sequence.
+\uns #1-> \U 
+             {\bk {#1}}_{\nlla {#1}} 
+l.10 	\end{split}
+                 
+? 
+[14])
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:202: Undefined control sequence.
+\urs #1-> \U 
+             {\bk {#1}}_{\rnga {}} 
+l.202 ...\normts{ \ess{} \cvr{*} x -\curs{*} b  }}
+                                                  _{\substack{\text{under co...
+
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:202: Undefined control sequence.
+\uns #1-> \U 
+             {\bk {#1}}_{\nlla {#1}} 
+l.202 ...\\text{adjust }x}} + \underbrace{ \usnb }
+                                                  _{\text{no control}}
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:213: Undefined control sequence.
+\urs #1-> \U 
+             {\bk {#1}}_{\rnga {}} 
+l.213 	\ess{} \cvr{*} x_{\star} - \curs{*}
+                                           b = \zero.
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:220: Undefined control sequence.
+\urs #1-> \U 
+             {\bk {#1}}_{\rnga {}} 
+l.220 	x_{\star} = \mppthin{*}
+                               b.
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:227: Undefined control sequence.
+\urs #1-> \U 
+             {\bk {#1}}_{\rnga {}} 
+l.227 	\Ap = \mppthin{*}
+                        ,
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:234: Undefined control sequence.
+\urs #1-> \U 
+             {\bk {#1}}_{\rnga {}} 
+l.234 	x_{\star} = \xp = \mppthin{*}
+                                     b  = \Ap b.
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:243: Undefined control sequence.
+\uns #1-> \U 
+             {\bk {#1}}_{\nlla {#1}} 
+l.243 	r^{2}(x) = \usnb
+                       
+? 
+[15]
+
+LaTeX Warning: Reference `fig:fredholm-a' on page 16 undefined on input line 28
+3.
+
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:287: Undefined control sequence.
+\urs #1-> \U 
+             {\bk {#1}}_{\rnga {}} 
+l.287 	P_{\brnga{}} &=& \AAp{}  &=& \cur{}\curs{*}
+                                                    \\[3pt]
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:289: Undefined control sequence.
+\uns #1-> \U 
+             {\bk {#1}}_{\nlla {#1}} 
+l.289 ...\rnlla{*}} &=& \I{m} - \AAp{} &=& \cuns{}
+                                                  \cuns{*}
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-linear-algebra.
+tex:289: Undefined control sequence.
+\uns #1-> \U 
+             {\bk {#1}}_{\nlla {#1}} 
+l.289 ...}} &=& \I{m} - \AAp{} &=& \cuns{}\cuns{*}
+                                                  
+? 
+)
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections/sec-fundamental.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//sec
+tions/"sec-fundamental.tex"
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+[16]pdfTeX warning (ext4): destination with the same identifier (name{equation.
+4.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 \begin{equation}
+                     \label{eq:law-cosines}pdfTeX warning (ext4): destination w
+ith the same identifier (name{equation.4.2}) has been already used, duplicate i
+gnored
+<to be read again> 
+                   \relax 
+l.54 \begin{equation}
+                     \label{eq:law-cosines}pdfTeX warning (ext4): destination w
+ith the same identifier (name{equation.4.2}) has been already used, duplicate i
+gnored
+<to be read again> 
+                   \relax 
+l.54 \begin{equation}
+                     \label{eq:law-cosines}pdfTeX warning (ext4): destination w
+ith the same identifier (name{equation.4.2}) has been already used, duplicate i
+gnored
+<to be read again> 
+                   \relax 
+l.54 \begin{equation}
+                     \label{eq:law-cosines} [17]
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//figures//
+fig-goldilocks.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tables//"fig-goldilocks.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tikz//tik
+z-simple-too-small.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tikz//"tikz-simple-too-small.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tikz//tik
+z-simple-pythagoras.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tikz//"tikz-simple-pythagoras.tex"
+Missing character: There is no s in font nullfont!
+)
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tikz//tik
+z-simple-too-large.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tikz//"tikz-simple-too-large.tex"
+)
+Overfull \hbox (15.13075pt too wide) in paragraph at lines 6--26
+ [] 
+ []
+
+)
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections/sec-fundamental.tex:
+94: Undefined control sequence.
+l.94 ...ussian elimination or $\PP{}\A{} = \LL{}\U
+                                                  {}$.
+? 
+[18] [19]
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//figures//
+fig-error-both.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tables//"fig-error-both.tex"
+</Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/merit-a
+.pdf, id=526, 260.975pt x 156.585pt>
+File: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/me
+rit-a.pdf Graphic file (type pdf)
+<use /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/mer
+it-a.pdf>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loca
+l//graphics//pub/merit-a.pdf  used on input line 13.
+(pdftex.def)             Requested size: 193.50076pt x 116.10283pt.
+</Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/merit-b
+.pdf, id=527, 258.9675pt x 156.585pt>
+File: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/me
+rit-b.pdf Graphic file (type pdf)
+<use /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/mer
+it-b.pdf>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loca
+l//graphics//pub/merit-b.pdf  used on input line 20.
+(pdftex.def)             Requested size: 191.3552pt x 115.7086pt.
+) [20]
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tables//t
+ab-simple-decomposition.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tables//"tab-simple-decomposition.tex"
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--3
+
+ []
+
+</Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//simple/span
+-bl.pdf, id=545, 32.12pt x 313.17pt>
+File: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//simple
+/span-bl.pdf Graphic file (type pdf)
+<use /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//simple/
+span-bl.pdf>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loca
+l//graphics//simple/span-bl.pdf  used on input line 11.
+(pdftex.def)             Requested size: 18.53108pt x 180.67499pt.
+</Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//simple/span
+-rd.pdf, id=546, 260.975pt x 270.00874pt>
+File: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//simple
+/span-rd.pdf Graphic file (type pdf)
+<use /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//simple/
+span-rd.pdf>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loca
+l//graphics//simple/span-rd.pdf  used on input line 12.
+(pdftex.def)             Requested size: 174.63332pt x 180.67499pt.
+))
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-numerics.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//sec
+tions//"sec-numerics.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tables//t
+ab-simple-numbers-ft.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tables//"tab-simple-numbers-ft.tex"
+) [21 </Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/m
+erit-a.pdf> </Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics/
+/pub/merit-b.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/dantopa/GitHub//latex
+-2025//docs/taylor-B//local//graphics//pub/merit-b.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>] [22 </Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//simp
+le/span-bl.pdf> </Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graph
+ics//simple/span-rd.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/dantopa/GitHub//latex
+-2025//docs/taylor-B//local//graphics//simple/span-rd.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+>] [23] [24] [25]
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//figures//
+fig-error-both-errors.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tables//"fig-error-both-errors.tex"
+</Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/merit-c
+.pdf, id=658, 258.9675pt x 156.585pt>
+File: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/me
+rit-c.pdf Graphic file (type pdf)
+<use /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/mer
+it-c.pdf>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loca
+l//graphics//pub/merit-c.pdf  used on input line 11.
+(pdftex.def)             Requested size: 215.0023pt x 130.00612pt.
+)
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//figures//
+fig-compare-triangles-tikz.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//figures//"fig-compare-triangles-tikz.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tables//t
+ab-pythagorean-defect.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tables//"tab-pythagorean-defect.tex"
+) [26 </Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/m
+erit-c.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{e
+quation.5.20}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.194 \begin{equation}
+                      \label{eq:defect-fundamental}pdfTeX warning (ext4): desti
+nation with the same identifier (name{equation.5.20}) has been already used, du
+plicate ignored
+<to be read again> 
+                   \relax 
+l.194 \begin{equation}
+                      \label{eq:defect-fundamental}pdfTeX warning (ext4): desti
+nation with the same identifier (name{equation.5.20}) has been already used, du
+plicate ignored
+<to be read again> 
+                   \relax 
+l.194 \begin{equation}
+                      \label{eq:defect-fundamental}pdfTeX warning (ext4): desti
+nation with the same identifier (name{equation.5.20}) has been already used, du
+plicate ignored
+<to be read again> 
+                   \relax 
+l.194 \begin{equation}
+                      \label{eq:defect-fundamental}
+Overfull \hbox (13.5218pt too wide) in paragraph at lines 200--203
+\T1/lmr/m/n/10 The dis-crep-ancy rep-re-sents ex-pected round-ing er-rors from 
+IEEE 754 dou-ble pre-ci-sion op-er-a-tions. 
+ []
+
+
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tikz//tik
+z-spindles-deepseek.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tikz//"tikz-spindles-deepseek.tex"
+[27])
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tables//t
+ab-taylor-adjusted-inner-products.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tables//"tab-taylor-adjusted-inner-products.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tables//t
+ab-taylor-log-inner-products.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tables//"tab-taylor-log-inner-products.tex"
+) [28])
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-conclusion.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//sec
+tions//"sec-conclusion.tex"
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-conclusion.tex:
+12: Undefined control sequence.
+\spn #1->\text {span\,} \lst 
+                             { #1 }
+l.12 	\spn{\blu}
+                 = \spn{\bttf}, \qquad \spn{v} = \spn{R}
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-conclusion.tex:
+12: Undefined control sequence.
+\spn #1->\text {span\,} \lst 
+                             { #1 }
+l.12 	\spn{\blu} = \spn{\bttf}
+                              , \qquad \spn{v} = \spn{R}
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-conclusion.tex:
+12: Undefined control sequence.
+\spn #1->\text {span\,} \lst 
+                             { #1 }
+l.12 	\spn{\blu} = \spn{\bttf}, \qquad \spn{v}
+                                               = \spn{R}
+? 
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-conclusion.tex:
+12: Undefined control sequence.
+\spn #1->\text {span\,} \lst 
+                             { #1 }
+l.12 ...u} = \spn{\bttf}, \qquad \spn{v} = \spn{R}
+                                                  
+? 
+[29]
+
+LaTeX Warning: Reference `eq:Taylor-foundation' on page 30 undefined on input l
+ine 27.
+
+
+LaTeX Warning: Reference `eq:u-v' on page 30 undefined on input line 29.
+
+
+LaTeX Warning: Reference `eq:fundamental-linear-numeric' on page 30 undefined o
+n input line 40.
+
+) (/Users/dantopa/GitHub//latex-2025//docs/taylor-B//sections//sec-theorems.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//sec
+tions//"sec-theorems.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//theorems/
+/thm-cauchy-schwarz-zero.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//theorems//"thm-cauchy-schwarz-zero.tex"
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//theorems//
+thm-cauchy-schwarz-zero.tex:12: Undefined control sequence.
+l.12 ...\exists \lambda \in \cmplx{}\setminus \lst
+                                                  {0}$ such that $u=\lambda v$.
+
+? 
+[30pdfTeX warning (ext4): destination with the same identifier (name{equation.6
+.3}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.56 \end{equation}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{equation.6.3}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.56 \end{equation}
+                   ]
+</Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/sum-cel
+ls.pdf, id=720, 156.585pt x 156.585pt>
+File: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/su
+m-cells.pdf Graphic file (type pdf)
+<use /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/sum
+-cells.pdf>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loca
+l//graphics//pub/sum-cells.pdf  used on input line 91.
+(pdftex.def)             Requested size: 117.43845pt x 117.43845pt.
+</Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/sum-arr
+ows.pdf, id=721, 156.585pt x 156.585pt>
+File: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/su
+m-arrows.pdf Graphic file (type pdf)
+<use /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/sum
+-arrows.pdf>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loca
+l//graphics//pub/sum-arrows.pdf  used on input line 99.
+(pdftex.def)             Requested size: 117.43845pt x 117.43845pt.
+ [31 </Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/su
+m-cells.pdf> </Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics
+//pub/sum-arrows.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/dantopa/GitHub//latex
+-2025//docs/taylor-B//local//graphics//pub/sum-arrows.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+>]
+/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//theorems//
+thm-cauchy-schwarz-zero.tex:135: Undefined control sequence.
+l.135 ...atio $\lambda \in \cmplx{} \setminus \lst
+                                                  {0}$ must be a constant, i...
+
+? 
+)
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//theorems/
+/thm-cauchy-schwarz-uv.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//theorems//"thm-cauchy-schwarz-uv.tex"
+
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//tables//t
+ab-choices-cauchy-schwarz.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//tables//"tab-choices-cauchy-schwarz.tex"
+</Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/proof-a
+.pdf, id=763, 260.975pt x 215.80624pt>
+File: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/pr
+oof-a.pdf Graphic file (type pdf)
+<use /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/pro
+of-a.pdf>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loca
+l//graphics//pub/proof-a.pdf  used on input line 16.
+(pdftex.def)             Requested size: 169.63174pt x 140.27238pt.
+</Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/proof-b
+.pdf, id=764, 260.975pt x 259.97125pt>
+File: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/pr
+oof-b.pdf Graphic file (type pdf)
+<use /Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/pro
+of-b.pdf>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loca
+l//graphics//pub/proof-b.pdf  used on input line 33.
+(pdftex.def)             Requested size: 169.63174pt x 168.97931pt.
+) [32])
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//theorems/
+/thm-mean-ls.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//theorems//"thm-mean-ls.tex"
+[33 </Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//pub/pro
+of-a.pdf> </Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//graphics//p
+ub/proof-b.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/dantopa/GitHub//latex
+-2025//docs/taylor-B//local//graphics//pub/proof-b.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>])
+(/Users/dantopa/GitHub//latex-2025//docs/taylor-B//local//components//theorems/
+/thm-LSone.tex
+  \%\% CONTENT SETUP \%\% /Users/dantopa/GitHub//latex-2025//docs/taylor-B//loc
+al//components//theorems//"thm-LSone.tex"
+)) [34]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8
+4.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
+[35]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
+ (./main-taylor-B.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
+Package rerunfilecheck Info: File `main-taylor-B.out' has not changed.
+(rerunfilecheck)             Checksum: DC6FE78F7A23C581F53EE8D0D3ABB974;3409.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package logreq Info: Writing requests to 'main-taylor-B.run.xml'.
+\openout1 = `main-taylor-B.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
+ ) 
+Here is how much of TeX's memory you used:
+ 35666 strings out of 480608
+ 674865 string characters out of 5903631
+ 1399294 words of memory out of 5000000
+ 50347 multiletter control sequences out of 15000+600000
+ 636124 words of font info for 87 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,30n,69p,2160b,1507s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
+texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
+20/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/
+fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/
+dvips/lm/lm-mathex.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-s
+uper/cm-super-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/
+lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
+></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx7.pfb></usr/loca
+l/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2020/texmf-dist/font
+s/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lm
+mi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></u
+sr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></usr/local/texlive/202
+0/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dis
+t/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
+e1/public/lm/lmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/l
+m/lmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb><
+/usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/t
+exlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/
+texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/lm/lmri10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/lm/lmri12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm
+/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy5.pfb
+></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/loca
+l/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/
+type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2020/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/2020/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2020/tex
+mf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main-taylor-B.pdf (35 pages, 3615964 bytes).
+PDF statistics:
+ 996 PDF objects out of 1000 (max. 8388607)
+ 860 compressed objects within 9 object streams
+ 248 named destinations out of 1000 (max. 500000)
+ 443 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,56 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main-acm.blg'
+[70] biber-darwin:322> INFO - === Thu Jan 23, 2025, 10:02:02
+[84] Biber.pm:415> INFO - Reading 'main-acm.bcf'
+[161] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[175] Biber.pm:4256> INFO - Processing section 0
+[175] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//pdes.bib'
+[176] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//pdes.bib' to /Users/dantopa/GitHub//latex-2025//bibs//pdes.bib
+[176] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//space-debris.bib'
+[176] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//space-debris.bib' to /Users/dantopa/GitHub//latex-2025//bibs//space-debris.bib
+[176] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//coarray.bib'
+[176] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//coarray.bib' to /Users/dantopa/GitHub//latex-2025//bibs//coarray.bib
+[176] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//nukes-in-space.bib'
+[176] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//nukes-in-space.bib' to /Users/dantopa/GitHub//latex-2025//bibs//nukes-in-space.bib
+[176] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib'
+[176] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib' to /Users/dantopa/GitHub//latex-2025//bibs//fortran.bib
+[186] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//pdes.bib' for section 0
+[191] bibtex.pm:1653> INFO - LaTeX decoding ...
+[303] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//pdes.bib'
+[565] Utils.pm:304> WARN - month field 'March' in entry '5066860' is not an integer - this will probably not sort properly.
+[706] Utils.pm:304> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[706] Utils.pm:304> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[707] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//space-debris.bib' for section 0
+[711] bibtex.pm:1653> INFO - LaTeX decoding ...
+[799] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//space-debris.bib'
+[818] Utils.pm:304> WARN - month field 'August' in entry 'osti1022894' is not an integer - this will probably not sort properly.
+[821] Utils.pm:304> WARN - month field 'October' in entry 'osti965464' is not an integer - this will probably not sort properly.
+[842] Utils.pm:304> WARN - month field 'April' in entry 'odqn2009collision' is not an integer - this will probably not sort properly.
+[848] Utils.pm:304> WARN - month field 'February' in entry 'mcdowell2009jsr606' is not an integer - this will probably not sort properly.
+[859] Utils.pm:304> WARN - month field 'October' in entry 'johnson2009iridiumcosmos' is not an integer - this will probably not sort properly.
+[882] Utils.pm:304> WARN - month field 'April' in entry 'spacenews2016breakups' is not an integer - this will probably not sort properly.
+[885] Utils.pm:304> WARN - month field 'February' in entry 'marks2009satellite' is not an integer - this will probably not sort properly.
+[890] Utils.pm:304> WARN - month field 'February' in entry 'listner2012iridium' is not an integer - this will probably not sort properly.
+[933] Utils.pm:304> WARN - month field 'November' in entry 'weeden2010iridiumcosmos' is not an integer - this will probably not sort properly.
+[939] Utils.pm:304> WARN - month field 'July' in entry 'odqn2011' is not an integer - this will probably not sort properly.
+[964] Utils.pm:304> WARN - month field 'February' in entry 'agi2009iridiumcosmos' is not an integer - this will probably not sort properly.
+[967] Utils.pm:304> WARN - month field 'October' in entry 'mejia2009collision' is not an integer - this will probably not sort properly.
+[970] Utils.pm:304> WARN - month field 'February' in entry 'wright2009satellite' is not an integer - this will probably not sort properly.
+[991] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//coarray.bib' for section 0
+[997] bibtex.pm:1653> INFO - LaTeX decoding ...
+[1093] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//coarray.bib'
+[1183] Utils.pm:304> WARN - year field 'n.d.' in entry 'modern_fortran_parallel' is not an integer - this will probably not sort properly.
+[1307] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//nukes-in-space.bib' for section 0
+[1311] bibtex.pm:1653> INFO - LaTeX decoding ...
+[1374] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//nukes-in-space.bib'
+[1453] Utils.pm:304> WARN - month field 'December' in entry 'cooney2020review' is not an integer - this will probably not sort properly.
+[1515] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib' for section 0
+[1519] bibtex.pm:1653> INFO - LaTeX decoding ...
+[1577] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib'
+[1914] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1914] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1914] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1914] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[2135] bbl.pm:652> INFO - Writing 'main-acm.bbl' with encoding 'UTF-8'
+[2261] bbl.pm:755> INFO - Output to main-acm.bbl
+[2261] Biber.pm:128> INFO - WARNINGS: 18

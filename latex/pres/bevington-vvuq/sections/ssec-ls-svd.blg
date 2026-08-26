@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'ssec-ls-svd.blg'
+[85] biber-darwin:322> INFO - === Tue Mar 31, 2026, 19:11:13
+[252] Utils.pm:320> ERROR - Cannot find 'ssec-ls-svd.bcf'!
+[252] Biber.pm:132> INFO - ERRORS: 1

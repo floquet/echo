@@ -1,0 +1,42 @@
+% \input{\pLocalTheorems "thm-monotonicity-derivative"}
+
+\begin{theorem}[Monotonic Behavior of the Derivative]
+Given two nonzero vectors $t^{b}\in\cmplx{m}$ and $R\in\cmplx{m}$, the following scalar relationship is true
+		%
+\begin{equation}
+	D_{b} \phi_{\star}(b) 
+	\begin{cases}
+		< 0 & -\infty < b < b_{LS} \\
+		= 0 & b = b_{LS} \\
+		> 0 & b_{LS} < b < \infty
+	\end{cases}
+\label{eq:monotonic}
+\end{equation}
+		%
+\label{thm:monotonicity}
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+The proof has a helpful visualization.
+
+		%\input{\pLocalTables tab-three-lsf}
+
+		%
+%\begin{equation*}
+%	D_{b} t^{b}_{k} = \ln t_{k} t^{b}_{k}
+%%\label{eq:}
+%\end{equation*}
+%		%
+%		%
+%\begin{equation*}
+%\begin{split}
+%	D_{b} \itwo{t^{b}}{R} &= \itwo{\Upsilon^{b}}{R}, \\
+%	D_{b} \innerSelf{t^{b}} &= 2\itwo{t^{b}}{\Upsilon^{b}} .
+%\end{split}
+%%\label{eq:}
+%\end{equation*}
+		%
+\end{proof}
+%
+%
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

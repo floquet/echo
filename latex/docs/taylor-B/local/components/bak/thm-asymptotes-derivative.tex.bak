@@ -1,0 +1,44 @@
+% \input{\pLocalTheorems "thm-asymptotes-derivative"}
+
+\begin{theorem}[Asymptotic Behavior of the Merit Function]
+Given the data sets described in \eqref{eq:mesh} and \eqref{eq:radius} and the merit function defined in \eqref{eq:phi-star}, the asymptotic limits are given by
+		%
+		%
+%\begin{equation}
+%\begin{split}
+%	\lim\limits_{b\to-\infty} \phi_{\star}(b) &= \sqrt{\innerSelf{R} -R_{m}^{2}}, \\
+%	\lim\limits_{b\to\infty} \phi_{\star}(b) &= \sqrt{\innerSelf{R} -R_{1}^{2}}.
+%\end{split}
+%\label{eq:monotonic}
+%\end{equation}
+		%
+\begin{equation}
+	\lim\limits_{b\to\infty} \phi_{\star}(b) = \sqrt{\innerSelf{R} -R_{m}^{2}}.
+\label{eq:monotonic-hi}
+\end{equation}
+		%
+\begin{equation}
+\begin{split}
+	\lim\limits_{b\to-\infty} \phi_{\star}(b) = \sqrt{\innerSelf{R} -R_{1}^{2}}, \\
+\end{split}
+\label{eq:monotonic-lo}
+\end{equation}
+		%
+\label{thm:asymptotic}
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+%
+As $b$ increases without bound, the inner product $\itwo{t^{b}}{R} = t_{1}R_{1} + \dots + t_{m}R_{m}$ will be dominated by the largest $t$ term, $t_{m}$. Therefore,
+		%
+\begin{equation*}
+	\lim\limits_{b\to\infty} \frac{\itwo{t^{b}}{R}^{2}} {\innerSelf{t^{b}}} \to \frac{(t_{m}^{b}R_{m})^{2}}{(t_{m}^{b})^{2}} = R_{m}^{2},
+%\label{eq:}
+\end{equation*}
+%
+so establishing \eqref{eq:monotonic-hi}. As $b$ decreases without bound the inner products will be dominated by the smallest $t$ term, $t_{1}$, so establishing \eqref{eq:monotonic-lo}.
+		%
+\end{proof}
+%
+%
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

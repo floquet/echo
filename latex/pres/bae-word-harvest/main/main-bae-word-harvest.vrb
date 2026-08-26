@@ -1,0 +1,16 @@
+\frametitle{Results using \href{https://en.wikipedia.org/wiki/Machine_epsilon}{Machine Epsilon}}
+Comparing exact results (A) to double precision (B)\\
+\tiny
+\begin{verbatim}
+Fit parameters:
+A                       B                        Difference               Epsilons
+4.8138888888888891      4.8138888888888971       -0.799E-14               0.360E+02
+9.4083333333333332      9.4083333333333314        0.178E-14               0.800E+01
+
+Error parameters:
+A                       B                        Difference               Epsilons
+4.8862063121833543      4.8862063121833534        0.888E-15               0.400E+01
+ .86830164765636109     .86830164765636075        0.333E-15               0.150E+01
+
+\end{verbatim}
+\href{https://fortran-lang.org/learn/intrinsics/model/}{machine epsilon} = .22204460492503131E-015

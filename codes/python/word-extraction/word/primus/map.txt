@@ -1,0 +1,19 @@
+/Users/dantopa/repos-quaxolotl/github/jop/python/bae/word/primus
+
+map Word control structure to input data fields
+
+Control field       text
+ 0      date        '3/19/2026'
+ 1      PE_area     'Alpha - ABCD'
+ 2      cntrl_accnt 'Training Systems Branch - NIXZ'
+ 3      gov_list    'Bill Brown (ML)Gary Green (Lead Engineer)Peter Purple (Safe Cracker)Rick Red (Wheel Man)Susan Wood (Look Out)'
+ 4      ctr_list    'Quint Quartz (CAM)Frank Feldspar (Fence)Oscar Ore (Muscle)Harvey Halide (Muscle)Mike Magnetite (Comic Relief)'
+ 5      A_msg     '1. Planning Framework is Well EstablishedThe program has developed a coherent planning framework with clearly defined work scope, logical scheduling practices, and consistent alignment across participating organizations. This foundation provides a solid basis for continued planning and execution activities.2. Prepared for the Next Phase of PlanningCurrent planning products indicate sufficient maturity to support the transition into more detailed schedule development and baseline refinement. Remaining issues appear limited in scope and can be addressed during normal planning evolution.3. Maintain Planning Discipline During ExecutionAs planning moves toward execution, continued emphasis on interface management, dependency tracking, and governance processes will help preserve schedule integrity and support effective cross-functional coordination.'
+ 6      tag_A_str   '☒'
+ 7      tag_A_mod   '☐'
+ 8      tag_A_low   '☐'
+ 9      
+
+
+
+

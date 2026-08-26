@@ -1,0 +1,18 @@
+% \input{pLocalTheorems "thm-fredholm"}
+
+\begin{theorem}[Fredholm Alternative]
+
+	Given a matrix $\aicmn$, and a data vector $y \in\cmplx{m}$, and a solution vector $\xicn$
+	either \\
+	
+	I. $\axeb$ has a solution $x$, or \\
+	
+	II. There exists some vector $z \in \cmplx{n}$ such that $\A{*}z = \zero$ has a solution and $\itwo{z}{y} \ne 0$.
+	
+\label{thm:Fredholm}
+	\begin{proof}
+		See, for example, XXX.
+	\end{proof}
+\end{theorem}
+
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

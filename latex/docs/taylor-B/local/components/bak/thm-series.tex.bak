@@ -1,0 +1,37 @@
+% \input{\pLocalTheorems "thm-series"}
+
+%\clearpage
+\subsection{Uniqueness}
+\begin{theorem}[Uniqueness of Sums of Powers]
+Consider a sequence of $m>2$ distinct base numbers $t_{k} \in \real{+}$, $k=1:m$ and two distinct exponents $b_{1}, b_{2} \in \real{}$. Then we have
+		%
+\begin{equation}
+	t_{1}^{b_{1}} + \cdots + t_{m}^{b_{1}} = t_{1}^{b_{2}} + \cdots +t_{m}^{b_{m}} \iff b_{1} = b_{2}
+\label{eq:equality}
+\end{equation}
+		%
+\label{thm:series}
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+	$\paren{\Leftarrow}$ If $b_{1} = b_{2}$, then $t^{b_{1}}_{k} = t^{b_{2}}_{k}$ for all $k$ because $t^{b}$ is injective and the series are equal term by term.
+	
+	$\paren{\Rightarrow}$ Proof by contradiction: Let $b_{2} = b_{1} + \Delta$ where $\Delta \ne 0$. Then we have for example $t_{k}^{b_{2}} = t_{k}^{(b_{1}+\Delta)} =t_{k}^{b_{1}} t_{k}^{\Delta}$ for all $k$. Rewrite the equality \eqref{eq:equality} as
+		%
+\begin{equation}
+	t_{1}^{b_{1}} -  t_{1}^{b_{2}} + \cdots + t_{m}^{b_{1}} - t_{m}^{b_{2}}  = 0
+\label{eq:equality2}
+\end{equation}
+		%
+which implies
+		%
+\begin{equation}
+	t_{1}^{b_{1}}\paren{1 - t_{1}^{\Delta}} + \cdots + t_{m}^{b_{1}}\paren{1 - t_{m}^{\Delta}} = 0
+\label{eq:equality3}
+\end{equation}
+		%
+By hypothesis, $t_{k}^{b_{j}} > 0$, $j,k=1:m$. For the sum to be zero we must have $1 - t_{k}^{\Delta} = 0$ simultaneously for each $k$. For this to be true we must have $t_{k}^{\Delta} = 1$ for each $k$ which implies $\Delta = 0$, a contradiction.
+\end{proof}
+
+
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

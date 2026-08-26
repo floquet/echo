@@ -1,0 +1,110 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{french1971newtonian}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d8e5ce55abe4685cd21379dba0a782fe}{%
+           family={French},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {W. W. Norton \& Company}%
+      }
+      \strng{namehash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{fullhash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{bibnamehash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{authorbibnamehash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{authornamehash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \strng{authorfullhash}{d8e5ce55abe4685cd21379dba0a782fe}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-393-09970-3}
+      \field{series}{The M.I.T. Introductory Physics Series}
+      \field{title}{Newtonian Mechanics}
+      \field{year}{1971}
+    \endentry
+    \entry{wikipedia_hohmann}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Wikipedia, The Free Encyclopedia}
+      \field{note}{[Online; accessed August 24, 2025]}
+      \field{title}{Hohmann transfer orbit}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Hohmann_transfer_orbit
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Hohmann_transfer_orbit
+      \endverb
+    \endentry
+    \entry{wilson1968kepler}{article}{}
+      \name{author}{1}{}{%
+        {{hash=326a72717230494d8496efdc8d05be55}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Curtis},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{326a72717230494d8496efdc8d05be55}
+      \strng{fullhash}{326a72717230494d8496efdc8d05be55}
+      \strng{bibnamehash}{326a72717230494d8496efdc8d05be55}
+      \strng{authorbibnamehash}{326a72717230494d8496efdc8d05be55}
+      \strng{authornamehash}{326a72717230494d8496efdc8d05be55}
+      \strng{authorfullhash}{326a72717230494d8496efdc8d05be55}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Isis}
+      \field{number}{1}
+      \field{title}{Kepler's derivation of the elliptical path}
+      \field{volume}{59}
+      \field{year}{1968}
+      \field{pages}{4\bibrangedash 25}
+      \range{pages}{22}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

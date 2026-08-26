@@ -1,0 +1,38 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main-bevington-vvuq.blg'
+[82] biber-darwin:322> INFO - === Tue Mar 31, 2026, 22:20:20
+[100] Biber.pm:415> INFO - Reading 'main-bevington-vvuq.bcf'
+[180] Biber.pm:943> INFO - Found 18 citekeys in bib section 0
+[195] Biber.pm:4256> INFO - Processing section 0
+[195] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//linear-algebra.bib'
+[196] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//linear-algebra.bib' to /Users/dantopa/GitHub//latex-2025//bibs//linear-algebra.bib
+[196] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib'
+[196] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib' to /Users/dantopa/GitHub//latex-2025//bibs//fortran.bib
+[196] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[196] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' to /Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib
+[196] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//youtube.bib'
+[196] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//youtube.bib' to /Users/dantopa/GitHub//latex-2025//bibs//youtube.bib
+[207] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//linear-algebra.bib' for section 0
+[210] bibtex.pm:1653> INFO - LaTeX decoding ...
+[279] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//linear-algebra.bib'
+[338] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib' for section 0
+[349] bibtex.pm:1653> INFO - LaTeX decoding ...
+[596] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib'
+[602] Utils.pm:304> WARN - Duplicate entry key: 'laub2012computational' in file '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib', skipping ...
+[603] Utils.pm:304> WARN - Duplicate entry key: 'laub2004matrix' in file '/Users/dantopa/GitHub//latex-2025//bibs//fortran.bib', skipping ...
+[618] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' for section 0
+[630] bibtex.pm:1653> INFO - LaTeX decoding ...
+[902] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[906] Utils.pm:304> WARN - Duplicate entry key: 'demmel1997applied' in file '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib', skipping ...
+[907] Utils.pm:304> WARN - Duplicate entry key: 'meyer2023matrix' in file '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib', skipping ...
+[909] Utils.pm:304> WARN - Duplicate entry key: 'golub2013matrix' in file '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib', skipping ...
+[955] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//youtube.bib' for section 0
+[957] bibtex.pm:1653> INFO - LaTeX decoding ...
+[961] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//youtube.bib'
+[988] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[989] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[989] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[989] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1010] bbl.pm:652> INFO - Writing 'main-bevington-vvuq.bbl' with encoding 'UTF-8'
+[1019] bbl.pm:755> INFO - Output to main-bevington-vvuq.bbl
+[1020] Biber.pm:128> INFO - WARNINGS: 5

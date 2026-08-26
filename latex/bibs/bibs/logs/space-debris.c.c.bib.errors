@@ -1,0 +1,25 @@
+Line 1: Escaped '%' in line: \\%\\% This BibTeX bibliography file was created using BibDesk.
+Line 2: Escaped '%' in line: \\%\\% https://bibdesk.sourceforge.io/
+Line 4: Escaped '%' in line: \\%\\% Created for Daniel Topa at 2024-12-25 16:34:12 -0700
+Line 7: Escaped '%' in line: \\%\\% Saved with string encoding Unicode (UTF-8)
+Line 12: Escaped '%' in line: abstract = {The High Accuracy Satellite Drag Model is a new initiative launched by the Air Force Space Battlelab in January 2001 to improve Air Force Space Command's ability to meet the stringent Space Surveillance Capstone Requirements for satellite trajectory prediction accuracy. For low perigee satellites, these requirements are not consistently met, largely because of current atmospheric density model errors of 15 to 20\\% 6. This can affect missions like high-precision sensor acquisition of satellites, maneuver planning, re-entry predictions, collision avoidance and risk analysis. The Space Battlelab decided to fund this initiative because of the substantial pay-back expected, and the fact that it involves more risk than the acquisition community or operational community are willing to fund. It is also well suited to the Space Battlelab's project criteria of demonstrating unconventional ways of using existing data and technology to meet mission requirements and being able to demonstrate this in less than 18 months. Finally, this initiative leverages off an earlier Space Battlelab project7 that demonstrated the promise the basic technique holds, even when only one satellite is used to determine the drag effects.
+Line 62: Invalid month 'November' found; consider fixing.
+Line 137: Escaped '&' in line: abstract = {Smoothed Particle Hydrodynamics (SPH) is a Lagrangian, numerical method for modelling uid dynamics. The uid is represented by particles, typically of xed mass, which follow the uid motion, advecting contact discontinuities, preserving Galilean invariance, and reducing the computational di usion of various uid properties including momentum. The equations governing the evolution of the uid become expressions for inter-particle forces and uxes when written in SPH form. It often possible to formulate SPH such that mass, momentum and energy are conserved exactly. Several reviews of SPH have been published, including Benz (1989) and Monaghan (1992). This chapter covers much of the theory upon which SPH is based and introduces the reader to the standard equations used in most applications of SPH. SPH was rst developed to simulate astrophysical uid dynamics, in particular polytropes (Lucy 1977, Gingold \\& Monaghan 1977). It is relatively easy to incorporate complicated physical e ects into the SPH formalism and thus SPH has been applied successfully to a vast range of problems. These include elastic ow (Swegle 1992), magnetohydrodynamics (see Chapt. 3), quasi-incompressible hydrodynamics (Monaghan 1994), gravity currents (Monaghan 1995c), the fracture of brittle solids (Benz \\& Asphaug 1993), the interaction of a weak shock with a bubble of gas (x 5.2. 3) and accretion onto a pulsar magnetosphere (Chapt. 4) to name a few. SPH is an extremely versatile method, however, the errors in results can sometimes be substantially larger than those obtained using methods tailored for a speci c problem. There are many problems, though, which can only be practically handled by SPH. Problems where the geometry is highly irregular, or even dynamic, for example, are quite readily handled by SPH. There are many applications where the Lagrangian nature of SPH can be exploited to give accurate results without requiring the use of complicated grid re nement algorithms. For example, in early implementations of SPH the global particle resolution length (smoothing length) was decreased or increased depending on the average density of the system.},
+Line 188: Escaped '&' in line: journal = {Air \\\& Space Power Journal},
+Line 220: Invalid month 'February' found; consider fixing.
+Line 228: Invalid month 'October' found; consider fixing.
+Line 238: Invalid month 'August' found; consider fixing.
+Line 250: Invalid month 'October' found; consider fixing.
+Line 263: Invalid month 'February' found; consider fixing.
+Line 272: Invalid month 'February' found; consider fixing.
+Line 283: Escaped '&' in line: journal = {Science \\\& Global Security},
+Line 286: Escaped '&' in line: publisher = {Taylor \\\& Francis Group, LLC},
+Line 296: Invalid month 'February' found; consider fixing.
+Line 305: Invalid month 'February' found; consider fixing.
+Line 315: Invalid month 'April' found; consider fixing.
+Line 351: Invalid month 'April' found; consider fixing.
+Line 363: Escaped '&' in line: journal = {Accident Analysis \\\& Prevention},
+Line 402: Invalid month 'July' found; consider fixing.
+Line 416: Escaped '&' in line: journal = {Science \\& Global Security},
+Line 436: Invalid month 'October' found; consider fixing.
+Line 460: Escaped '&' in line: url = {https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2801684_code372712.pdf?abstractid=2801684\\&mirid=1},

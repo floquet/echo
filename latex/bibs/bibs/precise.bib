@@ -1,0 +1,519 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for Daniel Topa at 2024-12-06 16:28:38 -0700 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@article{li2024high,
+	abstract = {High-precision Global Navigation Satellite System (GNSS) orbit and clock products are crucial for precise applications. An evenly distributed global network enables continuous tracking for GNSS satellites, while a regional network may result in tracking gaps in the areas where monitoring stations are not deployed. This also means that the orbit determination accuracy based on a regional network is not comparable to that with a global network. Integrating the measurements from regional ground stations and Low Earth Orbit (LEO) satellites onboard receivers is a potential approach for generating GNSS orbit and clock products with centimeter-level accuracy, which is particularly important for BDS and the local commercial providers relying on a regional network. In the integrated Precise Orbit Determination (POD), LEO satellites are used to compensate for the drawback of regional ground stations in the precise orbit and clock determination of GNSS satellites. To validate the role of LEO satellites in the orbit determination with a regional network, 6 International GNSS Service stations around China and 13 LEO satellites from January 20 to 26, 2019, including GRACE-C/D, SWARM-A/B/C, Jason-3, Sentinel-3A/B, and SAT-A/B/C/D/E are selected in this study to perform the integrated POD. The orbit and clock accuracies of GPS and LEO satellites are evaluated by comparison with precise products. The average Root Mean Square (RMS)of GPS orbit errors in the radial (R), along-track (T) and cross-track (N) directions are 2.27 cm, 3.45 cm, and 3.08 cm, respectively, and the clock accuracy is better than 0.15 ns based on a comparison with the final products provided by Center for Orbit Determination in Europe (CODE). The LEO orbit accuracy is better than 2 cm in the R direction, and the position errors are mostly within 4 cm. The results indicate that the integrated POD can generate high-precision orbit and clock products for GPS and LEO satellites based on regional network stations. Finally, the integrated POD products are assessed for Precise Point Positioning (PPP). Simulated kinematic PPP has a comparable performance in terms of the convergence time and positioning accuracy. With more LEO satellites available, the orbit and clock determination accuracy and PPP positioning accuracy can be improved.},
+	author = {Li, Kai and Tang, Chengpan and Zhou, Shanshi and Hu, Xiaogong and Zhou, Xuhua},
+	journal = {Satellite Navigation},
+	number = {1},
+	pages = {27},
+	publisher = {Springer},
+	title = {High-precision GPS orbit determination by integrating the measurements from regional ground stations and LEO onboard receivers},
+	volume = {5},
+	year = {2024}}
+
+@article{xia2024precise,
+	abstract = {The solar panel of non-geostationary GNSS spacecrafts may not always be perpendicular to the Sun irradiation direction due to attitude errors and mounting misalignment, which affects the modeling of solar radiation pressure (SRP). This study presents the effects of commanded pitch-attitude biases for solar panels on SRP and orbit solutions. From the collected telemetry information, the solar panel B (SP-B) of BeiDou-3 M215 satellite underwent pitch-maneuvers around the body-fixed Y-axis on days of year 65--67 of 2024, and was then kept perpendicular to the body-fixed X-axis (pitch-fixed mode). SRP biases due to the SP-B pitch-maneuvers exhibit remarkable discontinuities in the D (satellite-Sun) direction that cannot be accounted by traditional ECOM1 and ECOM2 SRP models. This is devastating for M215 precise orbit solutions. When combining the ECOM1 and box-wing model (ECOM1 + BW) with telemetry SP-B orientation information, the three-dimensional orbit consistency reaches 10.7 cm, with improvements of about 95.9\% and 96.0\% relative to the ECOM1 and ECOM2 solutions. SLR (Satellite laser ranging) residual mean and standard derivations decrease from  m and  m to  m for ECOM1 and ECOM2 solutions, respectively. For SP-B orientation in pitch-fixed mode, the derived SRP has a twice-per-revolution signal in D similar to that of satellite body, but with opposite harmonic phases and amplitudes greater by a factor of 2--4. SRP perturbation induced by SP-B largely neutralizes the satellite body contribution, thus dominating and changing the total SRP harmonic phases in D. This feature change results in opposing Sun-elongation-angle-dependent systematic patterns of de-trended clocks obtained with ECOM1 model for SP-B in nominal and pitch-fixed orientations, which is not seen in the solutions using ECOM1 + BW model and ECOM2 model. As evidenced by reduced orbit overlap differences, SLR residuals and de-trended clock residuals, and more stable SRP parameter estimates, the ECOM1 + BW model clearly outperforms the ECOM1 and ECOM2 models for SP-B orientation in pitch-fixed mode.},
+	author = {Xia, Fengyu and Zhou, Shanshi and Lin, Xia and Hu, Xiaogong and Liu, Xiao and Jiang, Nana and You, Yunzhi},
+	journal = {GPS Solutions},
+	number = {4},
+	pages = {208},
+	publisher = {Springer},
+	title = {Precise orbit determination for BeiDou-3 satellite with solar panel non-nominal orientation operations using telemetry information},
+	volume = {28},
+	year = {2024}}
+
+@article{d2019improved,
+	abstract = {The proposed research responds to the pressing need of the Air Force to better understand and utilize the dynamics of satellite relative motion for close-proximity missions. Current closed-form relative dynamics models are typically ad-hoc, mission-specific, and affected by major limitations such as the inter-satellite range of applicability, the eccentricity of the satellites orbits, the type of modelled perturbation forces, the resulting algorithm complexity and computational load. The project goal is to develop novel, efficient and accurate relative dynamics models for proximity operations that can be effectively used for orbit design, and guidance, navigation and control GN and C in a broad range of mission scenarios. Those scenarios include orbits of arbitrary eccentricity at small to large distances from Earth eg, from low-Earth to geostationary orbits and with inter-spacecraft separations from virtually zero to hundreds of kilometers.},
+	author = {D'Amico, Simone and Bevilacqua, Riccardo and LELAND STANFORD JUNIOR UNIV CA STANFORD United States},
+	title = {Improved Dynamics Modeling of Proximity Flight using Relative Orbit Elements},
+	year = {2019}}
+
+@article{schrama2024choices,
+	abstract = {In this paper we review the precision orbit determination (POD) performance of the CryoSat-2 mission where we used all tracking data between June-2010 and Jan-2023; with station and beacon coordinates provided in the ITRF2020 reference system, we use a mean gravity model, and we use spacecraft specific models for modeling drag and radiation pressure. To model time variable gravity (TVG) we distinguish between two components, there is a short term oceanic and atmospheric part for which we use the AOD1B model; for the longer term part we employ GRACE and GRACE-FO monthly potential coefficient solutions. Our experience is that adding TVG information is not necessarily successful during POD, and that attention must be paid to the proper processing of the GRACE and GRACE-FO data. To demonstrate this property we define four runs where we gradually implement TVG information. An evaluation criterion is the level of POD tracking residuals, the level of the empirical accelerations, and a comparison to precision orbit ephemeris provided by the Centre National d'Etudes Spatiales (CNES). Unexplained empirical accelerations found during POD are on the level of 3 for the along-track component and 13 for the cross-track component. The laser residuals converge at approximately 1.02 cm and the Doppler residuals are on the level of 0.406 mm/s, the radial orbit difference to the CNES POE-F (Precision Orbit Ephemeris version F) orbits narrows to 6.5 mm. Tracking residuals are not evenly distributed for DORIS (Doppler Orbitography and Radiopositioning Integrated by Satellite) beacons, the South Atlantic Anomaly effect is for instance clearly visible in the first empirical orthogonal function EOF mode of monthly binned DORIS residuals. After consideration of all possible TVG approaches our conclusion is that 3 hourly AOD1B model fields result in a small but visible improvement. The addition of TVG from GRACE and GRACE-FO is implemented in two different ways from which we can select a version that does lead to a reduction in the Doppler tracking residuals and which does reduce the level of solved for empirical accelerations.},
+	author = {Schrama, EJO and Visser, PNAM},
+	journal = {Advances in Space Research},
+	number = {1},
+	pages = {31--41},
+	publisher = {Elsevier},
+	title = {Choices for temporal gravity field modeling for precision orbit determination of CryoSat-2},
+	volume = {73},
+	year = {2024}}
+
+@inproceedings{gaur2019precision,
+	abstract = {Precision orbit determination (POD) these days emerging to be one of the paramount research domains in spaceflight tasks., predominantly in altimetric tasks such as earth observing system mission: Ice, Cloud, and land Elevation Satellite (ICESAT) mission, satellite oceanography mission: JASON-1, and ICESat, and ocean surface topography mission: TOPEX/POSEIDON, which demands high precision (in centimeters) for radial orbits. Although, there exists limitations on orbit determination accuracy which are mainly because of the pre-existing unmodeled accelerations. To counter this problem and thus boosting orbit determination precision values for error driven dynamic models new methodologies have been surfaced. Two predominantly used algorithms to handle such tasks are State Noise Compensation (SNC) and Dynamic Model Compensation (DMC). Research presented aims at investigating and comparing the two algorithms to demonstrate the efficacy of both. To demonstrate benefits associated, an extension is incorporated in which DMC of 2 nd -order is defined based on the assumption that characterization of unmodeled acceleration is possible in terms of differential equation of 2nd -order, followed by an example. As a result, it is observed that DMC of 2nd -order tend to deliver more precise estimate of position, velocity, as well as acceleration., along with better stability in comparison to conventional SNC and DMC. Moreover, a numerical simulation is conducted using DMC of 2 nd -order with substandard tracking information of Lower Earth Orbit (LEO) satellite and on comparison of results with those incorporating Kalman filter exclusively, it is assessed that for substandard tracking, DMC of 2nd -order can perform efficiently delivering relatively precise trajectory estimation.},
+	author = {Gaur, Deepak and Prasad, Mani Shankar},
+	booktitle = {2019 3rd International Conference on Recent Developments in Control, Automation \& Power Engineering (RDCAPE)},
+	organization = {IEEE},
+	pages = {38--44},
+	title = {Precision Orbit Determination for Errored Dynamic Models},
+	year = {2019}}
+
+@article{wang2024impact,
+	abstract = {Haiyang-2A (HY-2A) is the first marine dynamic environment satellite established by China, which has made significant contributions to the marine scientific research field. It carries the satellite-based GPS receiver named HY2, which was independently developed by China. It is an experimental satellite-borne GPS receiver for low earth orbit satellites, and during its operational period in orbit, the satellite-borne GPS data are not made accessible to the public. Therefore, this paper assesses the quality of HY-2A satellite-borne GPS data based on indicators such as satellite visibility, multipath effect, and ionospheric delay. The results indicate that the data acquired by the HY2 receiver are of high quality. The precise orbit determination (POD) uses the reduced-dynamic (RD) method. The adjustment effects of the pseudo-stochastic pulse time interval and a priori sigma on POD are analyzed, and the antenna phase center variation (PCV) is estimated using the direct method and residual method. Furthermore, this paper investigates the impact of PCV models with different resolutions (10$\,^{\circ}$ × 10$\,^{\circ}$ and 5$\,^{\circ}$ × 5$\,^{\circ}$) on satellite orbit determination. To evaluate the orbit precision, three methods are used for validation, including carrier phase residual analysis, external precise science orbit (PSO) validation, and SLR three-dimensional (3D) validation, respectively. The results indicate that the highest orbit precision is achieved when the pseudo-stochastic pulse time interval is configured to 15 min, with the a priori sigma of 1 × 10−8 m/s2. The orbit carrier phase residuals reach the millimeter level. The 10$\,^{\circ}$ × 10$\,^{\circ}$PCV model was estimated using the direct method and residual method, respectively; the root mean square of the external orbit validation for both methods show a millimeter-level improvement. The results obtained from the direct method and residual method are comparable. The resolution is increased from 10$\,^{\circ}$ to 5$\,^{\circ}$, and the improvement in orbital precision is relatively small. The results obtained from the SLR 3D validation are consistent with those from the external PSO validation. The experimental results contribute valuable information for the POD of the HY2 series satellites.},
+	author = {Wang, Youyuan and Guo, Jinyun and Ya, Shaoshuai and Jia, Yongjun and Guo, Hengyang and Chang, Xiaotao and Liu, Xin},
+	journal = {Remote Sensing},
+	number = {8},
+	pages = {1336},
+	publisher = {MDPI},
+	title = {Impact of Pseudo-Stochastic Pulse and Phase Center Variation on Precision Orbit Determination of Haiyang-2A from Experimental HY2 Receiver GPS Data},
+	volume = {16},
+	year = {2024}}
+
+@article{10122508,
+	abstract = {Tianjin University-1 (TJU-1) is a small low-Earth-orbiting (LEO) meteorological satellite equipped with a multi-global navigation satellite system (GNSS) receiver that provides the dual-frequency pseudorange and carrier-phase measurements from Global Positioning System (GPS), Global Navigation Satellite System (GLONASS), and BeiDou Navigation Satellite System (BDS), including BDS-2 and BDS-3. In this contribution, the quality of GNSS data during the period of 2022/31--2022/37 is assessed, and the precise orbit determination (POD) based on the onboard GNSS data is conducted. Assessing the pseudorange measurement accuracy, it reveals that the GPS and BDS-3 are comparable, followed by BDS-2, and GLONASS the worst. The POD experiments demonstrate that the orbit precision of all single-GNSS solutions is almost at an equivalent level of 2.2--3.4 cm, in terms of the overlapped orbit consistency, and the GPS-based solution is slightly worse than the BDS-based one and the GLONASS-based one is worse than other two. According to the orbit differences between different solutions, the orbit accuracy of single-GNSS solutions is inferred to be at the level of about 4.7--6.2 cm. With the multi-GNSS fusion, the precision and inferred accuracy of orbits could be improved significantly to 1.7--2.1 cm and about 1.7--3.7 cm, respectively. Furthermore, the root mean square (RMS) of posteriori carrier-phase residuals for all the IGSO/MEO satellites is at the level of 7--15 mm in different single-GNSS and multi-GNSS fusion solutions. These performances have fully demonstrated that the centimeter-level POD is easily achievable for small LEO satellites by using the multi-GNSS receiver.},
+	author = {Gong, Xuewen and Li, Xingxing and Wang, Pengcheng and Wang, Qingyun and Wang, Fuhong and Sang, Jizhang and Gao, Shuaihe},
+	doi = {10.1109/JSEN.2023.3272923},
+	journal = {IEEE Sensors Journal},
+	keywords = {Satellites;Global navigation satellite system;Orbits;Receivers;Global Positioning System;Satellite broadcasting;Low earth orbit satellites;Global navigation satellite system (GNSS) data quality;multi-GNSS fusion;precise orbit determination (POD);precision and accuracy;Tianjin University-1 (TJU-1)},
+	number = {12},
+	pages = {13340-13350},
+	title = {High-Precision Orbit Determination of the Small TJU-1 Satellite Using GPS, GLONASS, and BDS},
+	volume = {23},
+	year = {2023},
+	bdsk-url-1 = {https://doi.org/10.1109/JSEN.2023.3272923}}
+
+@book{Hairer1993,
+	address = {Berlin, Heidelberg},
+	author = {E. Hairer and S. P. N{\o}rsett and G. Wanner},
+	doi = {10.1007/978-3-662-09947-6},
+	edition = {2nd},
+	isbn = {978-3-540-56670-0},
+	note = {A comprehensive resource for numerical methods in solving ordinary differential equations.},
+	publisher = {Springer},
+	series = {Springer Series in Computational Mathematics},
+	title = {Solving Ordinary Differential Equations: Nonstiff Problems},
+	volume = {8},
+	year = {1993},
+	bdsk-url-1 = {https://doi.org/10.1007/978-3-662-09947-6}}
+
+@article{shampine1986some,
+	abstract = {A new selection is made of the most practical of the many explicit Runge-Kutta formulas of order 4 which have been proposed. A new formula is considered, formulas are modified to improve their quality and efficiency in agreement with improved understanding of the issues, and formulas are derived which permit interpolation. It is possible to do a lot better than the pair of Fehlberg currently regarded as" best"},
+	author = {Shampine, Lawrence F},
+	journal = {Mathematics of computation},
+	number = {173},
+	pages = {135--150},
+	title = {Some practical runge-kutta formulas},
+	volume = {46},
+	year = {1986}}
+
+@online{cash_karp_method,
+	author = {{Wikipedia contributors}},
+	note = {Accessed: 2024-12-05},
+	title = {Cash--Karp method},
+	url = {https://en.wikipedia.org/wiki/Cash\%E2\%80\%93Karp_method},
+	urldate = {2024-12-05},
+	year = {2024},
+	bdsk-url-1 = {https://en.wikipedia.org/wiki/Cash\%E2\%80\%93Karp_method}}
+
+@online{runge_kutta_fehlberg_method,
+	author = {{Wikipedia contributors}},
+	note = {Accessed: 2024-12-05},
+	title = {Runge--Kutta--Fehlberg method},
+	url = {https://en.wikipedia.org/wiki/Runge\%E2\%80\%93Kutta\%E2\%80\%93Fehlberg_method},
+	urldate = {2024-12-05},
+	year = {2024},
+	bdsk-url-1 = {https://en.wikipedia.org/wiki/Runge\%E2\%80\%93Kutta\%E2\%80\%93Fehlberg_method}}
+
+@online{dormand_prince_method,
+	author = {{Wikipedia contributors}},
+	note = {Accessed: 2024-12-05},
+	title = {Dormand--Prince method},
+	url = {https://en.wikipedia.org/wiki/Dormand\%E2\%80\%93Prince_method},
+	urldate = {2024-12-05},
+	year = {2024},
+	bdsk-url-1 = {https://en.wikipedia.org/wiki/Dormand\%E2\%80\%93Prince_method}}
+
+@article{dormand1980family,
+	author = {Dormand, John R and Prince, Peter J},
+	journal = {Journal of computational and applied mathematics},
+	number = {1},
+	pages = {19--26},
+	publisher = {Elsevier},
+	title = {A family of embedded Runge-Kutta formulae},
+	volume = {6},
+	year = {1980}}
+
+@article{kopeikin2004parametrized,
+	abstract = {Post-Newtonian relativistic theory of astronomical reference frames based on Einstein's general theory of relativity was adopted by General Assembly of the International Astronomical Union in 2000. This theory is extended in the present paper by taking into account all relativistic effects caused by the presumable existence of a scalar field and parametrized by two parameters, β and γ, of the parametrized post-Newtonian (PPN) formalism. We use a general class of the scalar-tensor (Brans-Dicke type) theories of gravitation to work out PPN concepts of global and local reference frames for an astronomical N-body system. The global reference frame is a standard PPN coordinate system. A local reference frame is constructed in the vicinity of a weakly self-gravitating body (a sub-system of the bodies) that is a member of the astronomical N-body system. Such local inertial frame is required for unambiguous derivation of the equations of motion of the body in the field of other members of the N-body system and for construction of adequate algorithms for data analysis of various gravitational experiments conducted in ground-based laboratories and/or on board of spacecrafts in the solar system. We assume that the bodies comprising the N-body system have weak gravitational field and move slowly. At the same time we do not impose any specific limitations on the distribution of density, velocity and the equation of state of the body's matter. Scalar--tensor equations of the gravitational field are solved by making use of the post-Newtonian approximations so that the metric tensor and the scalar field are obtained as functions of the global and local coordinates. A correspondence between the local and global coordinate frames is found by making use of asymptotic expansion matching technique. This technique allows us to find a class of the post-Newtonian coordinate transformations between the frames as well as equations of translational motion of the origin of the local frame along with the law of relativistic precession of its spatial axes. These transformations depend on the PPN parameters \beta and \gamma, generalize general relativistic transformations of the IAU 2000 resolutions, and should be used in the data processing of the solar system gravitational experiments aimed to detect the presence of the scalar field. These PPN transformations are also applicable in the precise time-keeping metrology, celestial mechanics, astrometry, geodesy and navigation. We consider a multipolar post-Newtonian expansion of the gravitational and scalar fields and construct a set of internal and external gravitational multipoles depending on the parameters \beta and \gamma. These PPN multipoles generalize the Thorne-Blanchet-Damour multipoles defined in harmonic coordinates of general theory of relativity. The PPN multipoles of the scalar-tensor theory of gravity are split in three classes---active, conformal, and scalar multipoles. Only two of them are algebraically independent and we chose to work with the conformal and active multipoles. We derive the laws of conservations of the multipole moments and show that they must be formulated in terms of the conformal multipoles. We focus then on the law of conservation of body's linear momentum which is defined as a time derivative of the conformal dipole moment of the body in the local coordinates. We prove that the local force violating the law of conservation of the body's linear momentum depends exclusively on the active multipole moments of the body along with a few other terms which depend on the internal structure of the body and are responsible for the violation of the strong principle of equivalence (the Nordtvedt effect).},
+	author = {Kopeikin, Sergei and Vlasov, Igor},
+	journal = {Physics Reports},
+	number = {4-6},
+	pages = {209--318},
+	publisher = {Elsevier},
+	title = {Parametrized post-Newtonian theory of reference frames, multipolar expansions and equations of motion in the N-body problem},
+	volume = {400},
+	year = {2004}}
+
+@article{roh2018numerical,
+	abstract = {PRECISE orbital knowledge is one of the most stringent requirements for a global navigation satellite system (GNSS) because the positions of the GNSS satellites serve as reference points. If the reference points are provided with high precision, better solutions can be achieved in most applications, such as positioning and time synchronization. One of the most important issues for precise orbit determination is that the orbital dynamic model should have an accuracy equivalent to that of the measurements. The measurement technology of the GNSS, based on the time and frequency transfer through atomic clocks, has achieved an accuracy on the order of 1× 10− 16, which is several orders of magnitude lower than that of the relativistic effect. The continuing progress in atomic clocks is expected to improve the accuracy at the rate of one order of magnitude per decade. There have been several extensive studies about the relativistic effects on the signal and time transfer in the GNSS [1]. The major relativistic effect of gravitational blue shift has already been taken into account in the Global Positioning System (GPS). The clocks on GPS satellites are adjusted so that the clocks appear to a ground station to have its chosen frequency. The details and additional relativistic effects on the atomic clocks in the GNSS satellites will not be discussed here because this Note focuses on the relativistic effects on the equations of motion of the GNSS satellites. Readers interested in the relativistic effects on the atomic clocks in the GNSS satellites can refer to the paper by Ashby [2]. According to the advances in measurement systems, the dynamic model (ie, the equations of motion of satellites) also needs to take into account the relativistic effects. Therefore, the International Earth Rotation and Reference System Service (IERS) has first recommended that the largest relativistic effect must be included (ie, the Schwarzschild terms), and this recommendation appeared in the IERS standards of 1992 [3]. The latest IERS conventions of 2010 [4] suggested that two additional relativistic perturbations (ie, the Lense--Thirring effect and de Sitter precession) should be taken into account for precise orbit determination. However, these two additional relativistic terms are still often ignored in GPS data processing [5].},
+	author = {Roh, Kyoung-Min},
+	journal = {Journal of Spacecraft and Rockets},
+	keywords = {GNSS, KASIOP, LAGEOS, LARES,GLONASS},
+	number = {4},
+	pages = {1028--1033},
+	publisher = {American Institute of Aeronautics and Astronautics},
+	title = {Numerical evaluation of post-Newtonian perturbations on the Global Navigation Satellite System},
+	volume = {55},
+	year = {2018}}
+
+@article{ROH20162255,
+	abstract = {We study the post-Newtonian perturbations in the orbit of a near-Earth satellite by integrating them with a high-fidelity orbit propagation software KASIOP. The perturbations of the orbital elements are evaluated for various cases from a low-Earth orbit to a geostationary one, and from an equatorial to a polar orbit. In particular, the numerical simulation is applied to the LARES-like satellite under a realistic orbital configuration. The relativistic perturbations include the Schwarzschild term, the effects of Lense-Thirring precession, and the post-Newtonian term due to the quadrupole moment of the Earth as well as the post-Newtonian gravitoelectric and gravitomagnetic forces, which are produced by the tidal potential of the solar system bodies, are also modeled. The latter three terms are usually ignored in most orbit-propagation software. The secular variations of the orbital elements are evaluated from the orbital positions propagated for a half year. For a medium altitude orbit like that of the LARES mission, the magnitude of the relativistic perturbations ranges from the order of 10−7m/s2 by the Schwarzschild effect to 10−15m/s2 by the relativistic tidal effects. The orbital integration shows that the secular variations in three orbital elements -- the ascending node, the argument of perigee, and the mean anomaly at epoch -- are larger than the systematic error as results of the relativistic perturbations. The magnitudes of the secular variation are investigated in terms of the orbital altitude, inclination, and the size of each perturbation force. The numerical simulation rendered in this study shows that the secular post-Newtonian perturbations with the magnitude lying beyond the Schwarzschild and the Lense-Thirring effects need to be taken into account in current and upcoming space geodesy missions.},
+	author = {Kyoung-Min Roh and Sergei M. Kopeikin and Jung-Ho Cho},
+	doi = {https://doi.org/10.1016/j.asr.2016.08.009},
+	issn = {0273-1177},
+	journal = {Advances in Space Research},
+	keywords = {Post-Newtonian, Orbit propagation, General relativity, Space Geodesy, Earth Quadrupole Moment, KASIOP},
+	number = {11},
+	pages = {2255-2268},
+	title = {Numerical simulation of the post-Newtonian equations of motion for the near Earth satellite with an application to the LARES satellite},
+	url = {https://www.sciencedirect.com/science/article/pii/S0273117716304422},
+	volume = {58},
+	year = {2016},
+	bdsk-url-1 = {https://www.sciencedirect.com/science/article/pii/S0273117716304422},
+	bdsk-url-2 = {https://doi.org/10.1016/j.asr.2016.08.009}}
+
+@inproceedings{maisonobe2010orekit,
+	abstract = {In 2002, the following observation was made by CS: several request for proposal (RFP) had come out that requested complete flight dynamics systems, either for low earth orbit or for geostationary orbit. Among the whole lot of products available on space flight dynamics market, several could pretend to fit, but they were either fulfilling only part of the requirements, or they were monolithic suites that offered much more possibilities than necessary. Moreover, proven systems were old. On CS side, lots of experience had been acquired along the years and the many fulfillments performed, but the company did not own the corresponding intellectual property. All the work done was on customers request and IP was sold along with the product. The licenses costs proved to be far too expensive and put customers off.
+From that reflexion came out the idea to develop a CS-owned space-flight dynamics library, with CS internal funds, that could be used as a building block for flight dynamics systems and would allow CS to answer AUTONOMOUSLY to future RFP, thanks to this new asset.},
+	author = {Maisonobe, Luc and Pommier, V{\'e}ronique and Parraud, Pascal},
+	booktitle = {4th international conference on astrodynamics tools and techniques},
+	organization = {European Space Agency Paris},
+	pages = {3--6},
+	title = {Orekit: An open source library for operational flight dynamics applications},
+	url = {https://www.researchgate.net/profile/Luc-Maisonobe/publication/310250345_OREKIT_AN_OPEN_SOURCE_LIBRARY_FOR_OPERATIONAL_FLIGHT_DYNAMICS_APPLICATIONS/links/6034c01e299bf1cc26e4a550/OREKIT-AN-OPEN-SOURCE-LIBRARY-FOR-OPERATIONAL-FLIGHT-DYNAMICS-APPLICATIONS.pdf},
+	year = {2010},
+	bdsk-url-1 = {https://www.researchgate.net/profile/Luc-Maisonobe/publication/310250345_OREKIT_AN_OPEN_SOURCE_LIBRARY_FOR_OPERATIONAL_FLIGHT_DYNAMICS_APPLICATIONS/links/6034c01e299bf1cc26e4a550/OREKIT-AN-OPEN-SOURCE-LIBRARY-FOR-OPERATIONAL-FLIGHT-DYNAMICS-APPLICATIONS.pdf}}
+
+@techreport{gilbertson2017demonstrating,
+	abstract = {Orbit propagation is fundamental to almost every space-based analysis. Currently, many system analysts use commercial software to predict the future positions of orbiting satellites. This is one of many capabilities that can replicated, with great accuracy, without using expensive, proprietary software. NASAs SCaN (Space Communication and Navigation) Center for Engineering, Networks, Integration, and Communications (SCENIC) project plans to provide its analysis capabilities using a combination of internal and open-source software, allowing for a much greater measure of customization and flexibility, while reducing recurring software license costs. MATLAB and the open-source Orbit Determination Toolbox created by Goddard Space Flight Center (GSFC) were utilized to develop tools with the capability to propagate orbits, perform line-of-sight (LOS) availability analyses, and visualize the results. The developed programs are modular and can be applied for mission planning and viability analysis in a variety of Solar System applications. The tools can perform 2 and N-body orbit propagation, find inter-satellite and satellite to ground station LOS access (accounting for intermediate oblate spheroid body blocking, geometric restrictions of the antenna field-of-view (FOV), and relativistic corrections), and create animations of planetary movement, satellite orbits, and LOS accesses. The code is the basis for SCENICs broad analysis capabilities including dynamic link analysis, dilution-of-precision navigation analysis, and orbital availability calculations.},
+	author = {Gilbertson, Christian and Welch, Bryan},
+	title = {Demonstrating High-Accuracy Orbital Access Using Open-Source Tools},
+	url = {https://ntrs.nasa.gov/api/citations/20170010173/downloads/20170010173.pdf},
+	year = {2017},
+	bdsk-url-1 = {https://ntrs.nasa.gov/api/citations/20170010173/downloads/20170010173.pdf}}
+
+@article{PROIETTI2021559,
+	abstract = {In nominal mission scenarios, geostationary satellites perform end-of-life orbit maneuvers to reach suitable disposal orbits, where they do not interfere with operational satellites. This research investigates the long-term orbit evolution of decommissioned geostationary satellite under the assumption that the disposal maneuver does not occur and the orbit evolves with no control. The dynamical model accounts for all the relevant harmonics of the terrestrial gravity field at the typical altitude of geostationary orbits, as well as solar radiation pressure and third-body perturbations caused by the Moon and the Sun. Orbit propagations are performed using two algorithms based on different equations of motion and numerical integration methods: (i) Gauss planetary equations for modified equinoctial elements with a Runge-Kutta numerical integration scheme based on 8--7th-order Dorman and Prince formulas; (ii) Cartesian state equations of motion in an Earth-fixed frame with a Runge-Kutta Fehlberg 7/8 integration scheme. The numerical results exhibit excellent agreement over integration times of decades. Some well-known phenomena emerge, such as the longitudinal drift due to the resonance between the orbital motion and Earth's rotation, attributable to the J22 term of the geopotential. In addition, the third-body perturbation due to Sun and Moon causes two major effects: (a) a precession of the orbital plane, and (b) complex longitudinal dynamics. This study proposes an analytical approach for the prediction of the precessional motion and show its agreement with the (more accurate) orbit evolution obtained numerically. Moreover, long-term orbit propagations show that the above mentioned complex longitudinal dynamics persists over time scales of several decades. Frequent and unpredictable migrations toward different longitude regions occur, in contrast with the known effects due only to the perturbative action of J22.},
+	author = {Simone Proietti and Roberto Flores and Elena Fantino and Mauro Pontani},
+	doi = {https://doi.org/10.1016/j.actaastro.2020.12.017},
+	issn = {0094-5765},
+	journal = {Acta Astronautica},
+	keywords = {Long-term orbit evolution, Geostationary satellites, Orbit propagation methods, Orbit perturbations},
+	pages = {559-573},
+	title = {Long-term orbit dynamics of decommissioned geostationary satellites},
+	url = {https://www.sciencedirect.com/science/article/pii/S0094576520307517},
+	volume = {182},
+	year = {2021},
+	bdsk-url-1 = {https://www.sciencedirect.com/science/article/pii/S0094576520307517},
+	bdsk-url-2 = {https://doi.org/10.1016/j.actaastro.2020.12.017}}
+
+@article{shi2024real,
+	abstract = {This study investigates and verifies the feasibility of the precise point positioning (PPP)-B2b enhanced real-time (RT) precise orbit determination (POD) of low Earth orbit (LEO) satellites. The principles and characteristics of matching various PPP-B2b corrections are introduced and analyzed. The performance and accuracy of broadcast ephemeris and PPP-B2b signals are compared and evaluated by referring to the precise ephemeris. The root mean square (RMS) errors in the Global Positioning System (GPS) and BeiDou Navigation Satellite System (BDS)-3 broadcast ephemeris orbits in the along direction are larger than those in the other two (radial and cross) directions, and correspondingly, the along component PPP-B2b corrections are greatest. The continuity and smoothness of the GPS and BDS-3 broadcast ephemeris orbits and clock offsets are improved with the PPP-B2b corrections. The availability of PPP-B2b corrections is comprehensively analyzed for the TJU-01 satellite. Several comparative schemes are adopted for the RT POD of the TJU-01 satellite using the broadcast ephemeris and PPP-B2b corrections. The RT POD performance is improved considerably with the broadcast ephemeris corrected by the PPP-B2b signals. The RMS of the RT orbital errors in the radial, along, and cross directions is 0.10, 0.13, and 0.09 m, respectively, using BDS-3 and GPS PPP-B2b corrections, with reference to the solutions calculated with the precise ephemeris. The accuracy is improved by 5.1\%, 43.9\%, and 28.7\% in the three directions, respectively, relative to that achieved with the broadcast ephemeris. It is concluded that a greater proportion of received PPP-B2b satellite signals corresponds to a greater improvement in the accuracy of the RT POD of the LEO satellite},
+	author = {Shi, Yali and Xu, Tianhe and Li, Min and Wei, Kai and Wang, Shuai and Wang, Dixing},
+	journal = {Remote Sensing},
+	number = {5},
+	pages = {833},
+	publisher = {MDPI},
+	title = {Real-time precise orbit determination of low earth orbit satellites based on gps and bds-3 ppp b2b service},
+	volume = {16},
+	year = {2024}}
+
+@inproceedings{tantucci2023precise,
+	abstract = {Nowadays, along with the trend of developing highly autonomous satellites, there is a strong motivation to improve real-time Precise Orbit Determination (POD), in particular for Low Earth Orbit (LEO) satellites. The development of Global Navigation Satellite System (GNSS) sensors allows to obtain low-noise measurements and provide a satellite with autonomous continuous tracking onboard. Following the deactivation of Selective Availability, a representative real-time positioning accuracy of 10 m is presently achieved by means of Global Positioning System (GPS) receivers on LEO satellites. The introduction of dynamical filtering methods has opened a new way to improve this accuracy by making use of measurements such as pseudorange or carrier-phase. This paper presents a Kalman filtering approach using pseudorange and pseudorange-rate measurements instead of pseudorange and carrier-phase ones, with advantages in terms of storage and processing requirements. An error of around 0.2 m and 1e-3 m/s for position and velocity is obtained, which is in line if not better w.r.t. other approaches.},
+	author = {Tantucci, Andrea and Wrona, Andrea and Pietrabissa, Antonio},
+	booktitle = {2023 31st Mediterranean Conference on Control and Automation (MED)},
+	organization = {IEEE},
+	pages = {341--347},
+	title = {Precise orbit determination on leo satellite using pseudorange and pseudorange-rate measurements},
+	year = {2023}}
+
+@inproceedings{10282308,
+	abstract = {Low Earth Orbit (LEO) remote sensing missions present a main limitation regarding their revisit time of several days or weeks. They cannot provide continuous monitoring over the same area of the planet. The on-going studies on Geosynchronous Synthetic Aperture Radar (GEOSAR), which have a revisit time of less than 24 h, aim to mitigate this limitation [1] . Since high altitude GEO missions are beyond MEO navigation satellites coverage, a ground based interferometric system (GEODE) has been developed for GEO Precise Orbit Determination, a requirement to form focused GEOSAR synthetic apertures [2] . Since no operational GEOSAR missions are available yet, present Geostationary telecommunications satellites can be used as transmitters of opportunity for GEODE experimental testing and validation. Recent results show the convenience of using ground reflectors to extend interferometric baselines lengths up to kilometers to achieve the required GEOSAR orbit precision. Locating stable reflectors of opportunity for interferometric orbit determination in urban areas is possible by complementing the ground interferometer with a multistatic SAR imaging processor capable to map the surrounding scattering centers.},
+	author = {Carre{\~n}o-Megias, Xavier and Nicol{\'a}s-{\'A}lvarez, Jorge and Aguasca, Albert and Broquetas, Antoni},
+	booktitle = {IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium},
+	doi = {10.1109/IGARSS52108.2023.10282308},
+	keywords = {Satellites;Transmitters;Urban areas;Low earth orbit satellites;Scattering;Radar polarimetry;Telecommunications},
+	pages = {7824-7827},
+	title = {Multistatic SAR Imaging and Precise Orbit Determination Synergies Using Geostationary Telecommunication Satellites},
+	year = {2023},
+	bdsk-url-1 = {https://doi.org/10.1109/IGARSS52108.2023.10282308}}
+
+@inproceedings{10687705,
+	abstract = {The next-generation space robotic missions will require autonomous probes capable to carry out complex navigation tasks with limited human input. Innovative data-fusion techniques are currently under development to support real-time spacecraft navigation operations through a combined processing of multi-sensor datasets, including, for example, radio tracking and optical measurements. Image-based data can provide crucial information to improve the localization of orbiters through the detection of features displaced across planetary surfaces and their registration with an onboard database. In case of lunar missions, craters represent a key dataset to improve the reconstruction of the spacecraft trajectory. In addition to describing the machine vision techniques used to detect and identify craters in the onboard images, we present here numerical simulations based on a lunar orbiter to investigate the strengths of the multi-sensor orbit determination approach.},
+	author = {Andolfo, Simone and Genova, Antonio and Federici, Pierluigi and Teodori, Riccardo and Cottini, Valeria},
+	booktitle = {2024 International Conference on Space Robotics (iSpaRo)},
+	doi = {10.1109/iSpaRo60631.2024.10687705},
+	keywords = {Space vehicles;Surface reconstruction;Space missions;Moon;Radio navigation;Real-time systems;Trajectory},
+	pages = {28-35},
+	title = {Precise orbit determination through a joint analysis of optical and radiometric data},
+	year = {2024},
+	bdsk-url-1 = {https://doi.org/10.1109/iSpaRo60631.2024.10687705}}
+
+@article{liu2024precise,
+	abstract = {The mapping phase is a key stage of the Tianwen-1 orbiter. It has the longest exploration time and gathers abundant radio tracking data via the Chinese deep space network. Thus, it also provides opportunities for radio science research topics such as the Mars gravity field model, ephemeris, and radio occultation experiments. At this stage, the need for imaging takes the highest priority, leading to frequent attitude adjustments for the spacecraft, which presents challenges for Precise Orbit Determination (POD). To improve the accuracy of the spacecraft's orbit, this study analyzes the effects of arc length, the empirical acceleration, and the solar radiation pressure parameters on POD, considering the limited number of radio tracking observations. For one-day arcs, the POD is not able to adequately account for wheel off-loading and a few unknown forces with limited observations, but reasonable fitting is performed for the wheel off-loading occurring during tracking periods or the gap between two tracking periods. When extending the POD arc to three days, the estimated empirical acceleration can be well-fitted and reflects the aggregation feature, but the solar radiation pressure parameter has little impact on POD results. The root mean square of two-way range-rate residuals after POD is about 0.18--0.35 mm/s; the orbital position accuracy of 60\% of the arcs is better than 100 m.},
+	author = {Liu, Shanhong and Kong, Jing and Cao, Jianfeng and Huang, Hao and Man, Haijun and Yan, Jianguo and Li, Xie},
+	journal = {Astrodynamics},
+	number = {3},
+	pages = {471--481},
+	publisher = {Springer},
+	title = {Precise orbit determination for Tianwen-1 during mapping phase},
+	volume = {8},
+	year = {2024}}
+
+@article{li2024leo,
+	abstract = {Real-time precise orbits of low earth orbit (LEO) satellites are becoming indispensable with the rapid development of real-time Earth observation application and LEO enhanced precise point positioning. Currently, GNSS-based precise orbit determination is a widely used method for LEO onboard navigation. However, the real-time LEO satellite orbits are usually obtained by ambiguity-float solution even when the GNSS augmentation corrections are considered. In this study, we perform LEO ambiguity-fixed multi-GNSS real-time precise orbit determination (RTPOD) based on square root information filter. One month of onboard GPS + Galileo observations from Sentinel-6A and real-time products of the Centre National d'Etudes Spatiales (CNES) are used to investigate the contribution of integer ambiguity resolution (IAR). The benefit of dual-system combination on LEO RTPOD is firstly evaluated. The combination of GPS and Galileo dual-system contributes to more visible GNSS satellites and better observation geometry for LEO RTPOD, which results in an evident accuracy improvement of 19\% over GPS and a convergence time reduction of 43\% and 41\% compared to the GPS and Galileo solutions respectively. Considering the short arc of onboard GNSS observations and imperfections in GNSS real-time products, we propose a strict IAR quality control method to avoid fixing the ambiguity to the wrong values. The results indicate that the IAR quality control method we used can effectively reduce the wrong fixing risk and increase the robustness of the IAR solution. Using onboard GPS and Galileo observations, the 3D orbit accuracy of the ambiguity-fixed solution is significantly improved from 5.17 to 3.61cm, by 30\%, compared to the ambiguity-float solution. Furthermore, the application of IAR also achieves a faster convergence to the centimeter-level orbit.},
+	author = {Li, Xingxing and Zhao, Yehao and Zhang, Keke and Wu, Jiaqi and Zheng, Hongjie and Zhang, Wei},
+	journal = {GPS Solutions},
+	number = {4},
+	pages = {188},
+	publisher = {Springer},
+	title = {LEO real-time ambiguity-fixed precise orbit determination with onboard GPS/Galileo observations},
+	volume = {28},
+	year = {2024}}
+
+@article{montenbruck2018reduced,
+	abstract = {Precise science orbits for the first 4 years of the Swarm mission have been generated from onboard GPS measurements in a systematic reprocessing using refined models and processing techniques. Key enhancements relate to the introduction of macro-models for a more elaborate non-gravitational force modeling (solar radiation pressure, atmospheric drag and lift, earth albedo), as well as carrier phase ambiguity fixing. Validation using satellite laser ranging demonstrates a 30\% improvement in the precision of the reduced dynamic orbits with resulting errors at the 0.5--1 cm level (1D RMS). A notable performance improvement is likewise achieved for the kinematic orbits, which benefit most from the ambiguity fixing and show a 50\% error reduction in terms of SLR residuals while differences with respect to reduced dynamic ephemerides amount to only 1.7 cm (median of daily 3D RMS). Compared to the past kinematic science orbits based on float-ambiguity estimates, the new kinematic position solutions exhibit a factor of reduction of two to three in Allan deviation at time scales of 1000s and higher, and promise an improved recovery of low-degree and -order gravity field coefficients in Swarm gravity field analyses.},
+	author = {Montenbruck, Oliver and Hackel, Stefan and van den Ijssel, Jose and Arnold, Daniel},
+	journal = {GPS solutions},
+	number = {3},
+	pages = {79},
+	publisher = {Springer},
+	title = {Reduced dynamic and kinematic precise orbit determination for the Swarm mission from 4 years of GPS tracking},
+	volume = {22},
+	year = {2018}}
+
+@article{huang2018improved,
+	abstract = {The satellite clocks used in the BeiDou-2 satellite navigation System (BDS) are Chinese self-developed Rb atomic clocks, and their performances and stabilities are worse than GPS and Galileo satellite clocks. Due to special periodic noises and nonlinear system errors existing in the BDS clock offset series, the GPS ultra-rapid clock model, which uses a simple quadratic polynomial plus one periodic term, is not suitable for BDS. Therefore, an improved prediction model for BDS satellite clocks is proposed in order to enhance the precision of ultra-rapid predicted clock offsets. First, a basic quadratic polynomial model, which is fit for the rubidium (Rb) clock, is constructed for BDS. Second, the main cyclic terms are detected and identified by the Fast Fourier Transform (FFT) method according to every satellite clock offset series. The detected results show that most BDS clocks have special cyclic terms different from the orbit periods. Therefore, two main cyclic terms are added to absorb the periodic effects. Third, after the quadratic polynomial plus two periodic fittings, some evident nonlinear system errors still exist in the model residuals, and the Back Propagation (BP) neural network model is chosen to compensate for these nonlinear system errors. The simulation results show that the performance and precision using the improved model are better than those of China iGMAS ultra-rapid prediction (ISU-P) products and the Deutsches GeoForschungsZentrum GFZ BDS ultra-rapid prediction (GBU-P) products. Compared to ISU-P products, the average improvements using the proposed model in 3 h, 6 h, 12 h, and 24 h are 23.1\%, 21.3\%, 20.2\%, and 19.8\%, respectively. Meanwhile, the accuracy improvements of the proposed model are 9.9\%, 13.9\%, 17.3\%, and 21.2\% compared to GBU-P products. In addition, the kinematic Precise Point Positioning (PPP) example using 8 Multi-GNSS Experiment (MGEX) stations shows that the precision based on the proposed clock model has improved about 16\%, 14\%, and 38\% in the North (N), East (E), and Height (H) components.},
+	author = {Huang, Guanwen and Cui, Bobin and Zhang, Qin and Fu, Wenju and Li, Pingli},
+	journal = {Remote Sensing},
+	number = {1},
+	pages = {60},
+	publisher = {MDPI},
+	title = {An improved predicted model for BDS ultra-rapid satellite clock offsets},
+	volume = {10},
+	year = {2018}}
+
+@article{vsvehla2003kinematic,
+	abstract = {Abstract. Various methods for kinematic and reduced-dynamic precise orbit determination (POD) of Low Earth Orbiters (LEO) were developed based on zero- and double-differencing of GPS carrier-phase measurements with and without ambiguity resolution. In this paper we present the following approaches in LEO precise orbit determination: -- zero-difference kinematic POD, -- zero-difference dynamic POD, -- double-difference kinematic POD with and without ambiguity resolution, -- double-difference dynamic POD with and without ambiguity resolution, -- combined GPS/SLR reduced-dynamic POD. All developed POD approaches except the combination of GPS/SLR were tested using real CHAMP data (May 20-30, 2001) and independently validated with Satellite Laser Ranging (SLR) data over the same 11 days. With SLR measurements, additional combinations are possible and in that case one can speak of combined kinematic or combined reduced-dynamic POD. First results of such a combined GPS/SLR POD will be presented, too. This paper shows what LEO orbit accuracy may be achieved with GPS using different strategies including zerodifference and double-difference approaches. Kinematic versus dynamic orbit determination is presently an interesting issue that will also be discussed in this article.},
+	author = {{\v{S}}vehla, Dra{\v{z}}en and Rothacher, M},
+	journal = {Advances in Geosciences},
+	pages = {47--56},
+	publisher = {Copernicus Publications G{\"o}ttingen, Germany},
+	title = {Kinematic and reduced-dynamic precise orbit determination of low earth orbiters},
+	volume = {1},
+	year = {2003}}
+
+@article{zhang2024novel,
+	abstract = {The kinematic approach [i.e., kinematic precise point positioning (PPP)] has been extensively employed in real-time precise orbit determination (RTPOD) of low Earth orbit (LEO) satellites. Nonetheless, this approach typically suffers from a degraded accuracy and robustness due to its sensitivity to global navigation satellite system (GNSS) ephemeris errors and observation quality/geometry. To address this issue, we propose a novel method that incorporates the backpropagation neural network (BPNN) model into LEO kinematic RTPOD (KRTPOD) to improve its accuracy and robustness. The historical KRTPOD results are compared with external orbit products to compute orbit errors. Meanwhile, multiple features are generated from the historical KRTPOD processing. We train the BPNN model to discover the nonlinear relationship between these features and orbit errors. Based on the trained model, orbit errors of LEO KRTPOD can be forecast according to the input features and then serve as the orbit compensation to improve LEO orbits in real time. Data throughout 2022 from six LEO satellites are processed to examine the performance of this method. Our findings reveal that the proposed method can significantly improve the accuracy of LEO KRTPOD by up to 39.0\%. Benefiting from this method, a promising accuracy of 3.2 cm can be achieved in LEO KRTPOD. We also demonstrate the superior generalization ability of the new method under different scenarios. Moreover, this method can enhance the robustness of LEO KRTPOD by mitigating the contamination caused by large GNSS ephemeris errors and accelerating convergence.},
+	author = {Zhang, Wei and Zhang, Keke and Li, Xingxing and Wu, Jiaqi and Yuan, Yongqiang and Fu, Yuanchen},
+	journal = {IEEE Transactions on Instrumentation and Measurement},
+	publisher = {IEEE},
+	title = {A novel method for improving LEO kinematic real-time precise orbit determination with neural networks},
+	year = {2024}}
+
+@article{zhao2013precise,
+	author = {Zhao, Gang and Zhou, XuHua and Wu, Bin},
+	journal = {Chinese Science Bulletin},
+	pages = {589--597},
+	publisher = {Springer},
+	title = {Precise orbit determination of Haiyang-2 using satellite laser ranging},
+	volume = {58},
+	year = {2013}}
+
+@article{flores2021method,
+	abstract = {Fast and precise propagation of satellite orbits is required for mission design, orbit determination and payload data analysis. We present a method to improve the computational performance of numerical propagators and simultaneously maintain the accuracy level required by any particular application. This is achieved by determining the positional accuracy needed and the corresponding acceptable error in acceleration on the basis of the mission requirements, removing those perturbation forces whose effect is negligible compared to the accuracy requirement, implementing an efficient and precise algorithm for the harmonic synthesis of the geopotential gradient (i.e., the gravitational acceleration) and adjusting the tolerance of the numerical propagator to achieve the prescribed accuracy level with minimum cost. In particular, to achieve the optimum balance between accuracy and computational performance, the number of geopotential spherical harmonics to retain is adjusted during the integration on the basis of the accuracy requirement. The contribution of high-order harmonics decays rapidly with altitude, so the minimum expansion degree meeting the target accuracy decreases with height. The optimum degree for each altitude
+is determined by making the truncation error of the harmonic synthesis equal to the dmissible
+acceleration error. This paper presents a detailed description of the technique and test cases highlighting its accuracy and efficiency},
+	author = {Flores, Roberto and Burhani, Burhani Makame and Fantino, Elena},
+	journal = {Alexandria Engineering Journal},
+	number = {2},
+	pages = {2661--2676},
+	publisher = {Elsevier},
+	title = {A method for accurate and efficient propagation of satellite orbits: A case study for a Molniya orbit},
+	volume = {60},
+	year = {2021}}
+
+@inproceedings{genova2024sensor,
+	abstract = {Robotic missions devoted to the exploration of celestial bodies in the solar system are designed to conduct high-risk operations during orbital, descent/landing, and rendezvous phases. To accomplish challenging science objectives and demanding navigation tasks, deep-space probes host onboard sensors that provide highly accurate measurements for their localization in an extra-terrestrial environment. We present the configuration of a navigation system, including hardware and software architecture, that enables a precise navigation of a SmallSat in a low-altitude orbit about the Moon. The onboard sensors include a radio tracking system to acquire inter-satellite radiometric data, a LiDAR and a visible-wavelength optical camera that collects measurements associated with the relative distance of the probe with respect to the celestial body's surface. The approach presented in this study is well-suited for conducting a joint analysis of radio tracking, altimetry, and imaging data. This involves real-time filtering to achieve precise absolute navigation of a robotic system.},
+	author = {Genova, Antonio and Andolfo, Simone and Ciambellini, Martina and Federici, Pierluigi and Teodori, Riccardo and Torrini, Tommaso and Zavoli, Alessandro and Del Vecchio, Edoardo and Gargiulo, Anna Maria and Petricca, Flavio and others},
+	booktitle = {2024 International Conference on Space Robotics (iSpaRo)},
+	organization = {IEEE},
+	pages = {22--27},
+	title = {Sensor data fusion for precise orbit determination of interplanetary spacecraft},
+	year = {2024}}
+
+@article{gong2024precise,
+	abstract = {The ZY3-03 satellite exhibits a special yaw-steering state to compensate for the drift angle of onboard space cameras with the time-delay-and-integration charge-coupled devices (TDICCDs). The commonly used zero attitude model, which assumes zero yaw, pitch, and roll angles, is no longer suitable. A targeted yaw-attitude model is proposed to express this special yaw state. It still defaults zero pitch and roll angles, but calculates the drift angle based on the orbit of the satellite first, and then adopts the opposite of the drift angle as the yaw angle. The orbit determination experiments have revealed that the zero-yaw assumption in the zero attitude model would result in periodic orbit errors of up to $\pm$86mm in the normal direction, while the proposed model can describe yaw angle variations accurately with errors of less than $\pm$0.01$\,^{\circ}$ in most epochs, and thus avoid the significant normal orbit errors. The proposed yaw-attitude model contributes to the higher-precision orbit determination of ZY3-03. Furthermore, this yaw attitude model also holds practical value for achieving higher-precision orbit determination of other remote sensing satellites similar to ZY3-03, especially when the measured attitude data are not available.},
+	author = {Gong, Xuewen and Liu, Wanke and Wang, Fuhong and Li, Qingpeng and Li, Jingmei and Chang, Xueli and Gao, Shuaihe},
+	journal = {IEEE Sensors Journal},
+	publisher = {IEEE},
+	title = {Precise Orbit Determination of the ZY3-03 Satellite Using the Yaw-attitude Modeling for Drift Angle Compensation},
+	year = {2024}}
+
+@article{he2013experimental,
+	abstract = {The regional service of the Chinese BeiDou satellite navigation system is now in operation with a constellation including five Geostationary Earth Orbit satellites (GEO), five Inclined Geosynchronous Orbit (IGSO) satellites and four Medium Earth Orbit (MEO) satellites. Besides the standard positioning service with positioning accuracy of about 10 m, both precise relative positioning and precise point positioning are already demonstrated. As is well known, precise orbit and clock determination is essential in enhancing precise positioning services. To improve the satellite orbits of the BeiDou regional system, we concentrate on the impact of the tracking geometry and the involvement of MEOs, and on the effect of integer ambiguity resolution as well. About seven weeks of data collected at the BeiDou Experimental Test Service (BETS) network is employed in this experimental study. Several tracking scenarios are defined, various processing schemata are designed and carried out; and then, the estimates are compared and analyzed in detail. The results show that GEO orbits, especially the along-track component, can be significantly improved by extending the tracking network in China along longitude direction, whereas IGSOs gain more improvement if the tracking network extends in latitude. The involvement of MEOs and ambiguity-fixing also make the orbits better.},
+	author = {He, Lina and Ge, Maorong and Wang, Jiexian and Wickert, Jens and Schuh, Harald},
+	journal = {Sensors},
+	number = {3},
+	pages = {2911--2928},
+	publisher = {Molecular Diversity Preservation International (MDPI)},
+	title = {Experimental study on the precise orbit determination of the BeiDou navigation satellite system},
+	volume = {13},
+	year = {2013}}
+
+@article{huang2012real,
+	abstract = {In order to estimate the satellite clock offset in a real-time mode, a new algorithm of adaptively robust Kalman filter with classified adaptive factors for clock offset estimation is proposed. Compared with standard Kalman filter clock offset model, the new method can detect and control outliers and clock jumps automatically in real-time. Moreover, the clock model parameters, which contain the clock offset, clock speed and clock shift, are classified to decide the adaptive factors in the new model. Thus, clock jumps with different characteristics can be distinguished more effectively. Meanwhile, the dynamic noise characteristics of clock offset series are used for stochastic modeling. An actual numerical example is presented, which shows that the proposed filter can give a better performance than other commonly used filters.},
+	author = {Huang, Guanwen and Zhang, Qin},
+	journal = {GPS solutions},
+	pages = {531--539},
+	publisher = {Springer},
+	title = {Real-time estimation of satellite clock offset using adaptively robust Kalman filter with classified adaptive factors},
+	volume = {16},
+	year = {2012}}
+
+@article{huang2017real,
+	abstract = {The frequent maneuvering of BeiDou Geostationary Orbit (GEO) and Inclined Geosynchronous Orbit (IGSO) satellites affects the availability of real-time orbit, and decreases the accuracy and performance of positioning, navigation and time (PNT) services. BeiDou satellite maneuver information cannot be obtained by common users. BeiDou broadcast ephemeris is the only indicator of the health status of satellites, which are broadcast on an hourly basis, easily leading to ineffective observations. Sometimes, identification errors of satellite abnormity also appear in the broadcast ephemeris. This study presents a real-time robust detection method for a satellite orbital maneuver with high frequency and high reliability. By using the broadcast ephemeris and pseudo-range observations, the time discrimination factor and the satellite identification factor were defined and used for the real-time detection of start time and the pseudo-random noise code (PRN) of satellites was used for orbital maneuvers. Data from a Multi-GNSS Experiment (MGEX) was collected and analyzed. The results show that the start time and the PRN of the satellite orbital maneuver could be detected accurately in real time. In addition, abnormal start times and satellite abnormities caused by non-maneuver factors also could be detected using the proposed method. The new method not only improves the utilization of observations for users with the data effective for about 92 min, but also promotes the reliability of real-time PNT services.},
+	author = {Huang, Guanwen and Qin, Zhiwei and Zhang, Qin and Wang, Le and Yan, Xingyuan and Fan, Lihong and Wang, Xiaolei},
+	journal = {Sensors},
+	number = {12},
+	pages = {2761},
+	publisher = {MDPI},
+	title = {A real-time robust method to detect BeiDou GEO/IGSO orbital maneuvers},
+	volume = {17},
+	year = {2017}}
+
+@article{jaggi2016swarm,
+	abstract = {The Swarm mission consists of three satellites orbiting the Earth at low orbital altitudes. The onboard GPS receivers, star cameras, and laser retro-reflectors make the Swarm mission an interesting candidate to explore the contribution of Swarm GPS data to the recovery of both the static and time-variable gravity fields. We use 1.5 years of Swarm GPS and attitude data to generate kinematic positions of high quality to perform gravity field determination using the Celestial Mechanics Approach. The generated gravity fields reveal severe systematic errors along the geomagnetic equator. Their size is correlated with the ionospheric density and thus strongly varying over the analyzed time period. Similar to the findings of the GOCE mission, the systematic errors are related to the Swarm GPS carrier phase data and may be reduced by rejecting GPS data affected by large ionospheric changes. Such a measure yields a strong reduction of the systematic errors along the geomagnetic equator in the gravity field recovery. Long wavelength signatures of the gravity field may then be recovered with a similar quality as achieved with GRACE GPS data, which makes the Swarm mission well suited to bridge a potential gap between the current GRACE and the future GRACE Follow-On mission.},
+	author = {J{\"a}ggi, A and Dahle, Christoph and Arnold, D and Bock, H and Meyer, U and Beutler, G and van Den Ijssel, J},
+	journal = {Advances in Space Research},
+	number = {1},
+	pages = {218--233},
+	publisher = {Elsevier},
+	title = {Swarm kinematic orbits and gravity fields from 18 months of GPS data},
+	volume = {57},
+	year = {2016}}
+
+@article{KAZEMI2024272,
+	abstract = {The rapidly growing number of objects encircling our planet is an increasing concern. Collisions between these objects have already occurred and pose a potential threat in the future, resulting in the creation of countless debris fragments. In particular, the Low Earth Orbit (LEO) region is densely populated and highly contested. This underscores the critical importance of space surveillance in this area. Moreover, the utilization of Medium Earth Orbit (MEO) and Geosynchronous Earth Orbit (GEO) is also on the rise. To ensure the safety and functionality of operational satellites, it is paramount to accurately determine and continuously monitor the orbits of space objects, mitigating the risk of collisions. Precise and timely predictions of future trajectories are essential for this purpose. In response to these challenges, this survey paper provides a comprehensive review of various methods proposed in the literature for Orbit Determination (OD). It also identifies research gaps and suggests potential directions for future studies, emphasizing the pressing need for adequate Space Situational Awareness (SSA).},
+	author = {Sajjad Kazemi and Nasser L. Azad and K. Andrea Scott and Haroon B. Oqab and George B. Dietrich},
+	doi = {https://doi.org/10.1016/j.actaastro.2024.06.015},
+	issn = {0094-5765},
+	journal = {Acta Astronautica},
+	keywords = {Orbit determination, Space situational awareness, Artificial intelligence, Uncertainty propagation},
+	pages = {272-295},
+	title = {Orbit determination for space situational awareness: A survey},
+	url = {https://www.sciencedirect.com/science/article/pii/S0094576524003308},
+	volume = {222},
+	year = {2024},
+	bdsk-url-1 = {https://www.sciencedirect.com/science/article/pii/S0094576524003308},
+	bdsk-url-2 = {https://doi.org/10.1016/j.actaastro.2024.06.015}}
+
+@article{mao2024precise,
+	abstract = {Spaceborne global navigation satellite system (GNSS) has significantly revolutionized the development of autonomous orbit determination techniques for low Earth orbit satellites for decades. Using a state-of-the-art combination of GNSS observations and satellite dynamics, the absolute orbit determination for a single satellite reached a precision of 1 cm. Relative orbit determination (ie, precise baseline determination) for the dual satellites reached a precision of 1 mm. This paper reviews the recent advancements in GNSS products, observation processing, satellite gravitational and non-gravitational force modeling, and precise orbit determination methods. These key aspects have increased the precision of the orbit determination to fulfill the requirements of various scientific objectives. Finally, recommendations are made to further investigate multi-GNSS combinations, satellite high-fidelity geometric models, geometric offset calibration, and comprehensive orbit determination strategies for satellite constellations.},
+	author = {Mao, Xinyuan and Wang, Wenbing and Gao, Yang},
+	journal = {Astrodynamics},
+	pages = {1--26},
+	publisher = {Springer},
+	title = {Precise orbit determination for low Earth orbit satellites using GNSS: Observations, models, and methods},
+	year = {2024}}
+
+@article{montenbruck2002satellite,
+	abstract = {This book is intended to be a ``comprehensive textbook that guides the reader through the theory and practice of satellite orbit prediction and determination.'' This reviewer believes the book does just that. However, it is stated that it is intended for advanced undergraduate or graduate courses, and for professionals on the job. The undergraduate would likely have to struggle with the material presented in the book for two reasons. One is that s/he would not have a sufficient background in all the areas covered, and the other is that a significant amount of material is presented in such a concise form that it does not allow one to pick up the background material from the text. The diligent student, however, could refer to the ample references provided (approximately 320) to fill in the background gaps. The author's focus is on providing material currently being used for orbit prediction and determination. (A good portion of the references are from the 1990s.) There is little, if any, discussion of analytic approaches (such as perturbation techniques) that classically have been applied to such problems. There is an extensive amount of practical information regarding force modeling, measurements and filtering, tracking, reckoning time, and computer algorithms. This information is presented in nine chapters, two appendices, and one CD.},
+	author = {Montenbruck, Oliver and Gill, Eberhard and Lutze, FH},
+	journal = {Appl. Mech. Rev.},
+	number = {2},
+	pages = {B27--B28},
+	title = {Satellite orbits: models, methods, and applications},
+	volume = {55},
+	year = {2002}}
+
+@article{montenbruck2015gnss,
+	abstract = {This article discusses the attitude modes employed by present Global (and Regional) Navigation Satellite Systems (GNSSs) and the models used to describe them along with definitions of the constellation-specific spacecraft body frames. A uniform convention for the labeling of the principal spacecraft axes is proposed by the International GNSS Service (IGS), which results in a common formulation of the nominal attitude of all GNSS satellites in yaw-steering mode irrespective of their specific orbit and constellation. The conventions defined within this document provide the basis for the specification of antenna phase center offsets and variations in a multi-GNSS version of the IGS absolute phase center model in the ANTEX (antenna exchange) format. To facilitate the joint analysis of GNSS observations and satellite laser ranging measurements, laser retroreflector array coordinates consistent with the IGS-specific spacecraft frame conventions are provided in addition to representative antenna offset values for all GNSS constellations.},
+	author = {Montenbruck, Oliver and Schmid, Ralf and Mercier, Flavien and Steigenberger, Peter and Noll, Carey and Fatkulin, Roman and Kogure, Satoshi and Ganeshan, Aiylam S},
+	journal = {Advances in Space Research},
+	number = {6},
+	pages = {1015--1029},
+	publisher = {Elsevier},
+	title = {GNSS satellite geometry and attitude models},
+	volume = {56},
+	year = {2015}}
+
+@article{shi2013precise,
+	abstract = {China completed a basic COMPASS navigation network with three Geostationary and three Inclined Geosynchronous satellites in orbit in April 2011. The network has been able to provide preliminary positioning and navigation functions. We first present a quality analysis using 1-week COMPASS measurements collected in Wuhan. Satellite visibility and validity of measurements, carrier-to-noise density ratio and code noise are analyzed. The analysis of multipath combinations shows that the noise level of COMPASS code measurements is higher than that of GPS collected using the same receiver. Second, the results of positioning are presented and analyzed. For the standalone COMPASS solutions, an accuracy of 20 m can be achieved. An accuracy of 3.0 m for the vertical, 1.5 m for the North and about 0.6--0.8 m for the East component is obtained using dual-frequency code only measurements for a short baseline. More importantly, code and phase measurements of the short baseline are processed together to obtain precise relative positioning. Kinematic solutions are then compared with the ground truth. The precision of COMPASS only solutions is better than 2 cm for the North component and 4 cm for the vertical. The standard deviation of the East component is smaller than 1 cm, which is even better than that of the East component of GPS solutions. The accuracy of GPS/COMPASS combination solutions is at least 20},
+	author = {Shi, Chuang and Zhao, Qile and Hu, Zhigang and Liu, Jingnan},
+	journal = {GPS solutions},
+	pages = {103--119},
+	publisher = {Springer},
+	title = {Precise relative positioning using real tracking data from COMPASS GEO and IGSO satellites},
+	volume = {17},
+	year = {2013}}
+
+@book{swatschina2012dynamic,
+	abstract = {The precise positioning of satellites in Low Earth Orbits (LEO) has become a key technology
+for advanced space missions. Dedicated satellite missions, such as CHAMP, GRACE and
+GOCE, that aim to map the Earth's gravity field and its variation over time with
+unprecedented accuracy, initiated the demand for highly precise orbit solutions of LEO
+satellites. Furthermore, a wide range of additional science opportunities opens up with the
+capability to generate accurate LEO orbits. For all considered satellite missions, the primary
+measurement system for navigation is a spaceborne GPS receiver. The goal of this thesis is to
+establish and implement methods for Precise Orbit Determination (POD) of LEO satellites
+using GPS. Striving for highest precision using yet efficient orbit generation strategies, the
+attained orbit solutions are aimed to be competitive with the most advanced solutions of
+other institutions.
+Dynamic and reduced-dynamic orbit models provide the basic concepts of this work. These
+orbit models are subsequently adjusted to the highly accurate GPS measurements. The GPS
+measurements are introduced at the zero difference level in the ionosphere free linear
+combination. Appropriate procedures for GPS data screening and editing are established to
+detect erroneous data and to employ measurements of good quality only. For the dynamic
+orbit model a sophisticated force model, especially designed for LEO satellites, has been
+developed. In order to overcome the limitations that are induced by the deficiencies of the
+purely dynamical model, two different types of empirical parameters are introduced into the
+force model. These reduced-dynamic orbit models allow for the generation of much longer
+orbital arcs while preserving the spacecraft dynamics to the most possible extent. The two
+methods for reduced-dynamic orbit modeling are instantaneous velocity changes (pulses) or
+piecewise constant accelerations. For both techniques highly efficient modeling algorithms
+are presented. The additional parameters are estimated within the adjustment process. In
+order to regulate their impact on the dynamic solution, the empirical parameters are
+assigned statistical a priori information. This allows for a perfect synergy of the advanced
+knowledge of spacecraft dynamics and the high accuracy of the GPS measurements.
+The developed routines have been implemented in a computer program and tested for
+CHAMP and GRACE. The applied strategies proved to be highly efficient, robust and flexible.
+The attained orbit solutions are validated against solutions of other well-established POD
+methods. It is shown, that dynamic POD delivers accuracies at the 1 dm level for orbital
+lengths of up to 90 minutes. Furthermore, employing an adequate number of pseudostochastic parameters with optimal weighting, reduced-dynamic orbit determination is a
+powerful strategy for LEO POD. Orbital arcs over a whole day can be generated with an
+accuracy of up to 4.5 cm RMS. },
+	author = {Swatschina, Paul},
+	publisher = {Dep. of Geodesy and Geoinformation of the Vienna Univ. of Technology},
+	title = {Dynamic and reduced-dynamic precise orbit determination of satellites in low earth orbits},
+	volume = {89},
+	year = {2012}}
+
+@article{visser2003aiming,
+	abstract = {The computation of high-accuracy orbits is a prerequisite for the success of Low Earth Orbiter (LEO) missions such as CHAMP, GRACE and GOCE. The mission objectives of these satellites cannot be reached without computing orbits with an accuracy at the few cm level. Such a level of accuracy might be achieved with the techniques of reduced-dynamic and kinematic precise orbit determination (POD) assuming continuous Satellite-to-Satellite Tracking (SST) by the Global Positioning System (GPS). Both techniques have reached a high level of maturity and have been successfully applied to missions in the past, for example to TOPEX/POSEIDON (T/P), leading to (sub-)decimeter orbit accuracy. New LEO gravity missions are (to be) equipped with advanced GPS receivers promising to provide very high quality SST observations thereby opening the possibility for computing cm-level accuracy orbits. The computation of orbits at this accuracy level does not only require high-quality GPS receivers, but also advanced and demanding observation preprocessing and correction algorithms. Moreover, sophisticated parameter estimation schemes need to be adapted and extended to allow the computation of such orbits. Finally, reliable methods need to be employed for assessing the orbit quality and providing feedback to the different processing steps in the orbit computation process.},
+	author = {Visser, PNAM and Van Den Ijssel, J},
+	journal = {Space science reviews},
+	pages = {27--36},
+	publisher = {Springer},
+	title = {Aiming at a 1-cm orbit for low earth orbiters: reduced-dynamic and kinematic precise orbit determination},
+	volume = {108},
+	year = {2003}}
+
+@article{du2019novel,
+	abstract = {Transmission link disturbances and device failure cause global navigation satellite system (GNSS) receivers to miss observations, leading to poor accuracy in real-time kinematic (RTK) positioning. Previously described solutions for this problem are influenced by the length of the prediction period, or are unable to account for changes in receiver state because they use information from previous epochs to make predictions. We propose an algorithm for predicting double difference (DD) observations of obstructed BeiDou navigation system (BDS) GEO satellites. Our approach adopts the first-degree polynomial function for predicting missing observations. We introduce a Douglas-Peucker algorithm to judge the state of the rover receiver to reduce the impact of predictive biases. Static and kinematic experiments were carried out on BDS observations to evaluate the proposed algorithm. The results of our navigation experiment demonstrate that RTK positioning accuracy is improved from meter to decimeter level with fixed ambiguity (horizontal $<$ 2 cm, vertical $<$ 18 cm). Horizontal accuracy is improved by over 50\%, and the vertical accuracies of the results of the static and kinematic experiments are increased by 47\% and 27\% respectively, compared with the results produced by the classical approach. Though as the baseline becomes longer, the accuracy is weakened, our predictive algorithm is an improvement over existing approaches to overcome the issue of missing data.},
+	author = {Du, Yuan and Huang, Guanwen and Zhang, Qin and Tu, Rui and Han, Junqiang and Yan, Xingyuan and Wang, Xiaolei},
+	journal = {Advances in space research},
+	number = {5},
+	pages = {1554--1565},
+	publisher = {Elsevier},
+	title = {A novel predictive algorithm for double difference observations of obstructed BeiDou geostationary earth orbit (GEO) satellites},
+	volume = {63},
+	year = {2019}}

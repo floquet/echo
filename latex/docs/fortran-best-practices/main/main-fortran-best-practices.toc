@@ -1,0 +1,391 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Refactoring Strategy}{7}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Options}{7}{subsection.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Clarity and Maintainability}{7}{subsection.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3}Recommendation}{8}{subsection.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.1}Symptoms of Decay}{8}{subsubsection.1.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.2}Modernization Principles}{8}{subsubsection.1.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Overview of the Fortran Code \texttt {acsub.f08}}{9}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Overview of the \texttt {ACSUB} Subroutine}{9}{subsection.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1}Purpose}{9}{subsubsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.2}Inputs and State}{9}{subsubsection.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.3}Structure}{10}{subsubsection.2.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.4}Major Comment Lines}{10}{subsubsection.2.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Use the Compiler to Read the Code}{10}{subsection.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Overview Changes Required For Compilation}{11}{subsection.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Overview of \texttt {m\_ulf.f08}}{11}{subsection.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Refactor Comparison}{12}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Admonition: Never Enter $\pi $ Numerically}{12}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Opening Declarations}{13}{subsection.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.1}Primary Issues}{13}{subsubsection.3.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.2}Before and After}{13}{subsubsection.3.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.3}Key Improvements}{14}{subsubsection.3.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.4}Conclusion}{14}{subsubsection.3.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Best Practices for Procedure Calls}{15}{subsection.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Critique of Output Code}{15}{subsection.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.4.1}Maintainability Issues}{15}{subsubsection.3.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.4.2}Critical Problems}{15}{subsubsection.3.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.4.3}Hidden Costs}{16}{subsubsection.3.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.4.4}Prompt Rewrite}{16}{subsubsection.3.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.4.5}Modern Alternative}{17}{subsubsection.3.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5}\texttt {subroutine jitseed}}{17}{subsection.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.5.1}Primary Issues}{17}{subsubsection.3.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.5.2}Before and After}{17}{subsubsection.3.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.5.3}Key Improvements}{18}{subsubsection.3.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.5.4}Conclusion}{18}{subsubsection.3.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6}Variable and Constant Management in Legacy Fortran}{19}{subsection.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.6.1}Example 1: Variable Reuse and Naming}{19}{subsubsection.3.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.6.2}Example 2: Mathematical Constants}{19}{subsubsection.3.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.6.3}Best Practices}{20}{subsubsection.3.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7}This is an Excel Spreadsheet, Not Fortran}{21}{subsection.3.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.1}Array Access Pattern}{22}{subsubsection.3.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.2}Magic Numbers}{22}{subsubsection.3.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.3}Variable Naming}{22}{subsubsection.3.7.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.4}Structural Issues}{22}{subsubsection.3.7.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.5}Violations of Modern Fortran Principles}{22}{subsubsection.3.7.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.6}An Excel Cradle}{23}{subsubsection.3.7.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.7}Memory Allocation and Deallocation}{23}{subsubsection.3.7.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.8}Crash-on-Contact}{25}{subsubsection.3.7.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Clarifying \texttt {STAT}: Success vs. Truth}{25}{section*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Contiguity Caveat}{26}{section*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.8}Nightmarish Naming Scheme}{27}{subsection.3.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Specific Problems}{28}{section*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Writ Large: Spreadsheet Thinking in Code}{29}{section*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.9}Extreme Cyclomatic Complexity}{29}{subsection.3.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.9.1}Before and After: \texttt {if} Block}{30}{subsubsection.3.9.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.9.2}Key Improvements \texttt {if} Block}{30}{subsubsection.3.9.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.9.3}Before and After: \texttt {if}, Multiple Tests}{31}{subsubsection.3.9.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.9.4}Key Improvements, Multiple Tests}{31}{subsubsection.3.9.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.10}Bit-Brained: The Good, the Bad, and the Hardware}{31}{subsection.3.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.1}Before: Bit Checks Everywhere}{31}{subsubsection.3.10.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.2}After: Encapsulated Flag Access}{32}{subsubsection.3.10.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.3}Flag Toolkit Module}{32}{subsubsection.3.10.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.4}Key Improvements}{33}{subsubsection.3.10.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.5}Hardware Still Welcome}{33}{subsubsection.3.10.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.6}Final Thoughts}{33}{subsubsection.3.10.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.11}Memory Management}{33}{subsection.3.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fortran memory philosophy:}{34}{section*.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{C++ tradeoffs (for comparison):}{34}{section*.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.11.1}Before and After: Mass memory handling}{35}{subsubsection.3.11.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.11.2}Key Improvements}{36}{subsubsection.3.11.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.12}Numerical Comparisons}{37}{subsection.3.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.12.1}Before and After: Comparing \texttt {REAL} Numbers}{38}{subsubsection.3.12.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.12.2}Before and After: Mass memory handling}{38}{subsubsection.3.12.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.12.3}Key Improvements}{39}{subsubsection.3.12.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.13}The Impossibility of Exact Floating-Point Comparisons}{39}{subsection.3.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.14}IEEE Floating-Point Support in Fortran}{40}{subsection.3.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.14.1}Standard Compliance}{40}{subsubsection.3.14.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.14.2}Platform Support}{40}{subsubsection.3.14.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.14.3}Compilation Requirements}{41}{subsubsection.3.14.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.15}Limitations}{41}{subsection.3.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.16}Input and Output}{41}{subsection.3.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fortran memory philosophy:}{41}{section*.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{C++ tradeoffs (for comparison):}{42}{section*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.16.1}Before and After: Mass memory handling}{42}{subsubsection.3.16.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.16.2}Key Improvements}{44}{subsubsection.3.16.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.16.3}Memory Is Automatically Released at Scope Exit}{45}{subsubsection.3.16.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Why it works.}{45}{section*.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What would prevent automatic cleanup?}{45}{section*.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Best practice.}{45}{section*.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Bridge Code}{46}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}The Enigmatic \texttt {l} Array: A Case Study in Bridge Building}{46}{subsection.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1}Why Bridge Code is the Scalpel}{47}{subsubsection.4.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2}The Compromise of Bits}{47}{subsubsection.4.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.3}The Path Forward}{48}{subsubsection.4.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.4}The Fortran Renaissance}{48}{subsubsection.4.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}\texttt {nsize}}{48}{subsection.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1}Principles and Purpose}{48}{subsubsection.4.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2}Original Code}{48}{subsubsection.4.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.3}Bridge Code}{49}{subsubsection.4.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.4}Why It Works}{50}{subsubsection.4.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.5}Conclusion}{50}{subsubsection.4.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.6}Derived Types}{51}{subsubsection.4.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.7}Module}{51}{subsubsection.4.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.8}Use of Fortran}{52}{subsubsection.4.2.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Modernization Principles}{53}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Improvements}{53}{subsection.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Best Practices}{53}{subsection.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Embrace \texttt {module}}{53}{subsection.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.3.1}\texttt {dimension} attribute}{53}{subsubsection.5.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.3.2}\texttt {iso\_fortran\_env}}{54}{subsubsection.5.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4}\texttt {implicit none}}{54}{subsection.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5}\texttt {move\_alloc}}{54}{subsection.5.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.5.1}\texttt {norm2}}{55}{subsubsection.5.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.5.2}\texttt {private} and \texttt {public}}{55}{subsubsection.5.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.5.3}\texttt {use} with \texttt {only}}{55}{subsubsection.5.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6}\texttt {-Wunused-variable}}{55}{subsection.5.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.7}Flags}{56}{subsection.5.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.7.1}-Wuse-without-only}{56}{subsubsection.5.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.8}Language Updates}{56}{subsection.5.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.8.1}\texttt {newunit} \cite [276]{metcalf2024modern}}{56}{subsubsection.5.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.8.2}Standard I/O Units via \texttt {iso\_fortran\_env}}{57}{subsubsection.5.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Why This Matters:}{57}{section*.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Recommendation:}{57}{section*.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.8.3}Derived Types}{57}{subsubsection.5.8.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.8.4}Hidden Semantic Meaning: \texttt {call subps}}{58}{subsubsection.5.8.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.8.5}Best Practices for Procedure Calls}{59}{subsubsection.5.8.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.8.6}Precision in Modern Fortran}{60}{subsubsection.5.8.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Precision-aware functions.}{60}{section*.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Precision control.}{60}{section*.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Portability.}{60}{section*.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Obsolete syntax.}{60}{section*.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Precision checking flags.}{60}{section*.24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Precision warning:}{61}{section*.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Conclusion:}{61}{section*.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.8.7}Modules and Submodules}{61}{subsubsection.5.8.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.8.8}Paean to Portibility}{62}{subsubsection.5.8.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.9}Effective Use of Language Features}{63}{subsection.5.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.9.1}Reduction Functions: Expressive, Efficient, and Safe}{63}{subsubsection.5.9.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.9.2}Troublesome Application of \texttt {any(...)}}{63}{subsubsection.5.9.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.9.3}Fortran Best Practices}{64}{subsubsection.5.9.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.9.4}Vector Computing}{65}{subsubsection.5.9.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.9.5}Native Parallelism with Coarrays and Teams}{65}{subsubsection.5.9.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.9.6}Preparing for Parallel Computing}{66}{subsubsection.5.9.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.9.7}Modern Tools for Scientific Code Development}{67}{subsubsection.5.9.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.9.8}The Gospel of Portability}{67}{subsubsection.5.9.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Compilation Flags: A Simple Linter}{68}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Compilation Flags}{68}{subsection.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Assessment of Compiler Warnings}{69}{subsection.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.2.1}Manifestation of Stack-to-Static Promotion Warnings}{70}{subsubsection.6.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.2.2}Implications of Implicit Reallocation on Assignment}{70}{subsubsection.6.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.2.3}Dangers of Sloppy Lifetime Management for Allocatable Arrays}{71}{subsubsection.6.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.2.4}Precision Pandemonium}{71}{subsubsection.6.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3}Using a Fortran Linter on Legacy Code}{72}{subsection.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.3.1}What a Linter Can Do}{72}{subsubsection.6.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.3.2}What a Linter Cannot Do}{73}{subsubsection.6.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.3.3}Tools Worth Trying}{73}{subsubsection.6.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.3.4}Other Fortran Websites}{73}{subsubsection.6.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.3.5}Summary}{74}{subsubsection.6.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Connecting with C++}{74}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1}Philosophical Differences: Fortran and \ C++}{74}{subsection.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2}Memory Management and Parallelism in Fortran and C++}{76}{subsection.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.3}Memory Management in Fortran and C++}{77}{subsection.A.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.4}C++ Equivalents}{77}{subsection.A.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.4.1}\texttt {merge} equivalent}{77}{subsubsection.A.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.4.2}Using \texttt {std::transform}}{78}{subsubsection.A.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.4.3}With SIMD}{78}{subsubsection.A.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}Fortran Commands and Principles}{78}{appendix.B}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1}Vector Commands}{78}{subsection.B.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.1.1}\href {https://gcc.gnu.org/onlinedocs/gfortran/ANY.html}{\texttt {ANY}}}{78}{subsubsection.B.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.1.2}\href {https://gcc.gnu.org/onlinedocs/gfortran/MATMUL.html}{\texttt {MATMUL}}}{79}{subsubsection.B.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.1.3}\href {https://gcc.gnu.org/onlinedocs/gfortran/MERGE.html}{\texttt {MERGE}}}{79}{subsubsection.B.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.1.4}\href {https://gcc.gnu.org/onlinedocs/gfortran/SUM.html}{\texttt {SUM}}}{79}{subsubsection.B.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.2}Numeric Tools}{80}{subsection.B.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.2.1}\href {https://gcc.gnu.org/onlinedocs/gfortran/EPSILON.html}{\texttt {EPSILON}}}{80}{subsubsection.B.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.2.2}\href {https://gcc.gnu.org/onlinedocs/gfortran/HUGE.html}{\texttt {HUGE}}}{80}{subsubsection.B.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.2.3}\href {https://gcc.gnu.org/onlinedocs/gfortran/TINY.html}{\texttt {TINY}}}{80}{subsubsection.B.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.3}Memory Manipulation Commands}{81}{subsection.B.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.3.1}\texttt {ALLOCATE}}{81}{subsubsection.B.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.3.2}\texttt {DEALLOCATE}}{81}{subsubsection.B.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.3.3}\texttt {MOVE\_ALLOC}}{82}{subsubsection.B.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C}Compiler Flags}{82}{appendix.C}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.1}Warning Flags (\texttt {\$Wflags})}{82}{subsection.C.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.2}Runtime and Semantic Flags (\texttt {\$fflags})}{83}{subsection.C.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.3}General/Optimization Flags (\texttt {\$oflags})}{83}{subsection.C.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D}Precision and Linter Strategy}{84}{appendix.D}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.1}Precision}{84}{subsection.D.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {D.1.1}ISO Fortran and Portable Precision}{84}{subsubsection.D.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {D.1.2}Controlling Real Precision with a Single Definition}{84}{subsubsection.D.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.2}Using a Fortran Linter on Legacy Code}{85}{subsection.D.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {D.2.1}What a Linter Can Do}{85}{subsubsection.D.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {D.2.2}What a Linter Cannot Do}{85}{subsubsection.D.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {D.2.3}Summary}{86}{subsubsection.D.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E}Rustic Linter - Full Results From Compiling With Flags}{86}{appendix.E}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.1}\texttt {oflags}}{86}{subsection.E.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.2}\texttt {fflags}}{86}{subsection.E.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.3}\texttt {Wflags}}{87}{subsection.E.3}%

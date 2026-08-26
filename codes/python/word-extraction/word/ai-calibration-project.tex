@@ -1,0 +1,1238 @@
+\documentclass[11pt]{report}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{microtype}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue,
+  citecolor=blue,
+  pdftitle={AI Calibration Project},
+  pdfauthor={Daniel M. Topa}
+}
+
+\setlist[itemize]{topsep=4pt,itemsep=2pt,parsep=2pt}
+\setlist[enumerate]{topsep=4pt,itemsep=2pt,parsep=2pt}
+
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\Tcal}{\mathcal{T}}
+\newcommand{\Ical}{\mathcal{I}}
+\newcommand{\Ecal}{\mathcal{E}}
+
+\title{\textbf{AI Calibration Project}\\
+\large Experimental Design, Provenance, Hallucination Tracking, and Traceability}
+\author{Daniel M. Topa}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\chapter{Purpose and Scope}
+
+The purpose of this project is to use a fixed calibration corpus to probe the behavior of an AI analysis pipeline as its training history, prompt configuration, input evidence, and inference settings change.
+
+The central objective is not merely to determine whether training improves an aggregate score. The project is intended to determine whether training changes the model's behavioral trajectory, whether those changes are reproducible, whether training order matters, whether prompts alter the character of the analysis, and whether every substantive conclusion can be traced back to objective evidence.
+
+The project therefore treats AI behavior as an experimental subject. Each run is regarded as a controlled experiment whose complete input configuration is bound to its output through persistent identifiers, content hashes, provenance records, and immutable run metadata.
+
+The calibration corpus is used as a probe. It should remain fixed and should ideally be excluded from all training activity. The same calibration cases are applied repeatedly to different model states, prompt versions, training sequences, and inference configurations. This makes it possible to characterize how the system changes over time and to isolate the sources of variation.
+
+\chapter{Core Notation}
+
+It is useful to distinguish model states, training datasets, prompts, source documents, calibration cases, and inference settings.
+
+\section{Model State}
+
+Let
+\[
+M_k
+\]
+denote the model state after the $k$th training event or model modification.
+
+The unmodified initial model is
+\[
+M_0.
+\]
+
+\section{Training Datasets}
+
+Let
+\[
+T_k
+\]
+denote the $k$th training dataset.
+
+The original notation
+\[
+S_0 \cup S_1 \cup S_2
+\]
+is not sufficient for expressing sequential training behavior because set union is commutative by definition:
+\[
+S_0 \cup S_1 \cup S_2
+=
+S_0 \cup S_2 \cup S_1.
+\]
+
+The scientifically meaningful question is not whether the sets are equal, but whether the training process is order-independent.
+
+\section{Prompts}
+
+Let
+\[
+P_0,P_1,P_2,\ldots
+\]
+denote prompt or instruction configurations.
+
+A prompt configuration should include all system instructions, task instructions, rubrics, examples, formatting constraints, evidence requirements, and other text that may influence the model's response.
+
+\section{Input Documents and Data Sheets}
+
+Let
+\[
+D_1,D_2,D_3,\ldots
+\]
+denote source documents, forms, data sheets, or other input evidence supplied to the pipeline.
+
+\section{Calibration Corpus}
+
+Let
+\[
+C
+\]
+denote the fixed calibration corpus.
+
+The calibration corpus may contain multiple calibration cases:
+\[
+C=\{C_1,C_2,\ldots,C_n\}.
+\]
+
+Each case should have known or adjudicated reference information, including expected findings, ratings, supporting evidence, and known ambiguities.
+
+\section{Inference Configuration}
+
+Let
+\[
+\phi_r
+\]
+denote the inference configuration associated with run $r$.
+
+The inference configuration may include:
+
+\begin{itemize}
+  \item temperature;
+  \item random seed;
+  \item top-$p$ or other decoding parameters;
+  \item retrieval settings;
+  \item chunking method;
+  \item context-window policy;
+  \item model parameters;
+  \item tool configuration;
+  \item embedding model;
+  \item vector-database configuration;
+  \item evidence-ranking method;
+  \item stopping criteria;
+  \item output schema.
+\end{itemize}
+
+\chapter{Training as an Ordered Operation}
+
+\section{Training Operator}
+
+Let
+\[
+\Tcal(M,T,P,\theta)
+\]
+mean ``apply training procedure $\Tcal$ to model $M$, using training dataset $T$, prompt or instruction configuration $P$, and training parameters $\theta$.''
+
+Sequential training on $T_1$ followed by $T_2$ is:
+
+\[
+M_{12}
+=
+\Tcal\left(
+    \Tcal(M_0,T_1,P_1,\theta_1),
+    T_2,P_2,\theta_2
+\right).
+\]
+
+The reversed sequence is:
+
+\[
+M_{21}
+=
+\Tcal\left(
+    \Tcal(M_0,T_2,P_2,\theta_2),
+    T_1,P_1,\theta_1
+\right).
+\]
+
+The experimental question is:
+
+\[
+M_{12}\stackrel{?}{\approx}M_{21}.
+\]
+
+In general, one should expect:
+
+\[
+M_{12}\ne M_{21}.
+\]
+
+Training is path-dependent. The second dataset may reinforce, overwrite, distort, or partially erase behavior induced by the first dataset.
+
+\section{Behavioral Effects of Training Order}
+
+Training-order experiments can reveal:
+
+\begin{itemize}
+  \item order dependence;
+  \item catastrophic forgetting;
+  \item positive transfer;
+  \item negative transfer;
+  \item interaction between datasets;
+  \item sensitivity to prompt formulation;
+  \item sensitivity to random initialization;
+  \item sensitivity to sampling and decoding;
+  \item recovery or degradation after repeated exposure.
+\end{itemize}
+
+\section{Model States to Compare}
+
+For two training datasets, the following model states should be treated as distinct experiments:
+
+\[
+M_0,
+\]
+
+\[
+M_1=\Tcal(M_0,T_1),
+\]
+
+\[
+M_2=\Tcal(M_0,T_2),
+\]
+
+\[
+M_{12}=\Tcal\bigl(\Tcal(M_0,T_1),T_2\bigr),
+\]
+
+\[
+M_{21}=\Tcal\bigl(\Tcal(M_0,T_2),T_1\bigr),
+\]
+
+and
+
+\[
+M_{1\cup 2}=\Tcal(M_0,T_1\cup T_2).
+\]
+
+The final three are not equivalent:
+
+\[
+M_{12},\qquad M_{21},\qquad M_{1\cup2}.
+\]
+
+They distinguish:
+
+\begin{itemize}
+  \item sequential order effects;
+  \item joint-training effects;
+  \item simple dataset-content effects.
+\end{itemize}
+
+Repeated exposure may also be tested. For example,
+
+\[
+M_{121}
+=
+\Tcal\left(
+\Tcal\left(
+\Tcal(M_0,T_1),T_2
+\right),T_1
+\right).
+\]
+
+This tests whether returning to $T_1$ restores earlier behavior, reinforces it, or causes further distortion.
+
+\section{Ordered Training Sequence}
+
+Let the ordered training sequence be
+
+\[
+\mathcal{S}=(T_1,T_2,\ldots,T_k).
+\]
+
+The order is part of the experimental object. Therefore,
+
+\[
+(T_1,T_2)\ne(T_2,T_1),
+\]
+
+even though
+
+\[
+T_1\cup T_2=T_2\cup T_1.
+\]
+
+This distinction is the conceptual center of the experimental design.
+
+\chapter{Inference Runs}
+
+An inference run may be represented as
+
+\[
+Y_r
+=
+\Ical(M_k,P_j,D_i,\phi_r),
+\]
+
+where:
+
+\begin{itemize}
+  \item $M_k$ is the model state;
+  \item $P_j$ is the prompt configuration;
+  \item $D_i$ is the source document or data sheet;
+  \item $\phi_r$ is the inference configuration;
+  \item $Y_r$ is the resulting output.
+\end{itemize}
+
+This separates:
+
+\begin{itemize}
+  \item what the model has learned;
+  \item what instructions it receives;
+  \item what evidence it sees;
+  \item how inference is performed.
+\end{itemize}
+
+\chapter{Calibration as a Behavioral Probe}
+
+\section{Fixed Calibration Evaluation}
+
+For each model state $M_k$, evaluate the same calibration corpus:
+
+\[
+E_k
+=
+\Ecal(M_k,C,P_0).
+\]
+
+The change from one model state to another may be represented as:
+
+\[
+\Delta E_k=E_k-E_{k-1}.
+\]
+
+A single aggregate score is insufficient. It can conceal important changes in behavior. Results should be retained at the level of model state, calibration case, and measured property:
+
+\[
+E_{k,i,j},
+\]
+
+where:
+
+\begin{itemize}
+  \item $k$ identifies the model state;
+  \item $i$ identifies the calibration case;
+  \item $j$ identifies the behavior being measured.
+\end{itemize}
+
+\section{Behavioral Dimensions}
+
+The calibration process should measure multiple dimensions, including:
+
+\begin{itemize}
+  \item rating correctness;
+  \item evidence selection;
+  \item factual support;
+  \item traceability;
+  \item omission rate;
+  \item contradiction rate;
+  \item unsupported-claim rate;
+  \item calibration of confidence;
+  \item stability across repeated runs;
+  \item sensitivity to prompt wording;
+  \item sensitivity to model choice;
+  \item sensitivity to training order;
+  \item human--machine agreement;
+  \item consistency of attribution;
+  \item consistency of extracted evidence;
+  \item stability of generated themes.
+\end{itemize}
+
+The resulting set of measurements forms a behavioral fingerprint for each model state.
+
+\chapter{Factorial Experimental Design}
+
+The complete system may be expressed as:
+
+\[
+Y=f(M,T,P,D,R),
+\]
+
+where:
+
+\begin{itemize}
+  \item $M$ is the initial model or model family;
+  \item $T$ is the ordered training sequence;
+  \item $P$ is the prompt configuration;
+  \item $D$ is the input document or calibration case;
+  \item $R$ is the replicated inference run.
+\end{itemize}
+
+A broader formulation is:
+
+\[
+B=f(M_0,\mathcal{S},P,D,\phi),
+\]
+
+where $B$ denotes observed behavior and $\mathcal{S}$ denotes the ordered training sequence.
+
+A full experimental campaign may vary:
+
+\begin{itemize}
+  \item initial model;
+  \item model revision;
+  \item training dataset;
+  \item training order;
+  \item joint versus sequential training;
+  \item repeated exposure;
+  \item prompt version;
+  \item evidence supplied;
+  \item retrieval strategy;
+  \item chunking strategy;
+  \item temperature;
+  \item random seed;
+  \item model context;
+  \item output format;
+  \item post-processing rules.
+\end{itemize}
+
+\chapter{Persistent Identity and Provenance}
+
+\section{UUIDs}
+
+Universally unique identifiers should identify objects, not merely files.
+
+Recommended identifiers include:
+
+\begin{verbatim}
+model_uuid
+model_state_uuid
+training_dataset_uuid
+training_event_uuid
+prompt_uuid
+document_uuid
+passage_uuid
+calibration_case_uuid
+run_uuid
+output_uuid
+claim_uuid
+evidence_link_uuid
+finding_uuid
+assessment_uuid
+review_uuid
+reviewer_uuid
+pipeline_version_uuid
+environment_uuid
+retrieval_config_uuid
+\end{verbatim}
+
+The \code{run\_uuid} should bind one complete execution configuration to its output.
+
+For example:
+
+\begin{verbatim}
+run_uuid
+    model_state_uuid
+    prompt_uuid
+    document_uuid
+    calibration_case_uuid
+    retrieval_config_uuid
+    pipeline_version_uuid
+    environment_uuid
+    random_seed
+    decoding_parameters
+    timestamp
+    output_uuid
+\end{verbatim}
+
+\section{UUIDs and Content Hashes}
+
+A UUID establishes identity. A cryptographic hash establishes content integrity.
+
+For example:
+
+\begin{verbatim}
+prompt_uuid
+prompt_sha256
+\end{verbatim}
+
+The UUID means:
+
+\begin{quote}
+This is the object identified as Prompt 17.
+\end{quote}
+
+The hash means:
+
+\begin{quote}
+These are exactly the bytes used in Prompt 17.
+\end{quote}
+
+Both should be stored. A UUID alone cannot prove that content has not been edited or accidentally replaced.
+
+Recommended hashes include:
+
+\begin{verbatim}
+model_weights_sha256
+training_dataset_sha256
+prompt_sha256
+document_sha256
+pipeline_configuration_sha256
+source_corpus_sha256
+output_sha256
+environment_manifest_sha256
+\end{verbatim}
+
+\section{Immutable Runs}
+
+Results should not be updated in place.
+
+Each execution should create a new immutable run containing:
+
+\begin{itemize}
+  \item a unique run UUID;
+  \item source hashes;
+  \item model-state UUID;
+  \item prompt UUID;
+  \item configuration hashes;
+  \item software provenance;
+  \item parent run, when applicable;
+  \item timestamps;
+  \item complete intermediate outputs;
+  \item final outputs;
+  \item evaluation results.
+\end{itemize}
+
+A run record may contain:
+
+\begin{verbatim}
+run_uuid: R-20260806-00017
+parent_run_uuid: R-20260805-00009
+change_reason: Revised duration-basis prompt
+\end{verbatim}
+
+A separate pointer may identify the currently approved run:
+
+\begin{verbatim}
+/current/approved_run_uuid
+\end{verbatim}
+
+This pointer should refer to an immutable run rather than replace or overwrite it.
+
+\chapter{Model Lineage}
+
+Every trained model state should identify its parent and the training event that produced it.
+
+\begin{verbatim}
+model_state_uuid
+parent_model_state_uuid
+training_event_uuid
+training_dataset_uuid
+training_code_commit
+training_configuration_hash
+resulting_weights_hash
+\end{verbatim}
+
+The resulting lineage forms a directed acyclic graph:
+
+\begin{verbatim}
+M0
+|-- M1          trained on T1
+|   `-- M12     then trained on T2
+|
+`-- M2          trained on T2
+    `-- M21     then trained on T1
+\end{verbatim}
+
+This allows queries such as:
+
+\begin{itemize}
+  \item Which model states descend from $M_0$ through training dataset $T_1$?
+  \item Which outputs were generated from a state whose most recent training event used $T_2$?
+  \item Which model states share the same parent?
+  \item Which training sequence produced the lowest unsupported-claim rate?
+  \item Did a later training event restore or erase earlier behavior?
+\end{itemize}
+
+\chapter{Prompt Lineage}
+
+Prompts should be immutable, versioned objects with explicit lineage.
+
+A prompt record may contain:
+
+\begin{verbatim}
+prompt_uuid
+parent_prompt_uuid
+prompt_text
+prompt_hash
+change_reason
+author
+created_at
+\end{verbatim}
+
+Prompt lineage may be represented as:
+
+\begin{verbatim}
+P0
+|-- P1: added evidence citation requirement
+|-- P2: added confidence rubric
+`-- P3: prohibited unsupported inference
+\end{verbatim}
+
+Prompt experiments may reveal tradeoffs such as:
+
+\[
+P_1:
+\quad
+\text{lower unsupported claims, higher omission rate},
+\]
+
+and
+
+\[
+P_2:
+\quad
+\text{better rating calibration, greater verbosity}.
+\]
+
+This converts prompt engineering from informal wording adjustment into an empirical discipline.
+
+\chapter{Hallucination Tracking}
+
+\section{Operational Definition}
+
+Hallucination should not be represented only as a single Boolean value.
+
+A statement such as
+
+\begin{verbatim}
+hallucination = true
+\end{verbatim}
+
+is too coarse to support diagnosis, comparison, or corrective action.
+
+Each substantive output should be decomposed into atomic claims. Every claim should be classified according to its relationship to the available evidence.
+
+A claim record may include:
+
+\begin{verbatim}
+claim_uuid
+output_uuid
+claim_text
+claim_type
+support_status
+supporting_passage_uuids
+contradicting_passage_uuids
+review_status
+reviewer_uuid
+\end{verbatim}
+
+\section{Support Categories}
+
+Recommended support categories include:
+
+\begin{verbatim}
+DIRECTLY_SUPPORTED
+SUPPORTED_BY_INFERENCE
+PARTIALLY_SUPPORTED
+UNSUPPORTED
+CONTRADICTED
+NOT_VERIFIABLE
+\end{verbatim}
+
+These categories distinguish direct evidence from reasonable inference and separate unsupported material from material that is contradicted by the source.
+
+\section{Failure Taxonomy}
+
+The term hallucination includes several distinct failure modes.
+
+\subsection{Fabrication}
+
+The output introduces information that is absent from the evidence.
+
+\subsection{Contradiction}
+
+The output conflicts with the available evidence.
+
+\subsection{Overstatement}
+
+The evidence supports a limited statement, but the output strengthens it beyond what the source justifies.
+
+For example, the evidence may support ``partially developed,'' while the output states ``fully mature.''
+
+\subsection{Attribution Error}
+
+A statement belonging to one participant, product element, organization, or document is assigned to another.
+
+\subsection{Traceability Failure}
+
+A conclusion may be plausible, but the cited passage does not actually support it.
+
+\subsection{Unsupported Synthesis}
+
+Multiple facts may be present individually, but the model invents a relationship among them that the evidence does not establish.
+
+\subsection{Omission-Induced Distortion}
+
+The model omits qualifying, conflicting, or limiting evidence and thereby produces a misleading summary.
+
+\subsection{Entity Confusion}
+
+The model merges separate participants, systems, products, schedules, or review areas.
+
+\subsection{Temporal Confusion}
+
+The model attributes a fact, finding, or status to the wrong time period or model state.
+
+\subsection{False Precision}
+
+The model supplies unsupported numerical values, confidence levels, dates, rankings, or causal statements.
+
+These failure classes should be tracked separately rather than collapsed into a single aggregate hallucination count.
+
+\chapter{Claim-to-Evidence Traceability}
+
+The strongest traceability mechanism is a graph connecting source evidence to final assessments:
+
+\[
+\text{Document}
+\rightarrow
+\text{Passage}
+\rightarrow
+\text{Evidence Item}
+\rightarrow
+\text{Claim}
+\rightarrow
+\text{Finding}
+\rightarrow
+\text{Assessment}.
+\]
+
+A traceability chain may include:
+
+\begin{verbatim}
+document_uuid: D-17
+passage_uuid: P-416
+claim_uuid: C-88
+finding_uuid: F-12
+assessment_uuid: A-3
+\end{verbatim}
+
+Every generated assessment should include:
+
+\begin{verbatim}
+assessment_text
+assessment_rating
+supporting_claim_uuids
+supporting_passage_uuids
+prompt_uuid
+model_state_uuid
+run_uuid
+\end{verbatim}
+
+A reviewer should be able to move backward from a conclusion such as
+
+\begin{quote}
+Cross-product integration confidence: Low
+\end{quote}
+
+to:
+
+\begin{itemize}
+  \item the generated assessment;
+  \item the findings supporting the assessment;
+  \item the atomic claims underlying those findings;
+  \item the exact source passages;
+  \item the source page;
+  \item the original bounding box;
+  \item the original document image;
+  \item the prompt used;
+  \item the model state;
+  \item the complete run configuration.
+\end{itemize}
+
+This is audit-grade traceability.
+
+\chapter{Quantitative Traceability Metrics}
+
+Traceability should be measured, not merely asserted.
+
+\section{Evidence Coverage}
+
+\[
+\text{Coverage}
+=
+\frac{\text{supported substantive claims}}
+     {\text{all substantive claims}}.
+\]
+
+\section{Citation Precision}
+
+\[
+\text{Citation Precision}
+=
+\frac{\text{citations that genuinely support the claim}}
+     {\text{all citations}}.
+\]
+
+\section{Evidence Recall}
+
+\[
+\text{Evidence Recall}
+=
+\frac{\text{relevant evidence cited}}
+     {\text{relevant evidence available}}.
+\]
+
+\section{Attribution Accuracy}
+
+\[
+\text{Attribution Accuracy}
+=
+\frac{\text{correct entity assignments}}
+     {\text{all entity assignments}}.
+\]
+
+\section{Unsupported-Claim Rate}
+
+\[
+H_u
+=
+\frac{\text{unsupported claims}}
+     {\text{all claims}}.
+\]
+
+\section{Contradiction Rate}
+
+\[
+H_c
+=
+\frac{\text{contradicted claims}}
+     {\text{all claims}}.
+\]
+
+\section{Omission Rate}
+
+\[
+H_o
+=
+\frac{\text{material reference facts omitted}}
+     {\text{material reference facts available}}.
+\]
+
+\section{Traceability Completeness}
+
+\[
+T_c
+=
+\frac{\text{claims with complete source lineage}}
+     {\text{all substantive claims}}.
+\]
+
+The term hallucination rate should be used cautiously. A failure taxonomy is more informative because it reveals the nature and source of the error.
+
+\chapter{Repeated Runs and Behavioral Stability}
+
+Even when the model state, prompt, and input document are fixed, repeated runs should be performed:
+
+\[
+Y_{kji1},
+Y_{kji2},
+\ldots,
+Y_{kjiR}.
+\]
+
+Repeated runs reveal:
+
+\begin{itemize}
+  \item whether ratings change;
+  \item whether evidence citations change;
+  \item whether atomic claims change;
+  \item whether unsupported claims appear intermittently;
+  \item whether contradictions are stable or sporadic;
+  \item whether confidence tracks actual stability;
+  \item whether the same conclusion is reached through different evidence;
+  \item whether narrative wording is unstable while the underlying finding remains stable.
+\end{itemize}
+
+A representative stability report might be:
+
+\begin{verbatim}
+Rating agreement:        95%
+Evidence-set agreement:  61%
+Narrative similarity:    48%
+Unsupported-claim rate:   3%
+\end{verbatim}
+
+Such a result would indicate that the model reaches a stable rating while relying on a comparatively unstable set of evidence. That is more informative than simply stating that the outputs appear consistent.
+
+\section{Evidence-Set Similarity}
+
+Let $E_a$ and $E_b$ denote the sets of passages cited by two runs.
+
+Their Jaccard similarity is:
+
+\[
+J(E_a,E_b)
+=
+\frac{|E_a\cap E_b|}
+     {|E_a\cup E_b|}.
+\]
+
+This can be used to measure how consistently the model selects evidence.
+
+\section{Claim-Set Similarity}
+
+A similar measure can be applied to atomic claim sets:
+
+\[
+J(C_a,C_b)
+=
+\frac{|C_a\cap C_b|}
+     {|C_a\cup C_b|}.
+\]
+
+\section{Rating Stability}
+
+For categorical ratings, stability may be represented as the proportion of replicated runs producing the modal rating.
+
+\[
+S_R
+=
+\frac{\text{number of runs producing the modal rating}}
+     {\text{total replicated runs}}.
+\]
+
+\chapter{Tracking Variation by Pipeline Stage}
+
+The pipeline should preserve intermediate products so that uncertainty can be localized.
+
+\[
+\text{Source Document}
+\rightarrow
+\text{Extracted Text}
+\rightarrow
+\text{Normalized Passages}
+\rightarrow
+\text{Retrieved Evidence}
+\rightarrow
+\text{Classified Findings}
+\rightarrow
+\text{Rating}
+\rightarrow
+\text{Narrative}.
+\]
+
+Variation should be tracked independently at each layer:
+
+\begin{itemize}
+  \item extraction variation;
+  \item normalization variation;
+  \item chunking variation;
+  \item retrieval variation;
+  \item evidence-selection variation;
+  \item claim-generation variation;
+  \item classification variation;
+  \item rating variation;
+  \item narrative variation.
+\end{itemize}
+
+This permits investigation of questions such as:
+
+\begin{itemize}
+  \item Is instability introduced during OCR?
+  \item Does chunking alter which evidence is retrieved?
+  \item Does retrieval stabilize while narrative generation remains variable?
+  \item Does a model produce the same rating from different evidence?
+  \item Does a prompt improve traceability while reducing evidence recall?
+  \item Does training reduce unsupported claims but increase omissions?
+\end{itemize}
+
+\chapter{HDF5 as the Experimental Store}
+
+HDF5 is well suited to storing dense analytical products, repeated-run data, embeddings, probability vectors, and claim--evidence matrices.
+
+A possible organization is:
+
+\begin{verbatim}
+/experiments/{experiment_uuid}/
+    model_states
+    training_sequences
+    prompts
+    documents
+    calibration_cases
+    runs
+    ratings
+    confidence_vectors
+    embeddings
+    claim_support_matrices
+    evidence_selection_matrices
+    repeated_run_metrics
+\end{verbatim}
+
+\section{Claim-Support Matrix}
+
+A claim-support matrix may be defined as:
+
+\[
+A_{r,c}
+=
+\begin{cases}
+1, & \text{if run } r \text{ supports claim } c,\\
+0, & \text{otherwise}.
+\end{cases}
+\]
+
+\section{Evidence-Selection Matrix}
+
+An evidence-selection matrix may be defined as:
+
+\[
+E_{r,p}
+=
+\begin{cases}
+1, & \text{if run } r \text{ cites passage } p,\\
+0, & \text{otherwise}.
+\end{cases}
+\]
+
+These matrices allow direct comparison of evidence selection, claim generation, and support patterns across runs.
+
+\section{Recommended HDF5 Content}
+
+HDF5 is particularly appropriate for:
+
+\begin{itemize}
+  \item embeddings;
+  \item token-level scores;
+  \item probability vectors;
+  \item repeated-run numerical results;
+  \item confidence vectors;
+  \item large structured payloads;
+  \item evidence-selection matrices;
+  \item claim-support matrices;
+  \item model comparison arrays;
+  \item calibration response tensors.
+\end{itemize}
+
+\chapter{Hybrid Storage Architecture}
+
+HDF5 should not be the sole storage mechanism.
+
+A relational catalog is preferable for UUID relationships, metadata queries, lineage searches, and joins. A practical architecture is:
+
+\begin{verbatim}
+Raw documents
+    Original DOCX/PDF/image files
+
+SQLite or DuckDB catalog
+    Participants
+    Documents
+    Passages
+    Calibration cases
+    Runs
+    Relationships
+    Ratings
+    Findings index
+    Claims
+    Reviews
+    Provenance summary
+
+HDF5 analytical store
+    Extracted arrays
+    Embeddings
+    Token-level outputs
+    Model scores
+    Repeated-run results
+    Large structured payloads
+
+JSON sidecars
+    Human-readable run manifests
+    Configuration
+    Prompt templates
+    Schema definitions
+\end{verbatim}
+
+A useful division of responsibility is shown in Table~\ref{tab:storage}.
+
+\begin{longtable}{p{0.38\textwidth}p{0.5\textwidth}}
+\caption{Recommended storage by information type}
+\label{tab:storage}\\
+\toprule
+\textbf{Information} & \textbf{Preferred Storage}\\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{Information} & \textbf{Preferred Storage}\\
+\midrule
+\endhead
+
+Original forms & Native files\\
+Stable identifiers and relationships & SQLite or DuckDB\\
+Extracted text passages & SQLite, Parquet, or both\\
+Embeddings & HDF5\\
+Token probabilities and dense arrays & HDF5\\
+Ratings and findings & SQLite or DuckDB\\
+Repeated-run numerical results & HDF5\\
+Prompt text and configuration & JSON plus hashes\\
+Human review decisions & SQLite or DuckDB\\
+Large run snapshots & HDF5\\
+\bottomrule
+\end{longtable}
+
+\chapter{File Organization}
+
+A single enormous HDF5 file should be avoided initially.
+
+A safer organization is:
+
+\begin{verbatim}
+corpus/
+    catalog.sqlite
+
+runs/
+    2026/
+        08/
+            run-R000001.h5
+            run-R000002.h5
+            run-R000003.h5
+
+manifests/
+    run-R000001.json
+    run-R000002.json
+\end{verbatim}
+
+One HDF5 file per run, batch, or experimental campaign provides:
+
+\begin{itemize}
+  \item simpler recovery;
+  \item easier archival;
+  \item reduced write contention;
+  \item clear immutability;
+  \item easier movement between systems;
+  \item reduced risk from corruption.
+\end{itemize}
+
+The relational catalog records where each run file is located.
+
+\chapter{Participant and Entity Tracking}
+
+Participants, reviewers, contractors, organizations, and product elements should be represented through stable identifiers.
+
+A participant record may include:
+
+\begin{verbatim}
+participant_uuid
+organization_uuid
+role_code
+product_element_uuid
+function_code
+review_session_uuid
+\end{verbatim}
+
+Personally identifying information should not be repeated throughout the analytical datasets.
+
+Instead of storing a person's name in every result, use:
+
+\begin{verbatim}
+participant_uuid = PERSON-0042
+\end{verbatim}
+
+Any mapping between identifiers and personal information should be maintained separately with stricter access control.
+
+HDF5 should not be treated as an access-control system. Once a user can read the file, internal groups do not provide meaningful row-level confidentiality.
+
+\chapter{Questions the Project Can Answer}
+
+The proposed architecture supports questions that ordinary document storage cannot answer cleanly.
+
+\begin{itemize}
+  \item How stable is the confidence rating across prompt formulations?
+  \item Which participants produce the greatest analytical uncertainty?
+  \item Which assessment areas are most model-sensitive?
+  \item Does evidence selection stabilize before narrative wording stabilizes?
+  \item Does a model change alter conclusions or merely prose?
+  \item Which human reviewers systematically disagree with the pipeline?
+  \item Are low-confidence assessments driven by missing evidence or conflicting evidence?
+  \item How much variation is introduced by OCR, classification, retrieval, and generation separately?
+  \item Does training order alter the model's findings?
+  \item Does joint training behave differently from sequential training?
+  \item Does repeated exposure restore earlier behavior or amplify later behavior?
+  \item Which prompt version minimizes unsupported claims?
+  \item Which prompt version maximizes evidence recall?
+  \item Are citations stable even when the narrative changes?
+  \item Are ratings stable when the supporting evidence is unstable?
+  \item Which model state has the best human--machine agreement?
+  \item Which model state provides the strongest claim-to-evidence traceability?
+\end{itemize}
+
+\chapter{Recommended Experimental Workflow}
+
+A disciplined workflow may proceed as follows.
+
+\begin{enumerate}
+  \item Establish a fixed calibration corpus.
+  \item Define reference findings, ratings, evidence, and known ambiguities.
+  \item Assign persistent UUIDs to every model, dataset, prompt, document, passage, claim, run, and review.
+  \item Hash all content-bearing objects.
+  \item Define an initial model state $M_0$.
+  \item Define training datasets $T_1,T_2,\ldots,T_k$.
+  \item Define prompt configurations $P_0,P_1,\ldots,P_j$.
+  \item Define the ordered training sequences to be tested.
+  \item Train each model state while preserving complete lineage.
+  \item Run the fixed calibration corpus against every model state.
+  \item Replicate inference runs under identical configurations.
+  \item Preserve every intermediate pipeline output.
+  \item Decompose generated narratives into atomic claims.
+  \item Link each claim to supporting and contradicting passages.
+  \item Classify each claim by support status.
+  \item Perform human adjudication.
+  \item Compute behavioral, traceability, hallucination, and stability metrics.
+  \item Compare model states, prompt versions, and training sequences.
+  \item Preserve all outputs as immutable experimental records.
+\end{enumerate}
+
+\chapter{Central Research Question}
+
+The project can be summarized by the following question:
+
+\begin{quote}
+Given a fixed calibration corpus, how does model behavior change as a function of training history, prompt history, evidence presented, and inference configuration?
+\end{quote}
+
+Symbolically:
+
+\[
+B=f(M_0,\mathcal{S},P,D,\phi).
+\]
+
+The project is not merely an exercise in improving an AI score. It is an investigation of how training changes behavior, whether those changes are reproducible, whether training order matters, whether prompt changes alter the model's analytical character, and whether every conclusion can be traced to evidence.
+
+This framing turns an AI demonstration into a defensible experimental program.
+
+\end{document}

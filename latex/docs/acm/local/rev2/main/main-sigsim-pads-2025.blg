@@ -1,0 +1,96 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main-sigsim-pads-2025.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: /Users/dantopa/GitHub/latex-2025/bibs/coarray.bib
+Database file #2: /Users/dantopa/GitHub/latex-2025/bibs/fortran.bib
+Database file #3: /Users/dantopa/GitHub/latex-2025/bibs/orbits.bib
+Database file #4: /Users/dantopa/GitHub/latex-2025/bibs/pdes.bib
+Database file #5: /Users/dantopa/GitHub/latex-2025/bibs/space-debris.bib
+Warning--I didn't find a database entry for "Kessler"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty institution in anz2023history
+Warning--empty institution in burgin1988rule
+Warning--no number and no volume in courtland2009satellite
+Warning--page numbers missing in both pages and numpages fields in courtland2009satellite
+Warning--empty publisher in ge2015evaluation
+Warning--empty address in ge2015evaluation
+Warning--empty publisher in lindlan2000tool
+Warning--empty address in lindlan2000tool
+Warning--empty address in markus2012modern
+Warning--empty publisher in mellor2009new
+Warning--empty address in mellor2009new
+Warning--empty address in metcalf2024modern
+Warning--empty publisher in newman2009s
+Warning--empty address in newman2009s
+Warning--page numbers missing in both pages and numpages fields in newman2009s
+Warning--no journal in nutaro2003parallel
+Warning--no number and no volume in nutaro2003parallel
+Warning--page numbers missing in both pages and numpages fields in nutaro2003parallel
+Warning--empty publisher in olivier2008simulation
+Warning--empty address in olivier2008simulation
+Warning--page numbers missing in both pages and numpages fields in olivier2008simulation
+Warning--can't use both volume and number fields in reid2010coarrays
+Warning--empty publisher in reid2010coarrays
+Warning--empty address in reid2010coarrays
+Warning--empty publisher in reiher1989limitation
+Warning--empty address in reiher1989limitation
+Warning--empty publisher in storz2001space
+Warning--empty address in storz2001space
+Warning--page numbers missing in both pages and numpages fields in storz2001space
+Warning--no number and no volume in vee1999parallel
+Warning--page numbers missing in both pages and numpages fields in vee1999parallel
+Warning--empty publisher in wieland1989distributed
+Warning--empty address in wieland1989distributed
+Warning--empty publisher in Zeigler1989
+Warning--empty address in Zeigler1989
+Warning--unrecognized DOI value [Pages 84 - 89 https://doi-org/10.1145/76738.76749]
+You've used 36 entries,
+            5901 wiz_defined-function locations,
+            1552 strings with 22060 characters,
+and the built_in function-call counts, 41854 in all, are:
+= -- 5426
+> -- 1483
+< -- 0
++ -- 494
+- -- 534
+* -- 2889
+:= -- 4262
+add.period$ -- 183
+call.type$ -- 36
+change.case$ -- 245
+chr.to.int$ -- 36
+cite$ -- 71
+duplicate$ -- 3652
+empty$ -- 2568
+format.name$ -- 616
+if$ -- 10170
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 134
+newline$ -- 344
+num.names$ -- 288
+pop$ -- 1364
+preamble$ -- 1
+purify$ -- 567
+quote$ -- 0
+skip$ -- 1274
+stack$ -- 0
+substring$ -- 3073
+swap$ -- 372
+text.length$ -- 19
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 754
+warning$ -- 36
+while$ -- 294
+width$ -- 0
+write$ -- 666
+(There were 37 warnings)

@@ -1,0 +1,310 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{adushkin2007underground}{article}{}
+      \name{author}{2}{}{%
+        {{hash=edece4241f24ee240bc0bc15b80cd1bb}{%
+           family={Adushkin},
+           familyi={A\bibinitperiod},
+           given={Vitaly\bibnamedelima V},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=806141946caa0bcfa682c3b14360dcf6}{%
+           family={Spivak},
+           familyi={S\bibinitperiod},
+           given={AA},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e06431ae18b0195e70a4eaf9d91456f4}
+      \strng{fullhash}{e06431ae18b0195e70a4eaf9d91456f4}
+      \strng{bibnamehash}{e06431ae18b0195e70a4eaf9d91456f4}
+      \strng{authorbibnamehash}{e06431ae18b0195e70a4eaf9d91456f4}
+      \strng{authornamehash}{e06431ae18b0195e70a4eaf9d91456f4}
+      \strng{authorfullhash}{e06431ae18b0195e70a4eaf9d91456f4}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science-Publishing house}
+      \field{title}{Underground explosions}
+      \field{year}{2007}
+      \field{pages}{545}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://apps.dtic.mil/sti/pdfs/ADA627744.pdf
+      \endverb
+      \verb{url}
+      \verb https://apps.dtic.mil/sti/pdfs/ADA627744.pdf
+      \endverb
+    \endentry
+    \entry{constantine_randomfield}{software}{}
+      \name{author}{1}{}{%
+        {{hash=05b05a8d92ba1c3975444970b082bd3e}{%
+           family={Constantine},
+           familyi={C\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{05b05a8d92ba1c3975444970b082bd3e}
+      \strng{fullhash}{05b05a8d92ba1c3975444970b082bd3e}
+      \strng{bibnamehash}{05b05a8d92ba1c3975444970b082bd3e}
+      \strng{authorbibnamehash}{05b05a8d92ba1c3975444970b082bd3e}
+      \strng{authornamehash}{05b05a8d92ba1c3975444970b082bd3e}
+      \strng{authorfullhash}{05b05a8d92ba1c3975444970b082bd3e}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{MATLAB Central File Exchange}
+      \field{title}{{Random Field Simulation}}
+      \field{version}{1.5.0.0}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://www.mathworks.com/matlabcentral/fileexchange/27613-random-field-simulation
+      \endverb
+      \verb{url}
+      \verb https://www.mathworks.com/matlabcentral/fileexchange/27613-random-field-simulation
+      \endverb
+    \endentry
+    \entry{constantine2014computing}{article}{}
+      \name{author}{2}{}{%
+        {{hash=05b05a8d92ba1c3975444970b082bd3e}{%
+           family={Constantine},
+           familyi={C\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=44c89c9dcfd861dc1a850033de34d29c}{%
+           family={Gleich},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a18c02630bdac29675bc3b9d0ad7a70d}
+      \strng{fullhash}{a18c02630bdac29675bc3b9d0ad7a70d}
+      \strng{bibnamehash}{a18c02630bdac29675bc3b9d0ad7a70d}
+      \strng{authorbibnamehash}{a18c02630bdac29675bc3b9d0ad7a70d}
+      \strng{authornamehash}{a18c02630bdac29675bc3b9d0ad7a70d}
+      \strng{authorfullhash}{a18c02630bdac29675bc3b9d0ad7a70d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Active subspaces can effectively reduce the dimension of high-dimensional parameter studies enabling otherwise infeasible experiments with expensive simulations. The key components of active subspace methods are the eigenvectors of a symmetric, positive semidefinite matrix whose elements are the average products of partial derivatives of the simulation's input/output map. We study a Monte Carlo method for approximating the eigenpairs of this matrix. We offer both theoretical results based on recent non-asymptotic random matrix theory and a practical approach based on the bootstrap. We extend the analysis to the case when the gradients are approximated, for example, with finite differences. Our goal is to provide guidance for two questions that arise in active subspaces: (i) How many gradient samples does one need to accurately approximate the eigenvalues and subspaces? (ii) What can be said about the accuracy of the estimated subspace, both theoretically and practically? We test the approach on both simple quadratic functions where the active subspace is known and a parameterized PDE with 100 variables characterizing the coefficients of the differential operator.}
+      \field{journaltitle}{arXiv preprint arXiv:1408.0545}
+      \field{title}{Computing active subspaces with Monte Carlo}
+      \field{year}{2014}
+    \endentry
+    \entry{constantine2015active}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1fab5930fb94e85435224c29ea24fd8f}{%
+           family={Constantine},
+           familyi={C\bibinitperiod},
+           given={Paul\bibnamedelima G},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{1fab5930fb94e85435224c29ea24fd8f}
+      \strng{fullhash}{1fab5930fb94e85435224c29ea24fd8f}
+      \strng{bibnamehash}{1fab5930fb94e85435224c29ea24fd8f}
+      \strng{authorbibnamehash}{1fab5930fb94e85435224c29ea24fd8f}
+      \strng{authornamehash}{1fab5930fb94e85435224c29ea24fd8f}
+      \strng{authorfullhash}{1fab5930fb94e85435224c29ea24fd8f}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Active subspaces: Emerging ideas for dimension reduction in parameter studies}
+      \field{year}{2015}
+    \endentry
+    \entry{constantine2014active}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1fab5930fb94e85435224c29ea24fd8f}{%
+           family={Constantine},
+           familyi={C\bibinitperiod},
+           given={Paul\bibnamedelima G},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=5d9e459be27af7b2c3b5911a54a4b371}{%
+           family={Dow},
+           familyi={D\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f448d709feb0b632fb2ba818c87ff5db}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Qiqi},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{6088eb8f19190b4970af452b24bd373f}
+      \strng{fullhash}{6088eb8f19190b4970af452b24bd373f}
+      \strng{bibnamehash}{6088eb8f19190b4970af452b24bd373f}
+      \strng{authorbibnamehash}{6088eb8f19190b4970af452b24bd373f}
+      \strng{authornamehash}{6088eb8f19190b4970af452b24bd373f}
+      \strng{authorfullhash}{6088eb8f19190b4970af452b24bd373f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many multivariate functions in engineering models vary primarily along a few directions in the space of input parameters. When these directions correspond to coordinate directions, one may apply global sensitivity measures to determine the most influential parameters. However, these methods perform poorly when the directions of variability are not aligned with the natural coordinates of the input space. We present a method to first detect the directions of the strongest variability using evaluations of the gradient and subsequently exploit these directions to construct a response surface on a low-dimensional subspace---i.e., the active subspace---of the inputs. We develop a theoretical framework with error bounds, and we link the theoretical quantities to the parameters of a kriging response surface on the active subspace. We apply the method to an elliptic PDE model with coefficients parameterized by 100 Gaussian random variables and compare it with a local sensitivity analysis method for dimension reduction.}
+      \field{journaltitle}{SIAM Journal on Scientific Computing}
+      \field{number}{4}
+      \field{title}{Active subspace methods in theory and practice: applications to kriging surfaces}
+      \field{volume}{36}
+      \field{year}{2014}
+      \field{pages}{A1500\bibrangedash A1524}
+      \range{pages}{-1}
+    \endentry
+    \entry{cook2005sufficient}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c9c0ef66dbdeb051b232cdaca29920fd}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={R\bibnamedelima Dennis},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=465817f99b51da224a75573c29eb89bc}{%
+           family={Ni},
+           familyi={N\bibinitperiod},
+           given={Liqiang},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{145269c83792a9db6ce37cd344202f91}
+      \strng{fullhash}{145269c83792a9db6ce37cd344202f91}
+      \strng{bibnamehash}{145269c83792a9db6ce37cd344202f91}
+      \strng{authorbibnamehash}{145269c83792a9db6ce37cd344202f91}
+      \strng{authornamehash}{145269c83792a9db6ce37cd344202f91}
+      \strng{authorfullhash}{145269c83792a9db6ce37cd344202f91}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A family of dimension-reduction methods, the inverse regression (IR) family, is developed by minimizing a quadratic objective function. An optimal member of this family, the inverse regression estimator (IRE), is proposed, along with inference methods and a computational algorithm. The IRE has at least three desirable properties: (1) Its estimated basis of the central dimension reduction subspace is asymptotically efficient, (2) its test statistic for dimension has an asymptotic chi-squared distribution, and (3) it provides a chi-squared test of the conditional independence hypothesis that the response is independent of a selected subset of predictors given the remaining predictors. Current methods like sliced inverse regression belong to a suboptimal class of the IR family. Comparisons of these methods are reported through simulation studies. The approach developed here also allows a relatively straightforward derivation of the asymptotic null distribution of the test statistic for dimension used in sliced average variance estimation.}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{number}{470}
+      \field{title}{Sufficient dimension reduction via inverse regression: A minimum discrepancy approach}
+      \field{volume}{100}
+      \field{year}{2005}
+      \field{pages}{410\bibrangedash 428}
+      \range{pages}{19}
+    \endentry
+    \entry{gleich_asmcode}{software}{}
+      \name{author}{1}{}{%
+        {{hash=44c89c9dcfd861dc1a850033de34d29c}{%
+           family={Gleich},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{44c89c9dcfd861dc1a850033de34d29c}
+      \strng{fullhash}{44c89c9dcfd861dc1a850033de34d29c}
+      \strng{bibnamehash}{44c89c9dcfd861dc1a850033de34d29c}
+      \strng{authorbibnamehash}{44c89c9dcfd861dc1a850033de34d29c}
+      \strng{authornamehash}{44c89c9dcfd861dc1a850033de34d29c}
+      \strng{authorfullhash}{44c89c9dcfd861dc1a850033de34d29c}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.cs.purdue.edu/homes/dgleich/codes/compute-asm/compute-asm-code.tar.gz}}
+      \field{note}{Accessed: December 16, 2025}
+      \field{title}{{compute-asm-code: Assembly Code for Matrix Computations}}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://www.cs.purdue.edu/homes/dgleich/codes/compute-asm/
+      \endverb
+      \verb{url}
+      \verb https://www.cs.purdue.edu/homes/dgleich/codes/compute-asm/
+      \endverb
+    \endentry
+    \entry{tarantola2005inverse}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7f5b2d6262ddc71c1e6f1cbe3ecc5fbe}{%
+           family={Tarantola},
+           familyi={T\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{7f5b2d6262ddc71c1e6f1cbe3ecc5fbe}
+      \strng{fullhash}{7f5b2d6262ddc71c1e6f1cbe3ecc5fbe}
+      \strng{bibnamehash}{7f5b2d6262ddc71c1e6f1cbe3ecc5fbe}
+      \strng{authorbibnamehash}{7f5b2d6262ddc71c1e6f1cbe3ecc5fbe}
+      \strng{authornamehash}{7f5b2d6262ddc71c1e6f1cbe3ecc5fbe}
+      \strng{authorfullhash}{7f5b2d6262ddc71c1e6f1cbe3ecc5fbe}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Inverse problem theory and methods for model parameter estimation}
+      \field{year}{2005}
+    \endentry
+    \entry{doi:10.1137/16N974176}{article}{}
+      \name{author}{1}{}{%
+        {{hash=48bc089615df693df1f3ca88f0ff89ae}{%
+           family={Watkins},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{48bc089615df693df1f3ca88f0ff89ae}
+      \strng{fullhash}{48bc089615df693df1f3ca88f0ff89ae}
+      \strng{bibnamehash}{48bc089615df693df1f3ca88f0ff89ae}
+      \strng{authorbibnamehash}{48bc089615df693df1f3ca88f0ff89ae}
+      \strng{authornamehash}{48bc089615df693df1f3ca88f0ff89ae}
+      \strng{authorfullhash}{48bc089615df693df1f3ca88f0ff89ae}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have quite a lot of material for you in this issue. Our featured review, by Patrick Fitzpatrick, looks at Philippe Ciarlet's Linear and Nonlinear Functional Analysis. To cover both linear and nonlinear theory in one volume is quite an ambitious task; not surprisingly the book is over 800 pages long. Fitzpatrick's positive and informative review includes a good deal of historical information about the origins of functional analysis in the study of differential and integral equations and the calculus of variations. Nonlinear Physics of Ecosystems is an intriguing title. This is Ehud Meron's account of the mathematics behind the self-organizing vegetation patterns like ``tigerbush'' that arise naturally in certain ecosystems. Reviewer Donald DeAngelis says, ``He gives a masterful treatment of the topic of vegetation self-organization that is more than simply a synthesis of previous work---it pushes the field ahead.'' We have one book in my favorite area, numerical linear algebra. Take a look at Martin van Gijzen's review of Krylov Subspace Methods: Principles and Analysis, by Liesen and Strako{š}. The focus is on optimal Krylov subspace methods and their analysis. Connections to orthogonal polynomials, continued fractions, and quadrature rules are made, and there is a discussion and clarification of the Faber--Manteuffel theorem on the paucity of optimal methods with short recurrences. In addition we have reviews of a book on molecular dynamics, a monograph on elasticity imaging, a new engineering mathematics text that integrates symbolic computing, and a rather advanced text on numerical methods (especially finite element methods) for nonlinear partial differential equations. We also have active subspace methods for dimension reduction in parameter studies, differential geometry and the shape derivative, and a second look at Dan Gusfield's ReCombinatorics. Last but not least we have my review of a picture book.}
+      \field{journaltitle}{SIAM Review}
+      \field{number}{3}
+      \field{title}{Book Reviews}
+      \field{volume}{58}
+      \field{year}{2016}
+      \field{pages}{577\bibrangedash 599}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1137/16N974176
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1137/16N974176
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1137/16N974176
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1137/16N974176
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

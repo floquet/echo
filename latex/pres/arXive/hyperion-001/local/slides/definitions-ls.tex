@@ -1,0 +1,1335 @@
+%\newcommand{\rdrsqrd}[0]		{ \rd{ r^{*}\!(\alpha)r(\alpha) } }
+
+% recycled
+\renewcommand{\argon}[0]		{ \bl{ \mat{r}{-1\\1\\0}} }
+\renewcommand{\boron}[0]		{ \bl{ \mat{r}{0\\-1\\1} } }
+
+%
+\chapter[Least Squares Problems and Solutions]
+{\label{ch:Least Squares Problems and Solutions}Least Squares \\Problems and Solutions}
+
+\begin{quotation}
+The discussion begins with the difference between exact and approximate methods: When is one compelled to use the method of least squares? The two categories of least squares problems, zonal and modal, are delineated. Toy examples and solutions are presented for both. The chapter ends with the bedrock definition of the least squares solution set and it's characterization as particular and homogeneous solutions.
+\end{quotation}
+
+\section{Paean to Least Squares}
+One may assert \tmls\ as the greatest endowment of applied mathematics. The toolkit spans the spectrum of mathematical, scientific, and engineering disciplines. It is universal, it is versatile, it is fundamental. It unites different cultures and different fields as a tool of extraordinary power and value. Certainly, intelligent life of other planets will share our valuation of the toolkit as well.
+
+We may view least squares as the collection of tools that regiments the generalization of the concept of equality as well as the concept of matrix inverse. Consider the archetypal \index{matrix-vector equation} matrix--vector equation
+%
+\begin{equation*}
+	\axeb 
+%\label{eq:axeb}
+\end{equation*}
+%
+When the data vector $b$ is in the column space of the design matrix $\A{}$, we may find an exact solution for the vector $x$. \Tmls \ is used when there is no exact solution. Instead, we ask ``what is the best solution?'' and in doing so, generalize the equality to mean ``as close as possible''. Least squares codifies these subjective assessments.
+
+When we apply the powerful \asvd\ to the least squares problem, we naturally create the \mpi\ in an exercise of stunning ease and breathtaking utility. Such a pseudoinverse generalizes the matrix inverse to cover situations where we have generalized the equality, that is, to cases where the data vector is not in the column space of $\A{}$. 
+
+The well-known \fa \  theorem is a simple statement about the need to use least squares. It tells us that when the data vector is in the column space of the matrix, we may use elementary tools to find an exact solution, otherwise, we must use \tmls. We will learn that the \fa \  says we must turn to least squares when there is a null space component to the data vector. 
+
+We see signs alluding to the fact that understanding \tmls\ demands an understanding of the invariant subspaces induced by the design matrix. Doing so leads immediately to \ftola. In service of this objective, care has been taken to color vectors to immediately identify their pedigree as \bl{range space} or \rd{null space} objects. In this fashion, we vitalize the fundamental subspaces. Mixed vectors retain the default black coloring.
+
+My favorite property is existence: there is always a least squares solution. This can lead to delicious	 conundrums such as finding the least squares solution when the inputs are two parallel lines. What is the best line through a single point? Besides being fun examples to work, they cleanly demonstrate basic properties of least squares.
+
+In short order, we understand that the most powerful theoretical tools from linear algebra, the \ftola, the \fa \ , and the \asvd \ form the bedrock upon which \tmls\ rests.
+
+We examine the many different guises of the least squares problem; we explore many different tools. We unify the presentation of results for so many disparate cases to show the shared mantle of least squares. The folk lore of least squares is prodigious and, at times, misleading. Our goal is to demonstrate the elegance and utility of formal employment.
+
+\section{Solutions for Linear Systems}
+hermeneutic
+Our story begins with the archetypal \index{matrix-vector equation} matrix--vector equation
+%
+\begin{equation}
+	\axeb 
+\label{eq:axeb}
+\end{equation}
+%
+The matrix $\A{}$ has $m$ rows, $n$ columns, and has rank $\rho$; the vector $b$ encodes $m$ measurements. The solution vector $x$ represents the $n$ free parameters in the modal. In mathematical shorthand,
+%
+%\begin{equation}
+%	\aicmnr, \quad b \icm, \quad x \icn
+%\label{eq:basics}
+%\end{equation}
+%
+\begin{equation}
+	\begin{array}{ccc}
+			%
+		\aicmnr, & b \icm,& x \icn \\
+			%
+		\text{mesh} & \text{measurements} & \text{solution}
+			%
+	\end{array}
+\end{equation}
+% 
+with $\cmplx{}$ representing the field of complex numbers. The matrix encodes information about the mesh, that is, the location of sample points. The data vector $b$ contains the measurements, and the solution vector $x$ provides the free parameters in the modal.
+
+We restrict our concern to the \index{forward problem}forward problem where the system matrix $\A{}$ and the data vector $b$ are given, and the task is to find the solution vector $x$.
+%
+\begin{table}[htp]
+	\caption{Forward and inverse problems.}
+	\begin{center}
+		\begin{tabular}{lcc}
+			classification & given & find \\\hline
+			forward problem & $\A{}$, $x$ & $b$ \\
+			inverse problem & $\A{}$, $b$ & $x$
+		\end{tabular}
+	\end{center}
+\label{tab:problem types}
+\end{table}%
+%
+
+Linear algebra solutions form a strata of increasing complexity. The simplest stratification criterion comes from $r$, the residual error vector:
+%
+\begin{equation*}
+	r(x) = \axmb
+\end{equation*}
+%
+If each component of this residual error vector is zero, the solution vector $x$ represents an \textit{exact} solution. If any component of $r$ is not zero, the solution is \textit{approximate}. We may summarize the distinction in terms of norms:
+
+\begin{table}[htp]
+\caption
+[Solution types and solution methods]
+{Solution types and solution methods categorized by total error.}
+	\begin{center}
+		\begin{tabular}{lll}
+				%
+			total error & solution type & solution method \\\hline
+				%
+			$\norm{r} = 0$ & exact  & direct and least squares \\
+				%
+			$\norm{r} > 0$ & approximate & least squares exclusively\\
+				%
+		\end{tabular}
+	\end{center}
+\label{tab:Solution types and solution methods}
+\end{table}%
+
+%
+\subsection{\label{sec:image space}$\reserr = 0$}  
+The matrix--vector multiplication in \eqref{eq:axeb} represents a process whereby a matrix operates on an \nv\ and returns an \mv. We can think of the matrix as a map from vectors of dimension $n$ to vectors of dimension $m$:
+%
+\begin{equation*}
+	\A{} \colon \cmplxn \mapsto \cmplxm .
+\end{equation*}
+
+If the vector $b$ can be expressed a combination of the columns of the matrix $\A{}$ then the linear system is \emph{consistent} and there is an exact solution:
+%
+\begin{equation*}
+	\axeb \quad \Longrightarrow \quad x_{1} a_{1} + \cdots + x_{n} a_{n} = b
+%\label{eq:}
+\end{equation*}
+%
+and the residual error \index{residual error} vanishes:
+%
+\begin{equation*}
+	r = \axmb = \zero.
+\label{eq:axmb}
+\end{equation*}
+%
+The zero vector $\zero$ is a vector of $m$ zeros. The total error, the norm of the $r$ vector, is 0:
+%
+\begin{equation*}
+	\norm{r} = \norm{\axmb} = 0.
+\end{equation*}
+
+A simple example illuminates the subject. Let the system matrix $\A{}$ be the identity matrix $\I{2}$:
+\begin{equation*}
+	\idtwo \xtwo = \mat{c}{b_{1} \\ b_{2}}.
+%\label{eq:}
+\end{equation*}
+The solution prescribes how to combine the two column vectors of the matrix $\A{}$:
+%
+\begin{equation*}
+	b_{1} \xx + b_{2} \yy = \mat{c}{b_{1} \\ b_{2}}.
+\end{equation*}
+%
+The solution is
+%
+\begin{equation*}
+	\xtwo = \mat{c}{b_{1} \\ b_{2}},
+%\label{eq:}
+\end{equation*}
+with no residual error 
+%
+\begin{equation}
+	r = \Ax - b = \zerotwo .
+\label{eq:consistent}
+\end{equation}
+%
+\subsection{$\reserr > 0$}  
+But what happens when the vector $b$ is \emph{not} in the column space of the matrix $\A{}$? 
+%
+\begin{equation}
+	x_{1} a_{1} + \cdots + x_{n} a_{n} \ne b
+\label{eq:inconsistent}
+\end{equation}
+%
+
+
+When there is no combination of the column vectors which recreates the data vector? The solution criteria must relax. Instead of seeking zero residual error, seek the $x$ which produces the least residual error
+%
+\begin{equation*}
+	\norm{r\paren{x}} = \reserr.
+\end{equation*}
+%
+Instead of a perfect solution, ask for the best solution. One such class of solutions are least squares solutions\index{leasts squares!solutions}.
+
+\subsection{\label{sec:Solution by elementary means}Solution by elementary means} 
+%\subsection{\gj procedure: Basic and Free Variables} 
+Look at the linear system in \eqref{eq:ch-01-ear} as a problem in linear algebra\footnote{A superb and succinct explanation of the method for solving nonhomogeneous solutions in given by Meyer in \cite{meyer2000matrix}, \S 2.5.} to find the general solution $\phi_{\star}$ of the non-homogeneous problem. Use the \gj\ procedure to reduce the \index{augmented matrix} to \rref:
+ \begin{equation}
+	\begin{array}{ccc}
+			%
+			\mat{c|c}{\A{} & b}  &\Rightarrow &\mat{c|c}{\E{} & c} \\
+		%\A{} &\Rightarrow &\E{\innerb{\A{}}{\delta}} \\
+			%
+		\mat{rrr|c}{ 
+		-1 &  1 & \ps0 & \delta_{1}\\
+		 0 & -1 & 1 & \delta_{2} }
+		  &\Rightarrow 
+		 & \mat{rrr|c}{ 
+		\boxed{1} & 0 & -1 & -\delta_{1} - \delta_{2} \\
+		 0 & \boxed{1} & -1 & -\delta_{2}}
+			%
+	\end{array}
+\label{eq:ch-01-ear}
+\end{equation}
+The boxed entries correspond to the basic variables, $\phi_{0}$, and, $\phi_{1}$. The free variable then is $\phi_{2}$. The matrix on the right represents two linear equations:
+\begin{equation}
+	\begin{split}
+		\phi_{0} - \phi_{2} &= -\delta_{1} - \delta_{2},\\
+		\phi_{1} - \phi_{2} &= - \delta_{2},
+	\end{split}
+\end{equation}
+%
+The general solution $\phi_{\star}$ is resolved into two components, one is an \index{amalgam vector} with components in both the range and null space, $\phi_{GJ}$, but the second one we recognize immediately as a null space vector:
+\begin{equation}
+	\begin{array}{ccccc}
+			%
+		\phi_{\star} &= & \phantom{me}\phi_{GJ} &+ &  \phantom{w}\rd{\eta} \\
+			%
+		\mat{c}{ \phi_{0} \\ \phi_{1} \\ \phi_{2} }_{\star} &=& 
+		\gsparticular &+&
+		\phi_{2} \rvecone 
+			%
+	\end{array}
+\label{eq:ch-01-algebra}
+\end{equation}
+
+The solution $\phi_{\star}$ is here resolved into a particular solution (in black) and a homogeneous solution (in red). This chapter is the only place where we will consider particular solutions created outside of \tmls. 
+
+As mentioned before, in order to enliven the fundamental subspaces, range space vectors are colored in blue, null space vectors are colored in red. Composite vectors with both range and null space components retain the default black color. Since the vector $\phi_{GJ}$ contains both range and null space components it is displayed in black. Subsequent sections will show different strategies for removing the null space component.
+
+The algebra in \eqref{eq:ch-01-ear} represents a simple process which extends to meshes of arbitrary length. The last element in the vector is 0, the penultimate entry is $-\delta_{m}$, the antepenultimate entry is $-\delta_{m-1} - \delta_{m}$, and so on until we reach the first element which is the arithmetic inverse of the sum of all measurements, $-\sum_{k=1}^{m}\delta_{m}$. 
+
+Describing the mathematical process has an obscuring effect. Fortunately, the mathematical formulation is worth a thousand words. For the example where instead of having $m=2$ cells, use $m=100$ cells. The \gj\ solution, $\phi_{\star}$, a vector of length $m+1$, is given by
+%
+\begin{equation}
+	\begin{array}{cccccr}
+			%
+		\phi_{\star} &= & \phantom{me}\phi_{GJ} &+ &  \phantom{w}\rd{\phi_{h}} \\
+			%
+		 & & \mat{c}{ -\sum_{k=1}^{100} \delta_{k} \\ -\sum_{k=2}^{100} \delta_{k} \\ \vdots \\
+						-\paren{\delta_{98} + \delta_{99} + \delta_{100} } \\ -\paren{\delta_{99} + \delta_{100} } \\
+					- \delta_{100} \\ 0 }
+					&+& \gamma \rd{\one_{m+1}}, &\quad \gamma \in \cmplx{}.
+			%
+	\end{array}
+\label{eq:ch-01-zonal-phi-star}
+\end{equation}
+%
+While the \gj\ solution is an exact solution where $\normt{\A{}\,\phi_{GJ}-\delta} = \zero$, we are compelled to discard it because of the null space component and seek an answer confined within the range space. Using insights from \tmls, we can quickly craft the particular least squares solution $\phi_{p}$.
+
+\section{Least Squares Solutions}  
+In computation of approximations, the goal is to minimize the residual error and this work explores the minimal solutions under the \nrmt, the familiar norm of Pythagoras:
+%
+\begin{equation*}
+	\normt{ \mat{c}{x_{1} \\ x_{2}} } = \sqrt{x_{1}^{2} + x_{2}^{2}.}
+%\label{eq:}
+\end{equation*}
+%
+
+Construct a sample problem with $\reserr > 0$ by modifying the previous example:
+%
+\begin{equation}
+	\mat{cc}{1 & 0 \\ 0 & 0} \xtwo = \mat{c}{b_{1} \\ b_{2}} .
+	\label{eq:simple case}
+\end{equation}
+%
+When $b_{2} \ne 0$ there is no exact solution, no solution with $\reserr = 0$. Examine the solutions given by
+%
+\begin{equation}
+	x_{*} = \mat{c}{ b_{1} \\ 0 } ;
+\label{eq:xstar}
+\end{equation}
+%
+the residual error is 
+$$r\paren{x_{*}}=\A{} x_{*} - b = -\mat{c}{0 \\ b_{2}}$$
+which has a norm 
+\begin{equation}
+	\norm{r} = \norm{\Ax_{*} - b} = \abs{b_{2}}.
+\label{eq:simple case solution}
+\end{equation}
+This error is plotted in figure \ref{fig:v-error} and represents the least possible error for the problem. Therefore, \eqref{eq:xstar} is the best solution. The transition from an exact solution to an inexact solution is continuous. The picture reinforces the idea that
+%
+\begin{equation*}
+	%\begin{split}
+	\lim_{b_{2}\to 0} {r^{2}} = 0.
+		%\end{split}
+\end{equation*}
+
+The familiar numerical dilemma is that an exact solution typically produces a number near machine precision, creating ambiguity as to whether small errors are numerical artifacts or meaningful results.
+%
+\input{\pathfigures "fig v-error"}
+%
+
+Think of the solutions to the linear system
+\begin{equation*}
+	\axeb
+\end{equation*}
+as being described by the inequality
+\begin{equation*}
+	\normt{\axmb} \ge 0.
+\end{equation*}
+The equality is attained when the data vector lies within the column space of $\A{}$.
+
+Least squares solutions are classified by the interpretation of the output. In the first case, \emph{modal approximation}, the output represents an amplitude, a contribution for a mPaean. In the second case, \emph{zonal approximation}, the output represents data at a physical zone, a point or a region. Basic illustrations follow with just enough detail to whet the appetite; later chapters promise further development.
+
+%\input{\pathfigures "fig solution-strata"}
+
+\section{\label{ssec:modal approx}Modal approximation}  
+Modal approximations are so-named because the solution parameters quantify the contributions from the mPaeans in a basis set of functions. Typically first contact with \tmls\ involves modal approximation in the guise of a linear regression, fitting data to a straight line, as in the following example.
+
+
+\subsection{\label{ssec:modal problem}Modal problem}  
+In the modal approximation, the first step selects a set of basis functions to describe measurements. Popular basis functions include orthogonal polynomials, trigonometric functions, or monomials. The set of monomials form a standard basis for all polynomial functions,
+%
+\begin{equation*}
+	1, x, x^{2}, x^{3}, \dots.
+\end{equation*}
+%
+Our example, a linear function uses a basis set of the first two elements: a constant function, and a linear function. This leads to the familiar equation for a straight line:
+%
+\begin{equation}
+	y(x) = \alpha_{0} + \alpha_{1} x
+\label{eq:ch-01:straight line}
+\end{equation}
+%
+The $n=2$ parameters represent two modes: the intercept $a_{0}$, and the slope $a_{1}$. Each of the $m$ measurements represents a straight line:
+%
+\begin{equation}
+	\begin{split}
+		\alpha_{0} + \alpha_{1} x_{1} &= y_{1} \\
+			& \ \, \vdots \\
+		\alpha_{0} + \alpha_{1} x_{m} &= y_{m} .
+	\end{split}
+\label{eq:ch-01:modal:modal}
+\end{equation}
+%
+As there is no value for the solution vector which satisfies every term, the goal is to solve this set of equations simultaneously.
+
+\input{\pathfigures "fig solution-strata-alt"}
+ 
+\subsection{\label{ssec:modal solution}Modal Solution}  
+The least squares solution yields to myriad of methods, and here we will acquiesce to the world of vector computing which we live in and pose the solution in terms of operations on column vectors.
+%
+First, compose the linear system implied by the modal in \eqref{eq:ch-01:modal:modal}:
+%
+\begin{equation}
+	\begin{array}{cccc}
+		\A{} & \alpha & = & y \\
+		\mat{cc}{ 1 & x_{1} \\ \vdots & \vdots \\ 1 & x_{m} } &
+		\mat{c}{ \alpha_{0} \\ \alpha_{1} } &
+			= &
+		\mat{c}{ y_{1} \\ \vdots \\ y_{m} } ,
+	\end{array}
+\label{eq:modalls}
+\end{equation}
+%
+which is built using the column vectors
+%
+\begin{equation*}
+	\begin{split}
+		{\bf{1}} = \mat{cc}{ 1 \\ \vdots \\ 1 }, \quad
+		x = \mat{cc}{ x_{1} \\ \vdots \\ x_{m} }, \quad
+		y = \mat{cc}{ y_{1} \\ \vdots \\ y_{m} } .
+	\end{split}
+%\label{eq:}
+\end{equation*}
+%
+The system matrix is decomposed into columns as $\A{} = \mat{cc}{\bf{1} & x}$. 
+
+The least squares solution is defined as the vector which minimizes the sum of the squares of the residual error terms. The residual error vector is a function of the solution vector $\alpha$, the mesh vector $x$, the measurement vector $y$, and, finally, the vector $\one$:
+%
+%\begin{equation}
+%	r_{k}\paren{\alpha} = y\paren{x_{k}} - y_{k} = \alpha_{0} + \alpha_{1} x_{k} - y_{k}.
+%\label{eq:ch-01 residual}
+%\end{equation}
+%
+\begin{equation}
+	\rd{r\paren{\bk{\alpha}}} =  \alpha_{0}\one + \alpha_{1} x - y = \Aalpha - y.
+\label{eq:ch-01 residual}
+\end{equation}
+%
+Introducing the inner product operator,
+\begin{equation}
+		%
+	\inner{x,y} = x^{*}y = \mysumm{\conj{x}_{k}y_{k}},
+		%
+%\label{eq:}
+\end{equation}
+%
+allows us to express the target of minimization, the merit function, as:
+%
+%\begin{equation}
+%	M(\alpha)= \sum_{k=1}^{m} r_{k}^{2} = \sum_{k=1}^{m}\paren{\alpha_{0} + \alpha_{1} x_{k} - y_{k}}^{2}.
+%\label{eq:ch-01 residual}
+%\end{equation}
+%
+\begin{equation}
+	M(\alpha)= \rdrsqrd.
+\label{eq:ch-01 merit}
+\end{equation}
+%
+Minimizing the merit function $M(\alpha)$ minimizes the sum of the squares of the residuals. 
+
+The coloring tells us that the residual error vector is always in the null space and the argument vector may be an amalgam vector with components in the range and null space.
+
+\subsubsection{Normal Equations} 
+One path to the least squares solution uses the normal equations. There are many ways to arrive at the normal equations detailed in chapter \ref{ch:normal equations}; for expedience\footnote{Caveat emptor: The method of normal equations can be a poor choice for numeric problems.} we note here that the least squares problem implies that the data vector $y$ is not in the column space of $\A{}$. By premultiplying both sides of the linear system in \eqref{eq:modalls} with the adjoint matrix $\A{*}$ we create a new linear system where the right--hand side, $\A{*}y$, is, by construction, in the column space of $\A{*}$.
+%
+\begin{equation*}
+	\begin{split}
+		\A{*}\paren{ \Aalpha } &=  \A{*}\paren{y} \\
+		&\Downarrow \\
+		\wx{*}\,\alpha &= \A{*}y
+	\end{split}
+%\label{eq:}
+\end{equation*}
+%
+In fact, the coordinates in the basis $\A{*}$ are given by the vector $\Aalpha$.
+
+The product matrix and product vector are given by
+%
+\begin{equation}
+	\wx{*} = \bevWI, \quad \A{*}y = \bevAsyI,
+%\label{eq:}
+\end{equation}
+%
+while the matrix determinant is
+%
+\begin{equation}
+	\Delta = \det{\wx{*}} = \bevDetI.
+\label{eq:ch-01:bevington determinant}
+\end{equation}
+%
+If the matrix $\A{}$ is overdetermined $\paren{m\ge n}$ and has full column rank $\paren{n=\rho}$, the particular least squares solution can be computed using
+%
+\begin{equation}
+	\begin{array}{cccc}
+			%
+		\bl{\alpha_{p}} &=& \phantom{wwwww}\inv{\wx{*}} &\A{*}y \\
+			%
+		\littleap &=&
+			%
+		\bevWinvI & \bevAsyI.
+			%
+	\end{array}
+\label{eq:primus normal equations}
+\end{equation}
+%
+\subsubsection{Least Squares Solution} 
+\bl{Range space} vectors, like the particular solution are colored blue, while \rd{null space} vectors are red. The fundamental subspaces now spring to life.
+%
+\input{\pathfigures ftola/fig-masks}
+%
+The particular solution can be expressed in terms of the column vectors representing the mesh and the data:
+%
+\begin{equation}
+			%
+	\bl{\alpha_{p}} = 
+	\littleap =
+	\bl{\bevSolnI}.
+			%
+\label{eq:bevington solution column vectors}
+\end{equation}
+%
+\subsubsection{Error propagation} 
+The most important overlooked aspect of \tmls \ is the quantification of $\sigma$, the error in the estimates which connects the measurement errors to the uncertainty of the fit parameters. An enchanting beauty of the method of least squares in that the quality of the solution can be quantified. When measurements are not exact, solutions are not exact. The ability to discern answers like 3.0 $\pm$ 1.0 from 3.000 $\pm$ 0.0010 is invaluable. The machinery needed to compute uncertainties will be developed in following chapters. For now, we merely state the result:
+
+%
+\begin{equation}
+	\begin{array}{cccc}
+			%
+	\bl{\sigma} &=& 
+	\displaystyle{ \sqrt {
+		\frac{
+		\paren{\A{} \, \bl{\alpha_{p}}-y}^{*} \paren{\A{} \, \bl{\alpha_{p}}-y}} {m-n}
+		\,\text{diagonal}\inv{ \wx{*} }
+	}}.
+			%
+	\end{array}
+\label{eq:bevington error}
+\end{equation}
+%
+Here the diagonal elements of the inverse of the product matrix form a column vector of length $n$.
+%
+If we define, $t^{2}$, the least total squared error as
+%
+\begin{equation}
+	t^{2} = \paren{\A{}\, \bl{\alpha_{p}}-y}^{*} \paren{\A{} \, \bl{\alpha_{p}}-y},
+\label{eq:t2r}
+\end{equation}
+%
+and use the vectors for the mesh and the measurements, the errors are
+%
+\begin{equation}
+			%
+	\bl{\mat{c}{\sigma_{0} \\ \sigma_{1}}} = 
+			%
+	\bevError.
+			%
+\label{eq:bevington error again}
+\end{equation}
+%
+The least squares solution, $\alpha_{LS}$, for the modal system $y(x) = \alpha_{0} + \alpha_{1} x$ can be quoted as 
+%
+\begin{equation}
+	\begin{array}{cccccc}
+			%
+		\alpha_{LS} 
+			%
+		&=& \littleap & \pm & \bl{\mat{c}{\sigma_{0} \\ \sigma_{1}}} \\
+			%
+		 && \bevbSolnI
+			%
+		& \pm &
+			%
+	\bevError{}
+		%\mat{c}{ \xsx \\ \oto }
+			%
+	\end{array}
+\label{eq:bevington final answer}
+\end{equation}
+
+These computations have an intuitive visual presentation as seen in the next session.
+
+\subsubsection{\label{sec:Seeing the solution space}Seeing the solution space} 
+\input{\pathfigures bevington/fig-merit-bullseye-intro}
+Figure \ref{fig:tres-bullseye} looks downward into into the minimization well sculpted by the merit function in \eqref{eq:ch-01 merit}. The deepest point, marked by the blue cross, is the minimal value $t^{2}$, and represents the least squares particular solution. The gray ellipsoids are level curves, curves of constant value of $M(\alpha)$ which inhabit the range space $\brnga{*}$, the solution space. For this problem, there is an expected, or ideal solution represented by the black dot. The values of the level curves increment by a fixed amount. When the level curves are closer, the well is steeper.
+
+To be clear, the quantity being minimized is the vector difference between the data vector $y$ and the vector $\Aalpha$. The minimization is happening in $\real{9}$ and we interpret the answer in $\real{2}$. The matrix $\A{}$ maps $\alpha$ from the solution space $\real{2}$ into the measurement space $\real{9}$. The vector $\A{}\,\bl{\alpha_{p}}$ maps to the point in $\real{9}$ which is closest to the data vector $y$. This vector is $\bl{y_{\brnga{}}}$, the projection of the data vector onto the range space $\brnga{}$. How close is the particular solution to the expected solution?
+
+``Close'' is a subjective word, the antithesis of mathematical precision. This question can, and must be, quantified using error propagation techniques as in \eqref{eq:bevington error}. The error terms, the $\sigma$ values, are depicted in integer multiples with the black circles. (These black circles are actually ellipsoidal, but a judicious use of scaling has rendered them circular.) Visually, the solution is just outside of $1\sigma$ error; in fact, it is the two solutions are 1.2 $\sigma$ apart.
+
+\subsubsection{\label{sec:Seeing the quality of the measurements}Seeing the quality of the measurements} 
+\input{\pathfigures bevington/fig-bevington-signal-noise}
+Visualization in $\real{9}$ is a challenge to present on a page with two spatial dimensions. What we can do, is depict the magnitudes of the subspace components and so present a graph showing signal and noise as in figure \ref{fig:bevington-signal-noise}. The black vector represents the sum of the squares of the components of data vector $\real{9} = \cdecomprow{*}$. The blue line represents the signal, the red line the noise. The blue line represents the projection of the data vector on the range space $\brnga{}$, the red line the projection onto the null space $\rnlla{*}$. The signal to noise ratio, $\mathbb{S}$, is
+%
+\begin{equation}
+			%
+	\mathbb{S}= \frac{ \normt{ \bl{ y_{\rnga{*}} } } } { \normt{ \rd{ y_{\nlla{}} } } } = 9.65,
+			%
+\label{eq:bevington snr}
+\end{equation}
+%
+and the signal represents 
+$$\frac{ \normt{ \bl{ y_{\rnga{*}} } } } { \normt{ y } } = 99.5\%$$
+of the measurement, two objective quality measures.
+
+
+\section{\label{sec:Zonal Approximation}Zonal Approximation}  
+Consider a space of dimension $d$ with a vector field $\F{}\colon\cmplx{d}\mapsto\cmplx{d}$ described by the gradient of a conservative scalar potential $\phi\colon\cmplx{d}\mapsto\cmplx{}$.
+%
+\begin{equation}
+	\F{} = -\nabla \phi = 
+	-\mat{c}{	\partial_{1} \phi \\ 
+			\partial_{2} \phi \\ 
+			\vdots \\ 
+			\partial_{d} \phi }
+\end{equation}
+%
+The forward problem involves taking a differentiable potential function $\phi$ and computing the forces $\F{}$. We are instead interested in the inverse problem: measure the forces $\F{}$ and compute the potential $\phi$. Hence, the process may be called ``inverting the gradient operator''.
+
+\subsection{\label{ssec:zonal solution}Zonal Problem}  
+Modal problems are the typical introduction to the method of least squares. Another classification of least squares problems solves for values of a function at vertices of the mesh. The next example uses finite differences to approximate derivatives. This process involves measuring the gradient of a function over a finite zone and computing the function values at the zone boundaries, thereby inverting the gradient operator in one dimension.
+
+\input{\pathfigures zonal/"fig zonal-sticks"}
+
+The illusion of point measurements is abandoned in favor of the more realistic concept of average measurements over small domains. While the one dimensional case lacks the error arbitration central to the utility of \tmls, it provides an excellent foundation for more intricate problems.	
+
+The example is depicted in figure \ref{fig:zonal-sticks}. The curve represents our potential $\phi\in C^{1}\paren{\real{}}$, a function differentiable on the real number line. The domain has two partitions, $\omega_1$, and $\omega_2$. The device measures the average of the gradient over each subdomain, and reports the values $\delta_{1}$ and $\delta_{2}$. \Tmls\ will compute the values of the function at the boundaries, $\phi\paren{0}$, $\phi\paren{1}$, and $\phi\paren{2}$, represented by the height of the sticks.
+
+On to the mathematical formalism. Given real numbers $a$ and $b$ such that $b>a$, define the subdomain 
+%
+\begin{equation*}
+	\omega = \lst{x\colon a\le x \le b}.
+\end{equation*}
+%
+The arithmetic mean\footnote{Heavy brackets on the mean value distinguish the notation from the inner product.} of the gradient over the subdomain $\omega$ is defined as
+%
+\begin{equation}
+	\mean{\nabla \phi(x)}_{\omega} =
+	\frac
+	{\int_{b}^{a}\nabla \phi(x)dx} {b-a} =
+	\paren{b-a}^{-1} \int_{b}^{a}\tdx {}\phi(x)dx
+%\label{eq:}
+\end{equation}
+%
+The Fundamental Theorem of Calculus\cite[p. 190, equation 31]{courant1998} says that for our differentiable function $\phi(x)$, the integral of the derivative is given by the difference in function values at the boundary:
+%
+\begin{equation*}
+	\int_{b}^{a}\tdx {\phi(x)}dx = \phi\paren{b} -  \phi\paren{a}.
+%\label{eq:}
+\end{equation*}
+%
+Defining the length of the subdomain as
+%
+\begin{equation*}
+	L = b - a ,
+%\label{eq:}
+\end{equation*}
+%
+we arrive at the result, which is \emph{exact}, not approximate:
+\begin{equation}
+	\mean{\nabla \phi(x)}_{\omega} =
+	 \frac{ \phi\paren{b} -  \phi\paren{a} } {L}.
+\label{eq:ch-01 average gradient}
+\end{equation}
+
+For an equipartition of a domain, the natural length scale $L$ is the width of the subdomain; therefore scale the problem such that $L=1$.
+
+The average of the gradient over a region $\omega$ of unit length is given \emph{exactly by the difference between the function values at the endpoints}.
+
+To declutter the mathematics, we use the shorthand $\phi_{x_{k}} \rightarrow \phi_{k}$. Going back to figure \ref{fig:zonal-sticks} the values of physical field, $\phi_{k}$, $k=0,1,2$ are represented by the black dots. The first measurement $\delta_{1}$ represents the potential change between $\phi(0)$ and $\phi(1)$; the second measurement $\delta_{2}$ the change between $\phi(1)$ and $\phi(2)$. The average of the gradient represents the difference in values at the subdomain boundaries.  The problem statement takes the form
+%
+\begin{equation}
+	\begin{array}{ccccc}
+		\mean{\nabla \phi(x)}_{\omega_{1}} &=& \delta_{1} &=& \phi_{1} - \phi_{0}, \\
+		\mean{\nabla \phi(x)}_{\omega_{2}} &=& \delta_{2} &=& \phi_{2} - \phi_{1}. 
+	\end{array}
+\label{eq:ch-01-fd}
+\end{equation}
+%
+\subsection{The linear system} 
+The linear system which maps the field values $\phi$ to the measurements $\delta$ according to \eqref{eq:ch-01-fd} is
+\begin{equation}
+	\begin{array}{cccc}
+		\A{} &\phi &= &\delta \\
+		\matrixApple
+		&\mat{c}{ \phi_{0} \\ \phi_{1} \\ \phi_{2} }
+		& =
+		&\mat{c}{ \delta_{1} \\ \delta_{2} } .
+	\end{array}
+\label{eq:01-zonal-example}
+\end{equation}
+%
+There is one measurement, $\delta$, for each of the $m = 2$ zones; there are $n = 3$ field values $\phi$; and the matrix rank is $\rho = 2$. Because the rank is less than the number of columns, $\rho < n$, this problem is \emph{underdetermined}.\index{underdetermined system}.
+
+For solution
+
+As we are working a demonstration problem, methods and results will be previewed with scant introduction or explanation. Consider them as intellectual hors d'oeuvres.
+
+\subsection{The \ftola} 
+Examine the problem statement in terms of \ftola. There are two measurements, $\delta$, and we are looking for three potential values, $\phi$. The solution space is composed of $3-$vectors. The first two of these vectors are given in the problem statement, and as they are linearly independent, they are a span for the row space:
+%
+\begin{equation}
+	\brnga{*} = \spn{ \argon, \boron }
+\label{eq:ch-01-least-squares-span}
+\end{equation}
+%
+To complete the row space, we need a vector for the null space $\rnlla{}$. The \ft \ tells us to look for a vector orthogonal to the range space vectors, and we may construct such an entity using the cross product:
+%
+\begin{equation}
+	 \argon \times  \boron = \rd{\rvecone}
+\end{equation}
+
+The row space of the matrix $\A{}$ can be decomposed as a direct sum of a range space and a null space:
+\begin{equation}
+	\cmplx{3} =  \cdecomprow{*} = \spn{\argon, \boron} \oplus \spn{\rd{\rvecone}}.
+\label{eq:ch-01:subspace decomposition}
+\end{equation}
+
+Because the null space associated with the row space, $\rnlla{}$, in non-trivial, the solution will not be unique and there will be a continuum of solutions.
+
+The seemingly innocuous comb plot connects field values to physical locations. While trivial for one dimensional cases such as the one of current interest, it is invaluable in higher dimension. Table \ref{tbl:ch-01:comb plots} shows the comb plots for the linear system in \eqref{}. The blue figures are range space plots and show the field values plotted at the vertices. The red figure shows the null space vector. One interpretation of this vector is that we shift field values by an arbitrary amount provide we shift all the fields by the same value. Taking the dot product of the null space vector with any range space vector produces 0, indicating that the sum of all the terms in each range vector much be 0.
+
+
+\begin{table}[htp]
+\caption
+[Comb plots for the row space decomposition.]
+{Comb plots for the row space decomposition $\real{3} = \cdecomprow{*} $ given in \eqref{eq:ch-01:subspace decomposition} provide a geometric view of the span of the solution space. The null space vector reveals that the linear system is invariant under global translation. While the situation is uncomplicated in one dimension, higher dimensions are challenging.}
+	\begin{center}
+		\begin{tabular}{ccc}
+				%
+			$\brnga{*}$ && $\rnlla{}$ \\\hline
+				%
+			\includegraphics[ width = 4cm ]{\patheps zonal/subspace-sticks-range1} &&
+			\raisebox{1.95cm}{\includegraphics[ width = 4cm ]{\patheps zonal/subspace-sticks-null}} \\%\hline
+				%
+			\includegraphics[ width = 4cm ]{\patheps zonal/subspace-sticks-range2} \\
+				%
+		\end{tabular}
+	\end{center}
+\label{tbl:ch-01:comb plots}
+\end{table}%
+\subsection{\label{sec:Solution by elementary means again}Solution by elementary means} 
+%\subsection{\gj procedure: Basic and Free Variables} 
+Look at the linear system in \eqref{eq:01-zonal-example} as a problem in linear algebra\footnote{A superb and succinct explanation of the method for solving nonhomogeneous equations is given by Meyer in \cite[\S 2.5]{meyer2000matrix}} to find the general solution $\phi_{\star}$ of the non-homogeneous problem. Use the \gj \ \cite[\S 1.3.]{{meyer2000matrix}} procedure to reduce the augmented matrix to \rref:
+ \begin{equation}
+	\begin{array}{ccc}
+			%
+			\mat{c|c}{\A{} & b}  &\Rightarrow &\mat{c|c}{\E{} & c} \\
+		%\A{} &\Rightarrow &\E{\innerb{\A{}}{\delta}} \\
+			%
+		\mat{rrr|c}{ 
+		-1 &  1 & \ps0 & \delta_{1}\\
+		 0 & -1 & 1 & \delta_{2} }
+		  &\Rightarrow 
+		 & \mat{rrr|c}{ 
+		\boxed{1} & 0 & -1 & -\delta_{1} - \delta_{2} \\
+		 0 & \boxed{1} & -1 & -\delta_{2}}
+			%
+	\end{array}
+\label{eq:ch-01-ear-again}
+\end{equation}
+The boxed entries correspond to the basic variables, $\phi_{0}$, and, $\phi_{1}$. The free variable then is $\phi_{2}$. The matrix on the right represents two linear equations:
+\begin{equation}
+	\begin{split}
+		\phi_{0} - \phi_{2} &= -\delta_{1} - \delta_{2},\\
+		\phi_{1} - \phi_{2} &= - \delta_{2},
+	\end{split}
+\end{equation}
+%
+The general solution $\phi_{\star}$, an amalgam vector, is resolved into two components, one, $\phi_{GJ}$,  is also an amalgam vector with components in both the range and null space while the second one we recognize immediately as a null space vector:
+\begin{equation}
+	\begin{array}{ccccc}
+			%
+		\phi_{\star} &= & \phantom{me}\phi_{GJ} &+ &  \phantom{w}\rd{\phi_{h}} \\
+			%
+		\mat{c}{ \phi_{0} \\ \phi_{1} \\ \phi_{2} }_{\star} &=& 
+		\gsparticular &+&
+		\phi_{2} \rvecone  \\
+			%
+		\text{amalgam} && \text{amalgam} & & \rd{\text{null space}}
+			%
+	\end{array}
+\label{eq:ch-01-algebra-phistar}
+\end{equation}
+
+The solution $\phi_{\star}$ is here resolved into a particular solution (in black) and a homogeneous solution (in red). This chapter is the only place where we will consider particular solutions created outside of \tmls. 
+
+As mentioned before, in order to enliven the fundamental subspaces, range space vectors are colored in blue, null space vectors are colored in red. Composite vectors with both range and null space components retain the default black color. Since the vector $\phi_{GJ}$ contains both range and null space components it is displayed in black. Subsequent sections will show different strategies for removing the null space component.
+
+The algebra in \eqref{eq:ch-01-ear} represents a simple process which extends to meshes of arbitrary length. The last element in the vector is 0, the penultimate entry is $-\delta_{m}$, the antepenultimate entry is $-\delta_{m-1} - \delta_{m}$, and so on until we reach the first element which is the arithmetic inverse of the sum of all measurements, $-\sum_{k=1}^{m}\delta_{m}$. 
+
+Describing the mathematical process has an obscuring effect. Fortunately, the mathematical formulation is worth a thousand words. For the example where instead of having $m=2$ cells, use $m=100$ cells. The \gj\ solution, $\phi_{\star}$, a vector of length $m+1$, is given by
+%
+\begin{equation}
+	\begin{array}{cccccr}
+			%
+		\phi_{\star} &= & \phantom{me}\phi_{GJ} &+ &  \phantom{w}\rd{\phi_{h}} \\
+			%
+		 & & \mat{c}{ -\sum_{k=1}^{100} \delta_{k} \\ -\sum_{k=2}^{100} \delta_{k} \\ \vdots \\
+						-\paren{\delta_{98} + \delta_{99} + \delta_{100} } \\ -\paren{\delta_{99} + \delta_{100} } \\
+					- \delta_{100} \\ 0 }
+					&+& \gamma \rd{\one_{m+1}}, &\quad \gamma \in \cmplx{}.
+			%
+	\end{array}
+\label{eq:ch-01-zonal-phi-star-again}
+\end{equation}
+%
+While the \gj\ solution is an exact solution where $\normt{\A{}\,\phi_{GJ}-\delta} = \zero$, we are compelled to discard it because of the null space component and seek an answer confined within the range space. Using insights from \tmls, we can quickly craft the particular least squares solution $\bl{\phi_{p}}$.
+
+\subsection{Solution by least squares}
+The general least squares solution can be resolved into a \bl{range space} component, the particular solution, and a \rd{null space} component, the homogeneous solution: \cite[\S 2.4]{meyer2000matrix}
+%
+\begin{equation}
+	\phi_{LS} = \bl{\phi_{p}} +  \rd{\phi_{h}}. \\
+\end{equation}
+%
+The particular and the homogeneous solutions represent the complete set of minimizers for the least squares problem. Every point in this continuum provides the same value for the sum of the squares of the errors. However, the particular solution is the solution of minimum length, or, the solution of minimum error norm. In a personal note, the literature on \tmls \ is obfuscated when there is no formal delineation between particular and homogeneous solutions. Calling the particular solution the ``solution of minimum error norm'' is illuminating to but a few. 
+
+\subsubsection{Matrix pseudoinverse} 
+The least squares solution is compactly expressed using the Moore--Penrose pseudo-inverse matrix $\Ap$, which generalizes the matrix inverse. In our case,
+%
+\begin{equation}
+	\Ap = \matrixBerry.
+\end{equation}
+%
+and this particular pseudo-inverse is also a right--inverse $\Ap{}=\AinvR{}$, as evidenced by
+%
+\begin{equation}
+	\AAp = \idtwo,
+\end{equation}
+%
+but is is not a left--inverse
+%
+\begin{equation}
+	\ApA 
+	= \recip{3} \mat{rrr}{
+ 2 & -1 & -1 \\
+ -1 & 2 & -1 \\
+ -1 & -1 & 2 }
+	\neq \idthree.
+\end{equation}
+%
+\subsubsection{Span of $\rnlla{}$} 
+For the linear system in \eqref{}, the full solution for the least squares problem is 
+\begin{equation}
+	\begin{array}{ccccccc}
+			%
+		\phi_{LS} &= & \phantom{me}\Ap{} &\delta &+ & \phantom{m}\paren{\I{3}-\ApA}&y \\
+			%
+		\phitri_{LS} &=
+			%
+		&\matrixBerry
+		&\bl{ \mat{c}{ \delta_{1} \\ \delta_{2} } }
+		&+ &\recip{3}\mat{ccc}{ 1 & 1 & 1 \\ 1 & 1 & 1 \\ 1 & 1 & 1 }
+		&\mat{c}{y_{1} \\ y_{2} \\ y_{3}}.
+			%
+	\end{array}
+\end{equation}
+with the arbitrary vector $y \in \cmplx{3}$. We have existence, but not uniqueness. 
+
+An equivalent formulation expresses the \rd{homogeneous} solution in terms of the vectors spanning the null space $\rnlla{}$:
+\begin{equation}
+	\begin{array}{ccccc}
+			%
+		\phi_{LS} &= & \phantom{me}\bl{\phi_{p}} &+ &  \phantom{e}\rd{\phi_{h}} \\
+			%
+		\mat{c}{ \phi_{0} \\ \phi_{1} \\ \phi_{2} }_{LS}
+			%
+		&= &\phiparticular &+ &\gamma
+		\rd{\vecone} 
+			%
+	\end{array}
+\label{eq:ch-01 full ls}
+\end{equation}
+with the arbitrary constant $\gamma \in \cmplx{}$. 
+
+The particular solution resides exclusively in the range space. In confirmation, we resolve the solution vector into a sum of the column vectors of the matrix $\A{}$:
+%
+\begin{equation}
+	%\begin{split}
+	\bl{\phi_{p}} = 
+		\phiparticular =
+		c_{1} \argon +
+		c_{2} \boron
+	%\end{split}
+\label{eq:ch-01-least-squares}
+\end{equation}
+where the coordinates are 
+%
+\begin{equation}
+	c_{1} = \recip{3} \paren{2\delta_{1} + \delta_{2}}, 
+	c_{2} = \recip{3} \paren{\delta_{1} + 2\delta_{2}}.
+\label{eq:ch-01-coordinates}
+\end{equation}
+
+\subsubsection{Error propagation} 
+As the solution is exact, that is, $\axmb = \zero$, there is no error to propagate. The measurements exactly replicate the measurements of of the mean of the gradient over each domain, and this differences are exactly preserved in the particular solution $\bl{\phi_{p}}$.
+
+Keep in mind that the exactness is a property of the algorithm, and awaits a perfect device which makes perfect measurements. 
+
+\subsubsection{Seeing the process} 
+\input{\pathfigures zonal/"fig zonal-summary"}
+It's helpful to sketch a few diagrams which illustrate the process of measurement and analysis as in figure \ref{fig:zonal-summary}. The top panel depicts the potential function $\phi(x)$ as in impinges on the measurement apparatus. The device has two sensors each of which defines a zone. The measurement over a zone is the average value of the gradient function over the zone. The sensor produces two vectors, as shown in the middle panel. Each vector represents the difference in function values at the boundary of the zone. The diagram indicates that the function value changed by $-1$ over the first zone, and then by $+1$ over the next zone. These changes represent the inputs to the linear system in \eqref{}. The mesh which describes the zone boundaries is encPaeand in the design matrix $\A{}$. The particular least squares solution, $\bl{\phi_{p}}$, given by \eqref{eq:ch-01 full ls} is represented by the blue sticks in the bottom panel. The offsets between the values in the top panel are exactly reproduced in the particular solution in the bottom panel. 
+
+The particular solution exhibits two important properties:
+\begin{enumerate}
+	\item The field values sum to zero: $\phi_{0} + \phi_{1} + \phi_{2} = 0,$
+	\item The field values exactly produce the data, e.g. $\phi_{1} - \phi_{0} = \delta_{1}.$
+\end{enumerate}
+
+\subsubsection{Null space vector} 
+The null space vector,
+%
+\begin{equation}
+	\rd{\eta} = \rd{\rvecone}
+\end{equation}
+%
+has satisfying interpretations which spark the frisson of the \ftola. To begin with, as $\rd{\eta}$ is in null space vector $\rnlla{}$, we see the following invariance:
+%
+\begin{equation}
+	\Abvphi{} = \A{} \paren{\bl{\phi_{p}} + \gamma \rd{\eta} }.
+\end{equation}
+%
+Thus, the particular least squares solution is invariant under a global translation of field values. Such a degeneracy is created by the differencing which defines the measurements. For example, adding a constant $\gamma$ to each term does not change the input data:
+\begin{equation}
+	\paren{\phi_{1} + \gamma} - \paren{\phi_{0} + \gamma} 
+	= \phi_{1} - \phi_{0} 
+	= \delta_{1}.
+\end{equation}
+%
+Ultimately, this flows from the invariance of the gradient operator,
+%
+\begin{equation}
+	\nabla \phi \paren{x} = \nabla \paren{ \phi \paren{x} + \gamma}.
+\end{equation}
+%
+Hence the maxim ``you don't measure absolute potentials, you only measure differences in potential''.
+
+Another interpretation of the significance of the vector $\rd{\bf{1}}$ is that the sum of the terms in the particular solution must be zero, which is a useful global constraint:
+%
+\begin{equation}
+	\bl{\phi_{p}}^{*} \rd{\bf{1}} = \phi_{0} + \phi_{1} + \phi_{2} = 0.
+\label{eq:ch-01:global constraint}
+\end{equation}
+% 
+Indeed, this is apparent in the solution shown in \eqref{eq:ch-01-least-squares}. To exploit such insight, 
+we pause our exploration of least squares to look at the problem in terms of the elementary tools of linear algebra.
+
+
+\subsubsection{Using a global constraint} 
+How does \tmls \ deliver a solution beyond elementary methods? Our problem is underdetermined after all. How does \tmls \ select not just a specific solution, but the solution of minimum length? The solution is dictated by enforcing a \emph{global constraint}, a constraint flowing from the null space vector and embodied in \eqref{eq:ch-01:global constraint}, repeated here from emphasis:
+%
+\begin{equation}
+	\phi_{0} + \phi_{1} + \phi_{2} = 0.
+\tag{\ref{eq:ch-01:global constraint}}
+\end{equation}
+%
+The combined length of the solution components is zero; it can't be any shorter! How does this extricate us from our under specified problem? By recasting the free variable in terms of the basic variables, we can eliminate a variable. Rewrite \eqref{eq:ch-01:global constraint} as
+%
+\begin{equation}
+	\phi_{2} = -\phi_{0} - \phi_{1}.
+\label{eq:ch-01:varphi2}
+\end{equation}
+%
+The finite differences in \eqref{eq:ch-01-fd} transform as
+%
+\begin{equation}
+	\begin{array}{ccccc cccc}
+		\delta_{1} &=& \phi_{1} - \phi_{0} &&&&&=&  \delta_{1}, \\
+		\delta_{2} &=& \phi_{2} - \phi_{1} &=&  \paren{-\phi_{0} - \phi_{1}} - \phi_{1}   &=& -\phi_{0} - 2\phi_{1}&=& \delta_{2}. 
+	\end{array}
+\label{eq:reduced-linear-system}
+\end{equation}
+%
+The linear equations in \eqref{eq:reduced-linear-system} compose the linear system
+%
+\begin{equation}
+	\begin{array}{cccc}
+		\A{} &\phi &= &\delta \\
+		\mat{rr}{ 
+		-1 &  1 \\
+		 -1 & -2  }
+		&\mat{c}{ \phi_{0} \\ \phi_{1} }
+		& =
+		&\mat{c}{ \delta_{1} \\ \delta_{2} } .
+	\end{array}
+\label{}
+\end{equation}
+%
+The linear system is now consistent and yields to elementary means. To wit,
+%
+\begin{equation*}
+	\bl{\phi_{p}} 
+		= \A{-1} b 
+		= \recip{3} \mat{rr} {-2 & -1 \\ 1 & -1 } \mat{c}{\delta_{1} \\ \delta_{2}} 
+		= \recip{3} \bl{\mat{r}{ -2 \delta_{1} - \delta_{2} \\ \delta_{1} - \delta_{2}}}
+%\label{eq:ch-01:global constraint}
+\end{equation*}
+%
+To recover the full least squares solution, use \eqref{eq:ch-01:varphi2} to compute the value for $\phi_{2}$
+%
+\begin{equation}
+	\phi_{2} = -\phi_{0} - \phi_{1} = \tfrac{1}{3} \paren{ \delta_{1} + 2\delta_{2} },
+\label{eq:helium}
+\end{equation}
+%
+and stir in the null space vector to recover the solution in \eqref{eq:ch-01 full ls}.
+
+\subsubsection{\label{sec:Using the tools of calculus}Using the tools of calculus} 
+Another path from the \gj\ solution to the least squares solution exploits the tools of the calculus to minimize $\lambda$, the square of the length of the solution vector $\phi_{\star}$ in \eqref{eq:ch-01-algebra},
+%
+\begin{equation}
+	\lambda = \normts{\phi_{\star}} = \argmin\limits_{\phi_{2}\in\real{3}} \normts{\gsparticular + \phi_{2} \rvecone}.
+\label{eq:ch-01:lambda}
+\end{equation}
+%
+We don't control the data $\delta$, but we do control the parameter $\phi_{2}$. What value of $\phi_{2}$ minimizes  $\lambda$, the length of the solution vector? Using tools of the calculus, we find the roots of the first derivative of length with respect to the free parameter. By Pythagoras, the length of the solution vector is
+%
+\begin{equation}
+	\lambda = \paren{ \phi_{2} - \delta_{1} - \delta_{2} }^{2} + \paren{ \phi_{2} - \delta_{2} }^{2} + \phi_{2}^{2}.
+\label{eq:ch-01:lambda2}
+\end{equation}
+%
+The derivative is
+%
+\begin{equation}
+	\td{\lambda} {\phi_{2}} 
+	= 2\paren{ 3\phi_{2} - \delta_{1} - 2\delta_{2}},
+	%= 2\paren{ \phi_{2} - \delta_{1} - \delta_{2} } + 2\paren{ \phi_{2} - \delta_{2} }+ 2\phi_{2}.
+\label{eq:ch-01:lambda root}
+\end{equation}
+%
+and its root will reveal the value of $\phi_{2}$ which minimizes\footnote{The extremum is a minimum because the curve is concave up: $\tdtwo{\lambda} {\phi_{2}}=6 > 0.$} the length of the solution vector:
+%
+\begin{equation}
+	\phi_{2} = \recip{3} \paren{ \delta_{1}  + 2 \delta_{2}} .
+\label{eq:ch-01:phi_{2} }
+\end{equation}
+%
+By minimizing the vector length we have promoted the \emph{\gj} particular solution in \eqref{eq:ch-01-algebra} to the \emph{least squares} particular solution: 
+%
+\begin{equation}
+\begin{array}{ccccc c}
+		%
+	\phi_{GJ} &+& \phi_{2} & \eta 
+		&=& \phantom{wi} \bl{\phi_{p}} \\
+		%
+	\gsparticular &+&  \recip{3} \paren{ \delta_{1}  + 2 \delta_{2}} &\rvecone 
+		&=& \phiparticular .
+		%
+\end{array}
+\label{eq:ch-01:calculus}
+\end{equation}
+%
+In essence, we have scrubbed the vector $\phi_{GJ}$ free of the null space contamination using calculus tools. Notice the fact that we literally shortened the length of the vector $\phi_{GJ}$ by adding a null space term. The process of \emph{refinement} takes an amalgam vector and produces a pure range space vector.
+%
+\subsubsection{Using the process of Gram and Schmidt} 
+In the preceding section, we effectively subtracted out the contribution of the null space component of $\phi_{GJ}$. Let's use the \gs\ to explicitly remove components in the null space $\rnlla{}$. Use the inner product to define the operator which projects the amalgam vector $\phi_{GJ}$ onto the null space vector $\rd{\eta}$:
+%
+\begin{equation}
+		%
+	\text{proj}_{\rd{\eta}} \phi_{GJ} = \phigjproj{} \rd{\eta}.
+		%
+\label{eq:ch-01:projection operator}
+\end{equation}
+%
+For these data, these result is
+%
+\begin{equation}
+\begin{split}
+	c = \frac{\phi_{GJ}^{*}\rd{\eta}} {\normts{\rd{\eta}}}
+		& = \recip{3} \gsparticular \cdot \rvecone 
+				= \recip{3} \paren{ -\delta_{1} - 2 \delta_{2} }.
+\end{split}
+\label{eq:ch-01:projection}
+\end{equation}
+%
+Removing this amount of null space contamination also promotes the \gj \ particular solution $\phi_{GJ}$ to the least squares particular solution $\bl{\phi_{p}}$:
+%
+%\begin{equation}
+%	\gsparticular - \recip{3} \paren{ -\delta_{1} - 2 \delta_{2} } \rvecone = \phiparticular = \bl{\phi_{p}}.
+%\label{eq:ch-\end{equation}
+%01:projection}
+%
+\begin{equation}
+\begin{array}{ccccc c}
+		%
+	\phi_{GJ} &-& c & \frac{\rd{\eta}} {\normts{\rd{\eta}}} 
+		&=& \bl{\phi_{p}} \\
+		%
+	\gsparticular &-& \paren{ -\delta_{1} - 2 \delta_{2} } & \recip{3}  \rvecone 
+		&=& \phiparticular .
+		%
+\end{array}
+\label{eq:ch-01:gs removal}
+\end{equation}
+
+\subsubsection{Lagrange multiplier} 
+
+Henceforth and forevermore, the phrase \emph{particular solution} shall refer to the least squares particular solution, and the \emph{homogeneous solution} shall refer to the least squares homogeneous solution.
+
+\section{\label{sec:lsp}Vernacular of \tmls}  
+After our whistle--stop tour of least squares problems and solutions, we close the chapter foundational definitions which are part summary and part preview. The results are collected here to provide a convenient reference.
+% https://tex.stackexchange.com/questions/20575/attractive-boxed-equations
+\newtcbox{\mymath}[1][]{%
+	nobeforeafter, math upper, tcbox raise base,
+	enhanced, colframe=blue!30!black,
+	colback=blue!30, boxrule=1pt,
+	#1}
+%
+\subsection
+[Linear System]
+{Definition: Linear System} 
+The heart of the least squares problem is the linear system
+%
+Stating the least squares problem begins with a matrix--vector equation of the form
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+	\axeb.
+\end{empheq}
+The design matrix $\aicmnr$, the data vector $b\in\cmplxm$, and the solution vector $\xicn$. If the equality holds, the solution is exact. Otherwise, we are finding an approximate solution.
+
+\subsection
+[Least Squares Problem]
+{Definition: Least Squares Problem}  
+The definition of the least squares problem is a touchstone which can be used to test results. We'll see examples where this simple test reveals faulty premise. The least squares solution $\xls$ is defined as the set of complex $n-$vectors such that the difference achieves minimum value in the \nrmt: %
+%\begin{equation}
+%	\boxed{
+%		%\xlsdef .
+%		\xlsdefalt
+%	}
+%\label{eq:xlsdef}
+%\end{equation}
+%
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+	\xlsdefault.
+\label{eq:uno:xlsdefault}
+\end{empheq}
+
+\subsection
+[Set of Least Squares Minimizers]
+{Definition: Set of Least Squares Minimizers}  
+The set of vectors $\xls$ which minimizes \eqref{eq:uno:xlsdefault} is the set of least squares minimizers. It also is known as the least squares solution set.
+%
+
+\subsection
+[Subspace Decomposition of Least Squares Solution]
+{Definition: Subspace Decomposition of Least Squares Solution}  
+The \ftola \ empowers us to resolve the set of least squares minimizers $\xls$ into \bl{range space} and \rd{null space} components
+%
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+		\begin{array}{cccccl}
+			\xls 
+			%& = & \xblue{}} & + & \xred \\
+			& = & \xblue & + & \xred
+		\end{array}
+\end{empheq}
+%
+The set of least squares minimizers may be a point describing a unique solution (which implies a trivial \nsv) or it may be a hyperplane representing an infinitude of solutions (which implies a non-trivial \nsv).
+
+Considerable effort will be given to explore the implications of these statements.
+
+\subsection
+[Complete Least Squares Solution]
+{Definition: Complete Least Squares Solution}  
+The complete least squares solution is the typical combination of a vector $\xp\icn$, a  particular least squares solution (\bl{range space} component), and a continuum solution, $\xh\icn$, a homogeneous least squares solution (\rd{null space} component). 
+%
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+		\begin{array}{cccccl}
+			\xls 
+			%& = & \xblue{}} & + & \xred \\
+			& = & \xp & + & \xh %\\
+			%& = & \xblue{}} & + & \xred
+		\end{array}
+\end{empheq}
+%
+There is an exact correspondence between the particular least squares solution and the component of $\xls$ in the range space $\brnga{*}$: $\xp = \xblue{}$. Similarly for the homogeneous solution and the \nsv \ component $\rnlla{}$: $\xh = \xred$.
+
+\subsection
+[Subspace Decomposition of Least Squares Data Vector]
+{Definition: Subspace Decomposition of Least Squares Data Vector}  
+The \ftola \ empowers us to resolve the set of least squares minimizers $\xls$ into \bl{range space} and \rd{null space} components
+%
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+		\begin{array}{cccccl}
+			b 
+			%& = & \xblue{}} & + & \xred \\
+			& = & \datarange & + & \datanull
+		\end{array}
+\end{empheq}
+
+\subsection[Complete Least Squares Data Vector]
+{Definition: Complete Least Squares Data Vector} 
+The \ftola \ empowers us to resolve the data vector $b$ into a range space component $\datarange$ and a null space component $\datanull$:
+%
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+	b = \dataresolved
+%\label{eq:}
+\end{empheq}
+%
+Such an orthogonal decomposition, seemingly obvious, energizes much of the following work and encourages us to see the two components as protagonist and antagonist. The subspace residency of the data vector is characterized by the \fa.
+
+\subsection
+[Particular Least Squares Solution]
+{Definition: Particular Least Squares Solution}
+Every least squares produces an exact solution and this exact solution is the particular least squares solution, $\xp$. This vector is the exact solution to
+%
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+	\Axp = \Ap b =\datarange
+\label{eq:Particular Least Squares Solution}
+\end{empheq}
+%
+
+\subsection
+[Homogeneous Least Squares Solution]
+{Definition: Homogeneous Least Squares Solution}
+A linear system will present a non-trivial homogeneous least squares solution iff the \nsv \ is non-trivial. So if
+%
+\begin{equation}
+	\rnlla{} \ne \trivialnull,
+%\label{eq:name}
+\end{equation}
+%
+there will be an infinite number of solutions signaled by the arbitrary vector $y$, 
+%
+%\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+%	\xh = \paren{\I{n} - \ApA}y = \pna{}y, \qquad y\icn
+%%\label{eq:}
+%\end{empheq}
+%
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+	\xh =(\I{n} - \ApA)y = \pna{}y, \qquad y\icn
+%\label{eq:}
+\end{empheq}
+%
+The matrix $\Ap$ represents the \mpi, and operator $\pna = \I{n} - \ApA$ describes the projection onto the \nsv.
+%
+\subsection
+[Subspace Decomposition of Linear System]
+{Definition: Subspace Decomposition of Linear System} 
+The full subspace decomposition reveals the resolution of the solution vector in $\cmplx{n}$ as well as the resolution of the data vector in $\cmplx{m}$. If the \nsu \ $\rnlla{*}$ is trivial, then $\xred$ is trivial; if the \nsv \ is trivial, then $\datanull$ is trivial. 
+%
+Stating the least squares problem begins with a matrix--vector equation of the form
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+	\A{} \paren{\xblue + \xred} = \datarange + \datanull.
+\end{empheq}
+
+
+\subsection
+[General Least Squares Solution]
+{Definition: General Least Squares Solution} 
+The capstone of the preceding definitions is the general least squares solution. Two popular expressions top the list. The top form uses only the \mpi, while the second form uses a projection operator. Both are equivalent, usage is a matter of preference and context. Below the line, outside of the definition, are reminders of the fundamental subspace decomposition for the solution.
+%
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+		\begin{array}{cccccl}
+			\xls 
+			%& = & \xblue{}} & + & \xred \\
+			& = & \bsolnlsbl{b}{y}  \\
+			& = & \Apb & + & \pna{}y \\\myline
+			& = & \xp & + & \xh \\
+			& = & \xblue{} & + & \xred
+		\end{array}
+\label{eq:definition:general least squares solution}
+\end{empheq}
+
+\subsection
+[Least Squares Residual Error Vector]
+{Definition: Least Squares Residual Error Vector} 
+We have covered the important concepts of data vector and solution vector. Next, is the residual error vector. The classification ``residual'' will be explained in \S \ref{sec:thunderbolt}. The residual error vector resides in the \nsu \ $\rnlla{*}$. For an arbitrary vector $x\icn$, the residual error vector is
+%
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+	\rd{r(x)} = \Ax - b
+%\label{eq:}
+\end{empheq}
+%
+\subsection
+[Least Squares Merit Function]
+{Definition: Least Squares Merit Function} 
+The signature property of \tmls \ the minimization of the sum of the squares of the residual errors $\rd{r^{*}(x)r(x)}$. The merit function is the target function for minimization:
+%
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+	M(x) = \rd{r^{*}(\bk{x})r(\bk{x})} = \tstar{\paren{\axmb}}\paren{\axmb}
+\label{eq:definitions:merit}
+\end{empheq}
+a.k.a. chi squared
+%
+%\subsection{Definitions: Least Squares Problem Solved.} 
+%Every least squares problem contains an exact problem.
+%The signature property of \tmls \ the minimization of the sum of the squares of the residual errors $\rd{r^{*}(x)r(x)}$. We define the merit function as the target function for minimization:
+%%
+%\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+%	M(x) = \rd{r^{*}(x)r(x)}
+%%\label{eq:}
+%\end{empheq}
+%
+%
+\subsection
+[Least Total Squared Error]
+{Definition: Least Total Squared Error} 
+\Tmls \ is the collection of tools and methods which minimizes the sum of the squares of the residual errors in \eqref{eq:definitions:merit}. When this minimal value is achieved, the magnitude of the merit function represents the least total square error, $t^{2}$. This value is achieved at $\xls$: 
+%
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+	t^{2} = \rfancy
+%\label{eq:}
+\end{empheq}
+%
+\subsection
+[Least Squares Uncertainty]
+{Definition: Least Squares Uncertainty}  
+A great power of \tmls \ is that it quantifies the quality of the solution. The error terms $\sigma\irn$ dictate the number of significant digits in the fit parameters and are built upon the diagonal elements of the inverse of the product matrix $\AsA{}$. For the overdetermined case when $m > n$, and with full column rank $\paren{\rho=n}$, the error vector is
+%
+%\begin{equation}
+%\boxed{
+%	\sigma^{2}_{k} =  \frac{\normts{\axpmb}} {m-n} \wxi{*}_{k,k}, \quad \kto{n}
+%	}
+%\label{eq:general error m>n}
+%\end{equation}
+%
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+		\sigma^{2}_{k} =  \frac{t^{2}} {m-n} \wxi{*}_{k,k}, \quad \kto{n}
+\label{eq:least squares uncertainty}
+\end{empheq}
+%
+%\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+%		\sigma^{2}_{k} =  \frac{\normts{\axpmb}} {m-n} \wxi{*}_{k,k}, \quad \kto{n}
+%\end{empheq}
+%
+Be alert to context as the uncertainties are often called the errors in the fit parameters, or errors.
+%For the underdetermined case $\paren{m < n}$, with full row rank $\paren{\rho=m}$, the error vector is
+%%
+%\begin{equation}
+%\boxed{
+%	\sigma^{2}_{k} =  \frac{\normts{\axpmb}} {n-m} \wyi{*}_{k,k}, \quad \kto{m}
+%	}
+%\label{eq:general error m<n}
+%\end{equation}
+%
+\subsection
+[Least Squares Result]
+{Definition: Least Squares Result}  
+%
+We have defined the problem, defined the solution, and defined the uncertainties. The final step is to define the presentation of the particular solution and associated uncertainties. There are two styles to represent the the error terms: either as a separate vector or as part of the solution vectors:
+\begin{empheq}[box={\mymath[colback=gray!5,drop lifted shadow, sharp corners]}]{equation}
+	\xp = \bl{ \mat{c}{x_{1} \\ \vdots \\x_{\rho}} } \pm \bl{ \mat{c}{\sigma_{1} \\ \vdots \\ \sigma_{\rho}} }
+		%
+	\qquad \text{or} \qquad
+		%
+	\xp =  \bl{ \mat{c}{x_{1}\, \bk{ \pm }\, \sigma_{1} \\ \vdots \\x_{\rho}\, \bk{ \pm }\, \sigma_{\rho}} }
+\end{empheq}
+%
+%\subsection{Discussing Mathematics}  
+%A source of joy in mathematics is the crisp definitions. A source of frustration in conversation can be imprecise use of definitions.
+
+\endinput  %  ==  ==  ==  ==  ==  ==  ==  ==  ==
+
+
+%\section      [Name]{Section Name}  
+%\subsection   [Name]{Section Name}  
+%\subsubsection[Name]{Section Name}  
+
+
+%\input{\pathtables    subdir/"my blob"}
+%\input{\pathgraphics  subdir/"my blob"}
+%\input{\pathfigures   subdir/"my blob"}
+%\input{\patheps       subdir/"my blob"}
+%\input{\pathequations subdir/"my blob"}
+%
+
+%\begin{equation}
+%	%\begin{split}
+%	a = b
+%	%\end{split}
+%\end{equation}
+%
+
+%\begin{table}[htp]
+%	\caption{default}
+%	\begin{center}
+%		\begin{tabular}{|c|c|}
+%			
+%		\end{tabular}
+%	\end{center}
+%\label{default}
+%\end{table}%
+
+
+%  \tiny
+%  \scriptsize
+%  \footnotesize
+%  \small
+%  \normalsize
+%  \large
+%  \Large
+%  \LARGE
+%  \huge
+%  \Huge
+
+
+The general least squares solution is the typical combination of a vector $\xp\icn$, a  particular least squares solution, and a continuum solution, $\xh\icn$, a homogeneous least squares solution (\rd{null space} component). 
+
+The homogeneous component of the solution can be constructed from the pseudoinverse matrix $\Ap$ or expressed in terms of the operator $\pna{}$ which projects vectors onto the null space $\rnlla{}$. Using an arbitrary vector $y\icn$, the general least squares solution is

@@ -1,0 +1,159 @@
+% \input{\pLocalTheorems "thm-cauchy-schwarz-zero"}
+\newcommand{\easy}[0]		{\sum_{k=1}^{m} u_{k}^{2} v_{k}^{2}}
+\newcommand{\crossa}[0]		{\sum_{j=1}^{m} \sum_{\substack{k=1 \\ k\ne j}}^{m} u_{j}^{2} v_{k}^{2}}
+\newcommand{\crossb}[0]		{\sum_{j=1}^{m-1} \sum_{k=j+1}^{m} u_{j}v_{k} u_{k}v_{j}}
+
+\subsection{Cauchy-Schwarz Achieved Equality}
+\begin{theorem}[Cauchy-Schwarz Achieved Equality]
+Given two vectors $u, v \in\cmplx{m}$ with $v\ne \zero$, the following scalar relationship is true
+		%
+\begin{equation}
+	\innerSelf{u} \innerSelf{v} = \itwo{u}{v}^{2}
+\label{eq:csz}
+\end{equation}
+%
+iff $u$ and $v$ are collinear, that is iif $\exists \lambda \in \cmplx{}\setminus \lst{0}$ such that $u=\lambda v$.
+		%
+\label{thm:Cauchy-Schwarz-zero}
+\end{theorem}
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+\begin{proof}
+	$\paren{\Rightarrow}$ If $u=\zero$ the identity is trivial. For nontrivial $u$, expand the inner products and establish indicial orderings of the cross terms. 
+%
+\begin{equation}
+	\begin{split}
+		\innerSelf{u}\innerSelf{v} 
+			&= \paren{ u_{1}^{2} + \dots + u_{m}^{2} } \paren{ v_{1}^{2} + \dots + v_{m}^{2} }
+			= u_{1}^{2}v_{1}^{2} + \dots + u_{1}^{2}v_{2}^{2} + \dots + u_{1}^{2}v_{m}^{2} + \dots + u_{m} v_{m}^{2} \\
+		\itwo{u}{v}^{2} 
+			&= \paren{ u_{1}v_{1} + \dots + u_{m} v_{m} }^{2}
+			= u_{1}^{2}v_{1}^{2} + u_{1}v_{1}u_{2}v_{2} + \dots + u_{1}v_{1}u_{m}v_{m} + \dots + u_{m}^{2}v_{m}^{2} 
+	\end{split}
+\label{eq:expand-basic}
+\end{equation}
+%%
+%\begin{equation}
+%	\begin{array}{rcccc cc}
+%		\innerSelf{u} 
+%			&= \paren{\sum_{k=1}^{m} u_{k}}^{2} \paren{\sum_{k=1}^{m} u_{k}}^{2}
+%			&= \easy + \crossa \\
+%		\itwo{u}{v}^{2} 
+%			&= \paren{\sum_{k=1}^{m} u_{k} v_{k}}^{2}
+%			&= \easy + 2\crossb
+%	\end{array}
+%\label{eq:expand X}
+%\end{equation}
+%
+Sculpt the products to collect terms common to both expansions.
+%
+\begin{equation}
+	\begin{array}{rllcl}
+		\innerSelf{u} 
+			&= \displaystyle\paren{\sum_{k=1}^{m} u_{k}}^{2} \paren{\sum_{k=1}^{m} u_{k}}^{2}
+			&= \displaystyle\easy &+ &\phantom{2}\displaystyle\crossa \\
+		\itwo{u}{v}^{2} 
+			&= \displaystyle\paren{\sum_{k=1}^{m} u_{k} v_{k}}^{2}
+			&= \displaystyle\easy &+ &2\displaystyle\crossb
+	\end{array}
+\label{eq:expand X}
+\end{equation}
+%
+%\begin{equation}
+%	\begin{split}
+%		\innerSelf{u} 
+%			&= \paren{\sum_{k=1}^{m} u_{k}}^{2} \paren{\sum_{k=1}^{m} u_{k}}^{2}
+%			= \easy + \crossa \\
+%		\itwo{u}{v}^{2} 
+%			&= \paren{\sum_{k=1}^{m} u_{k} v_{k}}^{2}
+%			= \easy + 2\crossb
+%	\end{split}
+%\label{eq:expand }
+%\end{equation}
+%
+Defining the defect $\zeta$ as
+%
+\begin{equation}
+	%\begin{split}
+	\zeta = \innerSelf{u}\innerSelf{v} - \itwo{u}{v}^{2} = \crossa - 2\crossb
+	%\end{split}
+%\label{eq:name}
+\end{equation}
+creates a form which can be analyzed by its symmetry properties.
+
+%
+\begin{table}[htp]
+\caption{Simplistic examples of the two summation schemes used to express the defect $\zeta$. Consider $j$ as row index and $k$ a column index. The first scheme includes terms both above and below the diagonal. The second scheme only uses super diagonal elements. If the terms are symmetric, doubling the result is equivalent to summing super- and sub-diagonal elements. The arrows point to the echo elements accounted for with the doubling scheme.}
+\begin{center}
+\begin{tabular}{ccc}
+	%
+	$j=1,m$ &&	 $j=1,m-1$ \\
+	%
+	$k=1,m$, $k\ne j$ &&	 $k=j+1,m$ \\
+	%
+	\begin{overpic}[ scale = 0.75 ]
+		{\pLocalGraphics pub/sum-cells}
+	\end{overpic} 
+	%	
+		&
+	\raisebox{2cm}{$ = 2 \ \times $}
+		&
+	%
+	\begin{overpic}[ scale = 0.75 ]
+		{\pLocalGraphics pub/sum-arrows}
+	\end{overpic} 
+	%
+\end{tabular}
+\end{center}
+\label{tab:indices}
+\end{table}
+%
+
+One expression in the defect is symmetric, that is invariant under the interchange of the indices $j$ and $k$: $u_{j}v_{k} u_{k}v_{j} = u_{k}v_{j} u_{j}v_{k}$ while the other is asymmetric $u_{j} v_{k} \ne u_{k} v_{j}$. As seen in table \ref{tab:indices}, for symmetric terms the reduced summation scheme on the right can be doubled to recover the value of the full summation scheme on the left.
+%
+\begin{equation}
+	%\begin{split}
+	\crossa = \sum_{j=1}^{m-1} \sum_{k=j+1}^{m} u_{j}^{2} v_{k}^{2} + u_{k}^{2} v_{j}^{2} 
+	%\end{split}
+%\label{eq:name}
+\end{equation}
+%
+After synchronizing the indices, the defect is
+%
+\begin{equation}
+	%\begin{split}
+	\zeta = \sum_{j=1}^{m-1} \sum_{k=j+1}^{m} \paren{u_{j}v_{k} - u_{k}v_{j}}^{2}.
+	%\end{split}
+%\label{eq:name}
+\end{equation}
+%
+For the equality $\zeta = 0$ to hold, each term in the defect must be identically 0. For an arbitrary value $j$ one can write
+%
+\begin{equation}
+	%\begin{split}
+	u_{j} = \frac{u_{k}}{v_{k}} v_{j}
+	%\end{split}
+%\label{eq:name}
+\end{equation}
+%
+For this equation to be true for all values of $k$ where $u_{k}\ne 0$, the ratio $\lambda \in \cmplx{} \setminus \lst{0}$ must be a constant, implying
+%
+\begin{equation}
+	%\begin{split}
+	\lambda = \frac{u_{k}}{v_{k}}, \qquad v_{k} \ne 0
+	%\end{split}
+%\label{eq:name}
+\end{equation}
+%
+While $v$ is nonzero, it may contain elements $v_{k} = 0$ in which case $u_{k} = 0$. Accordingly $u = \lambda v$.
+
+$\paren{\Leftarrow}$ Given $u=\lambda v$, the inner products transform as $\innerSelf{u} \to \lambda^{2} \innerSelf{v}$ and $\itwo{u}{v} \to \lambda \innerSelf{v}$ reducing \eqref{eq:csz} to the tautologous form
+		%
+\begin{equation}
+	\lambda^{2} \innerSelf{v}^{2} = \lambda^{2} \innerSelf{v}^{2}.
+\label{eq:csz-xform}
+\end{equation}
+%
+\end{proof}
+%
+%
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

@@ -1,0 +1,27 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main-clohessyâwiltshire.blg'
+[100] biber-darwin:322> INFO - === Fri Mar  7, 2025, 13:04:18
+[301] Biber.pm:415> INFO - Reading './main-clohessy–wiltshire.bcf'
+[386] Biber.pm:943> INFO - Found 19 citekeys in bib section 0
+[400] Biber.pm:4256> INFO - Processing section 0
+[401] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//orbits.bib'
+[401] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//orbits.bib' to /Users/dantopa/GitHub//latex-2025//bibs//orbits.bib
+[401] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//linear-algebra.bib'
+[401] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//linear-algebra.bib' to /Users/dantopa/GitHub//latex-2025//bibs//linear-algebra.bib
+[401] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[401] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' to /Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib
+[413] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//orbits.bib' for section 0
+[432] bibtex.pm:1653> INFO - LaTeX decoding ...
+[764] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//orbits.bib'
+[852] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//linear-algebra.bib' for section 0
+[855] bibtex.pm:1653> INFO - LaTeX decoding ...
+[899] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//linear-algebra.bib'
+[911] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' for section 0
+[913] bibtex.pm:1653> INFO - LaTeX decoding ...
+[926] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[972] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[972] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[972] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[972] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[995] bbl.pm:652> INFO - Writing 'main-clohessyâwiltshire.bbl' with encoding 'UTF-8'
+[1004] bbl.pm:755> INFO - Output to main-clohessyâwiltshire.bbl

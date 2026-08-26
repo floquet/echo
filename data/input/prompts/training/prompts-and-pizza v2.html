@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prompts &amp; Pizza — Prompt Machine</title>
+  <style>
+    :root {
+      --bg:           #000000;
+      --bg-deep:      #03030f;
+      --bg-card:      #07071a;
+      --bg-input:     #04040e;
+      --blue:         #00d4ff;
+      --blue-mid:     #0099cc;
+      --blue-dim:     #005577;
+      --purple:       #b44fff;
+      --purple-mid:   #7a2db8;
+      --purple-dim:   #4a1a70;
+      --red:          #ff2d6b;
+      --red-mid:      #cc1a4a;
+      --red-dim:      #770f2a;
+      --green:        #00ff99;
+      --text:         #c0d8f0;
+      --text-bright:  #e8f4ff;
+      --text-dim:     #4a6080;
+      --border:       #0d1f35;
+      --border-mid:   #1a3050;
+      --glow-blue:    0 0 8px rgba(0,212,255,0.6), 0 0 20px rgba(0,212,255,0.25);
+      --glow-purple:  0 0 8px rgba(180,79,255,0.6), 0 0 20px rgba(180,79,255,0.25);
+      --glow-red:     0 0 8px rgba(255,45,107,0.6), 0 0 20px rgba(255,45,107,0.25);
+      --glow-green:   0 0 8px rgba(0,255,153,0.6), 0 0 20px rgba(0,255,153,0.25);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Courier New', 'Consolas', 'Lucida Console', monospace;
+      min-height: 100vh;
+      padding: 0 0 60px 0;
+    }
+
+    /* ── SCANLINES ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 3px,
+        rgba(0, 200, 255, 0.012) 3px,
+        rgba(0, 200, 255, 0.012) 4px
+      );
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      background: linear-gradient(180deg, #06061a 0%, #03030f 100%);
+      border-bottom: 1px solid var(--blue-dim);
+      padding: 36px 40px 28px;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .header::before {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, var(--blue) 20%, var(--purple) 50%, var(--red) 80%, transparent 100%);
+      box-shadow: 0 0 12px rgba(0,212,255,0.5);
+    }
+
+    /* Background grid lines */
+    .header::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(0,212,255,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,212,255,0.04) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+    }
+
+    .header-inner { position: relative; z-index: 1; }
+
+    .pizza-icon {
+      font-size: 2.4rem;
+      display: inline-block;
+      animation: spin 20s linear infinite;
+      filter: drop-shadow(0 0 8px rgba(255,160,0,0.6));
+    }
+
+    @keyframes spin { 100% { transform: rotate(360deg); } }
+
+    .title {
+      font-size: clamp(1.8rem, 5vw, 3.2rem);
+      font-weight: 900;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      display: inline-block;
+      background: linear-gradient(135deg, var(--blue) 0%, var(--purple) 50%, var(--red) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      filter: drop-shadow(0 0 16px rgba(0,212,255,0.4));
+      animation: titlePulse 5s ease-in-out infinite;
+    }
+
+    @keyframes titlePulse {
+      0%, 100% { filter: drop-shadow(0 0 16px rgba(0,212,255,0.4)); }
+      50%       { filter: drop-shadow(0 0 28px rgba(180,79,255,0.6)); }
+    }
+
+    .subtitle {
+      color: var(--text-dim);
+      font-size: 0.7rem;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      margin-top: 8px;
+    }
+
+    .subtitle span {
+      color: var(--blue-mid);
+    }
+
+    /* ── MAIN CONTENT ── */
+    .main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 30px 0;
+    }
+
+    /* ── SECTION HEADER ── */
+    .section-hdr {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .section-hdr-line {
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, var(--border-mid), transparent);
+    }
+
+    .section-hdr-text {
+      font-size: 0.6rem;
+      letter-spacing: 0.45em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .sh-blue   { color: var(--blue); }
+    .sh-purple { color: var(--purple); }
+    .sh-red    { color: var(--red); }
+
+    /* ── COMPONENT ROWS ── */
+    .components-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+
+    .comp-row {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      overflow: hidden;
+      transition: border-color 0.25s, box-shadow 0.25s;
+    }
+
+    .comp-row:hover { border-color: var(--border-mid); }
+    .comp-row:focus-within { box-shadow: inset 0 0 0 1px rgba(0,212,255,0.08); }
+
+    /* Left accent bar */
+    .comp-row.c1 { border-left: 3px solid var(--blue); }
+    .comp-row.c2 { border-left: 3px solid var(--purple); }
+    .comp-row.c3 { border-left: 3px solid #3399ff; }
+    .comp-row.c4 { border-left: 3px solid var(--red); }
+    .comp-row.c5 { border-left: 3px solid var(--purple); }
+    .comp-row.c6 { border-left: 3px solid var(--blue); }
+    .comp-row.c7 { border-left: 3px solid var(--red); }
+
+    .comp-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 12px 16px 10px;
+      border-bottom: 1px solid var(--border);
+      cursor: default;
+    }
+
+    .comp-badge {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+
+    .c1 .comp-badge { background: rgba(0,212,255,0.12); color: var(--blue);   border: 1px solid var(--blue); }
+    .c2 .comp-badge { background: rgba(180,79,255,0.12); color: var(--purple); border: 1px solid var(--purple); }
+    .c3 .comp-badge { background: rgba(51,153,255,0.12); color: #3399ff;       border: 1px solid #3399ff; }
+    .c4 .comp-badge { background: rgba(255,45,107,0.12); color: var(--red);    border: 1px solid var(--red); }
+    .c5 .comp-badge { background: rgba(180,79,255,0.12); color: var(--purple); border: 1px solid var(--purple); }
+    .c6 .comp-badge { background: rgba(0,212,255,0.12);  color: var(--blue);   border: 1px solid var(--blue); }
+    .c7 .comp-badge { background: rgba(255,45,107,0.12); color: var(--red);    border: 1px solid var(--red); }
+
+    .comp-label { flex: 1; }
+
+    .comp-name {
+      font-size: 0.88rem;
+      font-weight: bold;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .c1 .comp-name { color: var(--blue); }
+    .c2 .comp-name { color: var(--purple); }
+    .c3 .comp-name { color: #3399ff; }
+    .c4 .comp-name { color: var(--red); }
+    .c5 .comp-name { color: var(--purple); }
+    .c6 .comp-name { color: var(--blue); }
+    .c7 .comp-name { color: var(--red); }
+
+    .comp-purpose {
+      font-size: 0.62rem;
+      color: var(--text-dim);
+      letter-spacing: 0.06em;
+      margin-top: 3px;
+    }
+
+    .comp-saved-count {
+      font-size: 0.58rem;
+      letter-spacing: 0.15em;
+      padding: 2px 8px;
+      border-radius: 10px;
+      border: 1px solid var(--border-mid);
+      color: var(--text-dim);
+      white-space: nowrap;
+    }
+
+    .comp-body {
+      padding: 12px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .comp-textarea {
+      width: 100%;
+      background: var(--bg-input);
+      border: 1px solid var(--border);
+      color: var(--text-bright);
+      font-family: inherit;
+      font-size: 0.8rem;
+      line-height: 1.6;
+      padding: 10px 12px;
+      resize: vertical;
+      min-height: 72px;
+      border-radius: 3px;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .comp-textarea:focus {
+      border-color: var(--blue-mid);
+      box-shadow: 0 0 0 1px rgba(0,212,255,0.15), inset 0 0 12px rgba(0,0,0,0.4);
+    }
+
+    .comp-textarea::placeholder { color: var(--text-dim); font-size: 0.73rem; }
+
+    .comp-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .comp-select {
+      flex: 1;
+      min-width: 180px;
+      background: var(--bg-input);
+      border: 1px solid var(--border-mid);
+      color: var(--text-dim);
+      font-family: inherit;
+      font-size: 0.68rem;
+      padding: 6px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .comp-select:focus { border-color: var(--blue-mid); color: var(--text); }
+
+    .btn {
+      background: transparent;
+      font-family: inherit;
+      font-size: 0.65rem;
+      padding: 6px 14px;
+      border-radius: 3px;
+      cursor: pointer;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      transition: all 0.18s;
+      white-space: nowrap;
+      border: 1px solid transparent;
+    }
+
+    .btn-blue  { border-color: var(--blue-mid); color: var(--blue); }
+    .btn-blue:hover  { background: rgba(0,212,255,0.12); box-shadow: var(--glow-blue); }
+
+    .btn-red   { border-color: var(--red-mid); color: var(--red); }
+    .btn-red:hover   { background: rgba(255,45,107,0.12); box-shadow: var(--glow-red); }
+
+    .btn-ghost { border-color: var(--border-mid); color: var(--text-dim); }
+    .btn-ghost:hover { border-color: #334; color: var(--text); }
+
+    .save-check {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      margin-left: auto;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .save-check input[type="checkbox"] {
+      width: 14px;
+      height: 14px;
+      accent-color: var(--blue);
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .save-check label {
+      font-size: 0.62rem;
+      color: var(--text-dim);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    /* ── ASSEMBLY ZONE ── */
+    .assembly-zone {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-top: 2px solid var(--purple-mid);
+      border-radius: 3px;
+      padding: 20px 22px;
+      margin-bottom: 20px;
+    }
+
+    .assembly-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+
+    .btn-build {
+      background: linear-gradient(135deg, rgba(0,212,255,0.1), rgba(180,79,255,0.1));
+      border: 1px solid var(--blue);
+      color: var(--blue);
+      font-family: inherit;
+      font-size: 0.78rem;
+      font-weight: bold;
+      padding: 10px 24px;
+      border-radius: 3px;
+      cursor: pointer;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      transition: all 0.2s;
+      box-shadow: inset 0 0 20px rgba(0,212,255,0.05);
+    }
+
+    .btn-build:hover {
+      background: linear-gradient(135deg, rgba(0,212,255,0.2), rgba(180,79,255,0.2));
+      box-shadow: var(--glow-blue);
+    }
+
+    .btn-copy-prompt {
+      background: linear-gradient(135deg, rgba(180,79,255,0.1), rgba(0,212,255,0.1));
+      border: 1px solid var(--purple);
+      color: var(--purple);
+      font-family: inherit;
+      font-size: 0.78rem;
+      font-weight: bold;
+      padding: 10px 24px;
+      border-radius: 3px;
+      cursor: pointer;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      transition: all 0.2s;
+    }
+
+    .btn-copy-prompt:hover { background: rgba(180,79,255,0.18); box-shadow: var(--glow-purple); }
+    .btn-copy-prompt.copied { border-color: var(--green); color: var(--green); }
+
+    .btn-clear-all {
+      background: transparent;
+      border: 1px solid #1a1a2a;
+      color: #334455;
+      font-family: inherit;
+      font-size: 0.65rem;
+      padding: 10px 16px;
+      border-radius: 3px;
+      cursor: pointer;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      transition: all 0.2s;
+      margin-left: auto;
+    }
+
+    .btn-clear-all:hover { border-color: var(--red-dim); color: var(--red); }
+
+    .output-textarea {
+      width: 100%;
+      background: #020209;
+      border: 1px solid var(--purple-dim);
+      color: #b8d4f0;
+      font-family: inherit;
+      font-size: 0.79rem;
+      line-height: 1.7;
+      padding: 16px;
+      resize: vertical;
+      min-height: 180px;
+      border-radius: 3px;
+      outline: none;
+      box-shadow: inset 0 0 30px rgba(0,0,0,0.6);
+      transition: border-color 0.2s;
+    }
+
+    .output-textarea:focus { border-color: var(--purple-mid); }
+
+    .meta-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 6px;
+    }
+
+    .meta-text {
+      font-size: 0.58rem;
+      color: var(--text-dim);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .meta-count { color: var(--blue-mid); }
+
+    /* ── LIBRARY ── */
+    .library-zone {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-top: 2px solid var(--red-mid);
+      border-radius: 3px;
+      padding: 20px 22px;
+    }
+
+    .save-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+
+    .lib-title-input {
+      flex: 1;
+      min-width: 200px;
+      background: var(--bg-input);
+      border: 1px solid var(--border-mid);
+      color: var(--text-bright);
+      font-family: inherit;
+      font-size: 0.78rem;
+      padding: 9px 14px;
+      border-radius: 3px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .lib-title-input:focus { border-color: var(--red-mid); }
+    .lib-title-input::placeholder { color: var(--text-dim); }
+
+    .btn-save-lib {
+      background: linear-gradient(135deg, rgba(255,45,107,0.1), rgba(180,79,255,0.1));
+      border: 1px solid var(--red);
+      color: var(--red);
+      font-family: inherit;
+      font-size: 0.78rem;
+      font-weight: bold;
+      padding: 9px 22px;
+      border-radius: 3px;
+      cursor: pointer;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn-save-lib:hover { background: rgba(255,45,107,0.18); box-shadow: var(--glow-red); }
+
+    .lib-list {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      max-height: 360px;
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+
+    .lib-list::-webkit-scrollbar { width: 4px; }
+    .lib-list::-webkit-scrollbar-track { background: var(--bg-input); }
+    .lib-list::-webkit-scrollbar-thumb { background: var(--blue-dim); border-radius: 2px; }
+
+    .lib-item {
+      background: #050512;
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: border-color 0.2s;
+    }
+
+    .lib-item:hover { border-color: var(--red-dim); }
+
+    .lib-item-name {
+      flex: 1;
+      font-size: 0.78rem;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .lib-item-date {
+      font-size: 0.58rem;
+      color: var(--text-dim);
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .lib-item-btns {
+      display: flex;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .btn-lib {
+      background: transparent;
+      font-family: inherit;
+      font-size: 0.58rem;
+      padding: 4px 10px;
+      border-radius: 2px;
+      cursor: pointer;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      transition: all 0.15s;
+      border: 1px solid transparent;
+    }
+
+    .btn-lib-load   { border-color: var(--blue-mid);   color: var(--blue); }
+    .btn-lib-load:hover   { background: rgba(0,212,255,0.1); }
+    .btn-lib-copy   { border-color: var(--purple-mid); color: var(--purple); }
+    .btn-lib-copy:hover   { background: rgba(180,79,255,0.1); }
+    .btn-lib-del    { border-color: var(--red-mid);    color: var(--red); }
+    .btn-lib-del:hover    { background: rgba(255,45,107,0.1); }
+
+    .lib-empty {
+      text-align: center;
+      padding: 28px;
+      color: var(--text-dim);
+      font-size: 0.65rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      border: 1px dashed var(--border);
+      border-radius: 3px;
+    }
+
+    /* ── NEON DIVIDER ── */
+    .neon-div {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--blue-dim), var(--purple-dim), var(--red-dim), transparent);
+      margin: 0 0 20px;
+      opacity: 0.6;
+    }
+
+    /* ── TOAST ── */
+    .toast {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      background: #060618;
+      border: 1px solid var(--blue-mid);
+      color: var(--blue);
+      font-family: 'Courier New', monospace;
+      font-size: 0.7rem;
+      padding: 10px 20px;
+      border-radius: 3px;
+      box-shadow: var(--glow-blue);
+      z-index: 9998;
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity 0.25s, transform 0.25s;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      pointer-events: none;
+    }
+
+    .toast.show { opacity: 1; transform: translateY(0); }
+
+    .toast.t-purple { border-color: var(--purple-mid); color: var(--purple); box-shadow: var(--glow-purple); }
+    .toast.t-red    { border-color: var(--red-mid);    color: var(--red);    box-shadow: var(--glow-red); }
+    .toast.t-green  { border-color: #00bb66;           color: var(--green);  box-shadow: var(--glow-green); }
+
+    /* ── DATABASE ZONE ── */
+    .db-zone {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-top: 2px solid #009955;
+      border-radius: 3px;
+      padding: 20px 22px;
+      margin-bottom: 40px;
+    }
+
+    .sh-green { color: #00cc77; }
+
+    .btn-export {
+      background: linear-gradient(135deg, rgba(0,255,153,0.08), rgba(0,212,255,0.08));
+      border: 1px solid #00bb66;
+      color: #00ff99;
+      font-family: inherit;
+      font-size: 0.78rem;
+      font-weight: bold;
+      padding: 10px 24px;
+      border-radius: 3px;
+      cursor: pointer;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      transition: all 0.2s;
+    }
+
+    .btn-export:hover {
+      background: rgba(0,255,153,0.15);
+      box-shadow: var(--glow-green);
+    }
+
+    .btn-import {
+      background: linear-gradient(135deg, rgba(0,212,255,0.08), rgba(0,255,153,0.08));
+      border: 1px solid var(--blue-mid);
+      color: var(--blue);
+      font-family: inherit;
+      font-size: 0.78rem;
+      font-weight: bold;
+      padding: 10px 24px;
+      border-radius: 3px;
+      cursor: pointer;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      transition: all 0.2s;
+    }
+
+    .btn-import:hover {
+      background: rgba(0,212,255,0.15);
+      box-shadow: var(--glow-blue);
+    }
+
+    .db-bar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+
+    .db-stats {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      padding: 12px 16px;
+      background: #030310;
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      margin-bottom: 12px;
+    }
+
+    .db-stat { display: flex; flex-direction: column; gap: 3px; }
+
+    .db-stat-label {
+      font-size: 0.54rem;
+      color: var(--text-dim);
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+    }
+
+    .db-stat-value {
+      font-size: 0.84rem;
+      font-weight: bold;
+      color: #00cc77;
+    }
+
+    .db-stat-value.sv-blue   { color: var(--blue); }
+    .db-stat-value.sv-purple { color: var(--purple); }
+
+    .db-note {
+      font-size: 0.62rem;
+      color: var(--text-dim);
+      letter-spacing: 0.06em;
+      line-height: 1.7;
+      padding: 10px 14px;
+      border: 1px dashed var(--border);
+      border-radius: 3px;
+    }
+
+    .db-note strong { color: #00cc77; font-style: normal; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      .main { padding: 20px 14px 0; }
+      .header { padding: 24px 16px 20px; }
+      .assembly-bar { gap: 8px; }
+      .btn-clear-all { margin-left: 0; }
+      .save-check { margin-left: 0; }
+      .db-bar { gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════ HEADER ═══════════════ -->
+<div class="header">
+  <div class="header-inner">
+    <div style="margin-bottom:10px;"><span class="pizza-icon">🍕</span></div>
+    <div class="title">Prompts &amp; Pizza</div>
+    <div class="subtitle">
+      <span>The Master Prompt Framework</span>
+      &nbsp;·&nbsp; 7-Component Machine
+      &nbsp;·&nbsp; <span>Catalog &amp; Best Practice System</span>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ MAIN ═══════════════ -->
+<div class="main">
+
+  <!-- ── COMPONENT SECTION HEADER ── -->
+  <div style="margin-top:28px;">
+    <div class="section-hdr">
+      <div class="section-hdr-text sh-blue">// Prompt Components</div>
+      <div class="section-hdr-line"></div>
+      <div class="section-hdr-text" style="color:var(--text-dim);">Enter · Save · Reload</div>
+    </div>
+  </div>
+
+  <!-- ── COMPONENT ROWS ── -->
+  <div class="components-wrap" id="componentsWrap">
+    <!-- Rendered by JS -->
+  </div>
+
+  <div class="neon-div"></div>
+
+  <!-- ── ASSEMBLY ZONE ── -->
+  <div class="section-hdr" style="margin-bottom:14px;">
+    <div class="section-hdr-text sh-purple">// Assembled Prompt Output</div>
+    <div class="section-hdr-line" style="background:linear-gradient(90deg,var(--purple-dim),transparent);"></div>
+    <div class="section-hdr-text" style="color:var(--text-dim);">Build · Copy · Use</div>
+  </div>
+
+  <div class="assembly-zone">
+    <div class="assembly-bar">
+      <button class="btn-build" onclick="assemblePrompt()">▶ Build Prompt</button>
+      <button class="btn-copy-prompt" id="copyBtn" onclick="copyPrompt()">⧉ Copy Prompt</button>
+      <button class="btn-clear-all" onclick="clearAll()">✕ Clear All Fields</button>
+    </div>
+    <textarea class="output-textarea" id="outputArea"
+      placeholder="// Your assembled prompt will appear here after clicking BUILD PROMPT — or it auto-updates as you type..."></textarea>
+    <div class="meta-row">
+      <div class="meta-text">Auto-assembles as you type</div>
+      <div class="meta-text meta-count" id="charCount">0 chars · 0 words</div>
+    </div>
+  </div>
+
+  <div class="neon-div"></div>
+
+  <!-- ── PROMPT LIBRARY ── -->
+  <div class="section-hdr" style="margin-bottom:14px;">
+    <div class="section-hdr-text sh-red">// Prompt Library</div>
+    <div class="section-hdr-line" style="background:linear-gradient(90deg,var(--red-dim),transparent);"></div>
+    <div class="section-hdr-text" style="color:var(--text-dim);" id="libCount">0 Saved Prompts</div>
+  </div>
+
+  <div class="library-zone">
+    <div class="save-row">
+      <input class="lib-title-input" id="promptTitle" type="text"
+        placeholder="Name this prompt before saving to library…" maxlength="90" />
+      <button class="btn-save-lib" onclick="saveToLibrary()">+ Save to Library</button>
+    </div>
+    <div class="lib-list" id="libList"></div>
+  </div>
+
+  <div class="neon-div"></div>
+
+  <!-- ── DATABASE I/O ── -->
+  <div class="section-hdr" style="margin-bottom:14px;">
+    <div class="section-hdr-text sh-green">// Database · Import &amp; Export</div>
+    <div class="section-hdr-line" style="background:linear-gradient(90deg,#004422,transparent);"></div>
+    <div class="section-hdr-text" style="color:var(--text-dim);">Backup · Restore · Portable</div>
+  </div>
+
+  <div class="db-zone">
+
+    <!-- Live stats -->
+    <div class="db-stats" id="dbStats">
+      <!-- Populated by JS -->
+    </div>
+
+    <!-- Action buttons -->
+    <div class="db-bar">
+      <button class="btn-export" onclick="exportDatabase()">⬇ Export Database</button>
+      <button class="btn-import" onclick="document.getElementById('importFileInput').click()">⬆ Import Database</button>
+      <!-- Hidden file input — triggered programmatically -->
+      <input type="file" id="importFileInput" accept=".json" style="display:none"
+             onchange="importDatabase(event)">
+    </div>
+
+    <div class="db-note">
+      <strong>Export</strong> saves your entire database — all saved component entries and your full prompt library — as a
+      portable <code>.json</code> file downloaded to your <strong>Downloads</strong> folder.
+      Filename includes the date so backups don't overwrite each other.<br><br>
+      <strong>Import</strong> reads a previously exported file. You'll be asked whether to
+      <strong>Merge</strong> (add imported data on top of what you have) or
+      <strong>Replace</strong> (overwrite everything with the imported file).
+    </div>
+
+  </div>
+
+</div><!-- /main -->
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ═══════════════════════════════════════════
+//  COMPONENT DEFINITIONS
+// ═══════════════════════════════════════════
+const COMPS = [
+  {
+    id: 'avatar',
+    num: 1,
+    cls: 'c1',
+    name: 'Avatar',
+    purpose: 'Define WHO the AI should be',
+    tip: 'Act as a former Fortune 100 CSO with 15 years in cloud platform scaling. Avoid hype and jargon. Optimize for board-ready clarity and quantified risk.'
+  },
+  {
+    id: 'objective',
+    num: 2,
+    cls: 'c2',
+    name: 'Objective',
+    purpose: 'State the GOAL and decision to be made',
+    tip: 'Produce a strategic risk assessment for our proposed $40M migration from on-prem to multi-cloud, targeting a board presentation in Q3.'
+  },
+  {
+    id: 'context',
+    num: 3,
+    cls: 'c3',
+    name: 'Context',
+    purpose: 'Explain WHY the problem exists',
+    tip: 'We operate in financial services (SOC 2, PCI-DSS). Two prior migration attempts failed due to vendor lock-in and compliance gaps. Budget is fixed; timeline is 18 months.'
+  },
+  {
+    id: 'problem_space',
+    num: 4,
+    cls: 'c4',
+    name: 'Problem Space',
+    purpose: 'Define SCOPE, constraints, and what has failed',
+    tip: 'Evaluate AWS vs. Azure vs. hybrid. Prior failures: single-vendor dependency, underestimated data gravity. Compliance is non-negotiable.'
+  },
+  {
+    id: 'key_questions',
+    num: 5,
+    cls: 'c5',
+    name: 'Key Questions',
+    purpose: 'Ask NON-OVERLAPPING questions that surface tradeoffs',
+    tip: '(a) What are the top 3 failure modes by likelihood and impact? (b) Which compliance gaps are hardest to close and why? (c) What is the realistic cost delta between hybrid and full-cloud over 5 years?'
+  },
+  {
+    id: 'rigor',
+    num: 6,
+    cls: 'c6',
+    name: 'Rigor',
+    purpose: 'Specify HOW the AI should think',
+    tip: 'Use first-principles reasoning. Quantify impacts where possible. Separate known facts from judgment calls. Flag unknowns explicitly. Red-team your own conclusions.'
+  },
+  {
+    id: 'output_format',
+    num: 7,
+    cls: 'c7',
+    name: 'Output Format',
+    purpose: 'Define the DELIVERABLE structure',
+    tip: 'Produce a 2-page executive memo with: (1) decision matrix table, (2) risk heat map summary, (3) recommended path with 90-day milestones. No bullet lists longer than 5 items.'
+  }
+];
+
+// ═══════════════════════════════════════════
+//  LOCAL STORAGE KEYS
+// ═══════════════════════════════════════════
+const savedKey  = id  => `pp_comp_${id}`;
+const libKey    = ()  => 'pp_library';
+
+// ═══════════════════════════════════════════
+//  INIT
+// ═══════════════════════════════════════════
+function init() {
+  const wrap = document.getElementById('componentsWrap');
+  COMPS.forEach(c => {
+    wrap.appendChild(buildRow(c));
+    refreshDropdown(c.id);
+  });
+  renderLibrary();
+  renderDbStats();
+}
+
+// ═══════════════════════════════════════════
+//  BUILD COMPONENT ROW
+// ═══════════════════════════════════════════
+function buildRow(c) {
+  const div = document.createElement('div');
+  div.className = `comp-row ${c.cls}`;
+  div.id = `row_${c.id}`;
+
+  div.innerHTML = `
+    <div class="comp-header">
+      <div class="comp-badge">${c.num}</div>
+      <div class="comp-label">
+        <div class="comp-name">${c.name}</div>
+        <div class="comp-purpose">${c.purpose}</div>
+      </div>
+      <div class="comp-saved-count" id="cnt_${c.id}">0 SAVED</div>
+    </div>
+    <div class="comp-body">
+      <textarea
+        class="comp-textarea"
+        id="ta_${c.id}"
+        rows="3"
+        placeholder="${c.tip}"
+        oninput="autoAssemble()"
+      ></textarea>
+      <div class="comp-controls">
+        <select class="comp-select" id="sel_${c.id}">
+          <option value="">— Select a saved entry to load —</option>
+        </select>
+        <button class="btn btn-blue" onclick="loadEntry('${c.id}')">Load</button>
+        <button class="btn btn-red"  onclick="deleteSaved('${c.id}')">Delete</button>
+        <div class="save-check">
+          <input type="checkbox" id="chk_${c.id}" onchange="handleSaveChk('${c.id}')">
+          <label for="chk_${c.id}">Save this entry</label>
+        </div>
+      </div>
+    </div>
+  `;
+  return div;
+}
+
+// ═══════════════════════════════════════════
+//  SAVE / LOAD / DELETE COMPONENT ENTRIES
+// ═══════════════════════════════════════════
+function handleSaveChk(id) {
+  const chk = document.getElementById(`chk_${id}`);
+  if (!chk.checked) return;
+  const text = document.getElementById(`ta_${id}`).value.trim();
+  if (!text) {
+    showToast('Enter text first', 't-red');
+    chk.checked = false;
+    return;
+  }
+  const key   = savedKey(id);
+  const saved = JSON.parse(localStorage.getItem(key) || '[]');
+  if (saved.includes(text)) {
+    showToast('Already saved', 't-purple');
+    chk.checked = false;
+    return;
+  }
+  saved.push(text);
+  localStorage.setItem(key, JSON.stringify(saved));
+  refreshDropdown(id);
+  renderDbStats();
+  showToast(`${COMPS.find(c=>c.id===id).name} entry saved ✓`, 't-green');
+  setTimeout(() => { chk.checked = false; }, 400);
+}
+
+function refreshDropdown(id) {
+  const saved = JSON.parse(localStorage.getItem(savedKey(id)) || '[]');
+  const sel   = document.getElementById(`sel_${id}`);
+  sel.innerHTML = `<option value="">— Select a saved entry to load (${saved.length}) —</option>`;
+  saved.forEach((entry, i) => {
+    const opt = document.createElement('option');
+    opt.value = i;
+    opt.textContent = entry.length > 85 ? entry.slice(0, 85) + '…' : entry;
+    sel.appendChild(opt);
+  });
+  const cntEl = document.getElementById(`cnt_${id}`);
+  if (cntEl) cntEl.textContent = `${saved.length} SAVED`;
+}
+
+function loadEntry(id) {
+  const sel = document.getElementById(`sel_${id}`);
+  if (sel.value === '') { showToast('Select an entry from the dropdown', 't-red'); return; }
+  const saved = JSON.parse(localStorage.getItem(savedKey(id)) || '[]');
+  document.getElementById(`ta_${id}`).value = saved[parseInt(sel.value)];
+  autoAssemble();
+  showToast('Entry loaded — edit as needed');
+}
+
+function deleteSaved(id) {
+  const sel = document.getElementById(`sel_${id}`);
+  if (sel.value === '') { showToast('Select an entry to delete', 't-red'); return; }
+  const saved = JSON.parse(localStorage.getItem(savedKey(id)) || '[]');
+  const label = saved[parseInt(sel.value)];
+  saved.splice(parseInt(sel.value), 1);
+  localStorage.setItem(savedKey(id), JSON.stringify(saved));
+  refreshDropdown(id);
+  renderDbStats();
+  showToast('Saved entry removed', 't-red');
+}
+
+// ═══════════════════════════════════════════
+//  ASSEMBLE PROMPT
+// ═══════════════════════════════════════════
+function assemblePrompt() {
+  const text = buildAssembled();
+  document.getElementById('outputArea').value = text;
+  updateCount(text);
+  showToast(text ? 'Prompt assembled ✓' : 'Fill in at least one component', text ? 't-green' : 't-red');
+}
+
+function autoAssemble() {
+  const text = buildAssembled();
+  document.getElementById('outputArea').value = text;
+  updateCount(text);
+}
+
+function buildAssembled() {
+  const parts = [];
+  COMPS.forEach(c => {
+    const v = document.getElementById(`ta_${c.id}`).value.trim();
+    if (v) parts.push(`[${c.num}. ${c.name.toUpperCase()}]\n${v}`);
+  });
+  return parts.join('\n\n');
+}
+
+function updateCount(text) {
+  const chars = text.length;
+  const words = text.trim() ? text.trim().split(/\s+/).length : 0;
+  document.getElementById('charCount').textContent =
+    `${chars.toLocaleString()} chars · ${words.toLocaleString()} words`;
+}
+
+function copyPrompt() {
+  const out = document.getElementById('outputArea').value.trim();
+  if (!out) { showToast('Nothing to copy — build your prompt first', 't-red'); return; }
+  navigator.clipboard.writeText(out).then(() => {
+    const btn = document.getElementById('copyBtn');
+    btn.classList.add('copied');
+    btn.textContent = '✓ Copied!';
+    showToast('Prompt copied to clipboard ✓', 't-green');
+    setTimeout(() => { btn.classList.remove('copied'); btn.textContent = '⧉ Copy Prompt'; }, 2200);
+  });
+}
+
+function clearAll() {
+  if (!confirm('Clear all component fields?\n\n(Saved entries and library are preserved.)')) return;
+  COMPS.forEach(c => {
+    document.getElementById(`ta_${c.id}`).value = '';
+    document.getElementById(`chk_${c.id}`).checked = false;
+  });
+  document.getElementById('outputArea').value = '';
+  document.getElementById('charCount').textContent = '0 chars · 0 words';
+  showToast('All fields cleared', 't-red');
+}
+
+// ═══════════════════════════════════════════
+//  LIBRARY
+// ═══════════════════════════════════════════
+function saveToLibrary() {
+  const title   = document.getElementById('promptTitle').value.trim();
+  const content = document.getElementById('outputArea').value.trim();
+
+  if (!title)   { showToast('Enter a title first', 't-red'); document.getElementById('promptTitle').focus(); return; }
+  if (!content) { showToast('Build the prompt first, then save', 't-red'); return; }
+
+  const library = JSON.parse(localStorage.getItem(libKey()) || '[]');
+
+  // Snapshot current component values alongside assembled content
+  const components = {};
+  COMPS.forEach(c => { components[c.id] = document.getElementById(`ta_${c.id}`).value; });
+
+  library.unshift({
+    id:         Date.now(),
+    title,
+    content,
+    components,
+    date: new Date().toLocaleString('en-US', {
+      month: 'short', day: 'numeric', year: 'numeric',
+      hour: 'numeric', minute: '2-digit'
+    })
+  });
+
+  localStorage.setItem(libKey(), JSON.stringify(library));
+  renderLibrary();
+  renderDbStats();
+  document.getElementById('promptTitle').value = '';
+  showToast(`"${title}" saved to library ✓`, 't-green');
+}
+
+function renderLibrary() {
+  const library = JSON.parse(localStorage.getItem(libKey()) || '[]');
+  const list    = document.getElementById('libList');
+  const cntEl   = document.getElementById('libCount');
+  cntEl.textContent = `${library.length} Saved Prompt${library.length !== 1 ? 's' : ''}`;
+
+  list.innerHTML = '';
+
+  if (!library.length) {
+    list.innerHTML = `<div class="lib-empty">No saved prompts yet · Build &amp; save your first one above</div>`;
+    return;
+  }
+
+  library.forEach((entry, idx) => {
+    const item = document.createElement('div');
+    item.className = 'lib-item';
+    item.innerHTML = `
+      <div class="lib-item-name" title="${entry.title}">${entry.title}</div>
+      <div class="lib-item-date">${entry.date}</div>
+      <div class="lib-item-btns">
+        <button class="btn-lib btn-lib-load" onclick="loadFromLib(${idx})">Load</button>
+        <button class="btn-lib btn-lib-copy" onclick="copyFromLib(${idx})">Copy</button>
+        <button class="btn-lib btn-lib-del"  onclick="deleteFromLib(${idx})">✕</button>
+      </div>
+    `;
+    list.appendChild(item);
+  });
+}
+
+function loadFromLib(idx) {
+  const library = JSON.parse(localStorage.getItem(libKey()) || '[]');
+  const entry   = library[idx];
+  if (!entry) return;
+
+  // Restore component fields
+  COMPS.forEach(c => {
+    document.getElementById(`ta_${c.id}`).value = entry.components ? (entry.components[c.id] || '') : '';
+  });
+
+  document.getElementById('outputArea').value = entry.content;
+  updateCount(entry.content);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  showToast(`"${entry.title}" loaded ✓`, 't-green');
+}
+
+function copyFromLib(idx) {
+  const library = JSON.parse(localStorage.getItem(libKey()) || '[]');
+  const entry   = library[idx];
+  if (!entry) return;
+  navigator.clipboard.writeText(entry.content).then(() => {
+    showToast(`"${entry.title}" copied ✓`, 't-purple');
+  });
+}
+
+function deleteFromLib(idx) {
+  const library = JSON.parse(localStorage.getItem(libKey()) || '[]');
+  if (!confirm(`Delete "${library[idx]?.title}" from library?`)) return;
+  library.splice(idx, 1);
+  localStorage.setItem(libKey(), JSON.stringify(library));
+  renderLibrary();
+  renderDbStats();
+  showToast('Prompt deleted from library', 't-red');
+}
+
+// ═══════════════════════════════════════════
+//  DATABASE STATS
+// ═══════════════════════════════════════════
+function renderDbStats() {
+  const library   = JSON.parse(localStorage.getItem(libKey()) || '[]');
+  const lastExport = localStorage.getItem('pp_last_export') || '—';
+
+  let totalSaved = 0;
+  const perComp = COMPS.map(c => {
+    const n = JSON.parse(localStorage.getItem(savedKey(c.id)) || '[]').length;
+    totalSaved += n;
+    return n;
+  });
+
+  const el = document.getElementById('dbStats');
+  if (!el) return;
+
+  el.innerHTML = `
+    <div class="db-stat">
+      <div class="db-stat-label">Prompt Library</div>
+      <div class="db-stat-value sv-purple">${library.length} prompts</div>
+    </div>
+    <div class="db-stat">
+      <div class="db-stat-label">Saved Entries</div>
+      <div class="db-stat-value sv-blue">${totalSaved} total</div>
+    </div>
+    ${COMPS.map((c, i) => `
+    <div class="db-stat">
+      <div class="db-stat-label">${c.name}</div>
+      <div class="db-stat-value">${perComp[i]}</div>
+    </div>`).join('')}
+    <div class="db-stat" style="margin-left:auto;">
+      <div class="db-stat-label">Last Export</div>
+      <div class="db-stat-value" style="font-size:0.68rem;color:var(--text-dim);">${lastExport}</div>
+    </div>
+  `;
+}
+
+// ═══════════════════════════════════════════
+//  EXPORT DATABASE
+// ═══════════════════════════════════════════
+function exportDatabase() {
+  // Collect everything from localStorage
+  const savedEntries = {};
+  COMPS.forEach(c => {
+    savedEntries[c.id] = JSON.parse(localStorage.getItem(savedKey(c.id)) || '[]');
+  });
+
+  const library = JSON.parse(localStorage.getItem(libKey()) || '[]');
+
+  const totalEntries = Object.values(savedEntries).reduce((sum, arr) => sum + arr.length, 0);
+  const exportedAt   = new Date().toISOString();
+  const exportedAtPretty = new Date().toLocaleString('en-US', {
+    month: 'short', day: 'numeric', year: 'numeric',
+    hour: 'numeric', minute: '2-digit'
+  });
+
+  const payload = {
+    _meta: {
+      app:         'Prompts & Pizza',
+      version:     '1.0',
+      exportedAt,
+      exportedAtPretty,
+      counts: {
+        libraryPrompts: library.length,
+        totalSavedEntries: totalEntries
+      }
+    },
+    library,
+    savedEntries
+  };
+
+  // Build filename: prompts-and-pizza-backup-YYYY-MM-DD.json
+  const dateStr = new Date().toISOString().slice(0, 10);
+  const filename = `prompts-and-pizza-backup-${dateStr}.json`;
+
+  // Trigger download → goes to browser's default Downloads folder
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+
+  // Record last export timestamp
+  localStorage.setItem('pp_last_export', exportedAtPretty);
+  renderDbStats();
+
+  showToast(`Exported → ${filename}`, 't-green');
+}
+
+// ═══════════════════════════════════════════
+//  IMPORT DATABASE
+// ═══════════════════════════════════════════
+function importDatabase(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+
+  // Reset input so the same file can be re-selected if needed
+  event.target.value = '';
+
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    let payload;
+    try {
+      payload = JSON.parse(e.target.result);
+    } catch {
+      showToast('Invalid file — not valid JSON', 't-red');
+      return;
+    }
+
+    // Validate it looks like a P&P export
+    if (!payload._meta || payload._meta.app !== 'Prompts & Pizza') {
+      showToast('Unrecognised file — not a P&P backup', 't-red');
+      return;
+    }
+
+    const meta = payload._meta;
+    const incomingLib     = Array.isArray(payload.library)      ? payload.library      : [];
+    const incomingSaved   = payload.savedEntries && typeof payload.savedEntries === 'object'
+                              ? payload.savedEntries : {};
+
+    const totalIn = incomingLib.length +
+      Object.values(incomingSaved).reduce((s, a) => s + (Array.isArray(a) ? a.length : 0), 0);
+
+    // Ask the user: Merge or Replace
+    const choice = confirm(
+      `📦  Import: "${file.name}"\n` +
+      `Exported: ${meta.exportedAtPretty || meta.exportedAt}\n` +
+      `Contains: ${incomingLib.length} library prompts · ${meta.counts?.totalSavedEntries ?? '?'} saved entries\n\n` +
+      `Click OK to MERGE (add to existing data)\n` +
+      `Click Cancel to REPLACE (overwrite everything)`
+    );
+
+    if (choice) {
+      // ── MERGE ──
+      // Library: prepend incoming, skip duplicates by id
+      const existingLib = JSON.parse(localStorage.getItem(libKey()) || '[]');
+      const existingIds = new Set(existingLib.map(p => p.id));
+      const newEntries  = incomingLib.filter(p => !existingIds.has(p.id));
+      const mergedLib   = [...newEntries, ...existingLib];
+      localStorage.setItem(libKey(), JSON.stringify(mergedLib));
+
+      // Saved component entries: merge arrays, deduplicate by text
+      COMPS.forEach(c => {
+        const existing = JSON.parse(localStorage.getItem(savedKey(c.id)) || '[]');
+        const incoming = Array.isArray(incomingSaved[c.id]) ? incomingSaved[c.id] : [];
+        const merged   = [...new Set([...existing, ...incoming])];
+        localStorage.setItem(savedKey(c.id), JSON.stringify(merged));
+      });
+
+      showToast(`Merged: +${newEntries.length} prompts added ✓`, 't-green');
+
+    } else {
+      // ── REPLACE ──
+      if (!confirm('⚠️  REPLACE will delete all current data and load the import file.\n\nAre you sure?')) {
+        showToast('Import cancelled', 't-purple');
+        return;
+      }
+
+      localStorage.setItem(libKey(), JSON.stringify(incomingLib));
+      COMPS.forEach(c => {
+        const incoming = Array.isArray(incomingSaved[c.id]) ? incomingSaved[c.id] : [];
+        localStorage.setItem(savedKey(c.id), JSON.stringify(incoming));
+      });
+
+      showToast(`Replaced: ${incomingLib.length} prompts loaded ✓`, 't-green');
+    }
+
+    // Refresh everything
+    COMPS.forEach(c => refreshDropdown(c.id));
+    renderLibrary();
+    renderDbStats();
+  };
+
+  reader.readAsText(file);
+}
+
+// ═══════════════════════════════════════════
+//  TOAST
+// ═══════════════════════════════════════════
+let toastTimer;
+function showToast(msg, cls = '') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = `toast ${cls} show`;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { t.classList.remove('show'); }, 2600);
+}
+
+// ═══════════════════════════════════════════
+//  BOOT
+// ═══════════════════════════════════════════
+init();
+</script>
+</body>
+</html>

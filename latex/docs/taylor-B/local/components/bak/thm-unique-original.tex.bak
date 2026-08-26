@@ -1,0 +1,33 @@
+% \input{\pLocalTheorems "thm-unique-original"}
+%
+\subsection{Uniqueness of the rank one problem}
+\begin{theorem}[Uniqueness of the rank one problem]
+	The least squares solution for the problem in theorem \ref{eq:soln simple} is unique.
+\label{thm:unique-original}
+\end{theorem}
+
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+
+   %%%   %%%   %%%   %%%   %%%   %%%   %%%   %%%
+
+\begin{proof}
+	Proof by contradiction: Suppose there are two values $\alpha_{1} \ne \alpha_{2}$ which are particular solutions which demands 
+
+\begin{equation}
+	\normts{\alpha_{1} u - v} = \normts{\alpha_{2} u - v} = \phi^{2}_{min}.
+\label{eq:unique-original}
+\end{equation}
+%
+Consequently
+		%
+\begin{equation*}
+	\paren{ \alpha_{1}^{*}\alpha_{1} - \alpha_{2}^{*}\alpha_{2}} \innerSelf{u} 
+		= \paren{\alpha_{1}^{*} - \alpha_{2}^{*}} \itwo{u}{v} + \paren{\alpha_{1} - \alpha_{2}} \itwo{v}{u}
+%\label{eq:}
+\end{equation*}
+		%
+As $u$ and $v$ are independent, this equation demands that both $\text{Re}\paren{\alpha_{1}} = \text{Re}\paren{\alpha_{2}}$ and $\text{Im}\paren{\alpha_{1}} = \text{Im}\paren{\alpha_{2}}$, which implies $\alpha_{1} = \alpha_{2}$, a contradiction.
+\end{proof}
+%
+%
+\endinput %   =   =   =   =   =   =   =   =   =   =   =   =   =   =

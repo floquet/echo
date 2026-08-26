@@ -1,0 +1,26 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main-circular-orbits.blg'
+[55] biber-darwin:322> INFO - === Tue Aug 26, 2025, 19:12:39
+[66] Biber.pm:415> INFO - Reading 'main-circular-orbits.bcf'
+[128] Biber.pm:943> INFO - Found 3 citekeys in bib section 0
+[139] Biber.pm:4256> INFO - Processing section 0
+[139] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//orbits.bib'
+[139] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//orbits.bib' to /Users/dantopa/GitHub//latex-2025//bibs//orbits.bib
+[139] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[139] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' to /Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib
+[139] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//space.bib'
+[139] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//space.bib' to /Users/dantopa/GitHub//latex-2025//bibs//space.bib
+[147] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//orbits.bib' for section 0
+[178] bibtex.pm:1653> INFO - LaTeX decoding ...
+[995] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//orbits.bib'
+[1049] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' for section 0
+[1064] bibtex.pm:1653> INFO - LaTeX decoding ...
+[1211] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[1239] Utils.pm:304> WARN - ISBN '978-0-393-09970-3' in entry 'french1971newtonian' is invalid - run biber with '--validate_datamodel' for details.
+[1247] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1247] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1247] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1247] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1253] bbl.pm:652> INFO - Writing 'main-circular-orbits.bbl' with encoding 'UTF-8'
+[1254] bbl.pm:755> INFO - Output to main-circular-orbits.bbl
+[1254] Biber.pm:128> INFO - WARNINGS: 1

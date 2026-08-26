@@ -1,0 +1,11 @@
+\frametitle{BRDF Models (Annotated)}
+\begin{enumerate}
+  \item Lambertian \mg{Ideal diffuse reflector; isotropic; often assumed for simplicity in first-order analysis.}
+  \item Phong / Blinn–Phong \mg{Empirical model with specular highlights; common in graphics; offers fast approximation of shininess.}
+  \item Cook–Torrance \mg{Microfacet-based model with Fresnel reflection and geometric attenuation; realistic for metals and rough surfaces.}
+  \item Hapke Model \mg{Used for planetary surfaces (e.g., Moon, Mars); handles multiple scattering and opposition surge.}
+  \item Oren–Nayar \mg{Extends Lambertian model to rough, matte surfaces; improves accuracy in Earth surface modeling.}
+  \item RPV Model \mg{Flexible semi-empirical model used for remote sensing of land surfaces; fits directional reflectance well.}
+  \item Rossi–Li \mg{Semi-empirical BRDF model; used in MODIS and surface albedo estimations.}
+  \item Ross–Li \mg{Kernel-driven BRDF model; basis of MODIS global albedo products.}
+\end{enumerate}

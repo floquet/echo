@@ -1,0 +1,103 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for Daniel Topa at 2025-10-04 18:35:53 -0600 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@article{FFTW05,
+	abstract = {FFTW is an implementation of the discrete Fourier
+transform (DFT) that adapts to the hardware in order to
+maximize performance. This paper shows that such an approach
+can yield an implementation that is competitive with handoptimized libraries, and describes the software structure that makes our current FFTW3 version flexible and adaptive. We
+further discuss a new algorithm for real-data DFTs of prime size,
+a new way of implementing DFTs by means of machine-specific
+``SIMD'' instructions, and how a special-purpose compiler can
+derive optimized implementations of the discrete cosine and sine
+transforms automatically from a DFT algorithm.},
+	author = {Frigo, Matteo and Johnson, Steven~G.},
+	date-modified = {2025-10-04 18:12:58 -0600},
+	journal = {Proceedings of the IEEE},
+	note = {Special issue on ``Program Generation, Optimization, and Platform Adaptation''},
+	number = 2,
+	pages = {216--231},
+	title = {The Design and Implementation of {FFTW3}},
+	url = {https://www.fftw.org/fftw-paper-ieee.pdf},
+	volume = 93,
+	year = 2005}
+
+@incollection{JohnsonFr08:burrus,
+	address = {Rice University, Houston TX},
+	author = {Steven G. Johnson and Matteo Frigo},
+	booktitle = {Fast Fourier Transforms},
+	chapter = 11,
+	editor = {C. Sidney Burrus},
+	month = {September},
+	publisher = {Connexions},
+	title = {Implementing {FFT}s in Practice},
+	url = {http://cnx.org/content/m16336/},
+	year = 2008,
+	bdsk-url-1 = {http://cnx.org/content/m16336/}}
+
+@inproceedings{FFTWgen99,
+	abstract = {The FFTW library for computing the discrete Fourier transform (DFT) has gained a wide acceptance in both academia
+and industry, because it provides excellent performance on
+a variety of machines (even competitive with or faster than
+equivalent libraries supplied by vendors). In FFTW, most of
+the performance-critical code was generated automatically
+by a special-purpose compiler, called genfft , that outputs
+C code. Written in Objective Caml, genfft can produce
+DFT programs for any input length, and it can specialize
+the DFT program for the common case where the input data
+are real instead of complex. Unexpectedly, genfft ``discovered'' algorithms that were previously unknown, and it was
+able to reduce the arithmetic complexity of some other existing algorithms. This paper describes the internals of this
+special-purpose compiler in some detail, and it argues that a
+specialized compiler is a valuable tool.},
+	author = {Frigo, Matteo},
+	booktitle = {Proc. 1999 ACM SIGPLAN Conf. on Programming Language Design and Implementation},
+	date-modified = {2025-10-04 18:22:03 -0600},
+	month = {May},
+	number = 5,
+	pages = {169--180},
+	publisher = {ACM},
+	title = {A fast {Fourier} transform compiler},
+	url = {https://www.fftw.org/pldi99.pdf},
+	volume = 34,
+	year = 1999}
+
+@inproceedings{FFTW98,
+	author = {Frigo, Matteo and Johnson, Steven~G.},
+	booktitle = {Proc. 1998 IEEE Intl. Conf. Acoustics Speech and Signal Processing},
+	pages = {1381--1384},
+	publisher = {IEEE},
+	title = {{FFTW}: An adaptive software architecture for the {FFT}},
+	volume = 3,
+	year = 1998}
+
+@techreport{FFTW97,
+	author = {Frigo, Matteo and Johnson, Steven~G.},
+	institution = {Massachusetts Institute of Technology},
+	month = {September},
+	number = {MIT-LCS-TR-728},
+	title = {The Fastest {Fourier} Transform in the West},
+	year = 1997}
+
+@inproceedings{CacheObliv99,
+	author = {Frigo, Matteo and Leiserson, Charles~E. and Prokop, Harald and Ramachandran, Sridhar},
+	booktitle = {Proc. 40th Ann. Symp. on Foundations of Comp. Sci. (FOCS)},
+	pages = {285--297},
+	publisher = {IEEE Comput. Soc.},
+	title = {Cache-oblivious algorithms},
+	year = 1999}
+
+@article{JohnsonFrigo07:splitradix,
+	author = {Steven G. Johnson and Matteo Frigo},
+	journal = {IEEE Trans. Signal Processing},
+	number = 1,
+	pages = {111--119},
+	title = {A modified split-radix {FFT} with fewer arithmetic operations},
+	volume = 55,
+	year = 2007}

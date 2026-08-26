@@ -1,0 +1,49 @@
+% \input{local/theorems-local/thm-simple}
+%
+\subsection{Least squares solution for the rank one problem}
+\begin{theorem}[Least squares solution for the rank one problem]
+Consider two vectors $u$ and $v$, both in $\mathbb{C}^{m}$ with $u\ne 0$. The scalar $\alpha \in \cmplx{}$ is a dilation factor in the model equation
+		%
+\begin{equation}
+	 \uav.	
+\label{eq:model simple}
+\end{equation}
+		%
+The particular least squares solution is
+		%
+\begin{equation}
+	\alpha_{p} = \frac{\itwo{\bl{u}}{v}} {\innerSelf{\bl{u}}}.
+\label{eq:soln simple}
+\end{equation}
+		%
+%
+\label{thm:simple}
+\end{theorem}
+%%
+%%
+\begin{proof}
+Pose the merit function defining the length of the residual error vector
+		%
+\begin{equation}
+	\phi(a) = \normt{\alpha \bl{u} - v},
+\label{eq:merit-simple}
+\end{equation}
+		%
+and minimize
+		%
+\begin{equation}
+	\phi^{2}(a) = \paren{\alpha u - v}^{*} \paren{\alpha u - v} = \alpha^{*} \alpha \innerSelf{\bl{u}} - \alpha^{*} \itwo{\bl{u}}{v} - \alpha \itwo{v}{\bl{u}} + \innerSelf{v}.
+\label{eq:phi-min-sq}
+\end{equation}
+		%
+The requirement that $\frac{d}{d\alpha} \phi^{2}(a) = 0$ produces
+		%
+\begin{equation}
+	\alpha^{*}_{p} = \frac{\itwo{v}{\bl{u}}} {\innerSelf{\bl{u}}},
+\label{eq:soln-a}
+\end{equation}
+		%
+which, after complex conjugation of both sides of the equation, produces \eqref{eq:soln simple}.
+\end{proof}
+%
+\endinput  %  ==  ==  ==  ==  ==  ==  ==  ==  ==

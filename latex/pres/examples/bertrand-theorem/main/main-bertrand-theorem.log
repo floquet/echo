@@ -1,0 +1,3079 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  17 JUL 2025 10:52
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main-bertrand-theorem.tex
+(./main-bertrand-theorem.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2019/09/29 v3.57 A class for typesetting presentations
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count167
+)
+\beamer@tempbox=\box45
+\beamer@tempcount=\count168
+\c@beamerpauses=\count169
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count170
+\beamer@minimum=\count171
+\beamer@decode@box=\box46
+)
+\beamer@commentbox=\box47
+\beamer@modecount=\count172
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\headdp=\dimen134
+\footheight=\dimen135
+\sidebarheight=\dimen136
+\beamer@tempdim=\dimen137
+\beamer@finalheight=\dimen138
+\beamer@animht=\dimen139
+\beamer@animdp=\dimen140
+\beamer@animwd=\dimen141
+\beamer@leftmargin=\dimen142
+\beamer@rightmargin=\dimen143
+\beamer@leftsidebar=\dimen144
+\beamer@rightsidebar=\dimen145
+\beamer@boxsize=\dimen146
+\beamer@vboxoffset=\dimen147
+\beamer@descdefault=\dimen148
+\beamer@descriptionwidth=\dimen149
+\beamer@lastskip=\skip47
+\beamer@areabox=\box48
+\beamer@animcurrent=\box49
+\beamer@animshowbox=\box50
+\beamer@sectionbox=\box51
+\beamer@logobox=\box52
+\beamer@linebox=\box53
+\beamer@sectioncount=\count173
+\beamer@subsubsectionmax=\count174
+\beamer@subsectionmax=\count175
+\beamer@sectionmax=\count176
+\beamer@totalheads=\count177
+\beamer@headcounter=\count178
+\beamer@partstartpage=\count179
+\beamer@sectionstartpage=\count180
+\beamer@subsectionstartpage=\count181
+\beamer@animationtempa=\count182
+\beamer@animationtempb=\count183
+\beamer@xpos=\count184
+\beamer@ypos=\count185
+\beamer@ypos@offset=\count186
+\beamer@showpartnumber=\count187
+\beamer@currentsubsection=\count188
+\beamer@coveringdepth=\count189
+\beamer@sectionadjust=\count190
+\beamer@tocsectionnumber=\count191
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+))
+\beamer@paperwidth=\skip48
+\beamer@paperheight=\skip49
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count192
+\Gm@cntv=\count193
+\c@Gm@tempcnt=\count194
+\Gm@bindingoffset=\dimen150
+\Gm@wd@mp=\dimen151
+\Gm@odd@mp=\dimen152
+\Gm@even@mp=\dimen153
+\Gm@layoutwidth=\dimen154
+\Gm@layoutheight=\dimen155
+\Gm@layouthoffset=\dimen156
+\Gm@layoutvoffset=\dimen157
+\Gm@dimlist=\toks16
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box54
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen162
+\pgf@y=\dimen163
+\pgf@xa=\dimen164
+\pgf@ya=\dimen165
+\pgf@xb=\dimen166
+\pgf@yb=\dimen167
+\pgf@xc=\dimen168
+\pgf@yc=\dimen169
+\pgf@xd=\dimen170
+\pgf@yd=\dimen171
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count195
+\c@pgf@countb=\count196
+\c@pgf@countc=\count197
+\c@pgf@countd=\count198
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+\pgf@sys@id@count=\count199
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count266
+\pgfsyssoftpath@bigbuffer@items=\count267
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count268
+\pgfmath@box=\box55
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count269
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box56
+\pgf@hbox=\box57
+\pgf@layerbox@main=\box58
+\pgf@picture@serial@count=\count270
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen191
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen195
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count271
+\pgf@shadingcount=\count272
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box59
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count273
+\XC@countmixins=\count274
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen197
+\Hy@linkcounter=\count275
+\Hy@pagecounter=\count276
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count277
+Package hyperref Info: Option `bookmarks' set `true' on input line 4421.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4421.
+Package hyperref Info: Option `implicit' set `false' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count278
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen198
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count279
+\Field@Width=\dimen199
+\Fld@charsize=\dimen256
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+\Hy@abspage=\count280
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count281
+\c@bookmark@seq@number=\count282
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
+y) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks27
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2020/01/31
+(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count283
+\beamer@lastskipcover=\skip50
+\beamer@trivlistdepth=\count284
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count285
+\c@part=\count286
+\c@section=\count287
+\c@subsection=\count288
+\c@subsubsection=\count289
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box60
+\beamer@frametitlebox=\box61
+\beamer@zoombox=\box62
+\beamer@zoomcount=\count290
+\beamer@zoomframecount=\count291
+\beamer@frametextheight=\dimen257
+\c@subsectionslide=\count292
+\beamer@frametopskip=\skip51
+\beamer@framebottomskip=\skip52
+\beamer@frametopskipautobreak=\skip53
+\beamer@framebottomskipautobreak=\skip54
+\beamer@envbody=\toks28
+\framewidth=\dimen258
+\c@framenumber=\count293
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box63
+\beamer@autobreakcount=\count294
+\beamer@autobreaklastheight=\dimen259
+\beamer@frametitletoks=\toks29
+\beamer@framesubtitletoks=\toks30
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
+sty
+\beamer@footins=\box64
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box65
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks31
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box66
+\bmb@colorbox=\box67
+\bmb@boxshadow=\box68
+\bmb@boxshadowball=\box69
+\bmb@boxshadowballlarge=\box70
+\bmb@temp=\dimen260
+\bmb@dima=\dimen261
+\bmb@dimb=\dimen262
+\bmb@prevheight=\dimen263
+)
+\beamer@blockheadheight=\dimen264
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
+ty (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks32
+)
+\c@figure=\count295
+\c@table=\count296
+\abovecaptionskip=\skip55
+\belowcaptionskip=\skip56
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen265
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen266
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen267
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count297
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count298
+\leftroot@=\count299
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count300
+\DOTSCASE@=\count301
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box71
+\strutbox@=\box72
+\big@size=\dimen268
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count302
+\c@MaxMatrixCols=\count303
+\dotsspace@=\muskip17
+\c@parentequation=\count304
+\dspbrk@lvl=\count305
+\tag@help=\toks34
+\row@=\count306
+\column@=\count307
+\maxfields@=\count308
+\andhelp@=\toks35
+\eqnshift@=\dimen269
+\alignsep@=\dimen270
+\tagshift@=\dimen271
+\tagwidth@=\dimen272
+\totwidth@=\dimen273
+\lineht@=\dimen274
+\@envbody=\toks36
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks38
+\thm@bodyfont=\toks39
+\thm@headfont=\toks40
+\thm@notefont=\toks41
+\thm@headpunct=\toks42
+\thm@preskip=\skip60
+\thm@postskip=\skip61
+\thm@headsep=\skip62
+\dth@everypar=\toks43
+)
+\c@theorem=\count309
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemedefault.st
+y)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.st
+y
+\beamer@dima=\dimen275
+\beamer@dimb=\dimen276
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerouterthemedefault.st
+y))) (/usr/local/texlive/2020/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+)
+(|kpsewhich -var-value=HOME)
+(/Users/dantopa/GitHub//latex-2025//global/config//common/config-base.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"config-base.tex"
+(/Users/dantopa/GitHub//latex-2025//global/config//common//paths-base.tex
+ == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//com
+mon//"paths-base.tex"
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//packages-base.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"packages-common.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count310
+\calc@Bcount=\count311
+\calc@Adimen=\dimen277
+\calc@Bdimen=\dimen278
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count312
+\calc@Cskip=\skip65
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count313
+\l_MT_multwidth_dim=\dimen279
+\origjot=\skip66
+\l_MT_shortvdotswithinadjustabove_dim=\dimen280
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen281
+\l_MT_above_intertext_sep=\dimen282
+\l_MT_below_intertext_sep=\dimen283
+\l_MT_above_shortintertext_sep=\dimen284
+\l_MT_below_shortintertext_sep=\dimen285
+\xmathstrut@box=\box73
+\xmathstrut@dim=\dimen286
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen287
+\ar@mcellbox=\box74
+\extrarowheight=\dimen288
+\NC@list=\toks44
+\extratabsurround=\skip67
+\backup@length=\skip68
+\ar@cellbox=\box75
+)
+\everycr=\toks45
+\minrowclearance=\skip69
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip70
+\multirow@cntb=\count314
+\multirow@dima=\skip71
+\bigstrutjot=\dimen289
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count315
+\mult@box=\box76
+\multicol@leftmargin=\dimen290
+\c@unbalance=\count316
+\c@collectmore=\count317
+\doublecol@number=\count318
+\multicoltolerance=\count319
+\multicolpretolerance=\count320
+\full@width=\dimen291
+\page@free=\dimen292
+\premulticols=\dimen293
+\postmulticols=\dimen294
+\multicolsep=\skip72
+\multicolbaselineskip=\skip73
+\partial@page=\box77
+\last@line=\box78
+\maxbalancingoverflow=\dimen295
+\mult@rightbox=\box79
+\mult@grightbox=\box80
+\mult@gfirstbox=\box81
+\mult@firstbox=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\c@minrows=\count321
+\c@columnbadness=\count322
+\c@finalcolumnbadness=\count323
+\last@try=\dimen296
+\multicolovershoot=\dimen297
+\multicolundershoot=\dimen298
+\mult@nat@firstbox=\box120
+\colbreak@box=\box121
+\mc@col@check@num=\count324
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen299
+\lightrulewidth=\dimen300
+\cmidrulewidth=\dimen301
+\belowrulesep=\dimen302
+\belowbottomsep=\dimen303
+\aboverulesep=\dimen304
+\abovetopsep=\dimen305
+\cmidrulesep=\dimen306
+\cmidrulekern=\dimen307
+\defaultaddspace=\dimen308
+\@cmidla=\count325
+\@cmidlb=\count326
+\@aboverulesep=\dimen309
+\@belowrulesep=\dimen310
+\@thisruleclass=\count327
+\@lastruleclass=\count328
+\@thisrulewidth=\dimen311
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/overpic/overpic.sty
+Package: overpic 2020/02/22 1.3 picture overlays (RN)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count329
+\d@lta=\count330
+\@delta=\dimen312
+\@@delta=\dimen313
+\@gridcnt=\count331
+\@joinkind=\count332
+\@dotgap=\dimen314
+\@ddotgap=\dimen315
+\@x@diff=\count333
+\@y@diff=\count334
+\x@diff=\dimen316
+\y@diff=\dimen317
+\@dotbox=\box122
+\num@segments=\count335
+\num@segmentsi=\count336
+\@datafile=\read3
+)
+\OVP@box=\box123
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box124
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen318
+\pgf@nodesepend=\dimen319
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen320
+\pgffor@skip=\dimen321
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count337
+\pgfplotmarksize=\dimen322
+)
+\tikz@lastx=\dimen323
+\tikz@lasty=\dimen324
+\tikz@lastxsaved=\dimen325
+\tikz@lastysaved=\dimen326
+\tikz@lastmovetox=\dimen327
+\tikz@lastmovetoy=\dimen328
+\tikzleveldistance=\dimen329
+\tikzsiblingdistance=\dimen330
+\tikz@figbox=\box125
+\tikz@figbox@bg=\box126
+\tikz@tempbox=\box127
+\tikz@tempbox@bg=\box128
+\tikztreelevel=\count338
+\tikznumberofchildren=\count339
+\tikznumberofcurrentchild=\count340
+\tikz@fig@count=\count341
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count342
+\pgfmatrixcurrentcolumn=\count343
+\pgf@matrix@numberofcolumns=\count344
+)
+\tikz@expandcount=\count345
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowinset=\dimen331
+\pgfarrowlength=\dimen332
+\pgfarrowwidth=\dimen333
+\pgfarrowlinewidth=\dimen334
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen335
+\pgfdecoratedremainingdistance=\dimen336
+\pgfdecoratedinputsegmentcompleteddistance=\dimen337
+\pgfdecoratedinputsegmentremainingdistance=\dimen338
+\pgf@decorate@distancetomove=\dimen339
+\pgf@decorate@repeatstate=\count346
+\pgfdecorationsegmentamplitude=\dimen340
+\pgfdecorationsegmentlength=\dimen341
+)
+\tikz@lib@dec@box=\box129
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+)
+\AM@pagewidth=\dimen342
+\AM@pageheight=\dimen343
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box130
+\AM@global@opts=\toks48
+\AM@pagecnt=\count347
+\AM@toc@title=\toks49
+\c@AM@survey=\count348
+\AM@templatesizebox=\box131
+))
+(/Users/dantopa/GitHub//latex-2025//global/config//common//hyperlinks-base.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"hyperlinks-base.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//hyperlinks//hl-mil-org.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//hype
+rlinks//"hl-mil-org.tex"
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//listings-codes.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//listings-codes.tex
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count349
+\lst@gtempboxa=\box132
+\lst@token=\toks50
+\lst@length=\count350
+\lst@currlwidth=\dimen344
+\lst@column=\count351
+\lst@pos=\count352
+\lst@lostspace=\dimen345
+\lst@width=\dimen346
+\lst@newlines=\count353
+\lst@lineno=\count354
+\lst@maxwidth=\dimen347
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count355
+\lst@skipnumbers=\count356
+\lst@framebox=\box133
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+File: lststyles.tex 2024/11/26 Custom Listings Styles
+)
+(/Users/dantopa/GitHub//latex-2025//global/config//common//num-components.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"num-components.tex"
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//num-list.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"num-list.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip74
+\enit@outerparindent=\dimen348
+\enit@toks=\toks51
+\enit@inbox=\box134
+\enit@count@id=\count357
+\enitdp@description=\count358
+)
+\c@saveenumi=\count359
+)
+(/Users/dantopa/GitHub//latex-2025//global/config//common//glossaries.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"glossaries.tex" 
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2020/03/19 v4.46 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks52
+\XKV@tempa@toks=\toks53
+)
+\XKV@depth=\count360
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+\@glsmfirst=\toks54
+\@glsmrest=\toks55
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count361
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count362
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count363
+\FP@xia=\count364
+\FP@xib=\count365
+\FP@xfa=\count366
+\FP@xfb=\count367
+\FP@rega=\count368
+\FP@regb=\count369
+\FP@regs=\count370
+\FP@times=\count371
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count372
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks56
+\@dtl@tmpcount=\count373
+\dtl@tmplength=\skip75
+\dtl@sortresult=\count374
+\@dtl@numgrpsepcount=\count375
+\@dtl@datatype=\count376
+\dtl@codeA=\count377
+\dtl@codeB=\count378
+\@dtl@foreach@level=\count379
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/base/glossaries-compat
+ible-307.sty
+Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2019/11/30 v1.4 (NLCT) Track Languages
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries-english/glossaries-eng
+lish.ldf
+File: glossaries-english.ldf 2014/11/23 v1.0
+)
+\gls@level=\count380
+\@gls@tmpb=\toks57
+\gls@tmplen=\skip76
+\glskeylisttok=\toks58
+\glslabeltok=\toks59
+\glsshorttok=\toks60
+\glslongtok=\toks61
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
+av.sty
+Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
+ty
+Package: glossary-list 2020/03/19 v4.46 (NLCT)
+\glslistdottedwidth=\skip77
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
+ty
+Package: glossary-long 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip78
+\LTright=\skip79
+\LTpre=\skip80
+\LTpost=\skip81
+\LTchunksize=\count381
+\LTcapwidth=\dimen349
+\LT@head=\box135
+\LT@firsthead=\box136
+\LT@foot=\box137
+\LT@lastfoot=\box138
+\LT@cols=\count382
+\LT@rows=\count383
+\c@LT@tables=\count384
+\c@LT@chunks=\count385
+\LT@p@ftn=\toks62
+)
+\glsdescwidth=\skip82
+\glspagelistwidth=\skip83
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-super.
+sty
+Package: glossary-super 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count386
+\ST@wd=\dimen350
+\ST@rightskip=\skip84
+\ST@leftskip=\skip85
+\ST@parfillskip=\skip86
+\ST@pageleft=\dimen351
+\ST@headht=\dimen352
+\ST@tailht=\dimen353
+\ST@pagesofar=\dimen354
+\ST@pboxht=\dimen355
+\ST@lineht=\dimen356
+\ST@prevht=\dimen357
+\ST@toadd=\dimen358
+\ST@dimen=\dimen359
+\ST@pbox=\box139
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
+ty
+Package: glossary-tree 2020/03/19 v4.46 (NLCT)
+\glstreeindent=\skip87
+))
+\glswrite=\write5
+\glo@main@file=\write6
+\openout6 = `main-bertrand-theorem.glo'.
+
+Package glossaries Info: Writing glossary file main-bertrand-theorem.glo on inp
+ut line 8.
+\glo@acronym@file=\write7
+\openout7 = `main-bertrand-theorem.acn'.
+
+Package glossaries Info: Writing glossary file main-bertrand-theorem.acn on inp
+ut line 8.
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//aux-loads.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"aux-loads.tex"
+(/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-colors.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-colors.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-delimiters.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-delimiters.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-A.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-A.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-bold-letters.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-bold-letters.tex"
+) (/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-mat-basics.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//pres/bertrand-theo
+rem//local//libs//aux/Global/"lib-mat-basics.tex"
+))) (/Users/dantopa/GitHub//latex-2025//global/config//pres/config-flavor.tex
+  ** FLAVOR CONFIGURATION ** /Users/dantopa/GitHub//latex-2025//global/config//
+pres//"config-flavor.tex"
+(/Users/dantopa/GitHub//latex-2025//global/config//pres//aesthetics.tex
+  ** FLAVOR CONFIGURATION ** /Users/dantopa/GitHub//latex-2025//global/config//
+pres//"aesthetics.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerthemeCopenhagen.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.st
+y)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemebeaver.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerfontthemestructurebo
+ld.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty))
+(/Users/dantopa/GitHub//latex-2025//global/config//pres//jumps.tex
+  ** FLAVOR CONFIGURATION ** /Users/dantopa/GitHub//latex-2025//global/config//
+pres//"jumps.tex"
+) (/Users/dantopa/GitHub//latex-2025//global/config//pres//packages-flavor.tex
+  ** FLAVOR CONFIGURATION ** /Users/dantopa/GitHub//latex-2025//global/config//
+pres//"packages-flavor.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2019/04/15 v1.9.1
+
+Package: textpos 2019/04/15 1.9.1, absolute positioning of text on the page
+\TP@textbox=\box140
+\TP@holdbox=\box141
+\TPHorizModule=\dimen360
+\TPVertModule=\dimen361
+\TP@margin=\dimen362
+\TP@absmargin=\dimen363
+Grid set 16 x 16 = 22.7622pt x 17.07166pt
+\TPboxrulesize=\dimen364
+\TP@ox=\dimen365
+\TP@oy=\dimen366
+\TP@tbargs=\toks63
+\TP@prevdepth=\dimen367
+TextBlockOrigin set to 0pt x 0pt
+)) (/Users/dantopa/GitHub//latex-2025//global/config//pres//theorems-flavor.tex
+  ** FLAVOR CONFIGURATION ** /Users/dantopa/GitHub//latex-2025//global/config//
+pres//"theorems-flavor.tex"
+(/Users/dantopa/GitHub//latex-2025//global//libs//aux//lib-proofs.tex
+  >> AUXILIARY LIBRARY << /Users/dantopa/GitHub//latex-2025//global//libs//aux/
+/"lib-proofs.tex"
+)))
+(/Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//config/config
+-local.tex
+  -- LOCAL CONFIGURATION -- /Users/dantopa/GitHub//latex-2025//pres/bertrand-th
+eorem//local//config//"config-local.tex"
+
+(/Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//config/hyperl
+inks-local.tex
+  -- LOCAL CONFIGURATION -- /Users/dantopa/GitHub//latex-2025//pres/bertrand-th
+eorem//local//config//"hyperlinks-local.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//config/aux-lo
+cal.tex
+  -- LOCAL CONFIGURATION -- /Users/dantopa/GitHub//latex-2025//pres/bertrand-th
+eorem//local//config//"aux-local.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//config/macros
+-local.tex
+  -- LOCAL CONFIGURATION -- /Users/dantopa/GitHub//latex-2025//pres/bertrand-th
+eorem//local//config//"macros-local.tex"
+)
+(/Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//config/packag
+es-local.tex
+  -- LOCAL CONFIGURATION -- /Users/dantopa/GitHub//latex-2025//pres/bertrand-th
+eorem//local//config//"packages-local.tex"
+))
+ @@ DOCUMENT SETUP @@ 
+(/Users/dantopa/GitHub//latex-2025//global/config//common//href-hidden.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"href-hidden.tex"
+) (/Users/dantopa/GitHub//latex-2025//global/config//common//bib-config-a.tex
+  == BASE CONFIGURATION == /Users/dantopa/GitHub//latex-2025//global/config//co
+mmon//"bib-config-a.tex"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count387
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count388
+\c@listtotal=\count389
+\c@listcount=\count390
+\c@liststart=\count391
+\c@liststop=\count392
+\c@citecount=\count393
+\c@citetotal=\count394
+\c@multicitecount=\count395
+\c@multicitetotal=\count396
+\c@instcount=\count397
+\c@maxnames=\count398
+\c@minnames=\count399
+\c@maxitems=\count400
+\c@minitems=\count401
+\c@citecounter=\count402
+\c@maxcitecounter=\count403
+\c@savedcitecounter=\count404
+\c@uniquelist=\count405
+\c@uniquename=\count406
+\c@refsection=\count407
+\c@refsegment=\count408
+\c@maxextratitle=\count409
+\c@maxextratitleyear=\count410
+\c@maxextraname=\count411
+\c@maxextradate=\count412
+\c@maxextraalpha=\count413
+\c@abbrvpenalty=\count414
+\c@highnamepenalty=\count415
+\c@lownamepenalty=\count416
+\c@maxparens=\count417
+\c@parenlevel=\count418
+\blx@tempcnta=\count419
+\blx@tempcntb=\count420
+\blx@tempcntc=\count421
+\blx@maxsection=\count422
+\blx@maxsegment@0=\count423
+\blx@notetype=\count424
+\blx@parenlevel@text=\count425
+\blx@parenlevel@foot=\count426
+\blx@sectionciteorder@0=\count427
+\blx@entrysetcounter=\count428
+\labelnumberwidth=\skip88
+\labelalphawidth=\skip89
+\biblabelsep=\skip90
+\bibitemsep=\skip91
+\bibnamesep=\skip92
+\bibinitsep=\skip93
+\bibparsep=\skip94
+\bibhang=\skip95
+\blx@bcfin=\read4
+\blx@bcfout=\write8
+\blx@langwohyphens=\language86
+\c@mincomprange=\count429
+\c@maxcomprange=\count430
+\c@mincompwidth=\count431
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count432
+\c@savedafterword=\count433
+\c@annotator=\count434
+\c@savedannotator=\count435
+\c@author=\count436
+\c@savedauthor=\count437
+\c@bookauthor=\count438
+\c@savedbookauthor=\count439
+\c@commentator=\count440
+\c@savedcommentator=\count441
+\c@editor=\count442
+\c@savededitor=\count443
+\c@editora=\count444
+\c@savededitora=\count445
+\c@editorb=\count446
+\c@savededitorb=\count447
+\c@editorc=\count448
+\c@savededitorc=\count449
+\c@foreword=\count450
+\c@savedforeword=\count451
+\c@holder=\count452
+\c@savedholder=\count453
+\c@introduction=\count454
+\c@savedintroduction=\count455
+\c@namea=\count456
+\c@savednamea=\count457
+\c@nameb=\count458
+\c@savednameb=\count459
+\c@namec=\count460
+\c@savednamec=\count461
+\c@translator=\count462
+\c@savedtranslator=\count463
+\c@shortauthor=\count464
+\c@savedshortauthor=\count465
+\c@shorteditor=\count466
+\c@savedshorteditor=\count467
+\c@labelname=\count468
+\c@savedlabelname=\count469
+\c@institution=\count470
+\c@savedinstitution=\count471
+\c@lista=\count472
+\c@savedlista=\count473
+\c@listb=\count474
+\c@savedlistb=\count475
+\c@listc=\count476
+\c@savedlistc=\count477
+\c@listd=\count478
+\c@savedlistd=\count479
+\c@liste=\count480
+\c@savedliste=\count481
+\c@listf=\count482
+\c@savedlistf=\count483
+\c@location=\count484
+\c@savedlocation=\count485
+\c@organization=\count486
+\c@savedorganization=\count487
+\c@origlocation=\count488
+\c@savedoriglocation=\count489
+\c@origpublisher=\count490
+\c@savedorigpublisher=\count491
+\c@publisher=\count492
+\c@savedpublisher=\count493
+\c@language=\count494
+\c@savedlanguage=\count495
+\c@origlanguage=\count496
+\c@savedoriglanguage=\count497
+\c@pageref=\count498
+\c@savedpageref=\count499
+\shorthandwidth=\skip96
+\shortjournalwidth=\skip97
+\shortserieswidth=\skip98
+\shorttitlewidth=\skip99
+\shortauthorwidth=\skip100
+\shorteditorwidth=\skip101
+\locallabelnumberwidth=\skip102
+\locallabelalphawidth=\skip103
+\localshorthandwidth=\skip104
+\localshortjournalwidth=\skip105
+\localshortserieswidth=\skip106
+\localshorttitlewidth=\skip107
+\localshortauthorwidth=\skip108
+\localshorteditorwidth=\skip109
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count500
+\c@textcitetotal=\count501
+\c@textcitemaxnames=\count502
+\c@biburlbigbreakpenalty=\count503
+\c@biburlbreakpenalty=\count504
+\c@biburlnumpenalty=\count505
+\c@biburlucpenalty=\count506
+\c@biburllcpenalty=\count507
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count508
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count509
+\c@bbx:relatedtotal=\count510
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)))
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 69.
+
+\@quotelevel=\count511
+\@quotereset=\count512
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count513
+\l__pdf_internal_box=\box142
+)
+(./main-bertrand-theorem.aux)
+\openout1 = `main-bertrand-theorem.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 7
+3.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 73.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=307.28987pt
+* \textheight=244.6939pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count514
+\scratchdimen=\dimen368
+\scratchbox=\box143
+\nofMPsegments=\count515
+\nofMParguments=\count516
+\everyMPshowfont=\toks64
+\MPscratchCnt=\count517
+\MPscratchDim=\dimen369
+\MPnumerator=\count518
+\makeMPintoPDFobject=\count519
+\everyMPtoPDFconversion=\toks65
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box144
+Package hyperref Info: Link coloring OFF on input line 73.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count520
+)
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
+ (./main-bertrand-theorem.out) (./main-bertrand-theorem.out)
+\@outlinefile=\write9
+\openout9 = `main-bertrand-theorem.out'.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dicti
+onary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-bibliograph
+y-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-environment
+-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-months-dict
+ionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-numbers-dic
+tionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-theorem-dic
+tionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+\c@lstlisting=\count521
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout8 = `main-bertrand-theorem.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main-bertrand-theorem.bbl' found.
+
+(./main-bertrand-theorem.bbl)
+Package biblatex Info: Reference section=0 on input line 73.
+Package biblatex Info: Reference segment=0 on input line 73.
+ (./main-bertrand-theorem.nav)
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <6> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 73.
+</Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png, id=10
+0, 1003.75pt x 326.21875pt>
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 73.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+</Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png, id=103, 1
+77.66376pt x 156.585pt>
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 73.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+</Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png, id=105,
+ 1525.7pt x 1525.7pt>
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 73.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+</Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png, id=107, 
+62.1522pt x 65.043pt>
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 73.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <4> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 78.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 78.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 78.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 78.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 78.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+\openout5 = `main-bertrand-theorem.ist'.
+
+ </Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png> </Us
+ers/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png> </Users/danto
+pa/GitHub//latex-2025//global//graphics/logos/sf-best.png> </Users/dantopa/GitH
+ub//latex-2025//global//graphics/logos/hii-01.png>] (./main-bertrand-theorem.to
+c)
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 82.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 82.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 82.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 82.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[2
+
+]
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 82.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 82.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 82.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 82.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[3
+
+
+]
+(/Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//sections/sec-backgro
+und.tex
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 10.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 10.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 10.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 10.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[4
+
+]
+</Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/tomb
+stones/bertrand-french.png, id=310, 1103.12125pt x 1009.7725pt>
+File: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics
+/tombstones/bertrand-french.png Graphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/
+tombstones/bertrand-french.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theor
+em//local//graphics/tombstones/bertrand-french.png  used on input line 24.
+(pdftex.def)             Requested size: 165.46104pt x 151.45934pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 24.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 24.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 24.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 24.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[5
+
+ </Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/tom
+bstones/bertrand-french.png>]
+</Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/tomb
+stones/bertrand-english-lap.png, id=355, 676.5275pt x 397.485pt>
+File: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics
+/tombstones/bertrand-english-lap.png Graphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/
+tombstones/bertrand-english-lap.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theor
+em//local//graphics/tombstones/bertrand-english-lap.png  used on input line 34.
+
+(pdftex.def)             Requested size: 236.78816pt x 139.12183pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 34.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 34.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 34.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 34.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[6
+
+ </Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/tom
+bstones/bertrand-english-lap.png>]
+</Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/tomb
+stones/bertrand-english.png, id=398, 710.655pt x 494.84875pt>
+File: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics
+/tombstones/bertrand-english.png Graphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/
+tombstones/bertrand-english.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theor
+em//local//graphics/tombstones/bertrand-english.png  used on input line 45.
+(pdftex.def)             Requested size: 177.66331pt x 123.71188pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 45.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 45.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 45.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 45.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[7
+
+ </Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/tom
+bstones/bertrand-english.png>]
+Overfull \vbox (12.13928pt too high) detected at line 64
+ []
+
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 64.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 64.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 64.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 64.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[8
+
+])
+(/Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//sections/sec-concept
+s.tex
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 11.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 11.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 11.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 11.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[9
+
+]
+</Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/wiki
+/lyapunov.png, id=493, 1061.9675pt x 510.90875pt>
+File: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics
+/wiki/lyapunov.png Graphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/
+wiki/lyapunov.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theor
+em//local//graphics/wiki/lyapunov.png  used on input line 24.
+(pdftex.def)             Requested size: 265.49123pt x 127.72687pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 24.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 24.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 24.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 24.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[10
+
+ </Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/wik
+i/lyapunov.png>]
+File: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics
+/tombstones/bertrand-french.png Graphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/
+tombstones/bertrand-french.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theor
+em//local//graphics/tombstones/bertrand-french.png  used on input line 37.
+(pdftex.def)             Requested size: 165.46104pt x 151.45934pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 37.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 37.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 37.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 37.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[11
+
+]
+File: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics
+/tombstones/bertrand-french.png Graphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/
+tombstones/bertrand-french.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theor
+em//local//graphics/tombstones/bertrand-french.png  used on input line 50.
+(pdftex.def)             Requested size: 165.46104pt x 151.45934pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 50.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 50.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 50.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 50.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[12
+
+]
+File: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics
+/tombstones/bertrand-french.png Graphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/
+tombstones/bertrand-french.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theor
+em//local//graphics/tombstones/bertrand-french.png  used on input line 63.
+(pdftex.def)             Requested size: 165.46104pt x 151.45934pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 63.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 63.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 63.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 63.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[13
+
+])
+(/Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//sections/sec-bertran
+d.tex
+File: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics
+/tombstones/bertrand-french.png Graphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/
+tombstones/bertrand-french.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theor
+em//local//graphics/tombstones/bertrand-french.png  used on input line 13.
+(pdftex.def)             Requested size: 165.46104pt x 151.45934pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 13.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 13.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 13.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 13.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[14
+
+]
+File: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics
+/tombstones/bertrand-french.png Graphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/
+tombstones/bertrand-french.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theor
+em//local//graphics/tombstones/bertrand-french.png  used on input line 27.
+(pdftex.def)             Requested size: 165.46104pt x 151.45934pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 27.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 27.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 27.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 27.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[15
+
+]
+File: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics
+/wiki/lyapunov.png Graphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/
+wiki/lyapunov.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theor
+em//local//graphics/wiki/lyapunov.png  used on input line 39.
+(pdftex.def)             Requested size: 265.49123pt x 127.72687pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 39.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 39.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 39.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 39.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[16
+
+]
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 49.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 49.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 49.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 49.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[17
+
+]
+File: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics
+/tombstones/bertrand-french.png Graphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/
+tombstones/bertrand-french.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theor
+em//local//graphics/tombstones/bertrand-french.png  used on input line 62.
+(pdftex.def)             Requested size: 165.46104pt x 151.45934pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 62.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 62.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 62.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 62.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[18
+
+])
+(/Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//sections/sec-goldste
+in.tex
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 8.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 8.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 8.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 8.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[19
+
+]
+</Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/tomb
+stones/goldstein-a.png, id=696, 925.4575pt x 779.91376pt>
+File: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics
+/tombstones/goldstein-a.png Graphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/
+tombstones/goldstein-a.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//pres/bertrand-theor
+em//local//graphics/tombstones/goldstein-a.png  used on input line 22.
+(pdftex.def)             Requested size: 185.08821pt x 155.97998pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 22.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 22.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 22.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 22.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[20
+
+ </Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//local//graphics/tom
+bstones/goldstein-a.png>]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
+0.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+0.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+30.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+30.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 30.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <9> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 30.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 30.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 30.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 30.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 30.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[21
+
+]
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 49.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 49.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 49.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 49.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[22
+
+]
+
+LaTeX Warning: Reference `A-2' on page 23 undefined on input line 80.
+
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 80.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 80.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 80.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 80.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[23
+
+]
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 80.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 80.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 80.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 80.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[24
+
+
+]
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 80.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 80.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 80.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 80.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[25
+
+
+])
+(/Users/dantopa/GitHub//latex-2025//pres/bertrand-theorem//sections/sec-backup.
+tex
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 8.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 8.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 8.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 8.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[26
+
+])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\translate ' on input line 95.
+
+LaTeX Font Info:    Font shape `T1/lmss/b/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 110.
+
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 110.
+
+
+Package biblatex Warning: No driver for entry type ''.
+(biblatex)                Using fallback driver on input line 110.
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+10.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 110.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 110.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 110.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 110.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 110.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[27
+
+]
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 110.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 110.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 110.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 110.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[28
+
+
+]
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 110.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 110.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 110.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 110.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[29
+
+
+]
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 110.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 110.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 110.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 110.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[30
+
+
+]
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 110.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 110.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 110.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 110.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[31
+
+
+]
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png G
+raphic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/afrl-logo.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/afrl-logo.png  used on input line 115.
+(pdftex.def)             Requested size: 43.77304pt x 14.22636pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png Graph
+ic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/af-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/af-01.png  used on input line 115.
+(pdftex.def)             Requested size: 14.84773pt x 13.08846pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png Gra
+phic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/sf-best.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/sf-best.png  used on input line 115.
+(pdftex.def)             Requested size: 16.20306pt x 16.21828pt.
+File: /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png Grap
+hic file (type png)
+<use /Users/dantopa/GitHub//latex-2025//global//graphics/logos/hii-01.png>
+Package pdftex.def Info: /Users/dantopa/GitHub//latex-2025//global//graphics/lo
+gos/hii-01.png  used on input line 115.
+(pdftex.def)             Requested size: 13.59386pt x 14.22636pt.
+
+Overfull \hbox (1.46664pt too wide) has occurred while \output is active
+[][][] [][][] 
+ []
+
+[32
+
+]
+\tf@nav=\write10
+\openout10 = `main-bertrand-theorem.nav'.
+
+\tf@toc=\write11
+\openout11 = `main-bertrand-theorem.toc'.
+
+\tf@snm=\write12
+\openout12 = `main-bertrand-theorem.snm'.
+
+
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+(./main-bertrand-theorem.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+Package rerunfilecheck Info: File `main-bertrand-theorem.out' has not changed.
+(rerunfilecheck)             Checksum: 75FB382E8E716D9B749332345838FDEB;1226.
+
+
+LaTeX Warning: There were undefined references.
+
+Package logreq Info: Writing requests to 'main-bertrand-theorem.run.xml'.
+\openout1 = `main-bertrand-theorem.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 39681 strings out of 480608
+ 792344 string characters out of 5903631
+ 1473453 words of memory out of 5000000
+ 54531 multiletter control sequences out of 15000+600000
+ 576481 words of font info for 62 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 63i,19n,78p,1080b,1641s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{A-2} has been referenced but does not exist, repl
+aced by a fixed one
+
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
+xlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/tex
+mf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fo
+nts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dv
+ips/lm/lm-mathex.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/
+lmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb
+></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/loca
+l/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-di
+st/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
+e1/public/lm/lmssbo10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
+c/lm/lmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lms
+y10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></u
+sr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtk10.pfb>
+Output written on main-bertrand-theorem.pdf (32 pages, 1617336 bytes).
+PDF statistics:
+ 975 PDF objects out of 1000 (max. 8388607)
+ 885 compressed objects within 9 object streams
+ 104 named destinations out of 1000 (max. 500000)
+ 260 words of extra memory for PDF output out of 10000 (max. 10000000)
+

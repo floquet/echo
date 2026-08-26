@@ -1,0 +1,25 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main-lyapunov.blg'
+[68] biber-darwin:322> INFO - === Sat Jun 21, 2025, 13:20:03
+[83] Biber.pm:415> INFO - Reading 'main-lyapunov.bcf'
+[150] Biber.pm:943> INFO - Found 11 citekeys in bib section 0
+[161] Biber.pm:4256> INFO - Processing section 0
+[161] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//lyapunov.bib'
+[162] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//lyapunov.bib' to /Users/dantopa/GitHub//latex-2025//bibs//lyapunov.bib
+[162] Utils.pm:75> INFO - Globbing data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[162] Utils.pm:91> INFO - Globbed data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' to /Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib
+[173] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//lyapunov.bib' for section 0
+[175] bibtex.pm:1653> INFO - LaTeX decoding ...
+[227] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//lyapunov.bib'
+[265] Utils.pm:304> WARN - ISBN '978-0748400620' in entry 'Lyapunov1992' is invalid - run biber with '--validate_datamodel' for details.
+[283] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib' for section 0
+[290] bibtex.pm:1653> INFO - LaTeX decoding ...
+[433] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib'
+[433] Utils.pm:304> WARN - Duplicate entry key: 'lasalle1961stability' in file '/Users/dantopa/GitHub//latex-2025//bibs//textbooks.bib', skipping ...
+[461] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[461] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[462] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[462] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[478] bbl.pm:652> INFO - Writing 'main-lyapunov.bbl' with encoding 'UTF-8'
+[482] bbl.pm:755> INFO - Output to main-lyapunov.bbl
+[482] Biber.pm:128> INFO - WARNINGS: 2
