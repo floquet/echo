@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.8.11)  27 AUG 2026 08:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.8.11)  27 AUG 2026 08:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main-hyperion-002.tex
-(./main-hyperion-002.tex
+**kaeden-laboratory.tex
+(./kaeden-laboratory.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -690,141 +690,121 @@ Package: amsthm 2020/05/29 v2.20.6
 \beamer@dimb=\dimen301
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
-Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeCopenhagen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemebeaver.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2026/01/18 v26.1 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
+\babel@savecnt=\count358
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2111.
+\U@D=\dimen302
+\l@unhyphenated=\language90
 
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+LaTeX Info: Redefining \textlatin on input line 3974.
+\bbl@dirlevel=\count359
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4330.
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language64). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language64). Reported on input line 108.
 ))
-(|kpsewhich -var-value=HOME)
-
-! LaTeX Error: File `/home/dantopa/GitHub//latex-2025//global/config//common/co
-nfig-base.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
-
-! LaTeX Error: File `/home/dantopa/GitHub//latex-2025//global/config//pres/conf
-ig-flavor-dsg.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
-! Undefined control sequence.
-<argument> pConfig 
-                   "config-local.tex"
-l.45 \input{\pConfig "config-local.tex"}
-                                        
-? 
-! Undefined control sequence.
-<argument> pConfig 
-                   "config-local.tex"
-l.45 \input{\pConfig "config-local.tex"}
-                                        
-? 
-! Undefined control sequence.
-<inserted text> pConfig 
-                        "config-local.tex"
-l.45 \input{\pConfig "config-local.tex"}
-                                        
-? 
-
-! LaTeX Error: File `config-local.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
- @@ DOCUMENT SETUP @@ 
-
-! LaTeX Error: File `/home/dantopa/GitHub//latex-2025//global/config//common//h
-ref-hidden.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
-
-! LaTeX Error: File `/home/dantopa/GitHub//latex-2025//global/config//common//b
-ib-config-a.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
-! Undefined control sequence.
-l.54 \addbibresource
-                    {\pBibs/textbooks.bib}
-? 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 \addbibresource{\pBibs
-                           /textbooks.bib}
-? 
-
-! LaTeX Error: Command \listingFontSize undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \renewcommand{\listingFontSize}
-                                    {\scriptsize}
-? 
-! Undefined control sequence.
-\beamer@andstripped ->\TopaDSG 
-                               \\ \TopaDSGemail 
-l.61 \author[\TopaHII]{\TopaDSG \\ \TopaDSGemail}
-                                                 
-? 
-! Undefined control sequence.
-\beamer@andstripped ->\TopaDSG \\ \TopaDSGemail 
-                                                
-l.61 \author[\TopaHII]{\TopaDSG \\ \TopaDSGemail}
-                                                 
-? 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 61.
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count358
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks46
+\inpenc@posthook=\toks47
 )
-No file main-hyperion-002.aux.
-\openout1 = `main-hyperion-002.aux'.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
+6.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/overpic/overpic.sty
+Package: overpic 2026/01/06 2.2 picture overlays (RN)
+
+(/usr/share/texlive/texmf-dist/tex/latex/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count360
+\d@lta=\count361
+\@delta=\dimen303
+\@@delta=\dimen304
+\@gridcnt=\count362
+\@joinkind=\count363
+\@dotgap=\dimen305
+\@ddotgap=\dimen306
+\@x@diff=\count364
+\@y@diff=\count365
+\x@diff=\dimen307
+\y@diff=\dimen308
+\@dotbox=\box78
+\num@segments=\count366
+\num@segmentsi=\count367
+\@datafile=\read4
+)
+\OVP@box=\box79
+\OVP@totalheight=\dimen309
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count368
+)
+(./kaeden-laboratory.aux
+
+LaTeX Warning: Label `tab:test_data' multiply defined.
+
+)
+\openout1 = `kaeden-laboratory.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -861,17 +841,17 @@ LaTeX Font Info:    ... okay on input line 65.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count359
-\scratchdimen=\dimen302
-\scratchbox=\box78
-\nofMPsegments=\count360
-\nofMParguments=\count361
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count362
-\MPscratchDim=\dimen303
-\MPnumerator=\count363
-\makeMPintoPDFobject=\count364
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count369
+\scratchdimen=\dimen310
+\scratchbox=\box80
+\nofMPsegments=\count370
+\nofMParguments=\count371
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count372
+\MPscratchDim=\dimen311
+\MPnumerator=\count373
+\makeMPintoPDFobject=\count374
+\everyMPtoPDFconversion=\toks49
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -881,62 +861,54 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 65.
+Package hyperref Info: Link coloring OFF on input line 26.
+
+(./kaeden-laboratory.out) (./kaeden-laboratory.out)
 \@outlinefile=\write5
-\openout5 = `main-hyperion-002.out'.
+\openout5 = `kaeden-laboratory.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 65.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 65.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 26.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 65.
+(Font)                  OT1/cmss/m/n --> T1/ptm/m/n on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 65.
+(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 65.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 65.
+(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 65.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 65.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 65.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 65.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 65.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 65.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 65.
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 65.
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 65.
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 65.
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 65.
+(Font)                  OT1/cmss/b/n --> T1/ptm/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 65.
+(Font)                  T1/phv/b/n --> T1/phv/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 65.
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 65.
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 65.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 65.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 6
-5.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 6
-5.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 65.
+(Font)                  T1/pcr/m/n --> T1/pcr/b/n on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -961,22 +933,122 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
+) (./kaeden-laboratory.nav)
+
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 35.
+
+
+Package hyperref Warning: Option `pdfsubject' has already been used,
+(hyperref)                setting the option has no effect on input line 54.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-No file main-hyperion-002.nav.
-! Undefined control sequence.
-\insertauthor ...\and {\beamer@andtitle }\TopaDSG 
-                                                  \\ \TopaDSGemail 
-l.70 \end{frame}
-                
-? 
-! Undefined control sequence.
-<recently read> \TopaDSGemail 
-                              
-l.70 \end{frame}
-                
-? 
-! Undefined control sequence.
-\insertinstitute ...\and {\beamer@andinst }\dsgit 
-                                                  
-l.70 \end{frame}
-              
+LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 72.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 72.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 72.
+<../local/graphics/img-conf-overall-01.pdf, id=21, 339.81757pt x 102.64548pt>
+File: ../local/graphics/img-conf-overall-01.pdf Graphic file (type pdf)
+<use ../local/graphics/img-conf-overall-01.pdf>
+Package pdftex.def Info: ../local/graphics/img-conf-overall-01.pdf  used on inp
+ut line 72.
+(pdftex.def)             Requested size: 135.9246pt x 41.05745pt.
+
+Overfull \hbox (15.84297pt too wide) in paragraph at lines 72--72
+ [][] 
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
+dist/fonts/enc/dvips/base/8r.enc}
+
+ <../local/graphics/img-conf-overall-01.pdf>]
+<../local/graphics/ellipse-05.pdf, id=78, 222.968pt x 222.71606pt>
+File: ../local/graphics/ellipse-05.pdf Graphic file (type pdf)
+<use ../local/graphics/ellipse-05.pdf>
+Package pdftex.def Info: ../local/graphics/ellipse-05.pdf  used on input line 7
+8.
+(pdftex.def)             Requested size: 169.01036pt x 168.82758pt.
+
+[2
+
+ <../local/graphics/ellipse-05.pdf>]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 100.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 100.
+ [3
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{tab:test_data
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.120 \end{frame}
+                  [4
+
+] [5
+
+] [6
+
+] [7
+
+]
+\tf@nav=\write6
+\openout6 = `kaeden-laboratory.nav'.
+
+\tf@toc=\write7
+\openout7 = `kaeden-laboratory.toc'.
+
+\tf@snm=\write8
+\openout8 = `kaeden-laboratory.snm'.
+
+ (./kaeden-laboratory.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `kaeden-laboratory.out' has not changed.
+(rerunfilecheck)             Checksum: 99BC3AD1607F816B84391FAB5E18EBE4;78.
+ ) 
+Here is how much of TeX's memory you used:
+ 23232 strings out of 467533
+ 445550 string characters out of 5422138
+ 840477 words of memory out of 5000000
+ 51629 multiletter control sequences out of 15000+600000
+ 671718 words of font info for 93 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,19n,123p,392b,600s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
+b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on kaeden-laboratory.pdf (7 pages, 119398 bytes).
+PDF statistics:
+ 327 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+

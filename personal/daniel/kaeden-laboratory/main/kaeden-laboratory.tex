@@ -1,0 +1,191 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass{beamer}
+
+\mode<presentation>
+{
+  \usetheme{Copenhagen}
+  \usecolortheme{beaver}
+  % or ...
+
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+\newcommand{\pGraphics}{../local/graphics}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[]{hyperref}
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{overpic}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+\begin{document}
+
+\title[Confidence Assessment for IIR\#2] % (optional, use only with long paper titles)
+{Confidence Assessment for IIR\#2}
+
+\subtitle
+{Presentation Subtitle} % (optional)
+
+\author[Teague, Topa] % (optional, use only with lots of authors)
+{F.~Author\inst{1} \and S.~Another\inst{2}}
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[Universities of Somewhere and Elsewhere] % (optional, but mostly needed)
+{
+  \inst{1}%
+  Department of Computer Science\\
+  University of Somewhere
+  \and
+  \inst{2}%
+  Department of Theoretical Philosophy\\
+  University of Elsewhere}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[Short Occasion] % (optional)
+{Date / Occasion}
+
+\subject{Talks}
+%
+\begin{frame}{Confidence Plots: Top Line}
+    \centering
+    \footnotesize
+    
+    % Set up a customized table
+    % - First column (r): Right-aligns the numbering to line up the rightmost decimals
+    % - @{\hspace{0.3cm}}: Forces a clean, consistent structural indent gap
+    % - Second column (l): Left-aligns your system text entries
+    
+    \begin{tabular}{ l @{\hspace{0.3cm}} l c }
+        \textbf{WBS} & \textbf{Product Element} & \textbf{Confidence Scores}  \\ \hline
+       	\noalign{\vskip 2mm}
+         \raisebox{0.8cm}{1.0}   
+         & \raisebox{0.8cm}{Strategic Missile Weapon System} 
+         & \includegraphics[ scale = 0.4 ]{\pGraphics/img-conf-overall-01.pdf} \\
+    \end{tabular}
+\end{frame}
+
+\begin{frame}{\bf{Confidence Numbers: Top Line}}
+	\center
+	\begin{overpic}[ width = 0.55\textwidth ]{\pGraphics/ellipse-05.pdf}
+	\end{overpic}
+\end{frame}
+%
+\begin{frame}{\bf{Confidence Numbers: Top Line}}
+\begin{table}[htbp]
+\centering
+\begin{tabular}{l rrr rrr r }
+&  \multicolumn{3}{c}{Overall} &  \multicolumn{3}{c}{Elemental} \\
+WBS 
+& \multicolumn{1}{c}{$\mu$} 
+&  \multicolumn{1}{c}{$\sigma$} 
+& \multicolumn{1}{c}{$m$} 
+&  \multicolumn{1}{c}{$\mu$}
+&  \multicolumn{1}{c}{$\sigma$}
+&  \multicolumn{1}{c}{$m$}
+&  \multicolumn{1}{c}{$\mu_{O} - \mu_{E}$}  \\ \hline
+       	\noalign{\vskip 1mm}
+1.0         & \color{blue}{$0.23$}          & \color{purple}{$0.43$}
+	          & $42$            & \color{blue}{$-0.15$}          & \color{purple}{$0.30$}          & $41$     & $0.38$        \\
+\end{tabular}
+%\caption{Sample data table matching your column types.}
+\label{tab:test_data}
+\end{table}
+\end{frame}
+%
+\begin{frame}{\bf{Confidence Numbers: Top Line}}
+	\begin{table}[htbp]
+		\centering
+		\begin{tabular}{l rr rr r }
+			&  \multicolumn{2}{c}{Overall} &  \multicolumn{2}{c}{Elemental} \\
+			WBS 
+			& \multicolumn{1}{c}{$\mu \pm \sigma$} 
+			& \multicolumn{1}{c}{$m$} 
+			&  \multicolumn{1}{c}{$\mu \pm \sigma$}
+			&  \multicolumn{1}{c}{$m$}
+			&  \multicolumn{1}{c}{$\mu_{O} - \mu_{E}$}  \\ \hline
+			\noalign{\vskip 1mm}
+			1.0         & $\color{blue}{0.23}   \pm \color{purple}{0.43}$
+			& $42$      & $\color{blue}{-0.15} \pm \color{purple}{0.30}$          & $41$     & $0.38$        \\
+		\end{tabular}
+		%\caption{Sample data table matching your column types.}
+		\label{tab:test_data}
+	\end{table}
+\end{frame}
+%
+\begin{frame}{\bf{WBS Breakout: Top Level}}
+    \centering
+    \footnotesize
+    
+    % Set up a customized table
+    % - First column (r): Right-aligns the numbering to line up the rightmost decimals
+    % - @{\hspace{0.3cm}}: Forces a clean, consistent structural indent gap
+    % - Second column (l): Left-aligns your system text entries
+    
+    \begin{tabular}{ l @{\hspace{0.3cm}} l }
+        \textbf{WBS} & \textbf{Product Element} \\\hline
+         1.0   & Strategic Missile Weapon System \\
+        1.1 & Missile System \\
+        1.2 & Launch System \\
+        1.3 & Command \& Control System \\
+        1.4 & Ground Systems \\
+        1.5 & System Integration \\
+        1.6 & System Test and Evaluation \\
+        1.7 & Peculiar Support Equipment \\
+        1.8 & Training
+    \end{tabular}
+
+\end{frame}
+%
+\begin{frame}{\bf{WBS 1.2 Breakout}}
+    \centering
+    \footnotesize
+    
+    \begin{tabular}{ l @{\hspace{0.3cm}} l }
+        \textbf{WBS} & \textbf{Product Element} \\
+         1.2   & Launch System \\
+        1.2.1 & Launch Facility Equipment \\
+        1.2.2 & Launch Support Equipment \\
+        1.2.3 & Launch Control Interfaces \\
+        1.2.4 & Environmental Control Equipment \\
+    \end{tabular}
+\end{frame}
+
+\section*{Summary}
+
+\begin{frame}{Summary}
+
+  % Keep the summary *very short*.
+  \begin{itemize}
+  \item
+    The \alert{first main message} of your talk in one or two lines.
+  \item
+    The \alert{second main message} of your talk in one or two lines.
+  \item
+    Perhaps a \alert{third message}, but not more than that.
+  \end{itemize}
+  
+  % The following outlook is optional.
+  \vskip0pt plus.5fill
+  \begin{itemize}
+  \item
+    Outlook
+    \begin{itemize}
+    \item
+      Something you haven't solved.
+    \item
+      Something else you haven't solved.
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+\end{document}
+
+
