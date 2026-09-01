@@ -1,0 +1,145 @@
+\documentclass[tikz,border=4pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\begin{document}
+
+% -------------------------------------------------------------------------
+% Global dimensions
+% -------------------------------------------------------------------------
+
+\def\xmin{-1.05}
+\def\xmax{ 1.05}
+\def\ymin{-1.05}
+\def\ymax{ 1.05}
+
+\def\ticklen{0.02}
+
+\def\majortickscale{2.0}
+\def\centertickscale{1.25}
+\def\smearscale{1.0}
+
+% -------------------------------------------------------------------------
+% Shared background
+% -------------------------------------------------------------------------
+
+\newcommand{\drawComparisonBackground}{%
+
+    % agreement line
+    \draw[agreement]
+        (-1,-1) -- (1,1);
+
+    % frame
+    \draw[frame]
+        (\xmin,\ymin) rectangle (\xmax,\ymax);
+
+    % x-axis ticks
+    \foreach \x in {-1,0,1}{
+        \draw[tick]
+            (\x,\ymin)
+            -- ++(0,\majortickscale*\ticklen);
+    }
+
+    % y-axis ticks
+    \foreach \y in {-1,0,1}{
+        \draw[tick]
+            (\xmin,\y)
+            -- ++(\majortickscale*\ticklen,0);
+    }
+
+    % tick labels
+    \node[ ticklabel, below ] at (-1,\ymin) {$-1$};
+    \node[ ticklabel, below ] at ( 0,\ymin) {$0$};
+    \node[ ticklabel, below ] at ( 1,\ymin) {$1$};
+
+    \node[ ticklabel, left ] at (\xmin,-1) {$-1$};
+    \node[ ticklabel, left ] at (\xmin, 0) {$0$};
+    \node[ ticklabel, left ] at (\xmin, 1) {$1$};
+
+    % axis labels
+    \node[axislabel,below=8pt] at (0,\ymin) {\small{Overall Confidence, $c_0$}};
+    %\node[axislabel,left=6pt]  at (\xmin,0) \rotate{90}{Elemental Confidence, $c_\star$};
+    %\node[axislabel,left=6pt, rotate=90] at (\xmin,0) {Elemental Confidence, $c_\star$};
+    \node[ axislabel, rotate = 90, anchor = center, above = 7pt ] at (\xmin,0) {\small{Elemental Confidence, $c_\star$}};
+}
+
+% -------------------------------------------------------------------------
+% Ellipse-specific overlay
+%
+% #1 = mu_0
+% #2 = sigma_0
+% #3 = mu_1
+% #4 = sigma_1
+% -------------------------------------------------------------------------
+
+\newcommand{\drawComparisonEllipse}[4]{%
+
+    \coordinate (ellipse-center) at (#1,#3);
+
+    % orthogonal projection onto y=x
+    \pgfmathsetmacro{\agreementcoordinate}{(#1 + #3)/2}
+    \coordinate (agreement-point)
+        at (\agreementcoordinate,\agreementcoordinate);
+
+    % ellipse
+    \draw (ellipse-center)
+        ellipse [
+            x radius=#2,
+            y radius=#4
+        ];
+
+    % standard-deviation smear on a_0
+    \path[ fill = gray, opacity = 0.25 ]
+        ($(ellipse-center |- 0,\ymin) + (-#2,0)$)
+        rectangle
+        ($(ellipse-center |- 0,\ymin)
+          + (#2,\smearscale * \ticklen)$);
+
+    % standard-deviation smear on a_1
+    \path[ fill = gray, opacity = 0.25 ]
+        ($(ellipse-center -| \xmin,0) + (0,-#4)$)
+        rectangle
+        ($(ellipse-center -| \xmin,0)
+          + (\smearscale * \ticklen,#4)$);
+
+    % center-coordinate ticks
+    \draw[thin]
+        (ellipse-center |- 0,\ymin) -- ++(0,\centertickscale * \ticklen);
+
+    \draw[thin]
+        (ellipse-center -| \xmin,0) -- ++(\centertickscale * \ticklen,0);
+
+    % center point
+    \fill (ellipse-center) circle ( 0.0075 );
+
+    % perpendicular distance to agreement line
+    \draw[ thin, gray, opacity = 0.3 ]
+        (ellipse-center) -- (agreement-point);
+}
+
+% -------------------------------------------------------------------------
+% Render
+% -------------------------------------------------------------------------
+
+\begin{tikzpicture}[
+    x=3.2cm,
+    y=3.2cm,
+    tick/.style={black, line width=0.45pt},
+    frame/.style={black, line width=0.7pt},
+    agreement/.style={gray!65, line width=0.45pt},
+    axislabel/.style={font=\large},
+    ticklabel/.style={font=\small, text=black!70}
+]
+
+\drawComparisonBackground
+
+\drawComparisonEllipse
+    {0.23}  % mu_0
+    {0.43}  % sigma_0
+    {-0.15} % mu_1
+    {0.30}  % sigma_1
+
+\end{tikzpicture}
+
+\end{document}
