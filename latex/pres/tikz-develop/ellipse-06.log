@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.8.27)  31 AUG 2026 15:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.8.27)  1 SEP 2026 08:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -421,7 +421,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 Non-PDF special ignored!
-<special> papersize=223.16156pt,223.74907pt
+<special> papersize=222.16156pt,223.74907pt
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./ellipse-06.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -429,10 +429,10 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12536 strings out of 467533
- 261465 string characters out of 5422138
+ 12538 strings out of 467533
+ 261517 string characters out of 5422138
  639184 words of memory out of 5000000
- 41245 multiletter control sequences out of 15000+600000
+ 41247 multiletter control sequences out of 15000+600000
  629842 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,7n,121p,395b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -441,7 +441,7 @@ Here is how much of TeX's memory you used:
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on ellipse-06.pdf (1 page, 45874 bytes).
+Output written on ellipse-06.pdf (1 page, 45876 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
