@@ -2,7 +2,7 @@
 # WINDOWS "BOOGERS" & NTFS METADATA
 # ==============================================================================
 # Block the specific BAE/Corporate security and Zone metadata
-*:Zone*
+*:*Zone.Identifier*
 *:PG$*
 
 # Block standard Windows junk
@@ -52,3 +52,6 @@ dist/
 *.dll
 *.so
 *.dylib
+
+# Release assets
+/fixed-naming.tar.gz
